@@ -65,7 +65,7 @@
 
     nav.site{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(6,8,12,.72);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid var(--line)}
     nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{font-family:'Heebo',sans-serif;font-weight:800;font-size:24px;color:#fff}
+    .brand{font-family:'Heebo',sans-serif;font-weight:800;font-size:44px;line-height:1;color:#fff}
     .navlinks{display:flex;align-items:center;gap:30px}
     .navlinks a{font:600 14px/1 'Heebo';color:var(--soft)}
     .navlinks a:hover{color:#fff}
@@ -203,7 +203,7 @@
 
     .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
     .reveal.in{opacity:1;transform:none}
-    @media(max-width:600px){section{padding:64px 0}.section-head{margin-bottom:36px}.wrap{padding:0 20px}}
+    @media(max-width:600px){section{padding:64px 0}.section-head{margin-bottom:36px}.wrap{padding:0 20px}.brand{font-size:30px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.marquee-track{animation:none;flex-wrap:wrap;justify-content:center;width:100%}.u::after{animation:none;transform:scaleX(1)}}
   </style>
 </head>
@@ -233,7 +233,7 @@
     <div class="fade"></div>
     <div class="content">
       <div class="text">
-        <p class="kicker"><b>טל פפרין</b> &nbsp;·&nbsp; Fractional CRO ויועץ עסקי</p>
+        <p class="kicker">Fractional CRO &nbsp;·&nbsp; יועץ עסקי</p>
         <h1>המכירות שלך גרועות.<br>אתה לא יודע למה.<br>אני כן.</h1>
         <p class="sub">ואני אתקן את זה <span class="u">תוך פחות מ-90 יום.</span></p>
         <div class="stats">
@@ -411,7 +411,7 @@
   </footer>
 
   <script>
-    var logos=[["pepsico","PepsiCo"],["mars","Mars"],["delmonte","Del Monte"],["zespri","Zespri"],["mehadrin","Mehadrin"],["masschallenge","MassChallenge"],["saskatchewan","University of Saskatchewan"],["palram","Palram Applications"],["motorad","MotoRad"],["source","Source"],["filtersafe","Filtersafe"],["bt9","BT9"],["lonestar","LoneStar Tracking"],["alava","Alava"],["supra","Supra National Express"],["ion","ion"],["bacsoft","Bacsoft"],["ofekpoint","OfekPoint"],["headcount","Headcount"],["structshare","StructShare"],["hiarc","HiArc"],["galil","Galil Accelerator"],["cornsys","Cornsys"],["epropertycare","ePropertyCare"],["chabad","Chabad on Campus"],["kanduai","KanduAI"],["purpleplum","Purple Plum Consulting"],["clinicmind","ClinicMind"],["plasticplace","PlasticPlace"],["nefesh","Nefesh B'Nefesh"]];
+    var logos=[["pepsico","PepsiCo"],["mars","Mars"],["mehadrin","Mehadrin"],["saskatchewan","University of Saskatchewan"],["palram","Palram Applications"],["motorad","MotoRad"],["source","Source"],["bt9","BT9"],["lonestar","LoneStar Tracking"],["supra","Supra National Express"],["bacsoft","Bacsoft"],["ofekpoint","OfekPoint"],["headcount","Headcount"],["structshare","StructShare"],["hiarc","HiArc"],["cornsys","Cornsys"],["epropertycare","ePropertyCare"],["chabad","Chabad on Campus"],["kanduai","KanduAI"],["clinicmind","ClinicMind"],["plasticplace","PlasticPlace"]];
     var lt=document.getElementById('logotrack'),lh='';
     for(var d=0;d<2;d++){logos.forEach(function(l){lh+='<img class="logo-img" src="/logos/'+l[0]+'.jpg" alt="'+(d?'':l[1])+'"'+(d?' aria-hidden="true"':'')+' loading="lazy" />';});}
     lt.innerHTML=lh;
