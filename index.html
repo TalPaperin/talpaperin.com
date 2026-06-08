@@ -30,7 +30,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <script type="application/ld+json">
   {
@@ -256,12 +256,26 @@
 
     /* Hero (dark, adapted from the original) */
     .hero {
-      background: linear-gradient(160deg, #141E2B 0%, #1A2C3D 52%, #1F4E6B 100%);
+      position: relative;
+      background: linear-gradient(125deg, #0E1722 0%, #163049 32%, #1F4E6B 58%, #122336 100%);
+      background-size: 220% 220%;
+      animation: heroShift 20s ease-in-out infinite;
       color: #EAF1F5;
       padding-top: 150px;
       padding-bottom: 88px;
       border-bottom: 1px solid rgba(255,255,255,.08);
+      overflow: hidden;
     }
+    .hero::before {
+      content: ""; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(58% 80% at 80% 16%, rgba(176,137,74,.20), transparent 60%);
+    }
+    @keyframes heroShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .hero .wrap { position: relative; z-index: 1; }
     .hero-grid {
       display: grid;
       grid-template-columns: .82fr 1.18fr;
@@ -269,8 +283,13 @@
       align-items: center;
     }
     .hero .eyebrow { color: #D9BE8E; }
-    .hero h1 { color: #fff; font-size: clamp(2.5rem, 6vw, 4.1rem); margin: 14px 0 22px; }
-    .hero h1 em { font-style: italic; color: #D9BE8E; }
+    .hero h1 {
+      font-family: 'Anton', 'Fraunces', Georgia, serif;
+      font-weight: 400; letter-spacing: .01em; line-height: 1.04;
+      color: #fff; font-size: clamp(2.9rem, 7.4vw, 5rem); margin: 14px 0 22px;
+      text-transform: none;
+    }
+    .hero h1 em { font-style: normal; color: #D9BE8E; }
     .hero .lede { color: #C3D2DC; max-width: 30em; }
     .hero-cta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
     .hero .btn-outline { background: transparent; color: #fff; border-color: rgba(255,255,255,.4); }
@@ -513,6 +532,7 @@
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
       .reveal { opacity: 1; transform: none; transition: none; }
+      .hero { animation: none; }
     }
   </style>
 </head>
