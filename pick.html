@@ -17,13 +17,13 @@
   .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:#000}
 
   /* photo anchored LEFT (face on the left side) */
-  .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 16%;z-index:1;filter:brightness(.92) contrast(1.12) saturate(1.05)}
+  .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 16%;z-index:1;filter:brightness(.82) contrast(1.42) saturate(1.05)}
 
-  /* spotlight on the face, everything else falls to pure black */
+  /* blend photo edges into pure black; right side reserved for text */
   .hero .fade{position:absolute;inset:0;z-index:3;pointer-events:none;background:
-     radial-gradient(58% 70% at 31% 40%, rgba(0,0,0,0) 12%, rgba(0,0,0,.35) 45%, rgba(0,0,0,.85) 72%, #000 92%),
-     linear-gradient(90deg, rgba(0,0,0,.2) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,.45) 44%, rgba(0,0,0,.9) 60%, #000 72%, #000 100%),
-     linear-gradient(0deg,#000 0%, rgba(0,0,0,.35) 22%, transparent 50%)}
+     radial-gradient(66% 78% at 30% 42%, rgba(0,0,0,0) 30%, rgba(0,0,0,.4) 62%, rgba(0,0,0,.85) 82%, #000 96%),
+     linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.5) 46%, rgba(0,0,0,.92) 60%, #000 70%, #000 100%),
+     linear-gradient(0deg,#000 0%, rgba(0,0,0,.3) 20%, transparent 48%)}
 
   /* #1 aurora blobs */
   .hero .blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5;mix-blend-mode:screen;z-index:2;animation:float 16s ease-in-out infinite}
@@ -76,7 +76,6 @@
 
 <section class="hero">
   <img class="photo" src="/tal-paperin.jpg" alt="Tal Paperin, Fractional CRO and Business Consultant" />
-  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
   <canvas id="cv"></canvas>
   <div class="fade"></div>
 
