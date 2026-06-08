@@ -85,11 +85,12 @@
     .nav-right{display:flex;align-items:center;gap:14px}
     .flag-btn{display:inline-flex;align-items:center;gap:7px;font:600 13px/1 'Inter Tight';color:var(--soft);border:1px solid var(--line);border-radius:999px;padding:7px 12px}
     .flag-btn:hover{border-color:var(--blue);color:#fff}
+    .flag-btn svg{display:block;border-radius:2px}
     @media(max-width:760px){.navlinks{display:none}}
 
     /* hero */
     .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:#000}
-    .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 16%;z-index:1;filter:brightness(.82) contrast(1.42) saturate(1.05)}
+    .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 7%;z-index:1;filter:brightness(.82) contrast(1.42) saturate(1.05)}
     .hero .fade{position:absolute;inset:0;z-index:3;pointer-events:none;background:
        radial-gradient(66% 78% at 30% 42%, rgba(0,0,0,0) 30%, rgba(0,0,0,.4) 62%, rgba(0,0,0,.85) 82%, #000 96%),
        linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.5) 46%, rgba(0,0,0,.92) 60%, #000 70%, #000 100%),
@@ -172,6 +173,8 @@
     .mrow .n{font-family:'Anton',sans-serif;font-size:2rem;color:var(--blue)}
     .mrow h3{font-size:1.5rem;color:#fff}
     .mrow p{color:var(--soft)}
+    .mrow.feat h3{color:var(--blue)}
+    .mrow.feat p{color:#fff;font-weight:700}
     .method-close{margin-top:34px;font-family:'Anton',sans-serif;text-transform:uppercase;font-size:1.7rem;color:var(--blue)}
     @media(max-width:680px){.mrow{grid-template-columns:54px 1fr}.mrow p{grid-column:1/-1}}
 
@@ -188,6 +191,10 @@
     .amount{font-family:'Anton',sans-serif;font-size:2.6rem;color:#fff}
     .amount span{font-family:'Inter Tight';font-size:1rem;color:var(--soft)}
     .commit{font:700 13px/1 'Inter Tight';letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+    .card3 .bestfor{flex:0 0 auto;font-size:.98rem}
+    .incl{list-style:none;display:grid;gap:10px;margin:18px 0 6px;flex:1}
+    .incl li{position:relative;padding-left:26px;color:#cdd6e0;font-size:.92rem;line-height:1.45}
+    .incl li::before{content:"";position:absolute;left:0;top:7px;width:12px;height:7px;border-left:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(-45deg)}
     .anchor-note{margin-top:28px;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:26px 30px;color:var(--soft);max-width:72em}
     @media(max-width:920px){.cards3{grid-template-columns:1fr}}
 
@@ -238,7 +245,10 @@
         <a href="#work">Work With Me</a>
       </div>
       <div class="nav-right">
-        <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">עברית</a>
+        <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">
+          <svg width="22" height="15" viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#fff"/><rect width="22" height="2.1" y="2.1" fill="#0038b8"/><rect width="22" height="2.1" y="10.8" fill="#0038b8"/><path d="M11 4.7l1.85 3.2H9.15L11 4.7z" fill="none" stroke="#0038b8" stroke-width=".8"/><path d="M11 10.3L9.15 7.1h3.7L11 10.3z" fill="none" stroke="#0038b8" stroke-width=".8"/></svg>
+          <span>עברית</span>
+        </a>
         <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a>
       </div>
     </div>
@@ -266,13 +276,6 @@
     </div>
   </header>
 
-  <!-- About -->
-  <section class="about">
-    <div class="wrap">
-      <p class="reveal">Over 20-plus years across four continents, I have sold hands-on and then led as VP of Global and International Sales, building and running revenue functions from zero. I work in English, Hebrew, Russian and Chinese. <span class="muted">I hold two B.A.s from the Hebrew University of Jerusalem, in International Relations and in Chinese.</span></p>
-    </div>
-  </section>
-
   <!-- Problem -->
   <section>
     <div class="wrap">
@@ -280,7 +283,7 @@
         <div class="glowline"></div>
         <p class="eyebrow">If this sounds familiar</p>
         <h2>You have a product worth buying and no one who owns the number.</h2>
-        <p>Most companies hit a revenue ceiling not because the product is weak, but because there is no senior owner turning effort into a repeatable sales engine.</p>
+        <p>Most companies hit a revenue ceiling not because the product is weak, but because there is no enforced sales structure or system. There is no senior OWNER turning effort into a repeatable sales engine.</p>
       </div>
       <div class="problem-grid">
         <div class="problem-card reveal"><h3>Reps without a system</h3><p>Salespeople work hard against no playbook, no process and no clear motion to repeat.</p></div>
@@ -313,10 +316,6 @@
         <div class="stat reveal"><div class="num">4</div><div class="cap">Continents</div></div>
         <div class="stat reveal"><div class="num">40+</div><div class="cap">Recommendations</div></div>
       </div>
-      <div class="signature reveal">
-        <span class="tag">Signature deal · Palram</span>
-        <p>Signed Hornbach and Brico Depot as distributors, opening two of Europe's largest DIY retail channels for a manufacturer that had been locked out.</p>
-      </div>
     </div>
   </section>
 
@@ -336,6 +335,10 @@
         <div class="who"><h3>Founder-led IoT business</h3><p class="role">Thomas Remmert, Co-Founder &amp; CTO</p><p class="intro">A small IoT business with little sales and marketing experience needed a full revenue function it could not staff. I delivered it at a fraction of the cost.</p></div>
         <ul><li>Built the sales strategy</li><li>Selected and implemented the CRM</li><li>Built and trained the sales team</li><li>Delivered VP-level capability at fractional cost</li></ul>
       </article>
+      <article class="case reveal">
+        <div class="who"><h3>Palram</h3><p class="role">Global manufacturer, breaking into a new territory</p><p class="intro">A manufacturer that had been locked out of Europe's largest DIY retail channels. I owned the push into the new market and opened the doors.</p></div>
+        <ul><li>Signed Hornbach as a distributor</li><li>Signed Brico Depot as a distributor</li><li>Opened two of Europe's largest DIY retail channels</li><li>Broke into a market the company had been locked out of</li></ul>
+      </article>
     </div>
   </section>
 
@@ -352,6 +355,7 @@
         <div class="mrow"><div class="n">02</div><h3>Product</h3><p>Sharpen the value, the positioning and the reason a buyer chooses you now.</p></div>
         <div class="mrow"><div class="n">03</div><h3>Geography</h3><p>Pick the right markets and channels, and the order in which to win them.</p></div>
         <div class="mrow"><div class="n">04</div><h3>Tactics</h3><p>Build the playbook, the team and the motion that turns all of it into pipeline.</p></div>
+        <div class="mrow feat"><div class="n">05</div><h3>Execution</h3><p>Hiring, training, managing and OWNING the number.</p></div>
       </div>
       <p class="method-close reveal">Then we implement. The point was never the diagnosis. It was the revenue.</p>
     </div>
@@ -367,7 +371,7 @@
         <p>One value ladder, three levels of involvement. Take the system and run it yourself, get a leader to own it with you, or hand the whole function off.</p>
       </div>
       <div class="cards3">
-        <div class="card3 reveal"><span class="kick">Do it yourself</span><h3>TheDealMentor.AI</h3><p class="price">From $149/mo</p><p>A virtual CRO platform that gives you the system and daily guidance to sell yourself, built for founders who want to own the motion.</p><a class="btn btn-outline" href="https://thedealmentor.ai" target="_blank" rel="noopener">Explore TheDealMentor.AI</a></div>
+        <div class="card3 reveal"><span class="kick">Do it yourself</span><h3>TheDealMentor.AI</h3><p class="price">From $149/mo</p><p>A virtual CRO platform that gives you the system and daily guidance to sell yourself, plus me at a minimal engagement to keep you on track. Built for founders who want to own the motion.</p><a class="btn btn-outline" href="https://thedealmentor.ai" target="_blank" rel="noopener">Explore TheDealMentor.AI</a></div>
         <div class="card3 feat reveal"><span class="badge">Most common</span><span class="kick">Get a leader for it</span><h3>Fractional CRO</h3><p class="price">Tal, personally</p><p>Me, personally, owning your revenue leadership at the time commitment your stage actually needs. The middle rung, and the one most companies choose.</p><a class="btn btn-solid" href="#engagements">See engagements</a></div>
         <div class="card3 reveal"><span class="kick">Hand it off entirely</span><h3>KSW Solutions</h3><p class="price">Outsourced sales</p><p>A full team that hires, trains, manages and sells on your behalf, so the entire revenue function lives outside your headcount.</p><a class="btn btn-outline" href="https://ksw.solutions" target="_blank" rel="noopener">Visit KSW Solutions</a></div>
       </div>
@@ -384,9 +388,9 @@
         <p>Pick the level of involvement your stage needs. Every engagement is me, personally, owning the revenue leadership.</p>
       </div>
       <div class="cards3">
-        <div class="card3 reveal"><span class="commit">Part-time guidance</span><h3>Starter</h3><div class="amount">$6,000<span> /mo</span></div><p>For founders who need senior direction, structure and a plan, while they keep running the day-to-day selling.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
-        <div class="card3 feat reveal"><span class="badge">Most common</span><span class="commit">Half-time, hands-on</span><h3>Growth</h3><div class="amount">$12,000<span> /mo</span></div><p>For companies ready to build the engine, where I am in the work each week, leading the team and the motion.</p><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
-        <div class="card3 reveal"><span class="commit">Full-time-equivalent</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> /mo</span></div><p>For companies that need a CRO to fully own revenue, the team and the number, without a permanent executive hire.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
+        <div class="card3 reveal"><span class="commit">Part-time guidance</span><h3>Starter</h3><div class="amount">$6,000<span> /mo</span></div><p class="bestfor">Early-stage companies or small businesses needing foundational sales improvements.</p><ul class="incl"><li>Revenue &amp; sales motion review, find where deals stall and leak</li><li>Sales plan &amp; playbook (ICP, channels, talk tracks, decision criteria)</li><li>Sales process enablement for SDRs and AEs</li><li>CRM pipeline structure and stage definitions</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
+        <div class="card3 feat reveal"><span class="badge">Most common</span><span class="commit">Half-time, hands-on</span><h3>Growth</h3><div class="amount">$12,000<span> /mo</span></div><p class="bestfor">Scaling companies that need hands-on management and strategic sales guidance.</p><ul class="incl"><li>Revenue &amp; pipeline performance oversight</li><li>Direct sales team management (SDRs and AEs)</li><li>CRM &amp; KPI ownership for forecasting and accountability</li><li>Living execution framework with goals, timelines and ownership</li></ul><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
+        <div class="card3 reveal"><span class="commit">Full-time-equivalent</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> /mo</span></div><p class="bestfor">End-to-end, CRO-level revenue ownership across sales, marketing and GTM.</p><ul class="incl"><li>Full CRO-level ownership of revenue strategy and execution</li><li>Authority over sales, marketing and GTM decisions</li><li>Leadership of revenue teams and cross-functional alignment</li><li>Hiring, onboarding and performance management for revenue roles</li><li>Ongoing intervention to course-correct execution and results</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
       </div>
       <p class="anchor-note reveal">For context, a salaried CRO runs $250,000 and up all in, once you add equity, bonus, severance risk and a long hiring cycle. Even full-time-equivalent ownership here is a fraction of that, with none of the long-term lock-in.</p>
     </div>

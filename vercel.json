@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/client_feedback/:path*", "destination": "/", "permanent": false },
+    { "source": "/feedback/:path*", "destination": "/", "permanent": false },
+    { "source": "/blog/:path*", "destination": "/", "permanent": false },
+    { "source": "/wp-admin/:path*", "destination": "/", "permanent": false },
+    { "source": "/category/:path*", "destination": "/", "permanent": false }
+  ]
 }

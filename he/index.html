@@ -72,10 +72,11 @@
     .nav-right{display:flex;align-items:center;gap:14px}
     .flag-btn{display:inline-flex;align-items:center;gap:7px;font:600 13px/1 'Heebo';color:var(--soft);border:1px solid var(--line);border-radius:999px;padding:7px 12px}
     .flag-btn:hover{border-color:var(--blue);color:#fff}
+    .flag-btn svg{display:block;border-radius:2px}
     @media(max-width:760px){.navlinks{display:none}}
 
     .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:#000}
-    .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 16%;z-index:1;filter:brightness(.82) contrast(1.42) saturate(1.05)}
+    .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 7%;z-index:1;filter:brightness(.82) contrast(1.42) saturate(1.05)}
     .hero .fade{position:absolute;inset:0;z-index:3;pointer-events:none;background:
        radial-gradient(66% 78% at 30% 42%, rgba(0,0,0,0) 30%, rgba(0,0,0,.4) 62%, rgba(0,0,0,.85) 82%, #000 96%),
        linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.5) 46%, rgba(0,0,0,.92) 60%, #000 70%, #000 100%),
@@ -150,6 +151,8 @@
     .mrow .n{font-family:'Heebo';font-weight:800;font-size:2rem;color:var(--blue);direction:ltr}
     .mrow h3{font-size:1.5rem}
     .mrow p{color:var(--soft)}
+    .mrow.feat h3{color:var(--blue)}
+    .mrow.feat p{color:#fff;font-weight:700}
     .method-close{margin-top:34px;font-family:'Heebo';font-weight:800;font-size:1.6rem;color:var(--blue)}
     @media(max-width:680px){.mrow{grid-template-columns:54px 1fr}.mrow p{grid-column:1/-1}}
 
@@ -165,6 +168,10 @@
     .amount{font-family:'Heebo';font-weight:800;font-size:2.4rem;color:#fff;direction:ltr;text-align:right}
     .amount span{font-weight:500;font-size:1rem;color:var(--soft)}
     .commit{font:700 13px/1 'Heebo';letter-spacing:.04em;color:var(--soft)}
+    .card3 .bestfor{flex:0 0 auto;font-size:.98rem}
+    .incl{list-style:none;display:grid;gap:10px;margin:18px 0 6px;flex:1}
+    .incl li{position:relative;padding-right:26px;color:#cdd6e0;font-size:.92rem;line-height:1.45}
+    .incl li::before{content:"";position:absolute;right:0;top:7px;width:12px;height:7px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg)}
     .anchor-note{margin-top:28px;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:26px 30px;color:var(--soft);max-width:74em}
     @media(max-width:920px){.cards3{grid-template-columns:1fr}}
 
@@ -211,7 +218,10 @@
         <a href="#work">לעבוד איתי</a>
       </div>
       <div class="nav-right">
-        <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">English</a>
+        <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">
+          <svg width="22" height="15" viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#b22234"/><g fill="#fff"><rect width="22" height="1.15" y="1.15"/><rect width="22" height="1.15" y="3.46"/><rect width="22" height="1.15" y="5.77"/><rect width="22" height="1.15" y="8.08"/><rect width="22" height="1.15" y="10.38"/><rect width="22" height="1.15" y="12.69"/></g><rect width="9" height="8.08" fill="#3c3b6e"/></svg>
+          <span>English</span>
+        </a>
         <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a>
       </div>
     </div>
@@ -238,19 +248,13 @@
     </div>
   </header>
 
-  <section class="about">
-    <div class="wrap">
-      <p class="reveal">לאורך יותר מ-20 שנה ובארבע יבשות מכרתי בידיים על ההגה, ולאחר מכן הובלתי כסמנכ"ל מכירות גלובלי ובינלאומי, תוך בנייה והפעלה של פונקציות הכנסה מאפס. אני עובד באנגלית, עברית, רוסית וסינית. <span class="muted">יש לי שני תארי B.A. מהאוניברסיטה העברית בירושלים, ביחסים בינלאומיים ובסינית.</span></p>
-    </div>
-  </section>
-
   <section>
     <div class="wrap">
       <div class="section-head reveal">
         <div class="glowline"></div>
         <p class="eyebrow">אם זה נשמע מוכר</p>
         <h2>יש לכם מוצר ששווה לקנות, ואין מי שאחראי על המספר.</h2>
-        <p>רוב החברות נתקלות בתקרת הכנסות לא בגלל מוצר חלש, אלא כי אין בעלים בכיר שהופך מאמץ למנוע מכירות שאפשר לחזור עליו.</p>
+        <p>רוב החברות נתקלות בתקרת הכנסות לא בגלל מוצר חלש, אלא כי אין מבנה או שיטת מכירות אכופה. אין בעלים בכיר שהופך מאמץ למנוע מכירות שאפשר לחזור עליו.</p>
       </div>
       <div class="problem-grid">
         <div class="problem-card reveal"><h3>נציגים בלי שיטה</h3><p>אנשי מכירות עובדים קשה בלי playbook, בלי תהליך ובלי מהלך ברור לחזור עליו.</p></div>
@@ -279,10 +283,6 @@
         <div class="stat reveal"><div class="num">4</div><div class="cap">יבשות</div></div>
         <div class="stat reveal"><div class="num">40+</div><div class="cap">המלצות</div></div>
       </div>
-      <div class="signature reveal">
-        <span class="tag">עסקת חתימה · Palram</span>
-        <p>חתמתי על Hornbach ו-Brico Depot כמפיצים, ופתחתי שניים מערוצי הקמעונאות הגדולים באירופה בתחום ה-DIY עבור יצרן שהיה חסום מהם.</p>
-      </div>
     </div>
   </section>
 
@@ -301,6 +301,10 @@
         <div class="who"><h3>עסק IoT בהובלת מייסדים</h3><p class="role">תומאס רמרט, מייסד שותף ו-CTO</p><p class="intro">עסק IoT קטן עם ניסיון מועט במכירות ובשיווק נזקק לפונקציית הכנסה מלאה שלא יכול היה לאייש. סיפקתי אותה בשבריר מהעלות.</p></div>
         <ul><li>בניתי את אסטרטגיית המכירות</li><li>בחרתי ויישמתי CRM</li><li>בניתי והכשרתי את צוות המכירות</li><li>סיפקתי יכולת ברמת סמנכ"ל בעלות חלקית</li></ul>
       </article>
+      <article class="case reveal">
+        <div class="who"><h3>Palram</h3><p class="role">יצרן גלובלי, פריצה לטריטוריה חדשה</p><p class="intro">יצרן שהיה חסום מערוצי הקמעונאות הגדולים באירופה בתחום ה-DIY. הובלתי את הפריצה לשוק החדש ופתחתי את הדלתות.</p></div>
+        <ul><li>חתמתי על Hornbach כמפיץ</li><li>חתמתי על Brico Depot כמפיץ</li><li>פתחתי שניים מערוצי ה-DIY הגדולים באירופה</li><li>פרצתי לשוק שהחברה הייתה חסומה ממנו</li></ul>
+      </article>
     </div>
   </section>
 
@@ -316,6 +320,7 @@
         <div class="mrow"><div class="n">02</div><h3>מוצר</h3><p>לחדד את הערך, המיצוב והסיבה שקונה בוחר בכם עכשיו.</p></div>
         <div class="mrow"><div class="n">03</div><h3>גאוגרפיה</h3><p>לבחור את השווקים והערוצים הנכונים, ואת הסדר לכבוש אותם.</p></div>
         <div class="mrow"><div class="n">04</div><h3>טקטיקה</h3><p>לבנות את ה-playbook, הצוות והמהלך שהופכים את הכל לפייפליין.</p></div>
+        <div class="mrow feat"><div class="n">05</div><h3>ביצוע</h3><p>גיוס, הכשרה, ניהול ולקיחת אחריות מלאה על המספר.</p></div>
       </div>
       <p class="method-close reveal">ואז אנחנו מיישמים. הנקודה מעולם לא הייתה האבחון. היא הייתה ההכנסה.</p>
     </div>
@@ -330,7 +335,7 @@
         <p>סולם ערך אחד, שלוש רמות מעורבות. קחו את השיטה והריצו אותה לבד, קבלו מנהיג שיהיה אחראי עליה איתכם, או העבירו את כל הפונקציה.</p>
       </div>
       <div class="cards3">
-        <div class="card3 reveal"><span class="kick">עשו זאת בעצמכם</span><h3>TheDealMentor.AI</h3><p class="price">מ-$149 לחודש</p><p>פלטפורמת CRO וירטואלית שנותנת לכם את השיטה וההכוונה היומית כדי למכור בעצמכם, נבנתה למייסדים שרוצים להיות אחראים על המהלך.</p><a class="btn btn-outline" href="https://thedealmentor.ai" target="_blank" rel="noopener">גלו את TheDealMentor.AI</a></div>
+        <div class="card3 reveal"><span class="kick">עשו זאת בעצמכם</span><h3>TheDealMentor.AI</h3><p class="price">מ-$149 לחודש</p><p>פלטפורמת CRO וירטואלית שנותנת לכם את השיטה וההכוונה היומית כדי למכור בעצמכם, וכוללת גם אותי במעורבות מינימלית כדי לשמור אתכם על המסלול. נבנתה למייסדים שרוצים להיות אחראים על המהלך.</p><a class="btn btn-outline" href="https://thedealmentor.ai" target="_blank" rel="noopener">גלו את TheDealMentor.AI</a></div>
         <div class="card3 feat reveal"><span class="badge">הנפוץ ביותר</span><span class="kick">קבלו מנהיג שיוביל</span><h3>Fractional CRO</h3><p class="price">טל, אישית</p><p>אני, אישית, אחראי על מנהיגות ההכנסות שלכם ברמת המחויבות שהשלב שלכם צריך. השלב האמצעי, וזה שרוב החברות בוחרות.</p><a class="btn btn-solid" href="#engagements">לפירוט ההתקשרויות</a></div>
         <div class="card3 reveal"><span class="kick">העבירו הכל</span><h3>KSW Solutions</h3><p class="price">מכירות במיקור חוץ</p><p>צוות מלא שמגייס, מכשיר, מנהל ומוכר עבורכם, כך שכל פונקציית ההכנסה חיה מחוץ לכוח האדם שלכם.</p><a class="btn btn-outline" href="https://ksw.solutions" target="_blank" rel="noopener">לאתר KSW Solutions</a></div>
       </div>
@@ -346,9 +351,9 @@
         <p>בחרו את רמת המעורבות שהשלב שלכם צריך. כל התקשרות היא אני, אישית, אחראי על מנהיגות ההכנסות.</p>
       </div>
       <div class="cards3">
-        <div class="card3 reveal"><span class="commit">הכוונה במשרה חלקית</span><h3>Starter</h3><div class="amount">$6,000<span> / לחודש</span></div><p>למייסדים שזקוקים לכיוון בכיר, מבנה ותוכנית, בזמן שהם ממשיכים לנהל את המכירה היומיומית.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a></div>
-        <div class="card3 feat reveal"><span class="badge">הנפוץ ביותר</span><span class="commit">חצי משרה, על ההגה</span><h3>Growth</h3><div class="amount">$12,000<span> / לחודש</span></div><p>לחברות שמוכנות לבנות את המנוע, שבהן אני בתוך העבודה כל שבוע, מוביל את הצוות ואת המהלך.</p><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a></div>
-        <div class="card3 reveal"><span class="commit">שווה-ערך למשרה מלאה</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> / לחודש</span></div><p>לחברות שצריכות CRO שיהיה אחראי במלואו על ההכנסות, הצוות והמספר, בלי גיוס מנהל קבוע.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a></div>
+        <div class="card3 reveal"><span class="commit">הכוונה במשרה חלקית</span><h3>Starter</h3><div class="amount">$6,000<span> / לחודש</span></div><p class="bestfor">חברות בתחילת דרך או עסקים קטנים שזקוקים לשיפור מכירות בסיסי.</p><ul class="incl"><li>סקירת מכירות והכנסות, איתור היכן עסקאות נתקעות ודולפות</li><li>תוכנית מכירות ו-playbook (ICP, ערוצים, תסריטי שיחה)</li><li>הטמעת תהליך מכירה ל-SDRs ו-AEs</li><li>מבנה פייפליין ושלבים ב-CRM</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a></div>
+        <div class="card3 feat reveal"><span class="badge">הנפוץ ביותר</span><span class="commit">חצי משרה, על ההגה</span><h3>Growth</h3><div class="amount">$12,000<span> / לחודש</span></div><p class="bestfor">חברות בצמיחה שזקוקות לניהול מעשי והכוונה אסטרטגית למכירות.</p><ul class="incl"><li>פיקוח שוטף על ביצועי הכנסות ופייפליין</li><li>ניהול ישיר של צוות המכירות (SDRs ו-AEs)</li><li>בעלות על ה-CRM וה-KPIs לתחזית ואחריותיות</li><li>תוכנית ביצוע חיה עם יעדים, לוחות זמנים ואחריות</li></ul><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a></div>
+        <div class="card3 reveal"><span class="commit">שווה-ערך למשרה מלאה</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> / לחודש</span></div><p class="bestfor">בעלות מלאה ברמת CRO על ההכנסות, לרוחב מכירות, שיווק ו-GTM.</p><ul class="incl"><li>בעלות מלאה ברמת CRO על אסטרטגיית ההכנסות והביצוע</li><li>סמכות על החלטות מכירות, שיווק ו-GTM</li><li>הובלת צוותי ההכנסה ויישור בין-מחלקתי</li><li>גיוס, חניכה וניהול ביצועים לתפקידי הכנסה</li><li>התערבות שוטפת לתיקון מסלול בביצוע ובתוצאות</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לקביעת שיחה</a></div>
       </div>
       <p class="anchor-note reveal">להשוואה, CRO שכיר עולה $250,000 ומעלה בעלות כוללת, כשמוסיפים אקוויטי, בונוס, סיכון פיצויי פיטורים ומחזור גיוס ארוך. אפילו בעלות מלאה שווה-ערך למשרה מלאה כאן היא שבריר מזה, בלי הנעילה ארוכת הטווח.</p>
     </div>
