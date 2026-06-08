@@ -338,13 +338,10 @@
     @media (max-width: 520px) { .problem-grid { grid-template-columns: 1fr; } }
 
     /* Logos */
-    .logos { padding: 52px 0; border-bottom: 1px solid var(--hairline); }
-    .logos .label { display: block; text-align: center; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--soft); margin-bottom: 26px; opacity: .8; }
-    .logos .logo-item {
-      flex: 0 0 auto; padding: 0 38px; white-space: nowrap;
-      font-size: 16px; letter-spacing: 0.14em; font-weight: 600;
-      color: var(--soft); text-transform: uppercase;
-    }
+    .logos { padding: 46px 0; background: #f5f5f5; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); }
+    .logos .label { display: block; text-align: center; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #8a8a8a; margin-bottom: 30px; }
+    .logos .logo-img { flex: 0 0 auto; height: 50px; width: auto; margin: 0 30px; object-fit: contain; }
+    @media (max-width: 600px) { .logos .logo-img { height: 40px; margin: 0 20px; } }
 
     /* Marquee (running strips) */
     .marquee {
@@ -568,7 +565,7 @@
     <div class="wrap">
       <div class="hero-grid">
         <div class="portrait-col reveal">
-          <img class="portrait" src="https://talpaperin.com/tal-paperin.jpg" alt="Portrait of Tal Paperin, fractional CRO and B2B sales leader" width="600" height="750" />
+          <img class="portrait" src="/tal-paperin.jpg" alt="Portrait of Tal Paperin, fractional CRO and B2B sales leader" width="600" height="750" />
         </div>
         <div class="hero-copy reveal">
           <p class="eyebrow">Fractional CRO &middot; VP Sales &middot; B2B Revenue Leadership</p>
@@ -616,45 +613,69 @@
     <div class="wrap reveal">
       <span class="label">Trusted by global brands, manufacturers and growth companies</span>
     </div>
-    <div class="marquee reveal" style="--speed:55s;">
+    <div class="marquee reveal" style="--speed:70s;">
       <div class="marquee-track">
-        <span class="logo-item">PepsiCo</span>
-        <span class="logo-item">Mars</span>
-        <span class="logo-item">Del Monte</span>
-        <span class="logo-item">Zespri</span>
-        <span class="logo-item">Mehadrin</span>
-        <span class="logo-item">MassChallenge</span>
-        <span class="logo-item">University of Saskatchewan</span>
-        <span class="logo-item">Palram Applications</span>
-        <span class="logo-item">Filtersafe</span>
-        <span class="logo-item">TAG Medical</span>
-        <span class="logo-item">BT9</span>
-        <span class="logo-item">Source</span>
-        <span class="logo-item">MotorRad</span>
-        <span class="logo-item">Alava</span>
-        <span class="logo-item">Lone Star Tracking</span>
-        <span class="logo-item">ePropertyCare</span>
-        <span class="logo-item">ClinicMind</span>
-        <span class="logo-item">Supra National Express</span>
+        <img class="logo-img" src="/logos/pepsico.jpg" alt="PepsiCo" loading="lazy" />
+        <img class="logo-img" src="/logos/mars.jpg" alt="Mars" loading="lazy" />
+        <img class="logo-img" src="/logos/delmonte.jpg" alt="Del Monte" loading="lazy" />
+        <img class="logo-img" src="/logos/zespri.jpg" alt="Zespri" loading="lazy" />
+        <img class="logo-img" src="/logos/mehadrin.jpg" alt="Mehadrin" loading="lazy" />
+        <img class="logo-img" src="/logos/masschallenge.jpg" alt="MassChallenge" loading="lazy" />
+        <img class="logo-img" src="/logos/saskatchewan.jpg" alt="University of Saskatchewan" loading="lazy" />
+        <img class="logo-img" src="/logos/palram.jpg" alt="Palram Applications" loading="lazy" />
+        <img class="logo-img" src="/logos/motorad.jpg" alt="MotoRad" loading="lazy" />
+        <img class="logo-img" src="/logos/source.jpg" alt="Source" loading="lazy" />
+        <img class="logo-img" src="/logos/filtersafe.jpg" alt="Filtersafe" loading="lazy" />
+        <img class="logo-img" src="/logos/bt9.jpg" alt="BT9" loading="lazy" />
+        <img class="logo-img" src="/logos/lonestar.jpg" alt="LoneStar Tracking" loading="lazy" />
+        <img class="logo-img" src="/logos/alava.jpg" alt="Alava" loading="lazy" />
+        <img class="logo-img" src="/logos/supra.jpg" alt="Supra National Express" loading="lazy" />
+        <img class="logo-img" src="/logos/ion.jpg" alt="ion" loading="lazy" />
+        <img class="logo-img" src="/logos/bacsoft.jpg" alt="Bacsoft" loading="lazy" />
+        <img class="logo-img" src="/logos/ofekpoint.jpg" alt="OfekPoint" loading="lazy" />
+        <img class="logo-img" src="/logos/headcount.jpg" alt="Headcount" loading="lazy" />
+        <img class="logo-img" src="/logos/structshare.jpg" alt="StructShare" loading="lazy" />
+        <img class="logo-img" src="/logos/hiarc.jpg" alt="HiArc" loading="lazy" />
+        <img class="logo-img" src="/logos/galil.jpg" alt="Galil Accelerator" loading="lazy" />
+        <img class="logo-img" src="/logos/cornsys.jpg" alt="Cornsys" loading="lazy" />
+        <img class="logo-img" src="/logos/epropertycare.jpg" alt="ePropertyCare" loading="lazy" />
+        <img class="logo-img" src="/logos/chabad.jpg" alt="Chabad on Campus" loading="lazy" />
+        <img class="logo-img" src="/logos/kanduai.jpg" alt="KanduAI" loading="lazy" />
+        <img class="logo-img" src="/logos/purpleplum.jpg" alt="Purple Plum Consulting" loading="lazy" />
+        <img class="logo-img" src="/logos/clinicmind.jpg" alt="ClinicMind" loading="lazy" />
+        <img class="logo-img" src="/logos/plasticplace.jpg" alt="PlasticPlace" loading="lazy" />
+        <img class="logo-img" src="/logos/nefesh.jpg" alt="Nefesh B'Nefesh" loading="lazy" />
         <!-- duplicate set for seamless loop -->
-        <span class="logo-item" aria-hidden="true">PepsiCo</span>
-        <span class="logo-item" aria-hidden="true">Mars</span>
-        <span class="logo-item" aria-hidden="true">Del Monte</span>
-        <span class="logo-item" aria-hidden="true">Zespri</span>
-        <span class="logo-item" aria-hidden="true">Mehadrin</span>
-        <span class="logo-item" aria-hidden="true">MassChallenge</span>
-        <span class="logo-item" aria-hidden="true">University of Saskatchewan</span>
-        <span class="logo-item" aria-hidden="true">Palram Applications</span>
-        <span class="logo-item" aria-hidden="true">Filtersafe</span>
-        <span class="logo-item" aria-hidden="true">TAG Medical</span>
-        <span class="logo-item" aria-hidden="true">BT9</span>
-        <span class="logo-item" aria-hidden="true">Source</span>
-        <span class="logo-item" aria-hidden="true">MotorRad</span>
-        <span class="logo-item" aria-hidden="true">Alava</span>
-        <span class="logo-item" aria-hidden="true">Lone Star Tracking</span>
-        <span class="logo-item" aria-hidden="true">ePropertyCare</span>
-        <span class="logo-item" aria-hidden="true">ClinicMind</span>
-        <span class="logo-item" aria-hidden="true">Supra National Express</span>
+        <img class="logo-img" src="/logos/pepsico.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/mars.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/delmonte.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/zespri.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/mehadrin.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/masschallenge.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/saskatchewan.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/palram.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/motorad.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/source.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/filtersafe.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/bt9.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/lonestar.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/alava.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/supra.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/ion.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/bacsoft.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/ofekpoint.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/headcount.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/structshare.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/hiarc.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/galil.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/cornsys.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/epropertycare.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/chabad.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/kanduai.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/purpleplum.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/clinicmind.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/plasticplace.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img class="logo-img" src="/logos/nefesh.jpg" alt="" aria-hidden="true" loading="lazy" />
       </div>
     </div>
   </section>
