@@ -81,9 +81,9 @@
        radial-gradient(66% 78% at 30% 42%, rgba(0,0,0,0) 30%, rgba(0,0,0,.4) 62%, rgba(0,0,0,.85) 82%, #000 96%),
        linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.5) 46%, rgba(0,0,0,.92) 60%, #000 70%, #000 100%),
        linear-gradient(0deg,#000 0%, rgba(0,0,0,.3) 20%, transparent 48%)}
-    .hero canvas{position:absolute;top:0;right:0;width:56%;height:64%;z-index:4;opacity:.7;
-       -webkit-mask-image:radial-gradient(110% 110% at top right,#000 36%,transparent 75%);
-       mask-image:radial-gradient(110% 110% at top right,#000 36%,transparent 75%)}
+    .hero canvas{position:absolute;top:0;left:0;width:100%;height:60%;z-index:4;opacity:.6;
+       -webkit-mask-image:radial-gradient(48% 62% at top left,#000 24%,transparent 70%),radial-gradient(48% 62% at top right,#000 24%,transparent 70%);
+       mask-image:radial-gradient(48% 62% at top left,#000 24%,transparent 70%),radial-gradient(48% 62% at top right,#000 24%,transparent 70%)}
     .hero .content{position:relative;z-index:5;width:100%;max-width:1280px;margin:0 auto;padding:0 40px;display:flex}
     .hero .text{width:52%;min-width:380px;margin-left:auto;text-align:right}
     .hero .kicker{font:700 14px/1 'Heebo';letter-spacing:.04em;color:#9fc6e8;margin-bottom:20px}
@@ -202,7 +202,11 @@
     details[open] summary::after{content:"\2013"}
     details p{color:var(--soft);margin-top:14px}
 
-    .final{background:radial-gradient(80% 120% at 20% 0%,#0c2237 0%,#06080c 60%);border-top:1px solid var(--line)}
+    .final{background:radial-gradient(80% 120% at 20% 0%,#0c2237 0%,#06080c 60%);border-top:1px solid var(--line);overflow:hidden}
+    .final canvas{position:absolute;top:0;left:0;width:60%;height:80%;z-index:0;opacity:.5;
+       -webkit-mask-image:radial-gradient(80% 90% at top left,#000 28%,transparent 72%);
+       mask-image:radial-gradient(80% 90% at top left,#000 28%,transparent 72%)}
+    .final .wrap{position:relative;z-index:1}
     .final h2{font-size:clamp(2rem,5vw,3.4rem);max-width:18em}
     .final .sub{color:var(--soft);margin-top:18px;font-size:1.15rem;max-width:42em}
     .final .btn{margin-top:30px}
@@ -436,6 +440,7 @@
   </section>
 
   <section class="final">
+    <canvas id="cv2"></canvas>
     <div class="wrap">
       <div class="reveal">
         <div class="glowline"></div>
@@ -494,11 +499,11 @@
 
     (function(){var els=document.querySelectorAll('.reveal');if(!('IntersectionObserver'in window)||matchMedia('(prefers-reduced-motion: reduce)').matches){els.forEach(function(e){e.classList.add('in')});return;}var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -10% 0px',threshold:.1});els.forEach(function(e){io.observe(e)});})();
 
-    var cv=document.getElementById('cv');
-    if(cv){var ctx=cv.getContext('2d'),W,H,pts;
-    function rs(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;pts=[];for(var i=0;i<60;i++)pts.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.45,vy:(Math.random()-.5)*.45});}
+    function particles(id,count){var cv=document.getElementById(id);if(!cv)return;var ctx=cv.getContext('2d'),W,H,pts;
+    function rs(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;pts=[];for(var i=0;i<count;i++)pts.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.45,vy:(Math.random()-.5)*.45});}
     function draw(){ctx.clearRect(0,0,W,H);for(var i=0;i<pts.length;i++){var p=pts[i];p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;ctx.fillStyle='rgba(90,176,255,.9)';ctx.beginPath();ctx.arc(p.x,p.y,1.5,0,7);ctx.fill();for(var j=i+1;j<pts.length;j++){var a=pts[j],dx=p.x-a.x,dy=p.y-a.y,d=Math.sqrt(dx*dx+dy*dy);if(d<115){ctx.strokeStyle='rgba(120,170,255,'+(.18*(1-d/115))+')';ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(a.x,a.y);ctx.stroke();}}}requestAnimationFrame(draw);}
-    if(!matchMedia('(prefers-reduced-motion: reduce)').matches){rs();draw();addEventListener('resize',rs);}}
+    rs();draw();addEventListener('resize',rs);}
+    if(!matchMedia('(prefers-reduced-motion: reduce)').matches){particles('cv',90);particles('cv2',55);}
   </script>
 
 </body>
