@@ -118,7 +118,7 @@
     @media(max-width:600px){.logos .logo-img{height:38px;margin:0 20px}}
 
     .marquee{overflow:hidden;width:100%;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
-    .marquee-track{display:flex;flex-wrap:nowrap;width:max-content;align-items:center;animation:marquee var(--speed,40s) linear infinite}
+    .marquee-track{display:flex;flex-wrap:nowrap;width:max-content;align-items:center;direction:ltr;animation:marquee var(--speed,40s) linear infinite}
     .marquee:hover .marquee-track{animation-play-state:paused}
     @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
