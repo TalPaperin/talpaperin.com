@@ -14,16 +14,16 @@
   .tag{position:fixed;top:18px;left:18px;z-index:50;background:#000;color:#fff;font:700 13px/1 'Inter Tight';padding:9px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.5)}
   .tag b{color:#5ab0ff}
 
-  .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:#0a0e13}
+  .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:#000}
 
   /* photo anchored LEFT (face on the left side) */
-  .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 16%;z-index:1;filter:brightness(.72) contrast(1.04) saturate(1.05)}
+  .hero .photo{position:absolute;top:0;left:0;height:100%;width:62%;object-fit:cover;object-position:50% 16%;z-index:1;filter:brightness(.92) contrast(1.12) saturate(1.05)}
 
-  /* fade so the RIGHT side holds text, with a light overall darkening */
+  /* spotlight on the face, everything else falls to pure black */
   .hero .fade{position:absolute;inset:0;z-index:3;pointer-events:none;background:
-     linear-gradient(0deg,rgba(8,11,16,.22),rgba(8,11,16,.22)),
-     linear-gradient(90deg, rgba(8,11,16,.28) 0%, rgba(8,11,16,.05) 22%, rgba(8,11,16,.25) 44%, rgba(8,11,16,.82) 60%, #080b10 72%, #080b10 100%),
-     linear-gradient(0deg,#080b10 0%, rgba(8,11,16,.25) 22%, transparent 52%)}
+     radial-gradient(58% 70% at 31% 40%, rgba(0,0,0,0) 12%, rgba(0,0,0,.35) 45%, rgba(0,0,0,.85) 72%, #000 92%),
+     linear-gradient(90deg, rgba(0,0,0,.2) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,.45) 44%, rgba(0,0,0,.9) 60%, #000 72%, #000 100%),
+     linear-gradient(0deg,#000 0%, rgba(0,0,0,.35) 22%, transparent 50%)}
 
   /* #1 aurora blobs */
   .hero .blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5;mix-blend-mode:screen;z-index:2;animation:float 16s ease-in-out infinite}
@@ -32,10 +32,10 @@
   .hero .b3{width:520px;height:520px;background:#2747b0;top:18%;left:24%;animation-delay:-9s;opacity:.4}
   @keyframes float{50%{transform:translate(50px,30px) scale(1.14)}}
 
-  /* #7 particle canvas, upper-left corner */
-  .hero canvas{position:absolute;top:0;left:0;width:62%;height:66%;z-index:2;opacity:.75;
-     -webkit-mask-image:radial-gradient(120% 120% at top left,#000 40%,transparent 78%);
-     mask-image:radial-gradient(120% 120% at top left,#000 40%,transparent 78%)}
+  /* #7 particle canvas, upper-RIGHT corner (above the dark wash) */
+  .hero canvas{position:absolute;top:0;right:0;left:auto;width:56%;height:64%;z-index:4;opacity:.7;
+     -webkit-mask-image:radial-gradient(110% 110% at top right,#000 36%,transparent 75%);
+     mask-image:radial-gradient(110% 110% at top right,#000 36%,transparent 75%)}
 
   .content{position:relative;z-index:5;width:100%;max-width:1280px;margin:0 auto;padding:0 40px;display:flex}
   .text{width:52%;min-width:440px;margin-left:auto;text-align:left}
