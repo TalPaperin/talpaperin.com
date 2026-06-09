@@ -99,6 +99,7 @@
     .hero .detail{color:#c3d2dc;font-size:1.05rem;line-height:1.7;margin-top:16px;max-width:36em}
     .hero .stats{display:flex;gap:14px 40px;margin-top:32px;flex-wrap:wrap}
     .hero .stats b{font-family:'Heebo';font-weight:800;font-size:2.2rem;color:var(--blue);display:block;line-height:1;direction:ltr}
+    .hero .stats>div{min-width:150px}
     .hero .stats span{font-size:.95rem;color:#b9c6d3}
     .hero .cta{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap}
     @media(max-width:900px){.hero .photo{width:100%;object-position:50% 14%}.hero .text{width:100%;min-width:0;margin-left:0}}
@@ -143,8 +144,8 @@
     .case .who .role{color:var(--blue);margin-top:8px;font-size:.97rem;font-weight:600}
     .case .who .intro{margin-top:18px;color:var(--soft)}
     .case ul{list-style:none;display:grid;gap:12px}
-    .case li{position:relative;padding-right:30px;color:#e7edf3}
-    .case li::before{content:"";position:absolute;right:0;top:9px;width:15px;height:8px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg)}
+    .case li{position:relative;padding-right:24px;color:#e7edf3}
+    .case li::before{content:"";position:absolute;right:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--blue)}
     @media(max-width:760px){.case{grid-template-columns:1fr;gap:24px;padding:28px}}
 
     .caps{display:grid;grid-template-columns:1fr 1fr;gap:20px 44px;margin-top:42px}
@@ -168,7 +169,7 @@
     .biolink a:hover{color:#fff;border-color:#fff}
     .bio-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;margin-top:6px}
     @media(max-width:820px){.bio-grid{grid-template-columns:1fr;gap:28px}}
-    .video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;border:1px solid var(--line);cursor:pointer;background-color:#000;background-size:cover;background-position:center}
+    .video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:14px;overflow:hidden;cursor:pointer;background-color:#000;background-size:cover;background-position:center}
     .video-embed .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28);transition:background .2s}
     .video-embed:hover .play{background:rgba(0,0,0,.12)}
     .video-embed .play svg{width:64px;height:46px;filter:drop-shadow(0 6px 16px rgba(0,0,0,.5))}
@@ -288,7 +289,7 @@
   </header>
 
   <section class="logos">
-    <div class="wrap reveal"><span class="label">שותף לדרך של מותגים בינלאומיים, יצרנים וחברות בצמיחה מהירה</span></div>
+    <div class="wrap reveal"><span class="label">מתאגידי ענק רב-לאומיים ועד סטארטאפים קטנים, בניתי מכירות לשניהם</span></div>
     <div class="marquee reveal" style="--speed:70s;"><div class="marquee-track" id="logotrack"></div></div>
   </section>
 
@@ -302,10 +303,10 @@
       </div>
       <div class="caps">
         <div class="cap reveal"><h3>אין מנוע מכירות, רק תקווה</h3><p>אני בונה לכם את כל מערך ה-Go-to-Market מאפס, בצפון אמריקה, אירופה, שווקי ברית המועצות לשעבר ו-APAC.</p></div>
-        <div class="cap reveal"><h3>נציגים שלא יודעים לסגור</h3><p>אני מוכר בידיים, SaaS, חומרה ושירותים, ללקוחות אנטרפרייז, רשתות Big Box, אוניברסיטאות, מכוני מחקר ופארמה.</p></div>
+        <div class="cap reveal"><h3>נציגים שלא יודעים לסגור</h3><p>אני בונה ומבצע תוכנית הכשרה מותאמת ל-ICP ול-GTM שלכם, ודואג שהצוות יעמוד ביעדים.</p></div>
         <div class="cap reveal"><h3>תקועים במכרזים ובבירוקרטיה</h3><p>אני מנהל עסקאות B2G ומורכבות, מכרזים (RFIs, RFQs) ופרויקטים ממשלתיים, בכל העולם.</p></div>
         <div class="cap reveal"><h3>חסומים מכניסה לשווקים חדשים</h3><p>אני מגייס, מחתים ומנהל את המפיצים ושותפי הערוץ שפותחים טריטוריות חדשות.</p></div>
-        <div class="cap reveal"><h3>צוות שאתם לא יודעים לבנות או לנהל</h3><p>אני מגייס, מכשיר ומנהל SDRs, AEs, BDs, פוסט-סייל ותמיכה טכנית, בבית או במיקור חוץ.</p></div>
+        <div class="cap reveal"><h3>צוות שאתם לא יודעים לבנות או לנהל</h3><p>אני מגייס, בונה ומנהל את צוות המכירות: SDRs, AEs, BDs, פוסט-סייל ותמיכה טכנית, בבית או במיקור חוץ.</p></div>
         <div class="cap reveal"><h3>שיווק שלא מוכר</h3><p>אני מקים ומוביל את מערך השיווק כך שיזין את הפייפליין בפועל.</p></div>
         <div class="cap reveal"><h3>עסקאות גדולות שמחליקות בין האצבעות</h3><p>אני לוקח את ניהול המשא ומתן וסוגר את ההסכמים המורכבים והגדולים.</p></div>
         <div class="cap reveal"><h3>אף אחד לא אחראי על המספר</h3><p>אני לוקח בעלות על האסטרטגיה, התחזית, האחריותיות והתוצאות, מקצה לקצה.</p></div>
@@ -322,15 +323,15 @@
       </div>
       <article class="case reveal">
         <div class="who"><img class="case-logo" src="/logos/kanduai.jpg" alt="KanduAI" /><h3>KanduAI</h3><p class="role">אריאל שמש, שותף מייסד ומנכ"ל</p><p class="intro">נכנסתי כ-VP Sales במיקור חוץ מהיום הראשון. לקחתי בעלות מלאה על ה-Go-to-Market, בניתי את המנוע מאפס, ואז בניתי אותו מחדש דרך פיבוט מלא של המוצר.</p></div>
-        <ul><li>בניתי את כל אסטרטגיית ה-GTM ותוכנית עבודה לפי אבני דרך</li><li>הגדרתי ותיקפתי את ה-ICP, המיצוב והמסרים</li><li>בניתי את מהלך האאוטבאונד וה-Playbook מאפס</li><li>גייסתי, הכשרתי וניהלתי את צוות ה-SDR יום-יום</li><li>סגרתי בעצמי עסקאות ראשונות כדי להוכיח את המהלך</li><li>השקתי מחדש את כל ה-GTM דרך הפיבוט</li></ul>
+        <ul><li>בניתי את כל אסטרטגיית ה-GTM ותוכנית עבודה לפי אבני דרך</li><li>הגדרתי ותיקפתי את ה-ICP, המיצוב והמסרים</li><li>בניתי את מהלך האאוטבאונד וה-Playbook מאפס</li><li>גייסתי, הכשרתי וניהלתי את צוות ה-SDR יום-יום</li><li>השקתי מחדש את כל ה-GTM דרך הפיבוט</li></ul>
       </article>
       <article class="case reveal">
-        <div class="who"><img class="case-logo" src="/logos/lonestar.jpg" alt="LoneStar Tracking" /><h3>חברת IoT בהובלת המייסדים</h3><p class="role">תומאס רמרט, שותף מייסד ו-CTO</p><p class="intro">עסק IoT בהובלת מייסדים, כמעט בלי ניסיון במכירות ובשיווק, היה צריך מערך הכנסות מלא שלא יכול היה להרשות לעצמו לאייש. בניתי אותו והרצתי אותו, מקצה לקצה.</p></div>
-        <ul><li>בניתי את כל אסטרטגיית המכירות והשיווק מאפס</li><li>בחרתי והטמעתי CRM ומערך כלי מכירה</li><li>בניתי את התהליך, ה-Playbook והפייפליין</li><li>גייסתי, הכשרתי ובניתי את צוות המכירות</li><li>ניהלתי את הצוות ואת המהלך יום-יום</li><li>סיפקתי הובלה מלאה ברמת VP בשבריר מהעלות</li></ul>
+        <div class="who"><img class="case-logo" src="/logos/lonestar.jpg" alt="LoneStar Tracking" /><h3>חברת IoT בהובלת המייסדים</h3><p class="role">תומאס רמרט, שותף מייסד ו-CTO</p><p class="intro">עסק IoT בהובלת מייסדים, עם שיווק חזק אבל מערך מכירות שלא המיר. בניתי והרצתי את צד המכירות, מקצה לקצה.</p></div>
+        <ul><li>בניתי את כל אסטרטגיית המכירות והמהלך מאפס</li><li>בחרתי והטמעתי CRM ומערך כלי מכירה</li><li>בניתי את התהליך, ה-Playbook והפייפליין</li><li>גייסתי, הכשרתי ובניתי את צוות המכירות</li><li>ניהלתי את הצוות ואת המהלך יום-יום</li><li>סיפקתי הובלה מלאה ברמת VP בשבריר מהעלות</li></ul>
       </article>
       <article class="case reveal">
-        <div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><h3>Palram</h3><p class="role">יצרן גלובלי, פריצה לטריטוריה חדשה</p><p class="intro">יצרן גלובלי שהיה חסום שנים מערוצי הקמעונאות הגדולים באירופה בתחום ה-DIY. לקחתי בעלות על הפריצה לשוק, בניתי את התוכנית, וסגרתי בעצמי את הדלתות הסגורות.</p></div>
-        <ul><li>בניתי את אסטרטגיית הכניסה לשוק ותוכנית אבני הדרך</li><li>מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים</li><li>ניהלתי כל משא ומתן באופן אישי</li><li>חתמתי על Hornbach, אחת מרשתות ה-DIY הגדולות באירופה</li><li>חתמתי על Brico Depot, ופתחתי ערוץ מרכזי נוסף</li><li>שברתי חסם של שנים והכנסתי את המוצר למדפים</li></ul>
+        <div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><h3>Palram</h3><p class="role">יצרן גלובלי, פריצה למזרח אירופה</p><p class="intro">יצרן גלובלי שהיה משוכנע שאין כסף במזרח אירופה, אז פשוט נשאר בחוץ. הוכחתי שהם טעו, בניתי את התוכנית, ופתחתי את השוק בעצמי.</p></div>
+        <ul><li>בניתי את אסטרטגיית הכניסה למזרח אירופה ותוכנית אבני הדרך</li><li>מיפיתי את הערוץ ואת מקבלי ההחלטות בשטח</li><li>ניהלתי כל משא ומתן באופן אישי</li><li>חתמתי על שתיים מרשתות ה-DIY הגדולות באזור</li><li>הכנסתי את המוצר למדפים בשוק שהחברה כבר ויתרה עליו</li><li>הוכחתי שיש כסף אמיתי במזרח אירופה</li></ul>
       </article>
     </div>
   </section>
