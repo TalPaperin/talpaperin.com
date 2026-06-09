@@ -137,15 +137,17 @@
     @media(max-width:860px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:460px){.stats-grid{grid-template-columns:1fr}}
 
-    .case{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:38px}
+    .case{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;background:linear-gradient(180deg,#131a28,#0c1119);border:1px solid var(--line);border-radius:18px;padding:38px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s}
+    .case::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(270deg,var(--blue),transparent 65%)}
+    .case:hover{border-color:rgba(90,176,255,.45);transform:translateY(-3px)}
     .case+.case{margin-top:22px}
     .case .who h3{font-size:1.6rem}
     .case-logo{height:44px;width:auto;max-width:175px;object-fit:contain;background:#f5f5f5;border-radius:8px;padding:7px 12px;margin-bottom:18px;display:block}
     .case .who .role{color:var(--blue);margin-top:8px;font-size:.97rem;font-weight:600}
     .case .who .intro{margin-top:18px;color:var(--soft)}
     .case ul{list-style:none;display:grid;gap:12px}
-    .case li{position:relative;padding-right:24px;color:#e7edf3}
-    .case li::before{content:"";position:absolute;right:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--blue)}
+    .case li{position:relative;padding-right:28px;color:#e7edf3}
+    .case li::before{content:"";position:absolute;right:0;top:.72em;width:14px;height:2px;border-radius:2px;background:var(--blue)}
     @media(max-width:760px){.case{grid-template-columns:1fr;gap:24px;padding:28px}}
 
     .caps{display:grid;grid-template-columns:1fr 1fr;gap:20px 44px;margin-top:42px}
@@ -302,7 +304,7 @@
         <p>אם משהו מאלה מתאר את המכירות שלכם, כבר תיקנתי את זה, ואני אתקן את זה גם אצלכם.</p>
       </div>
       <div class="caps">
-        <div class="cap reveal"><h3>אין מנוע מכירות, רק תקווה</h3><p>אני בונה לכם את כל מערך ה-Go-to-Market מאפס, בצפון אמריקה, אירופה, שווקי ברית המועצות לשעבר ו-APAC.</p></div>
+        <div class="cap reveal"><h3>אין מנוע מכירות, רק תקווה</h3><p>אני בונה לכם את כל מערך ה-Go-to-Market מאפס, בצפון אמריקה, באיחוד האירופי, במזרח ומרכז אירופה וב-APAC.</p></div>
         <div class="cap reveal"><h3>נציגים שלא יודעים לסגור</h3><p>אני בונה ומבצע תוכנית הכשרה מותאמת ל-ICP ול-GTM שלכם, ודואג שהצוות יעמוד ביעדים.</p></div>
         <div class="cap reveal"><h3>תקועים במכרזים ובבירוקרטיה</h3><p>אני מנהל עסקאות B2G ומורכבות, מכרזים (RFIs, RFQs) ופרויקטים ממשלתיים, בכל העולם.</p></div>
         <div class="cap reveal"><h3>חסומים מכניסה לשווקים חדשים</h3><p>אני מגייס, מחתים ומנהל את המפיצים ושותפי הערוץ שפותחים טריטוריות חדשות.</p></div>
@@ -371,21 +373,6 @@
     </div>
   </section>
 
-  <section id="interviews" class="accent-top">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div class="glowline"></div>
-        <p class="eyebrow">בראיונות</p>
-        <h2>באירוח פודקאסטים ותוכניות, על מכירות וצמיחה גלובלית.</h2>
-      </div>
-      <div class="vids reveal">
-        <div><div class="video-embed" data-id="DAjZ6cnH08M" style="background-image:url(https://i.ytimg.com/vi/DAjZ6cnH08M/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן: ראיון CEO Money"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">CEO Money with Michael Yorba</p></div>
-        <div><div class="video-embed" data-id="Ft0fmJe7nes" style="background-image:url(https://i.ytimg.com/vi/Ft0fmJe7nes/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן: Solution Nation Podcast"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Solution Nation Podcast</p><p class="vsub">השקעה בחברות IIoT ישראליות</p></div>
-        <div><div class="video-embed" data-id="-w_sHvp2v1I" style="background-image:url(https://i.ytimg.com/vi/-w_sHvp2v1I/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן: Hard Corps Marketing Show"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">יסודות המכירה הגלובלית</p></div>
-      </div>
-    </div>
-  </section>
-
   <section id="ninety" class="accent-top">
     <div class="wrap">
       <div class="section-head reveal">
@@ -431,6 +418,21 @@
         <div class="card3 reveal"><span class="commit">המקסימום</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> / לחודש</span></div><p class="bestfor">הכל. בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-Go-to-Market.</p><ul class="incl"><li><strong>כל מה שב-Growth, ובנוסף:</strong></li><li>בעלות מלאה ברמת CRO על אסטרטגיית ההכנסות והביצוע</li><li>סמכות על החלטות מכירות, שיווק ו-GTM</li><li>בנייה והובלה של מערך ההכנסות כולו, בבית או במיקור חוץ</li><li>הובלת שיווק ו-Marcom</li><li>B2G, רשתות הפצה וניהול משא ומתן חוזי מורכב</li><li>אחריות מלאה על המספר</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה</a></div>
       </div>
       <p class="anchor-note reveal">רק כדי לסבר את האוזן, CRO שכיר במשרה מלאה יעלה לכם החל מ- $250,000 בשנה (כולל הכל), וזה עוד לפני שחישבתם אקוויטי, בונוסים, סיכוני פיצויים ותהליך גיוס ארוך ומתיש. אפילו מסלול הבעלות המלא המקביל למשרה מלאה כאן עולה שבריר מהסכום הזה, ללא שום התחייבויות דרקוניות לטווח ארוך.</p>
+    </div>
+  </section>
+
+  <section id="interviews" class="accent-top">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="glowline"></div>
+        <p class="eyebrow">בראיונות</p>
+        <h2>באירוח פודקאסטים ותוכניות, על מכירות וצמיחה גלובלית.</h2>
+      </div>
+      <div class="vids reveal">
+        <div><div class="video-embed" data-id="DAjZ6cnH08M" style="background-image:url(https://i.ytimg.com/vi/DAjZ6cnH08M/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן: ראיון CEO Money"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">CEO Money with Michael Yorba</p></div>
+        <div><div class="video-embed" data-id="Ft0fmJe7nes" style="background-image:url(https://i.ytimg.com/vi/Ft0fmJe7nes/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן: Solution Nation Podcast"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Solution Nation Podcast</p><p class="vsub">השקעה בחברות IIoT ישראליות</p></div>
+        <div><div class="video-embed" data-id="-w_sHvp2v1I" style="background-image:url(https://i.ytimg.com/vi/-w_sHvp2v1I/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן: Hard Corps Marketing Show"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">יסודות המכירה הגלובלית</p></div>
+      </div>
     </div>
   </section>
 

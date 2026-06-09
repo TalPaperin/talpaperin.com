@@ -154,15 +154,17 @@
     @media(max-width:460px){.stats-grid{grid-template-columns:1fr}}
 
     /* cases */
-    .case{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:38px}
+    .case{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;background:linear-gradient(180deg,#131a28,#0c1119);border:1px solid var(--line);border-radius:18px;padding:38px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s}
+    .case::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue),transparent 65%)}
+    .case:hover{border-color:rgba(90,176,255,.45);transform:translateY(-3px)}
     .case+.case{margin-top:22px}
     .case .who h3{font-size:1.6rem;color:#fff}
     .case-logo{height:44px;width:auto;max-width:175px;object-fit:contain;background:#f5f5f5;border-radius:8px;padding:7px 12px;margin-bottom:18px;display:block}
     .case .who .role{color:var(--blue);margin-top:8px;font-size:.97rem;font-weight:600}
     .case .who .intro{margin-top:18px;color:var(--soft)}
     .case ul{list-style:none;display:grid;gap:12px}
-    .case li{position:relative;padding-left:24px;color:#e7edf3}
-    .case li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--blue)}
+    .case li{position:relative;padding-left:28px;color:#e7edf3}
+    .case li::before{content:"";position:absolute;left:0;top:.72em;width:14px;height:2px;border-radius:2px;background:var(--blue)}
     @media(max-width:760px){.case{grid-template-columns:1fr;gap:24px;padding:28px}}
 
     /* method */
@@ -330,7 +332,7 @@
         <p>If any of these sound like your sales, I have fixed it before, and I will fix it for you.</p>
       </div>
       <div class="caps">
-        <div class="cap reveal"><h3>No sales engine, just hope</h3><p>I build your entire go-to-market from zero, across North America, Europe, the former Soviet markets and APAC.</p></div>
+        <div class="cap reveal"><h3>No sales engine, just hope</h3><p>I build your entire go-to-market from zero, across North America, the EU, Eastern and Central Europe, and APAC.</p></div>
         <div class="cap reveal"><h3>Reps who can't close</h3><p>I build and execute a training plan, tailored to your ICP and your GTM, and make sure the team hits quota.</p></div>
         <div class="cap reveal"><h3>Stuck in RFIs and red tape</h3><p>I run B2G and complex public-sector deals, RFIs, RFQs and government projects, across the globe.</p></div>
         <div class="cap reveal"><h3>Locked out of new markets</h3><p>I recruit, sign and manage the distributors and channel partners that open new territories.</p></div>
@@ -402,22 +404,6 @@
     </div>
   </section>
 
-  <!-- Interviews -->
-  <section id="interviews" class="accent-top">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div class="glowline"></div>
-        <p class="eyebrow">In Conversation</p>
-        <h2>On podcasts and shows, talking sales and global growth.</h2>
-      </div>
-      <div class="vids reveal">
-        <div><div class="video-embed" data-id="DAjZ6cnH08M" style="background-image:url(https://i.ytimg.com/vi/DAjZ6cnH08M/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play: CEO Money interview"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">CEO Money with Michael Yorba</p></div>
-        <div><div class="video-embed" data-id="Ft0fmJe7nes" style="background-image:url(https://i.ytimg.com/vi/Ft0fmJe7nes/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play: Solution Nation Podcast"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Solution Nation Podcast</p><p class="vsub">Investing in Israeli IIoT companies</p></div>
-        <div><div class="video-embed" data-id="-w_sHvp2v1I" style="background-image:url(https://i.ytimg.com/vi/-w_sHvp2v1I/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play: Hard Corps Marketing Show"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">Global sales fundamentals</p></div>
-      </div>
-    </div>
-  </section>
-
   <!-- First 90 days -->
   <section id="ninety" class="accent-top">
     <div class="wrap">
@@ -466,6 +452,22 @@
         <div class="card3 reveal"><span class="commit">The maximum</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> /mo</span></div><p class="bestfor">All of it. Full ownership of revenue across sales, marketing and go-to-market.</p><ul class="incl"><li><strong>Everything in Growth, plus:</strong></li><li>Full CRO-level ownership of revenue strategy and execution</li><li>Authority over sales, marketing and GTM decisions</li><li>Build and lead the entire revenue team, in-house or outsourced</li><li>Marketing and marcom leadership</li><li>B2G, distributor networks and complex contract negotiation</li><li>Total accountability for the number</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a></div>
       </div>
       <p class="anchor-note reveal">For context, a salaried CRO runs $250,000 and up all in, once you add equity, bonus, severance risk and a long hiring cycle. Even full-time-equivalent ownership here is a fraction of that, with none of the long-term lock-in.</p>
+    </div>
+  </section>
+
+  <!-- Interviews -->
+  <section id="interviews" class="accent-top">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="glowline"></div>
+        <p class="eyebrow">In Conversation</p>
+        <h2>On podcasts and shows, talking sales and global growth.</h2>
+      </div>
+      <div class="vids reveal">
+        <div><div class="video-embed" data-id="DAjZ6cnH08M" style="background-image:url(https://i.ytimg.com/vi/DAjZ6cnH08M/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play: CEO Money interview"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">CEO Money with Michael Yorba</p></div>
+        <div><div class="video-embed" data-id="Ft0fmJe7nes" style="background-image:url(https://i.ytimg.com/vi/Ft0fmJe7nes/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play: Solution Nation Podcast"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Solution Nation Podcast</p><p class="vsub">Investing in Israeli IIoT companies</p></div>
+        <div><div class="video-embed" data-id="-w_sHvp2v1I" style="background-image:url(https://i.ytimg.com/vi/-w_sHvp2v1I/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play: Hard Corps Marketing Show"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">Global sales fundamentals</p></div>
+      </div>
     </div>
   </section>
 
