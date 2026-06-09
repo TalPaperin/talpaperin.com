@@ -165,9 +165,9 @@
     .case-logo{height:44px;width:auto;max-width:175px;object-fit:contain;background:#f5f5f5;border-radius:8px;padding:7px 12px;margin-bottom:18px;display:block}
     .case .who .role{color:var(--blue);margin-top:8px;font-size:.97rem;font-weight:600}
     .case .who .intro{margin-top:18px;color:var(--soft)}
-    .case ul{list-style:none;display:grid;gap:12px}
-    .case li{position:relative;padding-left:28px;color:#e7edf3}
-    .case li::before{content:"";position:absolute;left:0;top:.72em;width:14px;height:2px;border-radius:2px;background:var(--blue)}
+    .case ul{list-style:none;display:grid;gap:15px;counter-reset:cl}
+    .case li{position:relative;padding-left:42px;color:#e7edf3;counter-increment:cl;min-height:1.4em}
+    .case li::before{content:counter(cl,decimal-leading-zero);position:absolute;left:0;top:-.02em;font-family:'Anton',sans-serif;font-size:1.25em;line-height:1;color:var(--blue)}
     @media(max-width:760px){.case{grid-template-columns:1fr;gap:24px;padding:28px}}
 
     /* method */
@@ -352,7 +352,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <div class="glowline"></div>
-        <p class="eyebrow">Case Studies</p>
+        <p class="eyebrow">Recent Case Studies</p>
         <h2>Brought in to build the engine, not just advise on it.</h2>
       </div>
       <article class="case reveal">
