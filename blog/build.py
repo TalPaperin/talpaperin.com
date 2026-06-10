@@ -312,6 +312,36 @@ def render_sitemap(posts):
             + body + "\n</urlset>\n")
 
 
+def render_llms(posts):
+    lines = [
+        "# Tal Paperin",
+        "",
+        "> Fractional CRO and B2B sales consultant. I rebuild revenue functions and "
+        "fix broken sales, fast. 30-plus B2B companies rebuilt, $20M ARR managed. Work "
+        "with me three ways: fractional CRO (me, personally), fully outsourced sales via "
+        "KSW Solutions, or TheDealMentor.AI for founders who want to run the motion themselves.",
+        "",
+        "## Key pages",
+        "- [Tal Paperin, Fractional CRO (home)](%s/): services, what I fix, case studies, "
+        "engagements and pricing, contact." % SITE,
+        "- [Hebrew site](%s/he/): Hebrew version of the homepage." % SITE,
+        "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
+        "go-to-market and fixing broken revenue." % SITE,
+        "",
+        "## Blog posts",
+    ]
+    for p in posts:
+        lines.append("- [%s](%s/blog/%s): %s" % (p["title"], SITE, p["slug"], p["description"]))
+    lines += [
+        "",
+        "## Contact",
+        "- Email: tal@ksw.solutions",
+        "- LinkedIn: https://www.linkedin.com/in/talpaperin/",
+        "- Book a call: https://calendly.com/ksw/15min",
+    ]
+    return "\n".join(lines) + "\n"
+
+
 # --- HTML templates (CSS lives in blog/blog.css so no braces collide) ---
 
 TEMPLATE_POST = '''<!doctype html>
@@ -458,6 +488,8 @@ def main():
         f.write(render_rss(posts))
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(render_sitemap(posts))
+    with open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(render_llms(posts))
     print("Built %d post(s): %s" % (len(posts), ", ".join(p["slug"] for p in posts)))
 
 
