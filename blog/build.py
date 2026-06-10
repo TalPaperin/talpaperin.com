@@ -111,6 +111,12 @@ CTA_BOX = '''      <div class="cta-box">
         <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>'''
 
+SUBSCRIBE = '''      <div class="subscribe-box">
+        <h3>Get these in your inbox</h3>
+        <p>No fluff. Sales, revenue and go-to-market, straight from the field.</p>
+        <iframe src="https://embeds.beehiiv.com/a72f0c0a-48d5-4f9b-834e-6c7ca597ede4?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin:0;border-radius:0;background-color:transparent;width:100%"></iframe>
+      </div>'''
+
 
 def parse_front_matter(raw):
     """Split a .md file into (meta dict, markdown body)."""
@@ -226,6 +232,7 @@ def render_post(p):
         .replace("{{BODY}}", p["body_html"]) \
         .replace("{{NAV}}", NAV) \
         .replace("{{FOOTER}}", FOOTER) \
+        .replace("{{SUBSCRIBE}}", SUBSCRIBE) \
         .replace("{{CTA}}", CTA_BOX) \
         .replace("{{FONTS}}", FONTS) \
         .replace("{{ANALYTICS}}", ANALYTICS)
@@ -361,6 +368,7 @@ TEMPLATE_POST = '''<!doctype html>
         <div class="body">
 {{BODY}}
         </div>
+{{SUBSCRIBE}}
 {{CTA}}
         <a class="backlink" href="/blog/">&larr; All posts</a>
       </article>
