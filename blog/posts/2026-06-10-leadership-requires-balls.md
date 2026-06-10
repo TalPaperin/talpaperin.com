@@ -3,8 +3,10 @@ title: Leadership requires balls. Most people have let theirs atrophy.
 description: Real leadership comes from hardship, not a workshop in Bali. Why clients hire me over a safe full-time hire, and what to do if you lack it.
 date: 2026-06-10
 tags: Revenue Leadership, Fractional CRO, B2B Sales
-image: /og-image.jpg
+image: /blog/img/leadership-balls.jpg
 ---
+
+![Tal Paperin pointing at medicine balls on a rack at the gym](/blog/img/leadership-balls.jpg)
 
 These are balls. Big ones.
 
