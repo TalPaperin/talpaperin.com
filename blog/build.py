@@ -114,7 +114,7 @@ CTA_BOX = '''      <div class="cta-box">
 SUBSCRIBE = '''      <div class="subscribe-box">
         <h3>Get these in your inbox</h3>
         <p>No fluff. Sales, revenue and go-to-market, straight from the field.</p>
-        <iframe src="https://embeds.beehiiv.com/a72f0c0a-48d5-4f9b-834e-6c7ca597ede4?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin:0;border-radius:0;background-color:transparent;width:100%"></iframe>
+        <a class="btn btn-solid" href="https://talpaperin.beehiiv.com/subscribe" target="_blank" rel="noopener">Subscribe free</a>
       </div>'''
 
 
