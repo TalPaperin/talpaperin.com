@@ -114,7 +114,7 @@ CTA_BOX = '''      <div class="cta-box">
 SUBSCRIBE = '''      <div class="subscribe-box">
         <h3>Get these in your inbox</h3>
         <p>No fluff. Sales, revenue and go-to-market, straight from the field.</p>
-        <a class="btn btn-solid" href="https://talpaperin.beehiiv.com/subscribe" target="_blank" rel="noopener">Subscribe free</a>
+        <a class="btn btn-solid" href="https://talpaperin.beehiiv.com/subscribe" target="_blank" rel="noopener">Subscribe</a>
       </div>'''
 
 
