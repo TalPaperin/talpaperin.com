@@ -79,7 +79,7 @@ NAV = '''  <nav class="site">
       <a class="brand" href="/">TAL PAPERIN</a>
       <div class="navlinks">
         <a href="/">Home</a>
-        <a href="/blog/">Insights</a>
+        <a href="/blog/">Blog</a>
         <a href="/#work">Work With Me</a>
       </div>
       <div class="nav-right">
@@ -205,7 +205,7 @@ def render_post(p):
     crumb = (
         '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
         '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
-        '{"@type":"ListItem","position":2,"name":"Insights","item":"%s/blog/"},'
+        '{"@type":"ListItem","position":2,"name":"Blog","item":"%s/blog/"},'
         '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
     ) % (SITE, SITE, esc(p["title"]), url)
 
@@ -350,7 +350,7 @@ TEMPLATE_POST = '''<!doctype html>
   <main class="page">
     <div class="wrap">
       <article class="article">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Insights</a></p>
+        <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a></p>
         <h1>{{TITLE}}</h1>
         <div class="postmeta">
           <span>By Tal Paperin</span><span class="dot">&middot;</span>
@@ -362,7 +362,7 @@ TEMPLATE_POST = '''<!doctype html>
 {{BODY}}
         </div>
 {{CTA}}
-        <a class="backlink" href="/blog/">&larr; All insights</a>
+        <a class="backlink" href="/blog/">&larr; All posts</a>
       </article>
     </div>
   </main>
@@ -408,7 +408,7 @@ TEMPLATE_INDEX = '''<!doctype html>
     <div class="wrap">
       <div class="blog-head">
         <div class="glowline"></div>
-        <p class="eyebrow">Insights</p>
+        <p class="eyebrow">Blog</p>
         <h1>Notes on selling, scaling and fixing revenue.</h1>
         <p>Practical takes on B2B sales, fractional CRO leadership and go-to-market, from 20-plus years carrying the number on four continents.</p>
       </div>
