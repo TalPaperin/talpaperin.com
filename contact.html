@@ -55,29 +55,40 @@
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
 
-        <div class="contact-buttons">
-          <a class="btn btn-outline" href="mailto:tal@ksw.solutions">Email</a>
-          <a class="btn btn-outline" href="tel:+972545308119">Call</a>
-          <a class="btn btn-outline" href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-
-        <div class="contact-grid">
-          <div>
+        <div class="contact-cols">
+          <div class="contact-card">
             <h2>Send a message</h2>
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-              <input type="hidden" name="access_key" value="REPLACE_WITH_ACCESS_KEY" />
-              <input type="hidden" name="subject" value="New message from talpaperin.com" />
-              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
-              <input type="text" name="name" placeholder="Name" required />
-              <input type="email" name="email" placeholder="Email" required />
-              <input type="text" name="company" placeholder="Company (optional)" />
-              <textarea name="message" placeholder="Where did revenue stall?" required></textarea>
-              <button class="btn btn-solid" type="submit">Send message</button>
+            <p class="contact-sub">We read every one. Replies within one business day.</p>
+            <form class="cf-form" onsubmit="return submitForm(event)">
+              <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" />
+              <input type="hidden" id="cf-loaded" value="" />
+              <label for="cf-name">Your name</label>
+              <input id="cf-name" type="text" name="name" required />
+              <label for="cf-email">Email</label>
+              <input id="cf-email" type="email" name="email" required autocomplete="email" />
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" required></textarea>
+              <button class="btn btn-solid" type="submit">Send Message &rarr;</button>
+              <p class="cf-msg" hidden></p>
             </form>
           </div>
-          <div>
-            <h2>Or book a 15-minute call</h2>
-            <div class="calendly-inline-widget cal-embed" data-url="https://calendly.com/ksw/15min"></div>
+          <div class="contact-card">
+            <h2>Other channels</h2>
+            <p class="contact-sub">Pick the one that fits.</p>
+            <div class="channels">
+              <a class="channel" href="https://calendly.com/ksw/15min" onclick="return openCal()">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+                <span class="ch-text"><span class="ch-label">Book a call</span><span class="ch-val">15 minutes with Tal &middot; strategy session</span></span>
+              </a>
+              <a class="channel" href="mailto:tal@ksw.solutions">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+                <span class="ch-text"><span class="ch-label">Email</span><span class="ch-val">tal@ksw.solutions</span></span>
+              </a>
+              <a class="channel" href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="#5ab0ff" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 17V9.99H6V17h2.34zM7.17 8.93a1.36 1.36 0 1 0 0-2.72 1.36 1.36 0 0 0 0 2.72zM18 17v-3.86c0-2.06-1.1-3.02-2.57-3.02-1.19 0-1.72.65-2.02 1.11V9.99h-2.34V17h2.34v-3.91c0-.21.02-.41.08-.56.16-.41.54-.84 1.17-.84.83 0 1.16.63 1.16 1.55V17H18z"/></svg></span>
+                <span class="ch-text"><span class="ch-label">LinkedIn</span><span class="ch-val">Connect with Tal Paperin</span></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -98,6 +109,22 @@
     if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
   </script>
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
+    function openCal(){if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
+    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='Thanks. Your message is on its way, I will reply within one business day.';}
+    function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
+      if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
+      var loaded=parseInt(f.querySelector('#cf-loaded').value||'0',10);
+      if(loaded&&Date.now()-loaded<3000){cfDone(f,m);return false;}
+      var n=f.querySelector('[name=name]').value,em=f.querySelector('[name=email]').value,msg=f.querySelector('[name=message]').value;
+      b.disabled=true;b.textContent='Sending...';
+      fetch('https://formspree.io/f/xykbgowb',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg})})
+        .then(function(r){if(r.ok){cfDone(f,m);}else{b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';}})
+        .catch(function(){b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';});
+      return false;}
+  </script>
 </body>
 </html>

@@ -125,17 +125,26 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 @media(max-width:760px){.svc-grid{grid-template-columns:1fr}}
 
 /* contact page */
-.contact-buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:42px;align-items:start}
-.contact-grid h2{font-family:'Space Grotesk';font-weight:700;text-transform:none;letter-spacing:0;font-size:1.4rem;color:#fff;margin:0 0 18px}
-.contact-form{display:grid;gap:14px}
-.contact-form input,.contact-form textarea{width:100%;background:#0d1320;border:1px solid var(--line);border-radius:11px;padding:14px 16px;color:#fff;font:400 16px/1.5 'Space Grotesk',sans-serif}
-.contact-form input::placeholder,.contact-form textarea::placeholder{color:#6b7888}
-.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--blue)}
-.contact-form textarea{resize:vertical;min-height:130px}
-.contact-form button{margin-top:6px;width:100%}
-.cal-embed{min-width:300px;height:700px;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#fff}
-@media(max-width:820px){.contact-grid{grid-template-columns:1fr}}
+.contact-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:42px;align-items:start}
+.contact-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 32px}
+.contact-card h2{font-family:'Space Grotesk';font-weight:700;text-transform:none;letter-spacing:0;font-size:1.5rem;color:#fff;margin:0 0 6px}
+.contact-sub{color:var(--soft);font-size:.98rem;margin:0 0 22px}
+.cf-form{display:grid;gap:6px}
+.cf-form label{font-size:.72rem;color:var(--soft);text-transform:uppercase;letter-spacing:.08em;margin-top:10px}
+.cf-form input,.cf-form textarea{width:100%;background:#0d1320;border:1px solid var(--line);border-radius:11px;padding:13px 15px;color:#fff;font:400 16px/1.5 'Space Grotesk',sans-serif}
+.cf-form input:focus,.cf-form textarea:focus{outline:none;border-color:var(--blue)}
+.cf-form textarea{resize:vertical;min-height:120px}
+.cf-form button{margin-top:18px;width:100%}
+.cf-msg{margin-top:14px;font-weight:600}
+.channels{display:grid;gap:12px}
+.channel{display:flex;align-items:center;gap:14px;background:#0d1320;border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:border-color .2s,transform .2s;cursor:pointer}
+.channel:hover{border-color:var(--blue);transform:translateY(-2px)}
+.ch-icon{flex:0 0 auto;width:40px;height:40px;border-radius:10px;background:rgba(90,176,255,.12);display:flex;align-items:center;justify-content:center}
+.ch-icon svg{width:20px;height:20px}
+.ch-text{display:flex;flex-direction:column;gap:2px;min-width:0}
+.ch-label{font-size:.7rem;color:var(--soft);text-transform:uppercase;letter-spacing:.08em}
+.ch-val{color:#fff;font-weight:600;font-size:1rem;word-break:break-word}
+@media(max-width:820px){.contact-cols{grid-template-columns:1fr}}
 
 /* case studies */
 .cases-list{display:grid;gap:22px;margin-top:42px}
