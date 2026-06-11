@@ -945,73 +945,73 @@ CONTACT_JS_HE = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
 
 
 CASE_STUDIES = [
- {"company":"KanduAI","meta":"AI SaaS startup, Fractional VP of Sales",
-  "situation":"An early-stage AI startup with no sales engine. They needed someone to build it from day one, then it survived a full product pivot.",
-  "did":["Owned go-to-market end to end as fractional VP of Sales from day one","Defined and validated the ICP, positioning and messaging","Built the outbound playbook and motion from zero","Hired, trained and managed the SDR team","Relaunched the entire go-to-market through the pivot, twice"],
-  "result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
- {"company":"LoneStar Tracking","meta":"Founder-led IoT business, Outsourced sales leadership",
-  "situation":"Strong marketing, but a sales engine that was not converting, and founders with little sales experience.",
-  "did":["Built the entire sales strategy and motion from scratch","Selected and implemented the CRM and the sales stack","Built the process, the playbook and the pipeline","Recruited, hired and trained the sales team","Ran the team and the motion day to day"],
-  "result":"Full VP-level sales leadership at a fraction of the cost of a hire."},
- {"company":"Bacsoft","meta":"Israeli IIoT, backed by Japan's SUN Corp, VP of Global Sales",
-  "situation":"An IIoT company that needed a global sales strategy, a channel network, and the ability to win complex public-sector deals.",
-  "did":["Owned the global sales strategy","Recruited and managed distributors worldwide","Ran direct B2B sales of SaaS, hardware and services","Led B2G: RFIs, RFQs and complex government projects across the globe","Managed marketing and marcom"],
-  "result":"A global channel and a B2G pipeline built for a company selling complex IIoT internationally."},
- {"company":"Palram","meta":"Global manufacturer, Eastern Europe market entry",
-  "situation":"A global manufacturer convinced there was no money in Eastern Europe, so they stayed out.",
-  "did":["Built the market-entry strategy and milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed multiple distributors and retail chains across the region"],
-  "result":"Product on shelves in a market the company had written off, proving there was real money in Eastern Europe."},
- {"company":"BT9","meta":"IoT and SaaS, International sales across FSU, EU and APAC",
-  "situation":"A company that needed an entire international sales operation built from the ground up.",
+ {"company":"KanduAI","id":"kanduai","meta":"AI SaaS startup, Fractional VP of Sales",
+  "situation":"An early-stage AI startup with a product and no way to sell it. No pipeline, no process, no team, and nobody who had ever built a sales motion from zero. They did not need advice, they needed someone to take the revenue side off the founders' plate and build the engine, then keep it alive when the product pivoted out from under it. Twice.",
+  "did":["Owned go-to-market end to end as fractional VP of Sales from day one","Defined and validated the ICP, positioning and messaging before a single rep dialed","Built the outbound playbook and the entire motion from zero","Hired, trained and managed the SDR team","Relaunched the whole go-to-market through the pivot, twice, without losing momentum"],
+  "result":"An outbound engine that existed where there had been nothing, rebuilt from scratch through two pivots. The founders got a real motion and a trained team instead of guessing at sales between everything else they were carrying."},
+ {"company":"LoneStar Tracking","id":"lonestar","meta":"Founder-led IoT business, Outsourced sales leadership",
+  "situation":"Marketing was doing its job and generating real interest. The problem was everything that happened after the lead came in. Deals stalled and died because there was no sales engine to convert them and founders who had never sold for a living. They were paying to create demand and watching it leak straight out the bottom.",
+  "did":["Built the entire sales strategy and motion from scratch","Selected and implemented the CRM and the full sales stack","Built the process, the playbook and the pipeline","Recruited, hired and trained the sales team","Ran the team and the motion day to day as outsourced sales leadership"],
+  "result":"Full VP-level sales leadership at a fraction of the cost of a hire, with a real process catching the demand marketing was paying to create instead of letting it bleed away."},
+ {"company":"Bacsoft","id":"bacsoft","meta":"Israeli IIoT, backed by Japan's SUN Corp, VP of Global Sales",
+  "situation":"An Israeli IIoT company, backed by Japan's SUN Corp, that needed to sell complex industrial technology across the world, not just demo it. That meant a global strategy, a distributor network across multiple continents, and the patience to win public-sector deals with long RFI and RFQ cycles. None of it existed yet.",
+  "did":["Owned the global sales strategy end to end","Recruited and managed distributors worldwide","Ran direct B2B sales of SaaS, hardware and services","Led B2G: RFIs, RFQs and complex government projects across the globe","Managed marketing and marcom alongside the sales motion"],
+  "result":"A global channel and a live B2G pipeline, built for a company selling complex IIoT, hardware, software and services, into governments and enterprises worldwide."},
+ {"company":"Palram","id":"palram","meta":"Global manufacturer, Eastern Europe market entry",
+  "situation":"A global manufacturer had looked at Eastern Europe and decided there was no money in it, so they stayed out and left the territory blank on the map. The assumption had never actually been tested against the real channel or the real buyers on the ground. It was a story the company told itself, not a fact.",
+  "did":["Built the market-entry strategy and the milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed multiple distributors and retail chains across the region"],
+  "result":"Product on shelves in a market the company had written off entirely, proving there was real money in Eastern Europe and that the only thing missing had been someone willing to go open it."},
+ {"company":"BT9","id":"bt9","meta":"IoT and SaaS, International sales across FSU, EU and APAC",
+  "situation":"A company that needed an entire international sales operation, not a rep in one country. Three very different regions, the FSU, the EU and APAC, each with its own buyers, channels and rules, and nothing in place to sell into any of them. The whole machine had to be built from the ground up.",
   "did":["Built an international sales operation from zero across the FSU, the EU and APAC","Ran direct sales of SaaS, hardware and services","Recruited and managed the distributor network","Hired, trained and ran the team day to day: SDRs, post-sales and tech support"],
-  "result":"A working international sales engine across three regions, built from scratch."},
- {"company":"TAG Medical","meta":"Medical devices, International sales and marketing, EU",
-  "situation":"A medical device manufacturer expanding into the EU that needed both a sales motion and a marketing function.",
-  "did":["Ran international sales across the EU","Drove direct B2B sales of medical equipment","Recruited and managed distributors","Built and ran the entire marketing department, online and offline"],
-  "result":"A sales and marketing engine for medical devices across European markets."},
- {"company":"SOURCE Vagabond","meta":"Consumer products, North American retail",
-  "situation":"An Israeli brand that needed to crack large US retailers and big-box chains.",
-  "did":["Sold direct to large retailers and big-box stores across North America","Recruited and managed distributors"],
-  "result":"Product into major North American retail, from an unknown overseas brand."},
- {"company":"Synergix","meta":"Scientific SaaS, North America",
-  "situation":"A scientific SaaS company selling to a hard, technical US buyer: universities, research labs and pharma.",
-  "did":["Drove direct B2B SaaS sales to universities, research facilities and pharma companies","Wrote the sales scripts and the playbook the reps used","Led and motivated the sales effort"],
-  "result":"SaaS sold into US academia and pharma, a long, technical, high-trust sale."},
+  "result":"A working international sales engine across three regions, built from scratch, selling through both direct sales and a managed distributor network."},
+ {"company":"TAG Medical","id":"tag-medical","meta":"Medical devices, International sales and marketing, EU",
+  "situation":"A medical device manufacturer pushing into the EU, a market where the buyer is cautious, the regulation is heavy and trust is everything. They needed more than a salesperson. They needed a full commercial function, sales and marketing both, built for a regulated, high-trust category where shortcuts get you nowhere.",
+  "did":["Ran international sales across the EU","Drove direct B2B sales of medical equipment","Recruited and managed distributors across European markets","Built and ran the entire marketing department, online and offline"],
+  "result":"A complete sales and marketing engine for medical devices across Europe: direct sales and a distributor network on one side, a full marketing department on the other."},
+ {"company":"SOURCE Vagabond","id":"source-vagabond","meta":"Consumer products, North American retail",
+  "situation":"An Israeli consumer brand almost nobody in the US had heard of, trying to get onto the shelves of large American retailers and big-box chains. That is the hardest room in the building to walk into as an unknown overseas name, where buyers have every reason to say no and no reason to gamble on you.",
+  "did":["Sold direct to large retailers and big-box stores across North America","Recruited and managed distributors to extend the reach","Built the positioning that got an unknown brand taken seriously by major chains"],
+  "result":"An unknown overseas brand turned into product sitting in major North American retail, sold in direct to the big chains and backed by a distributor network."},
+ {"company":"Synergix","id":"synergix","meta":"Scientific SaaS, North America",
+  "situation":"Scientific SaaS sold to possibly the hardest buyer there is: universities, research labs and pharma. Technical, skeptical, slow to trust and impossible to bluff. Reps could not wing this one, and the company had no playbook for selling into a room full of scientists who can smell a sales pitch from across the building.",
+  "did":["Drove direct B2B SaaS sales to universities, research facilities and pharma companies","Wrote the sales scripts and the playbook the reps actually used","Led and motivated the sales effort through a long, technical cycle"],
+  "result":"SaaS sold into US academia and pharma, a long, technical, high-trust sale, run off scripts and a playbook the reps could execute instead of improvising every call."},
 ]
 
 HE_CASES = [
- {"company":"KanduAI","meta":"סטארטאפ AI SaaS, VP מכירות במיקור חוץ",
-  "situation":"סטארטאפ AI בתחילת הדרך בלי מנוע מכירות. היו צריכים מישהו שיבנה אותו מהיום הראשון, ואז המוצר עבר פיבוט מלא.",
-  "did":["לקחתי בעלות מלאה על ה-GTM כ-VP מכירות במיקור חוץ מהיום הראשון","הגדרתי ותיקפתי את ה-ICP, המיצוב והמסרים","בניתי את ה-Playbook ותנועת האאוטבאונד מאפס","גייסתי, הכשרתי וניהלתי את צוות ה-SDR","השקתי מחדש את כל ה-GTM דרך הפיבוט, פעמיים"],
-  "result":"מנוע אאוטבאונד עובד, שנבנה מחדש מאפס דרך פיבוט, במהירות ובדיוק."},
- {"company":"LoneStar Tracking","meta":"עסק IoT בהובלת מייסדים, הובלת מכירות במיקור חוץ",
-  "situation":"שיווק חזק, אבל מנוע מכירות שלא המיר, ומייסדים עם מעט ניסיון במכירות.",
-  "did":["בניתי את כל אסטרטגיית ותהליכי המכירה מאפס","בחרתי והטמעתי CRM ומערך כלי מכירה","בניתי תהליך, Playbook ופייפליין","גייסתי, הכשרתי ובניתי את צוות המכירות","ניהלתי את הצוות ואת התנועה יום-יום"],
-  "result":"הובלת מכירות מלאה ברמת VP בשבריר מעלות של גיוס."},
- {"company":"Bacsoft","meta":"חברת IIoT ישראלית בגיבוי SUN Corp מיפן, VP מכירות גלובלי",
-  "situation":"חברת IIoT שהייתה צריכה אסטרטגיית מכירות גלובלית, רשת מפיצים ויכולת לזכות בעסקאות מורכבות מול המגזר הציבורי.",
-  "did":["לקחתי בעלות על אסטרטגיית המכירות הגלובלית","גייסתי וניהלתי מפיצים בכל העולם","הרצתי מכירה ישירה B2B של SaaS, חומרה ושירותים","הובלתי B2G: מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים בכל העולם","ניהלתי את השיווק וה-Marcom"],
-  "result":"רשת ערוצים גלובלית ופייפליין B2G שנבנו לחברה שמוכרת IIoT מורכב בעולם."},
- {"company":"Palram","meta":"יצרן גלובלי, חדירה לשוק במזרח אירופה",
-  "situation":"יצרן גלובלי שהיה בטוח שאין כסף במזרח אירופה, ולכן נמנע מלהיכנס.",
+ {"company":"KanduAI","id":"kanduai","meta":"סטארטאפ AI SaaS, VP מכירות במיקור חוץ",
+  "situation":"סטארטאפ AI בתחילת הדרך עם מוצר וללא שום דרך למכור אותו. בלי פייפליין, בלי תהליך, בלי צוות, ובלי אף אחד שאי פעם בנה מערך מכירות מאפס. הם לא היו צריכים עצות, הם היו צריכים מישהו שייקח את צד ההכנסות מהמייסדים ויבנה את המנוע, ואז ישמור עליו חי כשהמוצר עבר פיבוט מתחת לרגליים. פעמיים.",
+  "did":["לקחתי בעלות מלאה על ה-GTM כ-VP מכירות במיקור חוץ מהיום הראשון","הגדרתי ותיקפתי את ה-ICP, המיצוב והמסרים לפני שנציג אחד הרים טלפון","בניתי את ה-Playbook ואת כל תנועת האאוטבאונד מאפס","גייסתי, הכשרתי וניהלתי את צוות ה-SDR","השקתי מחדש את כל ה-GTM דרך הפיבוט, פעמיים, בלי לאבד תאוצה"],
+  "result":"מנוע אאוטבאונד שהתקיים במקום שבו לא היה כלום, שנבנה מחדש מאפס דרך שני פיבוטים. המייסדים קיבלו תנועת מכירות אמיתית וצוות מיומן במקום לנחש מכירות בין כל שאר הדברים שנשאו על הגב."},
+ {"company":"LoneStar Tracking","id":"lonestar","meta":"עסק IoT בהובלת מייסדים, הובלת מכירות במיקור חוץ",
+  "situation":"השיווק עשה את שלו וייצר עניין אמיתי. הבעיה הייתה כל מה שקרה אחרי שהליד נכנס. עסקאות נתקעו ומתו כי לא היה מנוע מכירות שימיר אותן, ומייסדים שמעולם לא מכרו למחייתם. הם שילמו כדי לייצר ביקוש וצפו בו דולף החוצה מהתחתית.",
+  "did":["בניתי את כל אסטרטגיית ותהליכי המכירה מאפס","בחרתי והטמעתי CRM ומערך כלי מכירה מלא","בניתי תהליך, Playbook ופייפליין","גייסתי, הכשרתי ובניתי את צוות המכירות","ניהלתי את הצוות ואת התנועה יום-יום כהובלת מכירות במיקור חוץ"],
+  "result":"הובלת מכירות מלאה ברמת VP בשבריר מעלות של גיוס, עם תהליך אמיתי שתפס את הביקוש שהשיווק שילם כדי לייצר, במקום לתת לו להתנדף."},
+ {"company":"Bacsoft","id":"bacsoft","meta":"חברת IIoT ישראלית בגיבוי SUN Corp מיפן, VP מכירות גלובלי",
+  "situation":"חברת IIoT ישראלית, בגיבוי SUN Corp מיפן, שהייתה צריכה למכור טכנולוגיה תעשייתית מורכבת בכל העולם, לא רק להדגים אותה. זה דרש אסטרטגיה גלובלית, רשת מפיצים בכמה יבשות, והסבלנות לזכות בעסקאות מול המגזר הציבורי עם מחזורי RFI ו-RFQ ארוכים. כלום מזה לא היה קיים עדיין.",
+  "did":["לקחתי בעלות מלאה על אסטרטגיית המכירות הגלובלית","גייסתי וניהלתי מפיצים בכל העולם","הרצתי מכירה ישירה B2B של SaaS, חומרה ושירותים","הובלתי B2G: מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים בכל העולם","ניהלתי את השיווק וה-Marcom לצד תנועת המכירות"],
+  "result":"רשת ערוצים גלובלית ופייפליין B2G חי, שנבנו לחברה שמוכרת IIoT מורכב, חומרה, תוכנה ושירותים, לממשלות ולארגונים בכל העולם."},
+ {"company":"Palram","id":"palram","meta":"יצרן גלובלי, חדירה לשוק במזרח אירופה",
+  "situation":"יצרן גלובלי הסתכל על מזרח אירופה והחליט שאין שם כסף, ולכן נמנע מלהיכנס והשאיר את הטריטוריה ריקה על המפה. ההנחה הזו מעולם לא נבחנה באמת מול הערוץ האמיתי או הקונים האמיתיים בשטח. זה היה סיפור שהחברה סיפרה לעצמה, לא עובדה.",
   "did":["בניתי את אסטרטגיית החדירה ותוכנית אבני הדרך","מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בשטח","ניהלתי כל משא ומתן באופן אישי","החתמתי מספר מפיצים ורשתות קמעונאות באזור"],
-  "result":"מוצר על המדפים בשוק שהחברה כבר מחקה, והוכחה שיש שם כסף אמיתי."},
- {"company":"BT9","meta":"IoT ו-SaaS, מכירות בינלאומיות ב-FSU, באיחוד האירופי וב-APAC",
-  "situation":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם שייבנה מאפס.",
+  "result":"מוצר על המדפים בשוק שהחברה כבר מחקה לחלוטין, והוכחה שיש שם כסף אמיתי ושכל מה שחסר היה מישהו שמוכן ללכת ולפתוח אותו."},
+ {"company":"BT9","id":"bt9","meta":"IoT ו-SaaS, מכירות בינלאומיות ב-FSU, באיחוד האירופי וב-APAC",
+  "situation":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם, לא נציג במדינה אחת. שלוש טריטוריות שונות מאוד, FSU, האיחוד האירופי ו-APAC, לכל אחת קונים, ערוצים וכללים משלה, ושום דבר לא היה במקום כדי למכור לאף אחת מהן. כל המכונה הייתה צריכה להיבנות מהיסוד.",
   "did":["בניתי מערך מכירות בינלאומי מאפס ב-FSU, באיחוד האירופי וב-APAC","הרצתי מכירה ישירה של SaaS, חומרה ושירותים","גייסתי וניהלתי את רשת המפיצים","גייסתי, הכשרתי וניהלתי את הצוות יום-יום: SDR, פוסט-סייל ותמיכה טכנית"],
-  "result":"מנוע מכירות בינלאומי עובד בשלוש טריטוריות, שנבנה מאפס."},
- {"company":"TAG Medical","meta":"מכשור רפואי, מכירות ושיווק בינלאומיים באיחוד האירופי",
-  "situation":"יצרן מכשור רפואי שהתרחב לאיחוד האירופי וצריך גם מערך מכירות וגם מחלקת שיווק.",
-  "did":["ניהלתי מכירות בינלאומיות בכל האיחוד האירופי","הובלתי מכירה ישירה B2B של ציוד רפואי","גייסתי וניהלתי מפיצים","בניתי וניהלתי את כל מחלקת השיווק, אונליין ואופליין"],
-  "result":"מערך מכירות ושיווק למכשור רפואי בשווקים האירופיים."},
- {"company":"SOURCE Vagabond","meta":"מוצרי צריכה, קמעונאות בצפון אמריקה",
-  "situation":"מותג ישראלי שהיה צריך לפרוץ לקמעונאים הגדולים ולרשתות ה-Big Box בארה״ב.",
-  "did":["מכרתי ישירות לקמעונאים גדולים ולרשתות Big Box בכל צפון אמריקה","גייסתי וניהלתי מפיצים"],
-  "result":"מוצר לתוך הקמעונאות הגדולה בצפון אמריקה, ממותג זר לא מוכר."},
- {"company":"Synergix","meta":"SaaS מדעי, צפון אמריקה",
-  "situation":"חברת SaaS מדעית שמכרה ללקוח אמריקאי קשה וטכני: אוניברסיטאות, מעבדות מחקר וחברות פארמה.",
-  "did":["הובלתי מכירה ישירה B2B של SaaS לאוניברסיטאות, מוסדות מחקר וחברות פארמה","כתבתי את תסריטי המכירה ואת ה-Playbook שהנציגים השתמשו בהם","הובלתי והנעתי את צוות המכירות"],
-  "result":"SaaS שנמכר לאקדמיה ולפארמה בארה״ב, מכירה ארוכה, טכנית ועתירת אמון."},
+  "result":"מנוע מכירות בינלאומי עובד בשלוש טריטוריות, שנבנה מאפס, ומוכר גם במכירה ישירה וגם דרך רשת מפיצים מנוהלת."},
+ {"company":"TAG Medical","id":"tag-medical","meta":"מכשור רפואי, מכירות ושיווק בינלאומיים באיחוד האירופי",
+  "situation":"יצרן מכשור רפואי שדחף לאיחוד האירופי, שוק שבו הקונה זהיר, הרגולציה כבדה והאמון הוא הכל. הם היו צריכים יותר מאיש מכירות. הם היו צריכים פונקציה מסחרית מלאה, גם מכירות וגם שיווק, שנבנית לקטגוריה מפוקחת ועתירת אמון שבה קיצורי דרך לא מובילים לשום מקום.",
+  "did":["ניהלתי מכירות בינלאומיות בכל האיחוד האירופי","הובלתי מכירה ישירה B2B של ציוד רפואי","גייסתי וניהלתי מפיצים בשווקים האירופיים","בניתי וניהלתי את כל מחלקת השיווק, אונליין ואופליין"],
+  "result":"מערך מכירות ושיווק שלם למכשור רפואי בכל אירופה: מכירה ישירה ורשת מפיצים מצד אחד, מחלקת שיווק מלאה, אונליין ואופליין, מצד שני."},
+ {"company":"SOURCE Vagabond","id":"source-vagabond","meta":"מוצרי צריכה, קמעונאות בצפון אמריקה",
+  "situation":"מותג צריכה ישראלי שכמעט אף אחד בארה״ב לא שמע עליו, שמנסה להגיע למדפים של קמעונאים אמריקאים גדולים ורשתות Big Box. זה החדר הכי קשה להיכנס אליו בתור שם זר ולא מוכר, שבו לקונים יש כל סיבה להגיד לא ואף סיבה להמר עליך.",
+  "did":["מכרתי ישירות לקמעונאים גדולים ולרשתות Big Box בכל צפון אמריקה","גייסתי וניהלתי מפיצים כדי להרחיב את הטווח","בניתי את המיצוב שגרם למותג לא מוכר להילקח ברצינות על ידי רשתות גדולות"],
+  "result":"מותג זר לא מוכר שהפך למוצר על המדפים של הקמעונאות הגדולה בצפון אמריקה, נמכר ישירות לרשתות הגדולות ונתמך ברשת מפיצים."},
+ {"company":"Synergix","id":"synergix","meta":"SaaS מדעי, צפון אמריקה",
+  "situation":"SaaS מדעי שנמכר אולי לקונה הכי קשה שיש: אוניברסיטאות, מעבדות מחקר ופארמה. טכני, ספקן, איטי לתת אמון ובלתי אפשרי לבלוף. נציגים לא יכלו לאלתר את זה, ולחברה לא היה Playbook למכירה לחדר מלא מדענים שמריחים מצגת מכירות מקצה הבניין.",
+  "did":["הובלתי מכירה ישירה B2B של SaaS לאוניברסיטאות, מוסדות מחקר וחברות פארמה","כתבתי את תסריטי המכירה ואת ה-Playbook שהנציגים באמת השתמשו בהם","הובלתי והנעתי את צוות המכירות לאורך מחזור מכירה ארוך וטכני"],
+  "result":"SaaS שנמכר לאקדמיה ולפארמה בארה״ב, מכירה ארוכה, טכנית ועתירת אמון, שרצה על תסריטים ו-Playbook שהנציגים יכלו לבצע במקום לאלתר כל שיחה."},
 ]
 
 
@@ -1026,11 +1026,12 @@ def render_cases(cases, rlabel):
         img = ('<img class="cs-logo" src="/logos/%s.jpg" alt="%s" loading="lazy" />\n        '
                % (logo, esc(c["company"]))) if logo else ""
         lis = "".join("<li>%s</li>" % esc(x) for x in c["did"])
-        out.append('      <div class="case-study">\n        %s'
+        cid = (' id="%s"' % esc(c["id"])) if c.get("id") else ""
+        out.append('      <div class="case-study"%s>\n        %s'
                     '<h2>%s</h2>\n        <div class="meta">%s</div>\n'
                     '        <p class="situation">%s</p>\n        <ul>%s</ul>\n'
                     '        <div class="result"><span>%s</span>%s</div>\n      </div>'
-                    % (img, esc(c["company"]), esc(c["meta"]), esc(c["situation"]), lis,
+                    % (cid, img, esc(c["company"]), esc(c["meta"]), esc(c["situation"]), lis,
                        esc(rlabel), esc(c["result"])))
     return "\n".join(out)
 
@@ -1215,40 +1216,46 @@ CS_PAGE_HE = '''<!doctype html>
 
 
 SERVICE_CASE_EN = {
- "fractional-cro":{"company":"KanduAI","line":"Brought in as fractional VP of Sales from day one. I owned go-to-market end to end and rebuilt the entire engine through a full product pivot.","result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
- "outsourced-sales":{"company":"LoneStar Tracking","line":"Strong marketing, a sales engine that was not converting, and founders with little sales experience. I built and ran the entire sales side.","result":"Full VP-level sales leadership at a fraction of the cost of a hire."},
- "go-to-market-strategy":{"company":"Bacsoft","line":"An Israeli IIoT company that needed a global go-to-market: strategy, a channel and complex public-sector deals. I owned all of it.","result":"A global channel and a B2G pipeline, built for complex IIoT sold worldwide."},
- "sales-team-building":{"company":"KanduAI","line":"I hired, trained and managed the SDR team, and rebuilt the motion through a product pivot.","result":"A trained team running a real outbound playbook, not improvising every call."},
- "distributor-channel-recruitment":{"company":"Palram","line":"A global manufacturer convinced there was no money in Eastern Europe. I mapped the channel and the real decision-makers, and signed the partners on the ground.","result":"Multiple distributors and retail chains signed in a market they had written off."},
- "market-entry":{"company":"BT9","line":"A company that needed an entire international sales operation built from the ground up, across the FSU, the EU and APAC.","result":"A working international sales engine across three regions, built from scratch."},
- "b2g-public-sector":{"company":"Bacsoft","line":"Led B2G for an Israeli IIoT company backed by Japan's SUN Corp: RFIs, RFQs and complex government projects across the globe.","result":"A B2G pipeline built for complex public-sector deals worldwide."},
- "contract-negotiation":{"company":"Palram","line":"Led every negotiation personally to open a market a global manufacturer had abandoned.","result":"Signed the distributors and chains that put product on the shelves."},
- "saas-sales":{"company":"Synergix","line":"Sold scientific SaaS to a hard, technical US buyer: universities, research labs and pharma companies.","result":"SaaS sold into US academia and pharma, a long, technical, high-trust sale."},
+ "fractional-cro":{"company":"KanduAI","anchor":"kanduai","line":"An early-stage AI startup with a product and no way to sell it: no pipeline, no process, no team. I came in as fractional VP of Sales and owned the revenue side end to end.","bullets":["Defined the ICP, positioning and messaging, then built the outbound motion from zero","Hired, trained and managed the SDR team","Relaunched the entire go-to-market through two product pivots without losing momentum"],"result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
+ "outsourced-sales":{"company":"LoneStar Tracking","anchor":"lonestar","line":"Strong marketing generating real demand, a sales engine that was not converting it, and founders who had never sold for a living. I built and ran the entire sales side as outsourced leadership.","bullets":["Built the sales strategy, process, playbook and pipeline from scratch","Selected and implemented the CRM and the full sales stack","Recruited, trained and ran the team day to day"],"result":"Full VP-level sales leadership at a fraction of the cost of a hire."},
+ "go-to-market-strategy":{"company":"Bacsoft","anchor":"bacsoft","line":"An Israeli IIoT company, backed by Japan's SUN Corp, that needed a real global go-to-market: strategy, a channel across continents, and complex public-sector deals. I owned all of it.","bullets":["Built the global sales strategy and the distributor network worldwide","Ran direct B2B sales of SaaS, hardware and services","Led B2G across long RFI and RFQ cycles with governments and enterprises"],"result":"A global channel and a B2G pipeline, built for complex IIoT sold worldwide."},
+ "sales-team-building":{"company":"KanduAI","anchor":"kanduai","line":"A startup with no sales team and no playbook for one. I built the team and the motion from zero, and kept rebuilding it as the product pivoted.","bullets":["Hired and trained the SDR team from scratch","Built the outbound playbook the reps actually ran","Rebuilt the motion through two pivots without losing the team"],"result":"A trained team running a real outbound playbook, not improvising every call."},
+ "distributor-channel-recruitment":{"company":"Palram","anchor":"palram","line":"A global manufacturer convinced there was no money in Eastern Europe, so they stayed out. I went and tested the assumption against the real channel on the ground.","bullets":["Mapped the channel and the real decision-makers in the territory","Led every negotiation personally","Signed multiple distributors and retail chains across the region"],"result":"Multiple distributors and retail chains signed in a market they had written off."},
+ "market-entry":{"company":"BT9","anchor":"bt9","line":"A company that needed an entire international sales operation built from the ground up, across three very different regions: the FSU, the EU and APAC.","bullets":["Built the sales operation from zero across all three regions","Ran direct sales of SaaS, hardware and services","Recruited and managed the distributor network, the team, post-sales and tech support"],"result":"A working international sales engine across three regions, built from scratch."},
+ "b2g-public-sector":{"company":"Bacsoft","anchor":"bacsoft","line":"Led B2G for an Israeli IIoT company backed by Japan's SUN Corp: long, complex public-sector deals across the globe, where patience and process win and pitches do not.","bullets":["Ran RFIs, RFQs and complex government projects worldwide","Built the process to carry deals through long public-sector cycles","Aligned the channel and direct sales around the B2G motion"],"result":"A B2G pipeline built for complex public-sector deals worldwide."},
+ "contract-negotiation":{"company":"Palram","anchor":"palram","line":"Opening a market a global manufacturer had abandoned meant negotiating every deal myself, with distributors and chains who had no reason to bet on a brand that had ignored them.","bullets":["Led every negotiation personally, start to finish","Structured terms that worked for both the company and the channel","Signed the distributors and chains that put product on the shelves"],"result":"Signed the distributors and chains that put product on the shelves."},
+ "saas-sales":{"company":"Synergix","anchor":"synergix","line":"Scientific SaaS sold to the hardest buyer there is: universities, research labs and pharma. Technical, skeptical and impossible to bluff. I built the motion and ran it.","bullets":["Drove direct B2B SaaS sales into academia and pharma","Wrote the scripts and the playbook the reps used","Led the effort through a long, technical, high-trust cycle"],"result":"SaaS sold into US academia and pharma, a long, technical, high-trust sale."},
 }
 
 SERVICE_CASE_HE = {
- "fractional-cro":{"company":"KanduAI","line":"נכנסתי כ-VP מכירות במיקור חוץ מהיום הראשון. לקחתי בעלות מלאה על ה-GTM ובניתי מחדש את כל המנוע דרך פיבוט מלא במוצר.","result":"מנוע אאוטבאונד עובד, שנבנה מחדש מאפס דרך פיבוט, במהירות ובדיוק."},
- "outsourced-sales":{"company":"LoneStar Tracking","line":"שיווק חזק, מנוע מכירות שלא המיר, ומייסדים עם מעט ניסיון במכירות. בניתי והרצתי את כל צד המכירות.","result":"הובלת מכירות מלאה ברמת VP בשבריר מעלות של גיוס."},
- "go-to-market-strategy":{"company":"Bacsoft","line":"חברת IIoT ישראלית שהייתה צריכה Go-to-Market גלובלי: אסטרטגיה, ערוץ ועסקאות מורכבות מול המגזר הציבורי. לקחתי בעלות על הכל.","result":"רשת ערוצים גלובלית ופייפליין B2G, שנבנו ל-IIoT מורכב שנמכר בעולם."},
- "sales-team-building":{"company":"KanduAI","line":"גייסתי, הכשרתי וניהלתי את צוות ה-SDR, ובניתי מחדש את התנועה דרך פיבוט במוצר.","result":"צוות מיומן שמריץ Playbook אאוטבאונד אמיתי, לא מאלתר כל שיחה."},
- "distributor-channel-recruitment":{"company":"Palram","line":"יצרן גלובלי שהיה בטוח שאין כסף במזרח אירופה. מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים, והחתמתי את השותפים בשטח.","result":"מספר מפיצים ורשתות קמעונאות שהוחתמו בשוק שהחברה כבר מחקה."},
- "market-entry":{"company":"BT9","line":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם שייבנה מאפס, ב-FSU, באיחוד האירופי וב-APAC.","result":"מנוע מכירות בינלאומי עובד בשלוש טריטוריות, שנבנה מאפס."},
- "b2g-public-sector":{"company":"Bacsoft","line":"הובלתי B2G לחברת IIoT ישראלית בגיבוי SUN Corp מיפן: מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים בכל העולם.","result":"פייפליין B2G שנבנה לעסקאות מורכבות מול המגזר הציבורי בעולם."},
- "contract-negotiation":{"company":"Palram","line":"ניהלתי כל משא ומתן באופן אישי כדי לפתוח שוק שיצרן גלובלי כבר נטש.","result":"החתמתי את המפיצים והרשתות שהביאו את המוצר למדפים."},
- "saas-sales":{"company":"Synergix","line":"מכרתי SaaS מדעי לקונה אמריקאי קשה וטכני: אוניברסיטאות, מעבדות מחקר וחברות פארמה.","result":"SaaS שנמכר לאקדמיה ולפארמה בארה״ב, מכירה ארוכה, טכנית ועתירת אמון."},
+ "fractional-cro":{"company":"KanduAI","anchor":"kanduai","line":"סטארטאפ AI בתחילת הדרך עם מוצר וללא דרך למכור אותו: בלי פייפליין, בלי תהליך, בלי צוות. נכנסתי כ-VP מכירות במיקור חוץ ולקחתי בעלות מלאה על צד ההכנסות.","bullets":["הגדרתי ICP, מיצוב ומסרים, ואז בניתי את תנועת האאוטבאונד מאפס","גייסתי, הכשרתי וניהלתי את צוות ה-SDR","השקתי מחדש את כל ה-GTM דרך שני פיבוטים בלי לאבד תאוצה"],"result":"מנוע אאוטבאונד עובד, שנבנה מחדש מאפס דרך פיבוט, במהירות ובדיוק."},
+ "outsourced-sales":{"company":"LoneStar Tracking","anchor":"lonestar","line":"שיווק חזק שייצר ביקוש אמיתי, מנוע מכירות שלא המיר אותו, ומייסדים שמעולם לא מכרו למחייתם. בניתי והרצתי את כל צד המכירות כהובלה במיקור חוץ.","bullets":["בניתי את אסטרטגיית המכירות, התהליך, ה-Playbook והפייפליין מאפס","בחרתי והטמעתי CRM ומערך כלי מכירה מלא","גייסתי, הכשרתי וניהלתי את הצוות יום-יום"],"result":"הובלת מכירות מלאה ברמת VP בשבריר מעלות של גיוס."},
+ "go-to-market-strategy":{"company":"Bacsoft","anchor":"bacsoft","line":"חברת IIoT ישראלית, בגיבוי SUN Corp מיפן, שהייתה צריכה Go-to-Market גלובלי אמיתי: אסטרטגיה, ערוץ בכמה יבשות ועסקאות מורכבות מול המגזר הציבורי. לקחתי בעלות על הכל.","bullets":["בניתי את אסטרטגיית המכירות הגלובלית ואת רשת המפיצים בעולם","הרצתי מכירה ישירה B2B של SaaS, חומרה ושירותים","הובלתי B2G לאורך מחזורי RFI ו-RFQ ארוכים מול ממשלות וארגונים"],"result":"רשת ערוצים גלובלית ופייפליין B2G, שנבנו ל-IIoT מורכב שנמכר בעולם."},
+ "sales-team-building":{"company":"KanduAI","anchor":"kanduai","line":"סטארטאפ בלי צוות מכירות ובלי Playbook לאחד. בניתי את הצוות ואת התנועה מאפס, והמשכתי לבנות אותם מחדש כשהמוצר עבר פיבוט.","bullets":["גייסתי והכשרתי את צוות ה-SDR מאפס","בניתי את ה-Playbook לאאוטבאונד שהנציגים באמת הריצו","בניתי מחדש את התנועה דרך שני פיבוטים בלי לאבד את הצוות"],"result":"צוות מיומן שמריץ Playbook אאוטבאונד אמיתי, לא מאלתר כל שיחה."},
+ "distributor-channel-recruitment":{"company":"Palram","anchor":"palram","line":"יצרן גלובלי שהיה בטוח שאין כסף במזרח אירופה, ולכן נמנע מלהיכנס. הלכתי ובחנתי את ההנחה מול הערוץ האמיתי בשטח.","bullets":["מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בטריטוריה","ניהלתי כל משא ומתן באופן אישי","החתמתי מספר מפיצים ורשתות קמעונאות באזור"],"result":"מספר מפיצים ורשתות קמעונאות שהוחתמו בשוק שהחברה כבר מחקה."},
+ "market-entry":{"company":"BT9","anchor":"bt9","line":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם שייבנה מהיסוד, בשלוש טריטוריות שונות מאוד: FSU, האיחוד האירופי ו-APAC.","bullets":["בניתי את מערך המכירות מאפס בכל שלוש הטריטוריות","הרצתי מכירה ישירה של SaaS, חומרה ושירותים","גייסתי וניהלתי את רשת המפיצים, הצוות, הפוסט-סייל והתמיכה הטכנית"],"result":"מנוע מכירות בינלאומי עובד בשלוש טריטוריות, שנבנה מאפס."},
+ "b2g-public-sector":{"company":"Bacsoft","anchor":"bacsoft","line":"הובלתי B2G לחברת IIoT ישראלית בגיבוי SUN Corp מיפן: עסקאות ארוכות ומורכבות מול המגזר הציבורי בכל העולם, שבהן סבלנות ותהליך מנצחים, לא מצגות.","bullets":["הרצתי מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים בעולם","בניתי את התהליך שמוביל עסקאות לאורך מחזורי מגזר ציבורי ארוכים","יישרתי את הערוץ ואת המכירה הישירה סביב תנועת ה-B2G"],"result":"פייפליין B2G שנבנה לעסקאות מורכבות מול המגזר הציבורי בעולם."},
+ "contract-negotiation":{"company":"Palram","anchor":"palram","line":"לפתוח שוק שיצרן גלובלי כבר נטש דרש לנהל כל עסקה בעצמי, מול מפיצים ורשתות שלא הייתה להם שום סיבה להמר על מותג שהתעלם מהם.","bullets":["ניהלתי כל משא ומתן באופן אישי, מהתחלה ועד הסוף","בניתי תנאים שעבדו גם לחברה וגם לערוץ","החתמתי את המפיצים והרשתות שהביאו את המוצר למדפים"],"result":"החתמתי את המפיצים והרשתות שהביאו את המוצר למדפים."},
+ "saas-sales":{"company":"Synergix","anchor":"synergix","line":"SaaS מדעי שנמכר לקונה הכי קשה שיש: אוניברסיטאות, מעבדות מחקר ופארמה. טכני, ספקן ובלתי אפשרי לבלוף. בניתי את התנועה והרצתי אותה.","bullets":["הרצתי מכירה ישירה B2B של SaaS לאקדמיה ולפארמה","כתבתי את התסריטים ואת ה-Playbook שהנציגים השתמשו בהם","הובלתי את המאמץ לאורך מחזור ארוך, טכני ועתיר אמון"],"result":"SaaS שנמכר לאקדמיה ולפארמה בארה״ב, מכירה ארוכה, טכנית ועתירת אמון."},
 }
 
 
 def render_case_callout(case, label, rlabel, more, url):
     if not case:
         return ""
+    bullets = ""
+    if case.get("bullets"):
+        bullets = ('\n        <ul>'
+                   + "".join("<li>%s</li>" % esc(b) for b in case["bullets"])
+                   + '</ul>')
+    href = (url + "#" + case["anchor"]) if case.get("anchor") else url
     return ('      <div class="svc-case">\n'
             '        <span class="svc-case-label">%s</span>\n'
-            '        <h3>%s</h3>\n        <p>%s</p>\n'
+            '        <h3>%s</h3>\n        <p>%s</p>%s\n'
             '        <p class="svc-case-result"><strong>%s:</strong> %s</p>\n'
             '        <a class="svc-case-link" href="%s">%s</a>\n      </div>'
-            % (esc(label), esc(case["company"]), esc(case["line"]),
-               esc(rlabel), esc(case["result"]), url, esc(more)))
+            % (esc(label), esc(case["company"]), esc(case["line"]), bullets,
+               esc(rlabel), esc(case["result"]), href, esc(more)))
 
 
 def build():

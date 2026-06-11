@@ -113,6 +113,9 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .svc-case p{color:var(--soft);font-size:1rem;margin:0 0 10px;line-height:1.6}
 .svc-case .svc-case-result{color:#e7edf3}
 .svc-case .svc-case-result strong{color:#fff}
+.svc-case ul{list-style:none;display:grid;gap:8px;margin:0 0 14px;padding:0}
+.svc-case li{position:relative;padding-left:24px;color:#cdd6e0;font-size:.97rem;line-height:1.55}
+.svc-case li::before{content:"";position:absolute;left:2px;top:8px;width:10px;height:6px;border-left:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(-45deg)}
 .svc-case-link{color:var(--blue);font-weight:600;font-size:.92rem}
 .svc-related{margin-top:46px;border-top:1px solid var(--line);padding-top:24px;color:var(--soft);font-size:.95rem}
 .svc-related a{color:var(--blue);font-weight:600}
@@ -148,7 +151,7 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 
 /* case studies */
 .cases-list{display:grid;gap:22px;margin-top:42px}
-.case-study{background:linear-gradient(180deg,#131a28,#0c1119);border:1px solid var(--line);border-radius:18px;padding:32px 34px;position:relative;overflow:hidden}
+.case-study{background:linear-gradient(180deg,#131a28,#0c1119);border:1px solid var(--line);border-radius:18px;padding:32px 34px;position:relative;overflow:hidden;scroll-margin-top:100px}
 .case-study::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue),transparent 65%)}
 .case-study h2{font-family:'Space Grotesk';font-weight:700;text-transform:none;letter-spacing:0;font-size:1.5rem;color:#fff;margin:0 0 6px}
 .case-study .meta{color:var(--blue);font-weight:600;font-size:.95rem;margin-bottom:14px}
