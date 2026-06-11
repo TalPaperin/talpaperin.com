@@ -153,6 +153,13 @@
     .case li{display:flex;gap:13px;align-items:baseline;color:#e7edf3;counter-increment:cl}
     .case li::before{content:counter(cl,decimal-leading-zero);font-family:'Anton',sans-serif;font-size:1.2em;line-height:1;color:var(--blue);flex:0 0 auto;min-width:1.4em;direction:ltr;text-align:right;position:relative;top:.17em}
     @media(max-width:760px){.case{grid-template-columns:1fr;gap:24px;padding:28px}}
+    .case-rail{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:4px 2px 18px;scrollbar-width:thin;scrollbar-color:var(--blue2) rgba(255,255,255,.08)}
+    .case-rail::-webkit-scrollbar{height:8px}
+    .case-rail::-webkit-scrollbar-track{background:rgba(255,255,255,.06);border-radius:99px}
+    .case-rail::-webkit-scrollbar-thumb{background:var(--blue2);border-radius:99px}
+    .case-rail .case{flex:0 0 86%;max-width:540px;grid-template-columns:1fr;gap:22px;align-items:start;scroll-snap-align:start;margin:0}
+    .case-rail .case+.case{margin-top:0}
+    @media(min-width:760px){.case-rail .case{flex-basis:calc(50% - 11px)}}
 
     .caps{display:grid;grid-template-columns:1fr 1fr;gap:20px 44px;margin-top:42px}
     .cap{padding-right:22px;border-right:2px solid rgba(90,176,255,.45)}
@@ -328,6 +335,7 @@
         <p class="eyebrow">מקרי מבחן מהזמן האחרון</p>
         <h2>הגעתי כדי לבנות את המנוע מאפס, לא רק לתת עצות מהצד.</h2>
       </div>
+      <div class="case-rail">
       <article class="case reveal">
         <div class="who"><img class="case-logo" src="/logos/kanduai.jpg" alt="KanduAI" /><h3>סטארטאפ SaaS</h3><p class="role">אריאל שמש, שותף מייסד ומנכ"ל</p><p class="intro">נכנסתי לתפקיד כ-VP Sales במיקור חוץ מהיום הראשון של החברה. לקחתי בעלות מלאה על ה-GTM מקצה לקצה, בניתי את מנוע המכירות מאפס, ואז בניתי אותו מחדש לגמרי כשהחברה עברה פיבוט (Pivot) מלא במוצר.</p></div>
         <ul><li>בניית אסטרטגיית GTM מלאה ותוכנית עבודה מפורטת לפי אבני דרך</li><li>הגדרה ותיקוף בשטח של פרופיל הלקוח האידיאלי (ICP), המיצוב והמסרים</li><li>בניית תוכנית עבודה (Playbook) ותהליכי אאוטבאונד מאפס</li><li>גיוס, הכשרה וניהול יומיומי של צוות ה-SDR</li><li>השקה מחדש של כל אסטרטגיית ה-Go-to-market בתקופת השינוי במוצר</li></ul>
@@ -344,6 +352,7 @@
         <div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><p class="role">יצרן גלובלי, פריצה לשוק במזרח אירופה</p><p class="intro">יצרן בינלאומי שהיה בטוח שאין כסף אמיתי במזרח אירופה, ולכן נמנע מלהיכנס לשם. הוכחתי להם שהם טועים, בניתי תוכנית עבודה ופתחתי את השוק הזה בעצמי.</p></div>
         <ul><li>בניית אסטרטגיית חדירה לשוק המזרח אירופאי ותוכנית יעדים מוגדרת</li><li>מיפוי ערוצי ההפצה וזיהוי מקבלי ההחלטות האמיתיים בשטח</li><li>ניהול והובלה של כל תהליכי המשא ומתן באופן אישי</li><li>החתמת מספר מפיצים ורשתות קמעונאות באזור</li><li>הבאת המוצרים למדפים פיזיים בשוק שהחברה כבר מחקה לחלוטין</li><li>הוכחה חותכת שיש שוק ענק ורווחי במזרח אירופה</li></ul>
       </article>
+      </div>
       <p class="reveal" style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/he/case-studies">עוד מקרי מבחן</a></p>
     </div>
   </section>
@@ -453,13 +462,7 @@
         <div class="glowline"></div>
         <h2>ספרו לי איפה המכירות שלכם נתקעו. אני אגיד לכם למה.</h2>
         <p class="sub">שיחה של 15 דקות, בלי ניסיונות מכירה מאולצים. אתם תצאו מהשיחה הזו עם לפחות דבר אחד פרקטי וברור שצריך לתקן בעסק, בין אם נחליט לעבוד ביחד ובין אם לא.</p>
-        <div class="cta"><a class="btn btn-solid" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה של 15 דקות</a> <a class="btn btn-outline" href="/he/contact">שליחת הודעה</a></div>
-        <div class="contact-row">
-          <span>מייל: <a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></span>
-          <span>טלפון: <a href="tel:+972545308119">+972 54 530 8119</a></span>
-          <span>וואטסאפ: <a href="https://wa.me/972545308119" target="_blank" rel="noopener">+972 54 530 8119</a></span>
-          <span>לינקדאין: <a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">/in/talpaperin</a></span>
-        </div>
+        <div class="cta"><a class="btn btn-solid" href="/he/contact">בואו נדבר</a></div>
       </div>
     </div>
   </section>
