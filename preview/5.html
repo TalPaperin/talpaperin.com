@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>5 · Word Storm · Hero Preview | Tal Paperin</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/preview/shared.css" />
+  <style>
+    .bg{position:fixed;inset:0;z-index:0;background:radial-gradient(120% 100% at 70% 40%,#0b1525 0%,#06080c 60%)}
+    .storm{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+    .stream{position:absolute;white-space:nowrap;font-family:'Anton',sans-serif;text-transform:uppercase;color:#6fb0ff}
+    .stream b{padding:0 .4em}
+    .s1{top:12%;font-size:7vw;opacity:.10;animation:mv 24s linear infinite}
+    .s2{top:40%;font-size:9vw;opacity:.07;color:#9fd0ff;animation:mv 34s linear infinite reverse}
+    .s3{top:68%;font-size:6.5vw;opacity:.11;animation:mv 28s linear infinite}
+    @keyframes mv{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+    .fly{position:absolute;z-index:5;font-family:'Anton',sans-serif;text-transform:uppercase;color:#fff;text-shadow:0 0 34px rgba(90,176,255,.8);pointer-events:none;will-change:transform,opacity;left:50%;top:50%}
+    @keyframes flyin{0%{opacity:0;transform:translate(-50%,-50%) translate(var(--fx),var(--fy)) scale(.35) rotate(var(--fr))}22%{opacity:1}60%{opacity:1;transform:translate(-50%,-50%) scale(1) rotate(0)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.35)}}
+    .v5 .photo-wrap{opacity:.55;mix-blend-mode:luminosity}
+    .v5 .fade{background:linear-gradient(90deg,#06080c 22%,rgba(6,8,12,.4) 50%,rgba(6,8,12,.1) 74%,transparent 90%)}
+  </style>
+</head>
+<body class="v5" data-v="5">
+  <div class="bg"></div>
+  <main id="hero" class="hero">
+    <div class="storm">
+      <div class="stream s1" id="s1"></div><div class="stream s2" id="s2"></div><div class="stream s3" id="s3"></div>
+    </div>
+  </main>
+  <section class="peek"><div class="in"><h2>Tell me where revenue stalled. I’ll tell you why.</h2><p>Hero concept only. Pick another from the bar up top. The winning direction gets carried across the whole page, keeping the current content, SEO and bilingual build.</p></div></section>
+  <script src="/preview/shared.js"></script>
+  <script>
+  (function(){
+    var s=['Revenue','Pipeline','Quota','Forecast','Margin','Distributors','Negotiation','Market Entry','Go-To-Market','Retention'];
+    function line(id){var h='';for(var d=0;d<2;d++){s.forEach(function(w){h+='<b>'+w+'</b>·';});}document.getElementById(id).innerHTML=h;}
+    line('s1');line('s2');line('s3');
+    if(window.PV_REDUCE)return;
+    var verbs=['CLOSE','SCALE','WIN','EXPAND','FORECAST','NEGOTIATE','CONVERT','OWN IT'];var hero=document.getElementById('hero');
+    function spawn(){var el=document.createElement('div');el.className='fly';el.textContent=verbs[Math.floor(Math.random()*verbs.length)];
+      var ang=Math.random()*6.28,dist=Math.max(innerWidth,innerHeight)*.6;
+      el.style.setProperty('--fx',Math.cos(ang)*dist+'px');el.style.setProperty('--fy',Math.sin(ang)*dist+'px');
+      el.style.setProperty('--fr',(Math.random()*40-20)+'deg');
+      el.style.fontSize=(Math.random()*3+3.5)+'vw';el.style.animation='flyin 2.2s cubic-bezier(.2,.7,.2,1) forwards';
+      hero.appendChild(el);setTimeout(function(){el.remove();},2300);}
+    spawn();setInterval(spawn,1300);
+  })();
+  </script>
+</body>
+</html>

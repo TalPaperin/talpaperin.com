@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>10 · Comets · Hero Preview | Tal Paperin</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/preview/shared.css" />
+  <style>
+    .bg{position:fixed;inset:0;z-index:0;background:radial-gradient(120% 100% at 72% 36%,#0b1626 0%,#06080c 60%)}
+    .wring{position:absolute;right:8%;top:50%;transform:translateY(-50%);width:min(64vw,760px);height:min(64vw,760px);z-index:1;animation:orb 46s linear infinite;pointer-events:none}
+    @keyframes orb{to{transform:translateY(-50%) rotate(360deg)}}
+    .wring b{position:absolute;transform:translate(-50%,-50%);font-family:'Anton';text-transform:uppercase;color:rgba(120,180,255,.16);font-size:1.5vw;white-space:nowrap}
+    .comet{position:absolute;z-index:4;font-family:'Anton';text-transform:uppercase;color:#bfe0ff;white-space:nowrap;pointer-events:none;text-shadow:0 0 16px rgba(90,176,255,.9);will-change:transform,opacity}
+    @keyframes shoot{0%{opacity:0;transform:translate(0,0)}10%{opacity:1}100%{opacity:0;transform:translate(var(--dx),var(--dy))}}
+    .toasts{position:absolute;left:40px;bottom:34px;z-index:7;display:flex;flex-direction:column;gap:10px}
+    .toast{background:rgba(10,18,30,.92);border:1px solid rgba(70,224,154,.35);border-left:3px solid var(--green);border-radius:12px;padding:11px 16px;font:600 13px/1.35 'Space Grotesk';color:#dfeaf2;box-shadow:0 16px 40px rgba(0,0,0,.5);min-width:230px;opacity:0;transform:translateY(14px);animation:tin .4s forwards}
+    .toast .h{display:flex;align-items:center;gap:8px;color:var(--green)}
+    .toast .s{color:#9fb4c4;font-weight:500;margin-top:2px}
+    @keyframes tin{to{opacity:1;transform:translateY(0)}}
+    .v10 .fade{background:linear-gradient(90deg,#06080c 24%,rgba(6,8,12,.45) 50%,rgba(6,8,12,.08) 74%,transparent 90%)}
+    @media(max-width:820px){.toasts{display:none}}
+  </style>
+</head>
+<body class="v10" data-v="10">
+  <div class="bg"></div>
+  <main id="hero" class="hero">
+    <div class="wring" id="wring"></div>
+    <div class="toasts" id="toasts"></div>
+  </main>
+  <section class="peek"><div class="in"><h2>Tell me where revenue stalled. I’ll tell you why.</h2><p>Hero concept only. Pick another from the bar up top. The winning direction gets carried across the whole page, keeping the current content, SEO and bilingual build.</p></div></section>
+  <script src="/preview/shared.js"></script>
+  <script>
+  (function(){
+    var words=['Revenue','Pipeline','Quota','Forecast','Distributors','B2G','Margin','Retention','Go-To-Market','Negotiation'];
+    var wr=document.getElementById('wring');words.forEach(function(w,k){var a=2*Math.PI*k/words.length;var x=50+47*Math.cos(a),y=50+47*Math.sin(a);var b=document.createElement('b');b.textContent=w;b.style.left=x+'%';b.style.top=y+'%';wr.appendChild(b);});
+    if(window.PV_REDUCE)return;
+    var hero=document.getElementById('hero');
+    var cs=['+$48k','▲','$120k','NEW DEAL','▲','$','WON','+$12k'];
+    function comet(){var c=document.createElement('div');c.className='comet';c.textContent=cs[Math.floor(Math.random()*cs.length)];
+      var y=Math.random()*70+5;c.style.left='-12%';c.style.top=y+'%';c.style.fontSize=(Math.random()*1.6+1.1)+'rem';
+      c.style.setProperty('--dx',(innerWidth*1.25)+'px');c.style.setProperty('--dy',(Math.random()*120+40)+'px');
+      c.style.animation='shoot '+(Math.random()*.8+1.5)+'s linear forwards';hero.appendChild(c);setTimeout(function(){c.remove();},2400);}
+    setInterval(comet,820);comet();
+    var wins=[['Deal closed','+$48,000'],['Distributor signed','DACH region'],['Quota hit','142% of plan'],['New market','Romania, live'],['Renewal','+$120k ARR'],['Pipeline','+38% QoQ'],['RFQ won','public sector']];
+    var box=document.getElementById('toasts'),wi=0;
+    function toast(){var w=wins[wi%wins.length];wi++;var t=document.createElement('div');t.className='toast';t.innerHTML='<div class="h">✓ '+w[0]+'</div><div class="s">'+w[1]+'</div>';box.appendChild(t);
+      if(box.children.length>3)box.removeChild(box.firstChild);
+      setTimeout(function(){t.style.transition='opacity .4s,transform .4s';t.style.opacity='0';t.style.transform='translateY(-10px)';setTimeout(function(){if(t.parentNode)t.remove();},400);},3400);}
+    toast();setInterval(toast,2200);
+  })();
+  </script>
+</body>
+</html>

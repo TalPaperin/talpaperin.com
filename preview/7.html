@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>7 · Spotlight · Hero Preview | Tal Paperin</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/preview/shared.css" />
+  <style>
+    .bg{position:fixed;inset:0;z-index:0;background:#04060a}
+    .v7 .photo-wrap{width:60%}
+    .v7 .photo-wrap .photo{filter:brightness(.26) contrast(1.25) grayscale(.35);animation:kb 20s ease-in-out infinite alternate}
+    @keyframes kb{from{transform:scale(1.04)}to{transform:scale(1.16)}}
+    .reveal-light{position:fixed;z-index:4;width:560px;height:560px;border-radius:50%;pointer-events:none;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(255,255,255,.5),rgba(120,190,255,.22) 36%,transparent 64%);mix-blend-mode:screen;opacity:0;transition:opacity .4s}
+    .v7 .fade{background:linear-gradient(90deg,#04060a 30%,rgba(4,6,10,.6) 52%,rgba(4,6,10,.2) 74%,transparent 92%),linear-gradient(0deg,#04060a 3%,transparent 36%)}
+    .v7 .name{text-shadow:0 0 40px rgba(90,176,255,.45)}
+    .ember{position:absolute;bottom:-10px;width:3px;height:3px;border-radius:50%;background:rgba(150,205,255,.9);box-shadow:0 0 8px rgba(120,190,255,.9);z-index:3;pointer-events:none}
+    @keyframes rise{to{transform:translateY(-78vh) translateX(var(--ex,0));opacity:0}}
+  </style>
+</head>
+<body class="v7" data-v="7">
+  <div class="bg"></div>
+  <div class="reveal-light" id="rl"></div>
+  <main id="hero" class="hero"></main>
+  <section class="peek"><div class="in"><h2>Tell me where revenue stalled. I’ll tell you why.</h2><p>Hero concept only. Pick another from the bar up top. The winning direction gets carried across the whole page, keeping the current content, SEO and bilingual build.</p></div></section>
+  <script src="/preview/shared.js"></script>
+  <script>
+  (function(){
+    if(window.PV_REDUCE)return;
+    var rl=document.getElementById('rl');
+    if(window.PV_FINE){addEventListener('pointermove',function(e){rl.style.opacity='1';rl.style.left=e.clientX+'px';rl.style.top=e.clientY+'px';},{passive:true});}
+    var hero=document.getElementById('hero');
+    setInterval(function(){var e=document.createElement('div');e.className='ember';e.style.left=(Math.random()*100)+'%';e.style.setProperty('--ex',(Math.random()*60-30)+'px');var dur=(Math.random()*4+5);e.style.animation='rise '+dur+'s linear forwards';hero.appendChild(e);setTimeout(function(){e.remove();},dur*1000);},280);
+  })();
+  </script>
+</body>
+</html>
