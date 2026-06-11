@@ -51,6 +51,8 @@ SERVICES = _svc_mod.SERVICES
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
+MONTHS_HE = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי",
+             "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"]
 RFC822_DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 RFC822_MONS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug",
                "Sep", "Oct", "Nov", "Dec"]
@@ -215,7 +217,9 @@ def parse_date(s):
     return datetime.date(*[int(x) for x in s.split("-")])
 
 
-def human_date(d):
+def human_date(d, lang="en"):
+    if lang == "he":
+        return "%d ב%s %d" % (d.day, MONTHS_HE[d.month - 1], d.year)
     return "%s %d, %d" % (MONTHS[d.month - 1], d.day, d.year)
 
 
@@ -330,7 +334,7 @@ def render_post(p):
         .replace("{{HREFLANG}}", hreflang_block(p["slug"], p["alt"], p["lang"])) \
         .replace("{{LD}}", ld) \
         .replace("{{CRUMB}}", crumb) \
-        .replace("{{HUMAN_DATE}}", human_date(p["date"])) \
+        .replace("{{HUMAN_DATE}}", human_date(p["date"], p["lang"])) \
         .replace("{{READ}}", str(p["read"])) \
         .replace("{{TAGROW}}", tagrow) \
         .replace("{{BODY}}", p["body_html"]) \
@@ -361,7 +365,7 @@ def render_index(posts, lang="en"):
             '        <p>%s</p>\n'
             '        %s\n'
             '        <span class="more">%s</span>\n'
-            '      </a>' % (url, human_date(p["date"]), p["read"], read_lbl,
+            '      </a>' % (url, human_date(p["date"], lang), p["read"], read_lbl,
                            esc(p["title"]), esc(p["description"]), tagrow, more_lbl))
     empty = 'בקרוב הפוסטים הראשונים.' if he else 'First posts coming soon.'
     listing = "\n".join(cards) if cards else \
