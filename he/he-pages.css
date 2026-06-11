@@ -34,6 +34,13 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .svc ul{list-style:none;display:grid;gap:12px;margin:0 0 22px;padding:0}
 .svc li{position:relative;padding-right:28px;color:#d7dee6;line-height:1.7}
 .svc li::before{content:"";position:absolute;right:2px;top:11px;width:12px;height:7px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg)}
+.svc-case{margin-top:44px;background:var(--bg2);border:1px solid var(--line);border-right:3px solid var(--blue);border-radius:14px;padding:24px 26px}
+.svc-case-label{display:block;color:var(--blue);font-size:.72rem;letter-spacing:.04em;font-weight:700;margin-bottom:8px}
+.svc-case h3{font-size:1.25rem;color:#fff;margin:0 0 10px}
+.svc-case p{color:var(--soft);font-size:1rem;margin:0 0 10px;line-height:1.7}
+.svc-case .svc-case-result{color:#e7edf3}
+.svc-case .svc-case-result strong{color:#fff}
+.svc-case-link{color:var(--blue);font-weight:600;font-size:.92rem}
 .svc-related{margin-top:46px;border-top:1px solid var(--line);padding-top:24px;color:var(--soft);font-size:.95rem}
 .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:42px}
 .svc-card{display:block;background:linear-gradient(180deg,#131a28,#0c1119);border:1px solid var(--line);border-radius:18px;padding:28px 30px;transition:border-color .2s,transform .2s}

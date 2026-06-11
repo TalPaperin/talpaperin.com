@@ -73,6 +73,24 @@
     <lastmod>2026-06-11</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/services/b2g-public-sector</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/services/contract-negotiation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/services/saas-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -110,6 +128,24 @@
   </url>
   <url>
     <loc>https://talpaperin.com/he/services/market-entry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/services/b2g-public-sector</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/services/contract-negotiation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/services/saas-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-06-11</lastmod>

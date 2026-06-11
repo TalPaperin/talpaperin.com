@@ -188,6 +188,45 @@ SERVICES = [
     {"h":"B2G and complex deals","p":[
       "I also run B2G and complex public-sector deals, RFIs, RFQs and government projects, across the globe."]},
   ]},
+
+ {"slug":"b2g-public-sector","nav":"B2G & Public Sector","h1":"B2G and Public-Sector Sales",
+  "title":"B2G and Public-Sector Sales, RFIs and RFQs | Tal Paperin",
+  "desc":"Win complex government and public-sector deals. RFIs, RFQs and B2G projects across the globe, run by someone who has actually closed them.",
+  "eyebrow":"Service",
+  "lead":"Government deals go to die in red tape. I run B2G and complex public-sector sales, RFIs, RFQs and government projects, across the globe.",
+  "card":"Win complex government and public-sector deals: RFIs, RFQs and B2G projects, run by someone who has closed them.",
+  "sections":[
+    {"h":"When you need this","p":["Public-sector and government sales are a different sport: long cycles, formal processes, procurement gatekeepers and paperwork that kills momentum. Most commercial sales teams stall the moment an RFI lands."],
+     "ul":["You are stuck in RFIs, RFQs and tenders that go nowhere","Your product fits the public sector but the process is foreign to you","You need someone who has navigated government procurement before"]},
+    {"h":"What I do","ul":["Run B2G and complex public-sector deals end to end","Handle RFIs, RFQs, tenders and government projects across the globe","Map the real decision-makers and the procurement path","Position you to win, not just to submit"]},
+    {"h":"Why B2G is its own game","p":["Selling to a government is not selling to a company. The buyer, the rules and the timeline are different, and the cost of getting it wrong is a year lost. I have run these deals internationally and I know where they stall."]},
+  ]},
+
+ {"slug":"contract-negotiation","nav":"Contract Negotiation","h1":"Contract Negotiation",
+  "title":"B2B Contract Negotiation | Tal Paperin",
+  "desc":"Take over the negotiation and close the complex, high-value agreements. I lead the deals that move the number.",
+  "eyebrow":"Service",
+  "lead":"Big deals slip away in the negotiation. I take over contract negotiation and close the complex, high-value agreements.",
+  "card":"I take over the negotiation and close the complex, high-value deals that move the number.",
+  "sections":[
+    {"h":"When you need this","p":["Your biggest deals are the ones you can least afford to lose, and the ones most likely to stall in negotiation: pricing, terms, legal, procurement, and a buyer who senses hesitation."],
+     "ul":["High-value deals keep slipping at the negotiation stage","Your team is strong at selling but not at closing the hard terms","You need a steady hand on the deals that matter most"]},
+    {"h":"What I do","ul":["Take over the negotiation on your complex, high-value deals","Hold price and terms without losing the deal","Manage procurement, legal and the decision-makers","Close the agreements that actually move the number"]},
+    {"h":"How it works","p":["I step into the live deal, get the full picture fast, and lead it to signature. Twenty years of closing complex B2B and B2G agreements across four continents means I have seen the tactics before they are used on you."]},
+  ]},
+
+ {"slug":"saas-sales","nav":"SaaS Sales","h1":"SaaS Sales and Go-To-Market",
+  "title":"SaaS Sales and Go-To-Market | Tal Paperin",
+  "desc":"Sell SaaS to a hard B2B buyer. Positioning, motion, channel and the team, built for software companies going to market.",
+  "eyebrow":"Service",
+  "lead":"Selling SaaS is its own discipline. I build the positioning, the motion, the channel and the team for software companies, including the long, technical, high-trust sale.",
+  "card":"Positioning, motion, channel and team for software companies, built for the SaaS sale.",
+  "sections":[
+    {"h":"When you need this","p":["A great product is not a go-to-market. SaaS buyers are skeptical, technical and surrounded by alternatives, and a generic sales motion does not move them."],
+     "ul":["Strong product, but the SaaS sales motion is not converting","You sell to technical or scientific buyers who need a different approach","You need a channel and a team built for software, not improvised"]},
+    {"h":"What I do","ul":["Sharpen positioning, the ICP and the value proposition for a SaaS buyer","Build the outbound and the playbook the motion runs on","Build the channel: resellers, integrators and partners","Hire, train and manage the SaaS sales team"]},
+    {"h":"Across the SaaS sale","p":["I have sold SaaS to startups, to enterprise, and to some of the hardest buyers there are, universities, research labs and pharma, where the sale is long, technical and built entirely on trust."]},
+  ]},
 ]
 
 
@@ -257,6 +296,7 @@ PAGE = '''<!doctype html>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
+{case}
 {cta}
         <div class="svc-related">Related services: {related} &middot; <a href="/blog/">Read the blog</a></div>
       </div>
@@ -452,6 +492,45 @@ HE_SERVICES = [
     {"h":"B2G ועסקאות מורכבות",
      "p":["אני גם מנהל עסקאות B2G ועסקאות מורכבות מול המגזר הציבורי, מכרזים, RFIs, RFQs ופרויקטים ממשלתיים, בכל העולם."]},
   ]},
+
+ {"slug":"b2g-public-sector","nav":"B2G ומגזר ציבורי","h1":"מכירות B2G ולמגזר הציבורי",
+  "title":"מכירות B2G ולמגזר הציבורי, מכרזים, RFIs ו-RFQs | טל פאפרין",
+  "desc":"לזכות בעסקאות מורכבות מול ממשלות והמגזר הציבורי. מכרזים, RFIs, RFQs ופרויקטים ממשלתיים בכל העולם, על ידי מי שכבר סגר כאלה.",
+  "eyebrow":"שירות",
+  "lead":"עסקאות ממשלתיות הולכות למות בבירוקרטיה. אני מנהל מכירות B2G ועסקאות מורכבות מול המגזר הציבורי, מכרזים, RFIs, RFQs ופרויקטים ממשלתיים, בכל העולם.",
+  "card":"לזכות בעסקאות מורכבות מול ממשלות והמגזר הציבורי: מכרזים, RFIs ו-RFQs, על ידי מי שכבר סגר כאלה.",
+  "sections":[
+    {"h":"מתי צריך את זה","p":["מכירה למגזר הציבורי ולממשלות היא משחק אחר לגמרי: מחזורים ארוכים, תהליכים פורמליים, שומרי סף ברכש ובירוקרטיה שהורגת מומנטום. רוב צוותי המכירות המסחריים נתקעים ברגע שמגיע RFI."],
+     "ul":["אתם תקועים במכרזים, RFIs ו-RFQs שלא מתקדמים","המוצר שלכם מתאים למגזר הציבורי אבל התהליך זר לכם","אתם צריכים מישהו שכבר ניווט ברכש ממשלתי"]},
+    {"h":"מה אני עושה","ul":["ניהול עסקאות B2G ומורכבות מול המגזר הציבורי מקצה לקצה","טיפול במכרזים, RFIs, RFQs ופרויקטים ממשלתיים בכל העולם","מיפוי מקבלי ההחלטות האמיתיים ונתיב הרכש","מיצוב שלכם כדי לזכות, לא רק כדי להגיש"]},
+    {"h":"למה B2G זה משחק אחר","p":["מכירה לממשלה היא לא מכירה לחברה. הקונה, הכללים ולוחות הזמנים שונים, והמחיר של טעות הוא שנה שאבדה. ניהלתי את העסקאות האלה בעולם ואני יודע איפה הן נתקעות."]},
+  ]},
+
+ {"slug":"contract-negotiation","nav":"משא ומתן","h1":"ניהול משא ומתן על חוזים",
+  "title":"ניהול משא ומתן על חוזים B2B | טל פאפרין",
+  "desc":"לקחת פיקוד על המשא ומתן ולסגור את ההסכמים המורכבים והגדולים. אני מוביל את העסקאות שמזיזות את המספר.",
+  "eyebrow":"שירות",
+  "lead":"עסקאות גדולות מתמסמסות במשא ומתן. אני לוקח פיקוד על המשא ומתן וסוגר את ההסכמים המורכבים והרווחיים.",
+  "card":"אני לוקח פיקוד על המשא ומתן וסוגר את העסקאות המורכבות והגדולות שמזיזות את המספר.",
+  "sections":[
+    {"h":"מתי צריך את זה","p":["העסקאות הכי גדולות שלכם הן אלה שאתם הכי לא יכולים להרשות לעצמכם להפסיד, ואלה שהכי נוטות להיתקע במשא ומתן: מחיר, תנאים, משפטי, רכש, וקונה שמריח היסוס."],
+     "ul":["עסקאות גדולות נתקעות שוב ושוב בשלב המשא ומתן","הצוות שלכם חזק במכירה אבל לא בסגירת התנאים הקשים","אתם צריכים יד יציבה על העסקאות הכי חשובות"]},
+    {"h":"מה אני עושה","ul":["לקיחת פיקוד על המשא ומתן בעסקאות המורכבות והגדולות שלכם","החזקת מחיר ותנאים בלי לאבד את העסקה","ניהול הרכש, המשפטי ומקבלי ההחלטות","סגירת ההסכמים שבאמת מזיזים את המספר"]},
+    {"h":"איך זה עובד","p":["אני נכנס לעסקה החיה, קולט את התמונה המלאה מהר, ומוביל אותה עד החתימה. 20 שנה של סגירת הסכמים מורכבים B2B ו-B2G בארבע יבשות, אני מכיר את הטקטיקות עוד לפני שמפעילים אותן עליכם."]},
+  ]},
+
+ {"slug":"saas-sales","nav":"מכירות SaaS","h1":"מכירות SaaS ו-Go-To-Market",
+  "title":"מכירות SaaS ו-Go-To-Market | טל פאפרין",
+  "desc":"למכור SaaS לקונה B2B קשה. מיצוב, תנועה, ערוץ וצוות, בנויים לחברות תוכנה שיוצאות לשוק.",
+  "eyebrow":"שירות",
+  "lead":"מכירת SaaS היא דיסציפלינה בפני עצמה. אני בונה את המיצוב, התנועה, הערוץ והצוות לחברות תוכנה, כולל המכירה הארוכה, הטכנית ועתירת האמון.",
+  "card":"מיצוב, תנועה, ערוץ וצוות לחברות תוכנה, בנויים למכירת ה-SaaS.",
+  "sections":[
+    {"h":"מתי צריך את זה","p":["מוצר מעולה הוא לא Go-to-Market. קוני SaaS הם ספקנים, טכניים ומוקפים באלטרנטיבות, ותנועת מכירות גנרית לא מזיזה אותם."],
+     "ul":["מוצר חזק, אבל תנועת מכירות ה-SaaS לא ממירה","אתם מוכרים לקונים טכניים או מדעיים שצריכים גישה אחרת","אתם צריכים ערוץ וצוות בנויים לתוכנה, לא מאולתרים"]},
+    {"h":"מה אני עושה","ul":["חידוד המיצוב, ה-ICP והצעת הערך לקונה SaaS","בניית האאוטבאונד וה-Playbook שהתנועה רצה עליו","בניית הערוץ: ריסלרים, אינטגרטורים ושותפים","גיוס, הכשרה וניהול של צוות מכירות ה-SaaS"]},
+    {"h":"לאורך מכירת ה-SaaS","p":["מכרתי SaaS לסטארטאפים, לארגונים גדולים, ולחלק מהקונים הכי קשים שיש, אוניברסיטאות, מעבדות מחקר וחברות פארמה, שם המכירה ארוכה, טכנית ובנויה כולה על אמון."]},
+  ]},
 ]
 
 HE_FAQ = {
@@ -536,6 +615,7 @@ HE_PAGE = '''<!doctype html>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
+{case}
 {cta}
         <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/blog/">לבלוג</a></div>
       </div>
@@ -1049,6 +1129,43 @@ CS_PAGE_HE = '''<!doctype html>
 '''
 
 
+SERVICE_CASE_EN = {
+ "fractional-cro":{"company":"KanduAI","line":"Brought in as fractional VP of Sales from day one. I owned go-to-market end to end and rebuilt the entire engine through a full product pivot.","result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
+ "outsourced-sales":{"company":"LoneStar Tracking","line":"Strong marketing, a sales engine that was not converting, and founders with little sales experience. I built and ran the entire sales side.","result":"Full VP-level sales leadership at a fraction of the cost of a hire."},
+ "go-to-market-strategy":{"company":"Bacsoft","line":"An Israeli IIoT company that needed a global go-to-market: strategy, a channel and complex public-sector deals. I owned all of it.","result":"A global channel and a B2G pipeline, built for complex IIoT sold worldwide."},
+ "sales-team-building":{"company":"KanduAI","line":"I hired, trained and managed the SDR team, and rebuilt the motion through a product pivot.","result":"A trained team running a real outbound playbook, not improvising every call."},
+ "distributor-channel-recruitment":{"company":"Palram","line":"A global manufacturer convinced there was no money in Eastern Europe. I mapped the channel and the real decision-makers, and signed the partners on the ground.","result":"Multiple distributors and retail chains signed in a market they had written off."},
+ "market-entry":{"company":"BT9","line":"A company that needed an entire international sales operation built from the ground up, across the FSU, the EU and APAC.","result":"A working international sales engine across three regions, built from scratch."},
+ "b2g-public-sector":{"company":"Bacsoft","line":"Led B2G for an Israeli IIoT company backed by Japan's SUN Corp: RFIs, RFQs and complex government projects across the globe.","result":"A B2G pipeline built for complex public-sector deals worldwide."},
+ "contract-negotiation":{"company":"Palram","line":"Led every negotiation personally to open a market a global manufacturer had abandoned.","result":"Signed the distributors and chains that put product on the shelves."},
+ "saas-sales":{"company":"Synergix","line":"Sold scientific SaaS to a hard, technical US buyer: universities, research labs and pharma companies.","result":"SaaS sold into US academia and pharma, a long, technical, high-trust sale."},
+}
+
+SERVICE_CASE_HE = {
+ "fractional-cro":{"company":"KanduAI","line":"נכנסתי כ-VP מכירות במיקור חוץ מהיום הראשון. לקחתי בעלות מלאה על ה-GTM ובניתי מחדש את כל המנוע דרך פיבוט מלא במוצר.","result":"מנוע אאוטבאונד עובד, שנבנה מחדש מאפס דרך פיבוט, במהירות ובדיוק."},
+ "outsourced-sales":{"company":"LoneStar Tracking","line":"שיווק חזק, מנוע מכירות שלא המיר, ומייסדים עם מעט ניסיון במכירות. בניתי והרצתי את כל צד המכירות.","result":"הובלת מכירות מלאה ברמת VP בשבריר מעלות של גיוס."},
+ "go-to-market-strategy":{"company":"Bacsoft","line":"חברת IIoT ישראלית שהייתה צריכה Go-to-Market גלובלי: אסטרטגיה, ערוץ ועסקאות מורכבות מול המגזר הציבורי. לקחתי בעלות על הכל.","result":"רשת ערוצים גלובלית ופייפליין B2G, שנבנו ל-IIoT מורכב שנמכר בעולם."},
+ "sales-team-building":{"company":"KanduAI","line":"גייסתי, הכשרתי וניהלתי את צוות ה-SDR, ובניתי מחדש את התנועה דרך פיבוט במוצר.","result":"צוות מיומן שמריץ Playbook אאוטבאונד אמיתי, לא מאלתר כל שיחה."},
+ "distributor-channel-recruitment":{"company":"Palram","line":"יצרן גלובלי שהיה בטוח שאין כסף במזרח אירופה. מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים, והחתמתי את השותפים בשטח.","result":"מספר מפיצים ורשתות קמעונאות שהוחתמו בשוק שהחברה כבר מחקה."},
+ "market-entry":{"company":"BT9","line":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם שייבנה מאפס, ב-FSU, באיחוד האירופי וב-APAC.","result":"מנוע מכירות בינלאומי עובד בשלוש טריטוריות, שנבנה מאפס."},
+ "b2g-public-sector":{"company":"Bacsoft","line":"הובלתי B2G לחברת IIoT ישראלית בגיבוי SUN Corp מיפן: מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים בכל העולם.","result":"פייפליין B2G שנבנה לעסקאות מורכבות מול המגזר הציבורי בעולם."},
+ "contract-negotiation":{"company":"Palram","line":"ניהלתי כל משא ומתן באופן אישי כדי לפתוח שוק שיצרן גלובלי כבר נטש.","result":"החתמתי את המפיצים והרשתות שהביאו את המוצר למדפים."},
+ "saas-sales":{"company":"Synergix","line":"מכרתי SaaS מדעי לקונה אמריקאי קשה וטכני: אוניברסיטאות, מעבדות מחקר וחברות פארמה.","result":"SaaS שנמכר לאקדמיה ולפארמה בארה״ב, מכירה ארוכה, טכנית ועתירת אמון."},
+}
+
+
+def render_case_callout(case, label, rlabel, more, url):
+    if not case:
+        return ""
+    return ('      <div class="svc-case">\n'
+            '        <span class="svc-case-label">%s</span>\n'
+            '        <h3>%s</h3>\n        <p>%s</p>\n'
+            '        <p class="svc-case-result"><strong>%s:</strong> %s</p>\n'
+            '        <a class="svc-case-link" href="%s">%s</a>\n      </div>'
+            % (esc(label), esc(case["company"]), esc(case["line"]),
+               esc(rlabel), esc(case["result"]), url, esc(more)))
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -1075,6 +1192,7 @@ def build():
             title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, site=SITE,
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_related(svc["slug"]),
+            case=render_case_callout(SERVICE_CASE_EN.get(svc["slug"]), "Case study", "Result", "See more case studies", "/case-studies"),
             fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX,
             ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(SVC_DIR, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
@@ -1109,6 +1227,7 @@ def build():
             title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, en=en, site=SITE,
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_he_related(svc["slug"]),
+            case=render_case_callout(SERVICE_CASE_HE.get(svc["slug"]), "מקרה לקוח", "תוצאה", "לעוד מקרי מבחן", "/he/case-studies"),
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA,
             ld=ld, crumb=crumb)
         with open(os.path.join(he_dir, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
