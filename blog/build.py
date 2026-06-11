@@ -727,7 +727,7 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
       <div class="blog-head">
         <div class="glowline"></div>
         <p class="eyebrow">בלוג</p>
-        <h1>רשימות על מכירה, צמיחה ותיקון הכנסות.</h1>
+        <h1>מכירות, פיתוח עסקי וגדילה</h1>
         <p>תובנות מעשיות על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על המספר בארבע יבשות.</p>
       </div>
       <div class="post-list">
