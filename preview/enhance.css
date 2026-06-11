@@ -1,0 +1,57 @@
+/* ============================================================
+   Premium enhancement layer for talpaperin.com  (VISUAL ONLY)
+   Adds depth, motion and business graphics. Changes no copy.
+   ============================================================ */
+
+/* scroll progress bar */
+#scrollprog{position:fixed;top:0;left:0;height:3px;width:0;z-index:200;background:linear-gradient(90deg,var(--blue2),var(--blue),#7ec8ff);box-shadow:0 0 12px rgba(90,176,255,.55);pointer-events:none}
+
+/* preview ribbon */
+#pvribbon{position:fixed;top:14px;right:14px;z-index:210;display:flex;gap:10px;align-items:center;font:600 11px/1 'Space Grotesk';letter-spacing:.14em;text-transform:uppercase}
+#pvribbon .t{background:rgba(90,176,255,.14);border:1px solid rgba(90,176,255,.4);color:#bfe0ff;border-radius:999px;padding:7px 12px}
+#pvribbon a{color:var(--soft);border-bottom:1px solid transparent}
+#pvribbon a:hover{color:#fff;border-color:#fff}
+
+/* nav: solidify + tighten on scroll */
+nav.site{transition:background .3s ease,box-shadow .3s ease}
+nav.site .inner{transition:padding .3s ease}
+nav.site.scrolled{background:rgba(6,8,12,.92);box-shadow:0 10px 34px rgba(0,0,0,.45)}
+nav.site.scrolled .inner{padding-top:9px;padding-bottom:9px}
+
+/* smoother, more premium reveal easing (existing .reveal system kept) */
+.reveal{transition:opacity 1s cubic-bezier(.16,.74,.2,1),transform 1s cubic-bezier(.16,.74,.2,1)!important}
+
+/* card depth + hover lift + glow (applies to existing cards, no markup change) */
+.card3,.case,.quote,.svc-card,.post-card,.case-study,.cap{transition:transform .28s cubic-bezier(.2,.7,.2,1),border-color .28s,box-shadow .28s,background .28s}
+.card3{position:relative;overflow:hidden;will-change:transform}
+.card3:hover,.case:hover{border-color:rgba(90,176,255,.5);box-shadow:0 28px 64px rgba(0,0,0,.5),0 0 0 1px rgba(90,176,255,.22)}
+.card3.feat:hover{box-shadow:0 32px 74px rgba(31,111,178,.34),0 0 0 1px rgba(90,176,255,.4)}
+.card3:not(:hover){transform:translateY(0)}
+.card3:hover{transform:translateY(-6px)}
+/* cursor-follow sheen on the engagement / product cards */
+.card3::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(420px circle at var(--mx,50%) var(--my,-20%),rgba(90,176,255,.14),transparent 62%);opacity:0;transition:opacity .35s;pointer-events:none}
+.card3:hover::after{opacity:1}
+.tilt{transform-style:preserve-3d}
+
+/* subtle radial depth behind key sections */
+#engagements,#work,.final{position:relative}
+#engagements::before,#work::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(58% 48% at 82% 4%,rgba(31,111,178,.10),transparent 60%)}
+#engagements .wrap,#work .wrap{position:relative;z-index:1}
+
+/* counter pop when it lands */
+.counted{animation:countpop .5s ease}
+@keyframes countpop{0%{transform:scale(1)}40%{transform:scale(1.06)}100%{transform:scale(1)}}
+
+/* decorative revenue chart in the final CTA (graphic only, no metrics claimed) */
+.deco-chart{position:absolute;right:0;bottom:0;width:60%;height:72%;z-index:0;opacity:.45;pointer-events:none}
+.deco-chart .ar{fill:url(#dca)}
+.deco-chart .ln{fill:none;stroke:url(#dcg);stroke-width:.7;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 4px rgba(90,176,255,.6))}
+.deco-chart .tip{fill:#cfe7ff;filter:drop-shadow(0 0 6px var(--blue))}
+
+/* gentle parallax helpers set by JS use transforms; nothing needed here */
+
+@media(max-width:760px){.deco-chart{opacity:.3;width:78%}}
+@media(prefers-reduced-motion:reduce){
+  #scrollprog{display:none}
+  .reveal{transition:none!important}
+}
