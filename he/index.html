@@ -61,7 +61,7 @@
     .u::after{content:"";position:absolute;right:0;bottom:.02em;height:.14em;width:100%;border-radius:2px;background:linear-gradient(270deg,var(--blue2),var(--blue));transform:scaleX(0);transform-origin:right;animation:sweep 3.6s cubic-bezier(.7,0,.3,1) infinite}
     @keyframes sweep{0%,10%{transform:scaleX(0);transform-origin:right}42%,66%{transform:scaleX(1);transform-origin:right}67%{transform-origin:left}100%{transform:scaleX(0);transform-origin:left}}
 
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:700 15px/1 'Rubik';padding:15px 26px;border-radius:11px;border:1px solid transparent;cursor:pointer;transition:.2s}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:700 15px/1 'Rubik';padding:15px 26px;border-radius:11px;border:1px solid transparent;background-clip:padding-box;-webkit-background-clip:padding-box;cursor:pointer;transition:.2s}
     .btn-solid{background:linear-gradient(90deg,var(--blue2),#3f97e6);color:#fff;box-shadow:0 12px 30px rgba(31,111,178,.4)}
     .btn-solid:hover{transform:translateY(-2px)}
     .btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.32)}
