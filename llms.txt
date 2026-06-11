@@ -6,6 +6,7 @@
 - [Tal Paperin, Fractional CRO (home)](https://talpaperin.com/): services, what I fix, case studies, engagements and pricing, contact.
 - [Hebrew site](https://talpaperin.com/he/): Hebrew version of the homepage.
 - [Blog](https://talpaperin.com/blog/): field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.
+- [Contact](https://talpaperin.com/contact): email, phone, WhatsApp, a 15-minute booking link and a contact form.
 
 ## Services
 - [Fractional CRO](https://talpaperin.com/services/fractional-cro): A fractional CRO who sits in the seat and owns your revenue number, strategy, team, pipeline and forecast, without a $250K full-time hire.

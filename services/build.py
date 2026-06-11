@@ -47,6 +47,7 @@ NAV = '''  <nav class="site">
         <a href="/services/">Services</a>
         <a href="/blog/">Blog</a>
         <a href="/#work">Work With Me</a>
+        <a href="/contact">Contact</a>
       </div>
       <div class="nav-right">
         <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a>
@@ -334,6 +335,7 @@ HE_NAV = '''  <nav class="site">
         <a href="/he/services/">שירותים</a>
         <a href="/he/challenges">מדריך</a>
         <a href="/blog/">בלוג</a>
+        <a href="/he/contact">צור קשר</a>
       </div>
       <div class="nav-right">
         <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה</a>
@@ -641,6 +643,156 @@ HE_FAQPAGE = '''<!doctype html>
 '''
 
 
+CONTACT_EN = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Tal Paperin | Fractional CRO</title>
+  <meta name="description" content="Book a 15-minute call, send a message, or reach Tal Paperin directly by email, phone or WhatsApp. Tell me where revenue stalled." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/contact" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/contact" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/contact" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/contact" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/contact" />
+  <meta property="og:title" content="Contact Tal Paperin" />
+  <meta property="og:description" content="Book a call, send a message, or reach me directly." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact Tal Paperin" />
+  <meta name="twitter:description" content="Book a call, send a message, or reach me directly." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">Contact</p>
+        <h1>Let's talk.</h1>
+        <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
+
+        <div class="contact-methods">
+          <div class="row"><span class="label">Email</span><a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></div>
+          <div class="row"><span class="label">Phone</span><a href="tel:+972545308119">+972 54 530 8119</a></div>
+          <div class="row"><span class="label">WhatsApp</span><a href="https://wa.me/972545308119" target="_blank" rel="noopener">+972 54 530 8119</a></div>
+          <div class="row"><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">/in/talpaperin</a></div>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <h2>Send a message</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+              <input type="hidden" name="access_key" value="REPLACE_WITH_ACCESS_KEY" />
+              <input type="hidden" name="subject" value="New message from talpaperin.com" />
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <input type="text" name="company" placeholder="Company (optional)" />
+              <textarea name="message" placeholder="Where did revenue stall?" required></textarea>
+              <button class="btn btn-solid" type="submit">Send message</button>
+            </form>
+          </div>
+          <div>
+            <h2>Or book a 15-minute call</h2>
+            <div class="calendly-inline-widget cal-embed" data-url="https://calendly.com/ksw/15min"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
+'''
+
+CONTACT_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>צור קשר | טל פאפרין</title>
+  <meta name="description" content="תיאום שיחה של 15 דקות, שליחת הודעה, או יצירת קשר ישיר עם טל פאפרין במייל, טלפון או וואטסאפ. ספרו לי איפה המכירות נתקעו." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/he/contact" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/contact" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/contact" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/contact" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/he/contact" />
+  <meta property="og:title" content="צור קשר | טל פאפרין" />
+  <meta property="og:description" content="תיאום שיחה, שליחת הודעה, או יצירת קשר ישיר." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="טל פאפרין" />
+  <meta property="og:locale" content="he_IL" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">צור קשר</p>
+        <h1>בואו נדבר.</h1>
+        <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
+
+        <div class="contact-methods">
+          <div class="row"><span class="label">מייל</span><a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></div>
+          <div class="row"><span class="label">טלפון</span><a href="tel:+972545308119">+972 54 530 8119</a></div>
+          <div class="row"><span class="label">וואטסאפ</span><a href="https://wa.me/972545308119" target="_blank" rel="noopener">+972 54 530 8119</a></div>
+          <div class="row"><span class="label">לינקדאין</span><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">/in/talpaperin</a></div>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <h2>שליחת הודעה</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+              <input type="hidden" name="access_key" value="REPLACE_WITH_ACCESS_KEY" />
+              <input type="hidden" name="subject" value="הודעה חדשה מ-talpaperin.com" />
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+              <input type="text" name="name" placeholder="שם" required />
+              <input type="email" name="email" placeholder="אימייל" required />
+              <input type="text" name="company" placeholder="חברה (אופציונלי)" />
+              <textarea name="message" placeholder="איפה המכירות נתקעו?" required></textarea>
+              <button class="btn btn-solid" type="submit">שליחת הודעה</button>
+            </form>
+          </div>
+          <div>
+            <h2>או תיאום שיחה של 15 דקות</h2>
+            <div class="calendly-inline-widget cal-embed" data-url="https://calendly.com/ksw/15min"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
+'''
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -734,6 +886,11 @@ def build():
             h1=esc(HE_FAQ["h1"]), eyebrow=esc(HE_FAQ["eyebrow"]), lead=esc(HE_FAQ["lead"]),
             items="\n".join(items_html), cta=HE_CTA, faqld=faqld,
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
+
+    with open(os.path.join(ROOT, "contact.html"), "w", encoding="utf-8") as f:
+        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER))
+    with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
+        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
 
     print("Built %d EN + %d HE service pages, HE index and HE FAQ"
           % (len(SERVICES), len(HE_SERVICES)))

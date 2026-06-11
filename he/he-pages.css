@@ -51,3 +51,19 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 .wa-float svg{width:30px;height:30px;display:block}
 @media(max-width:760px){.svc-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.wrap{padding:0 20px}.brand{font-size:28px}.page{padding-top:96px}}
+
+.contact-methods{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:36px}
+.contact-methods .row{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.contact-methods .label{display:block;font-size:.75rem;color:var(--soft);letter-spacing:.04em;margin-bottom:5px}
+.contact-methods a,.contact-methods .val{color:#fff;font-weight:600;font-size:1.05rem;word-break:break-word}
+.contact-methods a:hover{color:var(--blue)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:42px;align-items:start}
+.contact-grid h2{font-size:1.4rem;color:#fff;margin:0 0 18px}
+.contact-form{display:grid;gap:14px}
+.contact-form input,.contact-form textarea{width:100%;background:#0d1320;border:1px solid var(--line);border-radius:11px;padding:14px 16px;color:#fff;font:400 16px/1.6 'Rubik',sans-serif;text-align:right}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#6b7888}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--blue)}
+.contact-form textarea{resize:vertical;min-height:130px}
+.contact-form button{margin-top:6px;width:100%}
+.cal-embed{min-width:300px;height:700px;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#fff}
+@media(max-width:820px){.contact-grid{grid-template-columns:1fr}.contact-methods{grid-template-columns:1fr}}

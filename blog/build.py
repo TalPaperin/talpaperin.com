@@ -90,6 +90,7 @@ NAV = '''  <nav class="site">
         <a href="/services/">Services</a>
         <a href="/blog/">Blog</a>
         <a href="/#work">Work With Me</a>
+        <a href="/contact">Contact</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
@@ -310,6 +311,7 @@ def render_sitemap(posts):
         ('%s/he/' % SITE, '0.9', today),
         ('%s/blog/' % SITE, '0.8', today),
         ('%s/services/' % SITE, '0.8', today),
+        ('%s/contact' % SITE, '0.7', today),
     ]
     for s in SERVICES:
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
@@ -317,6 +319,7 @@ def render_sitemap(posts):
     for s in SERVICES:
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
     urls.append(('%s/he/challenges' % SITE, '0.6', today))
+    urls.append(('%s/he/contact' % SITE, '0.6', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
     body = "\n".join(
@@ -343,6 +346,7 @@ def render_llms(posts):
         "- [Hebrew site](%s/he/): Hebrew version of the homepage." % SITE,
         "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
+        "- [Contact](%s/contact): email, phone, WhatsApp, a 15-minute booking link and a contact form." % SITE,
         "",
         "## Services",
     ]

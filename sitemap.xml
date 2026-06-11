@@ -25,6 +25,12 @@
     <lastmod>2026-06-11</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/contact</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/services/fractional-cro</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -104,6 +110,12 @@
   </url>
   <url>
     <loc>https://talpaperin.com/he/challenges</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-06-11</lastmod>
