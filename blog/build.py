@@ -313,6 +313,10 @@ def render_sitemap(posts):
     ]
     for s in SERVICES:
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
+    urls.append(('%s/he/services/' % SITE, '0.7', today))
+    for s in SERVICES:
+        urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
+    urls.append(('%s/he/challenges' % SITE, '0.6', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
     body = "\n".join(
@@ -344,7 +348,10 @@ def render_llms(posts):
     ]
     for s in SERVICES:
         lines.append("- [%s](%s/services/%s): %s" % (s["h1"], SITE, s["slug"], s["desc"]))
-    lines += ["", "## Blog posts"]
+    lines += ["", "## Hebrew (עברית)",
+              "- [Services in Hebrew](%s/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew." % SITE,
+              "- [International B2B sales guide (Hebrew)](%s/he/challenges): the bold guide to selling B2B internationally from Israel." % SITE,
+              "", "## Blog posts"]
     for p in posts:
         lines.append("- [%s](%s/blog/%s): %s" % (p["title"], SITE, p["slug"], p["description"]))
     lines += [

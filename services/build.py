@@ -12,6 +12,7 @@ so run this first, then blog/build.py.
 """
 
 import os
+import re
 import html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -222,6 +223,7 @@ PAGE = '''<!doctype html>
   <meta name="description" content="{desc}" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="{url}" />
+{hreflang}
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{url}" />
@@ -274,6 +276,9 @@ INDEX = '''<!doctype html>
   <meta name="description" content="How I fix and run revenue: fractional CRO, outsourced sales, go-to-market strategy, sales team building, channel and distributor recruitment, and international market entry." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="{site}/services/" />
+  <link rel="alternate" hreflang="en" href="{site}/services/" />
+  <link rel="alternate" hreflang="he" href="{site}/he/services/" />
+  <link rel="alternate" hreflang="x-default" href="{site}/services/" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{site}/services/" />
@@ -314,9 +319,340 @@ INDEX = '''<!doctype html>
 '''
 
 
+# --- Hebrew (RTL) ----------------------------------------------------------
+
+HE_FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
+            '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
+            '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&'
+            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />')
+
+HE_NAV = '''  <nav class="site">
+    <div class="inner">
+      <a class="brand" href="/he/">טל פאפרין</a>
+      <div class="navlinks">
+        <a href="/he/">בית</a>
+        <a href="/he/services/">שירותים</a>
+        <a href="/he/challenges">מדריך</a>
+        <a href="/blog/">בלוג</a>
+      </div>
+      <div class="nav-right">
+        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה</a>
+        <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
+      </div>
+    </div>
+  </nav>'''
+
+HE_FOOTER = '''  <footer>
+    <div class="wrap inner">
+      <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות.</span>
+      <span>Fractional CRO &middot; התמחות בשוק האמריקאי &middot; עבודה בשעות פעילות ארה״ב</span>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/972545308119" target="_blank" rel="noopener" aria-label="שיחה בוואטסאפ">''' + WA_SVG + '''</a>
+
+  <script>
+    var nt=document.querySelector('.navtoggle');
+    if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
+    document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
+  </script>'''
+
+HE_CTA = '''      <div class="cta-box">
+        <h3>ספרו לי איפה המכירות נתקעו. אני אגיד לכם למה.</h3>
+        <p>שיחה של 15 דקות, בלי ניסיונות מכירה. תצאו ממנה עם לפחות דבר אחד פרקטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
+        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
+      </div>'''
+
+HE_SERVICES = [
+ {"slug":"fractional-cro","nav":"Fractional CRO","h1":"Fractional CRO",
+  "title":"Fractional CRO, מנהל הכנסות במיקור חוץ | טל פאפרין",
+  "desc":"מנהל הכנסות (CRO) במיקור חוץ שיושב על הכיסא ולוקח בעלות על המספר. אסטרטגיה, צוות, פייפליין ותחזית, בלי גיוס יקר של משרה מלאה.",
+  "eyebrow":"שירות",
+  "lead":"מנהיגות הכנסות בכירה, על הכיסא, שלוקחת אחריות על המספר. בלי משכורת של רבע מיליון דולר ובלי התחייבות ארוכת טווח.",
+  "card":"אני יושב על הכיסא, מנהל את ההכנסות ולוקח אחריות על המספר. שלב הביניים שרוב החברות בוחרות בו.",
+  "sections":[
+    {"h":"מתי צריך Fractional CRO?",
+     "p":["אתם צריכים שיקול דעת ברמת CRO, אבל הנפח עדיין לא מצדיק משרה מלאה. או שאתם צריכים תוצאות עכשיו ולא יכולים לחכות שני רבעונים שמישהו חדש יתחמם. בדיוק לפער הזה נכנס Fractional CRO."],
+     "ul":["המכירות נתקעו ואף אחד לא באמת אחראי על המספר","אתם בצמיחה וצריכים מנהיג עוד לפני שאפשר להצדיק CRO במשרה מלאה","CRO שכיר עולה רבע מיליון דולר ומעלה בשנה, עם חודשים של גיוס וחימום וסיכוני פיצויים"]},
+    {"h":"על מה אני לוקח בעלות",
+     "ul":["אסטרטגיית ההכנסות, התחזית והאחריות, מקצה לקצה","תנועת ה-Go-to-Market, הפייפליין והצוות שמריץ אותם","שיווק שבאמת מזין את הפייפליין, לא רק מייצר פעילות","ההחלטות הקשות: את מי לגייס, את מי להכשיר ואת מי להחליף"]},
+    {"h":"איך זה עובד",
+     "p":["בשבוע הראשון אני מאבחן איפה העסקאות נתקעות ודולפות. בשבוע השני יש לכם תוכנית ותחזית אמיתית. בשבוע השלישי אני כבר מריץ אותה. אתם מקבלים מנהל מנוסה שעשה את זה יותר מ-30 פעם בארבע יבשות, לא עוד מצגת אסטרטגיה שנשארת במגירה."]},
+  ]},
+
+ {"slug":"outsourced-sales","nav":"מכירות במיקור חוץ","h1":"צוות מכירות במיקור חוץ",
+  "title":"צוות מכירות במיקור חוץ | טל פאפרין",
+  "desc":"מיקור חוץ מלא של מערך המכירות. אנשי SDR ו-AE דוברי שפת אם, הובלה בכירה ומנהל VP, מגויסים, מוכשרים ומנוהלים עבורכם על ידי KSW Solutions.",
+  "eyebrow":"שירות",
+  "lead":"להעביר את כל מערך ההכנסות החוצה. צוות מכירות שלם שחי מחוץ למצבת כוח האדם שלכם, נבנה, מוכשר, מנוהל ומדווח עבורכם.",
+  "card":"מיקור חוץ מלא של המכירות. צוות שלם, אנשי מכירות דוברי שפת אם, הובלה ו-VP, שמורץ עבורכם מחוץ למצבת כוח האדם.",
+  "sections":[
+    {"h":"מה אתם מקבלים",
+     "ul":["אנשי SDR ו-AE דוברי שפת אם לשווקי היעד שלכם","הובלת מכירות בכירה ומנהל VP שמפקח על התנועה","צוות שאנחנו מגייסים, מכשירים, מנהלים ומדווחים עליו מדי יום","ה-CRM, ה-Playbook, הפייפליין והתהליך, בנויים ומורצים"]},
+    {"h":"מתי מיקור חוץ של מכירות הוא המהלך הנכון",
+     "p":["כשבניית צוות פנימי איטית מדי, יקרה מדי או מסוכנת מדי לשלב שלכם. אתם מקבלים מנוע מכירות עובד תוך שבועות, לא ב-6 עד 12 חודשים של גיוס וחימום, ובלי סיכון הפיצויים אם ההתאמה לא נכונה."]},
+    {"h":"מי מריץ את זה",
+     "p":["KSW Solutions, בהובלתי. מעל 20 שנה של בנייה וניהול מכירות B2B בארה״ב, אירופה, APAC והשווקים הפוסט-סובייטיים. מערך המכירות שלכם, בידיים של מי שכבר עשה את זה."]},
+  ]},
+
+ {"slug":"go-to-market-strategy","nav":"אסטרטגיית GTM","h1":"אסטרטגיית Go-To-Market",
+  "title":"אסטרטגיית Go-To-Market ותוכנית שיווק בינלאומית | טל פאפרין",
+  "desc":"אסטרטגיית Go-To-Market שאפשר באמת לבצע. ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, ואז אני מוביל איתכם את הביצוע.",
+  "eyebrow":"שירות",
+  "lead":"רוב מצגות ה-GTM מתות במגירה. אני בונה תוכנית עם יעדים ולוחות זמנים, ואז מוביל איתכם את הביצוע.",
+  "card":"ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, ואז אני מוביל את הביצוע, לא רק את השקפים.",
+  "sections":[
+    {"h":"מה כוללת תוכנית GTM אמיתית",
+     "ul":["ICP מתוקף, מיצוב ומסרים, לא ניחוש שרשמתם פעם אחת","השווקים והערוצים הנכונים לשלב שלכם","Playbook בר-ביצוע: תסריטי שיחה, קריטריונים להחלטה ותנועת אאוטבאונד","תחזית אמיתית עם אבני דרך, לא תקווה"]},
+    {"h":"אסטרטגיה זה לא מספיק",
+     "p":["אני לא עוצר במצגת. אני בונה את התוכנית, ואז מוביל איתכם את הביצוע, עד שיש פייפליין, שותפים ומכירות ראשונות. מהתכנון הגבוה ועד העבודה בשטח, אני שם."]},
+    {"h":"לרוחב השווקים",
+     "p":["צפון אמריקה, האיחוד האירופי, מזרח ומרכז אירופה ו-APAC. פתחתי שווקים שאחרים מחקו, ואני מכיר את הטעויות היקרות לפני שאתם עושים אותן."]},
+  ]},
+
+ {"slug":"sales-team-building","nav":"בניית צוות","h1":"בניית והכשרת צוות מכירות",
+  "title":"בניית והכשרת צוות מכירות | טל פאפרין",
+  "desc":"לבנות צוות מכירות שבאמת סוגר. אני מגייס, מכשיר ומנהל SDRs, AEs ו-BDs, ומחליף את מי שלא מתאים.",
+  "eyebrow":"שירות",
+  "lead":"אנשי מכירות שלא סוגרים זו לא בעיה של אנשים. זו בעיה של שיטה. אני בונה את הצוות ואת השיטה שגורמים להם לפגוע ביעד.",
+  "card":"גיוס, הכשרה וניהול של SDRs, AEs ו-BDs על Playbook שמביא אותם ליעד. החלפה מהירה של מי שלא מתאים.",
+  "sections":[
+    {"h":"מה אני עושה",
+     "ul":["גיוס והשמה של SDRs, AEs, BDs, שירות שלאחר מכירה ותמיכה טכנית","בניית תוכנית הכשרה מותאמת ל-ICP ול-GTM שלכם","ניהול הצוות יום-יום עד שהוא פוגע ביעד","החלפה מהירה של מי שלא מתאים, לפני שהוא שורף שנה"]},
+    {"h":"בתוך החברה או במיקור חוץ",
+     "p":["אני בונה את זה בתוך החברה שלכם, או מביא צוות מוכן דרך KSW Solutions. כך או כך אתם מקבלים מערך מכירות שרץ על Playbook, לא על תקווה."]},
+  ]},
+
+ {"slug":"distributor-channel-recruitment","nav":"מפיצים וערוצים","h1":"איתור וגיוס מפיצים וערוצי הפצה",
+  "title":"איתור וגיוס מפיצים וערוצי הפצה | טל פאפרין",
+  "desc":"לפתוח טריטוריות חדשות דרך המפיצים ושותפי ההפצה הנכונים. אני מאתר, מחתים ומנהל אותם לטווח הארוך.",
+  "eyebrow":"שירות",
+  "lead":"שווקים חדשים נפתחים דרך שותפים. אני מאתר את מקבלי ההחלטות האמיתיים, מחתים את המפיצים ושותפי ההפצה שמשנים את התמונה, ומנהל אותם לטווח הארוך.",
+  "card":"איתור מקבלי ההחלטות האמיתיים, החתמת מפיצים, ריסלרים ושותפי ערוץ, וניהול שלהם לטווח הארוך.",
+  "sections":[
+    {"h":"מה אני עושה",
+     "ul":["מיפוי הערוץ ומקבלי ההחלטות האמיתיים בשטח","איתור והחתמת מפיצים, ריסלרים, אינטגרטורים ושותפי ערוץ","בניית תוכנית השותפים שגורמת להם להמשיך למכור","ניהול הקשרים לטווח הארוך, לא רק עד החתימה"]},
+    {"h":"מוכח בשטח",
+     "p":["החתמתי שתיים מרשתות ה-DIY הגדולות באזור שיצרן גלובלי כבר מחק, ובניתי רשתות מפיצים ב-FSU, באיחוד האירופי וב-APAC. שותפים הם לא לוגו על שקף. הם הכנסות, אם בוחרים ומנהלים אותם נכון."]},
+  ]},
+
+ {"slug":"market-entry","nav":"חדירה לשווקים","h1":"חדירה לשווקים בינלאומיים",
+  "title":"חדירה לשווקים בינלאומיים | טל פאפרין",
+  "desc":"לפרוץ לשווקים חדשים בלי הטעויות היקרות. אסטרטגיית חדירה וביצוע בארה״ב, באיחוד האירופי, במזרח אירופה ו-APAC.",
+  "eyebrow":"שירות",
+  "lead":"כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. עשיתי את זה בארבע יבשות, ואני מכיר את הטעויות לפני שאתם עושים אותן.",
+  "card":"אסטרטגיית חדירה וביצוע בצפון אמריקה, באיחוד האירופי, במזרח אירופה ו-APAC. כולל B2G ועסקאות מורכבות.",
+  "sections":[
+    {"h":"מה אני עושה",
+     "ul":["אסטרטגיית חדירה ותוכנית לפי אבני דרך","הטריטוריות, הערוצים ומקבלי ההחלטות הנכונים","הובלת המשא ומתן וסגירת העסקאות הראשונות באופן אישי","בניית נוכחות מקומית, ישירה או דרך שותפים"]},
+    {"h":"השווקים שאני מכיר",
+     "p":["צפון אמריקה, האיחוד האירופי, מזרח ומרכז אירופה ו-APAC. הוכחתי שיש כסף אמיתי במזרח אירופה לחברה שהייתה בטוחה שאין, והבאתי מוצר למדפים בשוק שהיא כבר נטשה."]},
+    {"h":"B2G ועסקאות מורכבות",
+     "p":["אני גם מנהל עסקאות B2G ועסקאות מורכבות מול המגזר הציבורי, מכרזים, RFIs, RFQs ופרויקטים ממשלתיים, בכל העולם."]},
+  ]},
+]
+
+HE_FAQ = {
+ "slug": "challenges",
+ "title": "אתגרי השיווק והמכירות הבינלאומיים, המדריך | טל פאפרין",
+ "desc": "המדריך הישיר לחדירה לשווקים בינלאומיים: מוכנות, לקוחות ראשונים, מפיצים, Fractional CRO מול VP במשרה מלאה, ותחרות מול הענקים.",
+ "eyebrow": "מדריך",
+ "h1": "אתגרי השיווק והמכירות הבינלאומיים",
+ "lead": "כל מה שחברה ישראלית צריכה לדעת לפני שהיא יוצאת לשווקים הבינלאומיים. בלי בולשיט, מהשטח.",
+ "items": [
+  ('האם החברה שלכם בכלל מוכנה לשיווק בינלאומי?',
+   ['רוב החברות יוצאות לחו״ל לא מוכנות, ומשלמות על זה ביוקר: תדמית חלשה, מפיצים טובים שלא רוצים לגעת בכם, תהליכי מכירה שלא מבשילים, וזמן וכסף שנשרפו.',
+    'לפני שאתם משקיעים שקל בחו״ל, צריך אבחון כנה: האם ה-ICP מוגדר, האם המסר חד, והאם יש לכם סיפור שמוריד ללקוח את הסיכון לקנות מחברה לא מוכרת. בדיוק את זה אני עושה בשבוע הראשון.']),
+  ('איך משיגים את הלקוחות הראשונים בחו״ל?',
+   ['במכירות B2B, references זה הכל. הלקוח הראשון שמיישם אתכם בהצלחה שווה יותר מכל ברושור.',
+    'המהלך: לאתר את ה-Early Adopters, אלה שמרגישים כאב אמיתי ומוכנים לקחת סיכון על חברה לא מוכרת, לחדד להם הצעת ערך שמסבירה בשנייה למה אתם ולא הענק הגלובלי, ולסגור את הלקוח האסטרטגי הראשון שאחריו יבואו השאר.']),
+  ('צריך VP מכירות במשרה מלאה, או מיקור חוץ?',
+   ['זאת הטעות הכי יקרה שאני רואה. חברות שוכרות VP מכירות שכיר בשלב שבו עוד אין מספיק פייפליין שיצדיק אותו, והמשכורת שורפת להן את התקציב כל חודש.',
+    'עד שמנוע המכירות עובד ומזין לידים, <a href="/he/services/fractional-cro">Fractional CRO</a> או מנהל מכירות במיקור חוץ נותן לכם את אותה מנהיגות בכירה בשבריר מהעלות: בלי משכורת, בלי תנאים סוציאליים ובלי סיכון פיצויים. כשהמשפך מתמלא, אז שוכרים משרה מלאה.']),
+  ('איך מאתרים ובוחרים את המפיצים הנכונים?',
+   ['המפיץ הראשון שפנה אליכם הוא כמעט אף פעם לא הנכון. חתימה על הסכם עם מי שמזדמן זה מתכון לחודשים של שקט מצדו ותירוצים מצדכם.',
+    'קודם מגדירים אילו פונקציות המפיץ צריך למלא, בונים פרופיל של מפיץ אידיאלי, ורק אז מאתרים. מפיץ טוב גם בודק אתכם, ואם תשתית השיווק והמכירות שלכם חלשה הוא לא יתחבר. אני <a href="/he/services/distributor-channel-recruitment">בונה את התשתית ומנהל את התהליך</a> נכון.']),
+  ('איך מתחרים בענקים הגלובליים עם כל המשאבים?',
+   ['לא מנצחים אותם בתקציב. מנצחים אותם במיקוד. הענקים לא רוצים או לא יכולים לתפור פתרון לנישה ספציפית, ושם בדיוק יש לכם יתרון.',
+    'מזהים קבוצת לקוחות עם כאב משותף שאתם פותרים טוב מכולם, מנסחים USP חד, ונלחמים על הלקוח האסטרטגי הראשון, גם אם מתפשרים על המחיר. אחריו באים האחרים.']),
+  ('כמה זמן לוקח לראות תוצאות?',
+   ['אצלי, מהר. אבחון בשבוע הראשון, תוכנית בשבוע השני, ביצוע מהשבוע השלישי. אני לא מוכר מצגת, אני לוקח בעלות על המספר.']),
+  ('מה ההבדל בינך לבין יועץ שיווק?',
+   ['יועץ נותן לכם המלצות והולך. אני נכנס, בונה את מערך המכירות, מגייס ומנהל את הצוות, סוגר עסקאות בעצמי ולוקח אחריות על התוצאה. <a href="/he/services/">Fractional CRO, לא יועץ מהצד</a>.']),
+ ],
+}
+
+
+def render_he_related(slug):
+    links = ['<a href="/he/services/%s">%s</a>' % (s["slug"], esc(s["nav"]))
+             for s in HE_SERVICES if s["slug"] != slug][:3]
+    return " &middot; ".join(links)
+
+
+def _jsonesc(s):
+    return s.replace("\\", "\\\\").replace('"', '\\"')
+
+
+HE_PAGE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content="{desc}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{url}" />
+  <link rel="alternate" hreflang="en" href="{en}" />
+  <link rel="alternate" hreflang="he" href="{url}" />
+  <link rel="alternate" hreflang="x-default" href="{en}" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{url}" />
+  <meta property="og:title" content="{h1} | טל פאפרין" />
+  <meta property="og:description" content="{desc}" />
+  <meta property="og:image" content="{site}/og-image.jpg" />
+  <meta property="og:site_name" content="טל פאפרין" />
+  <meta property="og:locale" content="he_IL" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+
+  <script type="application/ld+json">{ld}</script>
+  <script type="application/ld+json">{crumb}</script>
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <p class="breadcrumb"><a href="/he/">בית</a> / <a href="/he/services/">שירותים</a></p>
+        <div class="glowline"></div>
+        <p class="eyebrow">{eyebrow}</p>
+        <h1>{h1}</h1>
+        <p class="lead">{lead}</p>
+{sections}
+{cta}
+        <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/blog/">לבלוג</a></div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+HE_INDEX = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>שירותים: Fractional CRO, מכירות במיקור חוץ ו-GTM | טל פאפרין</title>
+  <meta name="description" content="איך אני מתקן ומריץ מכירות: Fractional CRO, מכירות במיקור חוץ, אסטרטגיית Go-To-Market, בניית צוות מכירות, גיוס מפיצים וחדירה לשווקים בינלאומיים." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{site}/he/services/" />
+  <link rel="alternate" hreflang="en" href="{site}/services/" />
+  <link rel="alternate" hreflang="he" href="{site}/he/services/" />
+  <link rel="alternate" hreflang="x-default" href="{site}/services/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{site}/he/services/" />
+  <meta property="og:title" content="שירותים | טל פאפרין" />
+  <meta property="og:description" content="Fractional CRO, מכירות במיקור חוץ, GTM, בניית צוות, גיוס מפיצים וחדירה לשווקים." />
+  <meta property="og:image" content="{site}/og-image.jpg" />
+  <meta property="og:site_name" content="טל פאפרין" />
+  <meta property="og:locale" content="he_IL" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">שירותים</p>
+        <h1>מה אני עושה.</h1>
+        <p class="lead">שש דרכים שבהן אני מתקן ומריץ מכירות. בחרו את זו שמתאימה לבעיה שלכם, או <a href="/he/challenges">קראו את המדריך</a> ותגלו איפה כואב.</p>
+      </div>
+      <div class="svc-grid">
+{cards}
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+HE_FAQPAGE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content="{desc}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{site}/he/challenges" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{site}/he/challenges" />
+  <meta property="og:title" content="{h1} | טל פאפרין" />
+  <meta property="og:description" content="{desc}" />
+  <meta property="og:image" content="{site}/og-image.jpg" />
+  <meta property="og:site_name" content="טל פאפרין" />
+  <meta property="og:locale" content="he_IL" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+
+  <script type="application/ld+json">{faqld}</script>
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">{eyebrow}</p>
+        <h1>{h1}</h1>
+        <p class="lead">{lead}</p>
+{items}
+{cta}
+        <div class="svc-related">קראו עוד: <a href="/he/services/">השירותים שלי</a> &middot; <a href="/blog/">הבלוג</a></div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
 def build():
+    os.makedirs(SVC_DIR, exist_ok=True)
+    he_dir = os.path.join(ROOT, "he", "services")
+    os.makedirs(he_dir, exist_ok=True)
+
+    # English service pages
     for svc in SERVICES:
         url = "%s/services/%s" % (SITE, svc["slug"])
+        he_url = "%s/he/services/%s" % (SITE, svc["slug"])
+        hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+                    '  <link rel="alternate" hreflang="he" href="%s" />\n'
+                    '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, he_url, url)
         ld = ('{"@context":"https://schema.org","@type":"Service",'
               '"name":"%s","description":"%s","serviceType":"%s",'
               '"provider":{"@type":"Person","name":"Tal Paperin","url":"%s/"},'
@@ -332,7 +668,7 @@ def build():
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_related(svc["slug"]),
             fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX,
-            ld=ld, crumb=crumb)
+            ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(SVC_DIR, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
 
@@ -346,7 +682,61 @@ def build():
     with open(os.path.join(SVC_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(INDEX.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
                              nav=NAV, footer=FOOTER, cards="\n".join(cards)))
-    print("Built %d service pages + index" % len(SERVICES))
+
+    # Hebrew service pages
+    for svc in HE_SERVICES:
+        url = "%s/he/services/%s" % (SITE, svc["slug"])
+        en = "%s/services/%s" % (SITE, svc["slug"])
+        ld = ('{"@context":"https://schema.org","@type":"Service",'
+              '"name":"%s","description":"%s","serviceType":"%s",'
+              '"provider":{"@type":"Person","name":"טל פאפרין","url":"%s/he/"},'
+              '"areaServed":"Worldwide","url":"%s"}'
+              ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), SITE, url)
+        crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
+                 '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
+                 '{"@type":"ListItem","position":2,"name":"שירותים","item":"%s/he/services/"},'
+                 '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
+                 ) % (SITE, SITE, esc(svc["h1"]), url)
+        page = HE_PAGE.format(
+            title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, en=en, site=SITE,
+            h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
+            sections=render_sections(svc), related=render_he_related(svc["slug"]),
+            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA,
+            ld=ld, crumb=crumb)
+        with open(os.path.join(he_dir, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page)
+
+    he_cards = []
+    for svc in HE_SERVICES:
+        he_cards.append(
+            '        <a class="svc-card" href="/he/services/%s">\n'
+            '          <h2>%s</h2>\n          <p>%s</p>\n'
+            '          <span class="more">קרא עוד &larr;</span>\n        </a>'
+            % (svc["slug"], esc(svc["h1"]), esc(svc["card"])))
+    with open(os.path.join(he_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(HE_INDEX.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
+                                nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards)))
+
+    # Hebrew FAQ / challenges pillar page
+    items_html = []
+    faq_entities = []
+    for q, ans in HE_FAQ["items"]:
+        items_html.append("        <h2>%s</h2>" % esc(q))
+        for a in ans:
+            items_html.append("        <p>%s</p>" % a)
+        atext = " ".join(re.sub(r"<[^>]+>", "", a) for a in ans)
+        faq_entities.append('{"@type":"Question","name":"%s","acceptedAnswer":{"@type":"Answer","text":"%s"}}'
+                            % (_jsonesc(q), _jsonesc(atext)))
+    faqld = '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[%s]}' % ",".join(faq_entities)
+    with open(os.path.join(ROOT, "he", "challenges.html"), "w", encoding="utf-8") as f:
+        f.write(HE_FAQPAGE.format(
+            title=esc(HE_FAQ["title"]), desc=esc(HE_FAQ["desc"]), site=SITE,
+            h1=esc(HE_FAQ["h1"]), eyebrow=esc(HE_FAQ["eyebrow"]), lead=esc(HE_FAQ["lead"]),
+            items="\n".join(items_html), cta=HE_CTA, faqld=faqld,
+            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
+
+    print("Built %d EN + %d HE service pages, HE index and HE FAQ"
+          % (len(SERVICES), len(HE_SERVICES)))
 
 
 if __name__ == "__main__":
