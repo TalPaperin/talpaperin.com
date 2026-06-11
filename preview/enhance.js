@@ -86,10 +86,8 @@
     gsap.registerPlugin(ScrollTrigger);
 
     if(!RM){
-      var photo=document.querySelector('.hero .photo');
-      if(photo)gsap.to(photo,{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
       var htext=document.querySelector('.hero .text');
-      if(htext)gsap.to(htext,{yPercent:-6,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+      if(htext)gsap.to(htext,{yPercent:-7,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
     }
 
     /* counters on enter */
