@@ -19,6 +19,12 @@
     <lastmod>2026-06-11</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -647,5 +653,41 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2018-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/buyers-dont-buy-logically-they-buy-emotionally-then-justify-it</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-04-27</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/most-sales-forecasts-are-bullshit</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-02-17</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/the-hidden-cost-of-untrained-salespeople</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-05-06</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/startups-fail-without-sales-always</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2024-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/having-an-amazing-product-isnt-enough</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2023-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/complex-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2022-07-14</lastmod>
   </url>
 </urlset>

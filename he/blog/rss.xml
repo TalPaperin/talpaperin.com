@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tal Paperin Insights (עברית)</title>
+    <link>https://talpaperin.com/he/blog/</link>
+    <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <description>רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market.</description>
+    <language>he</language>
+    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>קונים לא קונים בהיגיון. הם קונים ברגש, ואז מצדיקים.</title>
+      <link>https://talpaperin.com/he/blog/buyers-dont-buy-logically-they-buy-emotionally-then-justify-it</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/buyers-dont-buy-logically-they-buy-emotionally-then-justify-it</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <description>ואז הם משתמשים בהיגיון כדי להסביר את מה שכבר החליטו.</description>
+    </item>
+    <item>
+      <title>רוב תחזיות המכירה הן בולשיט</title>
+      <link>https://talpaperin.com/he/blog/most-sales-forecasts-are-bullshit</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/most-sales-forecasts-are-bullshit</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <description>אפילו ברמת המיליארד דולר. מאטל בדיוק הוכיחה את זה.</description>
+    </item>
+    <item>
+      <title>העלות הנסתרת של אנשי מכירות לא מאומנים</title>
+      <link>https://talpaperin.com/he/blog/the-hidden-cost-of-untrained-salespeople</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/the-hidden-cost-of-untrained-salespeople</guid>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <description>וגם למה צוות המכירות שלכם לא נכשל. אתם נכשלים.</description>
+    </item>
+    <item>
+      <title>סטארטאפים נכשלים בלי מכירות. תמיד.</title>
+      <link>https://talpaperin.com/he/blog/startups-fail-without-sales-always</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/startups-fail-without-sales-always</guid>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <description>האמת הברוטלית על סטארטאפים, למה כל כך הרבה נכשלים ואיך להימנע מזה.</description>
+    </item>
+    <item>
+      <title>מוצר &quot;מדהים&quot; זה לא מספיק</title>
+      <link>https://talpaperin.com/he/blog/having-an-amazing-product-isnt-enough</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/having-an-amazing-product-isnt-enough</guid>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <description>רק בגלל שאתם חושבים שיש לכם מוצר מעולה, זה לא אומר שמישהו אחר יחשוב כך.</description>
+    </item>
+    <item>
+      <title>מכירה מורכבת</title>
+      <link>https://talpaperin.com/he/blog/complex-sales</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/complex-sales</guid>
+      <pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate>
+      <description>כולם מדברים על מכירות, לרוב על B2B או B2C פשוט וישיר. אבל מכירה אמיתית בקנה מידה גדול עובדת אחרת לגמרי.</description>
+    </item>
+  </channel>
+</rss>

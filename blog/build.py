@@ -38,6 +38,8 @@ import markdown
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG_DIR = os.path.join(ROOT, "blog")
 POSTS_DIR = os.path.join(BLOG_DIR, "posts")
+POSTS_DIR_HE = os.path.join(BLOG_DIR, "posts-he")
+HE_BLOG_DIR = os.path.join(ROOT, "he", "blog")
 SITE = "https://talpaperin.com"
 
 # Service pages are defined in services/build.py; pull them in for sitemap + llms.
@@ -67,6 +69,13 @@ FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">
             '<rect width="22" height="1.7" y="11" fill="#0038b8"/>'
             '<path d="M11 4.5 L8.4 9 L13.6 9 Z" fill="none" stroke="#0038b8" stroke-width=".7"/>'
             '<path d="M11 10.5 L8.4 6 L13.6 6 Z" fill="none" stroke="#0038b8" stroke-width=".7"/></svg>')
+
+FLAG_US = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
+           '<rect width="22" height="15" fill="#b22234"/>'
+           '<g fill="#fff"><rect width="22" height="1.15" y="1.15"/><rect width="22" height="1.15" y="3.46"/>'
+           '<rect width="22" height="1.15" y="5.77"/><rect width="22" height="1.15" y="8.08"/>'
+           '<rect width="22" height="1.15" y="10.38"/><rect width="22" height="1.15" y="12.69"/></g>'
+           '<rect width="9" height="8.08" fill="#3c3b6e"/></svg>')
 
 HAMBURGER = ('<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" '
              'stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/>'
@@ -132,6 +141,63 @@ SUBSCRIBE = '''      <div class="subscribe-box">
       </div>'''
 
 
+# --- Hebrew (RTL) building blocks ------------------------------------------
+
+HE_FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
+            '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
+            '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800&'
+            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />')
+
+HE_NAV = '''  <nav class="site">
+    <div class="inner">
+      <a class="brand" href="/he/">טל פאפרין</a>
+      <div class="navlinks">
+        <a href="/he/">בית</a>
+        <a href="/he/services/">שירותים</a>
+        <a href="/he/case-studies">מקרי מבחן</a>
+        <a href="/he/blog/">בלוג</a>
+      </div>
+      <div class="nav-right">
+        <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
+        <a class="btn btn-solid" href="/he/contact">בואו נדבר</a>
+        <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
+      </div>
+    </div>
+  </nav>'''
+
+HE_FOOTER = '''  <footer>
+    <div class="wrap inner">
+      <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות.</span>
+      <span>Fractional CRO &middot; מכירות B2B בינלאומיות</span>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/972545308119" target="_blank" rel="noopener" aria-label="שיחה בוואטסאפ">''' + WA_SVG + '''</a>
+
+  <script>
+    var nt=document.querySelector('.navtoggle');
+    if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
+    document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
+    function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
+  </script>'''
+
+HE_CTA_BOX = '''      <div class="cta-box">
+        <h3>המכירות שלכם תקועות. אתם לא יודעים למה. אני כן.</h3>
+        <p>שיחה של 15 דקות, בלי פיץ'. תצאו ממנה עם לפחות דבר אחד קונקרטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
+        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a>
+      </div>'''
+
+HE_SUBSCRIBE = '''      <div class="subscribe-box">
+        <h3>קבלו את אלה למייל</h3>
+        <p>בלי בולשיט. מכירות, הכנסות ו-Go-to-Market, ישר מהשטח.</p>
+        <form class="sub-form" onsubmit="return subSubmit(event)">
+          <input type="email" name="email" placeholder="המייל שלכם" required autocomplete="email" />
+          <button class="btn btn-solid" type="submit">הרשמה</button>
+        </form>
+        <p class="sub-msg" hidden></p>
+      </div>'''
+
+
 def parse_front_matter(raw):
     """Split a .md file into (meta dict, markdown body)."""
     if not raw.startswith("---"):
@@ -167,14 +233,14 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
-def load_posts():
+def load_posts(directory=POSTS_DIR, lang="en"):
     posts = []
-    if not os.path.isdir(POSTS_DIR):
+    if not os.path.isdir(directory):
         return posts
-    for fn in os.listdir(POSTS_DIR):
+    for fn in os.listdir(directory):
         if not fn.endswith(".md"):
             continue
-        with open(os.path.join(POSTS_DIR, fn), encoding="utf-8") as f:
+        with open(os.path.join(directory, fn), encoding="utf-8") as f:
             raw = f.read()
         meta, body_md = parse_front_matter(raw)
         slug = meta.get("slug") or re.sub(r"\.md$", "", fn)
@@ -186,12 +252,15 @@ def load_posts():
         body_html = md.convert(body_md)
         posts.append({
             "slug": slug,
+            "lang": lang,
             "title": meta["title"],
             "description": meta["description"],
             "date": date,
             "updated": updated,
             "tags": tags,
             "image": meta.get("image", "/og-image.jpg"),
+            # "alt" names the slug of the same post in the other language, if any.
+            "alt": meta.get("alt", "").strip(),
             "body_html": body_html,
             "read": reading_time(body_md),
         })
@@ -199,8 +268,21 @@ def load_posts():
     return posts
 
 
+def hreflang_block(slug, alt, lang):
+    """Build the <link rel=alternate hreflang> tags for a post with a counterpart."""
+    if not alt:
+        return ""
+    en = "%s/blog/%s" % (SITE, alt if lang == "he" else slug)
+    he = "%s/he/blog/%s" % (SITE, slug if lang == "he" else alt)
+    return ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+            '  <link rel="alternate" hreflang="he" href="%s" />\n'
+            '  <link rel="alternate" hreflang="x-default" href="%s" />' % (en, he, en))
+
+
 def render_post(p):
-    url = "%s/blog/%s" % (SITE, p["slug"])
+    he = p["lang"] == "he"
+    base = "/he/blog/" if he else "/blog/"
+    url = "%s%s%s" % (SITE, base, p["slug"])
     img = p["image"] if p["image"].startswith("http") else SITE + p["image"]
     tags_meta = "\n".join(
         '  <meta property="article:tag" content="%s" />' % esc(t) for t in p["tags"])
@@ -210,26 +292,33 @@ def render_post(p):
         tagrow = '<div class="tagrow">' + "".join(
             '<span class="tag">%s</span>' % esc(t) for t in p["tags"]) + "</div>"
 
+    author = "טל פאפרין" if he else "Tal Paperin"
+    home_name = "בית" if he else "Home"
+    blog_name = "בלוג" if he else "Blog"
+
     ld = (
         '{"@context":"https://schema.org","@type":"BlogPosting",'
         '"mainEntityOfPage":{"@type":"WebPage","@id":"%s"},'
         '"headline":"%s","description":"%s","image":"%s",'
-        '"datePublished":"%s","dateModified":"%s",'
-        '"author":{"@type":"Person","name":"Tal Paperin","url":"%s/"},'
+        '"datePublished":"%s","dateModified":"%s","inLanguage":"%s",'
+        '"author":{"@type":"Person","name":"%s","url":"%s/"},'
         '"publisher":{"@type":"Organization","name":"Tal Paperin",'
         '"logo":{"@type":"ImageObject","url":"%s/og-image.jpg"}},'
         '"keywords":"%s"}'
     ) % (url, esc(p["title"]), esc(p["description"]), img,
-         p["date"].isoformat(), p["updated"].isoformat(), SITE, SITE, esc(keywords))
+         p["date"].isoformat(), p["updated"].isoformat(), "he" if he else "en",
+         esc(author), SITE, SITE, esc(keywords))
 
     crumb = (
         '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
-        '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
-        '{"@type":"ListItem","position":2,"name":"Blog","item":"%s/blog/"},'
+        '{"@type":"ListItem","position":1,"name":"%s","item":"%s%s"},'
+        '{"@type":"ListItem","position":2,"name":"%s","item":"%s%s"},'
         '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
-    ) % (SITE, SITE, esc(p["title"]), url)
+    ) % (home_name, SITE, "/he/" if he else "/", blog_name, SITE, base,
+         esc(p["title"]), url)
 
-    return TEMPLATE_POST \
+    template = TEMPLATE_POST_HE if he else TEMPLATE_POST
+    return template \
         .replace("{{TITLE}}", esc(p["title"])) \
         .replace("{{DESC}}", esc(p["description"])) \
         .replace("{{URL}}", url) \
@@ -238,61 +327,71 @@ def render_post(p):
         .replace("{{PUBLISHED}}", p["date"].isoformat()) \
         .replace("{{MODIFIED}}", p["updated"].isoformat()) \
         .replace("{{ARTICLE_TAGS}}", tags_meta) \
+        .replace("{{HREFLANG}}", hreflang_block(p["slug"], p["alt"], p["lang"])) \
         .replace("{{LD}}", ld) \
         .replace("{{CRUMB}}", crumb) \
         .replace("{{HUMAN_DATE}}", human_date(p["date"])) \
         .replace("{{READ}}", str(p["read"])) \
         .replace("{{TAGROW}}", tagrow) \
         .replace("{{BODY}}", p["body_html"]) \
-        .replace("{{NAV}}", NAV) \
-        .replace("{{FOOTER}}", FOOTER) \
-        .replace("{{SUBSCRIBE}}", SUBSCRIBE) \
-        .replace("{{CTA}}", CTA_BOX) \
-        .replace("{{FONTS}}", FONTS) \
+        .replace("{{NAV}}", HE_NAV if he else NAV) \
+        .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
+        .replace("{{SUBSCRIBE}}", HE_SUBSCRIBE if he else SUBSCRIBE) \
+        .replace("{{CTA}}", HE_CTA_BOX if he else CTA_BOX) \
+        .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
         .replace("{{ANALYTICS}}", ANALYTICS)
 
 
-def render_index(posts):
+def render_index(posts, lang="en"):
+    he = lang == "he"
+    base = "/he/blog/" if he else "/blog/"
+    read_lbl = "דק' קריאה" if he else "min read"
+    more_lbl = "לקריאת הפוסט &larr;" if he else "Read the post &rarr;"
     cards = []
     for p in posts:
-        url = "/blog/%s" % p["slug"]
+        url = "%s%s" % (base, p["slug"])
         tagrow = ""
         if p["tags"]:
             tagrow = '<div class="tagrow">' + "".join(
                 '<span class="tag">%s</span>' % esc(t) for t in p["tags"]) + "</div>"
         cards.append(
             '      <a class="post-card" href="%s">\n'
-            '        <span class="meta">%s &middot; %s min read</span>\n'
+            '        <span class="meta">%s &middot; %s %s</span>\n'
             '        <h2>%s</h2>\n'
             '        <p>%s</p>\n'
             '        %s\n'
-            '        <span class="more">Read the post &rarr;</span>\n'
-            '      </a>' % (url, human_date(p["date"]), p["read"],
-                           esc(p["title"]), esc(p["description"]), tagrow))
+            '        <span class="more">%s</span>\n'
+            '      </a>' % (url, human_date(p["date"]), p["read"], read_lbl,
+                           esc(p["title"]), esc(p["description"]), tagrow, more_lbl))
+    empty = 'בקרוב הפוסטים הראשונים.' if he else 'First posts coming soon.'
     listing = "\n".join(cards) if cards else \
-        '      <p style="color:var(--soft)">First posts coming soon.</p>'
+        '      <p style="color:var(--soft)">%s</p>' % empty
 
     ld = (
-        '{"@context":"https://schema.org","@type":"Blog","@id":"%s/blog/",'
-        '"name":"Tal Paperin Insights","url":"%s/blog/",'
+        '{"@context":"https://schema.org","@type":"Blog","@id":"%s%s",'
+        '"name":"Tal Paperin Insights","url":"%s%s",'
         '"description":"Field notes on B2B sales, fractional CRO leadership, '
         'go-to-market and fixing broken revenue.",'
+        '"inLanguage":"%s",'
         '"publisher":{"@type":"Organization","name":"Tal Paperin"}}'
-    ) % (SITE, SITE)
+    ) % (SITE, base, SITE, base, "he" if he else "en")
 
-    return TEMPLATE_INDEX \
+    template = TEMPLATE_INDEX_HE if he else TEMPLATE_INDEX
+    return template \
         .replace("{{LISTING}}", listing) \
         .replace("{{LD}}", ld) \
-        .replace("{{NAV}}", NAV) \
-        .replace("{{FOOTER}}", FOOTER) \
-        .replace("{{FONTS}}", FONTS) \
+        .replace("{{NAV}}", HE_NAV if he else NAV) \
+        .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
+        .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
         .replace("{{ANALYTICS}}", ANALYTICS)
 
 
-def render_rss(posts):
+def render_rss(posts, lang="en"):
+    he = lang == "he"
+    base = "/he/blog/" if he else "/blog/"
     items = []
     for p in posts[:30]:
-        url = "%s/blog/%s" % (SITE, p["slug"])
+        url = "%s%s%s" % (SITE, base, p["slug"])
         items.append(
             "    <item>\n"
             "      <title>%s</title>\n"
@@ -303,17 +402,20 @@ def render_rss(posts):
             "    </item>" % (esc(p["title"]), url, url, rfc822(p["date"]),
                             esc(p["description"])))
     build_date = rfc822(datetime.date.today())
-    return TEMPLATE_RSS \
+    template = TEMPLATE_RSS_HE if he else TEMPLATE_RSS
+    return template \
         .replace("{{BUILD_DATE}}", build_date) \
         .replace("{{ITEMS}}", "\n".join(items))
 
 
-def render_sitemap(posts):
+def render_sitemap(posts, he_posts=None):
+    he_posts = he_posts or []
     today = datetime.date.today().isoformat()
     urls = [
         ('%s/' % SITE, '1.0', today),
         ('%s/he/' % SITE, '0.9', today),
         ('%s/blog/' % SITE, '0.8', today),
+        ('%s/he/blog/' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
         ('%s/contact' % SITE, '0.7', today),
@@ -328,6 +430,8 @@ def render_sitemap(posts):
     urls.append(('%s/he/contact' % SITE, '0.6', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
+    for p in he_posts:
+        urls.append(('%s/he/blog/%s' % (SITE, p["slug"]), '0.6', p["updated"].isoformat()))
     body = "\n".join(
         '  <url>\n    <loc>%s</loc>\n    <changefreq>weekly</changefreq>\n'
         '    <priority>%s</priority>\n    <lastmod>%s</lastmod>\n  </url>'
@@ -388,6 +492,7 @@ TEMPLATE_POST = '''<!doctype html>
   <meta name="author" content="Tal Paperin" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="{{URL}}" />
+{{HREFLANG}}
 
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{URL}}" />
@@ -452,6 +557,9 @@ TEMPLATE_INDEX = '''<!doctype html>
   <meta name="description" content="Field notes from Tal Paperin on B2B sales, fractional CRO leadership, go-to-market strategy and fixing broken revenue functions." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/blog/" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog/" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/blog/" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/blog/" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://talpaperin.com/blog/" />
@@ -508,22 +616,180 @@ TEMPLATE_RSS = '''<?xml version="1.0" encoding="UTF-8"?>
 </rss>
 '''
 
+TEMPLATE_POST_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{TITLE}} | טל פאפרין</title>
+  <meta name="description" content="{{DESC}}" />
+  <meta name="keywords" content="{{KEYWORDS}}" />
+  <meta name="author" content="Tal Paperin" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{{URL}}" />
+{{HREFLANG}}
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{URL}}" />
+  <meta property="og:title" content="{{TITLE}}" />
+  <meta property="og:description" content="{{DESC}}" />
+  <meta property="og:image" content="{{IMG}}" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta property="og:locale" content="he_IL" />
+  <meta property="article:published_time" content="{{PUBLISHED}}" />
+  <meta property="article:modified_time" content="{{MODIFIED}}" />
+  <meta property="article:author" content="Tal Paperin" />
+{{ARTICLE_TAGS}}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{TITLE}}" />
+  <meta name="twitter:description" content="{{DESC}}" />
+  <meta name="twitter:image" content="{{IMG}}" />
+
+  {{FONTS}}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+  <link rel="alternate" type="application/rss+xml" title="Tal Paperin Insights" href="/he/blog/rss.xml" />
+
+  {{ANALYTICS}}
+
+  <script type="application/ld+json">{{LD}}</script>
+  <script type="application/ld+json">{{CRUMB}}</script>
+</head>
+<body>
+{{NAV}}
+
+  <main class="page">
+    <div class="wrap">
+      <article class="article">
+        <p class="breadcrumb"><a href="/he/">בית</a> / <a href="/he/blog/">בלוג</a></p>
+        <h1>{{TITLE}}</h1>
+        <div class="postmeta">
+          <span>מאת טל פאפרין</span><span class="dot">&middot;</span>
+          <time datetime="{{PUBLISHED}}">{{HUMAN_DATE}}</time><span class="dot">&middot;</span>
+          <span>{{READ}} דק' קריאה</span>
+        </div>
+        {{TAGROW}}
+        <div class="body">
+{{BODY}}
+        </div>
+{{SUBSCRIBE}}
+{{CTA}}
+        <a class="backlink" href="/he/blog/">&rarr; כל הפוסטים</a>
+      </article>
+    </div>
+  </main>
+
+{{FOOTER}}
+</body>
+</html>
+'''
+
+TEMPLATE_INDEX_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>תובנות על מכירות B2B ומנהיגות CRO | טל פאפרין</title>
+  <meta name="description" content="רשימות מהשטח של טל פאפרין על מכירות B2B, מנהיגות CRO במיקור חוץ, אסטרטגיית Go-to-Market ותיקון מערכי הכנסות שבורים." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/he/blog/" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog/" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/blog/" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/blog/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/he/blog/" />
+  <meta property="og:title" content="תובנות על מכירות B2B ומנהיגות CRO | טל פאפרין" />
+  <meta property="og:description" content="רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="תובנות על מכירות B2B ומנהיגות CRO | טל פאפרין" />
+  <meta name="twitter:description" content="רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {{FONTS}}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+  <link rel="alternate" type="application/rss+xml" title="Tal Paperin Insights" href="/he/blog/rss.xml" />
+
+  {{ANALYTICS}}
+
+  <script type="application/ld+json">{{LD}}</script>
+</head>
+<body>
+{{NAV}}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="blog-head">
+        <div class="glowline"></div>
+        <p class="eyebrow">בלוג</p>
+        <h1>רשימות על מכירה, צמיחה ותיקון הכנסות.</h1>
+        <p>תובנות מעשיות על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על המספר בארבע יבשות.</p>
+      </div>
+      <div class="post-list">
+{{LISTING}}
+      </div>
+    </div>
+  </main>
+
+{{FOOTER}}
+</body>
+</html>
+'''
+
+TEMPLATE_RSS_HE = '''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tal Paperin Insights (עברית)</title>
+    <link>https://talpaperin.com/he/blog/</link>
+    <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <description>רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market.</description>
+    <language>he</language>
+    <lastBuildDate>{{BUILD_DATE}}</lastBuildDate>
+{{ITEMS}}
+  </channel>
+</rss>
+'''
+
 
 def main():
-    posts = load_posts()
+    posts = load_posts(POSTS_DIR, "en")
+    he_posts = load_posts(POSTS_DIR_HE, "he")
+
+    # Pair translations: if an EN and HE post share a slug, cross-link them
+    # via hreflang. Native Hebrew posts with no English twin stay unpaired.
+    en_slugs = {p["slug"] for p in posts}
+    he_slugs = {p["slug"] for p in he_posts}
     for p in posts:
-        out = os.path.join(BLOG_DIR, p["slug"] + ".html")
-        with open(out, "w", encoding="utf-8") as f:
+        if not p["alt"] and p["slug"] in he_slugs:
+            p["alt"] = p["slug"]
+    for p in he_posts:
+        if not p["alt"] and p["slug"] in en_slugs:
+            p["alt"] = p["slug"]
+
+    for p in posts:
+        with open(os.path.join(BLOG_DIR, p["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(render_post(p))
     with open(os.path.join(BLOG_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(render_index(posts))
+        f.write(render_index(posts, "en"))
     with open(os.path.join(BLOG_DIR, "rss.xml"), "w", encoding="utf-8") as f:
-        f.write(render_rss(posts))
+        f.write(render_rss(posts, "en"))
+
+    if he_posts:
+        os.makedirs(HE_BLOG_DIR, exist_ok=True)
+        for p in he_posts:
+            with open(os.path.join(HE_BLOG_DIR, p["slug"] + ".html"), "w", encoding="utf-8") as f:
+                f.write(render_post(p))
+        with open(os.path.join(HE_BLOG_DIR, "index.html"), "w", encoding="utf-8") as f:
+            f.write(render_index(he_posts, "he"))
+        with open(os.path.join(HE_BLOG_DIR, "rss.xml"), "w", encoding="utf-8") as f:
+            f.write(render_rss(he_posts, "he"))
+
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
-        f.write(render_sitemap(posts))
+        f.write(render_sitemap(posts, he_posts))
     with open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(render_llms(posts))
-    print("Built %d post(s): %s" % (len(posts), ", ".join(p["slug"] for p in posts)))
+    print("Built %d EN post(s) and %d HE post(s)." % (len(posts), len(he_posts)))
 
 
 if __name__ == "__main__":

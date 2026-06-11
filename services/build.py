@@ -388,7 +388,7 @@ HE_NAV = '''  <nav class="site">
         <a href="/he/">בית</a>
         <a href="/he/services/">שירותים</a>
         <a href="/he/case-studies">מקרי מבחן</a>
-        <a href="/blog/">בלוג</a>
+        <a href="/he/blog/">בלוג</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
