@@ -999,6 +999,12 @@ TESTIMONIALS_EN = [
  ("Tal has the knowledge and deep understanding to analyze and map the market competition in order to promote the comparative advantage for any category of products. Tal is the one you would like to have as your team leader.","Barak Kav","CEO at TAG Dental LTD (Global)"),
  ("Tal is extremely enthusiastic about his job, smart, professional and thorough, and was a pleasure to work with.","Daniel Weiser","Sr. Director BD & Sales, Americas at Silicom Ltd."),
  ("Tal has great negotiating skills and secured several big deals for the company. He is incredibly capable and is a huge asset to any company that he works for.","Laura Gillman","Meshi Pharm"),
+ ("I had the pleasure of meeting Tal to discuss strategies and ideas for developing my business and improving sales. Tal had excellent ideas and opinions that I will be putting to use in the coming months. I highly recommend Tal for your business.","Daniel Tarlow","GK8 by Galaxy (Nasdaq: GLXY)"),
+ ("After great achievements in a rapidly growing company (Mobileye, an Intel Company), Tal listened carefully and gave concise, precise advice of great value, on negotiating projects by added value and expanding global markets through more personalised channels. He has a rare talent for thinking in-depth and forward.","Judith Rozen-Romano","Founder & CEO, Divine Italy"),
+ ("Having Tal as a contact is valuable. Having him in your corner is priceless. He is always prepared with insights and market focus, so every minute with him is energised and filled with possibility. He extracts the essence of any business idea and distils it into action and a roadmap to your goal.","Daniel Zatman","Co-Founder, Qii78"),
+ ("I worked alongside Tal on the BizDev and Sales team at TAG Dental. I was always impressed by his professionalism and personal qualities. Tal brings creative problem-solving, wide cross-discipline knowledge and a willingness to do whatever it takes to get a productive result.","Bar Libach","Global Head of Sales & BD, MIS Implants Technologies"),
+ ("I needed sound, no-bs advice on sales and marketing for a new business. Tal didn't hesitate to help, and his advice really put things into perspective. It became obvious that Tal is not only an expert in his field, but also a gracious person willing to help others.","Hans Bronkhorst","IT Manager, Bauwatch Group"),
+ ("I had the honor of working with Tal for over a year. He proved himself professional, dedicated and a valuable asset. Tal is methodical with great attention to detail, combined with the ability to see the big picture and excellent people skills, which made him a pivotal figure in every project.","Yair Rosenzweig","VP Sales & Services, Galcon"),
 ]
 
 TESTIMONIALS_HE = [
@@ -1018,6 +1024,12 @@ TESTIMONIALS_HE = [
  ('לטל יש את הידע וההבנה העמוקה הדרושים כדי לנתח ולמפות את תחרות השוק, במטרה לקדם את היתרון היחסי של כל קטגוריית מוצרים. טל הוא בדיוק האדם שאתם רוצים שיוביל את הצוות שלכם.','ברק קב','מנכ"ל, TAG Dental LTD (Global)'),
  ('טל מלא בתשוקה ואנרגיה לעבודה שלו, הוא חכם, מקצועי ויסודי בצורה בלתי רגילה, והיה פשוט תענוג לעבוד איתו.','דניאל וייזר','מנהל בכיר BD ומכירות, אמריקה, Silicom Ltd.'),
  ('לטל יש יכולות ניהול משא ומתן פנומנליות, והוא סגר כמה עסקאות ענק עבור החברה. הוא מוכשר ברמות הגבוהות ביותר ומהווה נכס אדיר לכל חברה שהוא עובד איתה.','לורה גילמן','Meshi Pharm'),
+ ('היה לי העונג להיפגש עם טל ולדבר על אסטרטגיות ורעיונות לפיתוח העסק ולשיפור המכירות. לטל היו רעיונות ודעות מעולים שאני איישם בחודשים הקרובים. אני ממליץ בחום על טל לעסק שלכם.','דניאל תרלו','GK8 by Galaxy (Nasdaq: GLXY)'),
+ ('אחרי הישגים גדולים בחברה שצמחה במהירות (Mobileye, חברת אינטל), טל הקשיב בקפידה ונתן עצות תמציתיות ומדויקות בעלות ערך רב, על ניהול פרויקטים לפי ערך מוסף והרחבת שווקים גלובליים דרך ערוצים מותאמים אישית. יש לו כישרון נדיר לחשוב לעומק וקדימה.','ג׳ודית רוזן-רומנו','מייסדת ומנכ״לית, Divine Italy'),
+ ('טל כאיש קשר הוא נכס. טל לצידך לא יסולא בפז. הוא תמיד מגיע עם תובנות ומיקוד שוק, וכל דקה איתו מלאת אנרגיה ואפשרויות. הוא מזקק את המהות של כל רעיון עסקי והופך אותו לפעולה ולמפת דרכים ליעד שלך.','דניאל זטמן','שותף מייסד, Qii78'),
+ ('עבדתי לצד טל בצוות ה-BizDev והמכירות ב-TAG Dental. תמיד התרשמתי מהמקצועיות ומהתכונות האישיות שלו. טל מביא פתרון בעיות יצירתי, ידע רחב בין-תחומי ונכונות לעשות מה שצריך כדי להגיע לתוצאה.','בר ליבך','ראש מכירות ופיתוח עסקי גלובלי, MIS Implants'),
+ ('הייתי צריך עצה כנה ובלי בולשיט על מכירות ושיווק לעסק חדש. טל לא היסס לעזור, והעצה שלו באמת סידרה לי את הראש. התברר שטל הוא לא רק מומחה בתחומו אלא גם אדם נדיב שמוכן לעזור לאחרים.','הנס ברונקהורסט','מנהל IT, Bauwatch Group'),
+ ('היה לי הכבוד לעבוד עם טל במשך יותר משנה. הוא הוכיח את עצמו כמקצוען, מסור ונכס יקר. טל מתודי עם תשומת לב יוצאת דופן לפרטים, יחד עם יכולת לראות את התמונה הגדולה וכישורי אנשים מעולים, מה שהפך אותו לדמות מרכזית בכל פרויקט.','יאיר רוזנצוויג','סמנכ״ל מכירות ושירות, Galcon'),
 ]
 
 
