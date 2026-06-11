@@ -27,6 +27,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
 
   <!-- Ahrefs Web Analytics -->
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>
@@ -490,7 +491,7 @@
         <div class="glowline"></div>
         <h2>Tell me where revenue stalled. I'll tell you why.</h2>
         <p class="sub">A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+        <div class="cta"><a class="btn btn-solid" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a 15-Minute Call</a> <a class="btn btn-outline" href="/contact">Send me a message</a></div>
         <div class="contact-row">
           <span>Email: <a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></span>
           <span>Phone: <a href="tel:+972545308119">+972 54 530 8119</a></span>
@@ -566,6 +567,9 @@
     rs();draw();addEventListener('resize',rs);}
     if(!matchMedia('(prefers-reduced-motion: reduce)').matches){particles('cv',90);particles('cv2',55);}
   </script>
+
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>function openCal(){if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}</script>
 
 </body>
 </html>
