@@ -29,6 +29,20 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
 HAMBURGER = ('<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" '
              'stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/>'
              '<line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>')
+
+FLAG_IL = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
+           '<rect width="22" height="15" fill="#fff"/>'
+           '<rect width="22" height="1.7" y="2.3" fill="#0038b8"/>'
+           '<rect width="22" height="1.7" y="11" fill="#0038b8"/>'
+           '<path d="M11 4.5 L8.4 9 L13.6 9 Z" fill="none" stroke="#0038b8" stroke-width=".7"/>'
+           '<path d="M11 10.5 L8.4 6 L13.6 6 Z" fill="none" stroke="#0038b8" stroke-width=".7"/></svg>')
+
+FLAG_US = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
+           '<rect width="22" height="15" fill="#b22234"/>'
+           '<g fill="#fff"><rect width="22" height="1.15" y="1.15"/><rect width="22" height="1.15" y="3.46"/>'
+           '<rect width="22" height="1.15" y="5.77"/><rect width="22" height="1.15" y="8.08"/>'
+           '<rect width="22" height="1.15" y="10.38"/><rect width="22" height="1.15" y="12.69"/></g>'
+           '<rect width="9" height="8.08" fill="#3c3b6e"/></svg>')
 WA_SVG = ('<svg viewBox="0 0 32 32" fill="#fff" aria-hidden="true"><path d="M16 .4C7.4.4.4 '
           '7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.6l7.9-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 '
           '15.6-7 15.6-15.6C31.6 7.4 24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.7 '
@@ -49,6 +63,7 @@ NAV = '''  <nav class="site">
         <a href="/blog/">Blog</a>
       </div>
       <div class="nav-right">
+        <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_IL + '''</a>
         <a class="btn btn-solid" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
@@ -376,6 +391,7 @@ HE_NAV = '''  <nav class="site">
         <a href="/blog/">בלוג</a>
       </div>
       <div class="nav-right">
+        <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
         <a class="btn btn-solid" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
