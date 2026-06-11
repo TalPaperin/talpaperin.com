@@ -31,6 +31,7 @@ import os
 import re
 import html
 import datetime
+import importlib.util
 
 import markdown
 
@@ -38,6 +39,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG_DIR = os.path.join(ROOT, "blog")
 POSTS_DIR = os.path.join(BLOG_DIR, "posts")
 SITE = "https://talpaperin.com"
+
+# Service pages are defined in services/build.py; pull them in for sitemap + llms.
+_svc_spec = importlib.util.spec_from_file_location(
+    "svcbuild", os.path.join(ROOT, "services", "build.py"))
+_svc_mod = importlib.util.module_from_spec(_svc_spec)
+_svc_spec.loader.exec_module(_svc_mod)
+SERVICES = _svc_mod.SERVICES
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
@@ -79,6 +87,7 @@ NAV = '''  <nav class="site">
       <a class="brand" href="/">TAL PAPERIN</a>
       <div class="navlinks">
         <a href="/">Home</a>
+        <a href="/services/">Services</a>
         <a href="/blog/">Blog</a>
         <a href="/#work">Work With Me</a>
       </div>
@@ -300,7 +309,10 @@ def render_sitemap(posts):
         ('%s/' % SITE, '1.0', today),
         ('%s/he/' % SITE, '0.9', today),
         ('%s/blog/' % SITE, '0.8', today),
+        ('%s/services/' % SITE, '0.8', today),
     ]
+    for s in SERVICES:
+        urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
     body = "\n".join(
@@ -328,8 +340,11 @@ def render_llms(posts):
         "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
         "",
-        "## Blog posts",
+        "## Services",
     ]
+    for s in SERVICES:
+        lines.append("- [%s](%s/services/%s): %s" % (s["h1"], SITE, s["slug"], s["desc"]))
+    lines += ["", "## Blog posts"]
     for p in posts:
         lines.append("- [%s](%s/blog/%s): %s" % (p["title"], SITE, p["slug"], p["description"]))
     lines += [
