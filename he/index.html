@@ -153,13 +153,15 @@
     .case li{display:flex;gap:13px;align-items:baseline;color:#e7edf3;counter-increment:cl}
     .case li::before{content:counter(cl,decimal-leading-zero);font-family:'Anton',sans-serif;font-size:1.2em;line-height:1;color:var(--blue);flex:0 0 auto;min-width:1.4em;direction:ltr;text-align:right;position:relative;top:.17em}
     @media(max-width:760px){.case{grid-template-columns:1fr;gap:24px;padding:28px}}
-    .case-rail{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:4px 2px 18px;scrollbar-width:thin;scrollbar-color:var(--blue2) rgba(255,255,255,.08)}
-    .case-rail::-webkit-scrollbar{height:8px}
-    .case-rail::-webkit-scrollbar-track{background:rgba(255,255,255,.06);border-radius:99px}
-    .case-rail::-webkit-scrollbar-thumb{background:var(--blue2);border-radius:99px}
-    .case-rail .case{flex:0 0 86%;max-width:540px;grid-template-columns:1fr;gap:22px;align-items:start;scroll-snap-align:start;margin:0}
-    .case-rail .case+.case{margin-top:0}
-    @media(min-width:760px){.case-rail .case{flex-basis:calc(50% - 11px)}}
+    .cmarquee{--speed:50s}
+    .cmarquee .marquee-track{gap:20px;align-items:stretch;padding:4px 0}
+    .cmarquee .case{flex:0 0 330px;max-width:330px;grid-template-columns:1fr;gap:14px;padding:26px;margin:0;align-items:start}
+    .cmarquee .case ul{display:none}
+    .cmarquee .case:hover{transform:none}
+    .case-full{display:none;gap:22px}
+    .case-full .case+.case{margin-top:0}
+    #cases.cases-open .cmarquee{display:none}
+    #cases.cases-open .case-full{display:grid}
 
     .caps{display:grid;grid-template-columns:1fr 1fr;gap:20px 44px;margin-top:42px}
     .cap{padding-right:22px;border-right:2px solid rgba(90,176,255,.45)}
@@ -335,25 +337,26 @@
         <p class="eyebrow">מקרי מבחן מהזמן האחרון</p>
         <h2>הגעתי כדי לבנות את המנוע מאפס, לא רק לתת עצות מהצד.</h2>
       </div>
-      <div class="case-rail">
-      <article class="case reveal">
+      <div class="marquee cmarquee reveal" style="--speed:50s"><div class="marquee-track" id="casetrack"></div></div>
+      <div class="case-full">
+      <article class="case">
         <div class="who"><img class="case-logo" src="/logos/kanduai.jpg" alt="KanduAI" /><h3>סטארטאפ SaaS</h3><p class="role">אריאל שמש, שותף מייסד ומנכ"ל</p><p class="intro">נכנסתי לתפקיד כ-VP Sales במיקור חוץ מהיום הראשון של החברה. לקחתי בעלות מלאה על ה-GTM מקצה לקצה, בניתי את מנוע המכירות מאפס, ואז בניתי אותו מחדש לגמרי כשהחברה עברה פיבוט (Pivot) מלא במוצר.</p></div>
         <ul><li>בניית אסטרטגיית GTM מלאה ותוכנית עבודה מפורטת לפי אבני דרך</li><li>הגדרה ותיקוף בשטח של פרופיל הלקוח האידיאלי (ICP), המיצוב והמסרים</li><li>בניית תוכנית עבודה (Playbook) ותהליכי אאוטבאונד מאפס</li><li>גיוס, הכשרה וניהול יומיומי של צוות ה-SDR</li><li>השקה מחדש של כל אסטרטגיית ה-Go-to-market בתקופת השינוי במוצר</li></ul>
       </article>
-      <article class="case reveal">
+      <article class="case">
         <div class="who"><img class="case-logo" src="/logos/lonestar.jpg" alt="LoneStar Tracking" /><h3>חברת IoT בהובלת המייסדים</h3><p class="role">תומאס רמרט, שותף מייסד ו-CTO</p><p class="intro">חברת IoT בהובלת המייסדים עם שיווק חזק, אבל עם מנוע מכירות שלא הצליח לייצר המרות בשורה התחתונה. בניתי והרצתי את כל מערך המכירות שלהם מקצה לקצה.</p></div>
         <ul><li>בניית אסטרטגיה ותהליכי מכירה מלאים מאפס</li><li>בחירה והטמעה של מערכת ה-CRM וכל הכלים הטכנולוגיים למכירות</li><li>יצירת תהליכי עבודה, Playbook מסודר וניהול ה-Pipeline</li><li>איתור, גיוס והכשרת צוות המכירות החדש</li><li>ניהול שוטף ויומיומי של הצוות ושל תנועת הלקוחות</li><li>אספקת מנהיגות ויכולות ניהול ברמת VP בשבריר מהמחיר של משרה מלאה</li></ul>
       </article>
-      <article class="case reveal">
+      <article class="case">
         <div class="who"><img class="case-logo" src="/logos/bt9.jpg" alt="BT9 / Xsense" /><h3>חברת IoT ו-SaaS</h3><p class="role">BT9 / Xsense, מכירות בינלאומיות שנבנו מאפס</p><p class="intro">חברת IoT ו-SaaS שהייתה צריכה נוכחות בינלאומית אמיתית. בניתי את כל מערך המכירות הגלובלי מאפס, במכירה ישירה ודרך מפיצים, וניהלתי את הצוות יום-יום.</p></div>
         <ul><li>בנייה מאפס של מערך מכירות בינלאומי שלם בכל העולם (FSU, האיחוד האירופי ו-APAC)</li><li>מכירה ישירה של SaaS, חומרה (HW) ושירותים</li><li>גיוס וניהול של רשת המפיצים</li><li>גיוס, הכשרה וניהול יומיומי של הצוות: SDRs, פוסט-סייל ותמיכה טכנית</li></ul>
       </article>
-      <article class="case reveal">
+      <article class="case">
         <div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><p class="role">יצרן גלובלי, פריצה לשוק במזרח אירופה</p><p class="intro">יצרן בינלאומי שהיה בטוח שאין כסף אמיתי במזרח אירופה, ולכן נמנע מלהיכנס לשם. הוכחתי להם שהם טועים, בניתי תוכנית עבודה ופתחתי את השוק הזה בעצמי.</p></div>
         <ul><li>בניית אסטרטגיית חדירה לשוק המזרח אירופאי ותוכנית יעדים מוגדרת</li><li>מיפוי ערוצי ההפצה וזיהוי מקבלי ההחלטות האמיתיים בשטח</li><li>ניהול והובלה של כל תהליכי המשא ומתן באופן אישי</li><li>החתמת מספר מפיצים ורשתות קמעונאות באזור</li><li>הבאת המוצרים למדפים פיזיים בשוק שהחברה כבר מחקה לחלוטין</li><li>הוכחה חותכת שיש שוק ענק ורווחי במזרח אירופה</li></ul>
       </article>
       </div>
-      <p class="reveal" style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/he/case-studies">עוד מקרי מבחן</a></p>
+      <p style="text-align:center;margin-top:34px"><button type="button" class="btn btn-outline case-toggle" aria-expanded="false">עוד מקרי מבחן</button></p>
     </div>
   </section>
 
@@ -532,7 +535,7 @@
   <script>function openCal(){if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}</script>
 
   <script>
-  (function(){var rail=document.querySelector('.case-rail');if(!rail)return;var cards=rail.querySelectorAll('.case');if(cards.length<2)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var rtl=getComputedStyle(rail).direction==='rtl';var i=0,timer=null,vis=false,st;function edge(el){var r=el.getBoundingClientRect();return rtl?r.right:r.left;}function go(){i=(i+1)%cards.length;cards[i].scrollIntoView({behavior:'smooth',block:'nearest',inline:'start'});}function start(){if(!timer&&vis)timer=setInterval(go,2000);}function stop(){if(timer){clearInterval(timer);timer=null;}}rail.addEventListener('scroll',function(){clearTimeout(st);st=setTimeout(function(){var re=edge(rail),best=0,bd=Infinity;for(var k=0;k<cards.length;k++){var d=Math.abs(edge(cards[k])-re);if(d<bd){bd=d;best=k;}}i=best;},120);},{passive:true});rail.addEventListener('mouseenter',stop);rail.addEventListener('mouseleave',start);rail.addEventListener('touchstart',stop,{passive:true});rail.addEventListener('touchend',function(){setTimeout(start,4000);},{passive:true});if('IntersectionObserver'in window){new IntersectionObserver(function(es){es.forEach(function(e){vis=e.isIntersecting;if(vis)start();else stop();});},{threshold:0.3}).observe(rail);}else{vis=true;start();}})();
+  (function(){var sec=document.getElementById('cases');if(!sec)return;var src=sec.querySelector('.case-full'),track=document.getElementById('casetrack');if(src&&track){track.innerHTML=src.innerHTML+src.innerHTML;}var btn=sec.querySelector('.case-toggle');if(btn){btn.addEventListener('click',function(){var open=sec.classList.toggle('cases-open');btn.textContent=open?'הצג פחות':'עוד מקרי מבחן';btn.setAttribute('aria-expanded',open?'true':'false');});}})();
   </script>
 
 </body>
