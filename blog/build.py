@@ -90,11 +90,10 @@ NAV = '''  <nav class="site">
         <a href="/services/">Services</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/blog/">Blog</a>
-        <a href="/contact">Contact</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a>
+        <a class="btn btn-solid" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>

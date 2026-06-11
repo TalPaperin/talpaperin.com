@@ -47,10 +47,9 @@ NAV = '''  <nav class="site">
         <a href="/services/">Services</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/blog/">Blog</a>
-        <a href="/contact">Contact</a>
       </div>
       <div class="nav-right">
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a Call</a>
+        <a class="btn btn-solid" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -375,10 +374,9 @@ HE_NAV = '''  <nav class="site">
         <a href="/he/services/">שירותים</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/blog/">בלוג</a>
-        <a href="/he/contact">צור קשר</a>
       </div>
       <div class="nav-right">
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה</a>
+        <a class="btn btn-solid" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>

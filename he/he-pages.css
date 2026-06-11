@@ -59,7 +59,7 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 @media(max-width:760px){.svc-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.wrap{padding:0 20px}.brand{font-size:28px}.page{padding-top:96px}}
 
-.contact-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:42px;align-items:start}
+.contact-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:42px;align-items:stretch}
 .contact-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 32px}
 .contact-card h2{font-size:1.5rem;color:#fff;margin:0 0 6px}
 .contact-sub{color:var(--soft);font-size:.98rem;margin:0 0 22px}
