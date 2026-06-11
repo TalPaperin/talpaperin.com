@@ -45,8 +45,8 @@ NAV = '''  <nav class="site">
       <div class="navlinks">
         <a href="/">Home</a>
         <a href="/services/">Services</a>
+        <a href="/case-studies">Case Studies</a>
         <a href="/blog/">Blog</a>
-        <a href="/#work">Work With Me</a>
         <a href="/contact">Contact</a>
       </div>
       <div class="nav-right">
@@ -333,7 +333,7 @@ HE_NAV = '''  <nav class="site">
       <div class="navlinks">
         <a href="/he/">בית</a>
         <a href="/he/services/">שירותים</a>
-        <a href="/he/challenges">מדריך</a>
+        <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/blog/">בלוג</a>
         <a href="/he/contact">צור קשר</a>
       </div>
@@ -791,6 +791,194 @@ CONTACT_HE = '''<!doctype html>
 '''
 
 
+CASE_STUDIES = [
+ {"company":"KanduAI","meta":"AI SaaS startup, Fractional VP of Sales",
+  "situation":"An early-stage AI startup with no sales engine. They needed someone to build it from day one, then it survived a full product pivot.",
+  "did":["Owned go-to-market end to end as fractional VP of Sales from day one","Defined and validated the ICP, positioning and messaging","Built the outbound playbook and motion from zero","Hired, trained and managed the SDR team","Relaunched the entire go-to-market through the pivot, twice"],
+  "result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
+ {"company":"LoneStar Tracking","meta":"Founder-led IoT business, Outsourced sales leadership",
+  "situation":"Strong marketing, but a sales engine that was not converting, and founders with little sales experience.",
+  "did":["Built the entire sales strategy and motion from scratch","Selected and implemented the CRM and the sales stack","Built the process, the playbook and the pipeline","Recruited, hired and trained the sales team","Ran the team and the motion day to day"],
+  "result":"Full VP-level sales leadership at a fraction of the cost of a hire."},
+ {"company":"Bacsoft","meta":"Israeli IIoT, backed by Japan's SUN Corp, VP of Global Sales",
+  "situation":"An IIoT company that needed a global sales strategy, a channel network, and the ability to win complex public-sector deals.",
+  "did":["Owned the global sales strategy","Recruited and managed distributors worldwide","Ran direct B2B sales of SaaS, hardware and services","Led B2G: RFIs, RFQs and complex government projects across the globe","Managed marketing and marcom"],
+  "result":"A global channel and a B2G pipeline built for a company selling complex IIoT internationally."},
+ {"company":"Palram","meta":"Global manufacturer, Eastern Europe market entry",
+  "situation":"A global manufacturer convinced there was no money in Eastern Europe, so they stayed out.",
+  "did":["Built the market-entry strategy and milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed two of the region's largest DIY retail chains"],
+  "result":"Product on shelves in a market the company had written off, proving there was real money in Eastern Europe."},
+ {"company":"BT9","meta":"IoT and SaaS, International sales across FSU, EU and APAC",
+  "situation":"A company that needed an entire international sales operation built from the ground up.",
+  "did":["Built an international sales operation from zero across the FSU, the EU and APAC","Ran direct sales of SaaS, hardware and services","Recruited and managed the distributor network","Hired, trained and ran the team day to day: SDRs, post-sales and tech support"],
+  "result":"A working international sales engine across three regions, built from scratch."},
+ {"company":"TAG Medical","meta":"Medical devices, International sales and marketing, EU",
+  "situation":"A medical device manufacturer expanding into the EU that needed both a sales motion and a marketing function.",
+  "did":["Ran international sales across the EU","Drove direct B2B sales of medical equipment","Recruited and managed distributors","Built and ran the entire marketing department, online and offline"],
+  "result":"A sales and marketing engine for medical devices across European markets."},
+ {"company":"SOURCE Vagabond","meta":"Consumer products, North American retail",
+  "situation":"An Israeli brand that needed to crack large US retailers and big-box chains.",
+  "did":["Sold direct to large retailers and big-box stores across North America","Recruited and managed distributors"],
+  "result":"Product into major North American retail, from an unknown overseas brand."},
+ {"company":"Synergix","meta":"Scientific SaaS, North America",
+  "situation":"A scientific SaaS company selling to a hard, technical US buyer: universities, research labs and pharma.",
+  "did":["Drove direct B2B SaaS sales to universities, research facilities and pharma companies","Wrote the sales scripts and the playbook the reps used","Led and motivated the sales effort"],
+  "result":"SaaS sold into US academia and pharma, a long, technical, high-trust sale."},
+]
+
+HE_CASES = [
+ {"company":"KanduAI","meta":"סטארטאפ AI SaaS, VP מכירות במיקור חוץ",
+  "situation":"סטארטאפ AI בתחילת הדרך בלי מנוע מכירות. היו צריכים מישהו שיבנה אותו מהיום הראשון, ואז המוצר עבר פיבוט מלא.",
+  "did":["לקחתי בעלות מלאה על ה-GTM כ-VP מכירות במיקור חוץ מהיום הראשון","הגדרתי ותיקפתי את ה-ICP, המיצוב והמסרים","בניתי את ה-Playbook ותנועת האאוטבאונד מאפס","גייסתי, הכשרתי וניהלתי את צוות ה-SDR","השקתי מחדש את כל ה-GTM דרך הפיבוט, פעמיים"],
+  "result":"מנוע אאוטבאונד עובד, שנבנה מחדש מאפס דרך פיבוט, במהירות ובדיוק."},
+ {"company":"LoneStar Tracking","meta":"עסק IoT בהובלת מייסדים, הובלת מכירות במיקור חוץ",
+  "situation":"שיווק חזק, אבל מנוע מכירות שלא המיר, ומייסדים עם מעט ניסיון במכירות.",
+  "did":["בניתי את כל אסטרטגיית ותהליכי המכירה מאפס","בחרתי והטמעתי CRM ומערך כלי מכירה","בניתי תהליך, Playbook ופייפליין","גייסתי, הכשרתי ובניתי את צוות המכירות","ניהלתי את הצוות ואת התנועה יום-יום"],
+  "result":"הובלת מכירות מלאה ברמת VP בשבריר מעלות של גיוס."},
+ {"company":"Bacsoft","meta":"חברת IIoT ישראלית בגיבוי SUN Corp מיפן, VP מכירות גלובלי",
+  "situation":"חברת IIoT שהייתה צריכה אסטרטגיית מכירות גלובלית, רשת מפיצים ויכולת לזכות בעסקאות מורכבות מול המגזר הציבורי.",
+  "did":["לקחתי בעלות על אסטרטגיית המכירות הגלובלית","גייסתי וניהלתי מפיצים בכל העולם","הרצתי מכירה ישירה B2B של SaaS, חומרה ושירותים","הובלתי B2G: מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים בכל העולם","ניהלתי את השיווק וה-Marcom"],
+  "result":"רשת ערוצים גלובלית ופייפליין B2G שנבנו לחברה שמוכרת IIoT מורכב בעולם."},
+ {"company":"Palram","meta":"יצרן גלובלי, חדירה לשוק במזרח אירופה",
+  "situation":"יצרן גלובלי שהיה בטוח שאין כסף במזרח אירופה, ולכן נמנע מלהיכנס.",
+  "did":["בניתי את אסטרטגיית החדירה ותוכנית אבני הדרך","מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בשטח","ניהלתי כל משא ומתן באופן אישי","חתמתי על שתיים מרשתות ה-DIY הגדולות באזור"],
+  "result":"מוצר על המדפים בשוק שהחברה כבר מחקה, והוכחה שיש שם כסף אמיתי."},
+ {"company":"BT9","meta":"IoT ו-SaaS, מכירות בינלאומיות ב-FSU, באיחוד האירופי וב-APAC",
+  "situation":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם שייבנה מאפס.",
+  "did":["בניתי מערך מכירות בינלאומי מאפס ב-FSU, באיחוד האירופי וב-APAC","הרצתי מכירה ישירה של SaaS, חומרה ושירותים","גייסתי וניהלתי את רשת המפיצים","גייסתי, הכשרתי וניהלתי את הצוות יום-יום: SDR, פוסט-סייל ותמיכה טכנית"],
+  "result":"מנוע מכירות בינלאומי עובד בשלוש טריטוריות, שנבנה מאפס."},
+ {"company":"TAG Medical","meta":"מכשור רפואי, מכירות ושיווק בינלאומיים באיחוד האירופי",
+  "situation":"יצרן מכשור רפואי שהתרחב לאיחוד האירופי וצריך גם מערך מכירות וגם מחלקת שיווק.",
+  "did":["ניהלתי מכירות בינלאומיות בכל האיחוד האירופי","הובלתי מכירה ישירה B2B של ציוד רפואי","גייסתי וניהלתי מפיצים","בניתי וניהלתי את כל מחלקת השיווק, אונליין ואופליין"],
+  "result":"מערך מכירות ושיווק למכשור רפואי בשווקים האירופיים."},
+ {"company":"SOURCE Vagabond","meta":"מוצרי צריכה, קמעונאות בצפון אמריקה",
+  "situation":"מותג ישראלי שהיה צריך לפרוץ לקמעונאים הגדולים ולרשתות ה-Big Box בארה״ב.",
+  "did":["מכרתי ישירות לקמעונאים גדולים ולרשתות Big Box בכל צפון אמריקה","גייסתי וניהלתי מפיצים"],
+  "result":"מוצר לתוך הקמעונאות הגדולה בצפון אמריקה, ממותג זר לא מוכר."},
+ {"company":"Synergix","meta":"SaaS מדעי, צפון אמריקה",
+  "situation":"חברת SaaS מדעית שמכרה ללקוח אמריקאי קשה וטכני: אוניברסיטאות, מעבדות מחקר וחברות פארמה.",
+  "did":["הובלתי מכירה ישירה B2B של SaaS לאוניברסיטאות, מוסדות מחקר וחברות פארמה","כתבתי את תסריטי המכירה ואת ה-Playbook שהנציגים השתמשו בהם","הובלתי והנעתי את צוות המכירות"],
+  "result":"SaaS שנמכר לאקדמיה ולפארמה בארה״ב, מכירה ארוכה, טכנית ועתירת אמון."},
+]
+
+
+def render_cases(cases, rlabel):
+    out = []
+    for c in cases:
+        lis = "".join("<li>%s</li>" % esc(x) for x in c["did"])
+        out.append('      <div class="case-study">\n'
+                    '        <h2>%s</h2>\n        <div class="meta">%s</div>\n'
+                    '        <p class="situation">%s</p>\n        <ul>%s</ul>\n'
+                    '        <div class="result"><span>%s</span>%s</div>\n      </div>'
+                    % (esc(c["company"]), esc(c["meta"]), esc(c["situation"]), lis,
+                       esc(rlabel), esc(c["result"])))
+    return "\n".join(out)
+
+
+CS_PAGE_EN = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case Studies | Tal Paperin, Fractional CRO</title>
+  <meta name="description" content="Real results from a fractional CRO: building sales engines, opening markets and closing complex deals for B2B companies across startups, IoT, manufacturing, medical and SaaS, on four continents." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/case-studies" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/case-studies" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/case-studies" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/case-studies" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/case-studies" />
+  <meta property="og:title" content="Case Studies | Tal Paperin" />
+  <meta property="og:description" content="Real companies, real problems, real ownership. Sales engines built, markets opened, complex deals closed." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Case Studies | Tal Paperin" />
+  <meta name="twitter:description" content="Real companies, real problems, real ownership." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">Case Studies</p>
+        <h1>Brought in to build the engine, not advise on it.</h1>
+        <p class="lead">Real companies, real problems, real ownership. Here is what I have built and fixed, across startups, IoT, manufacturing, medical devices, retail and SaaS, on four continents.</p>
+        <div class="cases-list">
+{cases}
+        </div>
+{cta}
+        <div class="svc-related">See the <a href="/services/">services</a> behind these, or <a href="/blog/">read the blog</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+CS_PAGE_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>מקרי מבחן | טל פאפרין, Fractional CRO</title>
+  <meta name="description" content="תוצאות אמיתיות: בניית מנועי מכירות, פתיחת שווקים וסגירת עסקאות מורכבות לחברות B2B, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי ו-SaaS, בארבע יבשות." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/he/case-studies" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/case-studies" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/case-studies" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/case-studies" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/he/case-studies" />
+  <meta property="og:title" content="מקרי מבחן | טל פאפרין" />
+  <meta property="og:description" content="חברות אמיתיות, בעיות אמיתיות, בעלות אמיתית. מנועי מכירות שנבנו, שווקים שנפתחו, עסקאות מורכבות שנסגרו." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="טל פאפרין" />
+  <meta property="og:locale" content="he_IL" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">מקרי מבחן</p>
+        <h1>הגעתי כדי לבנות את המנוע, לא לייעץ עליו.</h1>
+        <p class="lead">חברות אמיתיות, בעיות אמיתיות, בעלות אמיתית. הנה מה שבניתי ותיקנתי, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי, קמעונאות ו-SaaS, בארבע יבשות.</p>
+        <div class="cases-list">
+{cases}
+        </div>
+{cta}
+        <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/blog/">קראו את הבלוג</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -889,6 +1077,13 @@ def build():
         f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
         f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
+
+    with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
+        f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+                                  cases=render_cases(CASE_STUDIES, "Result"), cta=CTA_BOX))
+    with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
+        f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+                                  cases=render_cases(HE_CASES, "תוצאה"), cta=HE_CTA))
 
     print("Built %d EN + %d HE service pages, HE index and HE FAQ"
           % (len(SERVICES), len(HE_SERVICES)))
