@@ -81,7 +81,11 @@
       <div class="subscribe-box">
         <h3>Get these in your inbox</h3>
         <p>No fluff. Sales, revenue and go-to-market, straight from the field.</p>
-        <a class="btn btn-solid" href="https://talpaperin.beehiiv.com/subscribe" target="_blank" rel="noopener">Subscribe</a>
+        <form class="sub-form" onsubmit="return subSubmit(event)">
+          <input type="email" name="email" placeholder="Your email" required autocomplete="email" />
+          <button class="btn btn-solid" type="submit">Subscribe</button>
+        </form>
+        <p class="sub-msg" hidden></p>
       </div>
       <div class="cta-box">
         <h3>Your sales suck. You don't know why. I do.</h3>
@@ -106,6 +110,7 @@
     var nt=document.querySelector('.navtoggle');
     if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
+    function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='You are in. Check your inbox.';}else{b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';}}).catch(function(){b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';});return false;}
   </script>
 </body>
 </html>
