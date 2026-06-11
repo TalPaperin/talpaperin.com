@@ -168,7 +168,7 @@ SERVICES = [
       "Build the partner program that keeps them selling",
       "Manage the relationships for the long term, not just to the signature"]},
     {"h":"Proven on the ground","p":[
-      "I have signed two of the largest DIY retail chains in a region a global manufacturer had written off, and built distributor networks across the FSU, the EU and APAC. Partners are not a logo on a slide. They are revenue, if you pick and manage them right."]},
+      "I have signed multiple distributors and retail chains across a region a global manufacturer had written off, and built distributor networks across the FSU, the EU and APAC. Partners are not a logo on a slide. They are revenue, if you pick and manage them right."]},
   ]},
 
  {"slug":"market-entry","nav":"Market Entry","h1":"International Market Entry",
@@ -435,7 +435,7 @@ HE_SERVICES = [
     {"h":"מה אני עושה",
      "ul":["מיפוי הערוץ ומקבלי ההחלטות האמיתיים בשטח","איתור והחתמת מפיצים, ריסלרים, אינטגרטורים ושותפי ערוץ","בניית תוכנית השותפים שגורמת להם להמשיך למכור","ניהול הקשרים לטווח הארוך, לא רק עד החתימה"]},
     {"h":"מוכח בשטח",
-     "p":["החתמתי שתיים מרשתות ה-DIY הגדולות באזור שיצרן גלובלי כבר מחק, ובניתי רשתות מפיצים ב-FSU, באיחוד האירופי וב-APAC. שותפים הם לא לוגו על שקף. הם הכנסות, אם בוחרים ומנהלים אותם נכון."]},
+     "p":["החתמתי מספר מפיצים ורשתות קמעונאות באזור שיצרן גלובלי כבר מחק, ובניתי רשתות מפיצים ב-FSU, באיחוד האירופי וב-APAC. שותפים הם לא לוגו על שקף. הם הכנסות, אם בוחרים ומנהלים אותם נכון."]},
   ]},
 
  {"slug":"market-entry","nav":"חדירה לשווקים","h1":"חדירה לשווקים בינלאומיים",
@@ -806,7 +806,7 @@ CASE_STUDIES = [
   "result":"A global channel and a B2G pipeline built for a company selling complex IIoT internationally."},
  {"company":"Palram","meta":"Global manufacturer, Eastern Europe market entry",
   "situation":"A global manufacturer convinced there was no money in Eastern Europe, so they stayed out.",
-  "did":["Built the market-entry strategy and milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed two of the region's largest DIY retail chains"],
+  "did":["Built the market-entry strategy and milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed multiple distributors and retail chains across the region"],
   "result":"Product on shelves in a market the company had written off, proving there was real money in Eastern Europe."},
  {"company":"BT9","meta":"IoT and SaaS, International sales across FSU, EU and APAC",
   "situation":"A company that needed an entire international sales operation built from the ground up.",
@@ -841,7 +841,7 @@ HE_CASES = [
   "result":"רשת ערוצים גלובלית ופייפליין B2G שנבנו לחברה שמוכרת IIoT מורכב בעולם."},
  {"company":"Palram","meta":"יצרן גלובלי, חדירה לשוק במזרח אירופה",
   "situation":"יצרן גלובלי שהיה בטוח שאין כסף במזרח אירופה, ולכן נמנע מלהיכנס.",
-  "did":["בניתי את אסטרטגיית החדירה ותוכנית אבני הדרך","מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בשטח","ניהלתי כל משא ומתן באופן אישי","חתמתי על שתיים מרשתות ה-DIY הגדולות באזור"],
+  "did":["בניתי את אסטרטגיית החדירה ותוכנית אבני הדרך","מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בשטח","ניהלתי כל משא ומתן באופן אישי","החתמתי מספר מפיצים ורשתות קמעונאות באזור"],
   "result":"מוצר על המדפים בשוק שהחברה כבר מחקה, והוכחה שיש שם כסף אמיתי."},
  {"company":"BT9","meta":"IoT ו-SaaS, מכירות בינלאומיות ב-FSU, באיחוד האירופי וב-APAC",
   "situation":"חברה שהייתה צריכה מערך מכירות בינלאומי שלם שייבנה מאפס.",
@@ -862,17 +862,83 @@ HE_CASES = [
 ]
 
 
+LOGO_MAP = {"KanduAI":"kanduai","LoneStar Tracking":"lonestar","Bacsoft":"bacsoft",
+            "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source"}
+
+
 def render_cases(cases, rlabel):
     out = []
     for c in cases:
+        logo = LOGO_MAP.get(c["company"], "")
+        img = ('<img class="cs-logo" src="/logos/%s.jpg" alt="%s" loading="lazy" />\n        '
+               % (logo, esc(c["company"]))) if logo else ""
         lis = "".join("<li>%s</li>" % esc(x) for x in c["did"])
-        out.append('      <div class="case-study">\n'
-                    '        <h2>%s</h2>\n        <div class="meta">%s</div>\n'
+        out.append('      <div class="case-study">\n        %s'
+                    '<h2>%s</h2>\n        <div class="meta">%s</div>\n'
                     '        <p class="situation">%s</p>\n        <ul>%s</ul>\n'
                     '        <div class="result"><span>%s</span>%s</div>\n      </div>'
-                    % (esc(c["company"]), esc(c["meta"]), esc(c["situation"]), lis,
+                    % (img, esc(c["company"]), esc(c["meta"]), esc(c["situation"]), lis,
                        esc(rlabel), esc(c["result"])))
     return "\n".join(out)
+
+
+def _initials(name):
+    parts = [p for p in re.split(r"[\s.,\"']+", name) if p and p[0].isalpha()]
+    a = parts[0][0] if parts else "?"
+    b = parts[1][0] if len(parts) > 1 else ""
+    return (a + b).upper()
+
+
+def render_testimonials(quotes):
+    cards = []
+    for txt, name, who in quotes:
+        wholine = (", " + esc(who)) if who else ""
+        cards.append('<div class="quote"><p>"%s"</p><div class="who">'
+                     '<span class="qavatar">%s</span>'
+                     '<span class="qwho"><strong>%s</strong>%s</span></div></div>'
+                     % (esc(txt), esc(_initials(name)), esc(name), wholine))
+    inner = "".join(cards)
+    return ('<div class="marquee tmarquee"><div class="marquee-track">%s%s</div></div>'
+            % (inner, inner))
+
+
+TESTIMONIALS_EN = [
+ ("We brought in Tal Paperin as our fractional VP of Sales from day one at KanduAi. He wasn't just a consultant, he acted as a true VP of Sales. He defined our Ideal Customer Profile, built our outbound playbook, hired and trained SDRs, and launched our outbound motion twice. If you're a founder trying to launch or relaunch sales from zero, Tal is who you want in your corner.","Ariel Shemesh","Co-Founder & CEO at KanduAI"),
+ ("Tal has been a pleasure to work with. I own and operate a small business in the IoT sector, and have very little experience in sales and marketing. Tal was able to quickly develop a strategy for us, implement a CRM, and start building and training our sales team. If you are a small (or large) business needing to get your sales and marketing straightened out, Tal is your guy.","Tommy Remmert","Co-Founder and CTO of LoneStar Tracking"),
+ ("If you are looking for someone who understands sales, Tal is your address. His grasp on the overall sales process, how to move a prospect forward and his on point grasp of how to move your business forward is invaluable. Follow him. Listen to him. Take his advice. Grow your business as a result.","Helen Gottstein","Public Speaking, Executive Communications & Strategy"),
+ ("Tal is a hard-working and trustworthy person. I have experience as a client, a partner and working for him directly. He is a man of his word, delivers on what he promises. A competent salesperson and strategist I would recommend him to any company wanting a fractional sales leader, channel manager or strategist.","Steve Burton","CRO, The Point Company"),
+ ("Working with Tal has been impactful. He helped us understand where the issues were in our sales process and provided us a roadmap to increase sales by creating custom SOPs and demonstrating every step very clearly. He is very responsive and communicates well. Highly recommended.","Amitay Stern","CEO at TypoDuctions and DRIFT"),
+ ("Tal is a sharp and smart marketer. In a short conversation, he was able to understand and analyze complex problems of understanding the market, customer analysis, and consumer mapping. He brought us quick and good solutions that do the job.","David Gallula, Ph.D.","Head at UED Research Institute, CEO at ProUX"),
+ ("With just an initial 15 minute consulting call with Tal, I was able to identify new approaches that I am confident will lead to a significant increase in successful prospect meetings. Tal was friendly, gracious with his time, and a good listener. This session was one of the most helpful resources I have encountered.","Michael Teichberg","Founder, InventivHR"),
+ ("Tal provided me with wise advice. He listened to me and asked great questions that showed an advanced level of understanding and attention, and then gave very helpful advice and shared his ways of thinking on the matter. I was most impressed by his methodical way of thinking and experimenting in sales.","Neriya Rosner","Founder and CEO of SpecBite"),
+ ("Tal is a real professional! I've asked him to provide an opinion on commercialization of a medical device product. What I received is a deep dive into entire world of terms, key players and possibilities and, on the other hand, a clear recommendation and a guidance for proper planning of my next steps.","Yakov Nedlin","Founder at LIBACCORD"),
+ ("I had a great experience working with Tal Paperin. He gave me some great insight and ideas about how to take my business to the next dimension. He provides an array of services to help businesses make more money from domestic or international expansion. I would recommend using them for sure.","Sherman Barnes II","Head of Sales & Marketing, Trio Trucking Inc"),
+ ("KSW is an incredible resource, but more importantly, there are very few people as talented as Tal when it comes to sales strategy. He helped close a publicly traded company for my startup.","Huw Nierenberg","Co-Founder, ePropertyCare"),
+ ("I had the pleasure to work with Tal. I can tell that Tal is a great team player, very energetic and enthusiastic to get things done. He was always willing to help and share his experience in international sales and project management. He is practical, analytic with solving skills and nice to have around!","Luisa Arroyave","Senior Manager, Walmart Global Sourcing"),
+ ("Tal Paperin has everything you want and need in a solutions consulting company: years of experience in both pre and post sales, connections in all the BRIC countries, knowledge in how to standout in many different types of markets, and more ways to increase your company's profitability.","Gabriel Heifets","HW Lead Engineer, Annapurna Labs (Amazon)"),
+ ("Tal has the knowledge and deep understanding to analyze and map the market competition in order to promote the comparative advantage for any category of products. Tal is the one you would like to have as your team leader.","Barak Kav","CEO at TAG Dental LTD (Global)"),
+ ("Tal is extremely enthusiastic about his job, smart, professional and thorough, and was a pleasure to work with.","Daniel Weiser","Sr. Director BD & Sales, Americas at Silicom Ltd."),
+ ("Tal has great negotiating skills and secured several big deals for the company. He is incredibly capable and is a huge asset to any company that he works for.","Laura Gillman","Meshi Pharm"),
+]
+
+TESTIMONIALS_HE = [
+ ('הבאנו את טל פאפרין כ-VP Sales במיקור חוץ מהיום הראשון שלנו ב-KanduAi. הוא לא היה סתם יועץ, הוא תפקד כ-VP Sales אמיתי לכל דבר. הוא הגדיר את פרופיל הלקוח האידיאלי שלנו, בנה את ה-playbook לאאוטבאונד, גייס והכשיר אנשי SDR, והניע את תהליך האאוטבאונד שלנו פעמיים מאפס. אם אתם מייסדים שמנסים להניע או להניע מחדש מערך מכירות מאפס, טל הוא האיש שאתם רוצים לצידכם.','אריאל שמש','שותף מייסד ומנכ"ל, KanduAI'),
+ ('העבודה עם טל היא תענוג צרוף. אני הבעלים והמנהל של עסק קטן בתחום ה-IoT, ויש לי מעט מאוד ניסיון במכירות ובשיווק. טל ידע לפתח עבורנו אסטרטגיה במהירות, להטמיע CRM, ולהתחיל לבנות ולהכשיר את צוות המכירות שלנו. אם אתם עסק קטן (או גדול) שצריך לעשות סדר ולקחת את המכירות והשיווק בידיים, טל הוא האיש שלכם.','תומאס רמרט','שותף מייסד ו-CTO, LoneStar Tracking'),
+ ('אם אתם מחפשים מישהו שבאמת מבין מכירות, טל הוא הכתובת שלכם. התפיסה שלו לגבי תהליך המכירה הכולל, היכולת שלו להניע לקוח פוטנציאלי קדימה, וההבנה המדויקת שלו איך לדחוף את העסק שלכם להצלחה, הן פשוט נכס שאין לו מחיר. תעקבו אחריו. תקשיבו לו. קחו את העצות שלו, ותראו איך העסק שלכם צומח.','הלן גוטשטיין','דוברות, תקשורת ואסטרטגיה ניהולית'),
+ ('טל הוא אדם חרוץ ואיש סוד שניתן לסמוך עליו בעיניים עצומות. יש לי ניסיון איתו כלקוח, כשותף וגם כמי שעבד תחתיו באופן ישיר. הוא איש של מילה, ומספק בדיוק את מה שהוא מבטיח. כאיש מכירות ואסטרטג בחסד, אני ממליץ עליו בחום לכל חברה שמחפשת מנהל מכירות במיקור חוץ, מנהל ערוצי הפצה או אסטרטג עסקי.','סטיב ברטון','CRO, The Point Company'),
+ ('העבודה עם טל השפיעה עלינו בצורה מטורפת. הוא עזר לנו להבין בדיוק איפה היו הבעיות בתהליך המכירה שלנו, וסיפק לנו מפת דרכים ברורה להגדלת המכירות על ידי יצירת נהלי עבודה (SOPs) מותאמים אישית והדגמה חיונית של כל שלב ושלב. הוא זמין מאוד ותקשורתי ברמות הגבוהות ביותר. מומלץ בחום.','אמיתי שטרן','מנכ"ל, TypoDuctions ו-DRIFT'),
+ ('טל הוא איש שיווק חד וחכם בצורה יוצאת דופן. בשיחה קצרה אחת, הוא הצליח להבין ולנתח בעיות מורכבות של הבנת שוק, ניתוח לקוחות ומיפוי צרכנים. הוא הביא לנו פתרונות מהירים ומעולים שעושים את העבודה בשטח.','ד"ר דיוויד גלולה','מנהל מכון המחקר UED, מנכ"ל ProUX'),
+ ('כבר בשיחת ייעוץ ראשונית של 15 דקות בלבד עם טל, הצלחתי לזהות גישות חדשות שאני בטוח שיובילו לעלייה משמעותית בפגישות מוצלחות עם לקוחות פוטנציאליים. טל היה חברותי, נדיב בזמנו וקשוב מאוד. השיחה הזו הייתה אחד הכלים הכי יעילים ומועילים שנתקלתי בהם.','מייקל טייכברג','מייסד, InventivHR'),
+ ('טל נתן לי עצות חכמות ומדויקות. הוא הקשיב לי, שאל שאלות מצוינות שהראו רמת הבנה ותשומת לב גבוהה, ואז נתן עצות מועילות במיוחד ושיתף את דרכי החשיבה שלו בנושא. מה שהכי הרשים אותי זו הדרך המתודית שבה הוא חושב ומנווט בעולם המכירות.','נריה רוזנר','מייסדת ומנכ"לית, SpecBite'),
+ ('טל הוא מקצוען אמיתי! ביקשתי ממנו חוות דעת על מסחור של מוצר בתחום המכשור הרפואי. מה שקיבלתי היה צלילת עומק מטורפת לכל עולם המושגים, שחקני המפתח והאפשרויות, ומצד שני, המלצה ברורה והכוונה מדויקת לתכנון השלבים הבאים שלי.','יעקב נדלין','מייסד, LIBACCORD'),
+ ('הייתה לי חוויה מדהימה בעבודה עם טל פאפרין. הוא נתן לי תובנות ורעיונות מעולים איך לקחת את העסק שלי לשלב הבא. הוא מציע מגוון רחב של שירותים שעוזרים לעסקים להרוויח יותר כסף מהתרחבות מקומית או בינלאומית. אני ממליץ לעבוד איתו ללא ספק.','שרמן בארנס השני','מנהל מכירות ושיווק, Trio Trucking'),
+ ('KSW היא משאב מדהים, אבל חשוב מכך, יש מעט מאוד אנשים מוכשרים כמו טל כשזה מגיע לאסטרטגיית מכירות. הוא עזר לסטארטאפ שלי לסגור עסקה עם חברה הנסחרת בבורסה.','היו ניירנברג','שותף מייסד, ePropertyCare'),
+ ('היה לי העונג לעבוד עם טל. אני יכולה להגיד שטל הוא שחקן צוות מדהים, מלא באנרגיה ורעב להשיג תוצאות. הוא תמיד שמח לעזור ולשתף מהניסיון שלו במכירות בינלאומיות ובניהול פרויקטים. הוא מעשי, אנליטי, בעל יכולת פתרון בעיות גבוהה, ופשוט אדם שכיף לעבוד לצידו!','לואיזה ארויאבה','מנהלת בכירה, Walmart Global Sourcing'),
+ ('לטל פאפרין יש כל מה שאתם רוצים וצריכים מחברת ייעוץ פתרונות: שנים של ניסיון ב-Pre-sales וב-Post-sales, קשרים ענפים בכל מדינות ה-BRIC, ידע מעשי איך להבליט את העסק שלכם בסוגים שונים של שווקים, והמון דרכים להגדיל את הרווחיות של החברה שלכם.','גבריאל הייפץ','מהנדס חומרה מוביל, Annapurna Labs (Amazon)'),
+ ('לטל יש את הידע וההבנה העמוקה הדרושים כדי לנתח ולמפות את תחרות השוק, במטרה לקדם את היתרון היחסי של כל קטגוריית מוצרים. טל הוא בדיוק האדם שאתם רוצים שיוביל את הצוות שלכם.','ברק קב','מנכ"ל, TAG Dental LTD (Global)'),
+ ('טל מלא בתשוקה ואנרגיה לעבודה שלו, הוא חכם, מקצועי ויסודי בצורה בלתי רגילה, והיה פשוט תענוג לעבוד איתו.','דניאל וייזר','מנהל בכיר BD ומכירות, אמריקה, Silicom Ltd.'),
+ ('לטל יש יכולות ניהול משא ומתן פנומנליות, והוא סגר כמה עסקאות ענק עבור החברה. הוא מוכשר ברמות הגבוהות ביותר ומהווה נכס אדיר לכל חברה שהוא עובד איתה.','לורה גילמן','Meshi Pharm'),
+]
 
 
 CS_PAGE_EN = '''<!doctype html>
@@ -917,6 +983,8 @@ CS_PAGE_EN = '''<!doctype html>
         <div class="cases-list">
 {cases}
         </div>
+        <h2 class="cases-recs-h">What clients say</h2>
+{testimonials}
 {cta}
         <div class="svc-related">See the <a href="/services/">services</a> behind these, or <a href="/blog/">read the blog</a>.</div>
       </div>
@@ -967,6 +1035,8 @@ CS_PAGE_HE = '''<!doctype html>
         <div class="cases-list">
 {cases}
         </div>
+        <h2 class="cases-recs-h">מה הלקוחות אומרים</h2>
+{testimonials}
 {cta}
         <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/blog/">קראו את הבלוג</a>.</div>
       </div>
@@ -1080,10 +1150,12 @@ def build():
 
     with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                  cases=render_cases(CASE_STUDIES, "Result"), cta=CTA_BOX))
+                                  cases=render_cases(CASE_STUDIES, "Result"),
+                                  testimonials=render_testimonials(TESTIMONIALS_EN), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                  cases=render_cases(HE_CASES, "תוצאה"), cta=HE_CTA))
+                                  cases=render_cases(HE_CASES, "תוצאה"),
+                                  testimonials=render_testimonials(TESTIMONIALS_HE), cta=HE_CTA))
 
     print("Built %d EN + %d HE service pages, HE index and HE FAQ"
           % (len(SERVICES), len(HE_SERVICES)))

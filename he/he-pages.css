@@ -75,3 +75,16 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 .case-study li::before{content:"";position:absolute;right:0;top:9px;width:11px;height:6px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg)}
 .case-study .result{border-top:1px solid var(--line);padding-top:14px;color:#fff;font-weight:600;font-size:1.02rem}
 .case-study .result span{color:var(--blue);font-size:.72rem;letter-spacing:.04em;display:block;margin-bottom:4px;font-weight:700}
+.cs-logo{height:40px;width:auto;max-width:160px;object-fit:contain;background:#f5f5f5;border-radius:8px;padding:6px 11px;margin-bottom:14px;display:block}
+.cases-recs-h{font-size:1.4rem;color:#fff;margin:54px 0 6px}
+.marquee{overflow:hidden;width:100%;direction:ltr;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marquee-track{display:flex;flex-wrap:nowrap;width:max-content;align-items:flex-start;gap:18px;padding:14px 0;animation:marquee 80s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.quote{flex:0 0 340px;max-width:340px;white-space:normal;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;direction:rtl;text-align:right}
+.quote p{font-size:.97rem;color:#e7edf3;line-height:1.7;margin:0}
+.quote .who{margin-top:16px;display:flex;align-items:center;gap:12px}
+.qavatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--blue2),#3f97e6);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.95rem;flex:0 0 auto}
+.qwho{font-size:.85rem;color:var(--soft);line-height:1.4}
+.qwho strong{display:block;color:#fff;font-weight:600}
+@media(prefers-reduced-motion:reduce){.marquee-track{animation:none;flex-wrap:wrap;width:100%}}
