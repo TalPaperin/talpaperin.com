@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hero Concept (Preview) | Tal Paperin</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#06080c;--ink:#fff;--soft:#9aa7b5;--blue:#5ab0ff;--blue2:#1f6fb2;--line:rgba(255,255,255,.10)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif;overflow-x:hidden;min-height:100vh}
+    a{color:inherit;text-decoration:none}
+
+    /* preview ribbon */
+    .ribbon{position:fixed;top:14px;right:14px;z-index:90;display:flex;gap:10px;align-items:center;font:600 11px/1 'Space Grotesk';letter-spacing:.14em;text-transform:uppercase}
+    .ribbon .tag{background:rgba(90,176,255,.14);border:1px solid rgba(90,176,255,.4);color:#bfe0ff;border-radius:999px;padding:7px 12px}
+    .ribbon a{color:var(--soft);border-bottom:1px solid transparent}
+    .ribbon a:hover{color:#fff;border-color:#fff}
+
+    /* layered background */
+    .bg{position:fixed;inset:0;z-index:0;overflow:hidden;background:radial-gradient(120% 90% at 70% 0%,#0b1422 0%,#06080c 55%)}
+    .aurora{position:absolute;inset:-20%;filter:blur(90px);opacity:.55}
+    .aurora span{position:absolute;display:block;border-radius:50%;mix-blend-mode:screen}
+    .aurora .a1{width:46vw;height:46vw;left:8%;top:6%;background:radial-gradient(circle,#1f6fb2,transparent 62%);animation:drift1 22s ease-in-out infinite}
+    .aurora .a2{width:40vw;height:40vw;right:4%;top:18%;background:radial-gradient(circle,#2f86d8,transparent 62%);animation:drift2 27s ease-in-out infinite}
+    .aurora .a3{width:38vw;height:38vw;left:32%;bottom:-8%;background:radial-gradient(circle,#123b66,transparent 60%);animation:drift3 30s ease-in-out infinite}
+    @keyframes drift1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(8%,6%) scale(1.12)}}
+    @keyframes drift2{0%,100%{transform:translate(0,0) scale(1.05)}50%{transform:translate(-7%,9%) scale(.95)}}
+    @keyframes drift3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(5%,-8%) scale(1.1)}}
+    .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(80% 70% at 50% 35%,#000 30%,transparent 78%);mask-image:radial-gradient(80% 70% at 50% 35%,#000 30%,transparent 78%)}
+    .grain{position:fixed;inset:0;z-index:2;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+    .spot{position:fixed;z-index:1;width:620px;height:620px;border-radius:50%;pointer-events:none;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(90,176,255,.16),transparent 60%);mix-blend-mode:screen;transition:opacity .3s;opacity:0}
+
+    /* hero */
+    .hero{position:relative;z-index:3;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;max-width:1180px;margin:0 auto;padding:120px 40px 90px}
+    .eyebrow{display:inline-flex;align-items:center;gap:12px;font:600 13px/1 'Space Grotesk';letter-spacing:.22em;text-transform:uppercase;color:#9fc6e8;opacity:0;transform:translateY(12px);animation:fade .8s .1s forwards}
+    .dot{width:8px;height:8px;border-radius:50%;background:#46e09a;box-shadow:0 0 0 0 rgba(70,224,154,.7);animation:pulse 2.4s infinite}
+    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(70,224,154,.6)}70%{box-shadow:0 0 0 10px rgba(70,224,154,0)}100%{box-shadow:0 0 0 0 rgba(70,224,154,0)}}
+
+    .name{font-family:'Anton',sans-serif;text-transform:uppercase;line-height:.84;letter-spacing:.01em;font-size:clamp(3.6rem,15vw,12rem);margin:22px 0 6px;display:flex;flex-wrap:wrap;gap:0 .16em}
+    .word{overflow:hidden;display:inline-block;padding-bottom:.04em}
+    .word>span{display:inline-block;transform:translateY(115%);background:linear-gradient(100deg,#fff 0%,#fff 42%,#cfe7ff 50%,#fff 58%,#fff 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:rise 1s cubic-bezier(.16,.84,.3,1) forwards,sheen 7s linear infinite}
+    .word:nth-child(2)>span{animation-delay:.13s,0s}
+    @keyframes rise{to{transform:translateY(0)}}
+    @keyframes sheen{to{background-position:-220% 0}}
+
+    .rotator{height:1.5em;overflow:hidden;margin-top:6px;font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(1.3rem,3.2vw,2.4rem);color:#e7eef5;opacity:0;animation:fade .8s .5s forwards}
+    .rotator b{display:block;font-weight:400;transition:transform .5s cubic-bezier(.2,.7,.2,1),opacity .5s}
+    .rotator .accent{color:var(--blue)}
+
+    .sub{margin-top:22px;max-width:34em;color:#c3d2dc;font-size:1.15rem;line-height:1.65;opacity:0;transform:translateY(12px);animation:fade .8s .6s forwards}
+
+    .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;opacity:0;transform:translateY(12px);animation:fade .8s .72s forwards}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:700 15px/1 'Space Grotesk';padding:16px 30px;border-radius:12px;border:0;cursor:pointer;white-space:nowrap;transition:box-shadow .2s,background .2s;will-change:transform}
+    .btn-solid{background:linear-gradient(90deg,var(--blue2),#3f97e6);color:#fff;box-shadow:0 14px 34px rgba(31,111,178,.45)}
+    .btn-solid:hover{box-shadow:0 18px 44px rgba(31,111,178,.6)}
+    .btn-outline{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.32)}
+    .btn-outline:hover{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px #fff}
+
+    .stats{display:flex;flex-wrap:wrap;gap:18px 48px;margin-top:54px;opacity:0;transform:translateY(12px);animation:fade .8s .85s forwards}
+    .stat b{font-family:'Anton',sans-serif;font-size:clamp(2rem,4vw,3rem);color:var(--blue);display:block;line-height:1}
+    .stat span{font-size:.95rem;color:#aebcc8;letter-spacing:.02em}
+
+    @keyframes fade{to{opacity:1;transform:translateY(0)}}
+
+    .scrollcue{position:absolute;left:40px;bottom:30px;display:flex;align-items:center;gap:12px;color:var(--soft);font:600 11px/1 'Space Grotesk';letter-spacing:.22em;text-transform:uppercase;opacity:0;animation:fade 1s 1.1s forwards}
+    .scrollcue i{display:block;width:40px;height:1px;background:linear-gradient(90deg,var(--blue),transparent);position:relative;overflow:hidden}
+    .scrollcue i::after{content:"";position:absolute;left:0;top:0;width:14px;height:1px;background:#fff;animation:run 1.8s ease-in-out infinite}
+    @keyframes run{0%{left:-14px}100%{left:40px}}
+
+    /* second peek section so the scroll feels alive */
+    .peek{position:relative;z-index:3;border-top:1px solid var(--line);background:linear-gradient(180deg,rgba(10,16,26,.6),#06080c);padding:90px 40px}
+    .peek .in{max-width:1180px;margin:0 auto}
+    .peek h2{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(1.8rem,4vw,3rem);max-width:16em}
+    .peek p{color:var(--soft);margin-top:14px;max-width:42em;font-size:1.1rem}
+
+    @media(max-width:600px){.hero{padding:110px 22px 80px}.scrollcue{left:22px}.peek{padding:64px 22px}}
+    @media(prefers-reduced-motion:reduce){.aurora span{animation:none}.word>span{transform:none;animation:sheen 8s linear infinite}.eyebrow,.rotator,.sub,.cta,.stats,.scrollcue{opacity:1;transform:none;animation:none}.scrollcue i::after{animation:none}}
+  </style>
+</head>
+<body>
+  <div class="ribbon"><span class="tag">Hero concept · preview</span><a href="/">View live site</a></div>
+
+  <div class="bg">
+    <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+    <div class="grid"></div>
+  </div>
+  <div class="grain"></div>
+  <div class="spot" id="spot"></div>
+
+  <main class="hero">
+    <p class="eyebrow"><span class="dot"></span> Fractional CRO · 20+ years · 4 continents</p>
+    <h1 class="name"><span class="word"><span>Tal</span></span><span class="word"><span>Paperin</span></span></h1>
+    <div class="rotator"><b id="rot">Your sales suck. <span class="accent">I know why.</span></b></div>
+    <p class="sub">I rebuild revenue functions and fix broken B2B sales, fast. 30+ companies rebuilt, $20M ARR managed, deals closed on four continents.</p>
+    <div class="cta">
+      <a class="btn btn-solid magnetic" href="#">Let's Talk</a>
+      <a class="btn btn-outline magnetic" href="#">See the Work</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b data-to="30" data-suffix="+">0</b><span>B2B companies rebuilt</span></div>
+      <div class="stat"><b data-prefix="$" data-to="20" data-suffix="M">0</b><span>ARR managed</span></div>
+      <div class="stat"><b data-to="20" data-suffix="+">0</b><span>years carrying the number</span></div>
+      <div class="stat"><b data-to="4">0</b><span>continents</span></div>
+    </div>
+    <div class="scrollcue"><span>Scroll</span><i></i></div>
+  </main>
+
+  <section class="peek">
+    <div class="in">
+      <h2>Tell me where revenue stalled. I'll tell you why.</h2>
+      <p>This is just the hero concept. The rest of the page would carry the same cinematic treatment: animated section reveals, the engagement tiers building as you scroll, and the case studies and testimonials you already have, polished to match.</p>
+    </div>
+  </section>
+
+  <script>
+  (function(){
+    var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // cursor spotlight
+    var spot=document.getElementById('spot');
+    if(spot&&!reduce&&matchMedia('(pointer:fine)').matches){
+      window.addEventListener('pointermove',function(e){
+        spot.style.opacity='1';
+        spot.style.left=e.clientX+'px';
+        spot.style.top=e.clientY+'px';
+      },{passive:true});
+    }
+
+    // rotating tagline
+    var lines=[
+      'Your sales suck. <span class="accent">I know why.</span>',
+      'I rebuild <span class="accent">broken revenue.</span>',
+      'I own <span class="accent">the number.</span>',
+      'No fluff. <span class="accent">Just revenue.</span>'
+    ];
+    var rot=document.getElementById('rot'),li=0;
+    if(rot&&!reduce){
+      setInterval(function(){
+        rot.style.opacity='0';rot.style.transform='translateY(-40%)';
+        setTimeout(function(){
+          li=(li+1)%lines.length;rot.innerHTML=lines[li];
+          rot.style.transition='none';rot.style.transform='translateY(40%)';
+          rot.offsetHeight;
+          rot.style.transition='';rot.style.opacity='1';rot.style.transform='translateY(0)';
+        },480);
+      },2800);
+    }
+
+    // count-up stats (after their fade-in begins)
+    function countUp(el){
+      var to=parseFloat(el.getAttribute('data-to')),pre=el.getAttribute('data-prefix')||'',suf=el.getAttribute('data-suffix')||'';
+      if(reduce){el.textContent=pre+to+suf;return;}
+      var dur=1100,start=null;
+      function step(t){
+        if(!start)start=t;var p=Math.min((t-start)/dur,1);
+        var val=Math.round(to*(0.5-Math.cos(Math.PI*p)/2)); // ease
+        el.textContent=pre+val+suf;
+        if(p<1)requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+    setTimeout(function(){document.querySelectorAll('.stat b').forEach(countUp);},950);
+
+    // magnetic buttons
+    if(!reduce&&matchMedia('(pointer:fine)').matches){
+      document.querySelectorAll('.magnetic').forEach(function(b){
+        b.addEventListener('pointermove',function(e){
+          var r=b.getBoundingClientRect();
+          var x=e.clientX-r.left-r.width/2,y=e.clientY-r.top-r.height/2;
+          b.style.transform='translate('+x*0.25+'px,'+y*0.35+'px)';
+        });
+        b.addEventListener('pointerleave',function(){b.style.transform='';});
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
