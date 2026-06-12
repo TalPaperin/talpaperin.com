@@ -1349,8 +1349,10 @@ GUIDES = [
     {"h":"Why it is cheaper than a full-time hire","ul":[
       "No $250K base, equity, bonus or severance risk",
       "No three-month hiring search and no two-quarter ramp",
-      "No long-term lock-in: you scale the involvement up or hand it off",
+      "Monthly billing, no contract, no lock-in, no exit fines: do not like it, we are done at the end of the month",
       "Results in week one, not month six"]},
+    {"h":"You are hiring an operator, not an advisor","p":[
+      "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO, and I still do the selling myself, in the pipeline and in the deals. And I bill monthly with no contract, so I keep the work by being good at it, not by trapping you in one."]},
     {"h":"When a fractional CRO is the wrong call","p":[
       "If your sales motion is already proven and the work is genuinely a full week every week, hire full-time. Fractional wins when the motion is not yet proven, the volume is not yet a full week, or you need results before committing to a permanent hire."]},
   ],
@@ -1358,7 +1360,8 @@ GUIDES = [
     {"q":"How much does a fractional CRO cost?","a":"My engagements run $6,000 to $22,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
     {"q":"Is a fractional CRO cheaper than a full-time CRO?","a":"Yes. You get the same senior ownership without the base salary, equity, bonus, severance risk, hiring cycle or long ramp, and without a long-term lock-in."},
     {"q":"What is included?","a":"Depending on the tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance calls, and full CRO-level ownership across sales, marketing and go-to-market."},
-    {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."}],
+    {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."},
+    {"q":"Do I have to sign a long contract?","a":"No. I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-vs-outsourced-sales",
@@ -1405,6 +1408,31 @@ GUIDES = [
     {"q":"Can we work in Hebrew?","a":"Yes. I work with Israeli founders and teams in Hebrew and run the international selling in English or the target market's language."},
     {"q":"How much does a fractional CRO in Israel cost?","a":"Engagements run $6,000 to $22,000 a month depending on involvement, far below a $250,000-plus full-time CRO hire."}],
   "related":'See the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he/">the Hebrew site</a>.'},
+
+ {"slug":"fractional-cro-vs-vp-of-sales",
+  "title":"Fractional CRO vs Hiring a VP of Sales | Tal Paperin",
+  "desc":"Tired of $30K-a-month VP of Sales hires you fire in 90 days? A fractional CRO gives you proven revenue leadership with no hiring gamble, no severance, and no lock-in.",
+  "h1":"Fractional CRO vs Hiring a VP of Sales","eyebrow":"Guide",
+  "lead":"You have done this before. Hire a VP of Sales at thirty grand a month, wait, watch nothing move, fire them at month three, eat the severance, start over. Here is the alternative.",
+  "sections":[
+    {"h":"The VP of Sales graveyard","p":[
+      "A VP of Sales runs $30,000 a month or more, all in. The search takes months. The ramp takes a quarter. And if the fit is wrong, and it often is, you fire them at month two, three or four, eat the severance, and start the whole cycle again. I have watched founders burn hundreds of thousands of dollars this way, with nothing to show for it but lost time.",
+      "The hire is a gamble. You are betting six figures on a resume and three interviews."]},
+    {"h":"A fractional CRO is not a gamble","ul":[
+      "I have built and run revenue for 30-plus B2B companies on four continents. You are not betting on whether I can do it. I have already done it.",
+      "No recruiter fees, no equity, no severance risk, no months-long search",
+      "Results in week one: I diagnose where deals leak, then I run the fix. No ramp, no learning curve"]},
+    {"h":"I still sell. Myself. Hands on.","p":[
+      "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO, and I still do the selling myself, on the phone, in the room, in the deal. You are hiring an operator, not an advisor."]},
+    {"h":"Monthly. No contract. No hostages.","p":[
+      "I bill monthly. No long contract, no lock-in, no exit fines. You do not like what I deliver, we are done at the end of the month, and you owe nothing more. I keep the engagement because the work is good, not because a contract traps you. That is the opposite of a VP hire you cannot easily undo."]},
+  ],
+  "faqs":[
+    {"q":"Is a fractional CRO better than hiring a VP of Sales?","a":"If your sales motion is not yet proven, yes. A VP hire is a six-figure gamble with months of search, a quarter of ramp and real severance risk. A fractional CRO who has done it 30-plus times delivers from week one, with no hiring risk and no lock-in."},
+    {"q":"How much does a fractional CRO cost vs a VP of Sales?","a":"A VP of Sales runs $30,000 a month or more all in, plus recruiter fees, equity and severance. My fractional engagements run $6,000 to $22,000 a month, billed monthly with no contract."},
+    {"q":"What if it is not working out?","a":"I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."},
+    {"q":"Do you actually do the selling, or just advise?","a":"I do the selling. I am an ex VP of Global Sales and CRO and I still work hands-on in the pipeline and the deals, not just in strategy decks."}],
+  "related":'Compare the <a href="/fractional-cro-cost">cost</a>, see <a href="/fractional-cro-vs-outsourced-sales">fractional CRO vs outsourced sales</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 ]
 
 
