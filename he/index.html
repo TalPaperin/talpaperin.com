@@ -107,7 +107,8 @@
     .hero .stats span{font-size:.95rem;color:#b9c6d3}
     .hero .cta{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap}
     @media(max-width:900px){.hero .photo{width:100%;object-position:50% 14%}.hero .text{width:100%;min-width:0;margin-left:0}}
-    @media(max-width:680px){.hero{display:block;min-height:auto;align-items:stretch;padding:62px 0 44px}.hero .photo{position:relative;width:100%;height:42vh;object-position:50% 12%;filter:brightness(.92) contrast(1.12) saturate(1.05);margin-bottom:26px}.hero .fade{display:none}.hero canvas{display:none}.hero .content{display:block;margin:0}.hero .text{width:100%;min-width:0;margin:0;text-align:right}}
+    @media(max-width:680px){.hero{display:block;min-height:auto;align-items:stretch;padding:62px 0 44px}.hero .photo{position:relative;width:100%;height:42vh;object-position:50% 12%;filter:brightness(.92) contrast(1.12) saturate(1.05);margin-bottom:26px;animation:kbpan 18s ease-in-out infinite alternate}.hero .fade{display:none}.hero canvas{display:block;position:absolute;top:0;left:0;width:100%;height:calc(42vh + 62px);z-index:2;pointer-events:none}.hero .content{display:block;margin:0}.hero .text{width:100%;min-width:0;margin:0;text-align:right}}
+    @keyframes kbpan{from{object-position:50% 4%}to{object-position:50% 24%}}
 
     section{padding:96px 0;position:relative}
     .section-head{max-width:760px;margin-bottom:50px}
@@ -274,7 +275,7 @@
     .reveal.in{opacity:1;transform:none}
     @media(max-width:600px){section{padding:64px 0}.section-head{margin-bottom:36px}.wrap{padding:0 20px}.brand{font-size:30px}.hero .content{padding:0 20px}.hero .cta{flex-direction:column;align-items:stretch}.final .cta{display:flex;flex-direction:column;align-items:stretch;gap:12px}.final .cta .btn{width:100%;margin-top:0}}
     @media(max-width:400px){.brand{font-size:24px}.nav-right .btn{padding:10px 13px;font-size:13px}.hero h1{font-size:2.05rem}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.marquee-track{animation:none;flex-wrap:wrap;justify-content:center;width:100%}.u::after{animation:none;transform:scaleX(1)}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.marquee-track{animation:none;flex-wrap:wrap;justify-content:center;width:100%}.u::after{animation:none;transform:scaleX(1)}.hero .photo{animation:none}}
   </style>
 </head>
 <body>
