@@ -721,6 +721,12 @@
     <lastmod>2026-06-09</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/complex-sales-long-cycle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-08</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/20-sales-problems-everyone-has-1-platform-with-20-solutions</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -739,6 +745,12 @@
     <lastmod>2026-06-04</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/ideal-customer-profile-icp</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-01</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/sentinelone-hit-1b-in-revenue-then-laid-off-300-people</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -749,6 +761,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-05-29</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/selling-to-government-b2g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-05-25</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/wix-added-150m-in-revenue-then-fired-1000-people-to</loc>
@@ -811,6 +829,12 @@
     <lastmod>2026-05-05</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/managing-remote-sales-team</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/israels-gdp-is-outgrowing-every-g7-nation-in-the-middle</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -839,6 +863,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-04-14</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/go-to-market-israeli-startup</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-04-13</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/20-years-as-a-cro-taught-me-founders-lose-deals</loc>
@@ -883,6 +913,12 @@
     <lastmod>2026-03-24</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/b2b-pricing-us-market</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/deals-close-when-you-understand-the-buyers-pain-not-when</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -895,6 +931,12 @@
     <lastmod>2026-03-20</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/choosing-first-market</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-03-02</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/the-coin-flip-vp-of-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -905,6 +947,66 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-02-17</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/why-israeli-startups-fail-at-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-02-16</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-international-sales-team</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/expanding-to-europe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-01-19</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/distributors-vs-direct-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-01-05</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/setting-up-us-subsidiary</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-12-15</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/fractional-cro-explained</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-12-01</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/cost-of-bad-vp-sales-hire</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/when-to-hire-vp-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-11-03</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/entering-the-us-market</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/outsourced-vp-sales-israel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-10-06</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/the-hidden-cost-of-untrained-salespeople</loc>

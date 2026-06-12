@@ -211,7 +211,10 @@ def parse_front_matter(raw):
     for line in parts[1].strip().splitlines():
         if ":" in line:
             k, v = line.split(":", 1)
-            meta[k.strip().lower()] = v.strip()
+            v = v.strip()
+            if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+                v = v[1:-1]
+            meta[k.strip().lower()] = v
     return meta, parts[2].strip()
 
 
