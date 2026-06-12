@@ -48,6 +48,7 @@ _svc_spec = importlib.util.spec_from_file_location(
 _svc_mod = importlib.util.module_from_spec(_svc_spec)
 _svc_spec.loader.exec_module(_svc_mod)
 SERVICES = _svc_mod.SERVICES
+GUIDES = _svc_mod.GUIDES
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
@@ -426,6 +427,8 @@ def render_sitemap(posts, he_posts=None):
     ]
     for s in SERVICES:
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
+    for g in GUIDES:
+        urls.append(('%s/%s' % (SITE, g["slug"]), '0.8', today))
     urls.append(('%s/he/services/' % SITE, '0.7', today))
     for s in SERVICES:
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
@@ -467,6 +470,9 @@ def render_llms(posts):
     ]
     for s in SERVICES:
         lines.append("- [%s](%s/services/%s): %s" % (s["h1"], SITE, s["slug"], s["desc"]))
+    lines += ["", "## Guides"]
+    for g in GUIDES:
+        lines.append("- [%s](%s/%s): %s" % (g["h1"], SITE, g["slug"], g["desc"]))
     lines += ["", "## Hebrew (עברית)",
               "- [Services in Hebrew](%s/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew." % SITE,
               "- [International B2B sales guide (Hebrew)](%s/he/challenges): the bold guide to selling B2B internationally from Israel." % SITE,

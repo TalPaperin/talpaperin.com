@@ -1258,6 +1258,175 @@ def render_case_callout(case, label, rlabel, more, url):
                esc(rlabel), esc(case["result"]), href, esc(more)))
 
 
+# --- Lead-focused SEO landing pages (buying-intent + niche) ----------------
+
+GUIDE_PAGE = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content="{desc}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{url}" />
+{hreflang}
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{url}" />
+  <meta property="og:title" content="{h1} | Tal Paperin" />
+  <meta property="og:description" content="{desc}" />
+  <meta property="og:image" content="{site}/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{h1} | Tal Paperin" />
+  <meta name="twitter:description" content="{desc}" />
+  <meta name="twitter:image" content="{site}/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+
+  <script type="application/ld+json">{ld}</script>
+  <script type="application/ld+json">{crumb}</script>
+  {faqld}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <p class="breadcrumb"><a href="/">Home</a> / {h1}</p>
+        <div class="glowline"></div>
+        <p class="eyebrow">{eyebrow}</p>
+        <h1>{h1}</h1>
+        <p class="lead">{lead}</p>
+{sections}
+{faq}
+{cta}
+        <div class="svc-related">{related}</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
+def render_faq(faqs):
+    """Return (visible HTML, FAQPage JSON-LD script tag) for a list of {q,a}."""
+    if not faqs:
+        return "", ""
+    html = ['        <h2>Common questions</h2>', '        <div class="faq">']
+    items = []
+    for f in faqs:
+        html.append('          <details class="faq-item"><summary>%s</summary><p>%s</p></details>'
+                     % (esc(f["q"]), esc(f["a"])))
+        items.append('{"@type":"Question","name":"%s","acceptedAnswer":{"@type":"Answer","text":"%s"}}'
+                     % (_jsonesc(f["q"]), _jsonesc(f["a"])))
+    html.append('        </div>')
+    schema = ('<script type="application/ld+json">{"@context":"https://schema.org",'
+              '"@type":"FAQPage","mainEntity":[%s]}</script>') % ",".join(items)
+    return "\n".join(html), schema
+
+
+GUIDES = [
+ {"slug":"fractional-cro-cost",
+  "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
+  "desc":"A straight answer on fractional CRO pricing: what it costs per month, how that compares to a $250K full-time CRO, what is included, and when each level is worth it.",
+  "h1":"What a Fractional CRO Actually Costs","eyebrow":"Guide",
+  "lead":"Most consultants hide the number. Here it is, in plain figures, plus when each level is worth it and when it is not.",
+  "sections":[
+    {"h":"The short answer","p":[
+      "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee, and you only pay for the level of involvement your stage actually needs."]},
+    {"h":"The three levels","tiers":[
+      "Starter, $6,000 a month. A full diagnosis of where revenue leaks, a sales strategy, a real forecast, an executable playbook, CRM and pipeline structure, and training for your SDRs and AEs.",
+      "Growth, $12,000 a month. Everything in Starter, plus hands-on management of your sales team, week-to-week ownership of the motion, hiring and performance management, and a living plan that I drive.",
+      "CRO Ownership, $22,000 a month. Full CRO-level ownership of revenue across sales, marketing and go-to-market, including B2G, distributor networks and complex contract negotiation, and total accountability for the number."]},
+    {"h":"Why it is cheaper than a full-time hire","ul":[
+      "No $250K base, equity, bonus or severance risk",
+      "No three-month hiring search and no two-quarter ramp",
+      "No long-term lock-in: you scale the involvement up or hand it off",
+      "Results in week one, not month six"]},
+    {"h":"When a fractional CRO is the wrong call","p":[
+      "If your sales motion is already proven and the work is genuinely a full week every week, hire full-time. Fractional wins when the motion is not yet proven, the volume is not yet a full week, or you need results before committing to a permanent hire."]},
+  ],
+  "faqs":[
+    {"q":"How much does a fractional CRO cost?","a":"My engagements run $6,000 to $22,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
+    {"q":"Is a fractional CRO cheaper than a full-time CRO?","a":"Yes. You get the same senior ownership without the base salary, equity, bonus, severance risk, hiring cycle or long ramp, and without a long-term lock-in."},
+    {"q":"What is included?","a":"Depending on the tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance calls, and full CRO-level ownership across sales, marketing and go-to-market."},
+    {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"fractional-cro-vs-outsourced-sales",
+  "title":"Fractional CRO vs Outsourced Sales: Which Do You Need? | Tal Paperin",
+  "desc":"Fractional CRO, fully outsourced sales, or a do-it-yourself system? A straight breakdown of which fits your stage, and how to choose.",
+  "h1":"Fractional CRO vs Outsourced Sales","eyebrow":"Guide",
+  "lead":"Three ways to fix revenue, one decision. Here is which one fits your stage, and which one wastes your money.",
+  "sections":[
+    {"h":"The three options","tiers":[
+      "Do it yourself. You have the founder energy and the time to run the motion, you just need the system: the playbook, scripts, battle cards and daily guidance. Lowest cost, most of your time.",
+      "Fractional CRO. You need a senior leader to own the number and run the motion with you, but the work is not yet a full-time job. Me, in the seat. The middle rung, and what most companies choose.",
+      "Fully outsourced sales. You want the whole function off your plate: native-speaking SDRs and AEs, senior leadership and a VP, a complete team hired, trained, managed and reported on daily, living outside your headcount."]},
+    {"h":"How to choose","ul":[
+      "If the problem is that you have no system, do it yourself with the right tools",
+      "If the problem is that nobody owns the number, get a fractional CRO",
+      "If the problem is that you have no team and no time to build one, outsource the whole function"]},
+    {"h":"The honest test","p":[
+      "Ask one question: is your sales motion proven? If it is, you mostly need execution, so a system or an outsourced team can run it. If it is not, you need senior ownership to find the motion first, which is exactly what a fractional CRO does before you spend on a team."]},
+  ],
+  "faqs":[
+    {"q":"Should I hire a fractional CRO or outsource my sales?","a":"Hire a fractional CRO when nobody owns the number and the motion is not yet proven. Outsource the whole function when you have no team and no time to build one and just want sales to happen outside your headcount."},
+    {"q":"What is the difference between a fractional CRO and an outsourced sales team?","a":"A fractional CRO is a single senior leader who owns strategy, the forecast and the motion. An outsourced sales team is a full crew of SDRs, AEs and a VP that runs day to day. One is leadership, the other is delivery."},
+    {"q":"Which is cheaper?","a":"A do-it-yourself system is cheapest, a fractional CRO is the middle, and a fully outsourced team is the largest commitment because you are buying a whole function."}],
+  "related":'See <a href="/services/fractional-cro">fractional CRO</a>, <a href="/services/outsourced-sales">outsourced sales</a>, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-israel",
+  "title":"Fractional CRO in Israel | Tal Paperin",
+  "desc":"A fractional CRO for Israeli B2B companies selling at home and abroad. Senior revenue leadership, in Hebrew or English, without a $250K full-time hire.",
+  "h1":"Fractional CRO in Israel","eyebrow":"Guide",
+  "lead":"Senior revenue leadership for Israeli companies, in Hebrew or English, built for selling into the US, the EU and beyond.",
+  "sections":[
+    {"h":"Built for Israeli companies selling abroad","p":[
+      "Israeli B2B companies build great products and then hit the same wall: selling them into markets that do not work the way the local one does. I have spent 20-plus years opening the US, the EU, the FSU and APAC for Israeli companies, direct and through channel."]},
+    {"h":"What I own","ul":[
+      "Revenue strategy, the forecast and accountability for the number",
+      "The go-to-market motion for international markets, not just the local one",
+      "The team: hiring, training, and replacing where needed",
+      "Distributors, channel and complex contract negotiation across borders"]},
+    {"h":"In Hebrew or English","p":[
+      "I work with founders and teams in Hebrew and run the actual selling in English, or whatever the target market speaks. You get a leader who knows the Israeli starting point and the foreign finish line."]},
+  ],
+  "faqs":[
+    {"q":"Do you work with Israeli companies?","a":"Yes. Most of my work is taking Israeli B2B companies into the US, the EU and other markets, direct and through distributors."},
+    {"q":"Can we work in Hebrew?","a":"Yes. I work with Israeli founders and teams in Hebrew and run the international selling in English or the target market's language."},
+    {"q":"How much does a fractional CRO in Israel cost?","a":"Engagements run $6,000 to $22,000 a month depending on involvement, far below a $250,000-plus full-time CRO hire."}],
+  "related":'See the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he/">the Hebrew site</a>.'},
+]
+
+
+def render_guide_sections(g):
+    out = []
+    for sec in g["sections"]:
+        out.append("        <h2>%s</h2>" % esc(sec["h"]))
+        for p in sec.get("p", []):
+            out.append("        <p>%s</p>" % esc(p))
+        if sec.get("tiers"):
+            out.append('        <ul class="guide-tiers">')
+            for li in sec["tiers"]:
+                out.append("          <li>%s</li>" % esc(li))
+            out.append("        </ul>")
+        if sec.get("ul"):
+            out.append("        <ul>")
+            for li in sec["ul"]:
+                out.append("          <li>%s</li>" % esc(li))
+            out.append("        </ul>")
+    return "\n".join(out)
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -1368,8 +1537,33 @@ def build():
                                   cases=render_cases(HE_CASES, "תוצאה"),
                                   testimonials=render_testimonials(TESTIMONIALS_HE), cta=HE_CTA))
 
-    print("Built %d EN + %d HE service pages, HE index and HE FAQ"
-          % (len(SERVICES), len(HE_SERVICES)))
+    # Lead-focused SEO landing pages (root level, e.g. /fractional-cro-cost)
+    for g in GUIDES:
+        url = "%s/%s" % (SITE, g["slug"])
+        hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+                    '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, url)
+        ld = ('{"@context":"https://schema.org","@type":"Article",'
+              '"headline":"%s","description":"%s",'
+              '"author":{"@type":"Person","name":"Tal Paperin","url":"%s/"},'
+              '"publisher":{"@type":"Organization","name":"Tal Paperin"},'
+              '"mainEntityOfPage":"%s"}'
+              ) % (esc(g["h1"]), esc(g["desc"]), SITE, url)
+        crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
+                 '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
+                 '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
+                 ) % (SITE, esc(g["h1"]), url)
+        faq_html, faq_ld = render_faq(g.get("faqs"))
+        page = GUIDE_PAGE.format(
+            title=esc(g["title"]), desc=esc(g["desc"]), url=url, site=SITE,
+            h1=esc(g["h1"]), eyebrow=esc(g["eyebrow"]), lead=esc(g["lead"]),
+            sections=render_guide_sections(g), faq=faq_html, faqld=faq_ld,
+            related=g["related"], fonts=FONTS, analytics=ANALYTICS, nav=NAV,
+            footer=FOOTER, cta=CTA_BOX, ld=ld, crumb=crumb, hreflang=hreflang)
+        with open(os.path.join(ROOT, g["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(page)
+
+    print("Built %d EN + %d HE service pages, HE index, HE FAQ, %d guides"
+          % (len(SERVICES), len(HE_SERVICES), len(GUIDES)))
 
 
 if __name__ == "__main__":
