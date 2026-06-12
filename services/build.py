@@ -1338,7 +1338,7 @@ GUIDES = [
   "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
   "desc":"A straight answer on fractional CRO pricing: what it costs per month, how that compares to a $250K full-time CRO, what is included, and when each level is worth it.",
   "h1":"What a Fractional CRO Actually Costs","eyebrow":"Guide",
-  "lead":"Most consultants hide the number. Here it is, in plain figures, plus when each level is worth it and when it is not.",
+  "lead":"Most consultants hide the number, hand you a deck, and disappear. I am an operator who still sells, I bill monthly with no contract, and here is exactly what a fractional CRO costs, in plain figures.",
   "sections":[
     {"h":"The short answer","p":[
       "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee, and you only pay for the level of involvement your stage actually needs."]},
@@ -1368,7 +1368,7 @@ GUIDES = [
   "title":"Fractional CRO vs Outsourced Sales: Which Do You Need? | Tal Paperin",
   "desc":"Fractional CRO, fully outsourced sales, or a do-it-yourself system? A straight breakdown of which fits your stage, and how to choose.",
   "h1":"Fractional CRO vs Outsourced Sales","eyebrow":"Guide",
-  "lead":"Three ways to fix revenue, one decision. Here is which one fits your stage, and which one wastes your money.",
+  "lead":"Three ways to fix revenue, one decision. Whichever you pick, you get an operator who still sells, billed monthly with no contract and no lock-in. Here is which one fits your stage, and which one wastes your money.",
   "sections":[
     {"h":"The three options","tiers":[
       "Do it yourself. You have the founder energy and the time to run the motion, you just need the system: the playbook, scripts, battle cards and daily guidance. Lowest cost, most of your time.",

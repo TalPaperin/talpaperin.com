@@ -52,3 +52,6 @@ Full-time CRO when the motion is proven and the work is genuinely full-time. Fra
 If you are not sure which bucket you are in, that is usually a sign the motion is not proven yet, which is exactly when fractional wins.
 
 Want a straight answer for your specific situation? [Book a 15-minute call](https://calendly.com/ksw/15min). No pitch. You will leave with at least one concrete thing to fix.
+
+
+Related guides: [What a fractional CRO actually costs](/fractional-cro-cost) and [fractional CRO vs hiring a VP of Sales](/fractional-cro-vs-vp-of-sales).

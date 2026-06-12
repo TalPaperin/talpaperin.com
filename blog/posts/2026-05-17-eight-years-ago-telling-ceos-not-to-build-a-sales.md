@@ -63,3 +63,6 @@ That meant a lot to me because he saw the work up close.
 Today everybody knows the word fractional.
 
 8 years ago, most people thought it was crazy.
+
+
+Related guide: [Fractional CRO vs outsourced sales: which do you need?](/fractional-cro-vs-outsourced-sales).

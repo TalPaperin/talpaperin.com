@@ -21,3 +21,6 @@ They didn't know how to sell. They didn't know where to sell. They didn't know w
 I got tired of watching it happen.
 
 So I built something about it.
+
+
+Related guide: [What a fractional CRO actually costs](/fractional-cro-cost).
