@@ -631,7 +631,7 @@ HE_PAGE = '''<!doctype html>
 {sections}
 {case}
 {cta}
-        <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/blog/">לבלוג</a></div>
+        <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/he/blog/">לבלוג</a></div>
       </div>
     </div>
   </main>
@@ -726,7 +726,7 @@ HE_FAQPAGE = '''<!doctype html>
         <p class="lead">{lead}</p>
 {items}
 {cta}
-        <div class="svc-related">קראו עוד: <a href="/he/services/">השירותים שלי</a> &middot; <a href="/blog/">הבלוג</a></div>
+        <div class="svc-related">קראו עוד: <a href="/he/services/">השירותים שלי</a> &middot; <a href="/he/blog/">הבלוג</a></div>
       </div>
     </div>
   </main>
@@ -1204,7 +1204,7 @@ CS_PAGE_HE = '''<!doctype html>
         <h2 class="cases-recs-h">מה הלקוחות אומרים</h2>
 {testimonials}
 {cta}
-        <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/blog/">קראו את הבלוג</a>.</div>
+        <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/he/blog/">קראו את הבלוג</a>.</div>
       </div>
     </div>
   </main>
@@ -1539,7 +1539,7 @@ HE_GUIDES = [
     {"q":"מה כלול?","a":"תלוי ברמה: אבחון הכנסות, אסטרטגיית מכירות ותחזית, Playbook, מבנה CRM ופייפליין, הכשרת צוות, ניהול מעשי של התנועה, החלטות גיוס וביצועים, ובעלות מלאה ברמת CRO על מכירות, שיווק ו-Go-to-Market."},
     {"q":"כמה זמן נמשך פרויקט CRO במיקור חוץ?","a":"אין נעילה לטווח ארוך. אתם מגדילים את המעורבות ככל שאתם גדלים, או מעבירים את הפונקציה הלאה כשהיא בנויה."},
     {"q":"האם אני צריך לחתום על חוזה ארוך?","a":"לא. אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."}],
-  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-CRO במיקור חוץ</a>, <a href="/he/case-studies">מקרי מבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-CRO במיקור חוץ</a>, <a href="/he/case-studies">מקרי מבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/fractional-cro-explained">CRO במשרה חלקית, מה זה</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
 
  {"slug":"fractional-cro-vs-outsourced-sales",
   "title":"CRO במיקור חוץ מול מכירות במיקור חוץ: מה אתם צריכים? | טל פאפרין",
@@ -1562,7 +1562,7 @@ HE_GUIDES = [
     {"q":"כדאי לשכור CRO במיקור חוץ או להוציא את המכירות למיקור חוץ?","a":"שכרו CRO במיקור חוץ כשאף אחד לא בעל המספר והתנועה עוד לא מוכחת. הוציאו את כל הפונקציה למיקור חוץ כשאין לכם צוות ואין לכם זמן לבנות אחד ואתם רק רוצים שמכירות יקרו מחוץ למצבת כוח האדם."},
     {"q":"מה ההבדל בין CRO במיקור חוץ לצוות מכירות במיקור חוץ?","a":"CRO במיקור חוץ הוא מנהיג בכיר יחיד שבעל האסטרטגיה, התחזית והתנועה. צוות מכירות במיקור חוץ הוא צוות מלא של SDR, AE ו-VP שמריץ יום-יום. אחד הוא מנהיגות, השני הוא ביצוע."},
     {"q":"מה זול יותר?","a":"מערכת שאתם מריצים לבד היא הזולה ביותר, CRO במיקור חוץ הוא האמצע, וצוות במיקור חוץ מלא הוא ההתחייבות הגדולה ביותר כי אתם קונים פונקציה שלמה."}],
-  "related":'ראו <a href="/he/services/fractional-cro">CRO במיקור חוץ</a>, <a href="/he/services/outsourced-sales">מכירות במיקור חוץ</a>, או <a href="/he/contact">צרו קשר</a>.'},
+  "related":'ראו <a href="/he/services/fractional-cro">CRO במיקור חוץ</a>, <a href="/he/services/outsourced-sales">מכירות במיקור חוץ</a>, או <a href="/he/contact">צרו קשר</a>. מהבלוג: <a href="/he/blog/outsourced-vp-sales-israel">סמנכ״ל מכירות במיקור חוץ</a>, <a href="/he/blog/building-international-sales-team">בניית צוות מכירות בינלאומי</a>.'},
 
  {"slug":"fractional-cro-israel",
   "title":"CRO במיקור חוץ בישראל | טל פאפרין",
@@ -1584,7 +1584,7 @@ HE_GUIDES = [
     {"q":"אתם עובדים עם חברות ישראליות?","a":"כן. רוב העבודה שלי היא לקחת חברות B2B ישראליות לארה״ב, לאיחוד האירופי ולשווקים נוספים, במכירה ישירה ודרך מפיצים."},
     {"q":"אפשר לעבוד בעברית?","a":"כן. אני עובד עם מייסדים וצוותים ישראליים בעברית ומריץ את המכירה הבינלאומית באנגלית או בשפת השוק היעד."},
     {"q":"כמה עולה CRO במיקור חוץ בישראל?","a":"הפרויקטים נעים בין 6,000 ל-22,000 דולר בחודש לפי רמת המעורבות, הרבה מתחת לגיוס CRO במשרה מלאה של 250 אלף דולר ומעלה."}],
-  "related":'ראו את שירותי <a href="/he/services/market-entry">כניסה לשוק</a> ו-<a href="/he/services/fractional-cro">CRO במיקור חוץ</a>, או <a href="/fractional-cro-israel">הגרסה באנגלית</a>.'},
+  "related":'ראו את שירותי <a href="/he/services/market-entry">כניסה לשוק</a> ו-<a href="/he/services/fractional-cro">CRO במיקור חוץ</a>, או <a href="/fractional-cro-israel">הגרסה באנגלית</a>. מהבלוג: <a href="/he/blog/entering-the-us-market">כניסה לשוק האמריקאי</a>, <a href="/he/blog/why-israeli-startups-fail-at-sales">למה סטארטאפים ישראלים נכשלים במכירות בחו״ל</a>.'},
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"CRO במיקור חוץ מול גיוס VP מכירות | טל פאפרין",
@@ -1609,7 +1609,7 @@ HE_GUIDES = [
     {"q":"כמה עולה CRO במיקור חוץ מול VP מכירות?","a":"VP מכירות עולה 30,000 דולר בחודש או יותר בסך הכל, פלוס דמי מגייסים, אקוויטי ופיצויים. הפרויקטים שלי במיקור חוץ נעים בין 6,000 ל-22,000 דולר בחודש, בחיוב חודשי בלי חוזה."},
     {"q":"ומה אם זה לא עובד?","a":"אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."},
     {"q":"אתה באמת עושה את המכירה, או רק מייעץ?","a":"אני עושה את המכירה. אני VP מכירות גלובלי ו-CRO לשעבר ואני עדיין עובד ידיים בבוץ בפייפליין ובעסקאות, לא רק במצגות אסטרטגיה."}],
-  "related":'השוו את <a href="/he/fractional-cro-cost">העלות</a>, ראו <a href="/he/fractional-cro-vs-outsourced-sales">CRO במיקור חוץ מול מכירות במיקור חוץ</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+  "related":'השוו את <a href="/he/fractional-cro-cost">העלות</a>, ראו <a href="/he/fractional-cro-vs-outsourced-sales">CRO במיקור חוץ מול מכירות במיקור חוץ</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/when-to-hire-vp-sales">מתי לגייס סמנכ״ל מכירות</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
 ]
 
 
