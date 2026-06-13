@@ -44,4 +44,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [CRO במיקור חוץ מול גיוס VP מכירות](/he/fractional-cro-vs-vp-of-sales), [שירות צוות מכירות במיקור חוץ](/he/services/outsourced-sales).
+**קריאה נוספת:** [סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול גיוס VP מכירות](/he/fractional-cro-vs-vp-of-sales), [שירות צוות מכירות במיקור חוץ](/he/services/outsourced-sales).

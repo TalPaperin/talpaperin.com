@@ -44,4 +44,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [חדירה לשווקים בינלאומיים](/he/services/market-entry), [CRO במיקור חוץ בישראל](/he/fractional-cro-israel).
+**קריאה נוספת:** [חדירה לשווקים בינלאומיים](/he/services/market-entry), [סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל](/he/fractional-cro-israel).

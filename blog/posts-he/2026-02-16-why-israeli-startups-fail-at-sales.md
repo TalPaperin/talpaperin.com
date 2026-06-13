@@ -45,4 +45,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [שירות ה-Fractional CRO שלי](/he/services/fractional-cro), [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy).
+**קריאה נוספת:** [שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלי](/he/services/fractional-cro), [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy).

@@ -39,4 +39,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [בניית והכשרת צוות מכירות](/he/services/sales-team-building), [שירות ה-Fractional CRO שלי](/he/services/fractional-cro).
+**קריאה נוספת:** [בניית והכשרת צוות מכירות](/he/services/sales-team-building), [שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלי](/he/services/fractional-cro).

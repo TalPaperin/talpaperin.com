@@ -44,4 +44,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [ניהול משא ומתן על חוזים](/he/services/contract-negotiation), [שירות ה-Fractional CRO שלי](/he/services/fractional-cro).
+**קריאה נוספת:** [ניהול משא ומתן על חוזים](/he/services/contract-negotiation), [שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלי](/he/services/fractional-cro).

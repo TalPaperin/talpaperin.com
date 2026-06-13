@@ -185,7 +185,7 @@ HE_NAV = '''  <nav class="site">
 HE_FOOTER = '''  <footer>
     <div class="wrap inner">
       <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות.</span>
-      <span>Fractional CRO &middot; מכירות B2B בינלאומיות</span>
+      <span>סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ &middot; מכירות B2B בינלאומיות</span>
     </div>
   </footer>
 
@@ -404,11 +404,14 @@ def render_index(posts, lang="en"):
     ld = (
         '{"@context":"https://schema.org","@type":"Blog","@id":"%s%s",'
         '"name":"Tal Paperin Insights","url":"%s%s",'
-        '"description":"Field notes on B2B sales, fractional CRO leadership, '
-        'go-to-market and fixing broken revenue.",'
+        '"description":"%s",'
         '"inLanguage":"%s",'
         '"publisher":{"@type":"Organization","name":"Tal Paperin"}}'
-    ) % (SITE, base, SITE, base, "he" if he else "en")
+    ) % (SITE, base, SITE, base,
+         ("רשימות מהשטח על מכירות B2B, מנהיגות הכנסות, Go-to-Market ותיקון מערכי הכנסות שבורים."
+          if he else
+          "Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue."),
+         "he" if he else "en")
 
     template = TEMPLATE_INDEX_HE if he else TEMPLATE_INDEX
     return template \
@@ -729,8 +732,8 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>תובנות על מכירות B2B ומנהיגות CRO | טל פאפרין</title>
-  <meta name="description" content="רשימות מהשטח של טל פאפרין על מכירות B2B, מנהיגות CRO במיקור חוץ, אסטרטגיית Go-to-Market ותיקון מערכי הכנסות שבורים." />
+  <title>תובנות על מכירות B2B ומנהיגות הכנסות | טל פאפרין</title>
+  <meta name="description" content="רשימות מהשטח של טל פאפרין על מכירות B2B, מנהיגות הכנסות, אסטרטגיית Go-to-Market ותיקון מערכי הכנסות שבורים." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/he/blog/" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog/" />
@@ -739,13 +742,13 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://talpaperin.com/he/blog/" />
-  <meta property="og:title" content="תובנות על מכירות B2B ומנהיגות CRO | טל פאפרין" />
-  <meta property="og:description" content="רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market." />
+  <meta property="og:title" content="תובנות על מכירות B2B ומנהיגות הכנסות | טל פאפרין" />
+  <meta property="og:description" content="רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="תובנות על מכירות B2B ומנהיגות CRO | טל פאפרין" />
-  <meta name="twitter:description" content="רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market." />
+  <meta name="twitter:title" content="תובנות על מכירות B2B ומנהיגות הכנסות | טל פאפרין" />
+  <meta name="twitter:description" content="רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
   {{FONTS}}
@@ -765,7 +768,7 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">בלוג</p>
         <h1>מכירות, פיתוח עסקי וגדילה</h1>
-        <p>תובנות מעשיות על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על המספר בארבע יבשות.</p>
+        <p>תובנות מעשיות על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על המספר בארבע יבשות.</p>
       </div>
       <div class="post-list">
 {{LISTING}}
@@ -784,7 +787,7 @@ TEMPLATE_RSS_HE = '''<?xml version="1.0" encoding="UTF-8"?>
     <title>Tal Paperin Insights (עברית)</title>
     <link>https://talpaperin.com/he/blog/</link>
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <description>רשימות מהשטח על מכירות B2B, מנהיגות CRO במיקור חוץ ו-Go-to-Market.</description>
+    <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
     <lastBuildDate>{{BUILD_DATE}}</lastBuildDate>
 {{ITEMS}}

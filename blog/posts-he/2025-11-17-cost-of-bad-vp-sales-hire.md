@@ -40,4 +40,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [CRO במיקור חוץ מול גיוס VP מכירות](/he/fractional-cro-vs-vp-of-sales), [כמה עולה CRO במיקור חוץ](/he/fractional-cro-cost).
+**קריאה נוספת:** [סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול גיוס VP מכירות](/he/fractional-cro-vs-vp-of-sales), [כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ](/he/fractional-cro-cost).
