@@ -92,6 +92,40 @@ CTA_BOX = '''      <div class="cta-box">
       </div>'''
 
 
+# --- Global footprint map (stylized SVG: faint continents + glowing pins) --
+
+_MAP_PINS = [
+    (228, 133), (267, 209), (358, 261), (322, 324),            # US, C.America, Brazil, S.America
+    (497, 94), (514, 99), (528, 102), (506, 112), (553, 99),    # UK, NL, DE, FR, Poland
+    (572, 68), (603, 91), (606, 238),                           # Nordics, Russia, Africa(Kenya)
+    (789, 144), (853, 138), (883, 141), (836, 172),             # China, S.Korea, Japan, Taiwan
+    (872, 300), (983, 342),                                     # Australia, New Zealand
+]
+_MAP_LAND = (
+    '<path class="gmap-land" d="M70,72 C120,42 220,42 300,82 C352,112 330,152 280,162 '
+    'C262,202 222,188 202,162 C162,172 122,152 96,122 C72,102 60,92 70,72 Z"/>'
+    '<path class="gmap-land" d="M334,212 C374,206 398,238 382,282 C372,332 346,378 320,362 '
+    'C306,322 306,272 316,242 C322,226 322,214 334,212 Z"/>'
+    '<path class="gmap-land" d="M476,96 C502,70 546,72 576,90 C592,106 576,126 546,131 '
+    'C510,136 480,122 476,96 Z"/>'
+    '<path class="gmap-land" d="M502,150 C562,140 616,166 616,222 C612,278 576,322 540,332 '
+    'C516,302 500,252 500,212 C496,186 492,162 502,150 Z"/>'
+    '<path class="gmap-land" d="M602,90 C702,54 852,60 906,100 C936,126 906,162 852,167 '
+    'C802,187 722,177 662,162 C622,152 592,120 602,90 Z"/>'
+    '<path class="gmap-land" d="M826,286 C866,279 916,289 921,311 C916,336 876,346 841,336 '
+    'C821,321 816,301 826,286 Z"/>'
+)
+MAP_SVG = (
+    '<div class="gmap"><svg viewBox="0 0 1000 470" role="img" '
+    'aria-label="Markets where Tal has built and run revenue, across four continents">'
+    + _MAP_LAND
+    + "".join('<circle class="gmap-halo" cx="%d" cy="%d" r="10"/>'
+             '<circle class="gmap-pin" cx="%d" cy="%d" r="4.5"/>' % (x, y, x, y)
+             for x, y in _MAP_PINS)
+    + '</svg></div>'
+)
+
+
 # --- Service content -------------------------------------------------------
 
 SERVICES = [
@@ -163,18 +197,18 @@ SERVICES = [
 
  {"slug":"sales-team-building","nav":"Team Building","h1":"Sales Team Building and Training",
   "title":"Sales Team Building and Training | Tal Paperin",
-  "desc":"Build a sales team that actually closes. I hire, train and manage SDRs, AEs and BDs, and replace who can't.",
+  "desc":"Build your in-house sales team that actually closes. I hire, train and manage SDRs, AEs and BDs, and replace who can't.",
   "eyebrow":"Service",
-  "lead":"Reps who can't close are not a people problem. They are a system problem. I build the team and the system that makes them hit quota.",
-  "card":"Hire, train and manage SDRs, AEs and BDs on a playbook that makes them hit quota. Replace who can't, fast.",
+  "lead":"Reps who can't close are not a people problem. They are a system problem. I build your in-house team and the system that makes them hit quota.",
+  "card":"Build and train your in-house team: hire, train and manage SDRs, AEs and BDs on a playbook that makes them hit quota. Replace who can't, fast.",
   "sections":[
     {"h":"What I do","ul":[
       "Recruit and hire SDRs, AEs, BDs, post-sales and tech support",
       "Build a training plan tailored to your ICP and your GTM",
       "Manage the team day to day until they hit quota",
       "Replace who can't, fast, before they burn a year"]},
-    {"h":"In-house or outsourced","p":[
-      "I build it inside your company, or bring a ready team through KSW Solutions. Either way you get a sales org that runs on a playbook, not on hope."]},
+    {"h":"This builds your in-house team","p":[
+      "This service builds and trains your own team, the people, the playbook and the standards that stay inside your company. If you would rather not build in-house at all and have the whole team run for you outside your headcount, that is outsourced sales, a separate engagement."]},
   ]},
 
  {"slug":"distributor-channel-recruitment","nav":"Channel & Distributors","h1":"Distributor and Channel Partner Recruitment",
@@ -215,6 +249,7 @@ SERVICES = [
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
       "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
+    {"h":"Where I have built revenue","html":MAP_SVG},
     {"h":"Markets I have operated in","links":[
       ["United States","/blog/building-a-sales-operation-in-the-united-states"],
       ["Germany","/blog/building-a-sales-operation-in-germany"],
@@ -281,6 +316,7 @@ SERVICES = [
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
       "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline."]},
+    {"h":"Where I have built revenue","html":MAP_SVG},
     {"h":"Markets I have operated in","links":[
       ["United States","/blog/building-a-sales-operation-in-the-united-states"],
       ["Germany","/blog/building-a-sales-operation-in-germany"],
@@ -316,6 +352,8 @@ def render_sections(svc):
                 else:
                     out.append('          <span>%s</span>' % esc(text))
             out.append('        </div>')
+        if sec.get("html"):
+            out.append(sec["html"])
     return "\n".join(out)
 
 
@@ -530,15 +568,15 @@ HE_SERVICES = [
 
  {"slug":"sales-team-building","nav":"בניית צוות","h1":"בניית והכשרת צוות מכירות",
   "title":"בניית והכשרת צוות מכירות | טל פאפרין",
-  "desc":"לבנות צוות מכירות שבאמת סוגר. אני מגייס, מכשיר ומנהל SDRs, AEs ו-BDs, ומחליף את מי שלא מתאים.",
+  "desc":"לבנות את צוות המכירות הפנימי שלכם שבאמת סוגר. אני מגייס, מכשיר ומנהל SDRs, AEs ו-BDs, ומחליף את מי שלא מתאים.",
   "eyebrow":"שירות",
-  "lead":"אנשי מכירות שלא סוגרים זו לא בעיה של אנשים. זו בעיה של שיטה. אני בונה את הצוות ואת השיטה שגורמים להם לפגוע ביעד.",
-  "card":"גיוס, הכשרה וניהול של SDRs, AEs ו-BDs על Playbook שמביא אותם ליעד. החלפה מהירה של מי שלא מתאים.",
+  "lead":"אנשי מכירות שלא סוגרים זו לא בעיה של אנשים. זו בעיה של שיטה. אני בונה את הצוות הפנימי שלכם ואת השיטה שגורמים להם לפגוע ביעד.",
+  "card":"בנייה והכשרה של הצוות הפנימי שלכם: גיוס, הכשרה וניהול של SDRs, AEs ו-BDs על Playbook שמביא אותם ליעד. החלפה מהירה של מי שלא מתאים.",
   "sections":[
     {"h":"מה אני עושה",
      "ul":["גיוס והשמה של SDRs, AEs, BDs, שירות שלאחר מכירה ותמיכה טכנית","בניית תוכנית הכשרה מותאמת ל-ICP ול-GTM שלכם","ניהול הצוות יום-יום עד שהוא פוגע ביעד","החלפה מהירה של מי שלא מתאים, לפני שהוא שורף שנה"]},
-    {"h":"בתוך החברה או במיקור חוץ",
-     "p":["אני בונה את זה בתוך החברה שלכם, או מביא צוות מוכן דרך KSW Solutions. כך או כך אתם מקבלים מערך מכירות שרץ על Playbook, לא על תקווה."]},
+    {"h":"זה בונה את הצוות הפנימי שלכם",
+     "p":["השירות הזה בונה ומכשיר את הצוות שלכם, האנשים, ה-Playbook והסטנדרטים שנשארים בתוך החברה. אם אתם מעדיפים לא לבנות פנימית בכלל ולקבל צוות שלם שמורץ עבורכם מחוץ למצבת כוח האדם, זה מכירות במיקור חוץ, התקשרות נפרדת."]},
   ]},
 
  {"slug":"distributor-channel-recruitment","nav":"מפיצים וערוצים","h1":"איתור וגיוס מפיצים וערוצי הפצה",
@@ -569,6 +607,7 @@ HE_SERVICES = [
      "ul":["צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים","חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית","מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים","תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי","ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
     {"h":"נעשה שוב ושוב, למספר חברות",
      "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
+    {"h":"איפה בניתי הכנסות","html":MAP_SVG},
     {"h":"שווקים שפעלתי בהם","links":[
       ["ארצות הברית","/he/blog/building-a-sales-operation-in-the-united-states"],
       ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
@@ -635,6 +674,7 @@ HE_SERVICES = [
       "ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
     {"h":"נעשה שוב ושוב, למספר חברות","p":[
       "זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת."]},
+    {"h":"איפה בניתי הכנסות","html":MAP_SVG},
     {"h":"שווקים שפעלתי בהם","links":[
       ["ארצות הברית","/he/blog/building-a-sales-operation-in-the-united-states"],
       ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
@@ -1575,6 +1615,8 @@ def render_guide_sections(g):
                 else:
                     out.append('          <span>%s</span>' % esc(text))
             out.append('        </div>')
+        if sec.get("html"):
+            out.append(sec["html"])
     return "\n".join(out)
 
 
