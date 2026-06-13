@@ -86,7 +86,7 @@
 <h2 id="_4">מה כן עובד</h2>
 <p><strong>מערכת מדידה הדוקה.</strong> כשאתם לא רואים, אתם חייבים למדוד. פעילות, לא רק תוצאות. כמה שיחות, כמה פגישות, כמה הצעות, באיזה שלב כל עסקה. ה-CRM הוא העיניים שלכם, והוא חייב להיות מעודכן ומדויק.</p>
 <p><strong>קצב קבוע ולא מתפשר.</strong> שיחה יומית קצרה, סקירת צינור שבועית, אחד על אחד קבוע. הקצב הזה מחליף את הנוכחות הפיזית. מי שמוותר עליו מאבד שליטה.</p>
-<p><strong>להאזין לשיחות אמיתיות.</strong> הקלטות שיחות ופגישות הן הדרך היחידה לראות באמת איך הצוות מוכר, ולתקן. בלי זה אתם מנחשים.</p>
+<p><strong>להאזין לשיחות אמיתיות.</strong> הקלטות שיחות ופגישות הן הדרך היחידה לראות באמת איך הצוות מוכר, ולתקן. בלי זה אתם מנחשים.</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <p><strong>מישהו בכיר שבאמת מנהל.</strong> צוות מרוחק זקוק לניהול חזק יותר, לא חלש יותר. מנהל מכירות מנוסה שיודע לבנות אחריותיות ותרבות מרחוק שווה כל שקל. זה בדיוק תפקיד שאפשר למלא במיקור חוץ, עם מישהו שכבר ניהל צוותים בין יבשות.</p>
 <p><strong>נוכחות פיזית מדי פעם.</strong> גם בעולם מרוחק, ביקור תקופתי בשטח, פגישות עם הצוות ועם לקוחות, שומר על החיבור. מרחוק לגמרי, לנצח, כמעט אף פעם לא מספיק.</p>
 <h2 id="_5">השורה התחתונה</h2>
@@ -129,5 +129,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

@@ -196,3 +196,14 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 .faq-item p{color:#cdd6e0;padding:0 0 18px;margin:0;line-height:1.7}
 .guide-tiers{list-style:none;display:grid;gap:12px;margin:0 0 22px;padding:0}
 .guide-tiers li{background:var(--bg2);border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:12px;padding:16px 20px;color:#d7dee6;line-height:1.7}
+
+/* inline + sticky CTA */
+.inline-cta{margin:38px 0;padding:22px 26px;border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:14px;background:linear-gradient(90deg,rgba(90,176,255,.08),transparent 70%)}
+.inline-cta p{margin:0 0 14px;color:#dce7f0}
+.inline-cta .btn{margin:0}
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;gap:16px;justify-content:center;flex-wrap:wrap;padding:12px 18px;background:rgba(8,11,16,.92);backdrop-filter:blur(10px);border-top:1px solid rgba(90,176,255,.25);box-shadow:0 -10px 40px rgba(0,0,0,.5)}
+.sticky-cta[hidden]{display:none}
+.sticky-cta span{color:#dce7f0;font-weight:600}
+.sticky-cta .btn{margin:0;padding:10px 18px}
+.sticky-cta .sticky-x{background:transparent;border:0;color:var(--soft);font-size:22px;line-height:1;cursor:pointer;padding:0 4px}
+@media(max-width:600px){.sticky-cta{gap:10px;padding:10px 12px}.sticky-cta span{flex:1 1 100%;text-align:center;font-size:.9rem}}

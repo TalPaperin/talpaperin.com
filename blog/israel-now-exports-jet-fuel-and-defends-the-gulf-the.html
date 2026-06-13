@@ -79,7 +79,7 @@
 <p>The giants of the world inevitably become lazy. They get cocky. They rely on "the way we have always done it" until they drop the ball.</p>
 <p>The German Giant: Germany's chemical industry is a global pillar, yet its business climate index just plummeted to minus 29.0 points. They were so reliant on old supply chains that a war with Iran left them with material shortages affecting one in three companies.</p>
 <p>The UAE Shift: Facing 2,200 drone strikes, a nation previously defended by American hardware has shifted to a functional security alliance with Israel. They needed technology that actually works in real-time.</p>
-<p>Your opportunity will arrive.</p>
+<p>Your opportunity will arrive.</p><div class="inline-cta"><p><strong>This is exactly what I fix, hands-on.</strong> Monthly, no contract, no exit fines. If revenue is stuck, the call costs you nothing.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-minute call</a></div>
 <p>In business, you do not need to be the biggest. You need to be the most prepared. The giants will drop the ball. When they do, they will not look for the biggest competitor. They will look for the one who has the fuel and the defense they lack.</p>
 <p>As a Fractional CRO, my job is to make sure that when your giant competitor fumbles, you are ready to catch the ball. I help businesses build:</p>
 <ol>
@@ -130,5 +130,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='You are in. Welcome aboard.';}else{b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';}}).catch(function(){b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>Sales stuck? A 15-minute call, no pitch.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a call</a><button class="sticky-x" aria-label="Close">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

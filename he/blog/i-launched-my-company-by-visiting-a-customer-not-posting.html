@@ -76,7 +76,7 @@
 <p>וביום הראשון לא פרסמתי מהמשרד. הלכתי ללקוח.</p>
 <p>MakhSuss. שני מייסדים. הטמעת רובוטיקה למפעלים ולמתקני מזון. 10 פרויקטים שהושלמו. הם סוגרים עסקאות, הם טובים בזה.</p>
 <p>מה שהם היו צריכים זה תשתית חדה יותר:</p>
-<p><strong>למי בדיוק לכוון.</strong> היו להם לקוחות אבל הם לא הגדירו את ה-ICP שלהם מספיק בבירור. ההבדל בין "יצרנים" ל"מפעלי עיבוד מזון בינוניים בארה"ב שמחליפים קווי שחיטה ידניים" הוא ההבדל בין מחזור מכירה של חצי שנה לאחד של שישה שבועות. בנינו את פרופילי ה-ICP שלהם.</p>
+<p><strong>למי בדיוק לכוון.</strong> היו להם לקוחות אבל הם לא הגדירו את ה-ICP שלהם מספיק בבירור. ההבדל בין "יצרנים" ל"מפעלי עיבוד מזון בינוניים בארה"ב שמחליפים קווי שחיטה ידניים" הוא ההבדל בין מחזור מכירה של חצי שנה לאחד של שישה שבועות. בנינו את פרופילי ה-ICP שלהם.</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <p><strong>איך להתמודד עם תחרות.</strong> כשלקוח מעלה חלופה, אתם צריכים תסריט, לא אינסטינקט. הפלטפורמה ייצרה את כרטיסי הקרב שלהם: איפה המתחרים נופלים, והמילים המדויקות שצריך כשההשוואה עולה.</p>
 <p><strong>איך לעשות פנייה מעבר לרשת שלהם.</strong> הפייפליין שלהם היה מבוסס קשרים. חזק אבל מוגבל. בנינו להם רצפי פנייה קרה למייל וללינקדאין, שנכתבו לקונה הספציפי שלהם ולהוכחה הספציפית שלהם.</p>
 <p>זמן כולל: 20 דקות.</p>
@@ -117,5 +117,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

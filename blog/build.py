@@ -134,6 +134,41 @@ CTA_BOX = '''      <div class="cta-box">
         <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>'''
 
+INLINE_CTA = ('<div class="inline-cta"><p><strong>This is exactly what I fix, '
+              'hands-on.</strong> Monthly, no contract, no exit fines. If revenue is '
+              'stuck, the call costs you nothing.</p>'
+              '<a class="btn btn-outline" href="https://calendly.com/ksw/15min" '
+              'target="_blank" rel="noopener">Book a 15-minute call</a></div>')
+
+HE_INLINE_CTA = ('<div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, '
+                 'בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, '
+                 'השיחה לא עולה לכם כלום.</p>'
+                 '<a class="btn btn-outline" href="https://calendly.com/ksw/15min" '
+                 'target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>')
+
+STICKY_CTA = ('  <div class="sticky-cta" id="stickyCta" hidden>'
+              '<span>Sales stuck? A 15-minute call, no pitch.</span>'
+              '<a class="btn btn-solid" href="https://calendly.com/ksw/15min" '
+              'target="_blank" rel="noopener">Book a call</a>'
+              '<button class="sticky-x" aria-label="Close">&times;</button></div>')
+
+HE_STICKY_CTA = ('  <div class="sticky-cta" id="stickyCta" hidden>'
+                 '<span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ\'.</span>'
+                 '<a class="btn btn-solid" href="https://calendly.com/ksw/15min" '
+                 'target="_blank" rel="noopener">לתיאום שיחה</a>'
+                 '<button class="sticky-x" aria-label="סגירה">&times;</button></div>')
+
+STICKY_JS = ('  <script>(function(){var b=document.getElementById("stickyCta");'
+             'if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;'
+             'var art=document.querySelector(".article");'
+             'function on(){if(!art)return;var r=art.getBoundingClientRect();'
+             'var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;'
+             'b.hidden=!shown;}'
+             'addEventListener("scroll",on,{passive:true});on();'
+             'b.querySelector(".sticky-x").addEventListener("click",function(){'
+             'b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>')
+
+
 SUBSCRIBE = '''      <div class="subscribe-box">
         <h3>Get these in your inbox</h3>
         <p>No fluff. Sales, revenue and go-to-market, straight from the field.</p>
@@ -277,6 +312,16 @@ def load_posts(directory=POSTS_DIR, lang="en"):
     return posts
 
 
+def insert_inline_cta(body_html, cta):
+    """Drop a compact CTA roughly halfway through the article (after a </p>)."""
+    parts = body_html.split("</p>")
+    if len(parts) < 6:  # short post: bottom CTA is enough
+        return body_html
+    mid = len(parts) // 2
+    parts[mid] = cta + parts[mid]
+    return "</p>".join(parts)
+
+
 def hreflang_block(slug, alt, lang):
     """Build the <link rel=alternate hreflang> tags for a post with a counterpart."""
     if not alt:
@@ -326,6 +371,8 @@ def render_post(p):
     ) % (home_name, SITE, "/he/" if he else "/", blog_name, SITE, base,
          esc(p["title"]), url)
 
+    body = insert_inline_cta(p["body_html"], HE_INLINE_CTA if he else INLINE_CTA)
+
     template = TEMPLATE_POST_HE if he else TEMPLATE_POST
     return template \
         .replace("{{TITLE}}", esc(p["title"])) \
@@ -342,11 +389,12 @@ def render_post(p):
         .replace("{{HUMAN_DATE}}", human_date(p["date"], p["lang"])) \
         .replace("{{READ}}", str(p["read"])) \
         .replace("{{TAGROW}}", tagrow) \
-        .replace("{{BODY}}", p["body_html"]) \
+        .replace("{{BODY}}", body) \
         .replace("{{NAV}}", HE_NAV if he else NAV) \
         .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
         .replace("{{SUBSCRIBE}}", HE_SUBSCRIBE if he else SUBSCRIBE) \
         .replace("{{CTA}}", HE_CTA_BOX if he else CTA_BOX) \
+        .replace("{{STICKY}}", (HE_STICKY_CTA if he else STICKY_CTA) + "\n" + STICKY_JS) \
         .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
         .replace("{{ANALYTICS}}", ANALYTICS)
 
@@ -391,6 +439,7 @@ def render_index(posts, lang="en"):
         .replace("{{LD}}", ld) \
         .replace("{{NAV}}", HE_NAV if he else NAV) \
         .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
+        .replace("{{STICKY}}", "") \
         .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
         .replace("{{ANALYTICS}}", ANALYTICS)
 
@@ -560,6 +609,7 @@ TEMPLATE_POST = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+{{STICKY}}
 </body>
 </html>
 '''
@@ -614,6 +664,7 @@ TEMPLATE_INDEX = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+{{STICKY}}
 </body>
 </html>
 '''
@@ -695,6 +746,7 @@ TEMPLATE_POST_HE = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+{{STICKY}}
 </body>
 </html>
 '''
@@ -749,6 +801,7 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+{{STICKY}}
 </body>
 </html>
 '''

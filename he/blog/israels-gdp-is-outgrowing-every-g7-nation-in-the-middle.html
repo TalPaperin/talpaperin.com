@@ -75,7 +75,7 @@
 <p>התמ"ג של ישראל ב-2026 צומח בקצב של 3.8%, ועוקף כל מדינה ב-G7, תוך כדי פעילות בתנאים שהיו משתקים את רוב הכלכלות בעולם.</p>
 <p>צפיתי ב"אנומליה הכלכלית" הזאת מבפנים במשך עשורים.</p>
 <p>הנתונים הנוכחיים מספרים סיפור שהכותרות לרוב מפספסות: צמיחת תמ"ג של 3.8%, המובילה את כל ה-G7 ב-2026. אבטלה של 3.2%, נמוכה מארה"ב (4.3%) ומהאיחוד האירופי (6.2%). אינפלציה של 1.9%, בזמן שארה"ב ואירופה מתמודדות עם עליית מחירי נפט. ת"א 35 עלה ב-20% השנה, והשקל התחזק ב-7% מול הדולר. ושתיים מעסקאות הסייבר הגדולות בהיסטוריה, של 32 ו-25 מיליארד דולר, נסגרו השנה. שתיהן חברות ישראליות.</p>
-<p>מדינה שיורים עליה יותר מ-400 רקטות עוקפת כלכלות בזמן שלום. הסוד הוא לא "מזל", הוא ניתוק שיטתי.</p>
+<p>מדינה שיורים עליה יותר מ-400 רקטות עוקפת כלכלות בזמן שלום. הסוד הוא לא "מזל", הוא ניתוק שיטתי.</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <p>בזמן שרוב החברות בעולם "מחכות שהשוק יתהפך", הטכנולוגיה הישראלית סוגרת עסקאות של מיליארדי דולרים באמצע סכסוך. הן בנו מערכות הכנסות שמנותקות מתנודתיות חיצונית.</p>
 <p>בבניית תנועות מכירה אני רואה את אותה תבנית: אם המערכת שלכם דורשת "תנאים מושלמים" כדי לסגור עסקה, המערכת שבורה מהיסוד.</p>
 <p>לשוק לא אכפת מהתזמון שלכם, וגם למתחרים שלכם לא. או שאתם הבעלים של הביצוע, או שהסביבה היא הבעלים שלכם.</p>
@@ -114,5 +114,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

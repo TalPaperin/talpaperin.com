@@ -85,7 +85,7 @@
 <p>אם יש טעות אחת שהורגת חברות באירופה, זאת המחשבה שאירופה היא שוק. היא לא. גרמניה, צרפת, בריטניה, הולנד, מדינות סקנדינביה, כל אחת היא עולם אחר. שפה אחרת, תרבות עסקית אחרת, ציפיות אחרות, ולפעמים רגולציה אחרת לגמרי.</p>
 <p>מה שעובד בלונדון ייכשל במינכן. הגרמני רוצה דיוק, תיעוד ואמינות. הצרפתי רוצה יחסים. ההולנדי רוצה ישירות ומחיר הוגן. מי שמגיע עם מסר אחיד לכל אירופה נכשל בכולן בו זמנית.</p>
 <h2 id="_4">איך לבחור את מדינת הכניסה</h2>
-<p>אל תיכנסו לאירופה. תיכנסו למדינה אחת. תבחרו אותה לפי שלושה שיקולים:</p>
+<p>אל תיכנסו לאירופה. תיכנסו למדינה אחת. תבחרו אותה לפי שלושה שיקולים:</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <ol>
 <li><strong>איפה הכאב הכי חזק.</strong> באיזו מדינה הבעיה שאתם פותרים הכי כואבת, ומחפשים פתרון.</li>
 <li><strong>איפה הכי קל לכם להתחיל.</strong> שפה, קשרים קיימים, שותפים, לקוח ראשון שכבר מגלה עניין.</li>
@@ -134,5 +134,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

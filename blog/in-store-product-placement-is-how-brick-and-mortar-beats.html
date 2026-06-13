@@ -73,7 +73,7 @@
         <div class="body">
 <p>You can use your store and your location to promote ANY brand - and not just as a POP (Point of Purchase).</p>
 <p>Though it is known that our days' physical locations / brick and mortars are used for window shopping, and the actual purchase happens on-line - you still can and should use the space for re-marketing, re-targeting and actual Sales.</p>
-<p>The ONLY way for you to do that is by being creative and provide an experience. Otherwise, you'll lose to on-line.</p>
+<p>The ONLY way for you to do that is by being creative and provide an experience. Otherwise, you'll lose to on-line.</p><div class="inline-cta"><p><strong>This is exactly what I fix, hands-on.</strong> Monthly, no contract, no exit fines. If revenue is stuck, the call costs you nothing.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-minute call</a></div>
 <p>Be creative. Generate emotion in your client - and you're in Business!</p>
 <p>P. S.</p>
         </div>
@@ -111,5 +111,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='You are in. Welcome aboard.';}else{b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';}}).catch(function(){b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>Sales stuck? A 15-minute call, no pitch.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a call</a><button class="sticky-x" aria-label="Close">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

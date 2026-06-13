@@ -78,7 +78,7 @@
 <p>Here is what happened, because every founder should sit with this one.</p>
 <p>A year ago Wix saw AI coming and moved fast. It bought Base44, a vibe-coding startup, to bolt an AI site-building tool onto its platform. Smart, early, decisive. And it worked. Base44 went from zero to $150 million in annual recurring revenue in months. Most of Wix's growth now comes from it.</p>
 <p>So why the loss? Why the layoffs?</p>
-<p>Because that revenue costs more than it earns.</p>
+<p>Because that revenue costs more than it earns.</p><div class="inline-cta"><p><strong>This is exactly what I fix, hands-on.</strong> Monthly, no contract, no exit fines. If revenue is stuck, the call costs you nothing.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-minute call</a></div>
 <p>Every new Base44 user adds compute and marketing costs. Wix spent $90 million acquiring customers for it last quarter. $200 million on marketing overall. $20 million on a single Super Bowl campaign. Operating expenses jumped 50%. The faster Base44 grows, the more money Wix loses.</p>
 <p>That is not a growth engine. It is a subsidy with a growth chart attached.</p>
 <p>Founders fall in love with ARR because it is the cleanest, most flattering number on the board deck. But ARR that costs $1.20 to earn $1.00 is not an asset. It is a liability wearing a growth costume.</p>
@@ -120,5 +120,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='You are in. Welcome aboard.';}else{b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';}}).catch(function(){b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>Sales stuck? A 15-minute call, no pitch.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a call</a><button class="sticky-x" aria-label="Close">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

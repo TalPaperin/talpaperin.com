@@ -77,7 +77,7 @@
 <p>הכנסה למעלה. כל מה שבאמת חשוב, למטה.</p>
 <p>הנה מה שקרה, כי כל מייסד צריך לשבת עם זה.</p>
 <p>לפני שנה Wix ראתה את ה-AI מגיע וזזה מהר. היא קנתה את Base44, סטארטאפ vibe-coding, כדי להרכיב כלי לבניית אתרים מבוסס AI על הפלטפורמה שלה. חכם, מוקדם, החלטי. וזה עבד. Base44 עברה מאפס ל-150 מיליון דולר ARR תוך חודשים. רוב הצמיחה של Wix מגיעה עכשיו ממנה.</p>
-<p>אז למה ההפסד? למה הפיטורים? כי ההכנסה הזאת עולה יותר ממה שהיא מרוויחה.</p>
+<p>אז למה ההפסד? למה הפיטורים? כי ההכנסה הזאת עולה יותר ממה שהיא מרוויחה.</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <p>כל משתמש Base44 חדש מוסיף עלויות מחשוב ושיווק. Wix הוציאה 90 מיליון דולר על רכישת לקוחות עבורה ברבעון האחרון. 200 מיליון דולר על שיווק בסך הכל. 20 מיליון דולר על קמפיין סופרבול יחיד. ההוצאות התפעוליות קפצו ב-50%. ככל ש-Base44 צומחת מהר יותר, Wix מפסידה יותר כסף.</p>
 <p>זה לא מנוע צמיחה. זה סובסידיה עם גרף צמיחה מחובר אליה.</p>
 <p>מייסדים מתאהבים ב-ARR כי זה המספר הכי נקי ומחמיא במצגת לדירקטוריון. אבל ARR שעולה 1.20 דולר כדי להרוויח דולר הוא לא נכס. הוא התחייבות שלובשת תחפושת של צמיחה.</p>
@@ -119,5 +119,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

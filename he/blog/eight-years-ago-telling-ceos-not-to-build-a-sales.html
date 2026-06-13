@@ -76,7 +76,7 @@
 <p>למה שחברה לא תבנה מחלקת מכירות משלה?</p>
 <p>הטיעון שלי היה בעצם זה: רוב הסטארטאפים והחברות הצומחות לא יכולים באמת להרשות לעצמם תשתית מכירות אמיתית. לא אמיתית.</p>
 <p>ברגע שמחשבים את העלות בפועל, זה נעשה מכוער מהר: VP מכירות, אנשי SDR, אנשי AE, מנהלים, מגייסים, אונבורדינג, הכשרה, זמן התברגות, פיצויי פיטורין, גיוסים כושלים.</p>
-<p>והרוצח הכי גדול? זמן. גיוס VP מכירות כושל אחד יכול בקלות לשרוף 6 עד 12 חודשים.</p>
+<p>והרוצח הכי גדול? זמן. גיוס VP מכירות כושל אחד יכול בקלות לשרוף 6 עד 12 חודשים.</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <p>אני יודע כי הייתי בעצמי VP מכירות ופיתוח עסקי גלובלי לפני שהקמתי את החברה שלי. ראיתי שוב ושוב מוצרים מעולים נכשלים לצבור תאוצה כי חברות ניסו לבנות ארגוני מכירות ברמת Enterprise מוקדם מדי.</p>
 <p>אז בניתי מודל אחר. במקום לבנות הכל מאפס, אני נכנס כ-CRO במיקור חוץ, ואנחנו מביאים את התשתית, אנשי מכירות מיומנים, תהליך, ביצוע ומערכות. בלי גיוס אינסופי. בלי מחזורי אונבורדינג ענקיים. בלי לחכות שנה שצוות מכירות יהפוך למתפקד.</p>
 <p>בהתחלה הם בדקו אותנו בשוק אחד. ואז הרחיבו אותנו ל-5 מדינות מרכזיות במערב אירופה.</p>
@@ -117,5 +117,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

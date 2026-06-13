@@ -74,7 +74,7 @@
 <p>When? Whom to use?</p>
 <p>A lot of us here are working for different companies, in different sectors, providing various services.</p>
 <p>How well would a recommendation, or an endorsement, will work across industries</p>
-<p>For example, I am currently doing work for an agricultural company in Israel, an Electric vehicle manufacturer in China, software company from India and a Medical Device company from Israel.</p>
+<p>For example, I am currently doing work for an agricultural company in Israel, an Electric vehicle manufacturer in China, software company from India and a Medical Device company from Israel.</p><div class="inline-cta"><p><strong>This is exactly what I fix, hands-on.</strong> Monthly, no contract, no exit fines. If revenue is stuck, the call costs you nothing.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-minute call</a></div>
 <p>Today I was talking to potential clients - and each, as always, asked if I have experience with THEIR specific industry...... And my conclusion / lesson is: at the end of the day, people will be working with ME because of who I AM. Not because of the work I did with their competitors in the field.</p>
 <p>And so personal recommendations, in my opinion, are not less important than professional ones.</p>
 <p>A big thank you to Gabriel Heifets, from Annapurna Labs, for the somewhat personal endorsement:)</p>
@@ -113,5 +113,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='You are in. Welcome aboard.';}else{b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';}}).catch(function(){b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>Sales stuck? A 15-minute call, no pitch.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a call</a><button class="sticky-x" aria-label="Close">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>

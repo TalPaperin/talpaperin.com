@@ -76,7 +76,7 @@
 <p>D-Fend לא עשתה פיבוט. הכאב של העולם הדביק את המוצר שהם מכרו במשך תשע שנים.</p>
 <p>רוב חברות ה-B2B שהגיעו לרמת רוויה הן המקרה ההפוך.</p>
 <p>בניתם משכך כאבים אמיתי ב-2022 או 2023. מצאתם קונים שדיממו. סגרתם אותם. ההכנסה עלתה למעלה ולימין. ואז זה נעצר.</p>
-<p>אתם מאשימים את המשפך. מגייסים אנשי SDR. כותבים מחדש את דף הבית. משנים את תסריט ה-SDR בפעם השלישית.</p>
+<p>אתם מאשימים את המשפך. מגייסים אנשי SDR. כותבים מחדש את דף הבית. משנים את תסריט ה-SDR בפעם השלישית.</p><div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, השיחה לא עולה לכם כלום.</p><a class="btn btn-outline" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>
 <p>הנה מה שבדרך כלל קורה: הכאב של הקונה שלכם השתנה. ה-CFO שלו קיבל סמכות חדשה. מערך הכלים שלהם התאחד. הרכש נעשה קשה יותר. הכאב המדויק שפתרתם ב-2023 הוא עכשיו העדיפות השביעית שלהם במקום השנייה.</p>
 <p>המוצר שלכם עדיין עובד. הסיפור שלכם מוכר את הכאב של 2023 לקונה שחי ב-2026.</p>
 <p>איך לגלות אם זה אתם: משכו את התמלילים של חמש העסקאות האחרונות שהפסדתם. מצאו את הרגע שבו הטון של הקונה השתנה. בתשע מתוך עשר פעמים זה אותו משפט, והוא לא על מחיר.</p>
@@ -117,5 +117,7 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='נרשמת. ברוכים הבאים!';}else{b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';}}).catch(function(){b.disabled=false;b.textContent='הרשמה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. נסו שוב.';});return false;}
   </script>
+  <div class="sticky-cta" id="stickyCta" hidden><span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ'.</span><a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה</a><button class="sticky-x" aria-label="סגירה">&times;</button></div>
+  <script>(function(){var b=document.getElementById("stickyCta");if(!b)return;if(sessionStorage.getItem("stickyClosed"))return;var art=document.querySelector(".article");function on(){if(!art)return;var r=art.getBoundingClientRect();var shown=window.scrollY>700&&r.bottom>window.innerHeight*1.2;b.hidden=!shown;}addEventListener("scroll",on,{passive:true});on();b.querySelector(".sticky-x").addEventListener("click",function(){b.hidden=true;sessionStorage.setItem("stickyClosed","1");});})();</script>
 </body>
 </html>
