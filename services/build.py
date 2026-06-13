@@ -271,8 +271,8 @@ SERVICES = [
       ["United Kingdom","/blog/building-a-sales-operation-in-the-uk"],
       ["Japan","/blog/building-a-sales-operation-in-japan"],
       ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],["France","/blog/building-a-sales-operation-in-france"],["Finland","/blog/selling-b2b-in-the-nordics"],["Poland","/blog/selling-b2b-in-central-and-eastern-europe"],["Romania","/blog/selling-b2b-in-central-and-eastern-europe"],
-      ["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-central-and-eastern-europe"],["South Korea","/blog/building-a-sales-operation-in-south-korea"],["China","/blog/building-a-sales-operation-in-china"],["Taiwan",""],
-      ["Australia","/blog/selling-b2b-in-australia-and-new-zealand"],["New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"]]},
+      ["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-central-and-eastern-europe"],["South Korea","/blog/building-a-sales-operation-in-south-korea"],["China","/blog/building-a-sales-operation-in-china"],["Taiwan","/blog/selling-b2b-in-asia-pacific"],
+      ["Australia","/blog/selling-b2b-in-australia-and-new-zealand"],["New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"],["Brazil","/blog/building-a-sales-operation-in-brazil"],["South America","/blog/selling-b2b-in-south-america"],["Central America","/blog/selling-b2b-in-central-america"],["Africa","/blog/selling-b2b-in-africa"]]},
   ]},
 ]
 
@@ -613,8 +613,8 @@ HE_SERVICES = [
       ["בריטניה","/he/blog/building-a-sales-operation-in-the-uk"],
       ["יפן","/he/blog/building-a-sales-operation-in-japan"],
       ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],["צרפת","/he/blog/building-a-sales-operation-in-france"],["פינלנד","/he/blog/selling-b2b-in-the-nordics"],["פולין","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רומניה","/he/blog/selling-b2b-in-central-and-eastern-europe"],
-      ["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],["סין","/he/blog/building-a-sales-operation-in-china"],["טאיוואן",""],
-      ["אוסטרליה","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"]]},
+      ["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],["סין","/he/blog/building-a-sales-operation-in-china"],["טאיוואן","/he/blog/selling-b2b-in-asia-pacific"],
+      ["אוסטרליה","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],["אפריקה","/he/blog/selling-b2b-in-africa"]]},
   ]},
 ]
 
