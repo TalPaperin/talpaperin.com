@@ -270,8 +270,8 @@ SERVICES = [
       ["Germany","/blog/building-a-sales-operation-in-germany"],
       ["United Kingdom","/blog/building-a-sales-operation-in-the-uk"],
       ["Japan","/blog/building-a-sales-operation-in-japan"],
-      ["Netherlands",""],["France",""],["Finland",""],["Poland",""],["Romania",""],
-      ["Hungary",""],["Russia",""],["South Korea",""],["China",""],["Taiwan",""],
+      ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],["France","/blog/building-a-sales-operation-in-france"],["Finland",""],["Poland",""],["Romania",""],
+      ["Hungary",""],["Russia",""],["South Korea",""],["China","/blog/building-a-sales-operation-in-china"],["Taiwan",""],
       ["Australia",""],["New Zealand",""]]},
   ]},
 ]
@@ -612,8 +612,8 @@ HE_SERVICES = [
       ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
       ["בריטניה","/he/blog/building-a-sales-operation-in-the-uk"],
       ["יפן","/he/blog/building-a-sales-operation-in-japan"],
-      ["הולנד",""],["צרפת",""],["פינלנד",""],["פולין",""],["רומניה",""],
-      ["הונגריה",""],["רוסיה",""],["דרום קוריאה",""],["סין",""],["טאיוואן",""],
+      ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],["צרפת","/he/blog/building-a-sales-operation-in-france"],["פינלנד",""],["פולין",""],["רומניה",""],
+      ["הונגריה",""],["רוסיה",""],["דרום קוריאה",""],["סין","/he/blog/building-a-sales-operation-in-china"],["טאיוואן",""],
       ["אוסטרליה",""],["ניו זילנד",""]]},
   ]},
 ]

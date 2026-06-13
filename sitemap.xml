@@ -301,7 +301,19 @@
     <lastmod>2026-06-04</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-france</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-03</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/blog/costco-loses-money-on-gas-on-purpose-here-is-the</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-02</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-the-netherlands</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-06-02</lastmod>
@@ -326,6 +338,12 @@
   </url>
   <url>
     <loc>https://talpaperin.com/blog/little-crappy-ships-that-is-the-nickname-the-us-navy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-28</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-china</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-05-28</lastmod>
@@ -907,6 +925,18 @@
     <lastmod>2026-06-04</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-france</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-03</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-the-netherlands</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-02</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/ideal-customer-profile-icp</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -923,6 +953,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-05-29</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-china</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-05-28</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/selling-to-government-b2g</loc>
