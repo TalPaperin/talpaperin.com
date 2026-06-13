@@ -39,4 +39,4 @@ Pick one country as the beachhead, sell straight and without pressure, win the c
 
 ---
 
-Related: [market entry](/services/market-entry), [global markets](/services/global-markets), [tell me where you want to expand](/contact).
+Related: [market entry](/services/market-entry), [global markets](/services/market-entry), [tell me where you want to expand](/contact).

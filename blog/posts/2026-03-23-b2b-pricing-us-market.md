@@ -40,4 +40,4 @@ If you are entering the US market and unsure how to price, let's talk. It is one
 
 ---
 
-Related: [go-to-market strategy](/services/go-to-market-strategy), [SaaS sales and GTM](/services/saas-sales).
+Related: [go-to-market strategy](/services/go-to-market-strategy), [SaaS sales and GTM](/services/go-to-market-strategy).

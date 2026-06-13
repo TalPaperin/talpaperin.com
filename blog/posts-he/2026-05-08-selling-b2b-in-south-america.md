@@ -37,4 +37,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [ברזיל](/he/blog/building-a-sales-operation-in-brazil), [איתור וגיוס מפיצים וערוצי הפצה](/he/services/distributor-channel-recruitment), [שווקים גלובליים](/he/services/global-markets).
+**קריאה נוספת:** [ברזיל](/he/blog/building-a-sales-operation-in-brazil), [איתור וגיוס מפיצים וערוצי הפצה](/he/services/distributor-channel-recruitment), [שווקים גלובליים](/he/services/market-entry).

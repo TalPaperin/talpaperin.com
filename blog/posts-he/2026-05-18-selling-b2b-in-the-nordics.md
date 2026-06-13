@@ -38,4 +38,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [חדירה לשווקים](/he/services/market-entry), [שווקים גלובליים](/he/services/global-markets), [ספרו לי לאן אתם רוצים להתרחב](/he/contact).
+**קריאה נוספת:** [חדירה לשווקים](/he/services/market-entry), [שווקים גלובליים](/he/services/market-entry), [ספרו לי לאן אתם רוצים להתרחב](/he/contact).

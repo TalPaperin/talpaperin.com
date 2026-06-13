@@ -38,4 +38,4 @@ Pick the right entry market, decide direct versus distributor honestly, commit w
 
 ---
 
-Related: [Brazil](/blog/building-a-sales-operation-in-brazil), [distributor and channel recruitment](/services/distributor-channel-recruitment), [global markets](/services/global-markets).
+Related: [Brazil](/blog/building-a-sales-operation-in-brazil), [distributor and channel recruitment](/services/distributor-channel-recruitment), [global markets](/services/market-entry).

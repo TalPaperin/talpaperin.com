@@ -143,10 +143,10 @@ SERVICES = [
 
  {"slug":"go-to-market-strategy","nav":"Go-To-Market Strategy","h1":"Go-To-Market Strategy",
   "title":"Go-To-Market Strategy Consultant | Tal Paperin",
-  "desc":"A go-to-market strategy you can actually execute. ICP, positioning, channels, playbook and a real forecast, then I help you run it.",
+  "desc":"A go-to-market strategy you can actually execute, including SaaS GTM. ICP, positioning, channels, playbook and a real forecast, then I help you run it.",
   "eyebrow":"Service",
-  "lead":"Most GTM decks die in a drawer. I build a plan with targets and timelines, then lead the execution with you.",
-  "card":"ICP, positioning, channels, playbook and a real forecast, then I lead the execution, not just the slides.",
+  "lead":"Most GTM decks die in a drawer. I build a plan with targets and timelines, then lead the execution with you, for B2B and SaaS alike.",
+  "card":"ICP, positioning, channels, playbook and a real forecast, including SaaS go-to-market, then I lead the execution, not just the slides.",
   "sections":[
     {"h":"What a real GTM plan includes","ul":[
       "A validated ICP, positioning and messaging, not a guess you wrote down once",
@@ -155,6 +155,8 @@ SERVICES = [
       "A real forecast with milestones, not a hope"]},
     {"h":"Strategy is not enough","p":[
       "I do not stop at the slide deck. I build the plan, then lead the execution with you, until you have pipeline, partners and first sales. From the high-level plan to the work in the field, I am there."]},
+    {"h":"Including SaaS go-to-market","p":[
+      "The same applies, sharpened, to software: positioning, the motion, the channel and the team built for the SaaS sale, including the long, technical, trust-based sale to enterprise, universities, research labs and pharma."]},
     {"h":"Across markets","p":[
       "North America, the EU, Eastern and Central Europe, and APAC. I have opened markets others wrote off, and I know the expensive mistakes before you make them."]},
   ]},
@@ -191,22 +193,36 @@ SERVICES = [
       "I have signed multiple distributors and retail chains across a region a global manufacturer had written off, and built distributor networks across the FSU, the EU and APAC. Partners are not a logo on a slide. They are revenue, if you pick and manage them right."]},
   ]},
 
- {"slug":"market-entry","nav":"Market Entry","h1":"International Market Entry",
-  "title":"International Market Entry Consultant | Tal Paperin",
-  "desc":"Break into new markets without the expensive mistakes. Market-entry strategy and execution across the US, EU, Eastern Europe and APAC.",
+ {"slug":"market-entry","nav":"Market Entry & Global Markets","h1":"International Market Entry and Global Markets",
+  "title":"International Market Entry and Global Expansion | Tal Paperin",
+  "desc":"Break into new markets without the expensive mistakes. I have built and run sales, teams, subsidiaries and support across four continents, repeatedly and for multiple companies. Here is how I pick a market and build it.",
   "eyebrow":"Service",
-  "lead":"Entering a new market is where companies burn the most money. I have done it across four continents, and I know the mistakes before you make them.",
-  "card":"Market-entry strategy and execution across North America, the EU, Eastern Europe and APAC. Including B2G and complex deals.",
+  "lead":"Four continents. Sixteen countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
+  "card":"Pick the right market, then build and run the whole operation: sales, subsidiary, support and customer service. Built across four continents.",
   "sections":[
+    {"h":"I choose the market, then build it","p":[
+      "The most expensive mistake in expansion is entering the wrong market, fast. I start by assessing whether a market is even yours, the pain, the access, the willingness to pay, the competition, and then I build the operation only where it makes sense. Planning and execution, from the same person who answers for the number."]},
     {"h":"What I do","ul":[
       "Market-entry strategy and a milestone-by-milestone plan",
       "The right territories, channels and decision-makers",
       "Lead the negotiations and close the first deals personally",
       "Build the local presence, direct or through partners"]},
-    {"h":"Markets I know","p":[
-      "North America, the EU, Eastern and Central Europe, and APAC. I proved there was real money in Eastern Europe for a company convinced there was none, and put product on shelves in a market they had abandoned."]},
-    {"h":"B2G and complex deals","p":[
-      "I also run B2G and complex public-sector deals, RFIs, RFQs and government projects, across the globe."]},
+    {"h":"The full operation, not just the sale","ul":[
+      "Sales teams: SDRs, AEs and leadership, hired, trained and managed",
+      "Subsidiaries opened when customers or hiring require a local entity",
+      "Tech support and customer service operations stood up and run",
+      "Pricing, positioning and the go-to-market built for the local buyer",
+      "The CRM, pipeline, forecast and accountability behind the number"]},
+    {"h":"Done repeatedly, for multiple companies","p":[
+      "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
+    {"h":"Markets I have operated in","links":[
+      ["United States","/blog/building-a-sales-operation-in-the-united-states"],
+      ["Germany","/blog/building-a-sales-operation-in-germany"],
+      ["United Kingdom","/blog/building-a-sales-operation-in-the-uk"],
+      ["Japan","/blog/building-a-sales-operation-in-japan"],
+      ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],["France","/blog/building-a-sales-operation-in-france"],["Finland","/blog/selling-b2b-in-the-nordics"],["Poland","/blog/selling-b2b-in-central-and-eastern-europe"],["Romania","/blog/selling-b2b-in-central-and-eastern-europe"],
+      ["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-central-and-eastern-europe"],["South Korea","/blog/building-a-sales-operation-in-south-korea"],["China","/blog/building-a-sales-operation-in-china"],["Taiwan","/blog/selling-b2b-in-asia-pacific"],
+      ["Australia","/blog/selling-b2b-in-australia-and-new-zealand"],["New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"],["Brazil","/blog/building-a-sales-operation-in-brazil"],["South America","/blog/selling-b2b-in-south-america"],["Central America","/blog/selling-b2b-in-central-america"],["Africa","/blog/selling-b2b-in-africa"]]},
   ]},
 
  {"slug":"b2g-public-sector","nav":"B2G & Public Sector","h1":"B2G and Public-Sector Sales",
@@ -497,15 +513,17 @@ HE_SERVICES = [
 
  {"slug":"go-to-market-strategy","nav":"אסטרטגיית GTM","h1":"אסטרטגיית Go-To-Market",
   "title":"אסטרטגיית Go-To-Market ותוכנית שיווק בינלאומית | טל פאפרין",
-  "desc":"אסטרטגיית Go-To-Market שאפשר באמת לבצע. ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, ואז אני מוביל איתכם את הביצוע.",
+  "desc":"אסטרטגיית Go-To-Market שאפשר באמת לבצע, כולל GTM ל-SaaS. ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, ואז אני מוביל איתכם את הביצוע.",
   "eyebrow":"שירות",
-  "lead":"רוב מצגות ה-GTM מתות במגירה. אני בונה תוכנית עם יעדים ולוחות זמנים, ואז מוביל איתכם את הביצוע.",
-  "card":"ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, ואז אני מוביל את הביצוע, לא רק את השקפים.",
+  "lead":"רוב מצגות ה-GTM מתות במגירה. אני בונה תוכנית עם יעדים ולוחות זמנים, ואז מוביל איתכם את הביצוע, גם ל-B2B וגם ל-SaaS.",
+  "card":"ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, כולל Go-To-Market ל-SaaS, ואז אני מוביל את הביצוע, לא רק את השקפים.",
   "sections":[
     {"h":"מה כוללת תוכנית GTM אמיתית",
      "ul":["ICP מתוקף, מיצוב ומסרים, לא ניחוש שרשמתם פעם אחת","השווקים והערוצים הנכונים לשלב שלכם","Playbook בר-ביצוע: תסריטי שיחה, קריטריונים להחלטה ותנועת אאוטבאונד","תחזית אמיתית עם אבני דרך, לא תקווה"]},
     {"h":"אסטרטגיה זה לא מספיק",
      "p":["אני לא עוצר במצגת. אני בונה את התוכנית, ואז מוביל איתכם את הביצוע, עד שיש פייפליין, שותפים ומכירות ראשונות. מהתכנון הגבוה ועד העבודה בשטח, אני שם."]},
+    {"h":"כולל Go-To-Market ל-SaaS",
+     "p":["אותו דבר, מחודד, לתוכנה: מיצוב, תנועה, ערוץ וצוות שנבנים למכירת ה-SaaS, כולל המכירה הארוכה, הטכנית ועתירת האמון לארגונים גדולים, אוניברסיטאות, מעבדות מחקר וחברות פארמה."]},
     {"h":"לרוחב השווקים",
      "p":["צפון אמריקה, האיחוד האירופי, מזרח ומרכז אירופה ו-APAC. פתחתי שווקים שאחרים מחקו, ואני מכיר את הטעויות היקרות לפני שאתם עושים אותן."]},
   ]},
@@ -536,19 +554,29 @@ HE_SERVICES = [
      "p":["החתמתי מספר מפיצים ורשתות קמעונאות באזור שיצרן גלובלי כבר מחק, ובניתי רשתות מפיצים ב-FSU, באיחוד האירופי וב-APAC. שותפים הם לא לוגו על שקף. הם הכנסות, אם בוחרים ומנהלים אותם נכון."]},
   ]},
 
- {"slug":"market-entry","nav":"חדירה לשווקים","h1":"חדירה לשווקים בינלאומיים",
-  "title":"חדירה לשווקים בינלאומיים | טל פאפרין",
-  "desc":"לפרוץ לשווקים חדשים בלי הטעויות היקרות. אסטרטגיית חדירה וביצוע בארה״ב, באיחוד האירופי, במזרח אירופה ו-APAC.",
+ {"slug":"market-entry","nav":"חדירה לשווקים ושווקים גלובליים","h1":"חדירה לשווקים בינלאומיים ושווקים גלובליים",
+  "title":"חדירה לשווקים בינלאומיים והתרחבות גלובלית | טל פאפרין",
+  "desc":"לפרוץ לשווקים חדשים בלי הטעויות היקרות. בניתי וניהלתי מכירות, צוותים, חברות בנות ותמיכה בארבע יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
   "eyebrow":"שירות",
-  "lead":"כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. עשיתי את זה בארבע יבשות, ואני מכיר את הטעויות לפני שאתם עושים אותן.",
-  "card":"אסטרטגיית חדירה וביצוע בצפון אמריקה, באיחוד האירופי, במזרח אירופה ו-APAC. כולל B2G ועסקאות מורכבות.",
+  "lead":"ארבע יבשות. שש עשרה מדינות. מאות ערים, בשטח, לא מהאימייל. כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
+  "card":"בוחרים את השוק הנכון, ואז בונים ומנהלים את כל המערך: מכירות, חברה בת, תמיכה ושירות לקוחות. נבנה בארבע יבשות.",
   "sections":[
+    {"h":"קודם בוחרים שוק, אחר כך בונים אותו",
+     "p":["הטעות היקרה ביותר בהתרחבות היא להיכנס מהר לשוק הלא נכון. אני מתחיל בלשפוט אם השוק בכלל שלכם, הכאב, הנגישות, הנכונות לשלם, התחרות, ואז בונה את המערך רק איפה שזה הגיוני. תכנון וביצוע, מאותו אדם שאחראי על המספר."]},
     {"h":"מה אני עושה",
      "ul":["אסטרטגיית חדירה ותוכנית לפי אבני דרך","הטריטוריות, הערוצים ומקבלי ההחלטות הנכונים","הובלת המשא ומתן וסגירת העסקאות הראשונות באופן אישי","בניית נוכחות מקומית, ישירה או דרך שותפים"]},
-    {"h":"השווקים שאני מכיר",
-     "p":["צפון אמריקה, האיחוד האירופי, מזרח ומרכז אירופה ו-APAC. הוכחתי שיש כסף אמיתי במזרח אירופה לחברה שהייתה בטוחה שאין, והבאתי מוצר למדפים בשוק שהיא כבר נטשה."]},
-    {"h":"B2G ועסקאות מורכבות",
-     "p":["אני גם מנהל עסקאות B2G ועסקאות מורכבות מול המגזר הציבורי, מכרזים, RFIs, RFQs ופרויקטים ממשלתיים, בכל העולם."]},
+    {"h":"כל המערך, לא רק המכירה",
+     "ul":["צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים","חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית","מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים","תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי","ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
+    {"h":"נעשה שוב ושוב, למספר חברות",
+     "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
+    {"h":"שווקים שפעלתי בהם","links":[
+      ["ארצות הברית","/he/blog/building-a-sales-operation-in-the-united-states"],
+      ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
+      ["בריטניה","/he/blog/building-a-sales-operation-in-the-uk"],
+      ["יפן","/he/blog/building-a-sales-operation-in-japan"],
+      ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],["צרפת","/he/blog/building-a-sales-operation-in-france"],["פינלנד","/he/blog/selling-b2b-in-the-nordics"],["פולין","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רומניה","/he/blog/selling-b2b-in-central-and-eastern-europe"],
+      ["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],["סין","/he/blog/building-a-sales-operation-in-china"],["טאיוואן","/he/blog/selling-b2b-in-asia-pacific"],
+      ["אוסטרליה","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],["אפריקה","/he/blog/selling-b2b-in-africa"]]},
   ]},
 
  {"slug":"b2g-public-sector","nav":"B2G ומגזר ציבורי","h1":"מכירות B2G ולמגזר הציבורי",
@@ -617,6 +645,22 @@ HE_SERVICES = [
       ["אוסטרליה","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],["אפריקה","/he/blog/selling-b2b-in-africa"]]},
   ]},
 ]
+
+# Final service order (top sellers first); also drops merged/removed slugs
+# (contract-negotiation folded into fractional CRO / B2G, saas-sales into GTM,
+# global-markets merged into market-entry).
+_SVC_ORDER = ["fractional-cro", "outsourced-sales", "go-to-market-strategy", "market-entry",
+              "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector"]
+
+
+def _order_services(lst):
+    by = {s["slug"]: s for s in lst}
+    return [by[k] for k in _SVC_ORDER if k in by]
+
+
+SERVICES = _order_services(SERVICES)
+HE_SERVICES = _order_services(HE_SERVICES)
+
 
 HE_FAQ = {
  "slug": "challenges",

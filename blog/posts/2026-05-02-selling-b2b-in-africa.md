@@ -38,4 +38,4 @@ Choose the right hub market, commit to local presence and partners, and expand f
 
 ---
 
-Related: [market entry](/services/market-entry), [distributor and channel recruitment](/services/distributor-channel-recruitment), [global markets](/services/global-markets).
+Related: [market entry](/services/market-entry), [distributor and channel recruitment](/services/distributor-channel-recruitment), [global markets](/services/market-entry).

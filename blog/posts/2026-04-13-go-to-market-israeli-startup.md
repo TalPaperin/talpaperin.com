@@ -43,4 +43,4 @@ If you are selling abroad without a clear GTM, or with one that is not working, 
 
 ---
 
-Related: [go-to-market strategy](/services/go-to-market-strategy), [SaaS sales and GTM](/services/saas-sales).
+Related: [go-to-market strategy](/services/go-to-market-strategy), [SaaS sales and GTM](/services/go-to-market-strategy).

@@ -39,4 +39,4 @@ Pick the right entry country for your product, commit with local people and pres
 
 ---
 
-Related: [market entry](/services/market-entry), [distributor and channel recruitment](/services/distributor-channel-recruitment), [global markets](/services/global-markets).
+Related: [market entry](/services/market-entry), [distributor and channel recruitment](/services/distributor-channel-recruitment), [global markets](/services/market-entry).

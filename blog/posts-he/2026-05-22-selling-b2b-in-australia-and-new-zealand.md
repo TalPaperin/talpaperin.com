@@ -38,4 +38,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [חדירה לשווקים](/he/services/market-entry), [שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ](/he/services/fractional-cro), [שווקים גלובליים](/he/services/global-markets).
+**קריאה נוספת:** [חדירה לשווקים](/he/services/market-entry), [שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ](/he/services/fractional-cro), [שווקים גלובליים](/he/services/market-entry).

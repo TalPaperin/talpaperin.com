@@ -44,4 +44,4 @@ B2G לא מתאים לכל חברה ולא בכל שלב. הוא מתאים כש
 
 ---
 
-**קריאה נוספת:** [מכירות B2G ולמגזר הציבורי](/he/services/b2g-public-sector), [ניהול משא ומתן על חוזים](/he/services/contract-negotiation).
+**קריאה נוספת:** [מכירות B2G ולמגזר הציבורי](/he/services/b2g-public-sector), [ניהול משא ומתן על חוזים](/he/services/fractional-cro).

@@ -37,4 +37,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [חדירה לשווקים](/he/services/market-entry), [איתור וגיוס מפיצים וערוצי הפצה](/he/services/distributor-channel-recruitment), [שווקים גלובליים](/he/services/global-markets).
+**קריאה נוספת:** [חדירה לשווקים](/he/services/market-entry), [איתור וגיוס מפיצים וערוצי הפצה](/he/services/distributor-channel-recruitment), [שווקים גלובליים](/he/services/market-entry).

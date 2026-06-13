@@ -41,4 +41,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [ניהול משא ומתן על חוזים](/he/services/contract-negotiation), [מכירות B2G ולמגזר הציבורי](/he/services/b2g-public-sector).
+**קריאה נוספת:** [ניהול משא ומתן על חוזים](/he/services/fractional-cro), [מכירות B2G ולמגזר הציבורי](/he/services/b2g-public-sector).

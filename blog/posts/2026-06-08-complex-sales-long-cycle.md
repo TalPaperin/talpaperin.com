@@ -44,4 +44,4 @@ If you have large deals that always look close but never close, let's talk. That
 
 ---
 
-Related: [contract negotiation](/services/contract-negotiation), [the fractional CRO service](/services/fractional-cro).
+Related: [contract negotiation](/services/fractional-cro), [the fractional CRO service](/services/fractional-cro).

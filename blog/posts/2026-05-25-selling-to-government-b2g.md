@@ -44,4 +44,4 @@ I have guided deals with large and government organizations in several markets. 
 
 ---
 
-Related: [B2G and public sector sales](/services/b2g-public-sector), [contract negotiation](/services/contract-negotiation).
+Related: [B2G and public sector sales](/services/b2g-public-sector), [contract negotiation](/services/fractional-cro).

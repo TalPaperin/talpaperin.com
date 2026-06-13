@@ -37,4 +37,4 @@ Treat it as a region, choose strong local distributors, manage them properly, an
 
 ---
 
-Related: [distributor and channel recruitment](/services/distributor-channel-recruitment), [market entry](/services/market-entry), [global markets](/services/global-markets).
+Related: [distributor and channel recruitment](/services/distributor-channel-recruitment), [market entry](/services/market-entry), [global markets](/services/market-entry).

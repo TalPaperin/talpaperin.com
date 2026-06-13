@@ -38,4 +38,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy), [מכירות SaaS ו-Go-To-Market](/he/services/saas-sales).
+**קריאה נוספת:** [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy), [מכירות SaaS ו-Go-To-Market](/he/services/go-to-market-strategy).
