@@ -14,13 +14,6 @@ so run this first, then blog/build.py.
 import os
 import re
 import html
-import urllib.parse
-
-WA_NUM = "972545308119"
-WA_EN = "https://wa.me/%s?text=%s" % (
-    WA_NUM, urllib.parse.quote("Hi Tal, I'd like to talk about my sales."))
-WA_HE = "https://wa.me/%s?text=%s" % (
-    WA_NUM, urllib.parse.quote("היי טל, אשמח לדבר על המכירות שלי."))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SVC_DIR = os.path.join(ROOT, "services")
@@ -94,11 +87,8 @@ FOOTER = '''  <footer>
 
 CTA_BOX = '''      <div class="cta-box">
         <h3>Tell me where revenue stalled. I'll tell you why.</h3>
-        <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together. Prefer to type? Message me on WhatsApp.</p>
-        <div class="cta-actions">
-          <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
-          <a class="btn btn-wa" href="''' + WA_EN + '''" target="_blank" rel="noopener">''' + WA_SVG + '''Message me on WhatsApp</a>
-        </div>
+        <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together.</p>
+        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>'''
 
 
@@ -425,11 +415,8 @@ HE_FOOTER = '''  <footer>
 
 HE_CTA = '''      <div class="cta-box">
         <h3>ספרו לי איפה המכירות נתקעו. אני אגיד לכם למה.</h3>
-        <p>שיחה של 15 דקות, בלי ניסיונות מכירה. תצאו ממנה עם לפחות דבר אחד פרקטי לתקן, בין אם נעבוד יחד ובין אם לא. מעדיפים להקליד? שלחו לי וואטסאפ.</p>
-        <div class="cta-actions">
-          <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
-          <a class="btn btn-wa" href="''' + WA_HE + '''" target="_blank" rel="noopener">''' + WA_SVG + '''שלחו לי וואטסאפ</a>
-        </div>
+        <p>שיחה של 15 דקות, בלי ניסיונות מכירה. תצאו ממנה עם לפחות דבר אחד פרקטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
+        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
       </div>'''
 
 HE_SERVICES = [
