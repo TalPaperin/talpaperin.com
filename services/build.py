@@ -115,6 +115,12 @@ SERVICES = [
       "The hard calls: who to hire, who to train, who to replace"]},
     {"h":"How it works","p":[
       "Week one I diagnose where deals stall and leak. Week two you have a plan and a real forecast. Week three I am running it. You get a senior operator who has done this 30-plus times on four continents, not a strategy deck that sits in a drawer."]},
+    {"h":"Priced by how much of me you need","p":[
+      "The job is identical at every level. The only thing that changes is how many hours a day I am in your business."],
+     "ul":[
+      "Starter, $6,000 a month: two hours a day, every working day",
+      "Growth, $12,000 a month: half time, four hours a day. What most companies choose",
+      "CRO Ownership, $22,000 a month: full time and exclusive, when I take this I take only you"]},
   ]},
 
  {"slug":"outsourced-sales","nav":"Outsourced Sales","h1":"Outsourced Sales Teams",
@@ -434,6 +440,9 @@ HE_SERVICES = [
      "ul":["אסטרטגיית ההכנסות, התחזית והאחריות, מקצה לקצה","תנועת ה-Go-to-Market, הפייפליין והצוות שמריץ אותם","שיווק שבאמת מזין את הפייפליין, לא רק מייצר פעילות","ההחלטות הקשות: את מי לגייס, את מי להכשיר ואת מי להחליף"]},
     {"h":"איך זה עובד",
      "p":["בשבוע הראשון אני מאבחן איפה העסקאות נתקעות ודולפות. בשבוע השני יש לכם תוכנית ותחזית אמיתית. בשבוע השלישי אני כבר מריץ אותה. אתם מקבלים מנהל מנוסה שעשה את זה יותר מ-30 פעם בארבע יבשות, לא עוד מצגת אסטרטגיה שנשארת במגירה."]},
+    {"h":"מתומחר לפי כמה ממני אתם צריכים",
+     "p":["התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."],
+     "ul":["Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום. מה שרוב החברות בוחרות","בעלות מלאה, 22,000 דולר בחודש: משרה מלאה ובלעדית, כשאני לוקח את זה אני לוקח רק אתכם"]},
   ]},
 
  {"slug":"outsourced-sales","nav":"מכירות במיקור חוץ","h1":"צוות מכירות במיקור חוץ",
@@ -1341,11 +1350,11 @@ GUIDES = [
   "lead":"Most consultants hide the number, hand you a deck, and disappear. I am an operator who still sells, I bill monthly with no contract, and here is exactly what a fractional CRO costs, in plain figures.",
   "sections":[
     {"h":"The short answer","p":[
-      "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee, and you only pay for the level of involvement your stage actually needs."]},
-    {"h":"The three levels","tiers":[
-      "Starter, $6,000 a month. A full diagnosis of where revenue leaks, a sales strategy, a real forecast, an executable playbook, CRM and pipeline structure, and training for your SDRs and AEs.",
-      "Growth, $12,000 a month. Everything in Starter, plus hands-on management of your sales team, week-to-week ownership of the motion, hiring and performance management, and a living plan that I drive.",
-      "CRO Ownership, $22,000 a month. Full CRO-level ownership of revenue across sales, marketing and go-to-market, including B2G, distributor networks and complex contract negotiation, and total accountability for the number."]},
+      "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee. The role is identical at every level. The only thing that changes is how many hours a day I am in your business."]},
+    {"h":"The three levels, priced by how much of me","tiers":[
+      "Starter, $6,000 a month. Me as your CRO embedded two hours a day, every working day. I own the strategy, the system and the standards, and your team carries more of the daily execution.",
+      "Growth, $12,000 a month. Half time, four hours a day. Not just steering, driving: I run the motion week to week, manage the team hands-on, and carry the number with you. What most companies choose.",
+      "CRO Ownership, $22,000 a month. Full time and exclusive. All of me on your revenue across sales, marketing and go-to-market, and while I own your number I take no other clients. Subject to availability."]},
     {"h":"Why it is cheaper than a full-time hire","ul":[
       "No $250K base, equity, bonus or severance risk",
       "No three-month hiring search and no two-quarter ramp",
@@ -1359,7 +1368,7 @@ GUIDES = [
   "faqs":[
     {"q":"How much does a fractional CRO cost?","a":"My engagements run $6,000 to $22,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
     {"q":"Is a fractional CRO cheaper than a full-time CRO?","a":"Yes. You get the same senior ownership without the base salary, equity, bonus, severance risk, hiring cycle or long ramp, and without a long-term lock-in."},
-    {"q":"What is included?","a":"Depending on the tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance calls, and full CRO-level ownership across sales, marketing and go-to-market."},
+    {"q":"What is included?","a":"The same at every tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance, and full CRO-level ownership across sales, marketing and go-to-market. What changes between tiers is how many hours a day I am in your business: two hours, four hours, or full time."},
     {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."},
     {"q":"Do I have to sign a long contract?","a":"No. I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
@@ -1520,11 +1529,11 @@ HE_GUIDES = [
   "lead":"רוב היועצים מסתירים את המספר, מגישים לכם מצגת, ונעלמים. אני מפעיל שעדיין מוכר בעצמו, מחייב חודשית בלי חוזה, והנה בדיוק כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, במספרים ברורים.",
   "sections":[
     {"h":"התשובה הקצרה","p":[
-      "סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה עולה 250 אלף דולר ומעלה בסך הכל, אחרי שמוסיפים בסיס, אקוויטי, בונוס, סיכון פיצויי פיטורין ומחזור גיוס של חודשים. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ נותן לכם את אותה בעלות בכירה בתשלום חודשי, ואתם משלמים רק על רמת המעורבות שהשלב שלכם באמת צריך."]},
-    {"h":"שלוש הרמות","tiers":[
-      "Starter, 6,000 דולר בחודש. אבחון מלא של היכן ההכנסות דולפות, אסטרטגיית מכירות, תחזית אמיתית, Playbook לביצוע, מבנה CRM ופייפליין, והכשרה לצוותי ה-SDR וה-AE שלכם.",
-      "Growth, 12,000 דולר בחודש. כל מה שב-Starter, פלוס ניהול מעשי של צוות המכירות, בעלות שבועית על התנועה, גיוס וניהול ביצועים, ותוכנית חיה שאני מוביל.",
-      "בעלות מלאה, 22,000 דולר בחודש. בעלות מלאה ברמת סמנכ״ל מכירות ופיתוח עסקי על ההכנסות, על פני מכירות, שיווק ו-Go-to-Market, כולל B2G, רשתות מפיצים ומשא ומתן חוזי מורכב, ואחריות מלאה על המספר."]},
+      "סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה עולה 250 אלף דולר ומעלה בסך הכל, אחרי שמוסיפים בסיס, אקוויטי, בונוס, סיכון פיצויי פיטורין ומחזור גיוס של חודשים. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ נותן לכם את אותה בעלות בכירה בתשלום חודשי. התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."]},
+    {"h":"שלוש הרמות, לפי כמה ממני אתם צריכים","tiers":[
+      "Starter, 6,000 דולר בחודש. אני, סמנכ״ל המכירות ופיתוח העסקי שלכם, בתוך העסק שעתיים ביום, בכל יום עבודה. אני מחזיק את האסטרטגיה, השיטה והסטנדרטים, והצוות שלכם מבצע את רוב היומיום.",
+      "Growth, 12,000 דולר בחודש. חצי משרה, ארבע שעות ביום. כבר לא רק מכוון, מניע: אני מריץ את המוטור שבוע אחר שבוע, מנהל את הצוות בידיים, ונושא איתכם במספר. מה שרוב החברות בוחרות.",
+      "בעלות מלאה, 22,000 דולר בחודש. משרה מלאה ובלעדית. כולי על ההכנסות שלכם, על פני מכירות, שיווק ו-Go-to-Market, וכל עוד אני מחזיק את המספר שלכם אני לא לוקח אף לקוח אחר. בכפוף לזמינות."]},
     {"h":"למה זה זול יותר מגיוס במשרה מלאה","ul":[
       "בלי בסיס של 250 אלף דולר, אקוויטי, בונוס או סיכון פיצויים",
       "בלי חיפוש גיוס של שלושה חודשים ובלי התברגות של שני רבעונים",
@@ -1536,7 +1545,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"הפרויקטים שלי נעים בין 6,000 ל-22,000 דולר בחודש לפי רמת המעורבות, לעומת 250 אלף דולר ומעלה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה אחרי אקוויטי, בונוס ופיצויים."},
     {"q":"האם סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ זול יותר מסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה?","a":"כן. אתם מקבלים את אותה בעלות בכירה בלי המשכורת, האקוויטי, הבונוס, סיכון הפיצויים, מחזור הגיוס או ההתברגות הארוכה, ובלי נעילה לטווח ארוך."},
-    {"q":"מה כלול?","a":"תלוי ברמה: אבחון הכנסות, אסטרטגיית מכירות ותחזית, Playbook, מבנה CRM ופייפליין, הכשרת צוות, ניהול מעשי של התנועה, החלטות גיוס וביצועים, ובעלות מלאה ברמת סמנכ״ל מכירות ופיתוח עסקי על מכירות, שיווק ו-Go-to-Market."},
+    {"q":"מה כלול?","a":"אותו דבר בכל רמה: אבחון הכנסות, אסטרטגיית מכירות ותחזית, Playbook, מבנה CRM ופייפליין, הכשרת צוות, ניהול מעשי של התנועה, החלטות גיוס וביצועים, ובעלות מלאה על מכירות, שיווק ו-Go-to-Market. מה שמשתנה בין הרמות הוא כמה שעות ביום אני בעסק שלכם: שעתיים, ארבע שעות, או משרה מלאה."},
     {"q":"כמה זמן נמשך פרויקט סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"אין נעילה לטווח ארוך. אתם מגדילים את המעורבות ככל שאתם גדלים, או מעבירים את הפונקציה הלאה כשהיא בנויה."},
     {"q":"האם אני צריך לחתום על חוזה ארוך?","a":"לא. אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."}],
   "related":'ראו את <a href="/he/services/fractional-cro">שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>, <a href="/he/case-studies">מקרי מבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/fractional-cro-explained">סמנכ״ל מכירות ופיתוח עסקי במשרה חלקית, מה זה</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
