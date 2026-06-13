@@ -168,3 +168,9 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 .inline-cta{margin:38px 0;padding:22px 26px;border:1px solid var(--line);border-right:3px solid var(--blue);border-radius:14px;background:linear-gradient(270deg,rgba(90,176,255,.08),transparent 70%)}
 .inline-cta p{margin:0 0 14px;color:#dce7f0}
 .inline-cta .btn{margin:0}
+
+/* market chips (global markets service page) */
+.svc-links{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 10px}
+.svc-links a,.svc-links span{display:inline-block;padding:9px 15px;border:1px solid var(--line);border-radius:999px;font:600 14px/1 'Rubik';color:#cdd9e4}
+.svc-links a{color:#fff;border-color:rgba(90,176,255,.45)}
+.svc-links a:hover{background:rgba(90,176,255,.12);border-color:var(--blue)}

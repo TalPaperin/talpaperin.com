@@ -247,6 +247,33 @@ SERVICES = [
     {"h":"What I do","ul":["Sharpen positioning, the ICP and the value proposition for a SaaS buyer","Build the outbound and the playbook the motion runs on","Build the channel: resellers, integrators and partners","Hire, train and manage the SaaS sales team"]},
     {"h":"Across the SaaS sale","p":["I have sold SaaS to startups, to enterprise, and to some of the hardest buyers there are, universities, research labs and pharma, where the sale is long, technical and built entirely on trust."]},
   ]},
+
+ {"slug":"global-markets","nav":"Global Markets","h1":"Global Markets: Where I Build and Run Revenue",
+  "title":"Global Markets: International Sales Expansion | Tal Paperin",
+  "desc":"I have built, hired, trained and managed sales teams, opened subsidiaries and run support and customer service across four continents, repeatedly and for multiple companies. Here is how I pick a market and build it.",
+  "eyebrow":"Global",
+  "lead":"Four continents. Sixteen countries. Hundreds of cities, on the ground, not over email. I do not just enter a market, I help you choose the right one, then build and run it.",
+  "card":"Built revenue across four continents. I help you pick the right market, then build and run the whole operation there.",
+  "sections":[
+    {"h":"I choose the market, then build it","p":[
+      "The most expensive mistake in expansion is entering the wrong market, fast. I start by assessing whether a market is even yours, the pain, the access, the willingness to pay, the competition, and then I build the operation only where it makes sense. Planning and execution, from the same person who answers for the number."]},
+    {"h":"The full operation, not just the sale","ul":[
+      "Sales teams: SDRs, AEs and leadership, hired, trained and managed",
+      "Subsidiaries opened when customers or hiring require a local entity",
+      "Tech support and customer service operations stood up and run",
+      "Pricing, positioning and the go-to-market built for the local buyer",
+      "The CRM, pipeline, forecast and accountability behind the number"]},
+    {"h":"Done repeatedly, for multiple companies","p":[
+      "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline."]},
+    {"h":"Markets I have operated in","links":[
+      ["United States","/blog/building-a-sales-operation-in-the-united-states"],
+      ["Germany","/blog/building-a-sales-operation-in-germany"],
+      ["United Kingdom","/blog/building-a-sales-operation-in-the-uk"],
+      ["Japan","/blog/building-a-sales-operation-in-japan"],
+      ["Netherlands",""],["France",""],["Finland",""],["Poland",""],["Romania",""],
+      ["Hungary",""],["Russia",""],["South Korea",""],["China",""],["Taiwan",""],
+      ["Australia",""],["New Zealand",""]]},
+  ]},
 ]
 
 
@@ -265,6 +292,14 @@ def render_sections(svc):
             for li in sec["ul"]:
                 out.append("          <li>%s</li>" % esc(li))
             out.append("        </ul>")
+        if sec.get("links"):
+            out.append('        <div class="svc-links">')
+            for text, href in sec["links"]:
+                if href:
+                    out.append('          <a href="%s">%s</a>' % (href, esc(text)))
+                else:
+                    out.append('          <span>%s</span>' % esc(text))
+            out.append('        </div>')
     return "\n".join(out)
 
 
@@ -366,7 +401,7 @@ INDEX = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">Services</p>
         <h1>What I do.</h1>
-        <p class="lead">Six ways I fix and run revenue. Pick the one that matches your problem, or just tell me where it hurts and I will point you to the right one.</p>
+        <p class="lead">The ways I fix and run revenue. Pick the one that matches your problem, or just tell me where it hurts and I will point you to the right one.</p>
       </div>
       <div class="svc-grid">
 {cards}
@@ -554,6 +589,33 @@ HE_SERVICES = [
     {"h":"מה אני עושה","ul":["חידוד המיצוב, ה-ICP והצעת הערך לקונה SaaS","בניית האאוטבאונד וה-Playbook שהתנועה רצה עליו","בניית הערוץ: ריסלרים, אינטגרטורים ושותפים","גיוס, הכשרה וניהול של צוות מכירות ה-SaaS"]},
     {"h":"לאורך מכירת ה-SaaS","p":["מכרתי SaaS לסטארטאפים, לארגונים גדולים, ולחלק מהקונים הכי קשים שיש, אוניברסיטאות, מעבדות מחקר וחברות פארמה, שם המכירה ארוכה, טכנית ובנויה כולה על אמון."]},
   ]},
+
+ {"slug":"global-markets","nav":"שווקים גלובליים","h1":"שווקים גלובליים: איפה אני בונה ומנהל הכנסות",
+  "title":"שווקים גלובליים: התרחבות מכירות בינלאומית | טל פאפרין",
+  "desc":"בניתי, גייסתי, הכשרתי וניהלתי צוותי מכירות, פתחתי חברות בנות וניהלתי תמיכה ושירות לקוחות בארבע יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
+  "eyebrow":"גלובלי",
+  "lead":"ארבע יבשות. שש עשרה מדינות. מאות ערים, בשטח, לא מהאימייל. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
+  "card":"בניתי הכנסות בארבע יבשות. אני עוזר לכם לבחור את השוק הנכון, ואז בונה ומנהל שם את כל המערך.",
+  "sections":[
+    {"h":"קודם בוחרים שוק, אחר כך בונים אותו","p":[
+      "הטעות היקרה ביותר בהתרחבות היא להיכנס מהר לשוק הלא נכון. אני מתחיל בלשפוט אם השוק בכלל שלכם, הכאב, הנגישות, הנכונות לשלם, התחרות, ואז בונה את המערך רק איפה שזה הגיוני. תכנון וביצוע, מאותו אדם שאחראי על המספר."]},
+    {"h":"כל המערך, לא רק המכירה","ul":[
+      "צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים",
+      "חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית",
+      "מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים",
+      "תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי",
+      "ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
+    {"h":"נעשה שוב ושוב, למספר חברות","p":[
+      "זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת."]},
+    {"h":"שווקים שפעלתי בהם","links":[
+      ["ארצות הברית","/he/blog/building-a-sales-operation-in-the-united-states"],
+      ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
+      ["בריטניה","/he/blog/building-a-sales-operation-in-the-uk"],
+      ["יפן","/he/blog/building-a-sales-operation-in-japan"],
+      ["הולנד",""],["צרפת",""],["פינלנד",""],["פולין",""],["רומניה",""],
+      ["הונגריה",""],["רוסיה",""],["דרום קוריאה",""],["סין",""],["טאיוואן",""],
+      ["אוסטרליה",""],["ניו זילנד",""]]},
+  ]},
 ]
 
 HE_FAQ = {
@@ -685,7 +747,7 @@ HE_INDEX = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">שירותים</p>
         <h1>מה אני עושה.</h1>
-        <p class="lead">שש דרכים שבהן אני מתקן ומריץ מכירות. בחרו את זו שמתאימה לבעיה שלכם, או <a href="/he/challenges">קראו את המדריך</a> ותגלו איפה כואב.</p>
+        <p class="lead">הדרכים שבהן אני מתקן ומריץ מכירות. בחרו את זו שמתאימה לבעיה שלכם, או <a href="/he/challenges">קראו את המדריך</a> ותגלו איפה כואב.</p>
       </div>
       <div class="svc-grid">
 {cards}
@@ -1461,6 +1523,14 @@ def render_guide_sections(g):
             for li in sec["ul"]:
                 out.append("          <li>%s</li>" % esc(li))
             out.append("        </ul>")
+        if sec.get("links"):
+            out.append('        <div class="svc-links">')
+            for text, href in sec["links"]:
+                if href:
+                    out.append('          <a href="%s">%s</a>' % (href, esc(text)))
+                else:
+                    out.append('          <span>%s</span>' % esc(text))
+            out.append('        </div>')
     return "\n".join(out)
 
 
