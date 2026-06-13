@@ -50,8 +50,6 @@ _svc_spec.loader.exec_module(_svc_mod)
 SERVICES = _svc_mod.SERVICES
 GUIDES = _svc_mod.GUIDES
 HE_GUIDES = _svc_mod.HE_GUIDES
-COUNTRIES = _svc_mod.COUNTRIES
-HE_COUNTRIES = _svc_mod.HE_COUNTRIES
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
@@ -465,10 +463,6 @@ def render_sitemap(posts, he_posts=None):
         urls.append(('%s/%s' % (SITE, g["slug"]), '0.8', today))
     for g in HE_GUIDES:
         urls.append(('%s/he/%s' % (SITE, g["slug"]), '0.6', today))
-    for c in COUNTRIES:
-        urls.append(('%s/markets/%s' % (SITE, c["slug"]), '0.8', today))
-    for c in HE_COUNTRIES:
-        urls.append(('%s/he/markets/%s' % (SITE, c["slug"]), '0.6', today))
     urls.append(('%s/he/services/' % SITE, '0.7', today))
     for s in SERVICES:
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))

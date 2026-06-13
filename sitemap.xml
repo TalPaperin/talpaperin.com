@@ -145,54 +145,6 @@
     <lastmod>2026-06-13</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/markets/united-states</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/markets/germany</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/markets/united-kingdom</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/markets/japan</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/markets/united-states</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/markets/germany</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/markets/united-kingdom</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/markets/japan</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-06-13</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/he/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -271,6 +223,24 @@
     <lastmod>2026-06-13</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-the-united-states</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-13</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-germany</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-the-uk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/blog/fractional-cro-vs-full-time-cro</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -299,6 +269,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-operation-in-japan</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-05</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/most-founders-completely-misunderstand-sales-objections</loc>
@@ -853,6 +829,24 @@
     <lastmod>2018-02-08</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-the-united-states</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-13</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-germany</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-the-uk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/blog/fractional-cro-vs-full-time-cro</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -881,6 +875,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-japan</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-05</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/most-founders-completely-misunderstand-sales-objections</loc>
