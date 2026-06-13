@@ -32,8 +32,15 @@ import re
 import html
 import datetime
 import importlib.util
+import urllib.parse
 
 import markdown
+
+WA_NUM = "972545308119"
+WA_EN = "https://wa.me/%s?text=%s" % (
+    WA_NUM, urllib.parse.quote("Hi Tal, I'd like to talk about my sales."))
+WA_HE = "https://wa.me/%s?text=%s" % (
+    WA_NUM, urllib.parse.quote("היי טל, אשמח לדבר על המכירות שלי."))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG_DIR = os.path.join(ROOT, "blog")
@@ -130,32 +137,45 @@ FOOTER = '''  <footer>
 
 CTA_BOX = '''      <div class="cta-box">
         <h3>Your sales suck. You don't know why. I do.</h3>
-        <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+        <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together. Prefer to type? Message me on WhatsApp.</p>
+        <div class="cta-actions">
+          <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+          <a class="btn btn-wa" href="''' + WA_EN + '''" target="_blank" rel="noopener">''' + WA_SVG + '''Message me on WhatsApp</a>
+        </div>
       </div>'''
 
 INLINE_CTA = ('<div class="inline-cta"><p><strong>This is exactly what I fix, '
-              'hands-on.</strong> Monthly, no contract, no exit fines. If revenue is '
-              'stuck, the call costs you nothing.</p>'
+              'hands-on.</strong> Monthly, no contract, no exit fines. Book a call or '
+              'send a WhatsApp, either way the first conversation costs you nothing.</p>'
+              '<div class="cta-actions">'
               '<a class="btn btn-outline" href="https://calendly.com/ksw/15min" '
-              'target="_blank" rel="noopener">Book a 15-minute call</a></div>')
+              'target="_blank" rel="noopener">Book a 15-minute call</a>'
+              '<a class="btn btn-wa" href="' + WA_EN + '" target="_blank" '
+              'rel="noopener">' + WA_SVG + 'WhatsApp</a></div></div>')
 
 HE_INLINE_CTA = ('<div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, '
-                 'בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, '
-                 'השיחה לא עולה לכם כלום.</p>'
+                 'בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אפשר לתאם שיחה או '
+                 'לשלוח לי וואטסאפ, כך או כך השיחה הראשונה לא עולה לכם כלום.</p>'
+                 '<div class="cta-actions">'
                  '<a class="btn btn-outline" href="https://calendly.com/ksw/15min" '
-                 'target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>')
+                 'target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a>'
+                 '<a class="btn btn-wa" href="' + WA_HE + '" target="_blank" '
+                 'rel="noopener">' + WA_SVG + 'וואטסאפ</a></div></div>')
 
 STICKY_CTA = ('  <div class="sticky-cta" id="stickyCta" hidden>'
-              '<span>Sales stuck? A 15-minute call, no pitch.</span>'
+              '<span>Sales stuck? Book a call or send a WhatsApp.</span>'
               '<a class="btn btn-solid" href="https://calendly.com/ksw/15min" '
               'target="_blank" rel="noopener">Book a call</a>'
+              '<a class="btn btn-wa" href="' + WA_EN + '" target="_blank" '
+              'rel="noopener" aria-label="WhatsApp">' + WA_SVG + 'WhatsApp</a>'
               '<button class="sticky-x" aria-label="Close">&times;</button></div>')
 
 HE_STICKY_CTA = ('  <div class="sticky-cta" id="stickyCta" hidden>'
-                 '<span>המכירות תקועות? שיחה של 15 דקות, בלי פיץ\'.</span>'
+                 '<span>המכירות תקועות? תאמו שיחה או שלחו וואטסאפ.</span>'
                  '<a class="btn btn-solid" href="https://calendly.com/ksw/15min" '
                  'target="_blank" rel="noopener">לתיאום שיחה</a>'
+                 '<a class="btn btn-wa" href="' + WA_HE + '" target="_blank" '
+                 'rel="noopener" aria-label="וואטסאפ">' + WA_SVG + 'וואטסאפ</a>'
                  '<button class="sticky-x" aria-label="סגירה">&times;</button></div>')
 
 STICKY_JS = ('  <script>(function(){var b=document.getElementById("stickyCta");'
@@ -222,8 +242,11 @@ HE_FOOTER = '''  <footer>
 
 HE_CTA_BOX = '''      <div class="cta-box">
         <h3>המכירות שלכם תקועות. אתם לא יודעים למה. אני כן.</h3>
-        <p>שיחה של 15 דקות, בלי פיץ'. תצאו ממנה עם לפחות דבר אחד קונקרטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a>
+        <p>שיחה של 15 דקות, בלי פיץ'. תצאו ממנה עם לפחות דבר אחד קונקרטי לתקן, בין אם נעבוד יחד ובין אם לא. מעדיפים להקליד? שלחו לי וואטסאפ.</p>
+        <div class="cta-actions">
+          <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a>
+          <a class="btn btn-wa" href="''' + WA_HE + '''" target="_blank" rel="noopener">''' + WA_SVG + '''שלחו לי וואטסאפ</a>
+        </div>
       </div>'''
 
 HE_SUBSCRIBE = '''      <div class="subscribe-box">
