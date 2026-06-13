@@ -92,40 +92,6 @@ CTA_BOX = '''      <div class="cta-box">
       </div>'''
 
 
-# --- Global footprint map (stylized SVG: faint continents + glowing pins) --
-
-_MAP_PINS = [
-    (228, 133), (267, 209), (358, 261), (322, 324),            # US, C.America, Brazil, S.America
-    (497, 94), (514, 99), (528, 102), (506, 112), (553, 99),    # UK, NL, DE, FR, Poland
-    (572, 68), (603, 91), (606, 238),                           # Nordics, Russia, Africa(Kenya)
-    (789, 144), (853, 138), (883, 141), (836, 172),             # China, S.Korea, Japan, Taiwan
-    (872, 300), (983, 342),                                     # Australia, New Zealand
-]
-_MAP_LAND = (
-    '<path class="gmap-land" d="M70,72 C120,42 220,42 300,82 C352,112 330,152 280,162 '
-    'C262,202 222,188 202,162 C162,172 122,152 96,122 C72,102 60,92 70,72 Z"/>'
-    '<path class="gmap-land" d="M334,212 C374,206 398,238 382,282 C372,332 346,378 320,362 '
-    'C306,322 306,272 316,242 C322,226 322,214 334,212 Z"/>'
-    '<path class="gmap-land" d="M476,96 C502,70 546,72 576,90 C592,106 576,126 546,131 '
-    'C510,136 480,122 476,96 Z"/>'
-    '<path class="gmap-land" d="M502,150 C562,140 616,166 616,222 C612,278 576,322 540,332 '
-    'C516,302 500,252 500,212 C496,186 492,162 502,150 Z"/>'
-    '<path class="gmap-land" d="M602,90 C702,54 852,60 906,100 C936,126 906,162 852,167 '
-    'C802,187 722,177 662,162 C622,152 592,120 602,90 Z"/>'
-    '<path class="gmap-land" d="M826,286 C866,279 916,289 921,311 C916,336 876,346 841,336 '
-    'C821,321 816,301 826,286 Z"/>'
-)
-MAP_SVG = (
-    '<div class="gmap"><svg viewBox="0 0 1000 470" role="img" '
-    'aria-label="Markets where Tal has built and run revenue, across four continents">'
-    + _MAP_LAND
-    + "".join('<circle class="gmap-halo" cx="%d" cy="%d" r="10"/>'
-             '<circle class="gmap-pin" cx="%d" cy="%d" r="4.5"/>' % (x, y, x, y)
-             for x, y in _MAP_PINS)
-    + '</svg></div>'
-)
-
-
 # --- Service content -------------------------------------------------------
 
 SERVICES = [
@@ -249,15 +215,27 @@ SERVICES = [
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
       "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
-    {"h":"Where I have built revenue","html":MAP_SVG},
-    {"h":"Markets I have operated in","links":[
+    {"h":"Regions","links":[
+      ["European Union","/blog/selling-b2b-in-the-eu"],
+      ["Nordics","/blog/selling-b2b-in-the-nordics"],
+      ["Central & Eastern Europe","/blog/selling-b2b-in-central-and-eastern-europe"],
+      ["FSU","/blog/selling-b2b-in-the-fsu"],
+      ["Asia-Pacific","/blog/selling-b2b-in-asia-pacific"],
+      ["Australia & New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"],
+      ["South America","/blog/selling-b2b-in-south-america"],
+      ["Central America","/blog/selling-b2b-in-central-america"],
+      ["Africa","/blog/selling-b2b-in-africa"]]},
+    {"h":"Countries","links":[
       ["United States","/blog/building-a-sales-operation-in-the-united-states"],
-      ["Germany","/blog/building-a-sales-operation-in-germany"],
       ["United Kingdom","/blog/building-a-sales-operation-in-the-uk"],
+      ["Germany","/blog/building-a-sales-operation-in-germany"],
+      ["France","/blog/building-a-sales-operation-in-france"],
+      ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],
       ["Japan","/blog/building-a-sales-operation-in-japan"],
-      ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],["France","/blog/building-a-sales-operation-in-france"],["Finland","/blog/selling-b2b-in-the-nordics"],["Poland","/blog/selling-b2b-in-central-and-eastern-europe"],["Romania","/blog/selling-b2b-in-central-and-eastern-europe"],
-      ["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-central-and-eastern-europe"],["South Korea","/blog/building-a-sales-operation-in-south-korea"],["China","/blog/building-a-sales-operation-in-china"],["Taiwan","/blog/selling-b2b-in-asia-pacific"],
-      ["Australia","/blog/selling-b2b-in-australia-and-new-zealand"],["New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"],["Brazil","/blog/building-a-sales-operation-in-brazil"],["South America","/blog/selling-b2b-in-south-america"],["Central America","/blog/selling-b2b-in-central-america"],["Africa","/blog/selling-b2b-in-africa"]]},
+      ["China","/blog/building-a-sales-operation-in-china"],
+      ["South Korea","/blog/building-a-sales-operation-in-south-korea"],
+      ["Brazil","/blog/building-a-sales-operation-in-brazil"],
+      ["Finland","/blog/selling-b2b-in-the-nordics"],["Poland","/blog/selling-b2b-in-central-and-eastern-europe"],["Romania","/blog/selling-b2b-in-central-and-eastern-europe"],["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-the-fsu"],["Taiwan","/blog/selling-b2b-in-asia-pacific"]]},
   ]},
 
  {"slug":"b2g-public-sector","nav":"B2G & Public Sector","h1":"B2G and Public-Sector Sales",
@@ -316,15 +294,27 @@ SERVICES = [
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
       "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline."]},
-    {"h":"Where I have built revenue","html":MAP_SVG},
-    {"h":"Markets I have operated in","links":[
+    {"h":"Regions","links":[
+      ["European Union","/blog/selling-b2b-in-the-eu"],
+      ["Nordics","/blog/selling-b2b-in-the-nordics"],
+      ["Central & Eastern Europe","/blog/selling-b2b-in-central-and-eastern-europe"],
+      ["FSU","/blog/selling-b2b-in-the-fsu"],
+      ["Asia-Pacific","/blog/selling-b2b-in-asia-pacific"],
+      ["Australia & New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"],
+      ["South America","/blog/selling-b2b-in-south-america"],
+      ["Central America","/blog/selling-b2b-in-central-america"],
+      ["Africa","/blog/selling-b2b-in-africa"]]},
+    {"h":"Countries","links":[
       ["United States","/blog/building-a-sales-operation-in-the-united-states"],
-      ["Germany","/blog/building-a-sales-operation-in-germany"],
       ["United Kingdom","/blog/building-a-sales-operation-in-the-uk"],
+      ["Germany","/blog/building-a-sales-operation-in-germany"],
+      ["France","/blog/building-a-sales-operation-in-france"],
+      ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],
       ["Japan","/blog/building-a-sales-operation-in-japan"],
-      ["Netherlands","/blog/building-a-sales-operation-in-the-netherlands"],["France","/blog/building-a-sales-operation-in-france"],["Finland","/blog/selling-b2b-in-the-nordics"],["Poland","/blog/selling-b2b-in-central-and-eastern-europe"],["Romania","/blog/selling-b2b-in-central-and-eastern-europe"],
-      ["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-central-and-eastern-europe"],["South Korea","/blog/building-a-sales-operation-in-south-korea"],["China","/blog/building-a-sales-operation-in-china"],["Taiwan","/blog/selling-b2b-in-asia-pacific"],
-      ["Australia","/blog/selling-b2b-in-australia-and-new-zealand"],["New Zealand","/blog/selling-b2b-in-australia-and-new-zealand"],["Brazil","/blog/building-a-sales-operation-in-brazil"],["South America","/blog/selling-b2b-in-south-america"],["Central America","/blog/selling-b2b-in-central-america"],["Africa","/blog/selling-b2b-in-africa"]]},
+      ["China","/blog/building-a-sales-operation-in-china"],
+      ["South Korea","/blog/building-a-sales-operation-in-south-korea"],
+      ["Brazil","/blog/building-a-sales-operation-in-brazil"],
+      ["Finland","/blog/selling-b2b-in-the-nordics"],["Poland","/blog/selling-b2b-in-central-and-eastern-europe"],["Romania","/blog/selling-b2b-in-central-and-eastern-europe"],["Hungary","/blog/selling-b2b-in-central-and-eastern-europe"],["Russia","/blog/selling-b2b-in-the-fsu"],["Taiwan","/blog/selling-b2b-in-asia-pacific"]]},
   ]},
 ]
 
@@ -607,15 +597,27 @@ HE_SERVICES = [
      "ul":["צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים","חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית","מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים","תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי","ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
     {"h":"נעשה שוב ושוב, למספר חברות",
      "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
-    {"h":"איפה בניתי הכנסות","html":MAP_SVG},
-    {"h":"שווקים שפעלתי בהם","links":[
+    {"h":"אזורים","links":[
+      ["האיחוד האירופי","/he/blog/selling-b2b-in-the-eu"],
+      ["מדינות נורדיות","/he/blog/selling-b2b-in-the-nordics"],
+      ["מרכז ומזרח אירופה","/he/blog/selling-b2b-in-central-and-eastern-europe"],
+      ["ברית המועצות לשעבר","/he/blog/selling-b2b-in-the-fsu"],
+      ["אסיה-פסיפיק","/he/blog/selling-b2b-in-asia-pacific"],
+      ["אוסטרליה וניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],
+      ["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],
+      ["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],
+      ["אפריקה","/he/blog/selling-b2b-in-africa"]]},
+    {"h":"מדינות","links":[
       ["ארצות הברית","/he/blog/building-a-sales-operation-in-the-united-states"],
-      ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
       ["בריטניה","/he/blog/building-a-sales-operation-in-the-uk"],
+      ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
+      ["צרפת","/he/blog/building-a-sales-operation-in-france"],
+      ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],
       ["יפן","/he/blog/building-a-sales-operation-in-japan"],
-      ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],["צרפת","/he/blog/building-a-sales-operation-in-france"],["פינלנד","/he/blog/selling-b2b-in-the-nordics"],["פולין","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רומניה","/he/blog/selling-b2b-in-central-and-eastern-europe"],
-      ["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],["סין","/he/blog/building-a-sales-operation-in-china"],["טאיוואן","/he/blog/selling-b2b-in-asia-pacific"],
-      ["אוסטרליה","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],["אפריקה","/he/blog/selling-b2b-in-africa"]]},
+      ["סין","/he/blog/building-a-sales-operation-in-china"],
+      ["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],
+      ["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],
+      ["פינלנד","/he/blog/selling-b2b-in-the-nordics"],["פולין","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רומניה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-the-fsu"],["טאיוואן","/he/blog/selling-b2b-in-asia-pacific"]]},
   ]},
 
  {"slug":"b2g-public-sector","nav":"B2G ומגזר ציבורי","h1":"מכירות B2G ולמגזר הציבורי",
@@ -674,15 +676,27 @@ HE_SERVICES = [
       "ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
     {"h":"נעשה שוב ושוב, למספר חברות","p":[
       "זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת."]},
-    {"h":"איפה בניתי הכנסות","html":MAP_SVG},
-    {"h":"שווקים שפעלתי בהם","links":[
+    {"h":"אזורים","links":[
+      ["האיחוד האירופי","/he/blog/selling-b2b-in-the-eu"],
+      ["מדינות נורדיות","/he/blog/selling-b2b-in-the-nordics"],
+      ["מרכז ומזרח אירופה","/he/blog/selling-b2b-in-central-and-eastern-europe"],
+      ["ברית המועצות לשעבר","/he/blog/selling-b2b-in-the-fsu"],
+      ["אסיה-פסיפיק","/he/blog/selling-b2b-in-asia-pacific"],
+      ["אוסטרליה וניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],
+      ["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],
+      ["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],
+      ["אפריקה","/he/blog/selling-b2b-in-africa"]]},
+    {"h":"מדינות","links":[
       ["ארצות הברית","/he/blog/building-a-sales-operation-in-the-united-states"],
-      ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
       ["בריטניה","/he/blog/building-a-sales-operation-in-the-uk"],
+      ["גרמניה","/he/blog/building-a-sales-operation-in-germany"],
+      ["צרפת","/he/blog/building-a-sales-operation-in-france"],
+      ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],
       ["יפן","/he/blog/building-a-sales-operation-in-japan"],
-      ["הולנד","/he/blog/building-a-sales-operation-in-the-netherlands"],["צרפת","/he/blog/building-a-sales-operation-in-france"],["פינלנד","/he/blog/selling-b2b-in-the-nordics"],["פולין","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רומניה","/he/blog/selling-b2b-in-central-and-eastern-europe"],
-      ["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],["סין","/he/blog/building-a-sales-operation-in-china"],["טאיוואן","/he/blog/selling-b2b-in-asia-pacific"],
-      ["אוסטרליה","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ניו זילנד","/he/blog/selling-b2b-in-australia-and-new-zealand"],["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],["דרום אמריקה","/he/blog/selling-b2b-in-south-america"],["מרכז אמריקה","/he/blog/selling-b2b-in-central-america"],["אפריקה","/he/blog/selling-b2b-in-africa"]]},
+      ["סין","/he/blog/building-a-sales-operation-in-china"],
+      ["דרום קוריאה","/he/blog/building-a-sales-operation-in-south-korea"],
+      ["ברזיל","/he/blog/building-a-sales-operation-in-brazil"],
+      ["פינלנד","/he/blog/selling-b2b-in-the-nordics"],["פולין","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רומניה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["הונגריה","/he/blog/selling-b2b-in-central-and-eastern-europe"],["רוסיה","/he/blog/selling-b2b-in-the-fsu"],["טאיוואן","/he/blog/selling-b2b-in-asia-pacific"]]},
   ]},
 ]
 

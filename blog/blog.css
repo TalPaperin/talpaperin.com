@@ -207,13 +207,3 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 .svc-links a,.svc-links span{display:inline-block;padding:9px 15px;border:1px solid var(--line);border-radius:999px;font:600 14px/1 'Space Grotesk';color:#cdd9e4}
 .svc-links a{color:#fff;border-color:rgba(90,176,255,.45)}
 .svc-links a:hover{background:rgba(90,176,255,.12);border-color:var(--blue)}
-
-/* global footprint map */
-.gmap{margin:16px 0 10px;border:1px solid var(--line);border-radius:16px;background:radial-gradient(120% 130% at 50% 0%,#0c1626,#080c13);padding:16px 16px 10px}
-.gmap svg{width:100%;height:auto;display:block}
-.gmap-land{fill:#2c3e55;opacity:.55}
-.gmap-pin{fill:#7cc0ff}
-.gmap-halo{fill:#5ab0ff;opacity:.18}
-@keyframes gmappulse{0%,100%{opacity:.10}50%{opacity:.30}}
-.gmap-halo{animation:gmappulse 3s ease-in-out infinite}
-@media(prefers-reduced-motion:reduce){.gmap-halo{animation:none}}
