@@ -12,7 +12,7 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 ## Miami runs on frum-owned business
 
-Miami is booming, and so is its frum business scene, which means a lot of fast-growing companies that have outrun their sales infrastructure. I come in to build the process, the team and the pipeline, so the growth is built on a system and not just a hot market.
+Miami is booming, and so is its frum business scene, which means a lot of fast-growing companies that have outrun their sales infrastructure. I come in to build the process, the team and the pipeline, so the growth rests on a system and not just a hot market.
 
 ## What I do for Miami frum businesses
 
@@ -23,6 +23,10 @@ Miami is booming, and so is its frum business scene, which means a lot of fast-g
 - Recruit distributors and run complex B2B and B2G deals
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
+
+## Need something specific in Miami?
+
+I help frum business owners with [sales in Miami](/blog/frum-sales-consultant-miami), [business development in Miami](/blog/frum-business-development-miami), [business growth in Miami](/blog/growing-your-frum-business-miami).
 
 ## How working together actually works
 

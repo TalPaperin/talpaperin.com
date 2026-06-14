@@ -24,6 +24,10 @@ Between Monsey, Spring Valley, New Square, Kaser, Suffern and Airmont, the area 
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Monsey?
+
+I help frum business owners with [sales in Monsey](/blog/frum-sales-consultant-monsey), [business development in Monsey](/blog/frum-business-development-monsey), [business growth in Monsey](/blog/growing-your-frum-business-monsey).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.

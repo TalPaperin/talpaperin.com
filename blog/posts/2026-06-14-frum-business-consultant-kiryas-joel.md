@@ -12,7 +12,7 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 ## Kiryas Joel runs on frum-owned business
 
-KJ business runs in Yiddish and on trust, and the inside market is strong. The challenge is selling beyond it. I do not speak fluent Yiddish and will not pretend to, but I have worked inside the Yiddish-speaking, heimishe business world for years, and I build the sales engine that takes a heimishe business into the wider market.
+KJ business runs in Yiddish and on trust, and the inside market is strong. The challenge is selling beyond it. I do not speak fluent Yiddish and will not pretend to, but I have worked inside the Yiddish-speaking, heimishe business world for years, and I build the engine that takes a heimishe business into the wider market.
 
 ## What I do for Kiryas Joel frum businesses
 
@@ -23,6 +23,10 @@ KJ business runs in Yiddish and on trust, and the inside market is strong. The c
 - Recruit distributors and run complex B2B and B2G deals
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
+
+## Need something specific in Kiryas Joel?
+
+I help frum business owners with [sales in Kiryas Joel](/blog/frum-sales-consultant-kiryas-joel), [business development in Kiryas Joel](/blog/frum-business-development-kiryas-joel), [business growth in Kiryas Joel](/blog/growing-your-frum-business-kiryas-joel).
 
 ## How working together actually works
 

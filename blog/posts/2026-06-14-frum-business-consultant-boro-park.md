@@ -24,6 +24,10 @@ Many Boro Park businesses are family-run and generations deep, built on relation
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Boro Park?
+
+I help frum business owners with [sales in Boro Park](/blog/frum-sales-consultant-boro-park), [business development in Boro Park](/blog/frum-business-development-boro-park), [business growth in Boro Park](/blog/growing-your-frum-business-boro-park).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.

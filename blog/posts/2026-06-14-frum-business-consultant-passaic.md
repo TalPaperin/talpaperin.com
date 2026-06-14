@@ -12,7 +12,7 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 ## Passaic runs on frum-owned business
 
-Passaic businesses are scaling, and many are hitting the same wall: growth built entirely on the founder and on referrals, with no system underneath. I build the sales process, bring in and train the right people, and own the number until it runs.
+Passaic businesses are scaling, and many are hitting the same wall: growth built entirely on the founder and on referrals, with no system underneath. I build the process, bring in and train the right people, and own the number until it runs.
 
 ## What I do for Passaic frum businesses
 
@@ -23,6 +23,10 @@ Passaic businesses are scaling, and many are hitting the same wall: growth built
 - Recruit distributors and run complex B2B and B2G deals
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
+
+## Need something specific in Passaic?
+
+I help frum business owners with [sales in Passaic](/blog/frum-sales-consultant-passaic), [business development in Passaic](/blog/frum-business-development-passaic), [business growth in Passaic](/blog/growing-your-frum-business-passaic).
 
 ## How working together actually works
 

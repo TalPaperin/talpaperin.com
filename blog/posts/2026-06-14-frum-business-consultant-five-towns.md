@@ -12,7 +12,7 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 ## Five Towns runs on frum-owned business
 
-Five Towns businesses often have the product, the capital and the ambition, and still stall on sales because nobody senior owns the revenue function. A fractional sales leader gives you that ownership without a six-figure VP hire, and from someone who understands your world.
+Five Towns businesses often have the product, the capital and the ambition, and still stall because nobody senior owns the revenue function. A fractional sales leader gives you that ownership without a six-figure VP hire, and from someone who understands your world.
 
 ## What I do for Five Towns frum businesses
 
@@ -23,6 +23,10 @@ Five Towns businesses often have the product, the capital and the ambition, and 
 - Recruit distributors and run complex B2B and B2G deals
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
+
+## Need something specific in Five Towns?
+
+I help frum business owners with [sales in Five Towns](/blog/frum-sales-consultant-five-towns), [business development in Five Towns](/blog/frum-business-development-five-towns), [business growth in Five Towns](/blog/growing-your-frum-business-five-towns).
 
 ## How working together actually works
 

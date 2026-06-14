@@ -24,6 +24,10 @@ Baltimore frum businesses tend to be steady and well-run, which is exactly why t
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Baltimore?
+
+I help frum business owners with [sales in Baltimore](/blog/frum-sales-consultant-baltimore), [business development in Baltimore](/blog/frum-business-development-baltimore), [business growth in Baltimore](/blog/growing-your-frum-business-baltimore).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.

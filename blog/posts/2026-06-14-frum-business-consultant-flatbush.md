@@ -24,6 +24,10 @@ Flatbush is full of serious businesses and serious professionals who have outgro
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Flatbush?
+
+I help frum business owners with [sales in Flatbush](/blog/frum-sales-consultant-flatbush), [business development in Flatbush](/blog/frum-business-development-flatbush), [business growth in Flatbush](/blog/growing-your-frum-business-flatbush).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.

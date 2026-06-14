@@ -24,6 +24,10 @@ Lakewood businesses tend to grow fast on hustle and a good name, then hit a ceil
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Lakewood?
+
+I help frum business owners with [sales in Lakewood](/blog/frum-sales-consultant-lakewood), [business development in Lakewood](/blog/frum-business-development-lakewood), [business growth in Lakewood](/blog/growing-your-frum-business-lakewood).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.

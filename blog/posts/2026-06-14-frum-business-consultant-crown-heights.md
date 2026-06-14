@@ -24,6 +24,10 @@ Crown Heights entrepreneurs think globally by instinct, with networks on every c
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Crown Heights?
+
+I help frum business owners with [sales in Crown Heights](/blog/frum-sales-consultant-crown-heights), [business development in Crown Heights](/blog/frum-business-development-crown-heights), [business growth in Crown Heights](/blog/growing-your-frum-business-crown-heights).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.

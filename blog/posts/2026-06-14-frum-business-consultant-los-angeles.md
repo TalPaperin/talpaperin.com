@@ -12,7 +12,7 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 ## Los Angeles runs on frum-owned business
 
-LA frum businesses often span entertainment-adjacent services, real estate, e-commerce and B2B, with national and international ambitions. What turns that ambition into revenue is a real sales engine and senior ownership of the number, which is what I bring.
+LA frum businesses often span services, real estate, e-commerce and B2B, with national and international ambitions. What turns that ambition into revenue is a real sales engine and senior ownership of the number, which is what I bring.
 
 ## What I do for Los Angeles frum businesses
 
@@ -23,6 +23,10 @@ LA frum businesses often span entertainment-adjacent services, real estate, e-co
 - Recruit distributors and run complex B2B and B2G deals
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
+
+## Need something specific in Los Angeles?
+
+I help frum business owners with [sales in Los Angeles](/blog/frum-sales-consultant-los-angeles), [business development in Los Angeles](/blog/frum-business-development-los-angeles), [business growth in Los Angeles](/blog/growing-your-frum-business-los-angeles).
 
 ## How working together actually works
 

@@ -24,6 +24,10 @@ In Williamsburg the kehilla is the network and trust is everything, which makes 
 
 This is the same senior, hands-on sales leadership a full VP gives you, without the six-figure hire, and from someone who shares your world.
 
+## Need something specific in Williamsburg?
+
+I help frum business owners with [sales in Williamsburg](/blog/frum-sales-consultant-williamsburg), [business development in Williamsburg](/blog/frum-business-development-williamsburg), [business growth in Williamsburg](/blog/growing-your-frum-business-williamsburg).
+
 ## How working together actually works
 
 I work hands-on, mostly remote, built around your time zone and the Jewish calendar. No calls, meetings or messages on Shabbos or Yom Tov, ever. Straight talk, discretion in a close kehilla, and the emes about where your sales are leaking, then the work to fix it.
