@@ -2134,14 +2134,20 @@ def build():
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
         f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, contactjs=CONTACT_JS_HE))
 
+    # The case-studies marquee is a teaser: drop the longest outlier quotes so the
+    # strip stays a sensible height. The full set lives on the recommendations page.
+    cs_idx = [i for i, t in enumerate(TESTIMONIALS_EN) if len(t["q"]) <= 330]
+    cs_en = [TESTIMONIALS_EN[i] for i in cs_idx]
+    cs_he = [TESTIMONIALS_HE[i] for i in cs_idx]
+
     with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
                                   cases=render_cases(CASE_STUDIES, "Result"),
-                                  testimonials=render_testimonials(TESTIMONIALS_EN), cta=CTA_BOX))
+                                  testimonials=render_testimonials(cs_en), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
                                   cases=render_cases(HE_CASES, "תוצאה"),
-                                  testimonials=render_testimonials(TESTIMONIALS_HE, he=True), cta=HE_CTA))
+                                  testimonials=render_testimonials(cs_he, he=True), cta=HE_CTA))
 
     with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,

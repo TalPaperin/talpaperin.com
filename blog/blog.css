@@ -194,8 +194,8 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .rec-quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin:18px 0 8px;align-items:stretch}
 .rec-quotes .tcard{display:flex;flex-direction:column;margin:0}
 .rec-quotes .tcard-q{flex:1}
-.tmarquee .tcard{flex:0 0 360px;width:360px;white-space:normal;display:flex;flex-direction:column;height:340px}
-.tmarquee .tcard .tcard-q{flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical}
+.tmarquee .tcard{flex:0 0 360px;width:360px;white-space:normal;display:flex;flex-direction:column;align-self:stretch}
+.tmarquee .tcard .tcard-q{flex:1}
 @media(max-width:760px){.rec-quotes{grid-template-columns:1fr}}
 @media(max-width:640px){.proof-logos{grid-template-columns:repeat(2,1fr)}.proof-logos img{height:88px}}
 
