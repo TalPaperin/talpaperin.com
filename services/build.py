@@ -1011,7 +1011,6 @@ CONTACT_EN = '''<!doctype html>
           </div>
         </div>
       </div>
-        <img class="contact-side" src="/img/site/contact-right.jpg" alt="Tal Paperin" loading="lazy" />
       </div>
     </div>
   </main>
@@ -1098,7 +1097,6 @@ CONTACT_HE = '''<!doctype html>
           </div>
         </div>
       </div>
-        <img class="contact-side" src="/img/site/contact-right.jpg" alt="טל פאפרין" loading="lazy" />
       </div>
     </div>
   </main>
