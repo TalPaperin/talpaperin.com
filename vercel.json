@@ -4,6 +4,8 @@
     { "source": "/client_feedback/:path*", "destination": "/", "permanent": false },
     { "source": "/feedback/:path*", "destination": "/", "permanent": false },
     { "source": "/wp-admin/:path*", "destination": "/", "permanent": false },
+    { "source": "/wp-content/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-includes/:path*", "destination": "/", "permanent": true },
     { "source": "/category/:path*", "destination": "/", "permanent": false },
     { "source": "/services/saas-sales", "destination": "/services/go-to-market-strategy", "permanent": true },
     { "source": "/he/services/saas-sales", "destination": "/he/services/go-to-market-strategy", "permanent": true },
