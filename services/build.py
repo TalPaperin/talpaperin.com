@@ -1795,6 +1795,36 @@ GUIDES = [
     {"q":"What if it is not working out?","a":"I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."},
     {"q":"Do you actually do the selling, or just advise?","a":"I do the selling. I am an ex VP of Global Sales and CRO and I still work hands-on in the pipeline and the deals, not just in strategy decks."}],
   "related":'Compare the <a href="/fractional-cro-cost">cost</a>, see <a href="/fractional-cro-vs-outsourced-sales">fractional CRO vs outsourced sales</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"frum-business-consultant","en_only":True,
+  "title":"Frum Business Consultant and Sales Leader | Tal Paperin",
+  "desc":"A frum, shomer Shabbos business consultant and fractional sales leader from Eretz Yisrael, who knows the heimishe, Yiddish-speaking business world and helps frum business owners grow.",
+  "h1":"A Frum Business Consultant Who Gets the Heimishe World","eyebrow":"For Frum Businesses",
+  "lead":"I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run sales for businesses on four continents. If you are a frum business owner who wants a sales leader who shares your values and understands your world, not just your spreadsheet, this is for you.",
+  "sections":[
+    {"h":"A fellow Yid, not a stranger to your world","p":[
+      "I am a frum business consultant and fractional sales leader, shomer Torah u'mitzvos, raised and based in Eretz Yisrael. I have spent over twenty years building sales engines for B2B companies, and a real part of my work has been with frum and heimishe business owners in the US, from Boro Park to Lakewood to Monsey. You will not have to explain to me why you do not pick up on Shabbos, why Yom Tov shuts the office, or why parnassa with kavod matters more than a vanity number."]},
+    {"h":"What I actually do","p":[
+      "The frum part is who I am. The work is hard revenue. I take ownership of your sales the way a senior VP would: the strategy, the team, the pipeline, the forecast and the number itself, hands-on, from diagnosis to execution.",
+      "I build go-to-market from zero, hire and train salespeople, open new markets, recruit distributors, and run complex B2B and B2G deals. Same operator, whether the client wears a yarmulke or not."]},
+    {"h":"Why frum business owners work with me","ul":[
+      "Shared values and shared trust: a handshake with a fellow Yid means something",
+      "I respect the calendar: no calls, no meetings, no pressure on Shabbos or Yom Tov",
+      "I understand the heimishe, Yiddish-speaking business world and how it really buys and sells",
+      "Bekavodik, straight, no bittul zman: I tell you the emes about your sales and then I fix it",
+      "Discreet: I understand that in a close kehilla, your business is your business"]},
+    {"h":"The heimishe and Yiddish-speaking market","p":[
+      "Many of the business owners I work with are heimish and speak Yiddish as their first language. I do not speak fluent Yiddish, and I will never pretend otherwise. What I do have is years of working closely inside the Yiddish-speaking, heimishe business world, and a real feel for how it operates, who it trusts, and how deals actually get done in it. I have also run a fundraising seminar for Chabad on Campus rabbeim, so I know how to teach and sell to our world, not just the outside one."]},
+    {"h":"From the frum world to the wider market, and back","p":[
+      "A lot of frum businesses are great at selling to their own kehilla and freeze the moment they need to sell to the wider, secular or international market. That is exactly my expertise. I take frum-owned companies into the US mainstream, the EU and beyond, and I help outside companies sell respectfully into the frum market. Either direction, I have done it."]},
+  ],
+  "faqs":[
+    {"q":"Do you work with frum business owners?","a":"Yes, and a real part of my work is with frum and heimishe business owners in the US and Eretz Yisrael. I am a frum, shomer Shabbos Yid myself, so we start from shared values and shared trust."},
+    {"q":"Are you shomer Shabbos? Will you call on Shabbos or Yom Tov?","a":"I am shomer Shabbos. There are no calls, meetings or messages from me on Shabbos or Yom Tov, and I build the work around the Jewish calendar without being asked."},
+    {"q":"Do you speak Yiddish?","a":"I do not speak fluent Yiddish and I will not pretend to. I have spent years working inside the Yiddish-speaking, heimishe business world, so I understand how it operates and how it buys and sells, and I work comfortably with Yiddish-speaking owners in English."},
+    {"q":"What does a frum business consultant actually do for me?","a":"The same hard sales work any serious fractional sales leader does: strategy, team, pipeline, forecast and the number, hands-on. The difference is that you get someone who shares your values, respects your calendar, and understands the heimishe world you operate in."},
+    {"q":"Can you help my frum business sell to the wider market?","a":"Yes. Taking frum-owned companies from selling inside the kehilla to selling into the US mainstream, the EU and international markets is one of the things I do best, and I also help outside companies sell respectfully into the frum market."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/market-entry">market entry</a> services, read more on the <a href="/blog/">blog</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 ]
 
 
@@ -2109,9 +2139,13 @@ def build():
     for g in GUIDES:
         url = "%s/%s" % (SITE, g["slug"])
         he_url = "%s/he/%s" % (SITE, g["slug"])
-        hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
-                    '  <link rel="alternate" hreflang="he" href="%s" />\n'
-                    '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, he_url, url)
+        if g.get("en_only"):
+            hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+                        '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, url)
+        else:
+            hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+                        '  <link rel="alternate" hreflang="he" href="%s" />\n'
+                        '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, he_url, url)
         ld = ('{"@context":"https://schema.org","@type":"Article",'
               '"headline":"%s","description":"%s",'
               '"author":{"@type":"Person","name":"Tal Paperin","url":"%s/"},'
