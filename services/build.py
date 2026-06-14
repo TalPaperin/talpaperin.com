@@ -463,6 +463,8 @@ INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
+      <h2 class="cases-recs-h">On the ground, on four continents</h2>
+{gallery}
     </div>
   </main>
 
@@ -871,6 +873,8 @@ HE_INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
+      <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
+{gallery}
     </div>
   </main>
 
@@ -2108,7 +2112,8 @@ def build():
             % (svc["slug"], esc(svc["h1"]), esc(svc["card"])))
     with open(os.path.join(SVC_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(INDEX.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
-                             nav=NAV, footer=FOOTER, cards="\n".join(cards)))
+                             nav=NAV, footer=FOOTER, cards="\n".join(cards),
+                             gallery=render_gallery()))
 
     # Hebrew service pages
     for svc in HE_SERVICES:
@@ -2143,7 +2148,8 @@ def build():
             % (svc["slug"], esc(svc["h1"]), esc(svc["card"])))
     with open(os.path.join(he_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(HE_INDEX.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
-                                nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards)))
+                                nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards),
+                                gallery=render_gallery("טל פאפרין בשטח")))
 
     # Hebrew FAQ / challenges pillar page
     items_html = []
