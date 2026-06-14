@@ -101,6 +101,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       <a class="brand" href="/">TAL PAPERIN</a>
       <div class="navlinks">
         <a href="/">Home</a>
+        <a href="/about">About</a>
         <a href="/services/">Services</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
@@ -173,6 +174,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       <a class="brand" href="/he/">טל פאפרין</a>
       <div class="navlinks">
         <a href="/he/">בית</a>
+        <a href="/he/about">אודות</a>
         <a href="/he/services/">שירותים</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
@@ -457,6 +459,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/he/' % SITE, '0.9', today),
         ('%s/blog/' % SITE, '0.8', today),
         ('%s/he/blog/' % SITE, '0.7', today),
+        ('%s/about' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
         ('%s/recommendations' % SITE, '0.7', today),
@@ -472,6 +475,7 @@ def render_sitemap(posts, he_posts=None):
     for s in SERVICES:
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
     urls.append(('%s/he/challenges' % SITE, '0.6', today))
+    urls.append(('%s/he/about' % SITE, '0.6', today))
     urls.append(('%s/he/case-studies' % SITE, '0.7', today))
     urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))
@@ -500,11 +504,12 @@ def render_llms(posts):
         "## Key pages",
         "- [Tal Paperin, Fractional CRO (home)](%s/): services, what I fix, case studies, "
         "engagements and pricing, contact." % SITE,
+        "- [About Tal Paperin](%s/about): background, experience, KSW Solutions, credentials and how he works." % SITE,
         "- [Hebrew site](%s/he/): Hebrew version of the homepage." % SITE,
         "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
         "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on four continents." % SITE,
-        "- [Contact](%s/contact): email, phone, WhatsApp, a 15-minute booking link and a contact form." % SITE,
+        "- [Contact](%s/contact): email, WhatsApp, a 15-minute booking link and a contact form." % SITE,
         "",
         "## Services",
     ]

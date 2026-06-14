@@ -59,6 +59,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       <a class="brand" href="/">TAL PAPERIN</a>
       <div class="navlinks">
         <a href="/">Home</a>
+        <a href="/about">About</a>
         <a href="/services/">Services</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
@@ -204,7 +205,7 @@ SERVICES = [
   "title":"International Market Entry and Global Expansion | Tal Paperin",
   "desc":"Break into new markets without the expensive mistakes. I have built and run sales, teams, subsidiaries and support across four continents, repeatedly and for multiple companies. Here is how I pick a market and build it.",
   "eyebrow":"Service",
-  "lead":"Four continents. Sixteen countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
+  "lead":"Four continents. More than forty countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
   "card":"Pick the right market, then build and run the whole operation: sales, subsidiary, support and customer service. Built across four continents.",
   "sections":[
     {"h":"I choose the market, then build it","p":[
@@ -290,7 +291,7 @@ SERVICES = [
   "title":"Global Markets: International Sales Expansion | Tal Paperin",
   "desc":"I have built, hired, trained and managed sales teams, opened subsidiaries and run support and customer service across four continents, repeatedly and for multiple companies. Here is how I pick a market and build it.",
   "eyebrow":"Global",
-  "lead":"Four continents. Sixteen countries. Hundreds of cities, on the ground, not over email. I do not just enter a market, I help you choose the right one, then build and run it.",
+  "lead":"Four continents. More than forty countries. Hundreds of cities, on the ground, not over email. I do not just enter a market, I help you choose the right one, then build and run it.",
   "card":"Built revenue across four continents. I help you pick the right market, then build and run the whole operation there.",
   "sections":[
     {"h":"I choose the market, then build it","p":[
@@ -524,6 +525,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       <a class="brand" href="/he/">טל פאפרין</a>
       <div class="navlinks">
         <a href="/he/">בית</a>
+        <a href="/he/about">אודות</a>
         <a href="/he/services/">שירותים</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
@@ -645,7 +647,7 @@ HE_SERVICES = [
   "title":"חדירה לשווקים בינלאומיים והתרחבות גלובלית | טל פאפרין",
   "desc":"לפרוץ לשווקים חדשים בלי הטעויות היקרות. בניתי וניהלתי מכירות, צוותים, חברות בנות ותמיכה בארבע יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
   "eyebrow":"שירות",
-  "lead":"ארבע יבשות. שש עשרה מדינות. מאות ערים, בשטח, לא מהאימייל. כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
+  "lead":"ארבע יבשות. יותר מארבעים מדינות. מאות ערים, בשטח, לא מהאימייל. כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
   "card":"בוחרים את השוק הנכון, ואז בונים ומנהלים את כל המערך: מכירות, חברה בת, תמיכה ושירות לקוחות. נבנה בארבע יבשות.",
   "sections":[
     {"h":"קודם בוחרים שוק, אחר כך בונים אותו",
@@ -724,7 +726,7 @@ HE_SERVICES = [
   "title":"שווקים גלובליים: התרחבות מכירות בינלאומית | טל פאפרין",
   "desc":"בניתי, גייסתי, הכשרתי וניהלתי צוותי מכירות, פתחתי חברות בנות וניהלתי תמיכה ושירות לקוחות בארבע יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
   "eyebrow":"גלובלי",
-  "lead":"ארבע יבשות. שש עשרה מדינות. מאות ערים, בשטח, לא מהאימייל. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
+  "lead":"ארבע יבשות. יותר מארבעים מדינות. מאות ערים, בשטח, לא מהאימייל. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
   "card":"בניתי הכנסות בארבע יבשות. אני עוזר לכם לבחור את השוק הנכון, ואז בונה ומנהל שם את כל המערך.",
   "sections":[
     {"h":"קודם בוחרים שוק, אחר כך בונים אותו","p":[
@@ -765,7 +767,8 @@ HE_SERVICES = [
 # (contract-negotiation folded into fractional CRO / B2G, saas-sales into GTM,
 # global-markets merged into market-entry).
 _SVC_ORDER = ["fractional-cro", "outsourced-sales", "go-to-market-strategy", "market-entry",
-              "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector"]
+              "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector",
+              "contract-negotiation"]
 
 
 def _order_services(lst):
@@ -1016,7 +1019,7 @@ CONTACT_EN = '''<!doctype html>
         <div class="contact-cols">
           <div class="contact-card">
             <h2>Send a message</h2>
-            <p class="contact-sub">We read every one. Replies within one business day.</p>
+            <p class="contact-sub">I read every one. Replies within one business day.</p>
             <form class="cf-form" onsubmit="return submitForm(event)">
               <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;opacity:0" />
               <input type="hidden" id="cf-loaded" value="" />
@@ -1102,7 +1105,7 @@ CONTACT_HE = '''<!doctype html>
         <div class="contact-cols">
           <div class="contact-card">
             <h2>שליחת הודעה</h2>
-            <p class="contact-sub">אנחנו קוראים כל אחת. מענה תוך יום עסקים אחד.</p>
+            <p class="contact-sub">אני קורא כל אחת. מענה תוך יום עסקים אחד.</p>
             <form class="cf-form" onsubmit="return submitForm(event)">
               <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;opacity:0" />
               <input type="hidden" id="cf-loaded" value="" />
@@ -1585,7 +1588,7 @@ CS_PAGE_EN = '''<!doctype html>
       <div class="svc">
         <div class="glowline"></div>
         <p class="eyebrow">Case Studies</p>
-        <h1>Brought in to build the engine, not advise on it.</h1>
+        <h1>Brought in to build the engine, not just advise on it.</h1>
         <p class="lead">Real companies, real problems, real ownership. Here is what I have built and fixed, across startups, IoT, manufacturing, medical devices, retail and SaaS, on four continents.</p>
         <div class="cases-list">
 {cases}
@@ -1639,7 +1642,7 @@ CS_PAGE_HE = '''<!doctype html>
       <div class="svc">
         <div class="glowline"></div>
         <p class="eyebrow">מקרי מבחן</p>
-        <h1>הגעתי כדי לבנות את המנוע, לא לייעץ עליו.</h1>
+        <h1>הגעתי כדי לבנות את המנוע, לא רק לייעץ עליו.</h1>
         <p class="lead">חברות אמיתיות, בעיות אמיתיות, אחריות אמיתית. הנה מה שבניתי ותיקנתי, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי, קמעונאות ו-SaaS, בארבע יבשות.</p>
         <div class="cases-list">
 {cases}
@@ -1807,6 +1810,10 @@ SERVICE_FAQS_EN = {
   {"q":"What does B2G sales involve?","a":"Running RFIs, RFQs, tenders and complex government and public-sector projects, mapping the real decision-makers and the procurement path."},
   {"q":"Have you closed government deals?","a":"Yes, internationally, including long RFI and RFQ cycles for industrial IoT into utilities and governments."},
   {"q":"Why is B2G different from commercial sales?","a":"Different buyer, different rules and a different timeline, and the cost of getting it wrong is a year lost. I know where these deals stall."}],
+ "contract-negotiation":[
+  {"q":"When should I bring you into a negotiation?","a":"The moment a high-value deal stalls on price, terms, legal or procurement, or whenever the deal is too important to risk on a hesitant close. The earlier I step in, the more leverage we keep."},
+  {"q":"Do you take over the deal or coach my team?","a":"Either. I can lead the negotiation to signature myself, or sit alongside your team and steer the hard moments. Whatever gives the deal the best odds."},
+  {"q":"What kind of deals have you closed?","a":"Complex, high-value B2B and B2G agreements across four continents, twenty-plus years of holding price and terms without losing the deal."}],
 }
 
 SERVICE_FAQS_HE = {
@@ -1838,6 +1845,10 @@ SERVICE_FAQS_HE = {
   {"q":"מה כוללת מכירה B2G?","a":"ניהול מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים, ומיפוי מקבלי ההחלטות האמיתיים ונתיב הרכש."},
   {"q":"סגרת עסקאות ממשלתיות?","a":"כן, בעולם, כולל מחזורי RFI ו-RFQ ארוכים ל-IoT תעשייתי מול תאגידי מים וממשלות."},
   {"q":"למה B2G שונה ממכירה מסחרית?","a":"קונה אחר, כללים אחרים ולוח זמנים אחר, והמחיר של טעות הוא שנה שאבדה. אני יודע איפה העסקאות האלה נתקעות."}],
+ "contract-negotiation":[
+  {"q":"מתי כדאי לשלב אותך במשא ומתן?","a":"ברגע שעסקה בעלת ערך גבוה נתקעת על מחיר, תנאים, משפטי או רכש, או בכל פעם שהעסקה חשובה מכדי לסכן אותה בסגירה מהוססת. ככל שאכנס מוקדם יותר, כך נשמור על יותר מנוף."},
+  {"q":"אתה משתלט על העסקה או מלווה את הצוות?","a":"גם וגם. אני יכול להוביל את המשא ומתן עד החתימה בעצמי, או לשבת לצד הצוות ולכוון ברגעים הקשים. מה שייתן לעסקה את הסיכוי הטוב ביותר."},
+  {"q":"אילו עסקאות סגרת?","a":"הסכמי B2B ו-B2G מורכבים ובעלי ערך גבוה בארבע יבשות, מעל עשרים שנה של החזקת מחיר ותנאים בלי לאבד את העסקה."}],
 }
 
 
@@ -2269,6 +2280,179 @@ HE_GUIDES = [
 
 
 
+ABOUT_EN = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Tal Paperin | Fractional CRO and B2B Sales Leader</title>
+  <meta name="description" content="Tal Paperin is a fractional CRO and B2B sales leader with 20-plus years building and scaling revenue engines across four continents. Operator, not advisor." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/about" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/about" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/about" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://talpaperin.com/about" />
+  <meta property="og:title" content="About Tal Paperin | Fractional CRO" />
+  <meta property="og:description" content="Twenty years carrying the number on four continents. Operator, not advisor." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Tal Paperin | Fractional CRO" />
+  <meta name="twitter:description" content="Twenty years carrying the number on four continents. Operator, not advisor." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="svc svc-wide">
+        <div class="glowline"></div>
+        <p class="eyebrow">About</p>
+        <h1>About Tal Paperin</h1>
+        <p class="lead">Operator, not advisor. I do the selling, the building, the management and the closing, and I answer for the number. Twenty years of it, on four continents.</p>
+
+        <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
+
+        <h2>Twenty years carrying the number</h2>
+        <p>I am a veteran international sales operator, fractional CRO and business strategist with more than 20 years building and scaling B2B sales engines. I started in the mud, hands-on, as an SDR, moved up to Account Executive and Team Leader, then served as VP of Global Sales and Business Development for multinationals and venture-backed startups. I build and run revenue functions from zero, across North America, Europe, APAC and the Middle East.</p>
+        <p>Along the way I have managed international distributor networks, owned CRM architecture and the sales stack, and run market-entry strategies, including putting written-off products back onto retail shelves across Eastern Europe, EMEA and APAC. Different products, different buyers, the same discipline: own the number, do the work.</p>
+
+        <h2>KSW Solutions</h2>
+        <p>I am Managing Partner at KSW Solutions, the consulting firm I co-lead with Samantha Paperin, our fractional CMO. We deliver field-ready sales and marketing operations, not slideware. The work centers on four things:</p>
+        <ul>
+          <li>Fractional CRO and VP of Sales leadership: pipeline execution, forecasting and revenue operations for startups and mid-market</li>
+          <li>Sales strategy and go-to-market architecture: ICPs, commission plans and sales funnels built to run</li>
+          <li>Sales training and playbooks: hands-on behavioral training, including multi-module systems, to lift outbound, call quality and win rates</li>
+          <li>Industries from global consumer brands to healthcare SaaS, IoT, medical devices and hardware</li>
+        </ul>
+
+        <h2>TheDealMentor.AI</h2>
+        <p>Early-stage founders and lean teams rarely have access to senior sales leadership. So I built TheDealMentor.AI, a virtual CRO companion that automates the playbooks and structures complex deal-handling without the overhead of an executive retainer.</p>
+
+        <h2>Background and credentials</h2>
+        <ul>
+          <li>20-plus years in B2B sales, from SDR to VP of Global Sales and Business Development</li>
+          <li>Built and rebuilt revenue for 30-plus B2B companies, from startups to multinationals</li>
+          <li>Worked across four continents and more than forty countries</li>
+          <li>Served in the Israeli Air Force</li>
+          <li>Dual B.A. from the Hebrew University of Jerusalem, in International Relations and Chinese and East Asian Studies</li>
+          <li>Speaks English, Hebrew, Russian and Chinese</li>
+        </ul>
+
+        <h2>The short personal version</h2>
+        <p>Born in the USSR in 1981, in Israel since 1990. Married to Samantha, an American-born marketing executive, and a father of five. Off the clock I collect mechanical tool watches, read science fiction and post-apocalyptic novels, and keep a structured strength-training habit.</p>
+
+        <p><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">View my full background on LinkedIn &rarr;</a></p>
+
+        <h2 class="cases-recs-h">On the ground, on four continents</h2>
+{gallery}
+{cta}
+        <div class="svc-related">See <a href="/services/">how I can help</a>, the <a href="/case-studies">case studies</a>, or <a href="/recommendations">what clients say</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+ABOUT_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>אודות טל פאפרין | סמנכ״ל מכירות ומוביל מכירות B2B</title>
+  <meta name="description" content="טל פאפרין הוא סמנכ״ל מכירות במיקור חוץ ומוביל מכירות B2B עם מעל 20 שנה של בנייה והרחבת מנועי מכירות בארבע יבשות. איש ביצוע, לא יועץ." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/he/about" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/about" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/about" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://talpaperin.com/he/about" />
+  <meta property="og:title" content="אודות טל פאפרין | סמנכ״ל מכירות" />
+  <meta property="og:description" content="עשרים שנה של אחריות על המספר, בארבע יבשות. איש ביצוע, לא יועץ." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="אודות טל פאפרין | סמנכ״ל מכירות" />
+  <meta name="twitter:description" content="עשרים שנה של אחריות על המספר, בארבע יבשות. איש ביצוע, לא יועץ." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="svc svc-wide">
+        <div class="glowline"></div>
+        <p class="eyebrow">אודות</p>
+        <h1>אודות טל פאפרין</h1>
+        <p class="lead">איש ביצוע, לא יועץ. אני עושה את המכירה, הבנייה, הניהול והסגירה, ואני אחראי על המספר. עשרים שנה, בארבע יבשות.</p>
+
+        <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" width="800" height="1200" loading="lazy" /><figcaption>הנהגת הכנסות בכירה, בכיסא.</figcaption></figure>
+
+        <h2>עשרים שנה של אחריות על המספר</h2>
+        <p>אני איש מכירות בינלאומי ותיק, סמנכ״ל מכירות במיקור חוץ ואסטרטג עסקי עם מעל 20 שנה של בנייה והרחבת מנועי מכירות B2B. התחלתי בבוץ, ידיים, כאיש SDR, עליתי ל-Account Executive וראש צוות, ובהמשך כיהנתי כ-VP of Global Sales and Business Development בתאגידים רב-לאומיים ובסטארטאפים מגובי הון סיכון. אני בונה ומנהל מחלקות הכנסה מאפס, בצפון אמריקה, אירופה, APAC והמזרח התיכון.</p>
+        <p>בדרך ניהלתי רשתות מפיצים בינלאומיות, הייתי אחראי על ארכיטקטורת ה-CRM ומערך המכירות, והרצתי אסטרטגיות חדירה לשווקים, כולל החזרת מוצרים שנמחקו אל מדפי הקמעונאות במזרח אירופה, EMEA ו-APAC. מוצרים שונים, קונים שונים, אותה משמעת: לקחת אחריות על המספר, ולעשות את העבודה.</p>
+
+        <h2>KSW Solutions</h2>
+        <p>אני שותף מנהל ב-KSW Solutions, חברת הייעוץ שאני מוביל יחד עם סמנתה פאפרין, ה-CMO במיקור חוץ שלנו. אנחנו מספקים מערכי מכירות ושיווק מוכנים לשטח, לא מצגות. העבודה מתמקדת בארבעה דברים:</p>
+        <ul>
+          <li>הנהגת סמנכ״ל מכירות ו-VP מכירות במיקור חוץ: ביצוע פייפליין, תחזיות וניהול הכנסות לסטארטאפים ולמיד-מרקט</li>
+          <li>אסטרטגיית מכירות וארכיטקטורת Go-To-Market: ICP, תוכניות עמלות ומשפכי מכירה שבנויים לרוץ</li>
+          <li>הכשרת מכירות ו-playbooks: הכשרה התנהגותית מעשית, כולל מערכים רב-מודולריים, לשיפור האאוטבאונד, איכות השיחה ואחוזי הסגירה</li>
+          <li>תעשיות ממותגי צריכה גלובליים ועד healthcare SaaS, IoT, מכשור רפואי וחומרה</li>
+        </ul>
+
+        <h2>TheDealMentor.AI</h2>
+        <p>למייסדים בשלבים מוקדמים ולצוותים רזים כמעט אף פעם אין גישה להנהגת מכירות בכירה. אז בניתי את TheDealMentor.AI, מלווה CRO וירטואלי שמכניס ל-playbooks אוטומציה ומבנה לטיפול בעסקאות מורכבות, בלי העלות של ריטיינר למנהל בכיר.</p>
+
+        <h2>רקע והסמכות</h2>
+        <ul>
+          <li>מעל 20 שנה במכירות B2B, מ-SDR ועד VP of Global Sales and Business Development</li>
+          <li>בניתי ובניתי מחדש הכנסות ל-30 ומעלה חברות B2B, מסטארטאפים ועד רב-לאומיות</li>
+          <li>עבדתי בארבע יבשות ובמעל ארבעים מדינות</li>
+          <li>שירתתי בחיל האוויר הישראלי</li>
+          <li>תואר ראשון כפול מהאוניברסיטה העברית בירושלים, ביחסים בינלאומיים ובלימודי סין ומזרח אסיה</li>
+          <li>דובר אנגלית, עברית, רוסית וסינית</li>
+        </ul>
+
+        <h2>הגרסה האישית הקצרה</h2>
+        <p>נולדתי בברית המועצות ב-1981, בישראל מ-1990. נשוי לסמנתה, מנהלת שיווק ילידת ארה"ב, ואב לחמישה. בשעות הפנאי אני אוסף שעוני כלי מכניים, קורא מדע בדיוני ורומנים פוסט-אפוקליפטיים, ושומר על שגרת אימוני כוח מסודרת.</p>
+
+        <p><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">לרקע המלא שלי בלינקדאין &larr;</a></p>
+
+        <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
+{gallery}
+{cta}
+        <div class="svc-related">ראו <a href="/he/services/">איך אני יכול לעזור</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/recommendations">מה לקוחות אומרים</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -2375,6 +2559,13 @@ def build():
         f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, contactjs=CONTACT_JS_EN))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
         f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, contactjs=CONTACT_JS_HE))
+
+    with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
+        f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+                                gallery=render_gallery(), cta=CTA_BOX))
+    with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
+        f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+                                gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
 
     # The case-studies marquee is a teaser: drop the longest outlier quotes so the
     # strip stays a sensible height. The full set lives on the recommendations page.

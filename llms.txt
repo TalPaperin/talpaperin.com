@@ -4,10 +4,11 @@
 
 ## Key pages
 - [Tal Paperin, Fractional CRO (home)](https://talpaperin.com/): services, what I fix, case studies, engagements and pricing, contact.
+- [About Tal Paperin](https://talpaperin.com/about): background, experience, KSW Solutions, credentials and how he works.
 - [Hebrew site](https://talpaperin.com/he/): Hebrew version of the homepage.
 - [Blog](https://talpaperin.com/blog/): field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.
 - [Case studies](https://talpaperin.com/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on four continents.
-- [Contact](https://talpaperin.com/contact): email, phone, WhatsApp, a 15-minute booking link and a contact form.
+- [Contact](https://talpaperin.com/contact): email, WhatsApp, a 15-minute booking link and a contact form.
 
 ## Services
 - [Fractional CRO](https://talpaperin.com/services/fractional-cro): A fractional CRO who sits in the seat and owns your revenue number, strategy, team, pipeline and forecast, without a $250K full-time hire.
@@ -17,6 +18,7 @@
 - [Sales Team Building and Training](https://talpaperin.com/services/sales-team-building): Build your in-house sales team that actually closes. I hire, train and manage SDRs, AEs and BDs, and replace who can't.
 - [Distributor and Channel Partner Recruitment](https://talpaperin.com/services/distributor-channel-recruitment): Open new territories through the right distributors and channel partners. I recruit, sign and manage them for the long term.
 - [B2G and Public-Sector Sales](https://talpaperin.com/services/b2g-public-sector): Win complex government and public-sector deals. RFIs, RFQs and B2G projects across the globe, run by someone who has actually closed them.
+- [Contract Negotiation](https://talpaperin.com/services/contract-negotiation): Take over the negotiation and close the complex, high-value agreements. I lead the deals that move the number.
 
 ## Guides
 - [What a Fractional CRO Actually Costs](https://talpaperin.com/fractional-cro-cost): A straight answer on fractional CRO pricing: what it costs per month, how that compares to a $250K full-time CRO, what is included, and when each level is worth it.
