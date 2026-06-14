@@ -246,3 +246,7 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 .svc-links a,.svc-links span{display:inline-block;padding:9px 15px;border:1px solid var(--line);border-radius:999px;font:600 14px/1 'Space Grotesk';color:#cdd9e4}
 .svc-links a{color:#fff;border-color:rgba(90,176,255,.45)}
 .svc-links a:hover{background:rgba(90,176,255,.12);border-color:var(--blue)}
+
+.skip-link{position:absolute;left:8px;top:-60px;z-index:200;background:var(--blue);color:#06080c;padding:10px 16px;border-radius:8px;font-weight:700;transition:top .15s ease}
+.skip-link:focus{top:8px}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}

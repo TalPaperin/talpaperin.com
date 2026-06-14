@@ -314,6 +314,10 @@
     footer{padding:38px 0;border-top:1px solid var(--line);color:var(--soft);font-size:.92rem;background:#04060a}
     footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 
+    .skip-link{position:absolute;left:8px;top:-60px;z-index:200;background:var(--blue);color:#06080c;padding:10px 16px;border-radius:8px;font-weight:700;text-decoration:none;transition:top .15s ease}
+    .skip-link:focus{top:8px}
+    :focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
     .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
     .reveal.in{opacity:1;transform:none}
     @media(max-width:600px){section{padding:64px 0}.section-head{margin-bottom:36px}.wrap{padding:0 20px}.brand{font-size:30px}.hero .content{padding:0 20px}.hero .cta{flex-direction:column;align-items:stretch}.final .cta{display:flex;flex-direction:column;align-items:stretch;gap:12px}.final .cta .btn{width:100%;margin-top:0}}
@@ -322,6 +326,8 @@
   </style>
 </head>
 <body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- Nav -->
   <nav class="site">
@@ -345,7 +351,7 @@
   </nav>
 
   <!-- Hero -->
-  <header class="hero">
+  <header class="hero" id="main">
     <img class="photo" src="/tal-paperin.jpg" alt="Tal Paperin, Fractional CRO and Business Consultant" />
     <canvas id="cv"></canvas>
     <div class="fade"></div>

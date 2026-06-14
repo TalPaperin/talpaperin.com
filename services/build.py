@@ -53,7 +53,8 @@ WA_SVG = ('<svg viewBox="0 0 32 32" fill="#fff" aria-hidden="true"><path d="M16 
           '3.3 0 1.9 1.4 3.8 1.6 4.1.2.3 2.8 4.3 6.8 6 1 .4 1.7.7 2.3.9 1 .3 1.8.3 '
           '2.5.2.8-.1 2.3-.9 2.6-1.9.3-.9.3-1.7.2-1.9-.1-.1-.4-.2-.8-.4z"/></svg>')
 
-NAV = '''  <nav class="site">
+NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site">
     <div class="inner">
       <a class="brand" href="/">TAL PAPERIN</a>
       <div class="navlinks">
@@ -401,7 +402,7 @@ PAGE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <p class="breadcrumb"><a href="/">Home</a> / <a href="/services/">Services</a></p>
@@ -455,7 +456,7 @@ INDEX = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
@@ -484,7 +485,8 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  
             '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&'
             'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />')
 
-HE_NAV = '''  <nav class="site">
+HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site">
     <div class="inner">
       <a class="brand" href="/he/">טל פאפרין</a>
       <div class="navlinks">
@@ -816,7 +818,7 @@ HE_PAGE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <p class="breadcrumb"><a href="/he/">בית</a> / <a href="/he/services/">שירותים</a></p>
@@ -867,7 +869,7 @@ HE_INDEX = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
@@ -916,7 +918,7 @@ HE_FAQPAGE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
@@ -968,7 +970,7 @@ CONTACT_EN = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="contact-flank">
         <img class="contact-side" src="/img/site/contact-left.jpg" alt="Tal Paperin" loading="lazy" />
@@ -1054,7 +1056,7 @@ CONTACT_HE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="contact-flank">
         <img class="contact-side" src="/img/site/contact-left.jpg" alt="טל פאפרין" loading="lazy" />
@@ -1439,7 +1441,7 @@ REC_PAGE_EN = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
@@ -1490,7 +1492,7 @@ REC_PAGE_HE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
@@ -1545,7 +1547,7 @@ CS_PAGE_EN = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
@@ -1599,7 +1601,7 @@ CS_PAGE_HE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
@@ -1704,7 +1706,7 @@ GUIDE_PAGE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <p class="breadcrumb"><a href="/">Home</a> / {h1}</p>
@@ -2110,7 +2112,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
 <body>
 {nav}
 
-  <main class="page">
+  <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
         <p class="breadcrumb"><a href="/he/">בית</a> / {h1}</p>
