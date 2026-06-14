@@ -60,6 +60,7 @@ NAV = '''  <nav class="site">
         <a href="/">Home</a>
         <a href="/services/">Services</a>
         <a href="/case-studies">Case Studies</a>
+        <a href="/recommendations">Recommendations</a>
         <a href="/blog/">Blog</a>
       </div>
       <div class="nav-right">
@@ -473,6 +474,7 @@ HE_NAV = '''  <nav class="site">
         <a href="/he/">בית</a>
         <a href="/he/services/">שירותים</a>
         <a href="/he/case-studies">מקרי מבחן</a>
+        <a href="/he/recommendations">המלצות</a>
         <a href="/he/blog/">בלוג</a>
       </div>
       <div class="nav-right">
@@ -1276,6 +1278,142 @@ TESTIMONIALS_HE = [
 ]
 
 
+LOGOS = [
+ ("pepsico","PepsiCo"),("mars","Mars"),("mehadrin","Mehadrin"),
+ ("saskatchewan","University of Saskatchewan"),("palram","Palram Applications"),
+ ("motorad","MotoRad"),("source","Source"),("bt9","BT9"),
+ ("lonestar","LoneStar Tracking"),("supra","Supra National Express"),
+ ("bacsoft","Bacsoft"),("ofekpoint","OfekPoint"),("headcount","Headcount"),
+ ("structshare","StructShare"),("hiarc","HiArc"),("cornsys","Cornsys"),
+ ("epropertycare","ePropertyCare"),("chabad","Chabad on Campus"),
+ ("kanduai","KanduAI"),("clinicmind","ClinicMind"),("plasticplace","PlasticPlace"),
+]
+
+
+def render_logo_wall(logos):
+    imgs = "".join(
+        '<img src="/logos/%s.jpg" alt="%s" loading="lazy" />' % (slug, esc(name))
+        for slug, name in logos)
+    return '<div class="proof-logos">%s</div>' % imgs
+
+
+def render_quote_grid(quotes):
+    cards = []
+    for txt, name, who in quotes:
+        wholine = (", " + esc(who)) if who else ""
+        cards.append('<div class="quote"><p>"%s"</p><div class="who">'
+                     '<span class="qavatar">%s</span>'
+                     '<span class="qwho"><strong>%s</strong>%s</span></div></div>'
+                     % (esc(txt), esc(_initials(name)), esc(name), wholine))
+    return '<div class="rec-quotes">%s</div>' % "".join(cards)
+
+
+REC_PAGE_EN = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recommendations &amp; Clients | Tal Paperin, Fractional CRO</title>
+  <meta name="description" content="What founders and executives say about working with Tal Paperin, and the companies he has built sales for, from multinationals to startups, on four continents." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/recommendations" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/recommendations" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/recommendations" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/recommendations" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/recommendations" />
+  <meta property="og:title" content="Recommendations &amp; Clients | Tal Paperin" />
+  <meta property="og:description" content="In their words: founders and executives on working with Tal Paperin, plus the companies he has built sales for." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Recommendations &amp; Clients | Tal Paperin" />
+  <meta name="twitter:description" content="In their words: founders and executives on working with Tal Paperin." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">Recommendations</p>
+        <h1>Don't take my word for it. Take theirs.</h1>
+        <p class="lead">From multinational corporations to small startups, here are the companies I have built sales for, and what the founders and executives who worked with me actually say.</p>
+        <h2 class="cases-recs-h">Companies I have built sales for</h2>
+{logos}
+        <h2 class="cases-recs-h">In their words</h2>
+{quotes}
+{cta}
+        <div class="svc-related">See the <a href="/case-studies">case studies</a> behind these, or explore the <a href="/services/">services</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+REC_PAGE_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>המלצות ולקוחות | טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</title>
+  <meta name="description" content="מה מייסדים ומנהלים אומרים על עבודה עם טל פאפרין, והחברות שבנה להן מכירות, מתאגידים רב-לאומיים ועד סטארטאפים, בארבע יבשות." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/he/recommendations" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/recommendations" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/recommendations" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/recommendations" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/he/recommendations" />
+  <meta property="og:title" content="המלצות ולקוחות | טל פאפרין" />
+  <meta property="og:description" content="בלשונם: מייסדים ומנהלים על עבודה עם טל פאפרין, והחברות שבנה להן מכירות." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="טל פאפרין" />
+  <meta property="og:locale" content="he_IL" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page">
+    <div class="wrap">
+      <div class="svc">
+        <div class="glowline"></div>
+        <p class="eyebrow">המלצות</p>
+        <h1>אל תאמינו לי. תאמינו להם.</h1>
+        <p class="lead">מתאגידים רב-לאומיים ועד סטארטאפים קטנים, אלה החברות שבניתי להן מכירות, ומה שהמייסדים והמנהלים שעבדו איתי באמת אומרים.</p>
+        <h2 class="cases-recs-h">חברות שבניתי להן מכירות</h2>
+{logos}
+        <h2 class="cases-recs-h">בלשונם</h2>
+{quotes}
+{cta}
+        <div class="svc-related">ראו את <a href="/he/case-studies">מקרי המבחן</a> שמאחורי אלה, או עיינו ב<a href="/he/services/">שירותים</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
 CS_PAGE_EN = '''<!doctype html>
 <html lang="en">
 <head>
@@ -1902,6 +2040,15 @@ def build():
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
                                   cases=render_cases(HE_CASES, "תוצאה"),
                                   testimonials=render_testimonials(TESTIMONIALS_HE), cta=HE_CTA))
+
+    with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
+        f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+                                   logos=render_logo_wall(LOGOS),
+                                   quotes=render_quote_grid(TESTIMONIALS_EN), cta=CTA_BOX))
+    with open(os.path.join(ROOT, "he", "recommendations.html"), "w", encoding="utf-8") as f:
+        f.write(REC_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+                                   logos=render_logo_wall(LOGOS),
+                                   quotes=render_quote_grid(TESTIMONIALS_HE), cta=HE_CTA))
 
     # Lead-focused SEO landing pages (root level, e.g. /fractional-cro-cost)
     for g in GUIDES:

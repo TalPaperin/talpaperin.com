@@ -102,6 +102,7 @@ NAV = '''  <nav class="site">
         <a href="/">Home</a>
         <a href="/services/">Services</a>
         <a href="/case-studies">Case Studies</a>
+        <a href="/recommendations">Recommendations</a>
         <a href="/blog/">Blog</a>
       </div>
       <div class="nav-right">
@@ -172,6 +173,7 @@ HE_NAV = '''  <nav class="site">
         <a href="/he/">בית</a>
         <a href="/he/services/">שירותים</a>
         <a href="/he/case-studies">מקרי מבחן</a>
+        <a href="/he/recommendations">המלצות</a>
         <a href="/he/blog/">בלוג</a>
       </div>
       <div class="nav-right">
@@ -455,6 +457,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/he/blog/' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
+        ('%s/recommendations' % SITE, '0.7', today),
         ('%s/contact' % SITE, '0.7', today),
     ]
     for s in SERVICES:
@@ -468,6 +471,7 @@ def render_sitemap(posts, he_posts=None):
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
     urls.append(('%s/he/challenges' % SITE, '0.6', today))
     urls.append(('%s/he/case-studies' % SITE, '0.7', today))
+    urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
