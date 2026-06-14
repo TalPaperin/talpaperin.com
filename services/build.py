@@ -122,7 +122,7 @@ SERVICES = [
       "Starter, $6,000 a month: two hours a day, every working day",
       "Growth, $12,000 a month: half time, four hours a day. What most companies choose",
       "CRO Ownership, $22,000 a month: full time and exclusive, when I take this I take only you"]},
-    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "Tal Paperin in a client meeting", "cap": "In the room where the number gets decided."},
+    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "Tal Paperin with clients and partners at an event", "cap": "In the room with the people who move the number."},
   ]},
 
  {"slug":"outsourced-sales","nav":"Outsourced Sales","h1":"Outsourced Sales Teams",
@@ -536,7 +536,7 @@ HE_SERVICES = [
     {"h":"מתומחר לפי כמה ממני אתם צריכים",
      "p":["התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."],
      "ul":["Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום. מה שרוב החברות בוחרות","בעלות מלאה, 22,000 דולר בחודש: משרה מלאה ובלעדית, כשאני לוקח את זה אני לוקח רק אתכם"]},
-    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "טל פאפרין בפגישת לקוח", "cap": "בחדר שבו מחליטים על המספר."},
+    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "טל פאפרין עם לקוחות ושותפים באירוע", "cap": "בחדר עם האנשים שמזיזים את המספר."},
   ]},
 
  {"slug":"outsourced-sales","nav":"מכירות במיקור חוץ","h1":"צוות מכירות במיקור חוץ",
@@ -966,7 +966,6 @@ CONTACT_EN = '''<!doctype html>
         <p class="eyebrow">Contact</p>
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
-        <figure class="svc-photo"><img src="/img/site/team.jpg" alt="Tal Paperin with his team" loading="lazy" /></figure>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1050,7 +1049,6 @@ CONTACT_HE = '''<!doctype html>
         <p class="eyebrow">צור קשר</p>
         <h1>בואו נדבר.</h1>
         <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
-        <figure class="svc-photo"><img src="/img/site/team.jpg" alt="טל פאפרין עם הצוות" loading="lazy" /></figure>
 
         <div class="contact-cols">
           <div class="contact-card">
