@@ -1242,18 +1242,17 @@ def _tcard(t, he=False):
     else:
         av = '<span class="tavatar tavatar-i">%s</span>' % esc(_initials(name))
     role = ('<span class="trole">%s</span>' % esc(t["role"])) if t.get("role") else ""
+    company = ('<span class="tco">%s</span>' % esc(t["company"])) if t.get("company") else ""
     tag = ""
     slug = t.get("tag")
     if slug in SVC_TAG:
         label = SVC_TAG[slug][1 if he else 0]
         base = "/he/services/" if he else "/services/"
-        tag = '<a class="ttag" href="%s%s">%s</a>' % (base, slug, esc(label))
-    company = ('<span class="tcard-co">%s</span>' % esc(t["company"])) if t.get("company") else ""
-    foot = ('<div class="tcard-foot">%s%s</div>' % (company, tag)) if (company or tag) else ""
+        tag = '<div class="tcard-foot"><a class="ttag" href="%s%s">%s</a></div>' % (base, slug, esc(label))
     return ('<div class="tcard"><div class="tcard-top">%s'
-            '<span class="tcard-id"><strong>%s</strong>%s</span></div>'
+            '<span class="tcard-id"><strong>%s</strong>%s%s</span></div>'
             '<p class="tcard-q">%s</p>%s</div>'
-            % (av, esc(name), role, esc(t["q"]), foot))
+            % (av, esc(name), role, company, esc(t["q"]), tag))
 
 
 def render_testimonials(quotes, he=False):

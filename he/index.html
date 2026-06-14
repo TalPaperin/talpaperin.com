@@ -259,8 +259,12 @@
     .quote:hover{border-color:rgba(90,176,255,.35);box-shadow:0 24px 60px rgba(0,0,0,.45),0 0 0 1px rgba(90,176,255,.22)}
     .quote:hover::after{opacity:1}
     .quote p{font-size:1.02rem;color:#e7edf3}
-    .quote .who{margin-top:16px;font-size:.9rem;color:var(--soft)}
-    .quote .who strong{color:var(--blue);font-weight:600}
+    .qhead{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+    .qav{width:50px;height:50px;border-radius:50%;flex:0 0 auto;object-fit:cover}
+    .qav-i{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--blue2),#3f97e6);color:#fff;font-weight:700;font-size:1rem}
+    .qid{display:flex;flex-direction:column;line-height:1.3;min-width:0}
+    .qid strong{color:#fff;font-weight:600;font-size:.95rem}
+    .qid span{color:var(--soft);font-size:.82rem}
     @media(max-width:480px){.quote{flex-basis:280px;max-width:280px}}
 
     .faq{max-width:840px}
@@ -546,8 +550,11 @@
      ["טל הוא אדם שלוקח אחריות, מציג רעיונות יצירתיים ויודע להעביר את הערך שבהם. הוא פיתח עבורנו בהצלחה כמה תוכניות שיווק. מעבר לזה שהיה נכס למאמצי המכירות שלנו, הוא כתב מודולי תסריטים אפקטיביים לנציגי המכירות ולקח תפקיד מוביל בישיבות מכירות, כשהוא מעורר השראה ומניע עובדים אחרים. אני ממליץ בחום על טל לכל ארגון.","אורי פישל","סמנכ\"ל פיתוח עסקי, agrematch"],
     ];
     function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+    var PHOTOS={"אריאל שמש": "/img/testimonials/ariel-shemesh.jpg", "תומאס רמרט": "/img/testimonials/tommy-remmert.jpg", "סטיב ברטון": "/img/testimonials/steve-burton.jpg", "אמיתי שטרן": "/img/testimonials/amitay-stern.jpg", "ד\"ר דיוויד גלולה": "/img/testimonials/david-gallula-ph-d.jpg", "מייקל טייכברג": "/img/testimonials/michael-teichberg.jpg", "נריה רוזנר": "/img/testimonials/neriya-rosner.jpg", "יעקב נדלין": "/img/testimonials/yakov-nedlin.jpg", "שרמן בארנס השני": "/img/testimonials/sherman-barnes-ii.jpg", "היו ניירנברג": "/img/testimonials/huw-nierenberg.jpg", "לואיזה ארויאבה": "/img/testimonials/luisa-arroyave.jpg", "גבריאל הייפץ": "/img/testimonials/gabriel-heifets.jpg", "ברק קב": "/img/testimonials/barak-kav.jpg", "דניאל וייזר": "/img/testimonials/daniel-weiser.jpg", "דניאל תרלו": "/img/testimonials/daniel-tarlow.jpg", "דניאל זטמן": "/img/testimonials/daniel-zatman.jpg", "בר ליבך": "/img/testimonials/bar-libach.jpg", "הנס ברונקהורסט": "/img/testimonials/hans-bronkhorst.jpg", "יאיר רוזנצוויג": "/img/testimonials/yair-rosenzweig.jpg", "הרב נתן רודין": "/img/testimonials/rabbi-nosson-rodin.jpg", "אלישבע הדסון": "/img/testimonials/elisheva-hudson.jpg", "סם גינזברג": "/img/testimonials/sam-ginzberg.jpg", "אריאל פרץ": "/img/testimonials/ariel-perets.jpg", "פיל גימונד": "/img/testimonials/phil-guimond.jpg", "אודו קאלו": "/img/testimonials/udo-kalu.jpg", "דוד אורבך": "/img/testimonials/dovid-urbach.jpg", "ג'ון דביר": "/img/testimonials/john-dvir.jpg", "דוד שו": "/img/testimonials/dovid-shaw.jpg", "אורי פישל": "/img/testimonials/ouri-fischel.jpg"};
+    function inits(n){var p=n.replace(/[.,"']/g,'').split(/\s+/).filter(Boolean);return ((p[0]?p[0][0]:'')+(p[1]?p[1][0]:'')).toUpperCase();}
+    function qav(n){var ph=PHOTOS[n];return ph?'<img class="qav" src="'+ph+'" alt="'+esc(n)+'" loading="lazy" />':'<span class="qav qav-i">'+esc(inits(n))+'</span>';}
     var qt=document.getElementById('quotetrack'),qh='';
-    for(var dd=0;dd<2;dd++){q.forEach(function(t){qh+='<div class="quote"'+(dd?' aria-hidden="true"':'')+'><p>"'+esc(t[0])+'"</p><div class="who"><strong>'+esc(t[1])+'</strong>'+(t[2]?', '+esc(t[2]):'')+'</div></div>';});}
+    for(var dd=0;dd<2;dd++){q.forEach(function(t){qh+='<div class="quote"'+(dd?' aria-hidden="true"':'')+'><div class="qhead">'+qav(t[1])+'<span class="qid"><strong>'+esc(t[1])+'</strong>'+(t[2]?'<span>'+esc(t[2])+'</span>':'')+'</span></div><p>"'+esc(t[0])+'"</p></div>';});}
     qt.innerHTML=qh;
 
     (function(){var els=document.querySelectorAll('.reveal');if(!('IntersectionObserver'in window)||matchMedia('(prefers-reduced-motion: reduce)').matches){els.forEach(function(e){e.classList.add('in')});return;}var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -10% 0px',threshold:.1});els.forEach(function(e){io.observe(e)});})();
