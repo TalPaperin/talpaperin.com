@@ -24,6 +24,8 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .page{padding-top:118px;padding-bottom:80px;min-height:100vh}
 .glowline{height:2px;width:120px;background:linear-gradient(270deg,var(--blue),transparent);margin-bottom:26px}
 .svc{max-width:820px;margin:0 auto}
+.svc-wide{max-width:1180px}
+.svc-wide .lead{max-width:760px}
 .svc .breadcrumb{font:600 12px/1 'Rubik';letter-spacing:.04em;color:var(--soft);margin-bottom:22px}
 .svc .breadcrumb a{color:var(--blue)}
 .svc h1{font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.12}

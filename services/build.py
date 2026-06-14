@@ -1396,7 +1396,7 @@ REC_PAGE_EN = '''<!doctype html>
 
   <main class="page">
     <div class="wrap">
-      <div class="svc">
+      <div class="svc svc-wide">
         <div class="glowline"></div>
         <p class="eyebrow">Recommendations</p>
         <h1>Don't take my word for it. Take theirs.</h1>
@@ -1447,7 +1447,7 @@ REC_PAGE_HE = '''<!doctype html>
 
   <main class="page">
     <div class="wrap">
-      <div class="svc">
+      <div class="svc svc-wide">
         <div class="glowline"></div>
         <p class="eyebrow">המלצות</p>
         <h1>אל תאמינו לי. תאמינו להם.</h1>
