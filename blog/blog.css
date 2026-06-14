@@ -183,10 +183,12 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .tcard-id{display:flex;flex-direction:column;line-height:1.25;min-width:0}
 .tcard-id strong{color:#fff;font-weight:700;font-size:.98rem}
 .trole{color:var(--soft);font-size:.82rem}
-.ttag{margin-inline-start:auto;align-self:flex-start;flex:0 0 auto;background:rgba(90,176,255,.14);color:var(--blue);font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
 .tcard-q{position:relative;color:#e7edf3;font-size:.97rem;line-height:1.62;padding-top:16px}
 .tcard-q::before{content:"\201C";position:absolute;top:-2px;left:-2px;font-family:Georgia,serif;font-size:2.4rem;line-height:1;color:rgba(90,176,255,.55)}
-.tcard-co{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);color:var(--soft);font-weight:700;font-size:.9rem;letter-spacing:.02em}
+.tcard-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.tcard-co{color:var(--soft);font-weight:700;font-size:.9rem;letter-spacing:.02em}
+.ttag{margin-inline-start:auto;flex:0 0 auto;background:rgba(90,176,255,.14);color:var(--blue);font-size:.7rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:5px 11px;border-radius:999px;text-decoration:none;white-space:nowrap;transition:background .15s ease}
+.ttag:hover{background:rgba(90,176,255,.28)}
 .rec-quotes{column-count:3;column-gap:18px;margin:18px 0 8px}
 .rec-quotes .tcard{display:inline-block;width:100%;margin:0 0 18px;break-inside:avoid}
 .tmarquee .tcard{flex:0 0 360px;width:360px;white-space:normal}
