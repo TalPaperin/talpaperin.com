@@ -783,7 +783,7 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">בלוג</p>
         <h1>מכירות, פיתוח עסקי וגדילה</h1>
-        <p>תובנות מעשיות על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על המספר בארבע יבשות.</p>
+        <p>תובנות מעשיות על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על התוצאות בארבע יבשות.</p>
       </div>
       <div class="post-list">
 {{LISTING}}
