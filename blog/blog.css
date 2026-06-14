@@ -101,10 +101,10 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .svc-wide{max-width:1180px}
 .svc-wide .lead{max-width:760px}
 .svc-photo{margin:28px 0}
-.svc-photo img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
+.svc-photo img{width:100%;height:auto;border-radius:14px;border:1px solid var(--line);display:block}
 .svc-photo figcaption{margin-top:10px;color:var(--soft);font-size:.9rem}
 .svc-photo.portrait{text-align:center}
-.svc-photo.portrait img{width:auto;max-width:100%;max-height:620px;margin:0 auto}
+.svc-photo.portrait img{width:auto;height:auto;max-width:100%;max-height:620px;margin:0 auto}
 .photo-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0 8px}
 .photo-gallery img{width:100%;height:200px;object-fit:cover;border-radius:12px;border:1px solid var(--line);transition:transform .25s ease,border-color .25s ease}
 .photo-gallery img:hover{transform:scale(1.03);border-color:rgba(90,176,255,.5)}

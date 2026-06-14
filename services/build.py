@@ -332,6 +332,37 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+def img_size(src):
+    """Return (width, height) for a local JPEG, or None. Pure stdlib so the
+    generator never depends on PIL. Used to set width/height on content images
+    (reserves layout space, prevents Cumulative Layout Shift)."""
+    path = os.path.join(ROOT, src.lstrip("/"))
+    try:
+        with open(path, "rb") as f:
+            data = f.read()
+    except OSError:
+        return None
+    if data[:2] != b"\xff\xd8":
+        return None
+    i, n = 2, len(data)
+    sof = {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7,
+           0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF}
+    while i + 9 < n:
+        if data[i] != 0xFF:
+            i += 1
+            continue
+        marker = data[i + 1]
+        if marker in sof:
+            h = (data[i + 5] << 8) | data[i + 6]
+            w = (data[i + 7] << 8) | data[i + 8]
+            return (w, h)
+        if marker in (0xD8, 0xD9) or 0xD0 <= marker <= 0xD7:
+            i += 2
+            continue
+        i += 2 + ((data[i + 2] << 8) | data[i + 3])
+    return None
+
+
 def render_sections(svc):
     out = []
     for sec in svc["sections"]:
@@ -342,8 +373,10 @@ def render_sections(svc):
         if sec.get("img"):
             cap = ('<figcaption>%s</figcaption>' % esc(sec["cap"])) if sec.get("cap") else ""
             cls = "svc-photo portrait" if sec.get("portrait") else "svc-photo"
-            out.append('        <figure class="%s"><img src="%s" alt="%s" loading="lazy" />%s</figure>'
-                       % (cls, sec["img"], esc(sec.get("alt", "")), cap))
+            dim = img_size(sec["img"])
+            wh = (' width="%d" height="%d"' % dim) if dim else ""
+            out.append('        <figure class="%s"><img src="%s" alt="%s"%s loading="lazy" />%s</figure>'
+                       % (cls, sec["img"], esc(sec.get("alt", "")), wh, cap))
         if sec.get("ul"):
             out.append("        <ul>")
             for li in sec["ul"]:
