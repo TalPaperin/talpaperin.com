@@ -1817,6 +1817,20 @@ GUIDES = [
       "Many of the business owners I work with are heimish and speak Yiddish as their first language. I do not speak fluent Yiddish, and I will never pretend otherwise. What I do have is years of working closely inside the Yiddish-speaking, heimishe business world, and a real feel for how it operates, who it trusts, and how deals actually get done in it. I have also run a fundraising seminar for Chabad on Campus rabbeim, so I know how to teach and sell to our world, not just the outside one."]},
     {"h":"From the frum world to the wider market, and back","p":[
       "A lot of frum businesses are great at selling to their own kehilla and freeze the moment they need to sell to the wider, secular or international market. That is exactly my expertise. I take frum-owned companies into the US mainstream, the EU and beyond, and I help outside companies sell respectfully into the frum market. Either direction, I have done it."]},
+    {"h":"Frum business consultant by community","links":[
+      ["Lakewood","/blog/frum-business-consultant-lakewood"],
+      ["Boro Park","/blog/frum-business-consultant-boro-park"],
+      ["Williamsburg","/blog/frum-business-consultant-williamsburg"],
+      ["Monsey","/blog/frum-business-consultant-monsey"],
+      ["Crown Heights","/blog/frum-business-consultant-crown-heights"],
+      ["Flatbush","/blog/frum-business-consultant-flatbush"],
+      ["Five Towns","/blog/frum-business-consultant-five-towns"],
+      ["Kiryas Joel","/blog/frum-business-consultant-kiryas-joel"],
+      ["Passaic","/blog/frum-business-consultant-passaic"],
+      ["Baltimore","/blog/frum-business-consultant-baltimore"],
+      ["Los Angeles","/blog/frum-business-consultant-los-angeles"],
+      ["Miami","/blog/frum-business-consultant-miami"],
+      ["Chicago","/blog/frum-business-consultant-chicago"]]},
   ],
   "faqs":[
     {"q":"Do you work with frum business owners?","a":"Yes, and a real part of my work is with frum and heimishe business owners in the US and Eretz Yisrael. I am a frum, shomer Shabbos Yid myself, so we start from shared values and shared trust."},
