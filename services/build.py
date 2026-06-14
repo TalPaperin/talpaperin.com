@@ -21,7 +21,7 @@ SITE = "https://talpaperin.com"
 
 ANALYTICS = ('<script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>')
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
+FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
          '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
          'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />')
@@ -477,7 +477,7 @@ INDEX = '''<!doctype html>
 
 # --- Hebrew (RTL) ----------------------------------------------------------
 
-HE_FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
+HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
             '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
             '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&'
             'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />')
