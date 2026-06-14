@@ -176,6 +176,7 @@ SERVICES = [
       "Replace who can't, fast, before they burn a year"]},
     {"h":"This builds your in-house team","p":[
       "This service builds and trains your own team, the people, the playbook and the standards that stay inside your company. If you would rather not build in-house at all and have the whole team run for you outside your headcount, that is outsourced sales, a separate engagement."]},
+    {"img":"/img/site/training.jpg","alt":"Tal Paperin training a sales team","cap":"Training a sales team, hands-on, not from a slide deck."},
   ]},
 
  {"slug":"distributor-channel-recruitment","nav":"Channel & Distributors","h1":"Distributor and Channel Partner Recruitment",
@@ -216,6 +217,7 @@ SERVICES = [
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
       "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
+    {"img":"/img/site/minister.jpg","alt":"Tal Paperin with Israel's Minister of Economy","cap":"Opening markets means opening doors, all the way up."},
     {"h":"Regions","links":[
       ["European Union","/blog/selling-b2b-in-the-eu"],
       ["Nordics","/blog/selling-b2b-in-the-nordics"],
@@ -250,6 +252,7 @@ SERVICES = [
      "ul":["You are stuck in RFIs, RFQs and tenders that go nowhere","Your product fits the public sector but the process is foreign to you","You need someone who has navigated government procurement before"]},
     {"h":"What I do","ul":["Run B2G and complex public-sector deals end to end","Handle RFIs, RFQs, tenders and government projects across the globe","Map the real decision-makers and the procurement path","Position you to win, not just to submit"]},
     {"h":"Why B2G is its own game","p":["Selling to a government is not selling to a company. The buyer, the rules and the timeline are different, and the cost of getting it wrong is a year lost. I have run these deals internationally and I know where they stall."]},
+    {"img":"/img/site/embassy-delegation.jpg","alt":"Tal Paperin with a US embassy delegation and ambassador","cap":"On the ground with a US embassy delegation. B2G runs on relationships and presence."},
   ]},
 
  {"slug":"contract-negotiation","nav":"Contract Negotiation","h1":"Contract Negotiation",
@@ -327,9 +330,14 @@ def esc(s):
 def render_sections(svc):
     out = []
     for sec in svc["sections"]:
-        out.append("        <h2>%s</h2>" % esc(sec["h"]))
+        if sec.get("h"):
+            out.append("        <h2>%s</h2>" % esc(sec["h"]))
         for p in sec.get("p", []):
             out.append("        <p>%s</p>" % esc(p))
+        if sec.get("img"):
+            cap = ('<figcaption>%s</figcaption>' % esc(sec["cap"])) if sec.get("cap") else ""
+            out.append('        <figure class="svc-photo"><img src="%s" alt="%s" loading="lazy" />%s</figure>'
+                       % (sec["img"], esc(sec.get("alt", "")), cap))
         if sec.get("ul"):
             out.append("        <ul>")
             for li in sec["ul"]:
@@ -569,6 +577,7 @@ HE_SERVICES = [
      "ul":["גיוס והשמה של SDRs, AEs, BDs, שירות שלאחר מכירה ותמיכה טכנית","בניית תוכנית הכשרה מותאמת ל-ICP ול-GTM שלכם","ניהול הצוות יום-יום עד שהוא פוגע ביעד","החלפה מהירה של מי שלא מתאים, לפני שהוא שורף שנה"]},
     {"h":"זה בונה את הצוות הפנימי שלכם",
      "p":["השירות הזה בונה ומכשיר את הצוות שלכם, האנשים, ה-Playbook והסטנדרטים שנשארים בתוך החברה. אם אתם מעדיפים לא לבנות פנימית בכלל ולקבל צוות שלם שמורץ עבורכם מחוץ למצבת כוח האדם, זה מכירות במיקור חוץ, התקשרות נפרדת."]},
+    {"img":"/img/site/training.jpg","alt":"טל פאפרין מכשיר צוות מכירות","cap":"הכשרת צוות מכירות, בידיים, לא ממצגת."},
   ]},
 
  {"slug":"distributor-channel-recruitment","nav":"מפיצים וערוצים","h1":"איתור וגיוס מפיצים וערוצי הפצה",
@@ -599,6 +608,7 @@ HE_SERVICES = [
      "ul":["צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים","חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית","מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים","תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי","ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
     {"h":"נעשה שוב ושוב, למספר חברות",
      "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
+    {"img":"/img/site/minister.jpg","alt":"טל פאפרין עם שר הכלכלה","cap":"לפתוח שווקים זה לפתוח דלתות, עד למעלה."},
     {"h":"אזורים","links":[
       ["האיחוד האירופי","/he/blog/selling-b2b-in-the-eu"],
       ["מדינות נורדיות","/he/blog/selling-b2b-in-the-nordics"],
@@ -633,6 +643,7 @@ HE_SERVICES = [
      "ul":["אתם תקועים במכרזים, RFIs ו-RFQs שלא מתקדמים","המוצר שלכם מתאים למגזר הציבורי אבל התהליך זר לכם","אתם צריכים מישהו שכבר ניווט ברכש ממשלתי"]},
     {"h":"מה אני עושה","ul":["ניהול עסקאות B2G ומורכבות מול המגזר הציבורי מקצה לקצה","טיפול במכרזים, RFIs, RFQs ופרויקטים ממשלתיים בכל העולם","מיפוי מקבלי ההחלטות האמיתיים ונתיב הרכש","מיצוב שלכם כדי לזכות, לא רק כדי להגיש"]},
     {"h":"למה B2G זה משחק אחר","p":["מכירה לממשלה היא לא מכירה לחברה. הקונה, הכללים ולוחות הזמנים שונים, והמחיר של טעות הוא שנה שאבדה. ניהלתי את העסקאות האלה בעולם ואני יודע איפה הן נתקעות."]},
+    {"img":"/img/site/embassy-delegation.jpg","alt":"טל פאפרין עם משלחת שגרירות ארה״ב","cap":"בשטח עם משלחת שגרירות ארה״ב. B2G רץ על יחסים ונוכחות."},
   ]},
 
  {"slug":"contract-negotiation","nav":"משא ומתן","h1":"ניהול משא ומתן על חוזים",
@@ -947,6 +958,7 @@ CONTACT_EN = '''<!doctype html>
         <p class="eyebrow">Contact</p>
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
+        <figure class="svc-photo"><img src="/img/site/team.jpg" alt="Tal Paperin with his team" loading="lazy" /></figure>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1030,6 +1042,7 @@ CONTACT_HE = '''<!doctype html>
         <p class="eyebrow">צור קשר</p>
         <h1>בואו נדבר.</h1>
         <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
+        <figure class="svc-photo"><img src="/img/site/team.jpg" alt="טל פאפרין עם הצוות" loading="lazy" /></figure>
 
         <div class="contact-cols">
           <div class="contact-card">
