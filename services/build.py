@@ -122,7 +122,7 @@ SERVICES = [
       "Starter, $6,000 a month: two hours a day, every working day",
       "Growth, $12,000 a month: half time, four hours a day. What most companies choose",
       "CRO Ownership, $22,000 a month: full time and exclusive, when I take this I take only you"]},
-    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "Tal Paperin with clients and partners at an event", "cap": "In the room with the people who move the number."},
+    {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "Tal Paperin, fractional CRO", "cap": "Senior revenue leadership, in the seat.", "portrait": True},
   ]},
 
  {"slug":"outsourced-sales","nav":"Outsourced Sales","h1":"Outsourced Sales Teams",
@@ -340,8 +340,9 @@ def render_sections(svc):
             out.append("        <p>%s</p>" % esc(p))
         if sec.get("img"):
             cap = ('<figcaption>%s</figcaption>' % esc(sec["cap"])) if sec.get("cap") else ""
-            out.append('        <figure class="svc-photo"><img src="%s" alt="%s" loading="lazy" />%s</figure>'
-                       % (sec["img"], esc(sec.get("alt", "")), cap))
+            cls = "svc-photo portrait" if sec.get("portrait") else "svc-photo"
+            out.append('        <figure class="%s"><img src="%s" alt="%s" loading="lazy" />%s</figure>'
+                       % (cls, sec["img"], esc(sec.get("alt", "")), cap))
         if sec.get("ul"):
             out.append("        <ul>")
             for li in sec["ul"]:
@@ -538,7 +539,7 @@ HE_SERVICES = [
     {"h":"מתומחר לפי כמה ממני אתם צריכים",
      "p":["התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."],
      "ul":["Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום. מה שרוב החברות בוחרות","בעלות מלאה, 22,000 דולר בחודש: משרה מלאה ובלעדית, כשאני לוקח את זה אני לוקח רק אתכם"]},
-    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "טל פאפרין עם לקוחות ושותפים באירוע", "cap": "בחדר עם האנשים שמזיזים את המספר."},
+    {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ", "cap": "מנהיגות הכנסות בכירה, בידיים.", "portrait": True},
   ]},
 
  {"slug":"outsourced-sales","nav":"מכירות במיקור חוץ","h1":"צוות מכירות במיקור חוץ",
@@ -965,6 +966,8 @@ CONTACT_EN = '''<!doctype html>
 
   <main class="page">
     <div class="wrap">
+      <div class="contact-flank">
+        <img class="contact-side" src="/img/site/contact-left.jpg" alt="Tal Paperin" loading="lazy" />
       <div class="svc">
         <div class="glowline"></div>
         <p class="eyebrow">Contact</p>
@@ -1008,6 +1011,8 @@ CONTACT_EN = '''<!doctype html>
           </div>
         </div>
       </div>
+        <img class="contact-side" src="/img/site/contact-right.jpg" alt="Tal Paperin" loading="lazy" />
+      </div>
     </div>
   </main>
 
@@ -1048,6 +1053,8 @@ CONTACT_HE = '''<!doctype html>
 
   <main class="page">
     <div class="wrap">
+      <div class="contact-flank">
+        <img class="contact-side" src="/img/site/contact-left.jpg" alt="טל פאפרין" loading="lazy" />
       <div class="svc">
         <div class="glowline"></div>
         <p class="eyebrow">צור קשר</p>
@@ -1090,6 +1097,8 @@ CONTACT_HE = '''<!doctype html>
             </div>
           </div>
         </div>
+      </div>
+        <img class="contact-side" src="/img/site/contact-right.jpg" alt="טל פאפרין" loading="lazy" />
       </div>
     </div>
   </main>
