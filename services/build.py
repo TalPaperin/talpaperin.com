@@ -1018,7 +1018,7 @@ CONTACT_EN = '''<!doctype html>
             <h2>Send a message</h2>
             <p class="contact-sub">We read every one. Replies within one business day.</p>
             <form class="cf-form" onsubmit="return submitForm(event)">
-              <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" />
+              <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;opacity:0" />
               <input type="hidden" id="cf-loaded" value="" />
               <label for="cf-name">Your name</label>
               <input id="cf-name" type="text" name="name" required />
@@ -1104,7 +1104,7 @@ CONTACT_HE = '''<!doctype html>
             <h2>שליחת הודעה</h2>
             <p class="contact-sub">אנחנו קוראים כל אחת. מענה תוך יום עסקים אחד.</p>
             <form class="cf-form" onsubmit="return submitForm(event)">
-              <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" />
+              <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;opacity:0" />
               <input type="hidden" id="cf-loaded" value="" />
               <label for="cf-name">שם</label>
               <input id="cf-name" type="text" name="name" required />
