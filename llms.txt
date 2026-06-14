@@ -29,6 +29,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Building a B2B Sales Machine in Western Europe](https://talpaperin.com/blog/building-a-sales-machine-in-western-europe): How I build a sales machine in Western Europe: market research first, then a focused push on the UK and Eastern Europe, built and run hands-on, not handed over as a deck.
 - [Building a Sales Operation in the United States](https://talpaperin.com/blog/building-a-sales-operation-in-the-united-states): How to build and run B2B sales in the US market: the buyer culture, the pitfalls, and the sales team, subsidiary and support operation I build and run there.
 - [Building a Sales Operation in Germany](https://talpaperin.com/blog/building-a-sales-operation-in-germany): Selling B2B in Germany: how German buyers actually buy, the Mittelstand, and the sales team, subsidiary and support operation I build and run there.
 - [Building a Sales Operation in the United Kingdom](https://talpaperin.com/blog/building-a-sales-operation-in-the-uk): Selling B2B in the UK: how British buyers actually buy, and the sales team, subsidiary and support operation I build and run there.

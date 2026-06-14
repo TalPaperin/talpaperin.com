@@ -1132,6 +1132,10 @@ CASE_STUDIES = [
   "situation":"A global manufacturer had looked at Eastern Europe and decided there was no money in it, so they stayed out and left the territory blank on the map. The assumption had never actually been tested against the real channel or the real buyers on the ground. It was a story the company told itself, not a fact.",
   "did":["Built the market-entry strategy and the milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed multiple distributors and retail chains across the region"],
   "result":"Product on shelves in a market the company had written off entirely, proving there was real money in Eastern Europe and that the only thing missing had been someone willing to go open it."},
+ {"company":"Limat","id":"limat","meta":"Market research and a Western Europe sales machine, focused on the UK and Eastern Europe",
+  "situation":"Limat wanted to grow in Western Europe but did not want to bet on it blind. They needed someone to find where the real opportunity was, then actually go build the sales motion to chase it, not hand over a strategy deck and walk away. The brief was simple: research the market, pick the fights worth picking, and build the machine.",
+  "did":["Ran the market research to find where the genuine demand and the right entry points were","Focused the push on the UK and Eastern Europe, the markets that justified the investment","Built the sales machine to go after those markets, not just a plan on paper"],
+  "result":"A research-backed entry into Western Europe, concentrated on the UK and Eastern Europe, with a sales machine built to chase it instead of a report nobody acts on."},
  {"company":"BT9","id":"bt9","meta":"Xsense cold chain monitoring (IoT and SaaS), International sales across FSU, EU and APAC",
   "situation":"BT9 built Xsense, a real-time cold chain monitoring system that tracks the temperature and humidity of perishables from inside the carton, through every link of the supply chain, so food companies can act before a shipment spoils. Great product, and almost no international sales operation to put it in front of the world. Three very different regions, the FSU, the EU and APAC, each with its own buyers, channels and rules, and the whole machine had to be built from the ground up.",
   "did":["Built an international sales operation from zero across the FSU, the EU and APAC","Ran direct sales of the Xsense SaaS, hardware and services to food and perishables companies","Recruited and managed the distributor network market by market","Represented the product at international trade shows like Fruit Logistica in Berlin","Hired, trained and ran the team day to day: SDRs, post-sales and tech support"],
@@ -1167,6 +1171,10 @@ HE_CASES = [
   "situation":"יצרן גלובלי הסתכל על מזרח אירופה והחליט שאין שם כסף, ולכן נמנע מלהיכנס והשאיר את הטריטוריה ריקה על המפה. ההנחה הזו מעולם לא נבחנה באמת מול הערוץ האמיתי או הקונים האמיתיים בשטח. זה היה סיפור שהחברה סיפרה לעצמה, לא עובדה.",
   "did":["בניתי את אסטרטגיית החדירה ותוכנית אבני הדרך","מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בשטח","ניהלתי כל משא ומתן באופן אישי","החתמתי מספר מפיצים ורשתות קמעונאות באזור"],
   "result":"מוצר על המדפים בשוק שהחברה כבר מחקה לחלוטין, והוכחה שיש שם כסף אמיתי ושכל מה שחסר היה מישהו שמוכן ללכת ולפתוח אותו."},
+ {"company":"Limat","id":"limat","meta":"מחקר שוק ומכונת מכירות במערב אירופה, במיקוד על בריטניה ומזרח אירופה",
+  "situation":"Limat רצו לצמוח במערב אירופה, אבל לא רצו להמר על זה בעיניים עצומות. הם היו צריכים מישהו שימצא איפה ההזדמנות האמיתית, ואז באמת ילך ויבנה את מערך המכירות שירדוף אחריה, לא שיגיש מצגת אסטרטגיה וייעלם. הבריף היה פשוט: לחקור את השוק, לבחור את הקרבות ששווה לבחור, ולבנות את המכונה.",
+  "did":["ביצעתי את מחקר השוק כדי למצוא איפה הביקוש האמיתי ונקודות הכניסה הנכונות","מיקדתי את המהלך בבריטניה ובמזרח אירופה, השווקים שהצדיקו את ההשקעה","בניתי את מכונת המכירות שתרדוף אחרי השווקים האלה, לא רק תוכנית על הנייר"],
+  "result":"כניסה מבוססת מחקר למערב אירופה, ממוקדת בבריטניה ובמזרח אירופה, עם מכונת מכירות שנבנתה כדי לרדוף אחריה במקום דוח שאף אחד לא פועל לפיו."},
  {"company":"BT9","id":"bt9","meta":"Xsense, ניטור שרשרת קור (IoT ו-SaaS), מכירות בינלאומיות ב-FSU, באיחוד האירופי וב-APAC",
   "situation":"BT9 בנתה את Xsense, מערכת ניטור שרשרת קור בזמן אמת שעוקבת אחר הטמפרטורה והלחות של מוצרים מתכלים מתוך האריזה עצמה, לאורך כל חוליה בשרשרת, כדי שחברות מזון יוכלו לפעול לפני שמשלוח מתקלקל. מוצר מצוין, וכמעט בלי מערך מכירות בינלאומי שיציג אותו לעולם. שלוש טריטוריות שונות מאוד, FSU, האיחוד האירופי ו-APAC, לכל אחת קונים, ערוצים וכללים משלה, וכל המכונה הייתה צריכה להיבנות מהיסוד.",
   "did":["בניתי מערך מכירות בינלאומי מאפס ב-FSU, באיחוד האירופי וב-APAC","הרצתי מכירה ישירה של Xsense, SaaS, חומרה ושירותים לחברות מזון ומוצרים מתכלים","גייסתי וניהלתי את רשת המפיצים, שוק אחר שוק","ייצגתי את המוצר בתערוכות בינלאומיות כמו Fruit Logistica בברלין","גייסתי, הכשרתי וניהלתי את הצוות יום-יום: SDR, פוסט-סייל ותמיכה טכנית"],
@@ -1187,7 +1195,7 @@ HE_CASES = [
 
 
 LOGO_MAP = {"KanduAI":"kanduai","LoneStar Tracking":"lonestar","Bacsoft":"bacsoft",
-            "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source"}
+            "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source","Limat":"limat"}
 
 
 def render_cases(cases, rlabel):
@@ -1282,6 +1290,7 @@ LOGOS = [
  ("pepsico","PepsiCo"),("mars","Mars"),("mehadrin","Mehadrin"),
  ("saskatchewan","University of Saskatchewan"),("palram","Palram Applications"),
  ("motorad","MotoRad"),("source","Source"),("bt9","BT9"),
+ ("limat","Limat Group"),
  ("lonestar","LoneStar Tracking"),("supra","Supra National Express"),
  ("bacsoft","Bacsoft"),("ofekpoint","OfekPoint"),("headcount","Headcount"),
  ("structshare","StructShare"),("hiarc","HiArc"),("cornsys","Cornsys"),

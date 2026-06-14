@@ -211,6 +211,12 @@
     <lastmod>2026-06-14</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/blog/building-a-sales-machine-in-western-europe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/blog/building-a-sales-operation-in-the-united-states</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -899,6 +905,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2018-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/building-a-sales-machine-in-western-europe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-14</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-the-united-states</loc>
