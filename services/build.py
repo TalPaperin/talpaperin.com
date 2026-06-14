@@ -221,7 +221,7 @@ SERVICES = [
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
       "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
-    {"img":"/img/site/minister.jpg","alt":"Tal Paperin with Israel's Minister of Economy","cap":"Opening markets means opening doors, all the way up."},
+    {"img":"/img/site/market-entry-expo.jpg","alt":"An international trade show floor","cap":"Global markets, up close. Where new business actually gets opened."},
     {"h":"Regions","links":[
       ["European Union","/blog/selling-b2b-in-the-eu"],
       ["Nordics","/blog/selling-b2b-in-the-nordics"],
@@ -621,7 +621,7 @@ HE_SERVICES = [
      "ul":["צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים","חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית","מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים","תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי","ה-CRM, הפייפליין, התחזית והאחריות על המספר"]},
     {"h":"נעשה שוב ושוב, למספר חברות",
      "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
-    {"img":"/img/site/minister.jpg","alt":"טל פאפרין עם שר הכלכלה","cap":"לפתוח שווקים זה לפתוח דלתות, עד למעלה."},
+    {"img":"/img/site/market-entry-expo.jpg","alt":"רחבת תערוכה בינלאומית","cap":"שווקים גלובליים מקרוב. איפה שבאמת פותחים עסקים חדשים."},
     {"h":"אזורים","links":[
       ["האיחוד האירופי","/he/blog/selling-b2b-in-the-eu"],
       ["מדינות נורדיות","/he/blog/selling-b2b-in-the-nordics"],
