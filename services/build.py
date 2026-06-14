@@ -122,6 +122,7 @@ SERVICES = [
       "Starter, $6,000 a month: two hours a day, every working day",
       "Growth, $12,000 a month: half time, four hours a day. What most companies choose",
       "CRO Ownership, $22,000 a month: full time and exclusive, when I take this I take only you"]},
+    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "Tal Paperin in a client meeting", "cap": "In the room where the number gets decided."},
   ]},
 
  {"slug":"outsourced-sales","nav":"Outsourced Sales","h1":"Outsourced Sales Teams",
@@ -140,6 +141,7 @@ SERVICES = [
       "When building an in-house team is too slow, too expensive, or too risky for your stage. You get a working revenue engine in weeks, not the 6-12 months it takes to hire and ramp one yourself, and none of the severance risk if the fit is wrong."]},
     {"h":"Who runs it","p":[
       "KSW Solutions, led by me. 20-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets. Your sales function, owned by people who have done it before."]},
+    {"img": "/img/site/outsourced-team.jpg", "alt": "Tal Paperin with a sales team", "cap": "A full team, run for you, outside your headcount."},
   ]},
 
  {"slug":"go-to-market-strategy","nav":"Go-To-Market Strategy","h1":"Go-To-Market Strategy",
@@ -160,6 +162,7 @@ SERVICES = [
       "The same applies, sharpened, to software: positioning, the motion, the channel and the team built for the SaaS sale, including the long, technical, trust-based sale to enterprise, universities, research labs and pharma."]},
     {"h":"Across markets","p":[
       "North America, the EU, Eastern and Central Europe, and APAC. I have opened markets others wrote off, and I know the expensive mistakes before you make them."]},
+    {"img": "/img/site/gtm-excel-london.jpg", "alt": "Tal Paperin at ExCeL London trade show", "cap": "Going to market means showing up where the market is."},
   ]},
 
  {"slug":"sales-team-building","nav":"Team Building","h1":"Sales Team Building and Training",
@@ -193,6 +196,7 @@ SERVICES = [
       "Manage the relationships for the long term, not just to the signature"]},
     {"h":"Proven on the ground","p":[
       "I have signed multiple distributors and retail chains across a region a global manufacturer had written off, and built distributor networks across the FSU, the EU and APAC. Partners are not a logo on a slide. They are revenue, if you pick and manage them right."]},
+    {"img": "/img/site/distributor-booth.jpg", "alt": "Tal Paperin with channel partners at a trade show", "cap": "Meeting the distributors and partners that open new territories."},
   ]},
 
  {"slug":"market-entry","nav":"Market Entry & Global Markets","h1":"International Market Entry and Global Markets",
@@ -532,6 +536,7 @@ HE_SERVICES = [
     {"h":"מתומחר לפי כמה ממני אתם צריכים",
      "p":["התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."],
      "ul":["Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום. מה שרוב החברות בוחרות","בעלות מלאה, 22,000 דולר בחודש: משרה מלאה ובלעדית, כשאני לוקח את זה אני לוקח רק אתכם"]},
+    {"img": "/img/site/fractional-cro-meeting.jpg", "alt": "טל פאפרין בפגישת לקוח", "cap": "בחדר שבו מחליטים על המספר."},
   ]},
 
  {"slug":"outsourced-sales","nav":"מכירות במיקור חוץ","h1":"צוות מכירות במיקור חוץ",
@@ -547,6 +552,7 @@ HE_SERVICES = [
      "p":["כשבניית צוות פנימי איטית מדי, יקרה מדי או מסוכנת מדי לשלב שלכם. אתם מקבלים מנוע מכירות עובד תוך שבועות, לא ב-6 עד 12 חודשים של גיוס וחימום, ובלי סיכון הפיצויים אם ההתאמה לא נכונה."]},
     {"h":"מי מריץ את זה",
      "p":["KSW Solutions, בהובלתי. מעל 20 שנה של בנייה וניהול מכירות B2B בארה״ב, אירופה, APAC והשווקים הפוסט-סובייטיים. מערך המכירות שלכם, בידיים של מי שכבר עשה את זה."]},
+    {"img": "/img/site/outsourced-team.jpg", "alt": "טל פאפרין עם צוות מכירות", "cap": "צוות שלם שמורץ עבורכם, מחוץ למצבת כוח האדם."},
   ]},
 
  {"slug":"go-to-market-strategy","nav":"אסטרטגיית GTM","h1":"אסטרטגיית Go-To-Market",
@@ -564,6 +570,7 @@ HE_SERVICES = [
      "p":["אותו דבר, מחודד, לתוכנה: מיצוב, תנועה, ערוץ וצוות שנבנים למכירת ה-SaaS, כולל המכירה הארוכה, הטכנית ועתירת האמון לארגונים גדולים, אוניברסיטאות, מעבדות מחקר וחברות פארמה."]},
     {"h":"לרוחב השווקים",
      "p":["צפון אמריקה, האיחוד האירופי, מזרח ומרכז אירופה ו-APAC. פתחתי שווקים שאחרים מחקו, ואני מכיר את הטעויות היקרות לפני שאתם עושים אותן."]},
+    {"img": "/img/site/gtm-excel-london.jpg", "alt": "טל פאפרין בתערוכת ExCeL לונדון", "cap": "Go-To-Market זה להגיע לאן שהשוק נמצא."},
   ]},
 
  {"slug":"sales-team-building","nav":"בניית צוות","h1":"בניית והכשרת צוות מכירות",
@@ -591,6 +598,7 @@ HE_SERVICES = [
      "ul":["מיפוי הערוץ ומקבלי ההחלטות האמיתיים בשטח","איתור והחתמת מפיצים, ריסלרים, אינטגרטורים ושותפי ערוץ","בניית תוכנית השותפים שגורמת להם להמשיך למכור","ניהול הקשרים לטווח הארוך, לא רק עד החתימה"]},
     {"h":"מוכח בשטח",
      "p":["החתמתי מספר מפיצים ורשתות קמעונאות באזור שיצרן גלובלי כבר מחק, ובניתי רשתות מפיצים ב-FSU, באיחוד האירופי וב-APAC. שותפים הם לא לוגו על שקף. הם הכנסות, אם בוחרים ומנהלים אותם נכון."]},
+    {"img": "/img/site/distributor-booth.jpg", "alt": "טל פאפרין עם שותפי ערוץ בתערוכה", "cap": "פגישה עם המפיצים והשותפים שפותחים טריטוריות חדשות."},
   ]},
 
  {"slug":"market-entry","nav":"חדירה לשווקים ושווקים גלובליים","h1":"חדירה לשווקים בינלאומיים ושווקים גלובליים",
@@ -1371,6 +1379,17 @@ def render_logo_wall(logos):
     return '<div class="proof-logos">%s</div>' % imgs
 
 
+def render_gallery(alt="Tal Paperin in the field"):
+    d = os.path.join(ROOT, "img", "gallery")
+    if not os.path.isdir(d):
+        return ""
+    files = sorted(f for f in os.listdir(d) if f.lower().endswith(".jpg"))
+    tiles = "".join(
+        '<img src="/img/gallery/%s" alt="%s" loading="lazy" />' % (f, esc(alt))
+        for f in files)
+    return '<div class="photo-gallery">%s</div>' % tiles
+
+
 def render_quote_grid(quotes, he=False):
     return '<div class="rec-quotes">%s</div>' % "".join(_tcard(t, he) for t in quotes)
 
@@ -1525,6 +1544,8 @@ CS_PAGE_EN = '''<!doctype html>
         </div>
         <h2 class="cases-recs-h">What clients say</h2>
 {testimonials}
+        <h2 class="cases-recs-h">On the ground, on four continents</h2>
+{gallery}
 {cta}
         <div class="svc-related">See the <a href="/services/">services</a> behind these, or <a href="/blog/">read the blog</a>.</div>
       </div>
@@ -1577,6 +1598,8 @@ CS_PAGE_HE = '''<!doctype html>
         </div>
         <h2 class="cases-recs-h">מה הלקוחות אומרים</h2>
 {testimonials}
+        <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
+{gallery}
 {cta}
         <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/he/blog/">קראו את הבלוג</a>.</div>
       </div>
@@ -2156,11 +2179,13 @@ def build():
     with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
                                   cases=render_cases(CASE_STUDIES, "Result"),
-                                  testimonials=render_testimonials(cs_en), cta=CTA_BOX))
+                                  testimonials=render_testimonials(cs_en),
+                                  gallery=render_gallery(), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
                                   cases=render_cases(HE_CASES, "תוצאה"),
-                                  testimonials=render_testimonials(cs_he, he=True), cta=HE_CTA))
+                                  testimonials=render_testimonials(cs_he, he=True),
+                                  gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
 
     with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
