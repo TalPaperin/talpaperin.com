@@ -515,7 +515,11 @@ def render_llms(posts):
               "- [Services in Hebrew](%s/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew." % SITE,
               "- [International B2B sales guide (Hebrew)](%s/he/challenges): the bold guide to selling B2B internationally from Israel." % SITE,
               "", "## Blog posts"]
-    for p in posts:
+    # Lead with the broad B2B posts; the frum/heimishe niche cluster goes last.
+    def _is_niche(p):
+        return any(k in p["slug"] for k in ("frum", "heimishe", "yiddish"))
+    ordered = [p for p in posts if not _is_niche(p)] + [p for p in posts if _is_niche(p)]
+    for p in ordered:
         lines.append("- [%s](%s/blog/%s): %s" % (p["title"], SITE, p["slug"], p["description"]))
     lines += [
         "",

@@ -396,6 +396,7 @@ PAGE = '''<!doctype html>
 
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
+  {faqld}
 </head>
 <body>
 {nav}
@@ -410,6 +411,7 @@ PAGE = '''<!doctype html>
         <p class="lead">{lead}</p>
 {sections}
 {case}
+{faq}
 {cta}
         <div class="svc-related">Related services: {related} &middot; <a href="/blog/">Read the blog</a></div>
       </div>
@@ -809,6 +811,7 @@ HE_PAGE = '''<!doctype html>
 
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
+  {faqld}
 </head>
 <body>
 {nav}
@@ -823,6 +826,7 @@ HE_PAGE = '''<!doctype html>
         <p class="lead">{lead}</p>
 {sections}
 {case}
+{faq}
 {cta}
         <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/he/blog/">לבלוג</a></div>
       </div>
@@ -1739,6 +1743,69 @@ def render_faq(faqs, heading="Common questions"):
     return "\n".join(html), schema
 
 
+SERVICE_FAQS_EN = {
+ "fractional-cro":[
+  {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your strategy, team, pipeline, forecast and the number, part time, without a full-time CRO salary or a long-term lock-in."},
+  {"q":"How is a fractional CRO different from a consultant?","a":"A consultant hands you a deck and leaves. I do the work, in the pipeline and the deals, and answer for the result."},
+  {"q":"How much does a fractional CRO cost?","a":"$6,000 to $22,000 a month depending on how many hours a day you need, versus $250,000-plus for a full-time CRO, billed monthly with no contract."}],
+ "outsourced-sales":[
+  {"q":"What do I get with outsourced sales?","a":"A full team: native-speaking SDRs and AEs, senior leadership and a VP, hired, trained, managed and reported on, living outside your headcount."},
+  {"q":"When does outsourcing beat hiring in-house?","a":"When building a team is too slow, too costly or too risky for your stage. You get a working engine in weeks, not six to twelve months, with no severance risk."},
+  {"q":"Who runs the team?","a":"KSW Solutions, led by me. Twenty-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets."}],
+ "go-to-market-strategy":[
+  {"q":"What does a go-to-market engagement include?","a":"ICP, positioning, pricing, channels, a playbook and a real forecast, then I help you execute it, not just hand over slides."},
+  {"q":"Do you cover SaaS go-to-market?","a":"Yes, including SaaS GTM, as well as hardware, services and complex B2B."},
+  {"q":"Will you execute or just advise?","a":"I build the plan and then lead the execution with you until you have pipeline, partners and first sales."}],
+ "market-entry":[
+  {"q":"How do you choose which market to enter?","a":"I assess the real pain, access, willingness to pay and competition, then build only where it makes sense, instead of spreading thin across everywhere."},
+  {"q":"Have you actually opened foreign markets?","a":"Yes, repeatedly and for multiple companies, building teams, subsidiaries and support across the US, the EU, APAC and the former Soviet markets."},
+  {"q":"Do you build the operation or just the plan?","a":"Both. I plan the entry and then build and run the team, the channel and the sales on the ground."}],
+ "sales-team-building":[
+  {"q":"What does sales team building include?","a":"Recruiting, hiring, training and managing your in-house SDRs, AEs and BDs on a playbook that makes them hit quota, and replacing who cannot."},
+  {"q":"How is this different from outsourced sales?","a":"This builds your own in-house team that stays inside your company. Outsourced sales is a full team run for you outside your headcount."},
+  {"q":"How fast can a new team be productive?","a":"I build the training and the playbook around your ICP so reps ramp on a system instead of improvising every call."}],
+ "distributor-channel-recruitment":[
+  {"q":"What do you do for channel and distributors?","a":"I find, vet, sign and manage the distributors, resellers and partners that open new territories and actually deliver."},
+  {"q":"Direct sales or channel?","a":"Whichever fits the market. I decide and structure direct versus channel market by market."},
+  {"q":"Have you built distributor networks before?","a":"Yes, across Europe, South America, APAC and the former Soviet markets, for IoT, manufacturing and medical companies."}],
+ "b2g-public-sector":[
+  {"q":"What does B2G sales involve?","a":"Running RFIs, RFQs, tenders and complex government and public-sector projects, mapping the real decision-makers and the procurement path."},
+  {"q":"Have you closed government deals?","a":"Yes, internationally, including long RFI and RFQ cycles for industrial IoT into utilities and governments."},
+  {"q":"Why is B2G different from commercial sales?","a":"Different buyer, different rules and a different timeline, and the cost of getting it wrong is a year lost. I know where these deals stall."}],
+}
+
+SERVICE_FAQS_HE = {
+ "fractional-cro":[
+  {"q":"מה זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על האסטרטגיה, הצוות, הפייפליין, התחזית והמספר, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
+  {"q":"במה זה שונה מיועץ?","a":"יועץ מגיש מצגת והולך. אני עושה את העבודה, בתוך הפייפליין ובתוך העסקאות, ואחראי על התוצאה."},
+  {"q":"כמה זה עולה?","a":"בין 6,000 ל-22,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, מול 250 אלף דולר ומעלה למשרה מלאה, בתשלום חודשי בלי חוזה."}],
+ "outsourced-sales":[
+  {"q":"מה מקבלים במכירות במיקור חוץ?","a":"צוות שלם: אנשי SDR ו-AE דוברי שפת אם, הנהגה בכירה ו-VP, מגויסים, מוכשרים, מנוהלים ומדווחים, מחוץ למצבת כוח האדם שלכם."},
+  {"q":"מתי מיקור חוץ עדיף על גיוס פנימי?","a":"כשבניית צוות איטית, יקרה או מסוכנת מדי לשלב שלכם. מקבלים מנוע עובד תוך שבועות, לא שישה עד שנים-עשר חודשים, בלי סיכון פיצויים."},
+  {"q":"מי מנהל את הצוות?","a":"KSW Solutions, בהובלתי. מעל עשרים שנה של בנייה וניהול מכירות B2B בארה\"ב, אירופה, APAC והשווקים הפוסט-סובייטיים."}],
+ "go-to-market-strategy":[
+  {"q":"מה כולל פרויקט Go-To-Market?","a":"ICP, מיצוב, תמחור, ערוצים, Playbook ותחזית אמיתית, ואז אני עוזר לכם לבצע, לא רק מגיש שקפים."},
+  {"q":"האם זה כולל GTM ל-SaaS?","a":"כן, כולל GTM ל-SaaS, וגם חומרה, שירותים ו-B2B מורכב."},
+  {"q":"אתה מבצע או רק מייעץ?","a":"אני בונה את התוכנית ואז מוביל את הביצוע איתכם עד שיש פייפליין, שותפים ומכירות ראשונות."}],
+ "market-entry":[
+  {"q":"איך בוחרים לאיזה שוק להיכנס?","a":"אני בוחן את הכאב האמיתי, הנגישות, הנכונות לשלם והתחרות, ואז בונה רק איפה שהגיוני, במקום להתפזר דק על הכל."},
+  {"q":"באמת פתחת שווקים בחו\"ל?","a":"כן, יותר מפעם אחת ולמספר חברות, כולל בניית צוותים, חברות בנות ותמיכה בארה\"ב, באיחוד האירופי, ב-APAC ובשווקים הפוסט-סובייטיים."},
+  {"q":"אתה בונה את המערך או רק את התוכנית?","a":"גם וגם. אני מתכנן את הכניסה ואז בונה ומריץ את הצוות, הערוץ והמכירות בשטח."}],
+ "sales-team-building":[
+  {"q":"מה כוללת בניית צוות מכירות?","a":"גיוס, השמה, הכשרה וניהול של אנשי SDR, AE ו-BD פנימיים על Playbook שמביא אותם ליעד, והחלפה של מי שלא מתאים."},
+  {"q":"במה זה שונה ממכירות במיקור חוץ?","a":"זה בונה את הצוות הפנימי שלכם שנשאר בתוך החברה. מכירות במיקור חוץ זה צוות שלם שמורץ עבורכם מחוץ למצבת כוח האדם."},
+  {"q":"כמה מהר צוות חדש מתחיל לייצר?","a":"אני בונה את ההכשרה וה-Playbook סביב ה-ICP שלכם כך שהנציגים עולים על מערכת במקום לאלתר כל שיחה."}],
+ "distributor-channel-recruitment":[
+  {"q":"מה אתה עושה בתחום המפיצים והערוצים?","a":"אני מאתר, בודק, מחתים ומנהל את המפיצים, המשווקים והשותפים שפותחים טריטוריות חדשות ובאמת מביאים תוצאות."},
+  {"q":"מכירה ישירה או ערוץ?","a":"מה שמתאים לשוק. אני מחליט ובונה ישיר מול ערוץ, שוק אחר שוק."},
+  {"q":"בנית רשתות מפיצים בעבר?","a":"כן, באירופה, בדרום אמריקה, ב-APAC ובשווקים הפוסט-סובייטיים, ל-IoT, יצרנים וחברות רפואיות."}],
+ "b2g-public-sector":[
+  {"q":"מה כוללת מכירה B2G?","a":"ניהול מכרזים, RFIs, RFQs ופרויקטים ממשלתיים מורכבים, ומיפוי מקבלי ההחלטות האמיתיים ונתיב הרכש."},
+  {"q":"סגרת עסקאות ממשלתיות?","a":"כן, בעולם, כולל מחזורי RFI ו-RFQ ארוכים ל-IoT תעשייתי מול תאגידי מים וממשלות."},
+  {"q":"למה B2G שונה ממכירה מסחרית?","a":"קונה אחר, כללים אחרים ולוח זמנים אחר, והמחיר של טעות הוא שנה שאבדה. אני יודע איפה העסקאות האלה נתקעות."}],
+}
+
+
 GUIDES = [
  {"slug":"fractional-cro-cost",
   "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
@@ -1887,6 +1954,95 @@ GUIDES = [
     {"q":"What does a frum business consultant actually do for me?","a":"The same hard sales work any serious fractional sales leader does: strategy, team, pipeline, forecast and the number, hands-on. The difference is that you get someone who shares your values, respects your calendar, and understands the heimishe world you operate in."},
     {"q":"Can you help my frum business sell to the wider market?","a":"Yes. Taking frum-owned companies from selling inside the kehilla to selling into the US mainstream, the EU and international markets is one of the things I do best, and I also help outside companies sell respectfully into the frum market."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/market-entry">market entry</a> services, read more on the <a href="/blog/">blog</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"fractional-cro-for-saas","en_only":True,
+  "title":"Fractional CRO for SaaS Companies | Tal Paperin",
+  "desc":"A fractional CRO for B2B SaaS: ICP, pricing, the outbound motion, the team and the forecast, owned end to end, without a $250K full-time hire.",
+  "h1":"Fractional CRO for SaaS","eyebrow":"Guide",
+  "lead":"SaaS lives and dies on a repeatable motion. I build and own it: ICP, pricing, pipeline, the team and the number, without a full-time CRO salary.",
+  "sections":[
+    {"h":"Why SaaS needs this","p":[
+      "Most SaaS companies have a product and a few referral deals, then stall because there is no repeatable motion and nobody senior owns the number. A great product does not sell itself, especially into technical, skeptical buyers. I have sold SaaS to the hardest rooms there are, from AI startups to scientific software bought by universities, labs and pharma."]},
+    {"h":"What I own for a SaaS company","ul":[
+      "ICP, positioning and pricing built for how SaaS actually gets bought",
+      "The outbound and inbound motion, the playbook and the CRM and pipeline",
+      "Hiring, training and managing SDRs and AEs who can sell technical SaaS",
+      "The forecast and the number, owned end to end"]},
+    {"h":"Done before, in real SaaS","p":[
+      "At KanduAI I came in as fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through two pivots. For Synergix I sold scientific SaaS into universities, research labs and pharma, writing the scripts and playbook the reps actually ran. Different products, same discipline."]},
+  ],
+  "faqs":[
+    {"q":"What does a fractional CRO do for a SaaS company?","a":"Owns the revenue motion end to end: ICP and pricing, the outbound and inbound playbook, the CRM and pipeline, hiring and managing the reps, and the forecast, all without a full-time CRO salary."},
+    {"q":"Do you sell technical or scientific SaaS?","a":"Yes. I have sold SaaS into universities, research labs and pharma, and built the motion for AI SaaS startups from zero. Technical, skeptical buyers are exactly where most reps stall and where a real playbook wins."},
+    {"q":"How much does a fractional CRO for SaaS cost?","a":"Engagements run $6,000 to $22,000 a month depending on how many hours a day you need, far below a $250,000-plus full-time CRO hire, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"fractional-cro-for-iot-hardware","en_only":True,
+  "title":"Fractional CRO for IoT and Hardware Companies | Tal Paperin",
+  "desc":"A fractional CRO for IoT and hardware: complex B2B sales of devices, software and services, direct and through distributors, across borders.",
+  "h1":"Fractional CRO for IoT and Hardware","eyebrow":"Guide",
+  "lead":"IoT and hardware sell differently: long cycles, mixed hardware, software and services, channel and direct, often across borders. I have built and run exactly this.",
+  "sections":[
+    {"h":"Why IoT and hardware are their own sport","p":[
+      "You are selling a bundle, devices, software and services, often into utilities, manufacturers, municipalities and enterprises, with long evaluation cycles and a distributor network to manage. Generic SaaS playbooks do not fit. You need someone who has carried this exact motion."]},
+    {"h":"What I own","ul":[
+      "The global sales strategy across direct and channel",
+      "Distributor and reseller networks, recruited and managed market by market",
+      "Direct B2B sales of hardware, software and services",
+      "B2G and long RFI and RFQ cycles where they apply",
+      "The team: SDRs, post-sales and tech support, hired and run"]},
+    {"h":"Done before, in real IoT","p":[
+      "At Bacsoft, backed by Japan's SUN Corp, I owned global sales of industrial IoT to water utilities, manufacturers and smart cities, building a distributor network across continents and a live B2G pipeline. At BT9 I built an international cold-chain IoT sales operation from zero across the FSU, the EU and APAC. At LoneStar Tracking I built and ran the whole sales side for a founder-led IoT business."]},
+  ],
+  "faqs":[
+    {"q":"Do you sell hardware as well as software?","a":"Yes. IoT deals are usually a bundle of hardware, software and services, and I have run exactly that, direct and through distributors, to utilities, manufacturers, municipalities and enterprises."},
+    {"q":"Can you build and manage a distributor network for hardware?","a":"Yes. Recruiting, signing and managing distributors and resellers across markets is a core part of how I sell IoT and hardware, alongside direct sales."},
+    {"q":"Do you handle public-sector and B2G IoT deals?","a":"Yes. I have run long RFI and RFQ cycles and complex government and utility projects internationally for industrial IoT companies."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a>, <a href="/services/distributor-channel-recruitment">distributor recruitment</a> and <a href="/services/b2g-public-sector">B2G</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-medical-devices","en_only":True,
+  "title":"Fractional CRO for Medical Device Companies | Tal Paperin",
+  "desc":"A fractional CRO for medical device and medtech companies: regulated, high-trust B2B sales, distributors and direct, across the EU and beyond.",
+  "h1":"Fractional CRO for Medical Devices","eyebrow":"Guide",
+  "lead":"Medical device sales is a cautious, regulated, high-trust game. I build the commercial function, sales and the channel, for medtech selling into Europe and beyond.",
+  "sections":[
+    {"h":"Why medtech is different","p":[
+      "The buyer does not gamble. Selling devices and guided-surgery systems means a long, high-trust, regulated sale into clinicians and distributors who need proof, not a pitch. You need a full commercial function, not a single rep."]},
+    {"h":"What I own","ul":[
+      "International sales strategy across direct and distributor channels",
+      "Distributor recruitment and management across regulated markets",
+      "Direct B2B sales of devices and systems to clinical buyers",
+      "Where needed, the marketing and marcom that supports a regulated sale"]},
+    {"h":"Done before, in real medtech","p":[
+      "At TAG Medical I ran international sales of dental implants and digital guided-surgery CAD/CAM systems across the EU, driving direct B2B sales, recruiting and managing distributors across European markets, and building the marketing function, including the company's first video commercials and the launch of its digital CAD/CAM center."]},
+  ],
+  "faqs":[
+    {"q":"Do you have medical device sales experience?","a":"Yes. I ran international sales for a dental implant and guided-surgery company across the EU, both direct to clinical buyers and through a distributor network, and built the supporting marketing function."},
+    {"q":"Can you sell into regulated European markets?","a":"Yes. Cautious, regulated, high-trust markets are exactly where I have sold medtech, choosing entry markets and building the distributor and direct motion for each."},
+    {"q":"Do you handle distributors or just direct sales?","a":"Both. Medtech usually needs a distributor network plus direct selling into key accounts, and I build and run both."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a>, <a href="/services/market-entry">market entry</a> and <a href="/services/distributor-channel-recruitment">distributor recruitment</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-manufacturers","en_only":True,
+  "title":"Fractional CRO for Manufacturers | Tal Paperin",
+  "desc":"A fractional CRO for manufacturers: open new territories and channels, sign distributors and retail chains, and get product onto shelves in markets you wrote off.",
+  "h1":"Fractional CRO for Manufacturers","eyebrow":"Guide",
+  "lead":"Manufacturers grow by opening territories and channels. I find the real buyers, sign the distributors and chains, and put product on shelves, including in markets you were told had no money.",
+  "sections":[
+    {"h":"Why manufacturers stall","p":[
+      "A great product and a blank map. Most manufacturers leave whole regions empty because someone decided there was no money there, without ever testing it against the real channel and buyers on the ground. That assumption is usually a story, not a fact."]},
+    {"h":"What I own","ul":[
+      "Market-entry strategy and the milestone plan for each territory",
+      "Mapping the real channel and the decision-makers on the ground",
+      "Negotiating and signing distributors and retail chains",
+      "Direct sales into large retailers and big-box chains where it fits"]},
+    {"h":"Done before, in real manufacturing","p":[
+      "Palram, a global manufacturer, had written off Eastern Europe. I built the entry plan, mapped the channel, led every negotiation personally and signed multiple distributors and retail chains, putting product on shelves in a market they had abandoned. For SOURCE I took an unknown overseas consumer brand into major North American retail, direct to the big chains and through a distributor network."]},
+  ],
+  "faqs":[
+    {"q":"Can you open new geographic markets for a manufacturer?","a":"Yes. I build the entry plan, map the real channel and decision-makers, and sign the distributors and retail chains, including in markets a company had written off as not worth it."},
+    {"q":"Do you sell direct to retailers or only through distributors?","a":"Both. I have sold direct into large retailers and big-box chains and built distributor and reseller networks to extend reach, depending on the market."},
+    {"q":"How much does a fractional CRO for manufacturers cost?","a":"Engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no long-term lock-in, far below a full-time hire."}],
+  "related":'See the <a href="/services/market-entry">market entry</a>, <a href="/services/distributor-channel-recruitment">distributor recruitment</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/contact">get in touch</a>.'},
 ]
 
 
@@ -2105,6 +2261,8 @@ def build():
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_related(svc["slug"]),
             case=render_case_callout(SERVICE_CASE_EN.get(svc["slug"]), "Case study", "Result", "See more case studies", "/case-studies"),
+            faq=render_faq(SERVICE_FAQS_EN.get(svc["slug"]))[0],
+            faqld=render_faq(SERVICE_FAQS_EN.get(svc["slug"]))[1],
             fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX,
             ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(SVC_DIR, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
@@ -2141,6 +2299,8 @@ def build():
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_he_related(svc["slug"]),
             case=render_case_callout(SERVICE_CASE_HE.get(svc["slug"]), "מקרה לקוח", "תוצאה", "לעוד מקרי מבחן", "/he/case-studies"),
+            faq=render_faq(SERVICE_FAQS_HE.get(svc["slug"]), "שאלות נפוצות")[0],
+            faqld=render_faq(SERVICE_FAQS_HE.get(svc["slug"]), "שאלות נפוצות")[1],
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA,
             ld=ld, crumb=crumb)
         with open(os.path.join(he_dir, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
