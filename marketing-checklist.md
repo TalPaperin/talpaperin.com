@@ -27,24 +27,28 @@ traffic and inquiries, then double down on those.
 3. [x] **Fractional Jobs** - https://www.fractionaljobs.io
    Job board + list for fractional leaders. Use the email box (Function: Sales/Revenue) and
    apply directly to live CRO / VP Sales / GTM posts on the Jobs tab.
+4. [x] **Curate Partners** - https://curatepartners.com
+   Fractional leadership network. Submitted as a candidate.
 
 ## Verified live, do next
 
-4. [ ] **Bravado** - https://bravado.co
-   The big B2B sales community. Free. Strong fit for a sales leader: network, visibility,
-   referrals, and a profile buyers see. Distribution channel as much as a marketplace.
-5. [ ] **GigX** - https://www.gigx.com
-   Fractional CxO network. Join as a member/executive.
-6. [ ] **Catalant** - https://gocatalant.com
-   Enterprise consulting/expert marketplace. Larger GTM and revenue projects.
-7. [ ] **Pavilion** - https://www.joinpavilion.com
-   Revenue-leader community (paid). Network of the exact buyers and referrers you want. Do last.
+5. [ ] **Catalant** - https://gocatalant.com
+   Enterprise consulting/expert marketplace. Free for experts; buyers post GTM/revenue projects.
+   Use the "For Experts / Become an Expert" path. Best free one left.
+6. [ ] **Crunchbase** - https://www.crunchbase.com/add-new
+   Add KSW Solutions (company) and yourself (person). High-authority backlink. In progress.
 
-## Skip (verified dead or no longer self-serve)
+## Paid, optional (only if the free ones underdeliver)
+
+7. [ ] **GigX** - https://www.gigx.com/join (paid membership, see /pricing) - fractional CxO directory.
+8. [ ] **Pavilion** - https://www.joinpavilion.com (paid) - revenue-leader community, network/referrals.
+
+## Skip (verified dead, paywalled-only, or no longer self-serve)
 
 - **Bolster** (bolster.com) - pivoted to recruiter-led executive search; no self-serve member
   signup anymore, only a Contact Us form. Not worth the time.
-- **Continuity (continuity.club)** and **Continuum (joincontinuum.com)** - both domains are down
+- **Bravado** (bravado.co) - signup dead/unusable (tested June 2026). Skip.
+- **Continuity (continuity.club)** and **Continuum (joincontinuum.com)** - both domains down
   (connection refused / reset). Removed.
 
 ## Tier 2 - bigger-project and expert marketplaces (optional)
@@ -71,7 +75,7 @@ strong backlinks.
 ## Tier 4 - free high-authority profiles (do once, link to the site)
 
 16. [ ] **Crunchbase** - https://www.crunchbase.com/add-new (KSW Solutions company + you as person)
-17. [ ] **Google Business Profile** - https://business.google.com (KSW Solutions)
+17. [x] **Google Business Profile** - https://business.google.com (KSW Solutions) - done
 18. [ ] **Startup Nation Central** - https://www.startupnationcentral.org (Israeli tech ecosystem)
 19. [ ] **Wellfound (AngelList Talent)** - https://wellfound.com (advisor/fractional, startup buyers)
 
