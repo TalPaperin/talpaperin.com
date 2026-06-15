@@ -215,7 +215,7 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 @media(max-width:640px){.proof-logos{grid-template-columns:repeat(2,1fr)}.proof-logos img{height:88px}}
 
 footer{padding:38px 0;border-top:1px solid var(--line);color:var(--soft);font-size:.92rem;background:#04060a}
-footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-inline-end:84px}
 
 .wa-float{position:fixed;bottom:22px;right:22px;z-index:60;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.4)}
 .wa-float:hover{transform:scale(1.08)}
@@ -254,3 +254,8 @@ footer .inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px
 @keyframes pulseDot{0%{box-shadow:0 0 0 0 rgba(90,176,255,.45)}70%{box-shadow:0 0 0 5px rgba(90,176,255,0)}100%{box-shadow:0 0 0 0 rgba(90,176,255,0)}}
 .svc li:nth-child(even)::before,.case-study li:nth-child(even)::before,.svc-case li:nth-child(even)::before{animation-delay:1.2s}
 @media(prefers-reduced-motion:reduce){.svc li::before,.svc-case li::before,.case-study li::before{animation:none}}
+
+.foot-contact{display:flex;align-items:center;gap:12px}
+.foot-contact a{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--line);border-radius:9px;color:var(--soft);transition:border-color .2s,color .2s,transform .2s}
+.foot-contact a:hover{border-color:var(--blue);color:#fff;transform:translateY(-2px)}
+.foot-contact svg{width:18px;height:18px;display:block}
