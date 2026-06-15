@@ -505,7 +505,6 @@ INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
-      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/guides">Browse all guides and resources &rarr;</a></p>
       <h2 class="cases-recs-h">On the ground, on four continents</h2>
 {gallery}
     </div>
@@ -921,7 +920,6 @@ HE_INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
-      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/he/guides">לכל המדריכים והמשאבים &larr;</a></p>
       <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
 {gallery}
     </div>
@@ -3158,8 +3156,12 @@ def render_guides_hub(he=False):
         out.append('        <h2 class="cases-recs-h">%s</h2>' % esc(he_t if he else en_t))
         out.append('        <ul class="hub-list">')
         for g in items:
+            label = g["h1"]
+            if not he and label.startswith("Fractional CRO for "):
+                label = label[len("Fractional CRO for "):]
+                label = label[:1].upper() + label[1:]
             out.append('          <li><a href="%s%s">%s</a><span>%s</span></li>'
-                       % (base, g["slug"], esc(g["h1"]), esc(g["desc"])))
+                       % (base, g["slug"], esc(label), esc(g["desc"])))
         out.append('        </ul>')
     return "\n".join(out)
 
