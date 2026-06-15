@@ -59,7 +59,11 @@ RFC822_DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 RFC822_MONS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug",
                "Sep", "Oct", "Nov", "Dec"]
 
-ANALYTICS = ('<script src="https://analytics.ahrefs.com/analytics.js" '
+ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
+             '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>\n'
+             '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
+             "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
+             '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>')
 
 FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'

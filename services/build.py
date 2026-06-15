@@ -19,7 +19,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SVC_DIR = os.path.join(ROOT, "services")
 SITE = "https://talpaperin.com"
 
-ANALYTICS = ('<script src="https://analytics.ahrefs.com/analytics.js" '
+ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
+             '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>\n'
+             '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
+             "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
+             '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>')
 FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
@@ -1154,7 +1158,7 @@ CONTACT_JS_EN = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   <script>
     (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
-    function openCal(){if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
+    function openCal(){try{gtag('event','book_a_call');}catch(e){}if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
     function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='Thanks. Your message is on its way, I will reply within one business day.';}
     function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
       if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
@@ -1163,7 +1167,7 @@ CONTACT_JS_EN = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
       var n=f.querySelector('[name=name]').value,em=f.querySelector('[name=email]').value,msg=f.querySelector('[name=message]').value;
       b.disabled=true;b.textContent='Sending...';
       fetch('https://formspree.io/f/xykbgowb',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg})})
-        .then(function(r){if(r.ok){cfDone(f,m);}else{b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';}})
+        .then(function(r){if(r.ok){try{gtag('event','generate_lead');}catch(e){}cfDone(f,m);}else{b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';}})
         .catch(function(){b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';});
       return false;}
   </script>'''
@@ -1172,7 +1176,7 @@ CONTACT_JS_HE = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   <script>
     (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
-    function openCal(){if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
+    function openCal(){try{gtag('event','book_a_call');}catch(e){}if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
     function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='תודה. ההודעה שלך בדרך, אענה תוך יום עסקים אחד.';}
     function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
       if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
@@ -1181,7 +1185,7 @@ CONTACT_JS_HE = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
       var n=f.querySelector('[name=name]').value,em=f.querySelector('[name=email]').value,msg=f.querySelector('[name=message]').value;
       b.disabled=true;b.textContent='שולח...';
       fetch('https://formspree.io/f/xykbgowb',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg})})
-        .then(function(r){if(r.ok){cfDone(f,m);}else{b.disabled=false;b.textContent='שליחת הודעה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';}})
+        .then(function(r){if(r.ok){try{gtag('event','generate_lead');}catch(e){}cfDone(f,m);}else{b.disabled=false;b.textContent='שליחת הודעה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';}})
         .catch(function(){b.disabled=false;b.textContent='שליחת הודעה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';});
       return false;}
   </script>'''

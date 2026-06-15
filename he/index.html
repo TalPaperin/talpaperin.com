@@ -33,6 +33,9 @@
   <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
 
   <!-- Ahrefs Web Analytics -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>
 
   <script type="application/ld+json">
@@ -592,7 +595,7 @@
   </script>
 
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script>function openCal(){if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}</script>
+  <script>function openCal(){try{gtag('event','book_a_call');}catch(e){}if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}</script>
 
   <script>
   (function(){var sec=document.getElementById('cases');if(!sec)return;var src=sec.querySelector('.case-full'),track=document.getElementById('casetrack');if(src&&track){track.innerHTML=src.innerHTML+src.innerHTML;if(window.__tilt)window.__tilt('.cmarquee .case',4);}var btn=sec.querySelector('.case-toggle');if(btn){btn.addEventListener('click',function(){var open=sec.classList.toggle('cases-open');btn.textContent=open?'הצג פחות':'עוד מקרי מבחן';btn.setAttribute('aria-expanded',open?'true':'false');});}})();
