@@ -505,6 +505,7 @@ INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/guides">Browse all guides and resources &rarr;</a></p>
       <h2 class="cases-recs-h">On the ground, on four continents</h2>
 {gallery}
     </div>
@@ -920,6 +921,7 @@ HE_INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/he/guides">לכל המדריכים והמשאבים &larr;</a></p>
       <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
 {gallery}
     </div>
@@ -3121,6 +3123,149 @@ ABOUT_HE = '''<!doctype html>
 '''
 
 
+GUIDE_CATS = [
+ ("Fractional CRO, explained", "סמנכ״ל הכנסות במיקור חוץ, מוסבר", [
+   "how-to-hire-a-fractional-cro", "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
+   "fractional-cro-cost", "fractional-cro-vs-vp-of-sales", "fractional-cro-vs-outsourced-sales",
+   "interim-cro", "outsourced-cro", "fractional-vp-of-sales", "fractional-chief-sales-officer",
+   "fractional-cro-for-startups"]),
+ ("By industry", "לפי תעשייה", [
+   "fractional-cro-for-saas", "fractional-cro-for-iot-hardware", "fractional-cro-for-medical-devices",
+   "fractional-cro-for-manufacturers", "fractional-cro-for-cybersecurity", "fractional-cro-for-fintech",
+   "fractional-cro-for-defense-tech", "fractional-cro-for-ai-companies", "fractional-cro-for-digital-health",
+   "fractional-cro-for-climate-tech", "fractional-cro-for-foodtech", "fractional-cro-for-agritech",
+   "fractional-cro-for-robotics", "fractional-cro-for-semiconductors", "fractional-cro-for-logistics",
+   "fractional-cro-for-insurtech", "fractional-cro-for-proptech", "fractional-cro-for-legaltech",
+   "fractional-cro-for-hr-tech", "fractional-cro-for-edtech", "fractional-cro-for-developer-tools",
+   "fractional-cro-for-biotech", "fractional-cro-for-telecom", "fractional-cro-for-energy",
+   "fractional-cro-for-professional-services"]),
+ ("Outsourced sales and marketing", "מכירות ושיווק במיקור חוץ", [
+   "outsourced-sales-and-marketing-department", "outsourced-sdr-team", "b2b-lead-generation-services"]),
+ ("Market entry", "חדירה לשווקים", [
+   "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market", "fractional-cro-israel"]),
+ ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),
+]
+
+
+def render_guides_hub(he=False):
+    by = {g["slug"]: g for g in (HE_GUIDES if he else GUIDES)}
+    base = "/he/" if he else "/"
+    out = []
+    for en_t, he_t, slugs in GUIDE_CATS:
+        items = [by[s] for s in slugs if s in by]
+        if not items:
+            continue
+        out.append('        <h2 class="cases-recs-h">%s</h2>' % esc(he_t if he else en_t))
+        out.append('        <ul class="hub-list">')
+        for g in items:
+            out.append('          <li><a href="%s%s">%s</a><span>%s</span></li>'
+                       % (base, g["slug"], esc(g["h1"]), esc(g["desc"])))
+        out.append('        </ul>')
+    return "\n".join(out)
+
+
+HUB_PAGE_EN = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guides and Resources | Tal Paperin, Fractional CRO</title>
+  <meta name="description" content="Guides on hiring a fractional CRO, the cost and ROI, outsourced sales and marketing, and fractional revenue leadership by industry." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{site}/guides" />
+  <link rel="alternate" hreflang="en" href="{site}/guides" />
+  <link rel="alternate" hreflang="he" href="{site}/he/guides" />
+  <link rel="alternate" hreflang="x-default" href="{site}/guides" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{site}/guides" />
+  <meta property="og:title" content="Guides and Resources | Tal Paperin" />
+  <meta property="og:description" content="Everything on fractional revenue leadership: how to hire, cost, ROI, outsourced sales and marketing, and by industry." />
+  <meta property="og:image" content="{site}/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Guides and Resources | Tal Paperin" />
+  <meta name="twitter:description" content="Everything on fractional revenue leadership, by topic and by industry." />
+  <meta name="twitter:image" content="{site}/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="svc svc-wide">
+        <div class="glowline"></div>
+        <p class="eyebrow">Guides and Resources</p>
+        <h1>Guides and resources</h1>
+        <p class="lead">Everything I know about fractional revenue leadership, in plain English: how to hire one, what it costs, the ROI, outsourced sales and marketing, and how it works in your industry.</p>
+{groups}
+        <div class="svc-related">See the <a href="/services/">services</a>, the <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
+HUB_PAGE_HE = '''<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>מדריכים ומשאבים | טל פאפרין</title>
+  <meta name="description" content="מדריכים על שכירת סמנכ״ל הכנסות במיקור חוץ, העלות וה-ROI, מכירות ושיווק במיקור חוץ, והנהגת הכנסות לפי תפקיד." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{site}/he/guides" />
+  <link rel="alternate" hreflang="he" href="{site}/he/guides" />
+  <link rel="alternate" hreflang="en" href="{site}/guides" />
+  <link rel="alternate" hreflang="x-default" href="{site}/guides" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{site}/he/guides" />
+  <meta property="og:title" content="מדריכים ומשאבים | טל פאפרין" />
+  <meta property="og:description" content="הכול על הנהגת הכנסות במיקור חוץ: איך לשכור, עלות, ROI, ומכירות ושיווק במיקור חוץ." />
+  <meta property="og:image" content="{site}/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="מדריכים ומשאבים | טל פאפרין" />
+  <meta name="twitter:description" content="הכול על הנהגת הכנסות במיקור חוץ, לפי נושא." />
+  <meta name="twitter:image" content="{site}/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="svc svc-wide">
+        <div class="glowline"></div>
+        <p class="eyebrow">מדריכים ומשאבים</p>
+        <h1>מדריכים ומשאבים</h1>
+        <p class="lead">כל מה שאני יודע על הנהגת הכנסות במיקור חוץ, בעברית פשוטה: איך לשכור, כמה זה עולה, ה-ROI, ומכירות ושיווק במיקור חוץ.</p>
+{groups}
+        <div class="svc-related">ראו את <a href="/he/services/">השירותים</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+'''
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -3318,6 +3463,14 @@ def build():
             footer=HE_FOOTER, cta=HE_CTA, ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(ROOT, "he", g["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
+
+    # Guides hub (links all guides so they are not orphans)
+    with open(os.path.join(ROOT, "guides.html"), "w", encoding="utf-8") as f:
+        f.write(HUB_PAGE_EN.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
+                                   nav=NAV, footer=FOOTER, groups=render_guides_hub(False)))
+    with open(os.path.join(ROOT, "he", "guides.html"), "w", encoding="utf-8") as f:
+        f.write(HUB_PAGE_HE.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
+                                   nav=HE_NAV, footer=HE_FOOTER, groups=render_guides_hub(True)))
 
     print("Built %d EN + %d HE service pages, HE index, HE FAQ, %d guides + %d HE guides"
           % (len(SERVICES), len(HE_SERVICES), len(GUIDES), len(HE_GUIDES)))

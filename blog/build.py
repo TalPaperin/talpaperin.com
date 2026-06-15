@@ -464,6 +464,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/blog/' % SITE, '0.8', today),
         ('%s/he/blog/' % SITE, '0.7', today),
         ('%s/about' % SITE, '0.7', today),
+        ('%s/guides' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
         ('%s/recommendations' % SITE, '0.7', today),
@@ -480,6 +481,7 @@ def render_sitemap(posts, he_posts=None):
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
     urls.append(('%s/he/challenges' % SITE, '0.6', today))
     urls.append(('%s/he/about' % SITE, '0.6', today))
+    urls.append(('%s/he/guides' % SITE, '0.6', today))
     urls.append(('%s/he/case-studies' % SITE, '0.7', today))
     urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))

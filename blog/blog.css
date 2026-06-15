@@ -259,3 +259,9 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .foot-contact a{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--line);border-radius:9px;color:var(--soft);transition:border-color .2s,color .2s,transform .2s}
 .foot-contact a:hover{border-color:var(--blue);color:#fff;transform:translateY(-2px)}
 .foot-contact svg{width:18px;height:18px;display:block}
+
+.hub-list{list-style:none;display:grid;gap:12px;margin:8px 0 36px;padding:0}
+.hub-list li{padding-bottom:12px;border-bottom:1px solid var(--line)}
+.hub-list a{color:#fff;font-weight:700}
+.hub-list a:hover{color:var(--blue)}
+.hub-list span{display:block;color:var(--soft);font-size:.92rem;margin-top:3px;line-height:1.5}
