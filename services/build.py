@@ -2327,16 +2327,11 @@ ABOUT_EN = '''<!doctype html>
         <p>Along the way I have managed international distributor networks, owned CRM architecture and the sales stack, and run market-entry strategies, including putting written-off products back onto retail shelves across Eastern Europe, EMEA and APAC. Different products, different buyers, the same discipline: own the number, do the work.</p>
 
         <h2>KSW Solutions</h2>
-        <p>I am Managing Partner at KSW Solutions, the consulting firm I co-lead with Samantha Paperin, our fractional CMO. We deliver field-ready sales and marketing operations, not slideware. The work centers on four things:</p>
-        <ul>
-          <li>Fractional CRO and VP of Sales leadership: pipeline execution, forecasting and revenue operations for startups and mid-market</li>
-          <li>Sales strategy and go-to-market architecture: ICPs, commission plans and sales funnels built to run</li>
-          <li>Sales training and playbooks: hands-on behavioral training, including multi-module systems, to lift outbound, call quality and win rates</li>
-          <li>Industries from global consumer brands to healthcare SaaS, IoT, medical devices and hardware</li>
-        </ul>
+        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the firm I co-lead with Samantha Paperin, is an entire sales and marketing department for hire. Not advisors on the side, the whole function under one roof: the people and the senior leadership both. SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that runs them, hired, trained, managed and accountable. A company can outsource the entire revenue engine to us instead of building it.</p>
+        <p>We deliver field-ready operations, not slideware, across SaaS, IoT and hardware, medical devices, manufacturing and consumer brands.</p>
 
         <h2>TheDealMentor.AI</h2>
-        <p>Early-stage founders and lean teams rarely have access to senior sales leadership. So I built TheDealMentor.AI, a virtual CRO companion that automates the playbooks and structures complex deal-handling without the overhead of an executive retainer.</p>
+        <p>Early-stage founders and lean teams rarely have access to senior sales leadership. So I built <a href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>, a virtual CRO companion that automates the playbooks and structures complex deal-handling without the overhead of an executive retainer.</p>
 
         <h2>Background and credentials</h2>
         <ul>
@@ -2413,16 +2408,11 @@ ABOUT_HE = '''<!doctype html>
         <p>בדרך ניהלתי רשתות מפיצים בינלאומיות, הייתי אחראי על ארכיטקטורת ה-CRM ומערך המכירות, והרצתי אסטרטגיות חדירה לשווקים, כולל החזרת מוצרים שנמחקו אל מדפי הקמעונאות במזרח אירופה, EMEA ו-APAC. מוצרים שונים, קונים שונים, אותה משמעת: לקחת אחריות על התוצאות, ולעשות את העבודה.</p>
 
         <h2>KSW Solutions</h2>
-        <p>אני שותף מנהל ב-KSW Solutions, חברת הייעוץ שאני מוביל יחד עם סמנתה פאפרין, ה-CMO במיקור חוץ שלנו. אנחנו מספקים מערכי מכירות ושיווק מוכנים לשטח, לא מצגות. העבודה מתמקדת בארבעה דברים:</p>
-        <ul>
-          <li>הנהגת סמנכ״ל מכירות ו-VP מכירות במיקור חוץ: ביצוע פייפליין, תחזיות וניהול הכנסות לסטארטאפים ולמיד-מרקט</li>
-          <li>אסטרטגיית מכירות וארכיטקטורת Go-To-Market: ICP, תוכניות עמלות ומשפכי מכירה שבנויים לרוץ</li>
-          <li>הכשרת מכירות ו-playbooks: הכשרה התנהגותית מעשית, כולל מערכים רב-מודולריים, לשיפור האאוטבאונד, איכות השיחה ואחוזי הסגירה</li>
-          <li>תעשיות ממותגי צריכה גלובליים ועד healthcare SaaS, IoT, מכשור רפואי וחומרה</li>
-        </ul>
+        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שאני מוביל יחד עם סמנתה פאפרין, היא מחלקת מכירות ושיווק שלמה להשכרה. לא יועצים מהצד, אלא כל הפונקציה תחת קורת גג אחת: גם האנשים וגם ההנהגה הבכירה. אנשי SDR, AE, BD ושיווק, יחד עם ההנהלה ברמת VP ו-CRO שמנהלת אותם, מגויסים, מוכשרים, מנוהלים ואחראים. חברה יכולה להוציא אלינו את כל מנוע ההכנסות למיקור חוץ במקום לבנות אותו.</p>
+        <p>אנחנו מספקים מערכים מוכנים לשטח, לא מצגות, ב-SaaS, IoT וחומרה, מכשור רפואי, תעשייה ומותגי צריכה.</p>
 
         <h2>TheDealMentor.AI</h2>
-        <p>למייסדים בשלבים מוקדמים ולצוותים רזים כמעט אף פעם אין גישה להנהגת מכירות בכירה. אז בניתי את TheDealMentor.AI, מלווה CRO וירטואלי שמכניס ל-playbooks אוטומציה ומבנה לטיפול בעסקאות מורכבות, בלי העלות של ריטיינר למנהל בכיר.</p>
+        <p>למייסדים בשלבים מוקדמים ולצוותים רזים כמעט אף פעם אין גישה להנהגת מכירות בכירה. אז בניתי את <a href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>, מלווה CRO וירטואלי שמכניס ל-playbooks אוטומציה ומבנה לטיפול בעסקאות מורכבות, בלי העלות של ריטיינר למנהל בכיר.</p>
 
         <h2>רקע והסמכות</h2>
         <ul>
