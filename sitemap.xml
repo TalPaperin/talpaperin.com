@@ -535,6 +535,12 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/blog/eurosatory-outbound-beats-inbound</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/blog/how-to-price-a-b2b-product</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1598,6 +1604,12 @@
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/b2b-pricing-models</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/eurosatory-outbound-beats-inbound</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-06-15</lastmod>
