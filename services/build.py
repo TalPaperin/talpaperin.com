@@ -2442,6 +2442,198 @@ GUIDES = [
     {"q":"Do I need a US entity and US reps?","a":"Often eventually, but not always on day one. I help you sequence it: prove the motion, then stand up the presence and team, direct or through partners, when it is justified."},
     {"q":"What does this cost?","a":"Fractional engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
   "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"outsourced-cro","en_only":True,
+  "title":"Outsourced CRO | Tal Paperin",
+  "desc":"An outsourced CRO who owns your revenue function from outside your headcount: strategy, team, pipeline and the number, without a full-time hire.",
+  "h1":"Outsourced CRO","eyebrow":"Guide",
+  "lead":"Outsource the revenue leadership itself. I own your strategy, team, pipeline and number from outside your headcount: the senior operator you need without a full-time hire.",
+  "sections":[
+    {"h":"Outsourced CRO, fractional CRO, same idea","p":["Outsourced CRO, fractional CRO and part-time CRO all describe the same thing: senior revenue leadership you bring in from outside instead of hiring full-time. You get someone who has run the function before, owning the number, for the part of the week you need and the months you need it."]},
+    {"h":"What I own","ul":["Revenue strategy, the forecast and the accountability","The go-to-market motion, the pipeline and the team that runs it","Hiring, training and the hard calls on who stays","Marketing that feeds pipeline, not just activity","The number itself, end to end"]},
+    {"h":"Why outsource it","p":["A full-time CRO costs $250,000-plus all in, takes months to find and ramp, and carries real severance risk. Outsourcing the role gives you the same senior ownership in weeks, billed monthly, with no lock-in. When the function is big enough to justify a full-time hire, I help you make it and hand over."]},
+  ],
+  "faqs":[
+    {"q":"What is an outsourced CRO?","a":"A senior revenue leader who owns your sales and revenue function from outside your headcount, part-time and on monthly terms, instead of a full-time CRO hire. The same as a fractional CRO."},
+    {"q":"How is it different from a consultant?","a":"A consultant advises. An outsourced CRO owns the work, the pipeline and the number, and answers for the result."},
+    {"q":"What does an outsourced CRO cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time CRO."}],
+  "related":'See <a href="/how-to-hire-a-fractional-cro">how to hire one</a> and the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-insurtech","en_only":True,
+  "title":"Fractional CRO for Insurtech Companies | Tal Paperin",
+  "desc":"A fractional CRO for insurtech: selling to carriers, brokers and a regulated, conservative industry through long cycles, owned end to end.",
+  "h1":"Fractional CRO for Insurtech","eyebrow":"Industry",
+  "lead":"Insurtech sells into carriers, brokers and a cautious, regulated industry through long cycles and partnerships. I build and own the revenue motion that wins those deals.",
+  "sections":[
+    {"h":"Why insurtech sales are hard","p":["You sell into carriers, MGAs and brokers: conservative, regulated buyers with committees, compliance and procurement, and a strong preference for partners over newcomers. Distribution often runs through the incumbents you are trying to disrupt. It takes a motion built for long, relationship-heavy, regulated sales and someone senior owning the pipeline."]},
+    {"h":"What I build","ul":["An ICP and message for carriers, MGAs and brokers","A motion that survives compliance, procurement and committees","Carrier and broker partnerships that become distribution","Reps who can run a long, multi-stakeholder regulated sale","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for regulated, partnership-driven sales","p":["I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across four continents, and built channel and partner networks that became real distribution. That is the shape of an insurtech sale."]},
+  ],
+  "faqs":[
+    {"q":"Have you sold into regulated, conservative industries?","a":"Yes. I have run complex, multi-stakeholder regulated deals with formal procurement across four continents, the same dynamics as selling to carriers and brokers."},
+    {"q":"Can you build carrier and broker partnerships?","a":"Yes. Insurtech distribution often runs through carriers and brokers, and building and managing those partnerships is part of the work."},
+    {"q":"What does a fractional CRO for insurtech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/distributor-channel-recruitment">channel</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-proptech","en_only":True,
+  "title":"Fractional CRO for Proptech Companies | Tal Paperin",
+  "desc":"A fractional CRO for proptech and real-estate tech: selling to owners, operators and brokerages in a slow-moving industry, owned end to end.",
+  "h1":"Fractional CRO for Proptech","eyebrow":"Industry",
+  "lead":"Proptech sells into owners, operators and brokerages, a relationship-driven, slow-to-change industry. I build and own the revenue motion that gets you adopted at scale.",
+  "sections":[
+    {"h":"Why proptech sales are hard","p":["Real estate owners, operators and brokerages are relationship-driven, fragmented and slow to adopt new tools, and a pilot in one building rarely rolls out on its own. You need a motion that lands the first accounts, proves ROI on the ground, and turns pilots into portfolio-wide deals, owned by someone senior."]},
+    {"h":"What I build","ul":["An ICP and ROI-driven message for owners, operators and brokerages","A motion that turns single-site pilots into portfolio rollouts","Direct sales into large owners and operators","Partnerships and channels that reach a fragmented market","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for relationship-driven, on-the-ground sales","p":["I have opened markets on the ground across four continents, sold direct into large accounts and built the channel to reach fragmented buyers. Proptech rewards exactly that mix of direct selling and a real channel."]},
+  ],
+  "faqs":[
+    {"q":"Can you turn proptech pilots into bigger deals?","a":"Yes. The job is building a motion that proves ROI in the first sites and expands pilots into portfolio-wide rollouts, not leaving them stuck as one-offs."},
+    {"q":"Do you sell direct or through channel?","a":"Both. Proptech usually needs direct sales into large owners and operators plus partnerships to reach a fragmented market."},
+    {"q":"What does a fractional CRO for proptech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-legaltech","en_only":True,
+  "title":"Fractional CRO for Legaltech Companies | Tal Paperin",
+  "desc":"A fractional CRO for legaltech: selling to law firms and general counsel, conservative buyers and procurement, owned end to end.",
+  "h1":"Fractional CRO for Legaltech","eyebrow":"Industry",
+  "lead":"Legaltech sells into law firms and general counsel, conservative buyers who move slowly and buy by committee. I build and own the revenue motion that wins those accounts.",
+  "sections":[
+    {"h":"Why legaltech sales are hard","p":["Law firms and in-house legal teams are risk-averse, consensus-driven and slow to change tools, with partners, committees and procurement all in the path. Adoption stalls without a clear ROI case and a motion built for cautious, multi-stakeholder buyers, owned by someone senior."]},
+    {"h":"What I build","ul":["An ICP and message for law firms and general counsel","A motion that handles committees, partners and procurement","A clear ROI and risk case the buyer can defend internally","Reps who can run a long, consensus-driven sale","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for conservative, multi-stakeholder buyers","p":["I have run complex, high-value B2B deals with many stakeholders and formal procurement across four continents. The careful, consensus-driven legal buyer is exactly that kind of sale."]},
+  ],
+  "faqs":[
+    {"q":"Have you sold to conservative, committee-driven buyers?","a":"Yes. Complex, multi-stakeholder deals with procurement and a long road to consensus are the deals I have run for years, the same shape as selling to law firms."},
+    {"q":"How do you speed up a slow legal sale?","a":"With a clear ROI and risk case the buyer can defend internally, and a motion that keeps every stakeholder moving instead of letting the deal stall."},
+    {"q":"What does a fractional CRO for legaltech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/contract-negotiation">contract negotiation</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-hr-tech","en_only":True,
+  "title":"Fractional CRO for HR Tech Companies | Tal Paperin",
+  "desc":"A fractional CRO for HR tech: selling to People and HR leaders in a crowded market, mid-market and enterprise, owned end to end.",
+  "h1":"Fractional CRO for HR Tech","eyebrow":"Industry",
+  "lead":"HR tech is a crowded market selling into People and HR leaders with real budget scrutiny. I build and own the motion that cuts through and closes, mid-market and enterprise.",
+  "sections":[
+    {"h":"Why HR tech sales are hard","p":["You sell into People, HR and finance leaders in one of the most crowded software categories there is, where every competitor sounds the same and budgets get hard scrutiny. Winning takes a sharp ICP and differentiation, a motion built for mid-market and enterprise procurement, and someone senior owning the pipeline."]},
+    {"h":"What I build","ul":["An ICP and differentiated message in a crowded category","A motion built for mid-market and enterprise buying","Reps who can sell value, not feature parity","Partnerships and channels where they shorten the path","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for crowded, competitive B2B","p":["I have built go-to-market from zero in competitive categories, sharpened positioning so reps sell value instead of features, and run the mid-market and enterprise motion. That is what HR tech needs to stand out."]},
+  ],
+  "faqs":[
+    {"q":"How do you stand out in a crowded category?","a":"With a sharp ICP, real differentiation and a motion that sells value and outcomes, not feature parity, so you stop competing on the same checklist as everyone else."},
+    {"q":"Mid-market or enterprise?","a":"Both. I build the motion and the team for the segment that fits your product and pricing, and the procurement that comes with it."},
+    {"q":"What does a fractional CRO for HR tech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-edtech","en_only":True,
+  "title":"Fractional CRO for Edtech Companies | Tal Paperin",
+  "desc":"A fractional CRO for edtech: selling to schools, universities and districts through budget cycles and procurement, owned end to end.",
+  "h1":"Fractional CRO for Edtech","eyebrow":"Industry",
+  "lead":"Edtech sells into schools, universities and districts through budget cycles, committees and procurement that look a lot like government buying. I build and own the motion that wins.",
+  "sections":[
+    {"h":"Why edtech sales are hard","p":["Selling to schools, universities and districts means fixed budget cycles, committees, procurement and pilots, and buyers who are cautious and accountable to many stakeholders. It is close to a public-sector sale, and most commercial teams stall in it. The fix is a motion built for that reality and senior ownership of the pipeline."]},
+    {"h":"What I build","ul":["An ICP and message for schools, universities and districts","A motion timed to budget cycles, pilots and procurement","Reps who can run a long, multi-stakeholder institutional sale","Partnerships and channels that open institutional doors","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for institutional and public-sector sales","p":["I have sold scientific software into universities and research labs, and run B2G and complex public-sector deals with formal procurement across the globe. Edtech buying sits squarely in that institutional world."]},
+  ],
+  "faqs":[
+    {"q":"Have you sold into universities and institutions?","a":"Yes. I have sold scientific software into universities and research labs and run B2G and public-sector deals with formal procurement, the same dynamics as edtech."},
+    {"q":"Can you work within budget cycles and procurement?","a":"Yes. I time the motion to budget cycles and pilots and build a sale that survives committees and procurement."},
+    {"q":"What does a fractional CRO for edtech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/b2g-public-sector">B2G and public-sector</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-developer-tools","en_only":True,
+  "title":"Fractional CRO for Developer Tools Companies | Tal Paperin",
+  "desc":"A fractional CRO for developer tools and infrastructure: bottoms-up adoption plus enterprise expansion, technical buyers, owned end to end.",
+  "h1":"Fractional CRO for Developer Tools","eyebrow":"Industry",
+  "lead":"Developer tools win bottoms-up with engineers, then have to turn usage into enterprise revenue. I build and own the motion that converts adoption into contracts.",
+  "sections":[
+    {"h":"Why developer-tools sales are hard","p":["Engineers adopt your tool, but adoption is not revenue. The hard part is converting bottoms-up usage into enterprise contracts: finding the budget owner, building the business case, and running the security and procurement gauntlet, without alienating the developers who got you in. Most teams have the usage and no motion to monetize it."]},
+    {"h":"What I build","ul":["A motion that turns bottoms-up adoption into enterprise deals","The enterprise sale on top of self-serve: budget owner, business case, procurement","Reps who can sell to technical buyers without losing trust","Pricing and packaging across free, team and enterprise","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built selling to technical buyers","p":["I have built sales motions for technical, skeptical buyers, from AI startups to scientific software bought by universities, labs and pharma. Selling on top of a developer base, without breaking the trust that got you there, is exactly that discipline."]},
+  ],
+  "faqs":[
+    {"q":"Can you monetize a bottoms-up developer base?","a":"Yes. The job is building the enterprise motion on top of adoption: finding the budget owner, making the business case and running procurement, while keeping the developers who got you in."},
+    {"q":"Do you understand technical buyers?","a":"Yes. I have built and run sales into technical, skeptical buyers for years, where trust and a credible technical sale win the deal."},
+    {"q":"What does a fractional CRO for developer tools cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/fractional-cro-for-saas">SaaS</a> and <a href="/fractional-cro-for-ai-companies">AI</a> guides and the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-biotech","en_only":True,
+  "title":"Fractional CRO for Biotech and Life Sciences | Tal Paperin",
+  "desc":"A fractional CRO for biotech, life sciences and lab tech: scientific buyers, pharma, research labs and long technical cycles, owned end to end.",
+  "h1":"Fractional CRO for Biotech and Life Sciences","eyebrow":"Industry",
+  "lead":"Biotech and life-sciences tools sell into scientists, labs and pharma through long, evidence-driven, technical cycles. I have sold into exactly those buyers, and I build the motion for them.",
+  "sections":[
+    {"h":"Why life-sciences sales are hard","p":["Your buyers are scientists, lab directors, research institutions and pharma: rigorous, evidence-driven and slow, with procurement, grants and committees in the path. The sale is long, technical and built on credibility, and a generic SaaS motion does not move it."]},
+    {"h":"What I build","ul":["An ICP and message for scientific, research and pharma buyers","A motion built for long, evidence-driven, technical evaluations","Reps who can hold a credible scientific and technical conversation","Partnerships and distribution into labs and institutions","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Done in real scientific sales","p":["I sold scientific SaaS into universities, research labs and pharma, writing the scripts and the playbook the reps ran. Selling to the scientific buyer, where the sale is long, technical and built entirely on trust, is something I have actually done."]},
+  ],
+  "faqs":[
+    {"q":"Have you sold to scientific and pharma buyers?","a":"Yes. I sold scientific software into universities, research labs and pharma and built the playbook the reps ran. That credibility-driven, technical sale is exactly this market."},
+    {"q":"Can you handle long, evidence-driven cycles?","a":"Yes. I build a motion that survives technical evaluation, grants and procurement and keeps long deals moving."},
+    {"q":"What does a fractional CRO for biotech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/fractional-cro-for-medical-devices">medical devices</a> and <a href="/fractional-cro-for-digital-health">digital health</a> guides, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-telecom","en_only":True,
+  "title":"Fractional CRO for Telecom Companies | Tal Paperin",
+  "desc":"A fractional CRO for telecom and connectivity: selling to carriers and operators through RFPs, long procurement and channel, owned end to end.",
+  "h1":"Fractional CRO for Telecom","eyebrow":"Industry",
+  "lead":"Telecom sells into carriers and operators through RFPs, long procurement and a global channel. I build and own the revenue motion that wins those deals.",
+  "sections":[
+    {"h":"Why telecom sales are hard","p":["Carriers and operators are large, bureaucratic and slow, buying through RFPs, long procurement and entrenched vendor relationships, often across borders. It is one of the hardest enterprise sales there is, and it needs someone who has run formal, multi-stakeholder, international deals owning the pipeline."]},
+    {"h":"What I build","ul":["An ICP and message for carriers, operators and large enterprises","A motion built for RFPs, procurement and long cycles","The channel: integrators, resellers and partners that carry telecom","Direct relationships with key carrier and operator accounts","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for formal, international, channel sales","p":["I have run B2G and complex public-sector deals with RFIs and RFQs, built international distributor and channel networks, and managed long, formal procurement across four continents. Telecom sits squarely in that world."]},
+  ],
+  "faqs":[
+    {"q":"Can you run RFP and procurement-driven deals?","a":"Yes. Formal RFIs, RFQs, RFPs and long procurement with many stakeholders are deals I have run internationally for years."},
+    {"q":"Can you build the telecom channel?","a":"Yes. Telecom often sells through integrators and partners, and building and managing international channel networks is core to what I do."},
+    {"q":"What does a fractional CRO for telecom cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/b2g-public-sector">B2G</a>, <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-energy","en_only":True,
+  "title":"Fractional CRO for Energy Companies | Tal Paperin",
+  "desc":"A fractional CRO for energy, utilities and industrial tech: long project cycles, B2G and channel, owned end to end without a full-time hire.",
+  "h1":"Fractional CRO for Energy","eyebrow":"Industry",
+  "lead":"Energy and utility tech sells into industrials, utilities and governments through long, project-driven cycles. I have sold into exactly these buyers, and I build the motion for them.",
+  "sections":[
+    {"h":"Why energy sales are hard","p":["You sell into utilities, energy companies, industrials and governments: capital buyers with long cycles, pilots, procurement, regulation and project financing. A great technology is not enough; you need a motion built for complex, multi-stakeholder, often public-sector buying, owned by someone senior."]},
+    {"h":"What I build","ul":["An ICP and message for utility, industrial and government buyers","A motion that handles pilots, procurement and long project cycles","B2G and public-sector deals where the buyer is a government or utility","The channel and partnerships that carry industrial products","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for industrial and B2G sales","p":["I built and ran international sales for IoT and hardware companies selling devices, software and services into utilities and governments, including long RFI and RFQ cycles, and recruited the distributor networks that carry industrial products. That is the shape of an energy-tech sale."]},
+  ],
+  "faqs":[
+    {"q":"Have you sold into utilities and government?","a":"Yes. I have built and run sales of industrial IoT, hardware and services into utilities and governments, including long RFI and RFQ cycles."},
+    {"q":"Can you handle long, project-driven cycles?","a":"Yes. I build a motion that survives pilots, procurement and project timelines and keeps capital deals moving to signature."},
+    {"q":"What does a fractional CRO for energy cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/fractional-cro-for-climate-tech">climate tech</a> and <a href="/fractional-cro-for-iot-hardware">IoT and hardware</a> guides, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-professional-services","en_only":True,
+  "title":"Fractional CRO for Professional Services Firms | Tal Paperin",
+  "desc":"A fractional CRO for agencies, consultancies and professional-services firms: building real business development beyond founder-led referrals.",
+  "h1":"Fractional CRO for Professional Services","eyebrow":"Industry",
+  "lead":"Agencies and consultancies live on referrals and the founder's network, then plateau. I build the business-development engine that grows revenue beyond who you already know.",
+  "sections":[
+    {"h":"Why professional-services firms plateau","p":["Agencies, consultancies and services firms grow on referrals and the founders' relationships, then hit a ceiling when those run out. Most have never built real business development: a defined ICP, an outbound motion, a pipeline and someone who owns the number instead of waiting for the phone to ring."]},
+    {"h":"What I build","ul":["A defined ICP and positioning beyond word of mouth","A real business-development motion and pipeline","The first business-development hires, trained and managed","The founders out of every pitch and into the right ones","The pipeline, the forecast and the number, owned end to end"]},
+    {"h":"Built for relationship and services selling","p":["I have built go-to-market from zero and run the kind of relationship-driven, trust-based selling that services firms depend on, across four continents. The same discipline turns a referral business into one with a real pipeline."]},
+  ],
+  "faqs":[
+    {"q":"Can you grow a referral-based services firm?","a":"Yes. The job is building real business development on top of referrals: an ICP, an outbound motion, a pipeline and someone owning the number, so growth does not depend on who you already know."},
+    {"q":"Will the founders still need to sell?","a":"Less, and on the right deals. I build the motion and the team so the founders are not the only ones who can win business."},
+    {"q":"What does a fractional CRO for professional services cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"fractional-cro-for-the-us-market","en_only":True,
+  "title":"Fractional CRO for the US Market | Tal Paperin",
+  "desc":"A fractional CRO to take a foreign or global company into the US market: pick the beachhead, build the motion and the team, and sell, on US hours.",
+  "h1":"Fractional CRO for the US Market","eyebrow":"Market Entry",
+  "lead":"The US is the prize and the place most foreign companies burn cash. I help you enter it the right way: pick the beachhead, build the motion and the team, and open the first accounts, on US hours.",
+  "sections":[
+    {"h":"Why foreign companies stall in the US","p":["Companies from Europe, Israel, APAC and beyond bring a product that works at home and run the US sale on home assumptions: the wrong ICP, a message that does not land, no US presence and leadership eight time zones away. The US rewards focus and presence, and punishes a part-time experiment run from abroad."]},
+    {"h":"What I do","ul":["Pick the right beachhead segment instead of spreading thin","Adapt the ICP, positioning and pricing for the US buyer","Build the motion, hire the first US reps and manage them","Open the first accounts and lead the key deals personally","Stand up the US presence, direct or through partners"]},
+    {"h":"Built for cross-border entry into the US","p":["I am based in Israel and work US hours, and I have built and run sales in the US and across four continents and 40-plus countries for foreign and global companies. I know the expensive mistakes before you make them, and I have opened markets others wrote off."]},
+  ],
+  "faqs":[
+    {"q":"Can you take a foreign company into the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
+    {"q":"Do I need a US entity and US team on day one?","a":"Not always. I help you sequence it: prove the motion first, then stand up the presence and team, direct or through partners, when it is justified."},
+    {"q":"What does this cost?","a":"Fractional engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
+  "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/us-market-entry-for-israeli-startups">US entry for Israeli startups</a> guide, or <a href="/contact">get in touch</a>.'},
 ]
 
 
