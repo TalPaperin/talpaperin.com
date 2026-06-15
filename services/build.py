@@ -2090,7 +2090,7 @@ GUIDES = [
     {"q":"How much does a fractional CRO for manufacturers cost?","a":"Engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no long-term lock-in, far below a full-time hire."}],
   "related":'See the <a href="/services/market-entry">market entry</a>, <a href="/services/distributor-channel-recruitment">distributor recruitment</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/contact">get in touch</a>.'},
 
- {"slug":"how-to-hire-a-fractional-cro","en_only":True,
+ {"slug":"how-to-hire-a-fractional-cro",
   "title":"How to Hire a Fractional CRO (Practical Guide) | Tal Paperin",
   "desc":"How to hire a fractional CRO: when you need one, what to look for, the questions to ask, and what it costs.",
   "h1":"How to Hire a Fractional CRO","eyebrow":"Guide",
@@ -2107,7 +2107,7 @@ GUIDES = [
     {"q":"Fractional CRO or full-time CRO?","a":"Hire fractional when the work is not yet a full week or you need results now without the cost and risk of a full-time hire. Move to full-time when the function is big enough to justify a senior salary all year."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service, compare <a href="/fractional-cro-vs-vp-of-sales">CRO vs VP of Sales</a> and <a href="/fractional-cro-cost">the cost</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
- {"slug":"when-do-you-need-a-fractional-cro","en_only":True,
+ {"slug":"when-do-you-need-a-fractional-cro",
   "title":"When Do You Need a Fractional CRO? The Signs | Tal Paperin",
   "desc":"The clear signs you need a fractional CRO: stalled revenue, no owner of the number, churned VPs, a great product that will not sell.",
   "h1":"When Do You Need a Fractional CRO?","eyebrow":"Guide",
@@ -2123,7 +2123,7 @@ GUIDES = [
     {"q":"How quickly will I see results?","a":"You get a diagnosis in week one and a plan and forecast in week two. Pipeline and process improvements follow as the motion gets built and run."}],
   "related":'See <a href="/how-to-hire-a-fractional-cro">how to hire a fractional CRO</a>, the <a href="/services/fractional-cro">service</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
- {"slug":"fractional-cro-for-startups","en_only":True,
+ {"slug":"fractional-cro-for-startups",
   "title":"Fractional CRO for Startups | Tal Paperin",
   "desc":"A fractional CRO for startups: senior revenue leadership from first revenue to Series B without a full-time hire. The motion, the team and the number.",
   "h1":"Fractional CRO for Startups","eyebrow":"For Startups",
@@ -2139,7 +2139,7 @@ GUIDES = [
     {"q":"Will you actually sell or just advise?","a":"I sell and build. I get in the pipeline and the deals, hire and manage the reps, and own the forecast, not a slide deck."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">tell me where revenue stalled</a>.'},
 
- {"slug":"interim-cro","en_only":True,
+ {"slug":"interim-cro",
   "title":"Interim CRO | Tal Paperin",
   "desc":"An interim CRO to own revenue during a gap, a transition or a turnaround. Senior leadership in the seat now, hands-on, without a permanent hire.",
   "h1":"Interim CRO","eyebrow":"Guide",
@@ -2155,7 +2155,7 @@ GUIDES = [
     {"q":"Can you hand over to a permanent CRO?","a":"Yes. Part of an interim engagement is leaving a stronger, documented function and a clean handover to whoever takes the seat permanently."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service or <a href="/contact">get in touch</a>.'},
 
- {"slug":"fractional-vp-of-sales","en_only":True,
+ {"slug":"fractional-vp-of-sales",
   "title":"Fractional VP of Sales | Tal Paperin",
   "desc":"A fractional VP of Sales who builds and runs your sales team, the playbook and the pipeline, hands-on, without a full-time hire.",
   "h1":"Fractional VP of Sales","eyebrow":"Guide",
@@ -2171,7 +2171,7 @@ GUIDES = [
     {"q":"How much does a fractional VP of Sales cost?","a":"Typically $6,000 to $22,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/sales-team-building">team building</a> services, or <a href="/contact">get in touch</a>.'},
 
- {"slug":"fractional-chief-sales-officer","en_only":True,
+ {"slug":"fractional-chief-sales-officer",
   "title":"Fractional Chief Sales Officer (CSO) | Tal Paperin",
   "desc":"A fractional Chief Sales Officer who owns the sales organization, strategy and number, hands-on, without a full-time executive salary.",
   "h1":"Fractional Chief Sales Officer","eyebrow":"Guide",
@@ -2187,7 +2187,7 @@ GUIDES = [
     {"q":"What does it cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service or <a href="/contact">get in touch</a>.'},
 
- {"slug":"fractional-cro-roi","en_only":True,
+ {"slug":"fractional-cro-roi",
   "title":"Is a Fractional CRO Worth It? The ROI | Tal Paperin",
   "desc":"The business case for a fractional CRO: what it costs, what it returns, and how it compares to a full-time hire or doing nothing.",
   "h1":"Is a Fractional CRO Worth It?","eyebrow":"Guide",
@@ -2443,7 +2443,7 @@ GUIDES = [
     {"q":"What does this cost?","a":"Fractional engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
   "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide, or <a href="/contact">get in touch</a>.'},
 
- {"slug":"outsourced-cro","en_only":True,
+ {"slug":"outsourced-cro",
   "title":"Outsourced CRO | Tal Paperin",
   "desc":"An outsourced CRO who owns your revenue function from outside your headcount: strategy, team, pipeline and the number, without a full-time hire.",
   "h1":"Outsourced CRO","eyebrow":"Guide",
@@ -2821,6 +2821,135 @@ HE_GUIDES = [
     {"q":"ומה אם זה לא עובד?","a":"אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."},
     {"q":"אתה באמת עושה את המכירה, או רק מייעץ?","a":"אני עושה את המכירה. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר ואני עדיין עובד ידיים בבוץ בפייפליין ובעסקאות, לא רק במצגות אסטרטגיה."}],
   "related":'השוו את <a href="/he/fractional-cro-cost">העלות</a>, ראו <a href="/he/fractional-cro-vs-outsourced-sales">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול מכירות במיקור חוץ</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/when-to-hire-vp-sales">מתי לגייס סמנכ״ל מכירות</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
+
+ {"slug":"how-to-hire-a-fractional-cro",
+  "title":"איך לשכור Fractional CRO (מדריך מעשי) | טל פאפרין",
+  "desc":"איך לשכור סמנכ״ל הכנסות במיקור חוץ: מתי צריך אחד, מה לחפש, אילו שאלות לשאול, וכמה זה עולה.",
+  "h1":"איך לשכור Fractional CRO","eyebrow":"מדריך",
+  "lead":"סמנכ״ל הכנסות במיקור חוץ יכול לתקן את ההכנסות שלכם בלי גיוס של רבע מיליון דולר, אבל רק אם תבחרו את הנכון. הנה איך, ממישהו שישב בכיסא הזה יותר מ-30 פעמים.",
+  "sections":[
+    {"h":"מתי אתם מוכנים לאחד","p":["אתם מוכנים כשההכנסות נתקעו ואף אחד בכיר לא אחראי על התוצאות, כשאתם צריכים תוצאות לפני שאפשר להצדיק משרה מלאה, או כששרפתם כסף על גיוסי VP שלא הזיזו את התוצאות. אם אתם רק צריכים עוד ידיים, גייסו נציגים. אם אתם צריכים מישהו שייקח אחריות על האסטרטגיה, הצוות והתחזית, גייסו CRO."]},
+    {"h":"מה לחפש","ul":["איש ביצוע שנשא אחריות על תוצאות, לא יועץ שמגיש מצגת","ניסיון מעשי במכירה מהסוג שלכם: B2B, גודל העסקה שלכם, התהליך שלכם","נכונות לקחת אחריות על גיוס, הכשרה והחלפה של נציגים, לא רק לייעץ","גישה ברורה של אבחון ואז ביצוע, עם תחזית שהוא יעמוד מאחוריה","תנאים חודשיים בלי נעילה ארוכה, כך שהוא ממשיך להרוויח את החידוש"]},
+    {"h":"שאלות לשאול לפני שחותמים","ul":["ספר לי על מערך הכנסות שבנית מאפס ומה היה באחריותך","מה תעשה בשבוע הראשון, בשבוע השני ובחודש הראשון","איך אתה מחליט את מי לשמור, להכשיר או להחליף בצוות שלי","איך נראית התחזית שלך ועל מה אתה אחראי","כמה שעות ביום אתה באמת תהיה בעסק שלי"]},
+    {"h":"כמה זה עולה","p":["סמנכ״ל הכנסות במיקור חוץ מתומחר לפי כמה מהשבוע אתם צריכים, לא לפי משכורת מלאה. צפו לכ-6,000 דולר בחודש לכמה שעות ביום, ועד כ-22,000 למשרה מלאה ובלעדית, בחיוב חודשי. השוו את זה ל-250,000 דולר ומעלה בסך הכל ל-CRO במשרה מלאה ברגע שמוסיפים אקוויטי, בונוס, סיכון פיצויים ומחזור גיוס ארוך."]},
+  ],
+  "faqs":[
+    {"q":"כמה עולה לשכור Fractional CRO?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO במשרה מלאה של 250,000 דולר ומעלה."},
+    {"q":"כמה מהר אפשר להתחיל?","a":"מהר. טוב מאבחן בשבוע הראשון, נותן תוכנית ותחזית אמיתית בשבוע השני, ומריץ את התהליך מהשבוע השלישי, במקום החודשים שלוקח לגייס ולהתברג למשרה מלאה."},
+    {"q":"Fractional CRO או CRO במשרה מלאה?","a":"שכרו במיקור חוץ כשהעבודה עוד לא שבוע מלא או כשאתם צריכים תוצאות עכשיו בלי העלות והסיכון של משרה מלאה. עברו למשרה מלאה כשהפונקציה גדולה מספיק כדי להצדיק משכורת בכירה כל השנה."}],
+  "related":'ראו את שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a>, השוו <a href="/he/fractional-cro-vs-vp-of-sales">CRO מול VP מכירות</a> ו<a href="/he/fractional-cro-cost">העלות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+
+ {"slug":"when-do-you-need-a-fractional-cro",
+  "title":"מתי צריך Fractional CRO? הסימנים | טל פאפרין",
+  "desc":"הסימנים הברורים שאתם צריכים סמנכ״ל הכנסות במיקור חוץ: הכנסות תקועות, אין בעלים לתוצאות, VP-ים שהתחלפו, מוצר מצוין שלא נמכר.",
+  "h1":"מתי צריך Fractional CRO?","eyebrow":"מדריך",
+  "lead":"רוב החברות מחכות יותר מדי. הנה הסימנים שאתם צריכים סמנכ״ל הכנסות במיקור חוץ עכשיו, לא אחרי עוד רבעון אבוד.",
+  "sections":[
+    {"h":"הסימנים","ul":["ההכנסות נתקעו ואף אחד באמת לא אחראי על התוצאות","אתם בצמיחה וצריכים הנהגה בכירה לפני שאפשר להצדיק משרה מלאה","התחלפתם בכמה VP מכירות שלא הזיזו את התוצאות","יש לכם מוצר מצוין שפשוט לא נמכר בקנה מידה","הפייפליין והתחזית שלכם הם ניחושים, לא מערכת","המייסדים עדיין היחידים שיכולים לסגור","אתם רוצים להיכנס לשוק חדש ולא יודעים מאיפה להתחיל"]},
+    {"h":"מה משתנה כשמישהו אחראי על התוצאות","p":["סמנכ״ל הכנסות במיקור חוץ לוקח את האסטרטגיה, הצוות, הפייפליין, התחזית והאחריות מהצלחת שלכם אל שלו. שבוע ראשון זה אבחון, שבוע שני זה תוכנית ותחזית אמיתית, ואז הוא מריץ את זה, מגייס איפה שצריך, מכשיר את הצוות שיש לכם ומחליף את מי שלא יכול. אתם מפסיקים לנחש ומתחילים לתפעל."]},
+    {"h":"מה עולה לחכות","p":["המחיר של ההמתנה הוא גיוס VP שגוי, שנה שאבדה, ושש ספרות שהוצאו כדי ללמוד מה שאיש ביצוע בכיר היה אומר לכם בשבוע הראשון. הכנסות תקועות כמעט אף פעם לא מתקנות את עצמן, וככל שהתהליך נשאר שבור יותר זמן, כך עולה יותר לבנות אותו מחדש."]},
+  ],
+  "faqs":[
+    {"q":"מה ההבדל בין Fractional CRO ליועץ?","a":"יועץ מגיש מצגת והולך. סמנכ״ל הכנסות במיקור חוץ לוקח אחריות על העבודה, על הפייפליין, על העסקאות ועל התוצאות, ועונה על התוצאה."},
+    {"q":"החברה שלי קטנה מדי ל-Fractional CRO?","a":"אם יש לכם מוצר וקצת הכנסות אבל אין תהליך חוזר או בעלים בכיר לתוצאות, אתם בדיוק הגודל הנכון. מיקור חוץ קיים כדי שתקבלו הנהגה ברמת CRO בלי משכורת מלאה."},
+    {"q":"כמה מהר אראה תוצאות?","a":"אתם מקבלים אבחון בשבוע הראשון ותוכנית ותחזית בשבוע השני. שיפורים בפייפליין ובתהליך מגיעים ככל שהתהליך נבנה ורץ."}],
+  "related":'ראו <a href="/he/how-to-hire-a-fractional-cro">איך לשכור</a> ואת <a href="/he/services/fractional-cro">השירות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+
+ {"slug":"fractional-cro-for-startups",
+  "title":"Fractional CRO לסטארטאפים | טל פאפרין",
+  "desc":"סמנכ״ל הכנסות במיקור חוץ לסטארטאפים: הנהגת הכנסות בכירה מההכנסה הראשונה ועד סבב B בלי משרה מלאה. התהליך, הצוות והתוצאות.",
+  "h1":"Fractional CRO לסטארטאפים","eyebrow":"לסטארטאפים",
+  "lead":"סטארטאפים צריכים הנהגת הכנסות בכירה לפני שהם יכולים להרשות אותה. את הפער הזה ממלא סמנכ״ל הכנסות במיקור חוץ: אני בונה את התהליך, מגייס את הצוות ולוקח אחריות על התוצאות, בלי משכורת מלאה.",
+  "sections":[
+    {"h":"למה סטארטאפים נתקעים על הכנסות","p":["רוב הסטארטאפים מקבלים את העסקאות הראשונות מהמייסדים ומהרשת, ואז נתקעים כי אין תהליך חוזר ואף אחד בכיר לא אחראי על התוצאות. גיוס CRO של 250,000 דולר מוקדם מדי שורף ראנוויי; גיוס נציגים זוטרים בלי מנהיג שורף זמן. סמנכ״ל הכנסות במיקור חוץ נותן לכם את הבעלים הבכיר עכשיו ובונה את המנוע שהנציגים יריצו."]},
+    {"h":"מה אני בונה לסטארטאפ","ul":["ICP מאומת, מיצוב ותמחור לאיך שבאמת קונים מכם","תהליך אאוטבאונד ואינבאונד, ה-playbook, ה-CRM והפייפליין","הגיוסים הראשונים, מוכשרים ומנוהלים, ואת מי שצריך להחליף","תחזית אמיתית שהדירקטוריון יכול לסמוך עליה","המייסדים מחוץ לכל עסקה ובתוך הנכונות"]},
+    {"h":"בנוי לסטארטאפים אמיתיים","p":["נכנסתי כ-VP מכירות במיקור חוץ מהיום הראשון, הגדרתי את ה-ICP, בניתי את תהליך האאוטבאונד מאפס ובניתי אותו מחדש דרך פיבוטים. אותה משמעת בין אם אתם בשלב מוקדם או סבב B: לקחת אחריות על התוצאות, לבנות את התהליך, לגרום לצוות לעמוד ביעד."]},
+  ],
+  "faqs":[
+    {"q":"מתי סטארטאפ צריך לשכור Fractional CRO?","a":"כשהמייסדים עדיין היחידים שסוגרים, או כשאתם צריכים תהליך חוזר ותחזית לפני שאפשר להצדיק CRO במשרה מלאה. בדרך כלל מההכנסה הראשונה ועד סבב B."},
+    {"q":"זה אפשרי כלכלית לסטארטאפ?","a":"כן, זו כל הנקודה. אתם מקבלים הנהגת הכנסות בכירה ב-6,000 עד 22,000 דולר בחודש, בחיוב חודשי, במקום משכורת מלאה של 250,000 דולר ומעלה פלוס אקוויטי."},
+    {"q":"אתה באמת תמכור או רק תייעץ?","a":"אני מוכר ובונה. אני נכנס לפייפליין ולעסקאות, מגייס ומנהל את הנציגים, ולוקח אחריות על התחזית, לא על מצגת."}],
+  "related":'ראו את שירותי <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a> ו<a href="/he/services/go-to-market-strategy">Go-To-Market</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+
+ {"slug":"interim-cro",
+  "title":"Interim CRO (סמנכ״ל הכנסות זמני) | טל פאפרין",
+  "desc":"סמנכ״ל הכנסות זמני שלוקח אחריות על ההכנסות בתקופת מעבר, פער או היפוך מגמה. הנהגה בכירה בכיסא עכשיו, בידיים, בלי גיוס קבוע.",
+  "h1":"Interim CRO","eyebrow":"מדריך",
+  "lead":"כשאתם צריכים CRO בכיסא עכשיו, בתקופת פער, מעבר או היפוך מגמה, אני נכנס ולוקח אחריות על התוצאות בזמן שאתם מחליטים על הפתרון הקבוע.",
+  "sections":[
+    {"h":"מתי צריך Interim CRO","ul":["ה-CRO או VP המכירות שלכם עזב והתוצאות לא יכולות לחכות","אתם באמצע היפוך מגמה וצריכים הנהגה בכירה מיד","אתם בין סבבים או בתקופת מעבר וצריכים יד יציבה","אתם צריכים לייצב הכנסות בזמן שאתם מנהלים חיפוש למשרה מלאה"]},
+    {"h":"מה אני עושה בכיסא","p":["אני לוקח אחריות על מערך ההכנסות מהיום הראשון: הצוות, הפייפליין, התחזית והעסקאות. שבוע ראשון זה אבחון, ואז אני מריץ את זה, שומר על הצוות פרודוקטיבי, מחזיק יחד את העסקאות המרכזיות, ומעביר מערך בריא יותר ממה שמצאתי, בין אם ל-CRO קבוע או חזרה אליכם."]},
+    {"h":"זמני, במיקור חוץ, או שניהם","p":["זמני בדרך כלל אומר משרה מלאה או כמעט מלאה לתקופה מוגדרת. מיקור חוץ אומר חלק מהשבוע, באופן מתמשך. אני עושה את שניהם, והרבה פרויקטים מתחילים זמני במשבר ומתמסדים למיקור חוץ ברגע שהמערך יציב."]},
+  ],
+  "faqs":[
+    {"q":"מה ההבדל בין Interim CRO ל-Fractional CRO?","a":"זמני בדרך כלל משרה מלאה לתקופה מוגדרת, לרוב לכיסוי פער או היפוך מגמה. מיקור חוץ הוא חלק מהשבוע באופן מתמשך. אני עושה את שניהם ולעיתים קרובות עובר מאחד לשני."},
+    {"q":"כמה מהר אתה יכול להיכנס כ-Interim CRO?","a":"מהר. פרויקטים זמניים קיימים כי התוצאות לא יכולות לחכות, אז אני מאבחן בשבוע הראשון ומריץ את המערך מיד."},
+    {"q":"אתה יכול להעביר ל-CRO קבוע?","a":"כן. חלק מפרויקט זמני הוא להשאיר מערך חזק ומתועד והעברה נקייה למי שלוקח את הכיסא לקבע."}],
+  "related":'ראו את שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a> או <a href="/he/contact">צרו קשר</a>.'},
+
+ {"slug":"fractional-vp-of-sales",
+  "title":"VP מכירות במיקור חוץ (Fractional VP of Sales) | טל פאפרין",
+  "desc":"VP מכירות במיקור חוץ שבונה ומריץ את צוות המכירות, ה-playbook והפייפליין, בידיים, בלי גיוס מלא.",
+  "h1":"VP מכירות במיקור חוץ","eyebrow":"מדריך",
+  "lead":"צריכים מישהו שיבנה את הצוות ויריץ את רצפת המכירות, לא רק יקבע אסטרטגיה? זה VP מכירות במיקור חוץ. אני מגייס, מכשיר ומנהל את הנציגים ולוקח אחריות על הפייפליין, במשרה חלקית.",
+  "sections":[
+    {"h":"VP מכירות במיקור חוץ מול Fractional CRO","p":["VP מכירות מריץ את צוות המכירות ואת הפייפליין יום-יום. CRO אחראי על כל ההכנסות, מכירות, שיווק ו-Go-To-Market, ועל התוצאות עצמן. אני עושה את שניהם; התפקיד הנכון תלוי אם אתם צריכים שיריצו את רצפת המכירות או שייקחו אחריות על כל מערך ההכנסות. הרבה חברות מתחילות עם VP מכירות במיקור חוץ ומגדילות את ההיקף ל-CRO."]},
+    {"h":"מה באחריותי כ-VP מכירות במיקור חוץ","ul":["גיוס, הכשרה וניהול של SDR, AE ו-BD","ה-playbook, התסריטים ותהליך המכירה","ה-CRM, הפייפליין והתחזית","אימון נציגים ליעד והחלפת מי שלא יכול","ניהול יומיומי של רצפת המכירות"]},
+    {"h":"בניתי את הצוות, הרבה פעמים","p":["גייסתי, הכשרתי וניהלתי צוותי מכירות בארבע יבשות וביותר מ-40 מדינות, מנציגים ראשונים ועד רצפות מלאות עם SDR, AE, פוסט-סייל ותמיכה טכנית. אני גורם לצוות שיש לכם לעמוד ביעד ובונה את הצוות שעוד אין לכם."]},
+  ],
+  "faqs":[
+    {"q":"מה עושה VP מכירות במיקור חוץ?","a":"בונה ומריץ את צוות המכירות והפייפליין במשרה חלקית: גיוס, הכשרה וניהול נציגים, אחריות על ה-playbook, ה-CRM והתחזית, ואימון הצוות ליעד."},
+    {"q":"VP מכירות במיקור חוץ או Fractional CRO?","a":"בחרו VP מכירות כדי להריץ את צוות המכירות והפייפליין. בחרו CRO כדי לקחת אחריות על כל ההכנסות כולל שיווק ו-Go-To-Market. אני עושה את שניהם ויכול להגדיל את ההיקף ככל שאתם גדלים."},
+    {"q":"כמה עולה VP מכירות במיקור חוץ?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי שעות, בחיוב חודשי בלי נעילה, הרבה מתחת למשכורת VP מלאה."}],
+  "related":'ראו את שירותי <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות</a> ו<a href="/he/services/sales-team-building">בניית צוות</a>, או <a href="/he/contact">צרו קשר</a>.'},
+
+ {"slug":"fractional-chief-sales-officer",
+  "title":"סמנכ״ל מכירות ראשי במיקור חוץ (Fractional CSO) | טל פאפרין",
+  "desc":"סמנכ״ל מכירות ראשי במיקור חוץ שלוקח אחריות על ארגון המכירות, האסטרטגיה והתוצאות, בידיים, בלי משכורת בכירה מלאה.",
+  "h1":"סמנכ״ל מכירות ראשי במיקור חוץ","eyebrow":"מדריך",
+  "lead":"סמנכ״ל מכירות ראשי במיקור חוץ לוקח אחריות על ארגון המכירות מקצה לקצה, אסטרטגיה, מבנה, צוות ותוצאות, לחלק מהשבוע שאתם צריכים, בלי גיוס בכיר מלא.",
+  "sections":[
+    {"h":"על מה אחראי CSO במיקור חוץ","ul":["אסטרטגיית מכירות, מבנה ועיצוב סגמנטים או טריטוריות","שכבת ההנהגה וצוות המכירות שתחתיה","תוכניות עמלות, יעדים, ה-playbook והתהליך","הפייפליין, התחזית והתוצאות","גיוס, אימון וההחלטות הקשות על כוח אדם"]},
+    {"h":"CSO, CRO או VP מכירות","p":["סמנכ״ל מכירות ראשי אחראי על ארגון המכירות. CRO אחראי על כל ההכנסות כולל שיווק ו-Go-To-Market. VP מכירות מריץ את הצוות יום-יום. התוויות פחות חשובות מהעבודה; ספרו לי איפה ההכנסות תקועות ואני אקח את ההיקף הנכון."]},
+    {"h":"בכיר, בידיים, מוכח","p":["הובלתי כ-VP מכירות גלובלי ובינלאומי ונכנסתי כמנהיג הכנסות במיקור חוץ ל-30 חברות B2B ומעלה. אני לא מייעץ מהצד; אני לוקח אחריות על האסטרטגיה ואז מריץ אותה, בידיים."]},
+  ],
+  "faqs":[
+    {"q":"מה זה סמנכ״ל מכירות ראשי במיקור חוץ?","a":"מנהל מכירות בכיר שלוקח אחריות על ארגון המכירות שלכם, האסטרטגיה, הצוות והתוצאות במשרה חלקית, בלי משכורת CSO מלאה או נעילה ארוכה."},
+    {"q":"במה CSO שונה מ-CRO?","a":"CSO אחראי על ארגון המכירות. CRO אחראי על כל ההכנסות, כולל שיווק ו-Go-To-Market. אני לוקח כל אחד מהם לפי מה שצריך שיהיה באחריות."},
+    {"q":"כמה זה עולה?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה."}],
+  "related":'ראו את שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a> או <a href="/he/contact">צרו קשר</a>.'},
+
+ {"slug":"fractional-cro-roi",
+  "title":"האם Fractional CRO שווה את זה? ה-ROI | טל פאפרין",
+  "desc":"התיק העסקי לסמנכ״ל הכנסות במיקור חוץ: כמה זה עולה, מה זה מחזיר, ואיך זה מול גיוס מלא או לא לעשות כלום.",
+  "h1":"האם Fractional CRO שווה את זה?","eyebrow":"מדריך",
+  "lead":"סמנכ״ל הכנסות במיקור חוץ הוא לא עלות, הוא הימור על התוצאות. הנה התיק העסקי הכן: כמה אתם משלמים, מה זה מחזיר, ומה עולה לא לעשות כלום.",
+  "sections":[
+    {"h":"כמה אתם משלמים","p":["בערך 6,000 עד 22,000 דולר בחודש לפי כמה מהשבוע אתם צריכים, בחיוב חודשי בלי חוזה ארוך. בלי אקוויטי, בלי בונוס, בלי סיכון פיצויים, בלי דמי גיוס, בלי התברגות."]},
+    {"h":"מה זה מחזיר","p":["תהליך חוזר, תחזית אמיתית, צוות שעומד ביעד ובעלות בכירה על התוצאות, בשבועות במקום ברבעונים. ההחזר הוא לא הריטיינר שחסכתם; הוא ההכנסה שאתם מפסיקים להשאיר על השולחן כי אף אחד בכיר לא היה אחראי על הפייפליין."]},
+    {"h":"העלות של החלופות","ul":["CRO במשרה מלאה: 250,000 דולר ומעלה בסך הכל, חודשים לגייס ולהתברג, וסיכון פיצויים אמיתי אם ההתאמה שגויה","גיוס VP שגוי: שש ספרות ושנה שאבדה","לא לעשות כלום: הכנסות תקועות שכמעט אף פעם לא מתקנות את עצמן"]},
+  ],
+  "faqs":[
+    {"q":"האם Fractional CRO שווה את הכסף?","a":"אם ההכנסות תקועות ואף אחד בכיר לא אחראי על התוצאות, כן. אתם מקבלים הנהגה ברמת CRO בשבריר ממשכורת מלאה, בחיוב חודשי, כך שזה חייב להמשיך להרוויח את החידוש."},
+    {"q":"איך מודדים את ההחזר?","a":"פייפליין שנבנה, דיוק התחזית, אחוז סגירה, זמן התברגות של נציגים והתוצאות עצמן. אני אחראי על תחזית שאני נמדד עליה, לא על פעילות ראווה."},
+    {"q":"ומה אם זה לא עובד?","a":"הפרויקטים חודשיים בלי נעילה. אם אני לא מספק, מסיימים בסוף החודש. זו כל הנקודה של מיקור חוץ."}],
+  "related":'השוו את <a href="/he/fractional-cro-cost">העלות</a> ו<a href="/he/fractional-cro-vs-vp-of-sales">CRO מול VP מכירות</a>, או <a href="/he/contact">צרו קשר</a>.'},
+
+ {"slug":"outsourced-cro",
+  "title":"סמנכ״ל הכנסות במיקור חוץ (Outsourced CRO) | טל פאפרין",
+  "desc":"סמנכ״ל הכנסות במיקור חוץ שלוקח אחריות על מערך ההכנסות מחוץ למצבת כוח האדם: אסטרטגיה, צוות, פייפליין ותוצאות, בלי גיוס מלא.",
+  "h1":"סמנכ״ל הכנסות במיקור חוץ","eyebrow":"מדריך",
+  "lead":"הוציאו למיקור חוץ את הנהגת ההכנסות עצמה. אני לוקח אחריות על האסטרטגיה, הצוות, הפייפליין והתוצאות מחוץ למצבת כוח האדם: איש הביצוע הבכיר שאתם צריכים בלי גיוס מלא.",
+  "sections":[
+    {"h":"Outsourced CRO, Fractional CRO, אותו רעיון","p":["סמנכ״ל הכנסות במיקור חוץ, fractional CRO ו-part-time CRO מתארים את אותו דבר: הנהגת הכנסות בכירה שמביאים מבחוץ במקום לגייס למשרה מלאה. אתם מקבלים מישהו שכבר הריץ את הפונקציה, אחראי על התוצאות, לחלק מהשבוע שאתם צריכים ולחודשים שאתם צריכים."]},
+    {"h":"על מה אני אחראי","ul":["אסטרטגיית הכנסות, התחזית והאחריות","תהליך ה-Go-To-Market, הפייפליין והצוות שמריץ אותו","גיוס, הכשרה וההחלטות הקשות על מי נשאר","שיווק שמזין פייפליין, לא רק פעילות","התוצאות עצמן, מקצה לקצה"]},
+    {"h":"למה להוציא את זה למיקור חוץ","p":["CRO במשרה מלאה עולה 250,000 דולר ומעלה בסך הכל, לוקח חודשים לגייס ולהתברג, ונושא סיכון פיצויים אמיתי. מיקור חוץ של התפקיד נותן לכם את אותה בעלות בכירה בשבועות, בחיוב חודשי, בלי נעילה. כשהפונקציה גדולה מספיק כדי להצדיק גיוס מלא, אני עוזר לכם לעשות אותו ולהעביר."]},
+  ],
+  "faqs":[
+    {"q":"מה זה סמנכ״ל הכנסות במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על מערך המכירות וההכנסות מחוץ למצבת כוח האדם, במשרה חלקית ובתנאים חודשיים, במקום גיוס CRO מלא. זהה ל-fractional CRO."},
+    {"q":"במה זה שונה מיועץ?","a":"יועץ מייעץ. סמנכ״ל הכנסות במיקור חוץ לוקח אחריות על העבודה, על הפייפליין ועל התוצאות, ועונה על התוצאה."},
+    {"q":"כמה עולה סמנכ״ל הכנסות במיקור חוץ?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO מלא."}],
+  "related":'ראו <a href="/he/how-to-hire-a-fractional-cro">איך לשכור אחד</a> ואת שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות</a>, או <a href="/he/contact">צרו קשר</a>.'},
 ]
 
 
