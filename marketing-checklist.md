@@ -14,41 +14,45 @@ traffic and inquiries, then double down on those.
 
 ---
 
-## Do these first (best fit, free or low cost)
+## Status legend
+[x] done   [ ] to do   (verified live = link confirmed reachable June 2026)
 
-1. [ ] **Vendux** - https://www.vendux.org/exec/for-sales-leaders
-   A marketplace built specifically for fractional sales leaders (CRO, CSO, VP Sales). You
-   register, they interview you, build a profile, and match you to fractional/interim/full
-   sales-leadership roles. Highest fit on this list. Start here.
+## Done (the three that matter most for fractional CRO placement)
 
-2. [ ] **Bolster** - https://www.bolster.com
-   Executive talent marketplace, strong on CRO and startup/VC-backed buyers. Free to add your
-   profile to the network; they surface you when clients run fractional/interim/advisory/board
-   searches. Set availability to "fractional / on-demand."
+1. [x] **Vendux** - https://www.vendux.org/exec/for-sales-leaders
+   Marketplace built specifically for fractional sales leaders (CRO, CSO, VP Sales). Interview
+   booked. Highest fit.
+2. [x] **Go Fractional** - https://www.gofractional.com
+   Curated fractional-exec marketplace, handles proposals/contracts/payments. Submitted.
+3. [x] **Fractional Jobs** - https://www.fractionaljobs.io
+   Job board + list for fractional leaders. Use the email box (Function: Sales/Revenue) and
+   apply directly to live CRO / VP Sales / GTM posts on the Jobs tab.
 
-3. [ ] **Go Fractional** - https://www.gofractional.com
-   Curated fractional-exec marketplace that also handles proposals, contracts and payments.
-   Apply to join the talent network. Real buyer traffic, mostly startups.
+## Verified live, do next
 
-4. [ ] **Fractional Jobs** - https://www.fractionaljobs.io
-   Talent network + job board for fractional leaders. Join the network and watch the board for
-   fractional CRO / VP Sales / GTM posts.
+4. [ ] **Bravado** - https://bravado.co
+   The big B2B sales community. Free. Strong fit for a sales leader: network, visibility,
+   referrals, and a profile buyers see. Distribution channel as much as a marketplace.
+5. [ ] **GigX** - https://www.gigx.com
+   Fractional CxO network. Join as a member/executive.
+6. [ ] **Catalant** - https://gocatalant.com
+   Enterprise consulting/expert marketplace. Larger GTM and revenue projects.
+7. [ ] **Pavilion** - https://www.joinpavilion.com
+   Revenue-leader community (paid). Network of the exact buyers and referrers you want. Do last.
 
-5. [ ] **Continuity** - https://www.continuity.club
-   Fractional executive community and marketplace. Apply as a fractional leader.
+## Skip (verified dead or no longer self-serve)
 
-6. [ ] **Pavilion** - https://www.joinpavilion.com
-   Revenue-leader community (paid membership). Less a marketplace, more a network of the exact
-   buyers and referrers you want (CROs, VPs Sales, founders). Worth it for warm referrals.
+- **Bolster** (bolster.com) - pivoted to recruiter-led executive search; no self-serve member
+  signup anymore, only a Contact Us form. Not worth the time.
+- **Continuity (continuity.club)** and **Continuum (joincontinuum.com)** - both domains are down
+  (connection refused / reset). Removed.
 
 ## Tier 2 - bigger-project and expert marketplaces (optional)
 
-7. [ ] **Catalant** - https://gocatalant.com - enterprise consulting/expert marketplace, larger
-   GTM and revenue projects.
 8. [ ] **Graphite** - https://www.graphite.com - vetted independent consultants/execs.
-9. [ ] **Chief Outsiders** - https://chiefoutsiders.com - a firm, not a marketplace. You apply
-   to become one of their fractional CRO/CSO partners. Heavier process; only if you want their
-   deal flow. (Note: this is NOT "Chief", which is a women-only network and not a fit.)
+9. [ ] **Chief Outsiders** - https://chiefoutsiders.com - a firm, not a marketplace. Apply to
+   become one of their fractional CRO/CSO partners. Heavier process; only if you want their deal
+   flow. (NOT "Chief", which is a women-only network and not a fit.)
 10. [ ] **Expert networks** (paid hourly consults, fast cash + visibility, not fractional
     engagements): GLG (https://glg.it), AlphaSights, Guidepoint, Dialectica. Apply as an expert
     on B2B sales / GTM / market entry.
@@ -66,7 +70,7 @@ strong backlinks.
 
 ## Tier 4 - free high-authority profiles (do once, link to the site)
 
-16. [ ] **Crunchbase** - https://www.crunchbase.com (KSW Solutions company page + you as person)
+16. [ ] **Crunchbase** - https://www.crunchbase.com/add-new (KSW Solutions company + you as person)
 17. [ ] **Google Business Profile** - https://business.google.com (KSW Solutions)
 18. [ ] **Startup Nation Central** - https://www.startupnationcentral.org (Israeli tech ecosystem)
 19. [ ] **Wellfound (AngelList Talent)** - https://wellfound.com (advisor/fractional, startup buyers)
