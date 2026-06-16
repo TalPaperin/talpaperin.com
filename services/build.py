@@ -3026,6 +3026,13 @@ ABOUT_EN = '''<!doctype html>
 
         <p><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">View my full background on LinkedIn &rarr;</a></p>
 
+        <h2>On podcasts and shows</h2>
+        <div class="vids">
+          <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/DAjZ6cnH08M" title="CEO Money with Michael Yorba" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">CEO Money with Michael Yorba</p></div>
+          <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/Ft0fmJe7nes" title="Solution Nation Podcast" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Solution Nation Podcast</p><p class="vsub">Investing in Israeli IIoT companies</p></div>
+          <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/-w_sHvp2v1I" title="Hard Corps Marketing Show #34" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">Global sales fundamentals</p></div>
+        </div>
+
         <h2 class="cases-recs-h">On the ground, on four continents</h2>
 {gallery}
 {cta}
@@ -3106,6 +3113,13 @@ ABOUT_HE = '''<!doctype html>
         <p>נולדתי בברית המועצות ב-1981, בישראל מ-1990. נשוי לסמנתה, מנהלת שיווק ילידת ארה"ב, ואב לחמישה. בשעות הפנאי אני אוסף שעוני כלי מכניים, קורא מדע בדיוני ורומנים פוסט-אפוקליפטיים, ושומר על שגרת אימוני כוח מסודרת.</p>
 
         <p><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">לרקע המלא שלי בלינקדאין &larr;</a></p>
+
+        <h2>פודקאסטים ותוכניות</h2>
+        <div class="vids">
+          <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/DAjZ6cnH08M" title="CEO Money עם מייקל יורבה" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">CEO Money עם מייקל יורבה</p></div>
+          <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/Ft0fmJe7nes" title="Solution Nation Podcast" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Solution Nation Podcast</p><p class="vsub">השקעות בחברות IIoT ישראליות</p></div>
+          <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/-w_sHvp2v1I" title="Hard Corps Marketing Show #34" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">יסודות ועקרונות במכירות בינלאומיות</p></div>
+        </div>
 
         <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
 {gallery}
