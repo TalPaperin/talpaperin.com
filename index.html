@@ -277,6 +277,13 @@
     .bio-lead b{color:var(--blue)}
     .no-contract{margin:26px auto 0;max-width:72em;text-align:center;background:linear-gradient(90deg,rgba(31,111,178,.16),rgba(90,176,255,.10));border:1px solid rgba(90,176,255,.35);border-radius:14px;padding:18px 26px;font:600 1.12rem/1.55 'Space Grotesk';color:#eaf2fb}
     .no-contract b{color:var(--blue)}
+    .alt-ways{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px}
+    .alt-ways>div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+    .alt-ways .kick{display:block;color:var(--blue);font:700 12px/1 'Space Grotesk';letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+    .alt-ways p{color:var(--soft);margin:0;font-size:1rem;line-height:1.6}
+    .alt-ways a{color:var(--blue);font-weight:600}
+    .alt-ways b{color:#fff}
+    @media(max-width:760px){.alt-ways{grid-template-columns:1fr}}
     @media(max-width:920px){.cards3{grid-template-columns:1fr}}
 
     /* testimonials */
@@ -470,9 +477,9 @@
     <div class="wrap">
       <div class="section-head reveal">
         <div class="glowline"></div>
-        <p class="eyebrow">Work With Me</p>
-        <h2>Three ways to work with me.</h2>
-        <p>One value ladder, three levels of involvement: run it yourself with <a style="color:var(--blue);font-weight:600" href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>, get me as your fractional CRO, or hand the whole function off to <a style="color:var(--blue);font-weight:600" href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. Below: fractional CRO pricing, by how much of my week you need.</p>
+        <p class="eyebrow">Fractional CRO Pricing</p>
+        <h2>Priced by how much of me you need.</h2>
+        <p>Three packages, one job. I own your revenue end to end, hands-on, from diagnosis to execution to the number itself. The only thing that changes is how many hours a day I am in your business.</p>
       </div>
       <div class="cards3">
         <div class="card3 reveal"><span class="commit">2 hours a day</span><h3>Starter</h3><div class="amount">$6,000<span> /mo</span></div><p class="bestfor">A real CRO, embedded every day, part-time. The fastest way to senior revenue leadership without a senior salary.</p><ul class="incl"><li>Two hours a day, every working day</li><li>I own the strategy, the system and the standards</li><li>Your team executes day to day, I keep the motion on track</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
@@ -480,7 +487,10 @@
         <div class="card3 reveal"><span class="commit">Full time, exclusive</span><h3>CRO Ownership</h3><div class="amount">$22,000<span> /mo</span></div><p class="bestfor">All of me, all in. While I own your number, I take no one else.</p><ul class="incl"><li>Full time, every day, on your revenue</li><li>I personally drive the whole engine, sales, marketing and go-to-market</li><li>Exclusive, when I take this, I take only you. Subject to availability</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
       </div>
       <p class="no-contract reveal"><b>Monthly. No contract. No exit fines.</b> Don't like what I deliver? We're done in a month.</p>
-      <p class="anchor-note reveal">For context, a salaried CRO runs $250,000 and up all in, once you add equity, bonus, severance risk and a long hiring cycle. Even full-time-equivalent ownership here is a fraction of that, with none of the long-term lock-in.</p>
+      <div class="alt-ways reveal">
+        <div><span class="kick">Do it yourself</span><p><b>Get me, basic, plus AI</b> for $149/mo with <a href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>: the system and daily guidance to run the motion yourself.</p></div>
+        <div><span class="kick">Hand it all off</span><p><b>Outsource everything</b> to <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>: your entire sales and/or marketing function, the people and the leadership, run for you.</p></div>
+      </div>
     </div>
   </section>
 
