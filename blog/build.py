@@ -469,6 +469,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/case-studies' % SITE, '0.8', today),
         ('%s/recommendations' % SITE, '0.7', today),
         ('%s/contact' % SITE, '0.7', today),
+        ('%s/sales-doctor' % SITE, '0.7', today),
     ]
     for s in SERVICES:
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
