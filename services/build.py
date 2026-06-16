@@ -123,11 +123,11 @@ SERVICES = [
     {"h":"How it works","p":[
       "Week one I diagnose where deals stall and leak. Week two you have a plan and a real forecast. Week three I am running it. You get a senior operator who has done this 30-plus times on four continents, not a strategy deck that sits in a drawer."]},
     {"h":"Priced by how much of me you need","p":[
-      "The job is identical at every level. The only thing that changes is how many hours a day I am in your business."],
+      "From a weekly advisor to a fully embedded CRO. The more of me you take, the more I own. The only thing that changes is how much of my week is on your business."],
      "ul":[
-      "Starter, $6,000 a month: two hours a day, every working day",
-      "Growth, $12,000 a month: half time, four hours a day. What most companies choose",
-      "CRO Ownership, $22,000 a month: full time and exclusive, when I take this I take only you"]},
+      "Advisor, $2,000 a month: about three hours a week, a standing strategy call plus access between calls",
+      "Starter, $6,000 a month: two hours a day, every working day. What most companies choose",
+      "Growth, $12,000 a month: half time, four hours a day, hands-on. Full-time and exclusive available on request"]},
     {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "Tal Paperin, fractional CRO", "cap": "Senior revenue leadership, in the seat.", "portrait": True},
   ]},
 
@@ -580,8 +580,8 @@ HE_SERVICES = [
     {"h":"איך זה עובד",
      "p":["בשבוע הראשון אני מאבחן איפה העסקאות נתקעות ודולפות. בשבוע השני יש לכם תוכנית ותחזית אמיתית. בשבוע השלישי אני כבר מריץ אותה. אתם מקבלים מנהל מנוסה שעשה את זה יותר מ-30 פעם בארבע יבשות, לא עוד מצגת אסטרטגיה שנשארת במגירה."]},
     {"h":"מתומחר לפי כמה ממני אתם צריכים",
-     "p":["התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."],
-     "ul":["Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום. מה שרוב החברות בוחרות","בעלות מלאה, 22,000 דולר בחודש: משרה מלאה ובלעדית, כשאני לוקח את זה אני לוקח רק אתכם"]},
+     "p":["מיועץ שבועי ועד סמנכ״ל הכנסות מוטמע במלואו. ככל שאתם לוקחים יותר ממני, אני לוקח יותר אחריות. הדבר היחיד שמשתנה הוא כמה מהשבוע שלי בעסק שלכם."],
+     "ul":["Advisor, 2,000 דולר בחודש: כשלוש שעות בשבוע, שיחת אסטרטגיה קבועה וגישה אליי בין השיחות","Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה. מה שרוב החברות בוחרות","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום, בידיים. משרה מלאה ובלעדית זמינה לפי בקשה"]},
     {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ", "cap": "מנהיגות הכנסות בכירה, בידיים.", "portrait": True},
   ]},
 
@@ -1789,7 +1789,7 @@ SERVICE_FAQS_EN = {
  "fractional-cro":[
   {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your strategy, team, pipeline, forecast and the number, part time, without a full-time CRO salary or a long-term lock-in."},
   {"q":"How is a fractional CRO different from a consultant?","a":"A consultant hands you a deck and leaves. I do the work, in the pipeline and the deals, and answer for the result."},
-  {"q":"How much does a fractional CRO cost?","a":"$6,000 to $22,000 a month depending on how many hours a day you need, versus $250,000-plus for a full-time CRO, billed monthly with no contract."}],
+  {"q":"How much does a fractional CRO cost?","a":"$2,000 to $12,000 a month depending on how many hours a day you need, versus $250,000-plus for a full-time CRO, billed monthly with no contract."}],
  "outsourced-sales":[
   {"q":"What do I get with outsourced sales?","a":"A full team: native-speaking SDRs and AEs, senior leadership and a VP, hired, trained, managed and reported on, living outside your headcount."},
   {"q":"When does outsourcing beat hiring in-house?","a":"When building a team is too slow, too costly or too risky for your stage. You get a working engine in weeks, not six to twelve months, with no severance risk."},
@@ -1824,7 +1824,7 @@ SERVICE_FAQS_HE = {
  "fractional-cro":[
   {"q":"מה זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על האסטרטגיה, הצוות, הפייפליין, התחזית והתוצאות, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
   {"q":"במה זה שונה מיועץ?","a":"יועץ מגיש מצגת והולך. אני עושה את העבודה, בתוך הפייפליין ובתוך העסקאות, ואחראי על התוצאה."},
-  {"q":"כמה זה עולה?","a":"בין 6,000 ל-22,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, מול 250 אלף דולר ומעלה למשרה מלאה, בתשלום חודשי בלי חוזה."}],
+  {"q":"כמה זה עולה?","a":"בין 2,000 ל-12,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, מול 250 אלף דולר ומעלה למשרה מלאה, בתשלום חודשי בלי חוזה."}],
  "outsourced-sales":[
   {"q":"מה מקבלים במכירות במיקור חוץ?","a":"צוות שלם: אנשי SDR ו-AE דוברי שפת אם, הנהגה בכירה ו-VP, מגויסים, מוכשרים, מנוהלים ומדווחים, מחוץ למצבת כוח האדם שלכם."},
   {"q":"מתי מיקור חוץ עדיף על גיוס פנימי?","a":"כשבניית צוות איטית, יקרה או מסוכנת מדי לשלב שלכם. מקבלים מנוע עובד תוך שבועות, לא שישה עד שנים-עשר חודשים, בלי סיכון פיצויים."},
@@ -1866,9 +1866,9 @@ GUIDES = [
     {"h":"The short answer","p":[
       "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee. The role is identical at every level. The only thing that changes is how many hours a day I am in your business."]},
     {"h":"The three levels, priced by how much of me","tiers":[
-      "Starter, $6,000 a month. Me as your CRO embedded two hours a day, every working day. I own the strategy, the system and the standards, and your team carries more of the daily execution.",
-      "Growth, $12,000 a month. Half time, four hours a day. Not just steering, driving: I run the motion week to week, manage the team hands-on, and carry the number with you. What most companies choose.",
-      "CRO Ownership, $22,000 a month. Full time and exclusive. All of me on your revenue across sales, marketing and go-to-market, and while I own your number I take no other clients. Subject to availability."]},
+      "Advisor, $2,000 a month. About three hours a week. A standing weekly strategy call plus access to me between calls for the real decisions. For founders who want senior direction while they run the day to day themselves.",
+      "Starter, $6,000 a month. Me as your CRO embedded two hours a day, every working day. I own the strategy, the system and the standards, and your team carries more of the daily execution. What most companies choose.",
+      "Growth, $12,000 a month. Half time, four hours a day. Not just steering, driving: I run the motion week to week, manage the team hands-on, and carry the number with you. Full-time, exclusive engagements available on request."]},
     {"h":"Why it is cheaper than a full-time hire","ul":[
       "No $250K base, equity, bonus or severance risk",
       "No three-month hiring search and no two-quarter ramp",
@@ -1880,7 +1880,7 @@ GUIDES = [
       "If your sales motion is already proven and the work is genuinely a full week every week, hire full-time. Fractional wins when the motion is not yet proven, the volume is not yet a full week, or you need results before committing to a permanent hire."]},
   ],
   "faqs":[
-    {"q":"How much does a fractional CRO cost?","a":"My engagements run $6,000 to $22,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
+    {"q":"How much does a fractional CRO cost?","a":"My engagements run $2,000 to $12,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
     {"q":"Is a fractional CRO cheaper than a full-time CRO?","a":"Yes. You get the same senior ownership without the base salary, equity, bonus, severance risk, hiring cycle or long ramp, and without a long-term lock-in."},
     {"q":"What is included?","a":"The same at every tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance, and full CRO-level ownership across sales, marketing and go-to-market. What changes between tiers is how many hours a day I am in your business: two hours, four hours, or full time."},
     {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."},
@@ -1929,7 +1929,7 @@ GUIDES = [
   "faqs":[
     {"q":"Do you work with Israeli companies?","a":"Yes. Most of my work is taking Israeli B2B companies into the US, the EU and other markets, direct and through distributors."},
     {"q":"Can we work in Hebrew?","a":"Yes. I work with Israeli founders and teams in Hebrew and run the international selling in English or the target market's language."},
-    {"q":"How much does a fractional CRO in Israel cost?","a":"Engagements run $6,000 to $22,000 a month depending on involvement, far below a $250,000-plus full-time CRO hire."}],
+    {"q":"How much does a fractional CRO in Israel cost?","a":"Engagements run $2,000 to $12,000 a month depending on involvement, far below a $250,000-plus full-time CRO hire."}],
   "related":'See the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he/">the Hebrew site</a>.'},
 
  {"slug":"fractional-cro-vs-vp-of-sales",
@@ -1952,7 +1952,7 @@ GUIDES = [
   ],
   "faqs":[
     {"q":"Is a fractional CRO better than hiring a VP of Sales?","a":"If your sales motion is not yet proven, yes. A VP hire is a six-figure gamble with months of search, a quarter of ramp and real severance risk. A fractional CRO who has done it 30-plus times delivers from week one, with no hiring risk and no lock-in."},
-    {"q":"How much does a fractional CRO cost vs a VP of Sales?","a":"A VP of Sales runs $30,000 a month or more all in, plus recruiter fees, equity and severance. My fractional engagements run $6,000 to $22,000 a month, billed monthly with no contract."},
+    {"q":"How much does a fractional CRO cost vs a VP of Sales?","a":"A VP of Sales runs $30,000 a month or more all in, plus recruiter fees, equity and severance. My fractional engagements run $2,000 to $12,000 a month, billed monthly with no contract."},
     {"q":"What if it is not working out?","a":"I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."},
     {"q":"Do you actually do the selling, or just advise?","a":"I do the selling. I am an ex VP of Global Sales and CRO and I still work hands-on in the pipeline and the deals, not just in strategy decks."}],
   "related":'Compare the <a href="/fractional-cro-cost">cost</a>, see <a href="/fractional-cro-vs-outsourced-sales">fractional CRO vs outsourced sales</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
@@ -2024,7 +2024,7 @@ GUIDES = [
   "faqs":[
     {"q":"What does a fractional CRO do for a SaaS company?","a":"Owns the revenue motion end to end: ICP and pricing, the outbound and inbound playbook, the CRM and pipeline, hiring and managing the reps, and the forecast, all without a full-time CRO salary."},
     {"q":"Do you sell technical or scientific SaaS?","a":"Yes. I have sold SaaS into universities, research labs and pharma, and built the motion for AI SaaS startups from zero. Technical, skeptical buyers are exactly where most reps stall and where a real playbook wins."},
-    {"q":"How much does a fractional CRO for SaaS cost?","a":"Engagements run $6,000 to $22,000 a month depending on how many hours a day you need, far below a $250,000-plus full-time CRO hire, billed monthly with no lock-in."}],
+    {"q":"How much does a fractional CRO for SaaS cost?","a":"Engagements run $2,000 to $12,000 a month depending on how many hours a day you need, far below a $250,000-plus full-time CRO hire, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-for-iot-hardware","en_only":True,
@@ -2091,7 +2091,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you open new geographic markets for a manufacturer?","a":"Yes. I build the entry plan, map the real channel and decision-makers, and sign the distributors and retail chains, including in markets a company had written off as not worth it."},
     {"q":"Do you sell direct to retailers or only through distributors?","a":"Both. I have sold direct into large retailers and big-box chains and built distributor and reseller networks to extend reach, depending on the market."},
-    {"q":"How much does a fractional CRO for manufacturers cost?","a":"Engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no long-term lock-in, far below a full-time hire."}],
+    {"q":"How much does a fractional CRO for manufacturers cost?","a":"Engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no long-term lock-in, far below a full-time hire."}],
   "related":'See the <a href="/services/market-entry">market entry</a>, <a href="/services/distributor-channel-recruitment">distributor recruitment</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"how-to-hire-a-fractional-cro",
@@ -2103,10 +2103,10 @@ GUIDES = [
     {"h":"When you are ready for one","p":["You are ready when revenue has stalled and nobody senior owns the number, when you need results before you can justify a full-time CRO, or when you have burned money on VP hires that did not move the number. If you just need more hands, hire reps. If you need someone to own the strategy, the team and the forecast, hire a CRO."]},
     {"h":"What to look for","ul":["An operator who has carried a number, not a consultant who hands you a deck","Hands-on experience in your kind of sale: B2B, your deal size, your motion","Willingness to own hiring, training and replacing reps, not just advising","A clear diagnosis-then-execution approach with a forecast they will stand behind","Monthly terms and no long lock-in, so they keep earning the renewal"]},
     {"h":"Questions to ask before you sign","ul":["Walk me through a revenue function you rebuilt from zero and what you owned","What will you do in week one, week two, and the first month","How do you decide who to keep, train or replace on my team","What does your forecast look like and what are you accountable for","How many hours a day will you actually be in my business"]},
-    {"h":"What it costs","p":["A fractional CRO is priced by how much of the week you need, not by a full salary. Expect roughly $6,000 a month for a couple of hours a day, up to around $22,000 for full-time and exclusive, billed monthly. Compare that to $250,000-plus all in for a full-time CRO once you add equity, bonus, severance risk and a long hiring cycle."]},
+    {"h":"What it costs","p":["A fractional CRO is priced by how much of the week you need, not by a full salary. Expect roughly $2,000 a month for a weekly advisor, $6,000 for a couple of hours a day, up to $12,000 for half time, billed monthly, with full-time and exclusive available on request. Compare that to $250,000-plus all in for a full-time CRO once you add equity, bonus, severance risk and a long hiring cycle."]},
   ],
   "faqs":[
-    {"q":"How much does it cost to hire a fractional CRO?","a":"Typically $6,000 to $22,000 a month depending on how many hours a day you need, billed monthly with no long-term lock-in, far below a $250,000-plus full-time CRO."},
+    {"q":"How much does it cost to hire a fractional CRO?","a":"Typically $2,000 to $12,000 a month depending on how many hours a day you need, billed monthly with no long-term lock-in, far below a $250,000-plus full-time CRO."},
     {"q":"How fast can a fractional CRO start?","a":"Quickly. A good one diagnoses in week one, gives you a plan and a real forecast in week two, and is running the motion by week three, instead of the months a full-time hire takes to find and ramp."},
     {"q":"Fractional CRO or full-time CRO?","a":"Hire fractional when the work is not yet a full week or you need results now without the cost and risk of a full-time hire. Move to full-time when the function is big enough to justify a senior salary all year."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service, compare <a href="/fractional-cro-vs-vp-of-sales">CRO vs VP of Sales</a> and <a href="/fractional-cro-cost">the cost</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
@@ -2139,7 +2139,7 @@ GUIDES = [
   ],
   "faqs":[
     {"q":"When should a startup hire a fractional CRO?","a":"When the founders are still the only ones closing, or you need a repeatable motion and a forecast before you can justify a full-time CRO. Usually from first revenue through Series B."},
-    {"q":"Is a fractional CRO affordable for a startup?","a":"Yes, that is the point. You get senior revenue leadership for $6,000 to $22,000 a month, billed monthly, instead of a $250,000-plus full-time salary plus equity."},
+    {"q":"Is a fractional CRO affordable for a startup?","a":"Yes, that is the point. You get senior revenue leadership for $2,000 to $12,000 a month, billed monthly, instead of a $250,000-plus full-time salary plus equity."},
     {"q":"Will you actually sell or just advise?","a":"I sell and build. I get in the pipeline and the deals, hire and manage the reps, and own the forecast, not a slide deck."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">tell me where revenue stalled</a>.'},
 
@@ -2172,7 +2172,7 @@ GUIDES = [
   "faqs":[
     {"q":"What does a fractional VP of Sales do?","a":"Builds and runs your sales team and pipeline part-time: hiring, training and managing reps, owning the playbook, the CRM and the forecast, and coaching the team to quota."},
     {"q":"Fractional VP of Sales or fractional CRO?","a":"Choose a VP of Sales to run the sales team and pipeline. Choose a CRO to own all of revenue including marketing and go-to-market. I do both and can grow the scope as you do."},
-    {"q":"How much does a fractional VP of Sales cost?","a":"Typically $6,000 to $22,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary."}],
+    {"q":"How much does a fractional VP of Sales cost?","a":"Typically $2,000 to $12,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/sales-team-building">team building</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-chief-sales-officer",
@@ -2188,7 +2188,7 @@ GUIDES = [
   "faqs":[
     {"q":"What is a fractional Chief Sales Officer?","a":"A senior sales executive who owns your sales organization, strategy, team and number part-time, without a full-time CSO salary or long-term lock-in."},
     {"q":"How is a CSO different from a CRO?","a":"A CSO owns the sales organization. A CRO owns all of revenue, including marketing and go-to-market. I take on either depending on what you need owned."},
-    {"q":"What does it cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does it cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-roi",
@@ -2197,7 +2197,7 @@ GUIDES = [
   "h1":"Is a Fractional CRO Worth It?","eyebrow":"Guide",
   "lead":"A fractional CRO is not a cost, it is a bet on the number. Here is the honest business case: what you pay, what it returns, and what doing nothing costs.",
   "sections":[
-    {"h":"What you pay","p":["Roughly $6,000 to $22,000 a month depending on how much of the week you need, billed monthly with no long-term contract. No equity, no bonus, no severance risk, no recruiting fee, no ramp."]},
+    {"h":"What you pay","p":["Roughly $2,000 to $12,000 a month depending on how much of the week you need, billed monthly with no long-term contract. No equity, no bonus, no severance risk, no recruiting fee, no ramp."]},
     {"h":"What it returns","p":["A repeatable motion, a real forecast, a team that hits quota and senior ownership of the number, in weeks instead of quarters. The return is not the retainer you save; it is the revenue you stop leaving on the table because nobody senior owned the pipeline."]},
     {"h":"The cost of the alternatives","ul":["A full-time CRO: $250,000-plus all in, months to hire and ramp, real severance risk if the fit is wrong","A wrong VP hire: six figures and a year lost","Doing nothing: stalled revenue that rarely fixes itself"]},
   ],
@@ -2268,7 +2268,7 @@ GUIDES = [
   "faqs":[
     {"q":"Do you have experience selling to technical buyers?","a":"Yes. I have built and run sales into technical, skeptical buyers, including scientific, industrial and government buyers, where the sale is long, technical and built on trust, the same dynamics as security."},
     {"q":"Can you build our channel and our direct motion?","a":"Both. Cybersecurity usually needs direct sales and a partner channel of resellers, MSSPs and integrators, and I build and run both."},
-    {"q":"What does a fractional CRO for cybersecurity cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time CRO."}],
+    {"q":"What does a fractional CRO for cybersecurity cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time CRO."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a>, <a href="/services/go-to-market-strategy">go-to-market</a> and <a href="/services/distributor-channel-recruitment">channel</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-fintech","en_only":True,
@@ -2284,7 +2284,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into regulated, enterprise buyers?","a":"Yes. I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across four continents, the same shape as enterprise fintech sales."},
     {"q":"Can you handle long, compliance-heavy cycles?","a":"That is the job. I build a motion that survives security, compliance and procurement reviews and keeps multi-stakeholder deals moving to signature."},
-    {"q":"What does a fractional CRO for fintech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for fintech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/contract-negotiation">contract negotiation</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-defense-tech","en_only":True,
@@ -2300,7 +2300,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold to government and public-sector buyers?","a":"Yes. I run B2G and complex public-sector deals internationally, including RFIs, RFQs and tenders, and I know where these long deals stall."},
     {"q":"Can you work with defense primes and integrators?","a":"Yes. Defense and dual-use often sell through primes, integrators and local entities, and building and managing those partnerships is part of the work."},
-    {"q":"What does a fractional CRO for defense tech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for defense tech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/b2g-public-sector">B2G and public-sector</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-ai-companies","en_only":True,
@@ -2316,7 +2316,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you sell a technical AI product?","a":"Yes. I have built the sales motion for an AI startup from zero and sold scientific and technical software into skeptical, technical buyers. The win comes from a real motion, not just a demo."},
     {"q":"How do you price an AI product that keeps changing?","a":"With packaging and pricing built for where the product is now and able to evolve, tied to the value the buyer actually gets, not to model costs."},
-    {"q":"What does a fractional CRO for AI companies cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for AI companies cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-digital-health","en_only":True,
@@ -2332,7 +2332,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into healthcare buyers?","a":"Yes. I have worked on medical device commercialization and run complex, multi-stakeholder regulated deals, the same dynamics as digital health."},
     {"q":"Can you handle long clinical and procurement cycles?","a":"Yes. I build a motion that survives committees, procurement and compliance and keeps long deals moving to signature."},
-    {"q":"What does a fractional CRO for digital health cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for digital health cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-medical-devices">medical devices</a> guide and the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-climate-tech","en_only":True,
@@ -2348,7 +2348,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into utilities and industrials?","a":"Yes. I have built and run sales of industrial IoT, hardware and services into utilities and governments, including long RFI and RFQ cycles."},
     {"q":"Can you build the channel and the direct motion?","a":"Both. Climate tech usually needs direct sales into large accounts and a partner channel of distributors and integrators, and I build and run both."},
-    {"q":"What does a fractional CRO for climate tech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for climate tech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-iot-hardware">IoT and hardware</a> guide and the <a href="/services/market-entry">market entry</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-foodtech","en_only":True,
@@ -2364,7 +2364,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you get us into retailers and distributors?","a":"Yes. I have sold direct into large retailers and big-box chains and built the distributor and broker networks that get products onto shelves, including across borders."},
     {"q":"Do you handle international foodtech expansion?","a":"Yes. Market entry across four continents, including building the local channel, is one of the things I do."},
-    {"q":"What does a fractional CRO for foodtech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for foodtech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-agritech","en_only":True,
@@ -2380,7 +2380,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you build our agritech channel?","a":"Yes. Reaching growers and agribusiness usually runs through distributors and partners, and building and managing that channel is part of the work, alongside direct sales into large accounts."},
     {"q":"Do you handle international expansion for agritech?","a":"Yes. I run market entry across four continents, including building the local channel and team."},
-    {"q":"What does a fractional CRO for agritech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for agritech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-robotics","en_only":True,
@@ -2396,7 +2396,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold complex hardware and software together?","a":"Yes. I have run sales of mixed hardware, software and services for IoT and hardware companies, direct and through channel, into industrial buyers."},
     {"q":"Can you build the integrator channel?","a":"Yes. Robotics and automation often sell through integrators and resellers, and recruiting and managing that channel is part of the work."},
-    {"q":"What does a fractional CRO for robotics cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for robotics cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-iot-hardware">IoT and hardware</a> guide and the <a href="/services/distributor-channel-recruitment">channel</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-semiconductors","en_only":True,
@@ -2412,7 +2412,7 @@ GUIDES = [
   "faqs":[
     {"q":"Do you understand design-win sales cycles?","a":"Yes. The long, technical, relationship-driven sale into OEMs and design teams is the same discipline as the complex technical and channel sales I have built and run internationally."},
     {"q":"Can you manage a global distributor and rep network?","a":"Yes. Building and managing international distributor and channel networks across the FSU, EU and APAC is core to what I do."},
-    {"q":"What does a fractional CRO for semiconductors cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for semiconductors cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-iot-hardware">IoT and hardware</a> guide and the <a href="/services/market-entry">market entry</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-logistics","en_only":True,
@@ -2428,7 +2428,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into enterprise operations buyers?","a":"Yes. I have run complex B2B sales into large enterprise and industrial accounts internationally, the same operations-heavy, ROI-driven buyers logistics tech sells to."},
     {"q":"Can you handle long, multi-stakeholder cycles?","a":"Yes. I build a motion that keeps long, committee-driven deals moving to signature and a forecast you can trust."},
-    {"q":"What does a fractional CRO for logistics cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for logistics cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"us-market-entry-for-israeli-startups","en_only":True,
@@ -2444,7 +2444,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you help an Israeli startup enter the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
     {"q":"Do I need a US entity and US reps?","a":"Often eventually, but not always on day one. I help you sequence it: prove the motion, then stand up the presence and team, direct or through partners, when it is justified."},
-    {"q":"What does this cost?","a":"Fractional engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
+    {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
   "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"outsourced-cro",
@@ -2460,7 +2460,7 @@ GUIDES = [
   "faqs":[
     {"q":"What is an outsourced CRO?","a":"A senior revenue leader who owns your sales and revenue function from outside your headcount, part-time and on monthly terms, instead of a full-time CRO hire. The same as a fractional CRO."},
     {"q":"How is it different from a consultant?","a":"A consultant advises. An outsourced CRO owns the work, the pipeline and the number, and answers for the result."},
-    {"q":"What does an outsourced CRO cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time CRO."}],
+    {"q":"What does an outsourced CRO cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time CRO."}],
   "related":'See <a href="/how-to-hire-a-fractional-cro">how to hire one</a> and the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-insurtech","en_only":True,
@@ -2476,7 +2476,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into regulated, conservative industries?","a":"Yes. I have run complex, multi-stakeholder regulated deals with formal procurement across four continents, the same dynamics as selling to carriers and brokers."},
     {"q":"Can you build carrier and broker partnerships?","a":"Yes. Insurtech distribution often runs through carriers and brokers, and building and managing those partnerships is part of the work."},
-    {"q":"What does a fractional CRO for insurtech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for insurtech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/distributor-channel-recruitment">channel</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-proptech","en_only":True,
@@ -2492,7 +2492,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you turn proptech pilots into bigger deals?","a":"Yes. The job is building a motion that proves ROI in the first sites and expands pilots into portfolio-wide rollouts, not leaving them stuck as one-offs."},
     {"q":"Do you sell direct or through channel?","a":"Both. Proptech usually needs direct sales into large owners and operators plus partnerships to reach a fragmented market."},
-    {"q":"What does a fractional CRO for proptech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for proptech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-legaltech","en_only":True,
@@ -2508,7 +2508,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold to conservative, committee-driven buyers?","a":"Yes. Complex, multi-stakeholder deals with procurement and a long road to consensus are the deals I have run for years, the same shape as selling to law firms."},
     {"q":"How do you speed up a slow legal sale?","a":"With a clear ROI and risk case the buyer can defend internally, and a motion that keeps every stakeholder moving instead of letting the deal stall."},
-    {"q":"What does a fractional CRO for legaltech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for legaltech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/contract-negotiation">contract negotiation</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-hr-tech","en_only":True,
@@ -2524,7 +2524,7 @@ GUIDES = [
   "faqs":[
     {"q":"How do you stand out in a crowded category?","a":"With a sharp ICP, real differentiation and a motion that sells value and outcomes, not feature parity, so you stop competing on the same checklist as everyone else."},
     {"q":"Mid-market or enterprise?","a":"Both. I build the motion and the team for the segment that fits your product and pricing, and the procurement that comes with it."},
-    {"q":"What does a fractional CRO for HR tech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for HR tech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-edtech","en_only":True,
@@ -2540,7 +2540,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into universities and institutions?","a":"Yes. I have sold scientific software into universities and research labs and run B2G and public-sector deals with formal procurement, the same dynamics as edtech."},
     {"q":"Can you work within budget cycles and procurement?","a":"Yes. I time the motion to budget cycles and pilots and build a sale that survives committees and procurement."},
-    {"q":"What does a fractional CRO for edtech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for edtech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/b2g-public-sector">B2G and public-sector</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-developer-tools","en_only":True,
@@ -2556,7 +2556,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you monetize a bottoms-up developer base?","a":"Yes. The job is building the enterprise motion on top of adoption: finding the budget owner, making the business case and running procurement, while keeping the developers who got you in."},
     {"q":"Do you understand technical buyers?","a":"Yes. I have built and run sales into technical, skeptical buyers for years, where trust and a credible technical sale win the deal."},
-    {"q":"What does a fractional CRO for developer tools cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for developer tools cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-saas">SaaS</a> and <a href="/fractional-cro-for-ai-companies">AI</a> guides and the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-biotech","en_only":True,
@@ -2572,7 +2572,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold to scientific and pharma buyers?","a":"Yes. I sold scientific software into universities, research labs and pharma and built the playbook the reps ran. That credibility-driven, technical sale is exactly this market."},
     {"q":"Can you handle long, evidence-driven cycles?","a":"Yes. I build a motion that survives technical evaluation, grants and procurement and keeps long deals moving."},
-    {"q":"What does a fractional CRO for biotech cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for biotech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-medical-devices">medical devices</a> and <a href="/fractional-cro-for-digital-health">digital health</a> guides, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-telecom","en_only":True,
@@ -2588,7 +2588,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you run RFP and procurement-driven deals?","a":"Yes. Formal RFIs, RFQs, RFPs and long procurement with many stakeholders are deals I have run internationally for years."},
     {"q":"Can you build the telecom channel?","a":"Yes. Telecom often sells through integrators and partners, and building and managing international channel networks is core to what I do."},
-    {"q":"What does a fractional CRO for telecom cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for telecom cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/b2g-public-sector">B2G</a>, <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-energy","en_only":True,
@@ -2604,7 +2604,7 @@ GUIDES = [
   "faqs":[
     {"q":"Have you sold into utilities and government?","a":"Yes. I have built and run sales of industrial IoT, hardware and services into utilities and governments, including long RFI and RFQ cycles."},
     {"q":"Can you handle long, project-driven cycles?","a":"Yes. I build a motion that survives pilots, procurement and project timelines and keeps capital deals moving to signature."},
-    {"q":"What does a fractional CRO for energy cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for energy cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/fractional-cro-for-climate-tech">climate tech</a> and <a href="/fractional-cro-for-iot-hardware">IoT and hardware</a> guides, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-professional-services","en_only":True,
@@ -2620,7 +2620,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you grow a referral-based services firm?","a":"Yes. The job is building real business development on top of referrals: an ICP, an outbound motion, a pipeline and someone owning the number, so growth does not depend on who you already know."},
     {"q":"Will the founders still need to sell?","a":"Less, and on the right deals. I build the motion and the team so the founders are not the only ones who can win business."},
-    {"q":"What does a fractional CRO for professional services cost?","a":"Typically $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in."}],
+    {"q":"What does a fractional CRO for professional services cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-the-us-market","en_only":True,
@@ -2636,7 +2636,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you take a foreign company into the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
     {"q":"Do I need a US entity and US team on day one?","a":"Not always. I help you sequence it: prove the motion first, then stand up the presence and team, direct or through partners, when it is justified."},
-    {"q":"What does this cost?","a":"Fractional engagements run $6,000 to $22,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
+    {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
   "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/us-market-entry-for-israeli-startups">US entry for Israeli startups</a> guide, or <a href="/contact">get in touch</a>.'},
 ]
 
@@ -2737,9 +2737,9 @@ HE_GUIDES = [
     {"h":"התשובה הקצרה","p":[
       "סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה עולה 250 אלף דולר ומעלה בסך הכל, אחרי שמוסיפים בסיס, אקוויטי, בונוס, סיכון פיצויי פיטורין ומחזור גיוס של חודשים. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ נותן לכם את אותה מנהיגות בכירה בתשלום חודשי. התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."]},
     {"h":"שלוש הרמות, לפי כמה ממני אתם צריכים","tiers":[
-      "Starter, 6,000 דולר בחודש. אני, סמנכ״ל המכירות ופיתוח העסקי שלכם, בתוך העסק שעתיים ביום, בכל יום עבודה. אני מחזיק את האסטרטגיה, השיטה והסטנדרטים, והצוות שלכם מבצע את רוב היומיום.",
-      "Growth, 12,000 דולר בחודש. חצי משרה, ארבע שעות ביום. כבר לא רק מכוון, מניע: אני מריץ את המוטור שבוע אחר שבוע, מנהל את הצוות בידיים, ונושא איתכם במספר. מה שרוב החברות בוחרות.",
-      "בעלות מלאה, 22,000 דולר בחודש. משרה מלאה ובלעדית. כולי על ההכנסות שלכם, על פני מכירות, שיווק ו-Go-to-Market, וכל עוד אני אחראי על התוצאות שלכם אני לא לוקח אף לקוח אחר. בכפוף לזמינות."]},
+      "Advisor, 2,000 דולר בחודש. כשלוש שעות בשבוע. שיחת אסטרטגיה שבועית קבועה וגישה אליי בין השיחות, להחלטות האמיתיות. למייסדים שרוצים כיוון בכיר בזמן שהם מריצים את היומיום בעצמם.",
+      "Starter, 6,000 דולר בחודש. אני, סמנכ״ל המכירות ופיתוח העסקי שלכם, בתוך העסק שעתיים ביום, בכל יום עבודה. אני מחזיק את האסטרטגיה, השיטה והסטנדרטים, והצוות שלכם מבצע את רוב היומיום. מה שרוב החברות בוחרות.",
+      "Growth, 12,000 דולר בחודש. חצי משרה, ארבע שעות ביום. כבר לא רק מכוון, מניע: אני מריץ את המוטור שבוע אחר שבוע, מנהל את הצוות בידיים, ונושא איתכם במספר. התקשרויות במשרה מלאה ובלעדיות זמינות לפי בקשה."]},
     {"h":"למה זה זול יותר מגיוס במשרה מלאה","ul":[
       "בלי בסיס של 250 אלף דולר, אקוויטי, בונוס או סיכון פיצויים",
       "בלי חיפוש גיוס של שלושה חודשים ובלי התברגות של שני רבעונים",
@@ -2749,7 +2749,7 @@ HE_GUIDES = [
       "רוב היועצים מגישים לכם מצגת ונעלמים. הם מעולם לא נשאו אחריות על מספר. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר, ואני עדיין עושה את המכירה בעצמי, בפייפליין ובעסקאות. ואני מחייב חודשית בלי חוזה, אז אני שומר על העבודה בזכות זה שאני טוב בה, לא בזכות חוזה שכולא אתכם."]},
   ],
   "faqs":[
-    {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"הפרויקטים שלי נעים בין 6,000 ל-22,000 דולר בחודש לפי רמת המעורבות, לעומת 250 אלף דולר ומעלה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה אחרי אקוויטי, בונוס ופיצויים."},
+    {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"הפרויקטים שלי נעים בין 2,000 ל-12,000 דולר בחודש לפי רמת המעורבות, לעומת 250 אלף דולר ומעלה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה אחרי אקוויטי, בונוס ופיצויים."},
     {"q":"האם סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ זול יותר מסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה?","a":"כן. אתם מקבלים את אותה מנהיגות בכירה בלי המשכורת, האקוויטי, הבונוס, סיכון הפיצויים, מחזור הגיוס או ההתברגות הארוכה, ובלי נעילה לטווח ארוך."},
     {"q":"מה כלול?","a":"אותו דבר בכל רמה: אבחון הכנסות, אסטרטגיית מכירות ותחזית, Playbook, מבנה CRM ופייפליין, הכשרת צוות, ניהול מעשי של התנועה, החלטות גיוס וביצועים, ואחריות מלאה על מכירות, שיווק ו-Go-to-Market. מה שמשתנה בין הרמות הוא כמה שעות ביום אני בעסק שלכם: שעתיים, ארבע שעות, או משרה מלאה."},
     {"q":"כמה זמן נמשך פרויקט סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"אין נעילה לטווח ארוך. אתם מגדילים את המעורבות ככל שאתם גדלים, או מעבירים את הפונקציה הלאה כשהיא בנויה."},
@@ -2798,7 +2798,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"אתם עובדים עם חברות ישראליות?","a":"כן. רוב העבודה שלי היא לקחת חברות B2B ישראליות לארה״ב, לאיחוד האירופי ולשווקים נוספים, במכירה ישירה ודרך מפיצים."},
     {"q":"אפשר לעבוד בעברית?","a":"כן. אני עובד עם מייסדים וצוותים ישראליים בעברית ומריץ את המכירה הבינלאומית באנגלית או בשפת השוק היעד."},
-    {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל?","a":"הפרויקטים נעים בין 6,000 ל-22,000 דולר בחודש לפי רמת המעורבות, הרבה מתחת לגיוס סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה של 250 אלף דולר ומעלה."}],
+    {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל?","a":"הפרויקטים נעים בין 2,000 ל-12,000 דולר בחודש לפי רמת המעורבות, הרבה מתחת לגיוס סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה של 250 אלף דולר ומעלה."}],
   "related":'ראו את שירותי <a href="/he/services/market-entry">כניסה לשוק</a> ו-<a href="/he/services/fractional-cro">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>, או <a href="/fractional-cro-israel">הגרסה באנגלית</a>. מהבלוג: <a href="/he/blog/entering-the-us-market">כניסה לשוק האמריקאי</a>, <a href="/he/blog/why-israeli-startups-fail-at-sales">למה סטארטאפים ישראלים נכשלים במכירות בחו״ל</a>.'},
 
  {"slug":"fractional-cro-vs-vp-of-sales",
@@ -2821,7 +2821,7 @@ HE_GUIDES = [
   ],
   "faqs":[
     {"q":"האם סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ עדיף על גיוס VP מכירות?","a":"אם תנועת המכירות שלכם עוד לא מוכחת, כן. גיוס VP הוא הימור של שש ספרות עם חודשי חיפוש, רבעון התברגות וסיכון פיצויים אמיתי. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שעשה את זה 30 פעמים ומעלה מספק מהשבוע הראשון, בלי סיכון גיוס ובלי נעילה."},
-    {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול VP מכירות?","a":"VP מכירות עולה 30,000 דולר בחודש או יותר בסך הכל, פלוס דמי מגייסים, אקוויטי ופיצויים. הפרויקטים שלי במיקור חוץ נעים בין 6,000 ל-22,000 דולר בחודש, בחיוב חודשי בלי חוזה."},
+    {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול VP מכירות?","a":"VP מכירות עולה 30,000 דולר בחודש או יותר בסך הכל, פלוס דמי מגייסים, אקוויטי ופיצויים. הפרויקטים שלי במיקור חוץ נעים בין 2,000 ל-12,000 דולר בחודש, בחיוב חודשי בלי חוזה."},
     {"q":"ומה אם זה לא עובד?","a":"אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."},
     {"q":"אתה באמת עושה את המכירה, או רק מייעץ?","a":"אני עושה את המכירה. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר ואני עדיין עובד ידיים בבוץ בפייפליין ובעסקאות, לא רק במצגות אסטרטגיה."}],
   "related":'השוו את <a href="/he/fractional-cro-cost">העלות</a>, ראו <a href="/he/fractional-cro-vs-outsourced-sales">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול מכירות במיקור חוץ</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/when-to-hire-vp-sales">מתי לגייס סמנכ״ל מכירות</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
@@ -2835,10 +2835,10 @@ HE_GUIDES = [
     {"h":"מתי אתם מוכנים לאחד","p":["אתם מוכנים כשההכנסות נתקעו ואף אחד בכיר לא אחראי על התוצאות, כשאתם צריכים תוצאות לפני שאפשר להצדיק משרה מלאה, או כששרפתם כסף על גיוסי VP שלא הזיזו את התוצאות. אם אתם רק צריכים עוד ידיים, גייסו נציגים. אם אתם צריכים מישהו שייקח אחריות על האסטרטגיה, הצוות והתחזית, גייסו CRO."]},
     {"h":"מה לחפש","ul":["איש ביצוע שנשא אחריות על תוצאות, לא יועץ שמגיש מצגת","ניסיון מעשי במכירה מהסוג שלכם: B2B, גודל העסקה שלכם, התהליך שלכם","נכונות לקחת אחריות על גיוס, הכשרה והחלפה של נציגים, לא רק לייעץ","גישה ברורה של אבחון ואז ביצוע, עם תחזית שהוא יעמוד מאחוריה","תנאים חודשיים בלי נעילה ארוכה, כך שהוא ממשיך להרוויח את החידוש"]},
     {"h":"שאלות לשאול לפני שחותמים","ul":["ספר לי על מערך הכנסות שבנית מאפס ומה היה באחריותך","מה תעשה בשבוע הראשון, בשבוע השני ובחודש הראשון","איך אתה מחליט את מי לשמור, להכשיר או להחליף בצוות שלי","איך נראית התחזית שלך ועל מה אתה אחראי","כמה שעות ביום אתה באמת תהיה בעסק שלי"]},
-    {"h":"כמה זה עולה","p":["סמנכ״ל הכנסות במיקור חוץ מתומחר לפי כמה מהשבוע אתם צריכים, לא לפי משכורת מלאה. צפו לכ-6,000 דולר בחודש לכמה שעות ביום, ועד כ-22,000 למשרה מלאה ובלעדית, בחיוב חודשי. השוו את זה ל-250,000 דולר ומעלה בסך הכל ל-CRO במשרה מלאה ברגע שמוסיפים אקוויטי, בונוס, סיכון פיצויים ומחזור גיוס ארוך."]},
+    {"h":"כמה זה עולה","p":["סמנכ״ל הכנסות במיקור חוץ מתומחר לפי כמה מהשבוע אתם צריכים, לא לפי משכורת מלאה. צפו לכ-2,000 דולר בחודש ליועץ שבועי, 6,000 לכמה שעות ביום, ועד 12,000 לחצי משרה, בחיוב חודשי, עם משרה מלאה ובלעדית לפי בקשה. השוו את זה ל-250,000 דולר ומעלה בסך הכל ל-CRO במשרה מלאה ברגע שמוסיפים אקוויטי, בונוס, סיכון פיצויים ומחזור גיוס ארוך."]},
   ],
   "faqs":[
-    {"q":"כמה עולה לשכור Fractional CRO?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO במשרה מלאה של 250,000 דולר ומעלה."},
+    {"q":"כמה עולה לשכור Fractional CRO?","a":"בדרך כלל 2,000 עד 12,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO במשרה מלאה של 250,000 דולר ומעלה."},
     {"q":"כמה מהר אפשר להתחיל?","a":"מהר. טוב מאבחן בשבוע הראשון, נותן תוכנית ותחזית אמיתית בשבוע השני, ומריץ את התהליך מהשבוע השלישי, במקום החודשים שלוקח לגייס ולהתברג למשרה מלאה."},
     {"q":"Fractional CRO או CRO במשרה מלאה?","a":"שכרו במיקור חוץ כשהעבודה עוד לא שבוע מלא או כשאתם צריכים תוצאות עכשיו בלי העלות והסיכון של משרה מלאה. עברו למשרה מלאה כשהפונקציה גדולה מספיק כדי להצדיק משכורת בכירה כל השנה."}],
   "related":'ראו את שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a>, השוו <a href="/he/fractional-cro-vs-vp-of-sales">CRO מול VP מכירות</a> ו<a href="/he/fractional-cro-cost">העלות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
@@ -2871,7 +2871,7 @@ HE_GUIDES = [
   ],
   "faqs":[
     {"q":"מתי סטארטאפ צריך לשכור Fractional CRO?","a":"כשהמייסדים עדיין היחידים שסוגרים, או כשאתם צריכים תהליך חוזר ותחזית לפני שאפשר להצדיק CRO במשרה מלאה. בדרך כלל מההכנסה הראשונה ועד סבב B."},
-    {"q":"זה אפשרי כלכלית לסטארטאפ?","a":"כן, זו כל הנקודה. אתם מקבלים הנהגת הכנסות בכירה ב-6,000 עד 22,000 דולר בחודש, בחיוב חודשי, במקום משכורת מלאה של 250,000 דולר ומעלה פלוס אקוויטי."},
+    {"q":"זה אפשרי כלכלית לסטארטאפ?","a":"כן, זו כל הנקודה. אתם מקבלים הנהגת הכנסות בכירה ב-2,000 עד 12,000 דולר בחודש, בחיוב חודשי, במקום משכורת מלאה של 250,000 דולר ומעלה פלוס אקוויטי."},
     {"q":"אתה באמת תמכור או רק תייעץ?","a":"אני מוכר ובונה. אני נכנס לפייפליין ולעסקאות, מגייס ומנהל את הנציגים, ולוקח אחריות על התחזית, לא על מצגת."}],
   "related":'ראו את שירותי <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a> ו<a href="/he/services/go-to-market-strategy">Go-To-Market</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
 
@@ -2904,7 +2904,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"מה עושה VP מכירות במיקור חוץ?","a":"בונה ומריץ את צוות המכירות והפייפליין במשרה חלקית: גיוס, הכשרה וניהול נציגים, אחריות על ה-playbook, ה-CRM והתחזית, ואימון הצוות ליעד."},
     {"q":"VP מכירות במיקור חוץ או Fractional CRO?","a":"בחרו VP מכירות כדי להריץ את צוות המכירות והפייפליין. בחרו CRO כדי לקחת אחריות על כל ההכנסות כולל שיווק ו-Go-To-Market. אני עושה את שניהם ויכול להגדיל את ההיקף ככל שאתם גדלים."},
-    {"q":"כמה עולה VP מכירות במיקור חוץ?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי שעות, בחיוב חודשי בלי נעילה, הרבה מתחת למשכורת VP מלאה."}],
+    {"q":"כמה עולה VP מכירות במיקור חוץ?","a":"בדרך כלל 2,000 עד 12,000 דולר בחודש לפי שעות, בחיוב חודשי בלי נעילה, הרבה מתחת למשכורת VP מלאה."}],
   "related":'ראו את שירותי <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות</a> ו<a href="/he/services/sales-team-building">בניית צוות</a>, או <a href="/he/contact">צרו קשר</a>.'},
 
  {"slug":"fractional-chief-sales-officer",
@@ -2920,7 +2920,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"מה זה סמנכ״ל מכירות ראשי במיקור חוץ?","a":"מנהל מכירות בכיר שלוקח אחריות על ארגון המכירות שלכם, האסטרטגיה, הצוות והתוצאות במשרה חלקית, בלי משכורת CSO מלאה או נעילה ארוכה."},
     {"q":"במה CSO שונה מ-CRO?","a":"CSO אחראי על ארגון המכירות. CRO אחראי על כל ההכנסות, כולל שיווק ו-Go-To-Market. אני לוקח כל אחד מהם לפי מה שצריך שיהיה באחריות."},
-    {"q":"כמה זה עולה?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה."}],
+    {"q":"כמה זה עולה?","a":"בדרך כלל 2,000 עד 12,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה."}],
   "related":'ראו את שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a> או <a href="/he/contact">צרו קשר</a>.'},
 
  {"slug":"fractional-cro-roi",
@@ -2929,7 +2929,7 @@ HE_GUIDES = [
   "h1":"האם Fractional CRO שווה את זה?","eyebrow":"מדריך",
   "lead":"סמנכ״ל הכנסות במיקור חוץ הוא לא עלות, הוא הימור על התוצאות. הנה התיק העסקי הכן: כמה אתם משלמים, מה זה מחזיר, ומה עולה לא לעשות כלום.",
   "sections":[
-    {"h":"כמה אתם משלמים","p":["בערך 6,000 עד 22,000 דולר בחודש לפי כמה מהשבוע אתם צריכים, בחיוב חודשי בלי חוזה ארוך. בלי אקוויטי, בלי בונוס, בלי סיכון פיצויים, בלי דמי גיוס, בלי התברגות."]},
+    {"h":"כמה אתם משלמים","p":["בערך 2,000 עד 12,000 דולר בחודש לפי כמה מהשבוע אתם צריכים, בחיוב חודשי בלי חוזה ארוך. בלי אקוויטי, בלי בונוס, בלי סיכון פיצויים, בלי דמי גיוס, בלי התברגות."]},
     {"h":"מה זה מחזיר","p":["תהליך חוזר, תחזית אמיתית, צוות שעומד ביעד ובעלות בכירה על התוצאות, בשבועות במקום ברבעונים. ההחזר הוא לא הריטיינר שחסכתם; הוא ההכנסה שאתם מפסיקים להשאיר על השולחן כי אף אחד בכיר לא היה אחראי על הפייפליין."]},
     {"h":"העלות של החלופות","ul":["CRO במשרה מלאה: 250,000 דולר ומעלה בסך הכל, חודשים לגייס ולהתברג, וסיכון פיצויים אמיתי אם ההתאמה שגויה","גיוס VP שגוי: שש ספרות ושנה שאבדה","לא לעשות כלום: הכנסות תקועות שכמעט אף פעם לא מתקנות את עצמן"]},
   ],
@@ -2952,7 +2952,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"מה זה סמנכ״ל הכנסות במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על מערך המכירות וההכנסות מחוץ למצבת כוח האדם, במשרה חלקית ובתנאים חודשיים, במקום גיוס CRO מלא. זהה ל-fractional CRO."},
     {"q":"במה זה שונה מיועץ?","a":"יועץ מייעץ. סמנכ״ל הכנסות במיקור חוץ לוקח אחריות על העבודה, על הפייפליין ועל התוצאות, ועונה על התוצאה."},
-    {"q":"כמה עולה סמנכ״ל הכנסות במיקור חוץ?","a":"בדרך כלל 6,000 עד 22,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO מלא."}],
+    {"q":"כמה עולה סמנכ״ל הכנסות במיקור חוץ?","a":"בדרך כלל 2,000 עד 12,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO מלא."}],
   "related":'ראו <a href="/he/how-to-hire-a-fractional-cro">איך לשכור אחד</a> ואת שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות</a>, או <a href="/he/contact">צרו קשר</a>.'},
 ]
 
