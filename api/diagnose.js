@@ -75,11 +75,34 @@ OUTPUT FORMAT (plain text, tight):
 
 Keep the whole thing under 230 words. Section labels are written as plain text, no markdown headings.`;
 
+// Hebrew override: same Tal, same frameworks, answered in native Hebrew with
+// Hebrew section labels (so the front-end can bold them).
+const SYSTEM_HE = SYSTEM + `
+
+LANGUAGE OVERRIDE: Answer entirely in natural, fluent, native Hebrew (עברית), not translated-sounding Hebrew. Keep Tal's blunt, senior, calm voice. Use these exact section labels in place of the English ones: write "מה כנראה קורה כאן" where the format says "What is probably going on", and "מה הייתי בודק קודם" where it says "What I would check first". The closing line inviting a 15 minute call must also be in Hebrew. Do not use em dashes or en dashes in Hebrew either. Keep the whole thing under 230 words. Use English only for unavoidable proper nouns.`;
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ ok: false, error: "Method not allowed" });
     return;
   }
+
+  let problem = "";
+  let lang = "en";
+  try {
+    const body = typeof req.body === "string" ? JSON.parse(req.body) : (req.body || {});
+    problem = (body.problem || "").toString().trim();
+    if ((body.lang || "").toString().toLowerCase() === "he") lang = "he";
+  } catch (_) { /* ignore */ }
+
+  // User-facing errors, localized to the page's language.
+  const ERR = {
+    rate: { en: "Slow down a moment, then try again.", he: "רגע, האטו קצת ונסו שוב." },
+    more: { en: "Tell me a bit more about what is stalling.", he: "תנו לי עוד משפט או שניים לעבוד איתם." },
+    busy: { en: "The doctor is busy. Try again in a moment.", he: "הדוקטור עסוק כרגע. נסו שוב עוד רגע." },
+    server: { en: "Server error", he: "שגיאת שרת. נסו שוב עוד רגע." },
+  };
+  const e = function (k) { return ERR[k][lang] || ERR[k].en; };
 
   if (!originAllowed(req)) {
     res.status(403).json({ ok: false, error: "Forbidden" });
@@ -87,18 +110,12 @@ export default async function handler(req, res) {
   }
 
   if (rateLimited(req)) {
-    res.status(429).json({ ok: false, error: "Slow down a moment, then try again." });
+    res.status(429).json({ ok: false, error: e("rate") });
     return;
   }
 
-  let problem = "";
-  try {
-    const body = typeof req.body === "string" ? JSON.parse(req.body) : (req.body || {});
-    problem = (body.problem || "").toString().trim();
-  } catch (_) { /* ignore */ }
-
   if (!problem || problem.length < 10) {
-    res.status(400).json({ ok: false, error: "Tell me a bit more about what is stalling." });
+    res.status(400).json({ ok: false, error: e("more") });
     return;
   }
   if (problem.length > 2000) {
@@ -122,15 +139,17 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: MODEL,
         max_tokens: 1024,
-        system: SYSTEM,
+        system: lang === "he" ? SYSTEM_HE : SYSTEM,
         messages: [
-          { role: "user", content: "Here is where our B2B sales are stuck:\n\n" + problem }
+          { role: "user", content: (lang === "he"
+              ? "הנה איפה המכירות שלנו בעסק תקועות:\n\n"
+              : "Here is where our B2B sales are stuck:\n\n") + problem }
         ],
       }),
     });
 
     if (!r.ok) {
-      res.status(502).json({ ok: false, error: "The doctor is busy. Try again in a moment." });
+      res.status(502).json({ ok: false, error: e("busy") });
       return;
     }
 
@@ -140,7 +159,7 @@ export default async function handler(req, res) {
       : "";
 
     if (!text) {
-      res.status(502).json({ ok: false, error: "The doctor is busy. Try again in a moment." });
+      res.status(502).json({ ok: false, error: e("busy") });
       return;
     }
 
@@ -148,7 +167,7 @@ export default async function handler(req, res) {
 
     res.status(200).json({ ok: true, diagnosis: text });
   } catch (_) {
-    res.status(500).json({ ok: false, error: "Server error" });
+    res.status(500).json({ ok: false, error: e("server") });
   }
 }
 
