@@ -547,6 +547,12 @@
     <lastmod>2026-06-16</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/blog/cro-vs-cgo-which-one-does-your-company-need</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/blog/b2b-pricing-models</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1619,6 +1625,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2018-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/cro-vs-cgo-which-one-does-your-company-need</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-16</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/b2b-pricing-models</loc>
