@@ -185,10 +185,10 @@
     .cmarquee .case::after{content:'';position:absolute;inset:0;border-radius:18px;background:radial-gradient(420px circle at var(--mx,50%) var(--my,-20%),rgba(90,176,255,.16),transparent 60%);opacity:0;transition:opacity .25s ease;pointer-events:none;z-index:0}
     .cmarquee .case:hover{border-color:rgba(90,176,255,.45);box-shadow:0 24px 60px rgba(0,0,0,.45),0 0 0 1px rgba(90,176,255,.22)}
     .cmarquee .case:hover::after{opacity:1}
-    .case-full{display:none;gap:22px}
+    .case-full{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+    .case-full .case{grid-template-columns:1fr;align-items:start}
     .case-full .case+.case{margin-top:0}
-    #cases.cases-open .cmarquee{display:none}
-    #cases.cases-open .case-full{display:grid}
+    @media(max-width:760px){.case-full{grid-template-columns:1fr}}
 
     /* method */
     .caps{display:grid;grid-template-columns:1fr 1fr;gap:20px 24px;margin-top:42px}
@@ -407,9 +407,7 @@
         <a class="cap reveal" href="/services/sales-team-building"><h3>Reps who can't close</h3><p>I hire, train and manage your in-house team on a playbook that makes them hit quota, and replace who can't.</p><span class="cap-link">Fix this &rarr;</span></a>
         <a class="cap reveal" href="/services/fractional-cro"><h3>Another VP of Sales gone in 90 days</h3><p>You have burned six figures on $30K-a-month hires that didn't move the number. I have done it 30-plus times, with no severance and no lock-in.</p><span class="cap-link">Fix this &rarr;</span></a>
         <a class="cap reveal" href="/services/market-entry"><h3>You want to sell globally and don't know where to start</h3><p>I help you choose the right market, then build and run the whole operation there: the team, the subsidiary, support and the sales, on four continents.</p><span class="cap-link">Fix this &rarr;</span></a>
-        <a class="cap reveal" href="/services/distributor-channel-recruitment"><h3>No channel partners to reach the market</h3><p>I find, sign and manage the distributors, resellers and partners that open new territories and actually deliver.</p><span class="cap-link">Fix this &rarr;</span></a>
-        <a class="cap reveal" href="/services/b2g-public-sector"><h3>Stuck in RFIs and red tape</h3><p>I run B2G and complex public-sector deals, RFIs, RFQs and government projects, across the globe.</p><span class="cap-link">Fix this &rarr;</span></a>
-        <a class="cap reveal" href="/services/fractional-cro"><h3>Nobody owns the number</h3><p>I own the strategy, the forecast, the accountability and the results, end to end, as your fractional CRO.</p><span class="cap-link">Fix this &rarr;</span></a>
+        <a class="cap reveal" href="/services/distributor-channel-recruitment"><h3>Need distributors to reach new markets</h3><p>I find, sign and manage the distributors, resellers and channel partners that open new territories and actually deliver.</p><span class="cap-link">Fix this &rarr;</span></a>
         <a class="cap reveal" href="/services/go-to-market-strategy"><h3>A great product that just won't sell</h3><p>I build your go-to-market from zero: ICP, positioning, channels, playbook and a real forecast, then I run it.</p><span class="cap-link">Fix this &rarr;</span></a>
       </div>
       <p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-outline" href="/services/">See the solutions &rarr;</a></p>
@@ -425,27 +423,14 @@
         <h2>Brought in to build the engine, not just advise on it.</h2>
       </div>
     </div>
-    <div class="marquee cmarquee reveal" style="--speed:33s"><div class="marquee-track" id="casetrack"></div></div>
     <div class="wrap">
       <div class="case-full">
-      <article class="case">
-        <div class="who"><img class="case-logo" src="/logos/kanduai.jpg" alt="KanduAI" /><h3>SaaS Startup</h3><p class="role">Ariel Shemesh, Co-founder &amp; CEO</p><p class="intro">Brought in as fractional VP of Sales from day one. I owned go-to-market end to end, built the engine from scratch, then rebuilt it through a full product pivot.</p></div>
-        <ul><li>Built the full GTM strategy and a milestone-by-milestone plan</li><li>Defined and validated the ICP, positioning and messaging</li><li>Built the outbound motion and playbook from zero</li><li>Hired, trained and managed the SDR team day to day</li><li>Relaunched the entire go-to-market through the pivot</li></ul>
-      </article>
-      <article class="case">
-        <div class="who"><img class="case-logo" src="/logos/lonestar.jpg" alt="LoneStar Tracking" /><h3>Founder-led IoT business</h3><p class="role">Thomas Remmert, Co-Founder &amp; CTO</p><p class="intro">A founder-led IoT business with strong marketing but a sales engine that wasn't converting. I built and ran the sales side, end to end.</p></div>
-        <ul><li>Built the entire sales strategy and motion from scratch</li><li>Selected and implemented the CRM and the sales stack</li><li>Built the process, the playbook and the pipeline</li><li>Recruited, hired and trained the sales team</li><li>Managed the team and the motion day to day</li><li>Delivered full VP-level leadership at a fraction of the cost</li></ul>
-      </article>
-      <article class="case">
-        <div class="who"><img class="case-logo" src="/logos/bt9.jpg" alt="BT9 / Xsense" /><h3>IoT &amp; SaaS company</h3><p class="role">BT9 / Xsense, global sales built from zero</p><p class="intro">An IoT and SaaS company that needed real international reach. I built the entire global sales operation from the ground up, direct and through channel, and ran the team day to day.</p></div>
-        <ul><li>Built an entire international sales operation from the ground up, across the FSU, the EU and APAC</li><li>Ran direct sales of SaaS, hardware and services</li><li>Recruited and managed the distributor network</li><li>Hired, trained and ran the team day to day: SDRs, post-sales and tech support</li></ul>
-      </article>
-      <article class="case">
-        <div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><p class="role">Global manufacturer, breaking into Eastern Europe</p><p class="intro">A global manufacturer convinced there was no money in Eastern Europe, so they stayed out. I proved them wrong, built the plan, and opened the market myself.</p></div>
-        <ul><li>Built the Eastern European market-entry strategy and milestone plan</li><li>Mapped the channel and the real decision-makers on the ground</li><li>Led every negotiation personally</li><li>Signed multiple distributors and retail chains across the region</li><li>Put the product on shelves in a market the company had written off</li><li>Proved there was real money in Eastern Europe</li></ul>
-      </article>
+      <article class="case"><div class="who"><img class="case-logo" src="/logos/kanduai.jpg" alt="KanduAI" /><h3>SaaS Startup</h3><p class="role">Ariel Shemesh, Co-founder &amp; CEO</p><p class="intro">Brought in as fractional VP of Sales from day one. I owned go-to-market end to end, built the engine from scratch, then rebuilt it through a full product pivot.</p></div></article>
+      <article class="case"><div class="who"><img class="case-logo" src="/logos/lonestar.jpg" alt="LoneStar Tracking" /><h3>Founder-led IoT business</h3><p class="role">Thomas Remmert, Co-Founder &amp; CTO</p><p class="intro">A founder-led IoT business with strong marketing but a sales engine that wasn't converting. I built and ran the sales side, end to end.</p></div></article>
+      <article class="case"><div class="who"><img class="case-logo" src="/logos/bt9.jpg" alt="BT9 / Xsense" /><h3>IoT &amp; SaaS company</h3><p class="role">BT9 / Xsense, global sales built from zero</p><p class="intro">An IoT and SaaS company that needed real international reach. I built the entire global sales operation from the ground up, direct and through channel, and ran the team day to day.</p></div></article>
+      <article class="case"><div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><h3>Global manufacturer</h3><p class="role">Breaking into Eastern Europe</p><p class="intro">A global manufacturer convinced there was no money in Eastern Europe, so they stayed out. I proved them wrong, built the plan, and opened the market myself.</p></div></article>
       </div>
-      <p style="text-align:center;margin-top:34px"><button type="button" class="btn btn-outline case-toggle" aria-expanded="false">See more</button></p>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/case-studies">See the full case studies &rarr;</a></p>
     </div>
   </section>
 
@@ -480,7 +465,7 @@
     </div>
   </section>
 
-  <!-- Ways -->
+  <!-- Ways + pricing -->
   <section id="work" class="accent-top">
     <div class="wrap">
       <div class="section-head reveal">
@@ -491,19 +476,14 @@
       </div>
       <div class="cards3">
         <div class="card3 reveal"><span class="kick">Do it yourself</span><h3>TheDealMentor.AI</h3><p class="price">From $149/mo</p><p>A virtual CRO platform that gives you the system and daily guidance to sell yourself, plus me at a minimal engagement to keep you on track. Built for founders who want to own the motion.</p><a class="btn btn-outline" href="https://thedealmentor.ai" target="_blank" rel="noopener">Explore TheDealMentor.AI</a></div>
-        <div class="card3 feat reveal"><span class="badge">Most common</span><span class="kick">Get a leader for it</span><h3>Fractional CRO</h3><p class="price">Tal, personally</p><p>Me in the seat, owning your revenue and answering for the number. Priced below by how much of my week you need, from two hours a day to full-time and exclusive.</p><a class="btn btn-solid" href="#engagements">See pricing</a></div>
+        <div class="card3 feat reveal"><span class="badge">Most common</span><span class="kick">Get a leader for it</span><h3>Fractional CRO</h3><p class="price">Tal, personally</p><p>Me in the seat, owning your revenue and answering for the number. Priced below by how much of my week you need, from two hours a day to full-time and exclusive.</p><a class="btn btn-solid" href="#cro-pricing">See pricing</a></div>
         <div class="card3 reveal"><span class="kick">Hand it off entirely</span><h3>KSW Solutions</h3><p class="price">Outsourced sales</p><p>Outsource your sales entirely. You get native-speaking SDRs and AEs, senior sales leadership and a VP, a complete team we hire, train, manage and report on daily, so the whole revenue function lives outside your headcount.</p><a class="btn btn-outline" href="https://ksw.solutions" target="_blank" rel="noopener">Visit KSW Solutions</a></div>
       </div>
-    </div>
-  </section>
 
-  <!-- Engagements -->
-  <section id="engagements" class="accent-top">
-    <div class="wrap">
-      <div class="section-head reveal">
+      <div id="cro-pricing" class="section-head reveal" style="margin-top:72px">
         <div class="glowline"></div>
-        <p class="eyebrow">Engagements</p>
-        <h2>Fractional CRO, priced by how much of me you need.</h2>
+        <p class="eyebrow">Fractional CRO Pricing</p>
+        <h2>Priced by how much of me you need.</h2>
         <p>The job is the same at every tier: I own your revenue end to end, hands-on, from diagnosis to execution to the number itself. I don't advise from the side, I do the work. The only thing that changes is how many hours a day I'm in your business.</p>
       </div>
       <div class="cards3">
