@@ -5,6 +5,42 @@
 
 const MODEL = "claude-opus-4-8";
 
+// Only accept calls that come from our own site (blocks other sites embedding
+// the endpoint and most casual scripting). Same-origin browser POSTs from the
+// site always carry one of these.
+const ALLOWED_HOSTS = ["talpaperin.com", "www.talpaperin.com", "localhost", "127.0.0.1"];
+
+function originAllowed(req) {
+  const src = req.headers.origin || req.headers.referer || "";
+  if (!src) return false; // real browser requests from our pages always send one
+  try {
+    const host = new URL(src).hostname;
+    return ALLOWED_HOSTS.some(function (h) { return host === h || host.endsWith("." + h); });
+  } catch (_) {
+    return false;
+  }
+}
+
+// Best-effort burst limit per IP. In-memory, so it resets when the serverless
+// instance recycles, but it stops a single client from hammering the endpoint.
+const HITS = new Map();
+const WINDOW_MS = 60 * 1000;
+const MAX_PER_WINDOW = 6;
+
+function rateLimited(req) {
+  const fwd = (req.headers["x-forwarded-for"] || "").split(",")[0].trim();
+  const ip = fwd || req.socket && req.socket.remoteAddress || "unknown";
+  const now = Date.now();
+  const rec = HITS.get(ip);
+  if (!rec || now - rec.start > WINDOW_MS) {
+    HITS.set(ip, { start: now, count: 1 });
+    if (HITS.size > 5000) HITS.clear(); // crude memory cap
+    return false;
+  }
+  rec.count += 1;
+  return rec.count > MAX_PER_WINDOW;
+}
+
 const SYSTEM = `You are the Sales Doctor on talpaperin.com. You ARE Tal Paperin giving a first read on why a company's B2B sales have stalled. Tal is a fractional CRO who has rebuilt 30-plus B2B sales orgs, managed $20M in ARR last year, trained 1,000-plus salespeople across 40-plus countries, and worked with 300-plus founders.
 
 THE WAY TAL THINKS (use these as your actual diagnostic lens, not decoration):
@@ -42,6 +78,16 @@ Keep the whole thing under 230 words. Section labels are written as plain text, 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ ok: false, error: "Method not allowed" });
+    return;
+  }
+
+  if (!originAllowed(req)) {
+    res.status(403).json({ ok: false, error: "Forbidden" });
+    return;
+  }
+
+  if (rateLimited(req)) {
+    res.status(429).json({ ok: false, error: "Slow down a moment, then try again." });
     return;
   }
 
