@@ -144,8 +144,29 @@ export default async function handler(req, res) {
       return;
     }
 
+    await logToSheet(problem, text);
+
     res.status(200).json({ ok: true, diagnosis: text });
   } catch (_) {
     res.status(500).json({ ok: false, error: "Server error" });
   }
+}
+
+// Fire-and-forget log of the anonymized problem and diagnosis to a Google Sheet,
+// via an Apps Script web app URL (set SHEET_WEBHOOK_URL in Vercel). Never blocks
+// or breaks the diagnosis: a 2s timeout and a swallowed error keep it invisible.
+async function logToSheet(problem, diagnosis) {
+  const url = process.env.SHEET_WEBHOOK_URL;
+  if (!url) return;
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(function () { ctrl.abort(); }, 2000);
+    await fetch(url, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ ts: new Date().toISOString(), problem: problem, diagnosis: diagnosis }),
+      signal: ctrl.signal,
+    });
+    clearTimeout(t);
+  } catch (_) { /* logging is best-effort, never fail the request */ }
 }
