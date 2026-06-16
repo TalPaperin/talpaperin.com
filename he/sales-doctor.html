@@ -96,6 +96,12 @@
     .doc-cta{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
     .doc-err{color:#ff9a9a}
     .doc-spin{color:var(--blue);font-size:14px}
+    .doc-loader{display:none;align-items:center;gap:12px;margin-top:16px;color:var(--blue);font-size:14px}
+    .doc-loader.on{display:flex}
+    .doc-loader svg{flex:none}
+    .doc-clock-hand{transform-origin:16px 16px;animation:doc-sweep 1.1s linear infinite}
+    @keyframes doc-sweep{to{transform:rotate(360deg)}}
+    .doc-timer{font-variant-numeric:tabular-nums;font-weight:600;direction:ltr;unicode-bidi:isolate}
     .doc-disclaimer{margin-top:18px;color:var(--soft);font-size:12.5px}
     .doc-content{margin-top:56px;border-top:1px solid var(--line);padding-top:34px}
     .doc-content h2{font-size:22px;margin:30px 0 10px}
@@ -148,6 +154,15 @@
           <div class="doc-row">
             <button class="btn btn-solid" id="doc-go" type="button">אבחנו את זה &larr;</button>
             <span class="doc-hint" id="doc-status"></span>
+          </div>
+          <div class="doc-loader" id="doc-loader" aria-live="polite">
+            <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true">
+              <circle cx="16" cy="16" r="13" fill="none" stroke="rgba(90,176,255,.25)" stroke-width="2.4"/>
+              <circle cx="16" cy="3" r="1.5" fill="var(--blue)"/>
+              <line class="doc-clock-hand" x1="16" y1="16" x2="16" y2="7.5" stroke="var(--blue)" stroke-width="2.4" stroke-linecap="round"/>
+              <circle cx="16" cy="16" r="1.7" fill="var(--blue)"/>
+            </svg>
+            <span><span id="doc-loader-msg">קורא את המקרה שלכם&hellip;</span> <span class="doc-timer" id="doc-timer">0 ש׳</span></span>
           </div>
         </div>
 
@@ -212,6 +227,11 @@
     var statusEl=document.getElementById('doc-status');
     var outEl=document.getElementById('doc-out');
     var ctaEl=document.getElementById('doc-cta');
+    var loaderEl=document.getElementById('doc-loader');
+    var timerEl=document.getElementById('doc-timer');
+    var timerInt=null,timerStart=0;
+    function startTimer(){timerStart=Date.now();timerEl.textContent='0 ש׳';loaderEl.classList.add('on');timerInt=setInterval(function(){timerEl.textContent=Math.floor((Date.now()-timerStart)/1000)+' ש׳';},250);}
+    function stopTimer(){if(timerInt){clearInterval(timerInt);timerInt=null;}loaderEl.classList.remove('on');}
 
     document.getElementById('doc-chips').addEventListener('click',function(e){
       if(e.target.classList.contains('doc-chip')){inEl.value=e.target.textContent;inEl.focus();}
@@ -228,13 +248,13 @@
     function diagnose(){
       var problem=(inEl.value||'').trim();
       if(problem.length<10){statusEl.className='doc-hint doc-err';statusEl.textContent='תנו לי עוד משפט או שניים לעבוד איתם.';return;}
-      btn.disabled=true;statusEl.className='doc-hint doc-spin';statusEl.textContent='קורא את המקרה שלכם...';
-      outEl.hidden=true;ctaEl.hidden=true;
+      btn.disabled=true;statusEl.className='doc-hint';statusEl.textContent='';
+      outEl.hidden=true;ctaEl.hidden=true;startTimer();
       try{gtag('event','use_sales_doctor');}catch(e){}
       fetch('/api/diagnose',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({problem:problem,lang:'he'})})
         .then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j};});})
         .then(function(res){
-          btn.disabled=false;statusEl.textContent='';
+          btn.disabled=false;stopTimer();statusEl.textContent='';
           if(res.ok&&res.j&&res.j.diagnosis){
             outEl.innerHTML=fmt(res.j.diagnosis);outEl.hidden=false;ctaEl.hidden=false;
             outEl.scrollIntoView({behavior:'smooth',block:'nearest'});
@@ -242,7 +262,7 @@
             statusEl.className='doc-hint doc-err';statusEl.textContent=(res.j&&res.j.error)||'משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';
           }
         })
-        .catch(function(){btn.disabled=false;statusEl.className='doc-hint doc-err';statusEl.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';});
+        .catch(function(){btn.disabled=false;stopTimer();statusEl.className='doc-hint doc-err';statusEl.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';});
     }
     btn.addEventListener('click',diagnose);
   </script>
