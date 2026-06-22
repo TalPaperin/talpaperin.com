@@ -72,6 +72,16 @@
     .btn-solid:hover{transform:translateY(-2px)}
     .btn-outline{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.32)}
     .btn-outline:hover{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px #fff}
+    /* dealmentor-style CTA buttons (primary gradient + sheen, secondary blue outline) */
+    .btn-primary{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(180deg,#3D9BFF,#2563EB);color:#fff;font-weight:600;font-size:14.5px;padding:10px 22px;border:none;border-radius:10px;cursor:pointer;text-decoration:none;box-shadow:0 8px 22px rgba(37,99,235,.35);transition:transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .2s;position:relative;overflow:hidden}
+    .btn-primary:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(37,99,235,.55)}
+    .btn-primary::after{content:'';position:absolute;top:-10%;left:-130%;width:55%;height:120%;background:linear-gradient(110deg,transparent,rgba(255,255,255,.42),transparent);transform:skewX(-18deg);pointer-events:none}
+    .btn-primary:hover::after{animation:btnSheen .85s ease}
+    @keyframes btnSheen{from{left:-130%}to{left:170%}}
+    .btn-primary.btn-lg{padding:15px 32px;font-size:15.5px;border-radius:12px}
+    .btn-secondary{display:inline-flex;align-items:center;gap:10px;color:#fff;font-weight:600;font-size:14px;padding:14px 30px;border:1.5px solid rgba(37,99,235,.55);border-radius:10px;background:rgba(37,99,235,.08);cursor:pointer;text-decoration:none;transition:background .2s,border-color .2s,transform .2s}
+    .btn-secondary:hover{border-color:#2563EB;background:rgba(37,99,235,.12);transform:translateY(-1px)}
+    .btn-secondary.btn-lg{padding:14px 30px;font-size:15px}
 
     nav.site{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(6,8,12,.72);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid var(--line)}
     nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px}
@@ -339,7 +349,7 @@
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">
           <svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#b22234"/><g fill="#fff"><rect width="22" height="1.15" y="1.15"/><rect width="22" height="1.15" y="3.46"/><rect width="22" height="1.15" y="5.77"/><rect width="22" height="1.15" y="8.08"/><rect width="22" height="1.15" y="10.38"/><rect width="22" height="1.15" y="12.69"/></g><rect width="9" height="8.08" fill="#3c3b6e"/></svg>
         </a>
-        <a class="btn btn-solid" href="/he/contact">בואו נדבר</a>
+        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
       </div>
     </div>
@@ -362,8 +372,8 @@
           <div><b>300+</b><span>מייסדים שעבדתי איתם</span></div>
         </div>
         <div class="cta">
-          <a class="btn btn-solid" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a>
-          <a class="btn btn-outline" href="/he/sales-doctor">אבחון מכירות חינם &larr;</a>
+          <a class="btn btn-primary btn-lg" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a>
+          <a class="btn btn-secondary btn-lg" href="/he/sales-doctor">אבחון מכירות חינם &larr;</a>
         </div>
       </div>
     </div>
@@ -389,7 +399,7 @@
         <a class="cap reveal" href="/he/services/distributor-channel-recruitment"><h3>צריכים מפיצים כדי להגיע לשווקים חדשים</h3><p>אני מאתר, מחתים ומנהל את המפיצים, המשווקים ושותפי הערוץ שפותחים טריטוריות חדשות ובאמת מביאים תוצאות.</p><span class="cap-link">לפתרון &larr;</span></a>
         <a class="cap reveal" href="/he/services/go-to-market-strategy"><h3>מוצר מעולה שפשוט לא נמכר</h3><p>אני בונה את ה-Go-To-Market שלכם מאפס: ICP, מיצוב, ערוצים, Playbook ותחזית אמיתית, ואז מריץ אותו.</p><span class="cap-link">לפתרון &larr;</span></a>
       </div>
-      <p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-outline" href="/he/services/">לצפייה בפתרונות &larr;</a></p>
+      <p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-secondary" href="/he/services/">לצפייה בפתרונות &larr;</a></p>
     </div>
   </section>
 
@@ -408,7 +418,7 @@
       <article class="case"><div class="who"><img class="case-logo" src="/logos/bt9.jpg" alt="BT9 / Xsense" /><h3>חברת IoT ו-SaaS</h3><p class="role">BT9 / Xsense, מכירות בינלאומיות שנבנו מאפס</p><p class="intro">חברת IoT ו-SaaS שהייתה צריכה נוכחות בינלאומית אמיתית. בניתי את כל מערך המכירות הגלובלי מאפס, במכירה ישירה ודרך מפיצים, וניהלתי את הצוות יום-יום.</p></div></article>
       <article class="case"><div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><h3>יצרן גלובלי</h3><p class="role">פריצה לשוק במזרח אירופה</p><p class="intro">יצרן בינלאומי שהיה בטוח שאין כסף אמיתי במזרח אירופה, ולכן נמנע מלהיכנס לשם. הוכחתי להם שהם טועים, בניתי תוכנית עבודה ופתחתי את השוק הזה בעצמי.</p></div></article>
       </div>
-      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/he/case-studies">לכל מקרי המבחן &larr;</a></p>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/he/case-studies">לכל מקרי המבחן &larr;</a></p>
     </div>
   </section>
 
@@ -421,7 +431,7 @@
       </div>
     </div>
     <div class="marquee tmarquee reveal"><div class="marquee-track" id="quotetrack"></div></div>
-    <div class="wrap"><p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-outline" href="/he/recommendations">לעוד המלצות &larr;</a></p></div>
+    <div class="wrap"><p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-secondary" href="/he/recommendations">לעוד המלצות &larr;</a></p></div>
   </section>
 
   <section id="bio" class="accent-top">
@@ -434,7 +444,7 @@
       <div class="bio-grid reveal">
         <div class="bio">
         <p class="bio-lead"><b>אני לא יועץ עסקי. אני סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ.</b> אני באמת עושה את המכירות, את הבנייה, את הניהול ואת סגירת העסקאות.</p>
-        <p style="margin-top:26px"><a class="btn btn-outline" href="/he/about">קרא עוד &larr;</a></p>
+        <p style="margin-top:26px"><a class="btn btn-secondary" href="/he/about">קרא עוד &larr;</a></p>
         </div>
         <div class="video-embed" data-id="0hX4k5qBeBk" style="background-image:url(https://i.ytimg.com/vi/0hX4k5qBeBk/hqdefault.jpg)" role="button" tabindex="0" aria-label="נגן את סרטון ההיכרות"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div>
       </div>
@@ -450,9 +460,9 @@
         <p>שלוש חבילות, אותה עבודה. מיועץ שבועי ועד סמנכ״ל הכנסות מוטמע במלואו. ככל שאתם לוקחים יותר ממני, אני לוקח יותר אחריות, מאבחון ועד ביצוע ועד התוצאות עצמן. הדבר היחיד שמשתנה הוא כמה מהשבוע שלי בעסק שלכם.</p>
       </div>
       <div class="cards3">
-        <div class="card3 reveal"><span class="commit">כשלוש שעות בשבוע</span><h3>Advisor</h3><div class="amount">$2,000<span> / לחודש</span></div><p class="bestfor">הראש שלי זמין עבורכם. למייסדים שרוצים כיוון בכיר ובן שיח לחבטות, בזמן שהם מריצים את היומיום בעצמם.</p><ul class="incl"><li>שיחת אסטרטגיה שבועית קבועה</li><li>גישה אליי בין השיחות, להחלטות האמיתיות</li><li>אני קובע את הכיוון והעדיפויות, אתם מבצעים</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a></div>
-        <div class="card3 feat reveal"><span class="badge">הפופולרי ביותר</span><span class="commit">שעתיים ביום</span><h3>Starter</h3><div class="amount">$6,000<span> / לחודש</span></div><p class="bestfor">סמנכ״ל מכירות ופיתוח עסקי אמיתי, בתוך העסק כל יום, במשרה חלקית. הדרך המהירה למנהיגות הכנסות בכירה בלי שכר בכיר.</p><ul class="incl"><li>שעתיים ביום, בכל יום עבודה</li><li>אני מחזיק את האסטרטגיה, השיטה והסטנדרטים</li><li>הצוות שלכם מבצע את היומיום, אני שומר שהמוטור על המסלול</li></ul><a class="btn btn-solid" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a></div>
-        <div class="card3 reveal"><span class="commit">חצי משרה, ארבע שעות ביום</span><h3>Growth</h3><div class="amount">$12,000<span> / לחודש</span></div><p class="bestfor">חצי מהיום שלי בעסק שלכם, כל יום. כבר לא רק מכוון, מניע.</p><ul class="incl"><li>ארבע שעות ביום, בכל יום עבודה</li><li>אני מריץ את המוטור שבוע אחר שבוע ומנהל את הצוות בידיים</li><li>אני נושא איתכם במספר, לא מהצד</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a></div>
+        <div class="card3 reveal"><span class="commit">כשלוש שעות בשבוע</span><h3>Advisor</h3><div class="amount">$2,000<span> / לחודש</span></div><p class="bestfor">הראש שלי זמין עבורכם. למייסדים שרוצים כיוון בכיר ובן שיח לחבטות, בזמן שהם מריצים את היומיום בעצמם.</p><ul class="incl"><li>שיחת אסטרטגיה שבועית קבועה</li><li>גישה אליי בין השיחות, להחלטות האמיתיות</li><li>אני קובע את הכיוון והעדיפויות, אתם מבצעים</li></ul><a class="btn btn-secondary" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a></div>
+        <div class="card3 feat reveal"><span class="badge">הפופולרי ביותר</span><span class="commit">שעתיים ביום</span><h3>Starter</h3><div class="amount">$6,000<span> / לחודש</span></div><p class="bestfor">סמנכ״ל מכירות ופיתוח עסקי אמיתי, בתוך העסק כל יום, במשרה חלקית. הדרך המהירה למנהיגות הכנסות בכירה בלי שכר בכיר.</p><ul class="incl"><li>שעתיים ביום, בכל יום עבודה</li><li>אני מחזיק את האסטרטגיה, השיטה והסטנדרטים</li><li>הצוות שלכם מבצע את היומיום, אני שומר שהמוטור על המסלול</li></ul><a class="btn btn-primary" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a></div>
+        <div class="card3 reveal"><span class="commit">חצי משרה, ארבע שעות ביום</span><h3>Growth</h3><div class="amount">$12,000<span> / לחודש</span></div><p class="bestfor">חצי מהיום שלי בעסק שלכם, כל יום. כבר לא רק מכוון, מניע.</p><ul class="incl"><li>ארבע שעות ביום, בכל יום עבודה</li><li>אני מריץ את המוטור שבוע אחר שבוע ומנהל את הצוות בידיים</li><li>אני נושא איתכם במספר, לא מהצד</li></ul><a class="btn btn-secondary" href="https://calendly.com/ksw/15min" onclick="return openCal()">תיאום שיחה</a></div>
       </div>
       <p class="no-contract reveal"><b>חודשי. בלי חוזה. בלי קנסות יציאה.</b> לא אהבתם מה שאני מספק? סיימנו בתוך חודש. התקשרויות במשרה מלאה ובלעדיות זמינות לפי בקשה.</p>
       <div class="alt-ways reveal">
@@ -470,7 +480,7 @@
         <div class="glowline"></div>
         <h2>ספרו לי איפה המכירות שלכם נתקעו. אני אגיד לכם למה.</h2>
         <p class="sub">שיחה של 15 דקות, בלי ניסיונות מכירה מאולצים. אתם תצאו מהשיחה הזו עם לפחות דבר אחד פרקטי וברור שצריך לתקן בעסק, בין אם נחליט לעבוד ביחד ובין אם לא. עוד לא מוכנים לדבר? קבלו קודם אבחון ישיר וחינמי מ<a href="/he/sales-doctor" style="color:var(--blue);font-weight:600">דוקטור המכירות</a>.</p>
-        <div class="cta"><a class="btn btn-solid" href="/he/contact">בואו נדבר</a></div>
+        <div class="cta"><a class="btn btn-primary btn-lg" href="/he/contact">בואו נדבר</a></div>
       </div>
     </div>
   </section>

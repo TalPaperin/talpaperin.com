@@ -73,6 +73,16 @@
     .btn-solid:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(31,111,178,.5)}
     .btn-outline{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.32)}
     .btn-outline:hover{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px #fff}
+    /* dealmentor-style CTA buttons (primary gradient + sheen, secondary blue outline) */
+    .btn-primary{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(180deg,#3D9BFF,#2563EB);color:#fff;font-weight:600;font-size:14.5px;padding:10px 22px;border:none;border-radius:10px;cursor:pointer;text-decoration:none;box-shadow:0 8px 22px rgba(37,99,235,.35);transition:transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .2s;position:relative;overflow:hidden}
+    .btn-primary:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(37,99,235,.55)}
+    .btn-primary::after{content:'';position:absolute;top:-10%;left:-130%;width:55%;height:120%;background:linear-gradient(110deg,transparent,rgba(255,255,255,.42),transparent);transform:skewX(-18deg);pointer-events:none}
+    .btn-primary:hover::after{animation:btnSheen .85s ease}
+    @keyframes btnSheen{from{left:-130%}to{left:170%}}
+    .btn-primary.btn-lg{padding:15px 32px;font-size:15.5px;border-radius:12px}
+    .btn-secondary{display:inline-flex;align-items:center;gap:10px;color:#fff;font-weight:600;font-size:14px;padding:14px 30px;border:1.5px solid rgba(37,99,235,.55);border-radius:10px;background:rgba(37,99,235,.08);cursor:pointer;text-decoration:none;transition:background .2s,border-color .2s,transform .2s}
+    .btn-secondary:hover{border-color:#2563EB;background:rgba(37,99,235,.12);transform:translateY(-1px)}
+    .btn-secondary.btn-lg{padding:14px 30px;font-size:15px}
 
     /* nav */
     nav.site{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(6,8,12,.72);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid var(--line)}
@@ -362,7 +372,7 @@
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">
           <svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#fff"/><rect width="22" height="1.7" y="2.3" fill="#0038b8"/><rect width="22" height="1.7" y="11" fill="#0038b8"/><path d="M11 4.5 L8.4 9 L13.6 9 Z" fill="none" stroke="#0038b8" stroke-width=".7"/><path d="M11 10.5 L8.4 6 L13.6 6 Z" fill="none" stroke="#0038b8" stroke-width=".7"/></svg>
         </a>
-        <a class="btn btn-solid" href="/contact">Let's Talk</a>
+        <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
       </div>
     </div>
@@ -386,8 +396,8 @@
           <div><b>300+</b><span>founders worked with</span></div>
         </div>
         <div class="cta">
-          <a class="btn btn-solid" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a>
-          <a class="btn btn-outline" href="/sales-doctor">Free Sales Diagnosis &rarr;</a>
+          <a class="btn btn-primary btn-lg" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a>
+          <a class="btn btn-secondary btn-lg" href="/sales-doctor">Free Sales Diagnosis &rarr;</a>
         </div>
       </div>
     </div>
@@ -417,7 +427,7 @@
         <a class="cap reveal" href="/services/distributor-channel-recruitment"><h3>Need distributors to reach new markets</h3><p>I find, sign and manage the distributors, resellers and channel partners that open new territories and actually deliver.</p><span class="cap-link">Fix this &rarr;</span></a>
         <a class="cap reveal" href="/services/go-to-market-strategy"><h3>A great product that just won't sell</h3><p>I build your go-to-market from zero: ICP, positioning, channels, playbook and a real forecast, then I run it.</p><span class="cap-link">Fix this &rarr;</span></a>
       </div>
-      <p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-outline" href="/services/">See the solutions &rarr;</a></p>
+      <p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-secondary" href="/services/">See the solutions &rarr;</a></p>
     </div>
   </section>
 
@@ -437,7 +447,7 @@
       <article class="case"><div class="who"><img class="case-logo" src="/logos/bt9.jpg" alt="BT9 / Xsense" /><h3>IoT &amp; SaaS company</h3><p class="role">BT9 / Xsense, global sales built from zero</p><p class="intro">An IoT and SaaS company that needed real international reach. I built the entire global sales operation from the ground up, direct and through channel, and ran the team day to day.</p></div></article>
       <article class="case"><div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><h3>Global manufacturer</h3><p class="role">Breaking into Eastern Europe</p><p class="intro">A global manufacturer convinced there was no money in Eastern Europe, so they stayed out. I proved them wrong, built the plan, and opened the market myself.</p></div></article>
       </div>
-      <p style="text-align:center;margin-top:34px"><a class="btn btn-outline" href="/case-studies">See the full case studies &rarr;</a></p>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/case-studies">See the full case studies &rarr;</a></p>
     </div>
   </section>
 
@@ -451,7 +461,7 @@
       </div>
     </div>
     <div class="marquee tmarquee reveal"><div class="marquee-track" id="quotetrack"></div></div>
-    <div class="wrap"><p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-outline" href="/recommendations">See more &rarr;</a></p></div>
+    <div class="wrap"><p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-secondary" href="/recommendations">See more &rarr;</a></p></div>
   </section>
 
   <!-- Bio -->
@@ -465,7 +475,7 @@
       <div class="bio-grid reveal">
         <div class="bio">
         <p class="bio-lead"><b>Hands-on operator, not an advisor.</b> I actually do the selling, the building, the management, and the closing.</p>
-        <p style="margin-top:26px"><a class="btn btn-outline" href="/about">Read more &rarr;</a></p>
+        <p style="margin-top:26px"><a class="btn btn-secondary" href="/about">Read more &rarr;</a></p>
         </div>
         <div class="video-embed" data-id="0hX4k5qBeBk" style="background-image:url(https://i.ytimg.com/vi/0hX4k5qBeBk/hqdefault.jpg)" role="button" tabindex="0" aria-label="Play the About video"><div class="play"><svg viewBox="0 0 68 48" aria-hidden="true"><path d="M66.5 7.5c-.8-3-3.1-5.3-6-6.1C55.3 0 34 0 34 0S12.7 0 7.5 1.4c-2.9.8-5.2 3.1-6 6.1C0 12.7 0 24 0 24s0 11.3 1.5 16.5c.8 3 3.1 5.3 6 6.1C12.7 48 34 48 34 48s21.3 0 26.5-1.4c2.9-.8 5.2-3.1 6-6.1C68 35.3 68 24 68 24s0-11.3-1.5-16.5z" fill="#f00"/><path d="M27 34l18-10-18-10z" fill="#fff"/></svg></div></div>
       </div>
@@ -482,9 +492,9 @@
         <p>Three packages, one job. From a weekly advisor to a fully embedded CRO. The more of me you take, the more I own, from diagnosis to execution to the number itself. The only thing that changes is how much of my week is on your business.</p>
       </div>
       <div class="cards3">
-        <div class="card3 reveal"><span class="commit">About 3 hours a week</span><h3>Advisor</h3><div class="amount">$2,000<span> /mo</span></div><p class="bestfor">My brain on call. For founders who want senior direction and a sounding board while they run the day to day themselves.</p><ul class="incl"><li>A standing weekly strategy call</li><li>Async access to me between calls for the real decisions</li><li>I set the direction and priorities, you execute</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
-        <div class="card3 feat reveal"><span class="badge">Most common</span><span class="commit">2 hours a day</span><h3>Starter</h3><div class="amount">$6,000<span> /mo</span></div><p class="bestfor">A real CRO, embedded every day, part-time. The fastest way to senior revenue leadership without a senior salary.</p><ul class="incl"><li>Two hours a day, every working day</li><li>I own the strategy, the system and the standards</li><li>Your team executes day to day, I keep the motion on track</li></ul><a class="btn btn-solid" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
-        <div class="card3 reveal"><span class="commit">Half time, 4 hours a day</span><h3>Growth</h3><div class="amount">$12,000<span> /mo</span></div><p class="bestfor">Half my day in your business, every day. Not just steering, driving.</p><ul class="incl"><li>Four hours a day, every working day</li><li>I run the motion week to week and manage the team hands-on</li><li>I carry the number with you, not from the sideline</li></ul><a class="btn btn-outline" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
+        <div class="card3 reveal"><span class="commit">About 3 hours a week</span><h3>Advisor</h3><div class="amount">$2,000<span> /mo</span></div><p class="bestfor">My brain on call. For founders who want senior direction and a sounding board while they run the day to day themselves.</p><ul class="incl"><li>A standing weekly strategy call</li><li>Async access to me between calls for the real decisions</li><li>I set the direction and priorities, you execute</li></ul><a class="btn btn-secondary" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
+        <div class="card3 feat reveal"><span class="badge">Most common</span><span class="commit">2 hours a day</span><h3>Starter</h3><div class="amount">$6,000<span> /mo</span></div><p class="bestfor">A real CRO, embedded every day, part-time. The fastest way to senior revenue leadership without a senior salary.</p><ul class="incl"><li>Two hours a day, every working day</li><li>I own the strategy, the system and the standards</li><li>Your team executes day to day, I keep the motion on track</li></ul><a class="btn btn-primary" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
+        <div class="card3 reveal"><span class="commit">Half time, 4 hours a day</span><h3>Growth</h3><div class="amount">$12,000<span> /mo</span></div><p class="bestfor">Half my day in your business, every day. Not just steering, driving.</p><ul class="incl"><li>Four hours a day, every working day</li><li>I run the motion week to week and manage the team hands-on</li><li>I carry the number with you, not from the sideline</li></ul><a class="btn btn-secondary" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a></div>
       </div>
       <p class="no-contract reveal"><b>Monthly. No contract. No exit fines.</b> Don't like what I deliver? We're done in a month. Full-time, exclusive engagements available on request.</p>
       <div class="alt-ways reveal">
@@ -503,7 +513,7 @@
         <div class="glowline"></div>
         <h2>Tell me where revenue stalled. I'll tell you why.</h2>
         <p class="sub">A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together. Not ready to talk? Get a blunt read first from the free <a href="/sales-doctor" style="color:var(--blue);font-weight:600">Sales Doctor</a>.</p>
-        <div class="cta"><a class="btn btn-solid" href="/contact">Let's Talk</a></div>
+        <div class="cta"><a class="btn btn-primary btn-lg" href="/contact">Let's Talk</a></div>
       </div>
     </div>
   </section>

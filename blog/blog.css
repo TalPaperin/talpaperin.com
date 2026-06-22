@@ -17,6 +17,16 @@ h1,h2,h3,h4,.display{font-family:'Anton',Impact,sans-serif;font-weight:400;text-
 .btn-solid:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(31,111,178,.5)}
 .btn-outline{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.32)}
 .btn-outline:hover{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px #fff}
+/* dealmentor-style CTA buttons (primary gradient + sheen, secondary blue outline) */
+.btn-primary{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(180deg,#3D9BFF,#2563EB);color:#fff;font-weight:600;font-size:14.5px;padding:10px 22px;border:none;border-radius:10px;cursor:pointer;text-decoration:none;box-shadow:0 8px 22px rgba(37,99,235,.35);transition:transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .2s;position:relative;overflow:hidden}
+.btn-primary:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(37,99,235,.55)}
+.btn-primary::after{content:'';position:absolute;top:-10%;left:-130%;width:55%;height:120%;background:linear-gradient(110deg,transparent,rgba(255,255,255,.42),transparent);transform:skewX(-18deg);pointer-events:none}
+.btn-primary:hover::after{animation:btnSheen .85s ease}
+@keyframes btnSheen{from{left:-130%}to{left:170%}}
+.btn-primary.btn-lg{padding:15px 32px;font-size:15.5px;border-radius:12px}
+.btn-secondary{display:inline-flex;align-items:center;gap:10px;color:#fff;font-weight:600;font-size:14px;padding:14px 30px;border:1.5px solid rgba(37,99,235,.55);border-radius:10px;background:rgba(37,99,235,.08);cursor:pointer;text-decoration:none;transition:background .2s,border-color .2s,transform .2s}
+.btn-secondary:hover{border-color:#2563EB;background:rgba(37,99,235,.12);transform:translateY(-1px)}
+.btn-secondary.btn-lg{padding:14px 30px;font-size:15px}
 
 /* nav */
 nav.site{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(6,8,12,.72);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid var(--line)}
