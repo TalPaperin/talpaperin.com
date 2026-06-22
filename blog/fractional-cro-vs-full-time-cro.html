@@ -150,5 +150,16 @@
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
     function subSubmit(e){e.preventDefault();var f=e.target,b=f.querySelector('button'),m=f.parentNode.querySelector('.sub-msg');b.disabled=true;b.textContent='...';fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:f.email.value})}).then(function(r){return r.json();}).then(function(d){if(d&&d.ok){f.style.display='none';m.hidden=false;m.style.color='var(--blue)';m.textContent='You are in. Welcome aboard.';}else{b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';}}).catch(function(){b.disabled=false;b.textContent='Subscribe';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please try again.';});return false;}
   </script>
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>
 </body>
 </html>
