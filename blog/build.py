@@ -113,7 +113,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
-        <a class="btn btn-solid" href="/contact">Let's Talk</a>
+        <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -138,19 +138,19 @@ FOOTER = '''  <footer>
 CTA_BOX = '''      <div class="cta-box">
         <h3>Your sales suck. You don't know why. I do.</h3>
         <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>'''
 
 INLINE_CTA = ('<div class="inline-cta"><p><strong>This is exactly what I fix, '
               'hands-on.</strong> Monthly, no contract, no exit fines. If revenue is '
               'stuck, the call costs you nothing.</p>'
-              '<a class="btn btn-outline" href="https://calendly.com/ksw/15min" '
+              '<a class="btn btn-secondary" href="https://calendly.com/ksw/15min" '
               'target="_blank" rel="noopener">Book a 15-minute call</a></div>')
 
 HE_INLINE_CTA = ('<div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, '
                  'בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, '
                  'השיחה לא עולה לכם כלום.</p>'
-                 '<a class="btn btn-outline" href="https://calendly.com/ksw/15min" '
+                 '<a class="btn btn-secondary" href="https://calendly.com/ksw/15min" '
                  'target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>')
 
 
@@ -159,7 +159,7 @@ SUBSCRIBE = '''      <div class="subscribe-box">
         <p>No fluff. Sales, revenue and go-to-market, straight from the field.</p>
         <form class="sub-form" onsubmit="return subSubmit(event)">
           <input type="email" name="email" placeholder="Your email" required autocomplete="email" />
-          <button class="btn btn-solid" type="submit">Subscribe</button>
+          <button class="btn btn-primary" type="submit">Subscribe</button>
         </form>
         <p class="sub-msg" hidden></p>
       </div>'''
@@ -186,7 +186,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
-        <a class="btn btn-solid" href="/he/contact">בואו נדבר</a>
+        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -211,7 +211,7 @@ HE_FOOTER = '''  <footer>
 HE_CTA_BOX = '''      <div class="cta-box">
         <h3>המכירות שלכם תקועות. אתם לא יודעים למה. אני כן.</h3>
         <p>שיחה של 15 דקות, בלי פיץ'. תצאו ממנה עם לפחות דבר אחד קונקרטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a>
       </div>'''
 
 HE_SUBSCRIBE = '''      <div class="subscribe-box">
@@ -219,7 +219,7 @@ HE_SUBSCRIBE = '''      <div class="subscribe-box">
         <p>בלי בולשיט. מכירות, הכנסות ו-Go-to-Market, ישר מהשטח.</p>
         <form class="sub-form" onsubmit="return subSubmit(event)">
           <input type="email" name="email" placeholder="המייל שלכם" required autocomplete="email" />
-          <button class="btn btn-solid" type="submit">הרשמה</button>
+          <button class="btn btn-primary" type="submit">הרשמה</button>
         </form>
         <p class="sub-msg" hidden></p>
       </div>'''
@@ -611,6 +611,17 @@ TEMPLATE_POST = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>
 </body>
 </html>
 '''
@@ -665,6 +676,17 @@ TEMPLATE_INDEX = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>
 </body>
 </html>
 '''
@@ -746,6 +768,17 @@ TEMPLATE_POST_HE = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>
 </body>
 </html>
 '''
@@ -800,6 +833,17 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
   </main>
 
 {{FOOTER}}
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>
 </body>
 </html>
 '''

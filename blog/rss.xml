@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Germany Is Dumping US Missiles for Startups. That&#x27;s a B2B Procurement Masterclass.</title>
+      <link>https://talpaperin.com/blog/germany-is-dumping-us-missiles-for-defense-startups</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/germany-is-dumping-us-missiles-for-defense-startups</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Berlin is bypassing legacy US defense giants for agile startups in Israel and Ukraine. It is a masterclass in B2B procurement disruption, and a warning for anyone who sells to enterprise.</description>
+    </item>
     <item>
       <title>I Built a Sales Floor for an Offer Everyone Had Already Been Pitched a Dozen Times</title>
       <link>https://talpaperin.com/blog/building-a-sales-team-from-zero-in-a-skeptical-market</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-five-towns</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Sales for frum and heimishe business owners in The Five Towns, Long Island, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Frum Sales Consultant in Monsey</title>
-      <link>https://talpaperin.com/blog/frum-sales-consultant-monsey</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-monsey</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales for frum and heimishe business owners in Monsey, New York, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>
