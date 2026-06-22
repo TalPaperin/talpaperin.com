@@ -298,13 +298,13 @@
 
     /* testimonials */
     .tmarquee{--speed:289s}
-    .tmarquee .marquee-track{gap:20px;align-items:flex-start;padding:6px 0}
+    .tmarquee .marquee-track{gap:20px;align-items:stretch;padding:6px 0}
     .quote{position:relative;overflow:hidden;flex:0 0 360px;max-width:360px;white-space:normal;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;will-change:transform;transition:transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .25s ease,border-color .25s ease}
     .quote::after{content:'';position:absolute;inset:0;border-radius:16px;background:radial-gradient(420px circle at var(--mx,50%) var(--my,-20%),rgba(90,176,255,.16),transparent 60%);opacity:0;transition:opacity .25s ease;pointer-events:none}
     .quote>*{position:relative;z-index:1}
     .quote:hover{border-color:rgba(90,176,255,.35);box-shadow:0 24px 60px rgba(0,0,0,.45),0 0 0 1px rgba(90,176,255,.22)}
     .quote:hover::after{opacity:1}
-    .quote p{font-size:1.02rem;color:#e7edf3}
+    .quote p{font-size:1.02rem;color:#e7edf3;display:-webkit-box;-webkit-line-clamp:7;line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
     .qhead{display:flex;align-items:center;gap:12px;margin-bottom:14px}
     .qav{width:50px;height:50px;border-radius:50%;flex:0 0 auto;object-fit:cover}
     .qav-i{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--blue2),#3f97e6);color:#fff;font-weight:700;font-size:1rem}
