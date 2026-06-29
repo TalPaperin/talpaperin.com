@@ -9,6 +9,12 @@ reusing the blog's dark-theme stylesheet (/blog/blog.css). Run:
 
 Service URLs are also pulled into sitemap.xml and llms.txt by blog/build.py,
 so run this first, then blog/build.py.
+
+WARNING: some generated pages have been hand-edited since the last build and
+those edits are NOT yet reflected in the templates below (e.g. about.html has
+its "Fractional CRO / CGO" positioning, case-studies.html has the HeadCounter
+case study). Re-running this script will REVERT those edits. Reconcile the
+templates with the live HTML before running, or edit the HTML directly.
 """
 
 import os
@@ -71,7 +77,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_IL + '''</a>
-        <a class="btn btn-solid" href="/contact">Let's Talk</a>
+        <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -90,12 +96,23 @@ FOOTER = '''  <footer>
     var nt=document.querySelector('.navtoggle');
     if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
-  </script>'''
+  </script>
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>'''
 
 CTA_BOX = '''      <div class="cta-box">
         <h3>Tell me where revenue stalled. I'll tell you why.</h3>
         <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>'''
 
 
@@ -537,7 +554,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
-        <a class="btn btn-solid" href="/he/contact">בואו נדבר</a>
+        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -556,12 +573,23 @@ HE_FOOTER = '''  <footer>
     var nt=document.querySelector('.navtoggle');
     if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
     document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
-  </script>'''
+  </script>
+<style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+<script>
+(function(){
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+  document.querySelectorAll('.btn-primary,.btn-secondary').forEach(function(btn){
+    btn.classList.add('magnetic');
+    btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+    btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+  });
+})();
+</script>'''
 
 HE_CTA = '''      <div class="cta-box">
         <h3>ספרו לי איפה המכירות נתקעו. אני אגיד לכם למה.</h3>
         <p>שיחה של 15 דקות, בלי ניסיונות מכירה. תצאו ממנה עם לפחות דבר אחד פרקטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
-        <a class="btn btn-solid" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
       </div>'''
 
 HE_SERVICES = [
@@ -771,8 +799,7 @@ HE_SERVICES = [
 # (contract-negotiation folded into fractional CRO / B2G, saas-sales into GTM,
 # global-markets merged into market-entry).
 _SVC_ORDER = ["fractional-cro", "outsourced-sales", "go-to-market-strategy", "market-entry",
-              "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector",
-              "contract-negotiation"]
+              "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector"]
 
 
 def _order_services(lst):
@@ -1033,7 +1060,7 @@ CONTACT_EN = '''<!doctype html>
               <input id="cf-email" type="email" name="email" required autocomplete="email" />
               <label for="cf-message">Message</label>
               <textarea id="cf-message" name="message" required></textarea>
-              <button class="btn btn-solid" type="submit">Send Message &rarr;</button>
+              <button class="btn btn-primary" type="submit">Send Message &rarr;</button>
               <p class="cf-msg" hidden></p>
             </form>
           </div>
@@ -1119,7 +1146,7 @@ CONTACT_HE = '''<!doctype html>
               <input id="cf-email" type="email" name="email" required autocomplete="email" />
               <label for="cf-message">הודעה</label>
               <textarea id="cf-message" name="message" required></textarea>
-              <button class="btn btn-solid" type="submit">שליחת הודעה &larr;</button>
+              <button class="btn btn-primary" type="submit">שליחת הודעה &larr;</button>
               <p class="cf-msg" hidden></p>
             </form>
           </div>
@@ -2285,7 +2312,7 @@ GUIDES = [
     {"q":"Have you sold into regulated, enterprise buyers?","a":"Yes. I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across four continents, the same shape as enterprise fintech sales."},
     {"q":"Can you handle long, compliance-heavy cycles?","a":"That is the job. I build a motion that survives security, compliance and procurement reviews and keeps multi-stakeholder deals moving to signature."},
     {"q":"What does a fractional CRO for fintech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/contract-negotiation">contract negotiation</a> services, or <a href="/contact">get in touch</a>.'},
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-defense-tech","en_only":True,
   "title":"Fractional CRO for Defense Tech Companies | Tal Paperin",
@@ -2509,7 +2536,7 @@ GUIDES = [
     {"q":"Have you sold to conservative, committee-driven buyers?","a":"Yes. Complex, multi-stakeholder deals with procurement and a long road to consensus are the deals I have run for years, the same shape as selling to law firms."},
     {"q":"How do you speed up a slow legal sale?","a":"With a clear ROI and risk case the buyer can defend internally, and a motion that keeps every stakeholder moving instead of letting the deal stall."},
     {"q":"What does a fractional CRO for legaltech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/contract-negotiation">contract negotiation</a> services, or <a href="/contact">get in touch</a>.'},
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-hr-tech","en_only":True,
   "title":"Fractional CRO for HR Tech Companies | Tal Paperin",
