@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>From $4.8 Billion to $60 Million. A Great Product Cannot Save a Broken Business Model.</title>
+      <link>https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Nano-X had revolutionary medical imaging tech and still lost 99 percent of its value. The lesson is not the technology. It is business-model-market fit.</description>
+    </item>
     <item>
       <title>Germany Is Dumping US Missiles for Startups. That&#x27;s a B2B Procurement Masterclass.</title>
       <link>https://talpaperin.com/blog/germany-is-dumping-us-missiles-for-defense-startups</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-passaic</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Passaic and Clifton, New Jersey. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
-    </item>
-    <item>
-      <title>Frum Sales Consultant in Five Towns</title>
-      <link>https://talpaperin.com/blog/frum-sales-consultant-five-towns</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-five-towns</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales for frum and heimishe business owners in The Five Towns, Long Island, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>
