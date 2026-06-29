@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#06080c"/>
-  <text x="32" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#5ab0ff" text-anchor="middle" dominant-baseline="central">TAL</text>
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <text x="32" y="34" font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900" font-size="25" fill="#000000" stroke="#000000" stroke-width="2.2" paint-order="stroke" stroke-linejoin="round" text-anchor="middle" dominant-baseline="central">TAL</text>
 </svg>
