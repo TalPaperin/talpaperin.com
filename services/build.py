@@ -10,11 +10,10 @@ reusing the blog's dark-theme stylesheet (/blog/blog.css). Run:
 Service URLs are also pulled into sitemap.xml and llms.txt by blog/build.py,
 so run this first, then blog/build.py.
 
-WARNING: some generated pages have been hand-edited since the last build and
-those edits are NOT yet reflected in the templates below (e.g. about.html has
-its "Fractional CRO / CGO" positioning, case-studies.html has the HeadCounter
-case study). Re-running this script will REVERT those edits. Reconcile the
-templates with the live HTML before running, or edit the HTML directly.
+These templates are the source of truth and reproduce the live pages exactly
+(About's "Fractional CRO / CGO" positioning, the HeadCounter case study, the
+btn-primary/btn-secondary classes and the magnetic-button block are all in the
+templates). Edit the templates here, not the generated HTML, then re-run.
 """
 
 import os
@@ -1219,6 +1218,10 @@ CONTACT_JS_HE = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
 
 
 CASE_STUDIES = [
+ {"company":"HeadCounter","id":"headcounter","meta":"US tax-credit (ERC) recovery, Go-to-market and sales team build",
+  "situation":"A US firm helping eligible businesses claim the federal Employee Retention Credit, money many of them were genuinely owed and had no idea they qualified for. The offer was real and the addressable market was enormous, but there was no go-to-market motion to reach it at scale and no sales team to run it. On top of that it was a high-velocity, high-volume sale against the clock: a closing filing window and a buyer who had already been cold-called by a dozen ERC shops and trusted none of them. Trust had to be earned fast, at scale.",
+  "did":["Built the entire go-to-market plan and sales strategy from scratch","Defined the ICP, the qualification criteria and the outbound messaging that cut through the ERC noise","Designed the full sales process and playbook, from first touch to signed engagement","Recruited, hired and onboarded the team of SDRs and AEs","Managed the SDRs and AEs day to day: targets, scripts, coaching, pipeline and performance"],
+  "result":"A go-to-market motion and a trained SDR and AE sales floor where there had been neither, turning a huge but skeptical, hard-to-reach market into a managed, repeatable outbound engine."},
  {"company":"KanduAI","id":"kanduai","meta":"AI SaaS startup, Fractional VP of Sales",
   "situation":"An early-stage AI startup with a product and no way to sell it. No pipeline, no process, no team, and nobody who had ever built a sales motion from zero. They did not need advice, they needed someone to take the revenue side off the founders' plate and build the engine, then keep it alive when the product pivoted out from under it. Twice.",
   "did":["Owned go-to-market end to end as fractional VP of Sales from day one","Defined and validated the ICP, positioning and messaging before a single rep dialed","Built the outbound playbook and the entire motion from zero","Hired, trained and managed the SDR team","Relaunched the whole go-to-market through the pivot, twice, without losing momentum"],
@@ -1258,6 +1261,10 @@ CASE_STUDIES = [
 ]
 
 HE_CASES = [
+ {"company":"HeadCounter","id":"headcounter","meta":"החזרי מס (ERC) בארה״ב, בניית GTM וצוות מכירות",
+  "situation":"חברה אמריקאית שעוזרת לעסקים זכאים לתבוע את ה-Employee Retention Credit הפדרלי, כסף שרבים מהם באמת היו זכאים לו ולא ידעו שהם עומדים בקריטריונים. ההצעה הייתה אמיתית והשוק הפוטנציאלי ענק, אבל לא הייתה תנועת GTM להגיע אליו בקנה מידה ולא צוות מכירות שיריץ אותה. נוסף על כך, זו הייתה מכירה מהירה ובנפח גבוה במרוץ נגד השעון: חלון הגשה שנסגר, וקונה שכבר קיבל שיחות קרות מתריסר חברות ERC ולא בטח באף אחת מהן. היה צריך לבנות אמון מהר, בקנה מידה.",
+  "did":["בניתי את כל תוכנית ואסטרטגיית ה-GTM מאפס","הגדרתי את ה-ICP, קריטריוני הסינון והמסרים שחתכו את הרעש בשוק ה-ERC","תכננתי את כל תהליך המכירה וה-Playbook, מהמגע הראשון ועד החתימה","גייסתי, הכשרתי וקלטתי את צוות ה-SDR וה-AE","ניהלתי את ה-SDRs וה-AEs יום-יום: יעדים, סקריפטים, אימון, פייפליין וביצועים"],
+  "result":"תנועת GTM וצוות מכירות מיומן של SDRs ו-AEs במקום שבו לא היה אף אחד מהם, שהפכו שוק ענק אך סקפטי וקשה להשגה למנוע אאוטבאונד מנוהל וניתן לשחזור."},
  {"company":"KanduAI","id":"kanduai","meta":"סטארטאפ AI SaaS, VP מכירות במיקור חוץ",
   "situation":"סטארטאפ AI בתחילת הדרך עם מוצר וללא שום דרך למכור אותו. בלי פייפליין, בלי תהליך, בלי צוות, ובלי אף אחד שאי פעם בנה מערך מכירות מאפס. הם לא היו צריכים עצות, הם היו צריכים מישהו שייקח את צד ההכנסות מהמייסדים ויבנה את המנוע, ואז ישמור עליו חי כשהמוצר עבר פיבוט מתחת לרגליים. פעמיים.",
   "did":["לקחתי אחריות מלאה על ה-GTM כ-VP מכירות במיקור חוץ מהיום הראשון","הגדרתי ותיקפתי את ה-ICP, המיצוב והמסרים לפני שנציג אחד הרים טלפון","בניתי את ה-Playbook ואת כל תנועת האאוטבאונד מאפס","גייסתי, הכשרתי וניהלתי את צוות ה-SDR","השקתי מחדש את כל ה-GTM דרך הפיבוט, פעמיים, בלי לאבד תאוצה"],
@@ -1297,7 +1304,7 @@ HE_CASES = [
 ]
 
 
-LOGO_MAP = {"KanduAI":"kanduai","LoneStar Tracking":"lonestar","Bacsoft":"bacsoft",
+LOGO_MAP = {"HeadCounter":"headcount","KanduAI":"kanduai","LoneStar Tracking":"lonestar","Bacsoft":"bacsoft",
             "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source","Limat":"limat"}
 
 
@@ -2990,8 +2997,8 @@ ABOUT_EN = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Tal Paperin | Fractional CRO and B2B Sales Leader</title>
-  <meta name="description" content="Tal Paperin is a fractional CRO and B2B sales leader with 20-plus years building and scaling revenue engines across four continents. Operator, not advisor." />
+  <title>About Tal Paperin | Fractional CRO / CGO and B2B Growth Leader</title>
+  <meta name="description" content="Tal Paperin is a fractional CRO and Chief Growth Officer (CGO) with 20-plus years building and scaling revenue and growth engines across four continents. Operator, not advisor." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/about" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
@@ -3000,12 +3007,12 @@ ABOUT_EN = '''<!doctype html>
 
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://talpaperin.com/about" />
-  <meta property="og:title" content="About Tal Paperin | Fractional CRO" />
-  <meta property="og:description" content="Twenty years carrying the number on four continents. Operator, not advisor." />
+  <meta property="og:title" content="About Tal Paperin | Fractional CRO / CGO" />
+  <meta property="og:description" content="Twenty years carrying the number on four continents. Fractional CRO and Chief Growth Officer. Operator, not advisor." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="About Tal Paperin | Fractional CRO" />
+  <meta name="twitter:title" content="About Tal Paperin | Fractional CRO / CGO" />
   <meta name="twitter:description" content="Twenty years carrying the number on four continents. Operator, not advisor." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
@@ -3028,8 +3035,12 @@ ABOUT_EN = '''<!doctype html>
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
 
         <h2>Twenty years carrying the number</h2>
-        <p>I am a veteran international sales operator, fractional CRO and business strategist with more than 20 years building and scaling B2B sales engines. I started in the mud, hands-on, as an SDR, moved up to Account Executive and Team Leader, then served as VP of Global Sales and Business Development for multinationals and venture-backed startups. I build and run revenue functions from zero, across North America, Europe, APAC and the Middle East.</p>
+        <p>I am a veteran international sales operator, fractional CRO / CGO and business strategist with more than 20 years building and scaling B2B sales engines. I started in the mud, hands-on, as an SDR, moved up to Account Executive and Team Leader, then served as VP of Global Sales and Business Development for multinationals and venture-backed startups. I build and run revenue functions from zero, across North America, Europe, APAC and the Middle East.</p>
         <p>Along the way I have managed international distributor networks, owned CRM architecture and the sales stack, and run market-entry strategies, including putting written-off products back onto retail shelves across Eastern Europe, EMEA and APAC. Different products, different buyers, the same discipline: own the number, do the work.</p>
+
+        <h2>Fractional CRO or fractional CGO?</h2>
+        <p>The title depends on the mandate. A Chief Revenue Officer owns the number: sales, pipeline, forecasting and the closing motion. A Chief Growth Officer owns the whole system that produces it: sales plus marketing, partnerships and channel, pricing and packaging, and entry into new markets. I have run both, and the distinction is real.</p>
+        <p>Growth has always been the wider part of my work. KSW Solutions deliberately runs sales and marketing as one function, not two departments that blame each other. I have built distributor and channel networks across four continents, set pricing, and taken products into markets from zero. That is growth work, not just revenue work. So if your problem is &ldquo;we are not closing,&rdquo; you want a CRO. If it is &ldquo;we do not have a growth engine,&rdquo; you want a CGO. I can carry either seat, fractionally.</p>
 
         <h2>KSW Solutions</h2>
         <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the firm I co-lead with Samantha Paperin, is an entire sales and marketing department for hire. Not advisors on the side, the whole function under one roof: the people and the senior leadership both. SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that runs them, hired, trained, managed and accountable. A company can outsource the entire revenue engine to us instead of building it.</p>
@@ -3041,6 +3052,7 @@ ABOUT_EN = '''<!doctype html>
         <h2>Background and credentials</h2>
         <ul>
           <li>20-plus years in B2B sales, from SDR to VP of Global Sales and Business Development</li>
+          <li>Operates as both a fractional CRO (revenue) and a fractional CGO (full growth: sales, marketing, partnerships and market entry)</li>
           <li>Built and rebuilt revenue for 30-plus B2B companies, from startups to multinationals</li>
           <li>Worked across four continents and more than forty countries</li>
           <li>Served in the Israeli Air Force</li>
@@ -3078,8 +3090,8 @@ ABOUT_HE = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>אודות טל פאפרין | סמנכ״ל מכירות ומוביל מכירות B2B</title>
-  <meta name="description" content="טל פאפרין הוא סמנכ״ל מכירות במיקור חוץ ומוביל מכירות B2B עם מעל 20 שנה של בנייה והרחבת מנועי מכירות בארבע יבשות. איש ביצוע, לא יועץ." />
+  <title>אודות טל פאפרין | סמנכ״ל מכירות וצמיחה במיקור חוץ (CRO / CGO)</title>
+  <meta name="description" content="טל פאפרין הוא סמנכ״ל מכירות במיקור חוץ וסמנכ״ל צמיחה (CRO / CGO) עם מעל 20 שנה של בנייה והרחבת מנועי הכנסות וצמיחה בארבע יבשות. איש ביצוע, לא יועץ." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/he/about" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
@@ -3088,12 +3100,12 @@ ABOUT_HE = '''<!doctype html>
 
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://talpaperin.com/he/about" />
-  <meta property="og:title" content="אודות טל פאפרין | סמנכ״ל מכירות" />
-  <meta property="og:description" content="עשרים שנה של אחריות על התוצאות, בארבע יבשות. איש ביצוע, לא יועץ." />
+  <meta property="og:title" content="אודות טל פאפרין | סמנכ״ל מכירות וצמיחה (CRO / CGO)" />
+  <meta property="og:description" content="עשרים שנה של אחריות על התוצאות, בארבע יבשות. סמנכ״ל מכירות וצמיחה במיקור חוץ. איש ביצוע, לא יועץ." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="אודות טל פאפרין | סמנכ״ל מכירות" />
+  <meta name="twitter:title" content="אודות טל פאפרין | סמנכ״ל מכירות וצמיחה (CRO / CGO)" />
   <meta name="twitter:description" content="עשרים שנה של אחריות על התוצאות, בארבע יבשות. איש ביצוע, לא יועץ." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
@@ -3116,8 +3128,12 @@ ABOUT_HE = '''<!doctype html>
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" width="800" height="1200" loading="lazy" /><figcaption>הנהגת הכנסות בכירה, בכיסא.</figcaption></figure>
 
         <h2>עשרים שנה של אחריות על התוצאות</h2>
-        <p>אני איש מכירות בינלאומי ותיק, סמנכ״ל מכירות במיקור חוץ ואסטרטג עסקי עם מעל 20 שנה של בנייה והרחבת מנועי מכירות B2B. התחלתי בבוץ, ידיים, כאיש SDR, עליתי ל-Account Executive וראש צוות, ובהמשך כיהנתי כ-VP of Global Sales and Business Development בתאגידים רב-לאומיים ובסטארטאפים מגובי הון סיכון. אני בונה ומנהל מחלקות הכנסה מאפס, בצפון אמריקה, אירופה, APAC והמזרח התיכון.</p>
+        <p>אני איש מכירות בינלאומי ותיק, סמנכ״ל מכירות וצמיחה במיקור חוץ (CRO / CGO) ואסטרטג עסקי עם מעל 20 שנה של בנייה והרחבת מנועי מכירות B2B. התחלתי בבוץ, ידיים, כאיש SDR, עליתי ל-Account Executive וראש צוות, ובהמשך כיהנתי כ-VP of Global Sales and Business Development בתאגידים רב-לאומיים ובסטארטאפים מגובי הון סיכון. אני בונה ומנהל מחלקות הכנסה מאפס, בצפון אמריקה, אירופה, APAC והמזרח התיכון.</p>
         <p>בדרך ניהלתי רשתות מפיצים בינלאומיות, הייתי אחראי על ארכיטקטורת ה-CRM ומערך המכירות, והרצתי אסטרטגיות חדירה לשווקים, כולל החזרת מוצרים שנמחקו אל מדפי הקמעונאות במזרח אירופה, EMEA ו-APAC. מוצרים שונים, קונים שונים, אותה משמעת: לקחת אחריות על התוצאות, ולעשות את העבודה.</p>
+
+        <h2>סמנכ״ל הכנסות במיקור חוץ או סמנכ״ל צמיחה?</h2>
+        <p>התואר תלוי במנדט. סמנכ״ל הכנסות (CRO) אחראי על המספר: מכירות, צינור, תחזית ומהלך הסגירה. סמנכ״ל צמיחה (CGO) אחראי על כל המערכת שמייצרת אותו: מכירות יחד עם שיווק, שותפויות וערוצי הפצה, תמחור ואריזה, וכניסה לשווקים חדשים. עשיתי את שני התפקידים, וההבדל אמיתי.</p>
+        <p>הצמיחה תמיד הייתה החלק הרחב יותר בעבודה שלי. KSW Solutions מריצה בכוונה מכירות ושיווק כפונקציה אחת, לא שתי מחלקות שמאשימות זו את זו. בניתי רשתות מפיצים וערוצי הפצה בארבע יבשות, קבעתי תמחור, והכנסתי מוצרים לשווקים מאפס. זו עבודת צמיחה, לא רק עבודת הכנסות. אז אם הבעיה היא &rdquo;אנחנו לא סוגרים&ldquo;, אתם צריכים CRO. אם היא &rdquo;אין לנו מנוע צמיחה&ldquo;, אתם צריכים CGO. אני יכול לשבת בכל אחד מהכיסאות, במיקור חוץ.</p>
 
         <h2>KSW Solutions</h2>
         <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שאני מוביל יחד עם סמנתה פאפרין, היא מחלקת מכירות ושיווק שלמה להשכרה. לא יועצים מהצד, אלא כל הפונקציה תחת קורת גג אחת: גם האנשים וגם ההנהגה הבכירה. אנשי SDR, AE, BD ושיווק, יחד עם ההנהלה ברמת VP ו-CRO שמנהלת אותם, מגויסים, מוכשרים, מנוהלים ואחראים. חברה יכולה להוציא אלינו את כל מנוע ההכנסות למיקור חוץ במקום לבנות אותו.</p>
@@ -3129,6 +3145,7 @@ ABOUT_HE = '''<!doctype html>
         <h2>רקע והסמכות</h2>
         <ul>
           <li>מעל 20 שנה במכירות B2B, מ-SDR ועד VP of Global Sales and Business Development</li>
+          <li>פועל גם כסמנכ״ל הכנסות במיקור חוץ (CRO) וגם כסמנכ״ל צמיחה (CGO): מכירות, שיווק, שותפויות וכניסה לשווקים</li>
           <li>בניתי ובניתי מחדש הכנסות ל-30 ומעלה חברות B2B, מסטארטאפים ועד רב-לאומיות</li>
           <li>עבדתי בארבע יבשות ובמעל ארבעים מדינות</li>
           <li>שירתתי בחיל האוויר הישראלי</li>
