@@ -1,5 +1,6 @@
 ---
 title: 'When to Hire a VP of Sales, and Why Most Startups Do It Too Early'
+seotitle: When to Hire a VP of Sales (Don't Rush It)
 description: Hiring a VP of Sales at the wrong time is one of the most expensive mistakes a startup can make. How to know if you are actually ready, or just desperate.
 date: 2025-11-03
 tags: VP Sales, Hiring, Sales Leadership, Startup

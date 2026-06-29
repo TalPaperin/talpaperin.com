@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in the European Union: A Market-by-Market Reality'
+seotitle: Selling B2B in the EU: Market Reality Guide
 description: 'How to build B2B sales across the EU: why it is not one market, the buyer differences, and the sales operation I build and run across Europe.'
 date: 2026-04-26
 tags: European Union, Europe, International Sales, Market Entry

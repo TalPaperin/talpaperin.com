@@ -1,5 +1,6 @@
 ---
 title: France cut off arms to Israel. Israel's answer: build it ourselves. A lesson in suppliers.
+seotitle: France Arms Ban: Supplier Risk Management
 description: Israel's response? Find better suppliers. Build more. Depend less. Israel's Ministry of Defense just announced it's halting all defense procurement from France.
 date: 2026-03-31
 tags: B2B Sales, Revenue Leadership, Israel

@@ -1,5 +1,6 @@
 ---
 title: 'Antisemitic French Organizers Did Israeli Defense a Favor'
+seotitle: Eurosatory: Outbound Beats Inbound for Defense
 description: France boarded up 30 Israeli defense booths at Eurosatory after they complied with every demand. Here is why it proves outbound beats inbound when your product is proven and your buyers are known.
 date: 2026-06-15
 tags: Outbound Sales, B2B Sales, Israel, Defense Tech, Go-To-Market

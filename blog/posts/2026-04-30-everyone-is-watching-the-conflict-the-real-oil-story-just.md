@@ -1,5 +1,6 @@
 ---
 title: Everyone is watching the conflict. The real oil story just happened under the radar.
+seotitle: The Hidden Oil Story Under the Radar
 description: Fast. While everyone is focused on conflict and shortages, a structural shift just happened under the radar. The United Arab Emirates announced it's leaving.
 date: 2026-04-30
 tags: Revenue Leadership, Market Entry, Go-To-Market

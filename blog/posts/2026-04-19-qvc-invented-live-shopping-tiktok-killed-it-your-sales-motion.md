@@ -1,5 +1,6 @@
 ---
 title: QVC invented live shopping. TikTok killed it. Your sales motion has an expiry date.
+seotitle: Sales Expiry Dates: QVC vs TikTok Playbook
 description: $6.6 billion in debt. Chapter 11 filed. Shares down 70% in a single day. The cruel irony? QVC didn't have a bad product. They had a bad sales motion and they.
 date: 2026-04-19
 tags: Revenue Leadership, B2B Sales, Market Entry

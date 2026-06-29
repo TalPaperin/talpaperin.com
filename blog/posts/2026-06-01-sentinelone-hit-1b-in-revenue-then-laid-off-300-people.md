@@ -1,5 +1,6 @@
 ---
 title: SentinelOne hit $1B in revenue, then laid off 300 people. Growth is not the goal.
+seotitle: SentinelOne Reaches $1B: Growth is Not Goal
 description: And they're laying off 300 people. Not a startup running out of money. Not a company that can't find customers. Not a company whose product doesn't work. A.
 date: 2026-06-01
 tags: Revenue Leadership, B2B Sales, Hiring & Teams

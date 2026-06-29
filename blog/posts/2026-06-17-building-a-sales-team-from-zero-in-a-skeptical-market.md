@@ -1,5 +1,6 @@
 ---
 title: I Built a Sales Floor for an Offer Everyone Had Already Been Pitched a Dozen Times
+seotitle: Building a Sales Team for an Overpitched Offer
 description: Free money, a closing deadline, and a market so flooded with cold-callers that nobody believed it anymore. Here is how you build a sales team from zero when the hard part is not the offer, it is the trust.
 date: 2026-06-17
 tags: Sales Team, Go-To-Market, Outbound, B2B Sales

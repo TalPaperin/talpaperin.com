@@ -1,5 +1,6 @@
 ---
 title: 20 Sales Problems EVERYONE has - 1 Platform with 20 solutions.
+seotitle: 20 Common Sales Problems & How to Solve Them
 description: Most B2B founders are not bad at selling. They are selling without a system.
 date: 2026-06-07
 tags: B2B Sales, Startups

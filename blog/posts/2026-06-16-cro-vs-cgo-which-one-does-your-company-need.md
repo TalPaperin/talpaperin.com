@@ -1,5 +1,6 @@
 ---
 title: I Spent 20 Years as a CRO. Half That Time I Was Actually a CGO.
+seotitle: I Spent 20 Years as a CRO. Half That Time I W...
 description: A Chief Revenue Officer owns the number. A Chief Growth Officer owns the whole engine that produces it - sales, marketing, partnerships and new markets. Most founders hire the wrong one.
 date: 2026-06-16
 tags: Revenue Leadership, Go-To-Market, Fractional CRO, Growth

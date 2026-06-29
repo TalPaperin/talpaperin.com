@@ -1,5 +1,6 @@
 ---
 title: 'B2B Pricing Models: Subscription, Usage, Hybrid, and When Each Wins'
+seotitle: B2B Pricing Models: Subscription vs Usage
 description: Subscription, usage-based, one-time and hybrid pricing each fit a different product and buyer. How to choose the model that fits yours.
 date: 2026-06-15
 tags: Pricing, Business Model, SaaS, B2B Sales

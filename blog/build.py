@@ -286,6 +286,8 @@ def load_posts(directory=POSTS_DIR, lang="en"):
             "slug": slug,
             "lang": lang,
             "title": meta["title"],
+            # Optional SEO-optimized <title> tag; falls back to the H1 title.
+            "seotitle": meta.get("seotitle", "").strip(),
             "description": meta["description"],
             "date": date,
             "updated": updated,
@@ -363,6 +365,7 @@ def render_post(p):
 
     template = TEMPLATE_POST_HE if he else TEMPLATE_POST
     return template \
+        .replace("{{METATITLE}}", esc(p["seotitle"] or p["title"])) \
         .replace("{{TITLE}}", esc(p["title"])) \
         .replace("{{DESC}}", esc(p["description"])) \
         .replace("{{URL}}", url) \
@@ -553,7 +556,7 @@ TEMPLATE_POST = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{TITLE}} | Tal Paperin</title>
+  <title>{{METATITLE}} | Tal Paperin</title>
   <meta name="description" content="{{DESC}}" />
   <meta name="keywords" content="{{KEYWORDS}}" />
   <meta name="author" content="Tal Paperin" />
@@ -710,7 +713,7 @@ TEMPLATE_POST_HE = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{TITLE}} | טל פאפרין</title>
+  <title>{{METATITLE}} | טל פאפרין</title>
   <meta name="description" content="{{DESC}}" />
   <meta name="keywords" content="{{KEYWORDS}}" />
   <meta name="author" content="Tal Paperin" />

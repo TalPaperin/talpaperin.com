@@ -1,5 +1,6 @@
 ---
 title: Know, Like, Trust, Buy. Can you actually speed the process up?
+seotitle: Know, Like, Trust, Buy: Accelerating Deals
 description: That's the process your prospect is going through. Starting from not knowing you (or ever hearing about your product) and all the way to placing an order. Each.
 date: 2020-02-06
 tags: B2B Sales

@@ -1,5 +1,6 @@
 ---
 title: Monday added popup ads. Iran closed a strait. The same mistake about leverage.
+seotitle: Monday Ads & Iran Strait: Leverage Mistakes
 description: Popup ads. Inside a paid product. Then, this morning, Bloomberg reported the UAE is fast-tracking a second pipeline to Fujairah. Doubling oil export capacity..
 date: 2026-05-15
 tags: Market Entry, Go-To-Market, Negotiation

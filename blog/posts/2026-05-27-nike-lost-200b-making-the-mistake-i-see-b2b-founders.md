@@ -1,5 +1,6 @@
 ---
 title: Nike lost $200B making the mistake I see B2B founders make every quarter.
+seotitle: Nike Lost $200B: Corporate Strategy Lessons
 description: Stock down 75%. They are laying off 1,400 people. The mistake that broke them is one I see B2B founders making every quarter. Smaller scale, different.
 date: 2026-05-27
 tags: Revenue Leadership, B2B Sales, Market Entry

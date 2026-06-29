@@ -1,5 +1,6 @@
 ---
 title: OpenAI is burning $14B a year and buying distribution. The Uber playbook for AI.
+seotitle: OpenAI Burns $14B/Year: The AI Uber Playbook
 description: And offering ~17.5% guaranteed? returns to firms like TPG and Advent International. That's not funding. That's a land grab. They're not raising capital..
 date: 2026-03-26
 tags: Go-To-Market, B2B Sales, Revenue Leadership

@@ -1,5 +1,6 @@
 ---
 title: A $200M Israeli exit proves the oldest sales rule: go where nobody else will.
+seotitle: Go Where Others Won't: The $200M Exit Rule
 description: Amazon Web Services just bought an Israeli Start-up, CloudEndure for the above sum. What's the lesson we learn? Since the beginning of time, Sales and Business.
 date: 2019-01-10
 tags: B2B Sales, Israel

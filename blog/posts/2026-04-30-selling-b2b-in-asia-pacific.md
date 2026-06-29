@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in Asia-Pacific: Taiwan, Singapore, India and the Region'
+seotitle: Selling B2B in Asia-Pacific: Market Guide
 description: 'How to build B2B sales across Asia-Pacific: the buyer culture, local presence and partners, and the sales operation I build and run across the region.'
 date: 2026-04-30
 tags: Asia-Pacific, APAC, International Sales, Market Entry

@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in Central and Eastern Europe: Poland, Romania, Hungary and Beyond'
+seotitle: Selling B2B in Central & Eastern Europe
 description: 'How to build B2B sales across Central and Eastern Europe: the buyer culture, the opportunity, and the sales team and support operation I build and run there.'
 date: 2026-05-14
 tags: Central Europe, Eastern Europe, International Sales, Market Entry

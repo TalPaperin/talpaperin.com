@@ -1,5 +1,6 @@
 ---
 title: 'Expanding to Europe: Why the US Is Not Always the First Move'
+seotitle: Expanding to Europe: Why the US Isn't First
 description: Every company races to America, but sometimes Europe is the right market to start in. When to expand to Europe first, and how not to confuse one country for the whole continent.
 date: 2026-01-19
 tags: Europe Expansion, International Sales, Market Entry, Go-To-Market

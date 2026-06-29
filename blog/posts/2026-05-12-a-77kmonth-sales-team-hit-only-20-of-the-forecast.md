@@ -1,5 +1,6 @@
 ---
 title: A $77K/month sales team hit ONLY 20% of the forecast. Here's what actually fixed it.
+seotitle: Fixing a Sales Team Hitting 20% of Forecast
 description: A founder hired me to figure out why his sales team was missing the forecast by 80%.
 date: 2026-05-12
 tags: Hiring & Teams, Revenue Leadership, B2B Sales

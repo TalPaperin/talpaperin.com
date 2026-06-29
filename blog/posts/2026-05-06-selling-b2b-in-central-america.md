@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in Central America: Costa Rica, Panama and the Region'
+seotitle: Selling B2B in Central America: Costa Rica, P...
 description: 'How to build B2B sales across Central America: the buyer culture, the distributor-led model, and the sales operation I build and run across the region.'
 date: 2026-05-06
 tags: Central America, Latin America, International Sales, Market Entry

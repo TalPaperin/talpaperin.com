@@ -1,5 +1,6 @@
 ---
 title: 'Setting Up a US Subsidiary: What to Know Before You Open an Inc'
+seotitle: Setting Up a US Subsidiary: Pre-Inc Guide
 description: A US subsidiary is the right move for many companies, but most do it in the wrong order. When you actually need one, and what has to come first.
 date: 2025-12-15
 tags: Subsidiary, US Market Entry, Expansion, International Sales

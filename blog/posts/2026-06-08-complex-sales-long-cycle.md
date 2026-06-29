@@ -1,5 +1,6 @@
 ---
 title: 'Complex Sales and Long Cycles: How Not to Lose Deals Along the Way'
+seotitle: Complex Sales & Long Cycles: Saving Deals
 description: In complex sales with many decision-makers and a long cycle, most deals do not fall on price, they simply die along the way. How to keep deals alive until signature.
 date: 2026-06-08
 tags: Complex Sales, Sales Cycle, B2B Sales, Sales Management

@@ -1,5 +1,6 @@
 ---
 title: From $4.8 Billion to $60 Million. A Great Product Cannot Save a Broken Business Model.
+seotitle: Why Great Products Can't Save Broken Models
 description: Nano-X had revolutionary medical imaging tech and still lost 99 percent of its value. The lesson is not the technology. It is business-model-market fit.
 date: 2026-06-23
 tags: Startups, Business Model, Go-To-Market, Revenue

@@ -1,5 +1,6 @@
 ---
 title: I tracked 300 founders from my old sales calls. A quarter are already gone.
+seotitle: Tracked 300 Founders: 25% Have Vanished
 description: Here's MY data from the past week. I started going through my old Calendly meetings from the last 3 years. Mostly startup founders, CEOs and VP Sales - about.
 date: 2026-05-24
 tags: B2B Sales, Startups, Go-To-Market

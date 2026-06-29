@@ -1,5 +1,6 @@
 ---
 title: Israel now exports jet fuel and defends the Gulf. The small player just grew up.
+seotitle: Israel Exports Jet Fuel & Defends the Gulf
 description: Israel is protecting other countries in the GULF! The UAE! Israel! The headlines coming out today feel like a glitch in the matrix. Germany, the industrial.
 date: 2026-05-06
 tags: Israel, Revenue Leadership, Market Entry

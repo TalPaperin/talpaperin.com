@@ -1,5 +1,6 @@
 ---
 title: 'Outsourced VP of Sales: The Smart Way Into a Market Without Burning a Fortune'
+seotitle: Outsourced VP of Sales: The Smart Way Into a ...
 description: Why more and more B2B companies skip hiring a full-time VP of Sales and choose to outsource sales leadership instead. The upside, the risks, and when it actually fits.
 date: 2025-10-06
 tags: VP Sales, Outsourcing, B2B Sales, Market Entry

@@ -1,5 +1,6 @@
 ---
 title: 'Selling to Governments and Large Organizations (B2G): The Long Game Worth Playing'
+seotitle: B2G Sales: Selling to Governments & Orgs
 description: Selling to governments and large organizations is slow, bureaucratic and frustrating, and also one of the most stable assets a company can build. How to play the long game right.
 date: 2026-05-25
 tags: B2G, Government Sales, Complex Sales, International Sales

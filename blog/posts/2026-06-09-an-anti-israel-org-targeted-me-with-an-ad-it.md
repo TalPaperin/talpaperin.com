@@ -1,5 +1,6 @@
 ---
 title: An anti-Israel org targeted me with an ad. It is a masterclass in the wrong ICP.
+seotitle: Ad Targeting Failure: Masterclass in Bad ICP
 description: A business consultant. A Fractional CRO. A guy who spends most of his day helping companies improve sales, business development and revenue growth. A religious.
 date: 2026-06-09
 tags: Marketing, Revenue Leadership, B2B Sales

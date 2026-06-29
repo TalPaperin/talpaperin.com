@@ -1,5 +1,6 @@
 ---
 title: A Torah scroll on a soldier's back, and what it taught me about business.
+seotitle: Business Lessons from a Soldier's Torah Scroll
 description: Heading into Lebanon. This is what fighting for something real looks like. Not a slogan. Not a hashtag. Not a press release. A soldier who decided that even in.
 date: 2026-04-14
 tags: Revenue Leadership, B2B Sales, Negotiation

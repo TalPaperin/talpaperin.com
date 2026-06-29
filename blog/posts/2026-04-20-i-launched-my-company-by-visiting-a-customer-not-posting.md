@@ -1,5 +1,6 @@
 ---
 title: I launched my company by visiting a customer, not posting from an office.
+seotitle: Launch Your Company by Visiting Customers First
 description: Today I visited our first client about a product I am launching in this post I'm officially launching TheDealMentor.AI. A Virtual CRO - replaces $500K in.
 date: 2026-04-20
 tags: B2B Sales, Go-To-Market, Revenue Leadership

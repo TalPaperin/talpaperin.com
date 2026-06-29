@@ -1,5 +1,6 @@
 ---
 title: Do clients really care if you have worked in their exact industry?
+seotitle: Do Clients Care If You Know Their Industry?
 description: When? Whom to use? A lot of us here are working for different companies, in different sectors, providing various services. How well would a recommendation, or.
 date: 2018-05-30
 tags: Israel, Revenue Leadership

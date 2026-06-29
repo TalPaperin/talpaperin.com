@@ -1,5 +1,6 @@
 ---
 title: Why does this bus cost 15x more in Boston than in Beijing? It is not quality.
+seotitle: Why Boston Buses Cost 15x More Than Beijing
 description: Same size, same purpose, same number of passengers. One costs about $80,000. The other can hit $1.2 million. Quality? Nope.. The American bus is not 15x.
 date: 2026-05-13
 tags: B2B Sales, Startups, Go-To-Market

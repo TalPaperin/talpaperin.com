@@ -1,5 +1,6 @@
 ---
 title: International trade with Russia boomed this year, despite the so-called “sanctions” many countries imposed after the Ukraine invasion.
+seotitle: International trade with Russia boomed this y...
 description: International trade with Russia boomed this year, despite the so-called “sanctions” many countries imposed after the Ukraine invasion.
 date: 2022-10-31
 tags: Market Entry

@@ -1,5 +1,6 @@
 ---
 title: Your mid-range price can become unaffordable in the next market over.
+seotitle: Why Mid-Range Prices Fail in New Markets
 description: What a pain!:) Did you ever spent quite some time on proper pricing strategy for your product / service - and placed it within the "medium" range......... and.
 date: 2018-06-27
 tags: Market Entry, Israel

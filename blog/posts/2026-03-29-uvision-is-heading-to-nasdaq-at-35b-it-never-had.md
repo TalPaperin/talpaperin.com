@@ -1,5 +1,6 @@
 ---
 title: UVision is heading to Nasdaq at $3.5B. It never had a sales problem.
+seotitle: UVision Heading to Nasdaq at $3.5B Valuation
 description: An Israeli drone company. A $982 million U.S. Army contract. JPMorgan leading the IPO. But here's what the headline doesn't tell you: UVision didn't plateau..
 date: 2026-03-29
 tags: Revenue Leadership, B2B Sales, Go-To-Market

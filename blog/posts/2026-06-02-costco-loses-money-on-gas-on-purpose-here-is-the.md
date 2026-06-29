@@ -1,5 +1,6 @@
 ---
 title: Costco loses money on gas on purpose. Here is the strategy.
+seotitle: Costco Gas Strategy: Loss Leader Insights
 description: THAT is the entire strategy. Across 747 stations, Costco makes a few cents per gallon. Regular gas stations make 25 to 35 cents. Lines wrap around their.
 date: 2026-06-02
 tags: B2B Sales, Startups, Revenue Leadership

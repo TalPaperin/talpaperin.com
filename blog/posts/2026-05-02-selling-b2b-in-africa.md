@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in Africa: Kenya, Nigeria, South Africa and Beyond'
+seotitle: Selling B2B in Africa: Regional Guide
 description: 'How to build B2B sales across Africa: the buyer culture, local presence and partners, and the sales operation I build and run, including an office in Kenya.'
 date: 2026-05-02
 tags: Africa, International Sales, Market Entry, Distributors

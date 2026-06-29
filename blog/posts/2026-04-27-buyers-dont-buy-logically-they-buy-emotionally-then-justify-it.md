@@ -1,5 +1,6 @@
 ---
 title: Buyers don't buy logically. They buy emotionally, then justify it.
+seotitle: Buyers Buy Emotionally, Justify Logically
 description: Then they use logic to explain what they already decided. Trump gets this better than anyone. One sentence. And suddenly everyone feels something. Rage.
 date: 2026-04-27
 tags: B2B Sales, Revenue Leadership, Fractional CRO

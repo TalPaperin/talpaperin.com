@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in the Former Soviet Union (FSU): Russia, Ukraine, Central Asia and the Caucasus'
+seotitle: Selling B2B in the FSU: Regional Overview
 description: 'How to build B2B sales across the post-Soviet markets: the buyer culture, relationships and distributors, and the sales operation I build and run in the FSU.'
 date: 2026-04-24
 tags: FSU, Post-Soviet, International Sales, Market Entry

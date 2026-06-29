@@ -1,5 +1,6 @@
 ---
 title: The UAE quit OPEC overnight. This is exactly how systems break in B2B too.
+seotitle: UAE Quits OPEC: How B2B Systems Break
 description: Not with warning signs. With a decision. One player. One moment. And a system that took decades to build starts coming apart. This is how systems actually end..
 date: 2026-04-28
 tags: Revenue Leadership, B2B Sales, Fractional CRO

@@ -1,5 +1,6 @@
 ---
 title: Eight years ago, telling CEOs not to build a sales team sounded insane.
+seotitle: Why Advising CEOs Against Sales Floors Worked
 description: At the time, most CEOs thought the idea sounded completely backwards. Why would a company NOT build its own sales department? My argument was basically this.
 date: 2026-05-17
 tags: B2B Sales, Hiring & Teams, Fractional CRO

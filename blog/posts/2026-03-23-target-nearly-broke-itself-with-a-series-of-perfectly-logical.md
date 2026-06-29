@@ -1,5 +1,6 @@
 ---
 title: Target nearly broke itself with a series of perfectly logical decisions.
+seotitle: How Logical Decisions Nearly Broke Target
 description: Target didn't lose customers because of Amazon or Walmart they lost them because leadership made a series of perfectly logical decisions that completely.
 date: 2026-03-23
 tags: B2B Sales, Revenue Leadership, Go-To-Market

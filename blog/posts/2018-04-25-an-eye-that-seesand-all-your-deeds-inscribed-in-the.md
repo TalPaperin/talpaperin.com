@@ -1,5 +1,6 @@
 ---
 title: "An eye that sees...and all your deeds inscribed in the Book". Of Social Media.
+seotitle: An eye that sees...and all your deeds inscrib...
 description: “Consider three things and you will not come to sin: Know what is above you: an eye that sees and an ear that hears, and all your deeds inscribed in the Book.”.
 date: 2018-04-25
 tags: B2B Sales

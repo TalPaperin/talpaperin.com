@@ -1,5 +1,6 @@
 ---
 title: Behind The News: Russia's Bread & Circus Distraction Tactics.
+seotitle: Russia's Bread & Circus Tactics Explained
 description: You might be familiar with the story that Russia was accused of poisoning a defected spy of theirs and his daughter, living in the UK back in March. The story.
 date: 2018-09-16
 tags: B2B Sales

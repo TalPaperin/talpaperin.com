@@ -1,5 +1,6 @@
 ---
 title: Israel's GDP is outgrowing every G7 nation, in the middle of a war.
+seotitle: Israel's GDP Outgrowing G7 Nations Amid War
 description: Israel's 2026 GDP is growing at 3.8%, outperforming every G7 nation, while operating under conditions that would paralyze most global economies. I've watched.
 date: 2026-05-01
 tags: B2B Sales, Israel, Revenue Leadership

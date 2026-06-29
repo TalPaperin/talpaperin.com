@@ -1,5 +1,6 @@
 ---
 title: A Volkswagen plant may start building Iron Dome parts. They read the signals early.
+seotitle: A Volkswagen plant may start building Iron Do...
 description: A car factory in Osnabruck, Germany originally built to produce the T-Roc Cabriolet is reportedly in advanced talks with Israel's Rafael to manufacture Iron.
 date: 2026-03-25
 tags: Revenue Leadership, B2B Sales, Israel

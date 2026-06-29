@@ -1,5 +1,6 @@
 ---
 title: A fake war story explains why your sales forecast is fiction.
+seotitle: Why Your Sales Forecast is Pure Fiction
 description: Here's a hysterical fake news I just ran into. Iranian naval forces captured the Israeli port of Be'er Sheva. A naval operation. In a city with no sea "They.
 date: 2026-03-20
 tags: B2B Sales, Revenue Leadership, Go-To-Market

@@ -1,5 +1,6 @@
 ---
 title: A partnership where only one side delivers is not a partnership. It is a liability.
+seotitle: One-Sided Partnerships Are Major Liabilities
 description: It's a liability. I've been there personally. Signed agreements that looked great on paper. Shook hands with people who had the right title, the right network.
 date: 2026-04-01
 tags: Revenue Leadership, Fractional CRO, Startups

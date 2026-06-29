@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in South America: Brazil, Argentina, Chile and Beyond'
+seotitle: Selling B2B in South America: Regional Guide
 description: 'How to build B2B sales across South America: the buyer culture, distributors versus direct, and the sales operation I build and run across the region.'
 date: 2026-05-08
 tags: South America, Latin America, International Sales, Market Entry

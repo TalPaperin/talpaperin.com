@@ -1,5 +1,6 @@
 ---
 title: Entering a new market? Talk the talk, and learn the culture, not just the language.
+seotitle: Entering New Markets: Culture Over Language
 description: I love challenges! Especially if this is going to be helpful.:) The TOPIC - International Sales - I know you guys out there are struggling to GET to new.
 date: 2018-06-04
 tags: Market Entry, B2B Sales

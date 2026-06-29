@@ -1,5 +1,6 @@
 ---
 title: Target just had its best quarter in 4 years. The reason is positioning, not price.
+seotitle: Target's Turnaround: Positioning Over Price
 description: Target's sales just grew 5.6% - that's their best result in 4 years. And this happened while: - energy prices are rising - consumers are under pressure -.
 date: 2026-05-21
 tags: B2B Sales, Go-To-Market, Hiring & Teams

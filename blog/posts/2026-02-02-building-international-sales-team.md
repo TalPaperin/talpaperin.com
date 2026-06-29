@@ -1,5 +1,6 @@
 ---
 title: 'Building an International Sales Team From Scratch: The Order You Cannot Skip'
+seotitle: Building an International Sales Team From Zero
 description: How to build an international sales team without burning the budget. The right order of hires, who comes first, and why most companies hire backwards.
 date: 2026-02-02
 tags: Sales Team, International Sales, Hiring, Sales Leadership

@@ -1,5 +1,6 @@
 ---
 title: 'Entering the US Market: The Honest Guide for B2B Companies'
+seotitle: Entering the US Market: Honest B2B Guide
 description: The US market is the biggest prize and the most expensive trap at the same time. What you actually need to know before you open an office in New York.
 date: 2025-10-20
 tags: US Market Entry, International Sales, Go-To-Market, Expansion

@@ -1,5 +1,6 @@
 ---
 title: 'Selling B2B in the Nordics: Sweden, Norway, Denmark, Finland and Iceland'
+seotitle: Selling B2B in the Nordics: Market Entry
 description: 'How to build B2B sales in the Nordic markets: how Nordic buyers actually buy, and the sales team and support operation I build and run across Northern Europe.'
 date: 2026-05-18
 tags: Nordics, Northern Europe, International Sales, Market Entry

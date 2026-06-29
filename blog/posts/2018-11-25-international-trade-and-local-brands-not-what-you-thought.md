@@ -1,5 +1,6 @@
 ---
 title: International Trade and "Local"​ Brands - not what you thought.
+seotitle: International Trade & Local Brands Reality
 description: Israeli cosmetics - case study.
 date: 2018-11-25
 tags: Market Entry

@@ -1,5 +1,6 @@
 ---
 title: "Little crappy ships." That is the nickname the US Navy gave the warships it spent up to $100 billion building.
+seotitle: Little crappy ships." That is the nickname th...
 description: The buyer, mocking its own purchase.Thirty-five of them. An "experiment that didn't work," its own analysts say. Constant mechanical failures, no clear.
 date: 2026-05-28
 tags: B2B Sales

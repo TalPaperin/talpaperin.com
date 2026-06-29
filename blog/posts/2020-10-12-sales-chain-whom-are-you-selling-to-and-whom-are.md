@@ -1,5 +1,6 @@
 ---
 title: Sales Chain - whom are you selling to - and whom are they selling to?
+seotitle: Sales Chain: Who Does Your Buyer Sell To?
 description: Before you start selling, you must understand the exact Sales chain you are selling in, your location in that chain, what is the exact value you bring to the.
 date: 2020-10-12
 tags: B2B Sales

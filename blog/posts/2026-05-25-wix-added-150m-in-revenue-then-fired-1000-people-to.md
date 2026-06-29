@@ -1,5 +1,6 @@
 ---
 title: Wix added $150M in revenue, then fired 1,000 people to afford it.
+seotitle: Why Wix Fired 1,000 People After Adding $150M
 description: This week it is firing 1,000 people to afford it. Revenue up 14% to $541 million. A $34 million profit last year turned into a $57 million loss. Cash flow down.
 date: 2026-05-25
 tags: Revenue Leadership, Startups, B2B Sales

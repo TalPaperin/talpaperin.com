@@ -1,5 +1,6 @@
 ---
 title: Aston Martin is betting everything on one car. So are most founders.
+seotitle: Aston Martin & Founders: Single-Product Bets
 description: Aston Martin is betting its future on one car. The Valhalla. $1M per unit. 999 units. ~$1B potential revenue. Not just a car. A financial recovery plan. Now.
 date: 2026-04-09
 tags: Revenue Leadership, B2B Sales, Startups

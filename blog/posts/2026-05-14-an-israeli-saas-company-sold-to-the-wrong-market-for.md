@@ -1,5 +1,6 @@
 ---
 title: An Israeli SaaS company sold to the wrong market for 6 months. The reps knew.
+seotitle: Selling to the Wrong Market: 6-Month Lessons
 description: $0 in deals. CEO was about to fire the whole sales team. The reps had been screaming the actual problem for months. Nobody listened. Here's what happened..
 date: 2026-05-14
 tags: B2B Sales, Go-To-Market, Hiring & Teams

@@ -1,5 +1,6 @@
 ---
 title: ZoomInfo went from $77 to $6 a share. How the king of B2B sales data collapsed.
+seotitle: How ZoomInfo Collapsed from $77 to $6 Share
 description: A 92% wipeout on a company that was supposed to define the future of B2B sales! Here's how the most dominant sales data platform on the planet fell apart, and.
 date: 2026-05-11
 tags: B2B Sales, Revenue Leadership, Go-To-Market

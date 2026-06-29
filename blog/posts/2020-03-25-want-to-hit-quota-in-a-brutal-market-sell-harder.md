@@ -1,5 +1,6 @@
 ---
 title: Want to hit quota in a brutal market? Sell harder. The sale is still there.
+seotitle: Want to hit quota in a brutal market? Sell ha...
 description: Well, you have two options. You can say that those are hard times, there's nothing you can do.... And give up. OR You can look at the numbers. A huge.
 date: 2020-03-25
 tags: Revenue Leadership, B2B Sales, Marketing

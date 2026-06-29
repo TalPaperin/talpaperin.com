@@ -1,5 +1,6 @@
 ---
 title: Deals close when you understand the buyer's pain, not when you talk about your product.
+seotitle: Deals Close on Buyer Pain, Not Product
 description: Your deals don't close because you talk about yourself and your product. Got this message today: We have all the problems you talk about. This is not rare. I.
 date: 2026-03-22
 tags: B2B Sales, Go-To-Market, Revenue Leadership

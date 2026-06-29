@@ -1,5 +1,6 @@
 ---
 title: 71% of Israeli startups say the war hurt fundraising. 90% are still building.
+seotitle: 71% of Israeli Startups Hurt by War Build On
 description: And yet they're still here. Still building. Still pushing. That number isn't a eulogy. It's a testament. A survey of 637 Israeli tech companies published today.
 date: 2026-03-30
 tags: Revenue Leadership, Israel, Startups

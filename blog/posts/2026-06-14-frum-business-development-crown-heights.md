@@ -1,5 +1,6 @@
 ---
 title: 'Business Development for Frum Businesses in Crown Heights'
+seotitle: Frum Business Development in Crown Heights
 description: 'Business Development for frum and heimishe business owners in Crown Heights, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.'
 date: 2026-06-14
 tags: Frum, Crown Heights, Business Development, Heimishe Business

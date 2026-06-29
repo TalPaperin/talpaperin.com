@@ -1,5 +1,6 @@
 ---
 title: 'B2B Pricing for the US Market: Why Your Home Price Is Too Low'
+seotitle: B2B Pricing for the US Market Optimization
 description: Companies enter the US market with home-market prices and lose money and customers at the same time. How to price right for the American market.
 date: 2026-03-23
 tags: Pricing, US Market, B2B Sales, Strategy

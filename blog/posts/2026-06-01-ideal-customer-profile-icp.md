@@ -1,5 +1,6 @@
 ---
 title: 'How to Define an ICP (Ideal Customer Profile) That Actually Converts'
+seotitle: How to Define an ICP That Converts
 description: Most companies think they have an ICP, but what they have is a vague description of "whoever will buy". How to build a sharp ideal customer profile that doubles your close rate.
 date: 2026-06-01
 tags: ICP, Ideal Customer Profile, Strategy, B2B Sales

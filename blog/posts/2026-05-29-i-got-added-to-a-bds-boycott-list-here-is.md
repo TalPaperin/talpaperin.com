@@ -1,5 +1,6 @@
 ---
 title: I got added to a BDS boycott list. Here is why it helps my business.
+seotitle: How a BDS Boycott List Helped My Business
 description: A website dedicated to boycotting Israeli companies officially added both me and KSW Solutions to their database. They even gave me my own profile page. After.
 date: 2026-05-29
 tags: Israel, B2B Sales, Revenue Leadership
