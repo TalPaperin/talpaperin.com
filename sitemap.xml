@@ -91,6 +91,12 @@
     <lastmod>2026-07-01</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/services/fractional-cmo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/services/market-entry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -464,6 +470,12 @@
   </url>
   <url>
     <loc>https://talpaperin.com/he/services/go-to-market-strategy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/services/fractional-cmo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-07-01</lastmod>

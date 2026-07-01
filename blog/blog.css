@@ -296,7 +296,7 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .tier .amount{font-weight:800;font-size:2.1rem;color:#fff;line-height:1.1}
 .tier .amount span{font-size:.9rem;color:var(--soft);font-weight:600}
 .tier .bestfor{color:var(--soft);font-size:.95rem;margin:12px 0}
-.tier .incl{list-style:none;display:grid;gap:9px;margin:6px 0 18px;flex:1;padding:0}
+.tier .incl{list-style:none;display:grid;gap:9px;margin:6px 0 18px;flex:1;padding:0;align-content:start}
 .tier .incl li{position:relative;padding-left:22px;color:#cdd6e0;font-size:.9rem;line-height:1.45}
 .tier .incl li::before{content:"";position:absolute;left:2px;top:8px;width:6px;height:6px;background:var(--blue);border-radius:50%}
 .tier .btn{width:100%;margin-top:auto}

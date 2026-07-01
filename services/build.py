@@ -119,6 +119,18 @@ CTA_BOX = '''      <div class="cta-box">
 # --- Service content -------------------------------------------------------
 
 SERVICES = [
+ {"slug":"fractional-cmo","nav":"Fractional CMO","h1":"Fractional CMO and Marketing Leadership",
+  "title":"Fractional CMO and Marketing Leadership | Tal Paperin",
+  "desc":"Senior marketing leadership on demand: senior oversight or full fractional CMO ownership, so marketing and sales run as one revenue engine.",
+  "eyebrow":"Service",
+  "lead":"Marketing that actually feeds sales. Senior oversight or full ownership of the marketing function, aligned to the number, without a full-time CMO salary.",
+  "card":"Senior marketing leadership, oversight or full ownership, run as one engine with sales.",
+  "sections":[
+    {"h":"When you need a fractional CMO","p":["Marketing is running but nobody senior owns whether it actually produces pipeline. Or you have a capable doer who needs direction, prioritization and accountability. That is the gap a fractional CMO fills, without a full-time executive salary."],
+     "ul":["Marketing spends but you cannot tie it to revenue","A capable marketing person needs senior direction and standards","Sales and marketing point fingers instead of working as one engine","You are entering a new market and need positioning and demand from zero"]},
+    {"h":"What I own","p":["Two levels, depending on what you need. Oversight: senior review of plans, priorities and spend, with clear guidance on what to pursue, pause or stop. Full ownership: I lead the marketing function, its priorities and its people, and I answer for the results."],
+     "ul":["Positioning, messaging and the demand-generation plan","Priorities, budget and what to stop doing","Alignment between marketing, sales and the executive team","One accountable owner for marketing performance"]},
+    {"h":"Marketing and sales as one engine","p":["Most companies run marketing and sales as two departments that blame each other. I run them as one revenue engine, so the leads marketing creates are the leads sales can actually close. Delivered together with KSW Solutions, the firm I co-lead."]}]},
  {"slug":"fractional-cro","nav":"Fractional CRO","h1":"Fractional CRO",
   "title":"Fractional CRO | Tal Paperin",
   "desc":"A fractional CRO who sits in the seat and owns your revenue number, strategy, team, pipeline and forecast, without a $250K full-time hire.",
@@ -522,6 +534,7 @@ INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/pricing">See pricing &rarr;</a></p>
       <h2 class="cases-recs-h">On the ground, on four continents</h2>
 {gallery}
     </div>
@@ -594,6 +607,18 @@ HE_CTA = '''      <div class="cta-box">
       </div>'''
 
 HE_SERVICES = [
+ {"slug":"fractional-cmo","nav":"סמנכ״ל שיווק","h1":"סמנכ״ל שיווק במיקור חוץ והובלת שיווק",
+  "title":"סמנכ״ל שיווק במיקור חוץ | טל פאפרין",
+  "desc":"הובלת שיווק בכירה לפי דרישה: פיקוח בכיר או בעלות מלאה כסמנכ״ל שיווק, כך שהשיווק והמכירות פועלים כמנוע הכנסות אחד.",
+  "eyebrow":"שירות",
+  "lead":"שיווק שבאמת מזין מכירות. פיקוח בכיר או בעלות מלאה על פונקציית השיווק, מיושר לתוצאות, בלי משכורת של סמנכ״ל שיווק במשרה מלאה.",
+  "card":"הובלת שיווק בכירה, פיקוח או בעלות מלאה, מנוהלת כמנוע אחד עם המכירות.",
+  "sections":[
+    {"h":"מתי צריך סמנכ״ל שיווק במיקור חוץ","p":["השיווק רץ אבל אף אחד בכיר לא אחראי אם הוא באמת מייצר פייפליין. או שיש לכם עושה מלאכה מוכשר שצריך כיוון, תעדוף ואחריותיות. זה הפער שסמנכ״ל שיווק במיקור חוץ ממלא, בלי משכורת ניהולית מלאה."],
+     "ul":["מוציאים על שיווק אבל לא מצליחים לקשור אותו להכנסות","איש שיווק מוכשר צריך כיוון בכיר וסטנדרטים","מכירות ושיווק מאשימים זה את זה במקום לעבוד כמנוע אחד","אתם נכנסים לשוק חדש וצריכים מיצוב וביקוש מאפס"]},
+    {"h":"על מה אני אחראי","p":["שתי רמות, לפי מה שאתם צריכים. פיקוח: סקירה בכירה של תוכניות, עדיפויות ותקציב, עם הכוונה ברורה על מה לרדוף, להשהות או לעצור. בעלות מלאה: אני מוביל את פונקציית השיווק, את העדיפויות ואת האנשים, ואחראי על התוצאות."],
+     "ul":["מיצוב, מסרים ותוכנית יצירת ביקוש","עדיפויות, תקציב ומה להפסיק לעשות","תיאום בין שיווק, מכירות וההנהלה הבכירה","בעל אחריות אחד לביצועי השיווק"]},
+    {"h":"שיווק ומכירות כמנוע אחד","p":["רוב החברות מריצות שיווק ומכירות כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, כך שהלידים שהשיווק מייצר הם לידים שהמכירות באמת יכולות לסגור. השירות ניתן יחד עם KSW Solutions, החברה שאני מוביל."]}]},
  {"slug":"fractional-cro","nav":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ","h1":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ",
   "title":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ | טל פאפרין",
   "desc":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלוקח אחריות על התוצאות. אסטרטגיה, צוות, פייפליין ותחזית, בלי גיוס יקר של משרה מלאה.",
@@ -799,7 +824,7 @@ HE_SERVICES = [
 # Final service order (top sellers first); also drops merged/removed slugs
 # (contract-negotiation folded into fractional CRO / B2G, saas-sales into GTM,
 # global-markets merged into market-entry).
-_SVC_ORDER = ["fractional-cro", "outsourced-sales", "go-to-market-strategy", "market-entry",
+_SVC_ORDER = ["fractional-cro", "outsourced-sales", "go-to-market-strategy", "fractional-cmo", "market-entry",
               "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector"]
 
 
@@ -948,6 +973,7 @@ HE_INDEX = '''<!doctype html>
       <div class="svc-grid">
 {cards}
       </div>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/he/pricing">לתמחור &larr;</a></p>
       <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
 {gallery}
     </div>
@@ -3334,13 +3360,13 @@ PRICING_EN = {
   {"commit":"~3 hours a week","name":"Advisor","price":"$2,000","per":"/mo",
    "bestfor":"Founders who want senior direction and a sounding board while they run the day to day themselves.",
    "incl":["A standing weekly strategy call","Async access between calls for the real decisions","I set the direction and the priorities, you execute"]},
-  {"commit":"Early-stage","name":"Starter","price":"$6,000","per":"/mo",
+  {"commit":"~2 hours a day","name":"Starter","price":"$6,000","per":"/mo",
    "bestfor":"Early-stage companies or small businesses needing foundational sales improvements.",
    "incl":["Revenue and sales motion review: where deals stall, leak or fail to convert","Sales plan and playbook: ICP, priority channels, talk tracks, decision criteria","Sales process enablement for SDRs and AEs","Pipeline structure: CRM stages and definitions"]},
-  {"commit":"Scaling","name":"Growth","price":"$12,000","per":"/mo","feat":True,"badge":"Most common",
+  {"commit":"Half-time, 4-5 hours a day","name":"Growth","price":"$12,000","per":"/mo","feat":True,"badge":"Most common",
    "bestfor":"Scaling companies that need hands-on management and strategic sales guidance.",
    "incl":["Revenue and sales performance oversight","Direct sales team management, SDRs and AEs","CRM and KPI ownership for forecasting and accountability","A living execution framework with goals, timelines and ownership"]},
-  {"commit":"Full ownership","name":"CRO Ownership","price":"$22,000","per":"/mo",
+  {"commit":"Full-time, exclusive","name":"CRO Ownership","price":"$22,000","per":"/mo",
    "bestfor":"End-to-end CRO-level revenue ownership across sales, marketing and GTM, with one accountable leader.",
    "incl":["Full CRO-level ownership of revenue strategy and execution","Authority over sales, marketing and GTM decisions","Leadership of revenue teams and cross-functional alignment","Hiring, onboarding and performance management for revenue roles","Ongoing intervention to course-correct execution and results"]},
  ],
@@ -3374,13 +3400,13 @@ PRICING_HE = {
   {"commit":"כ-3 שעות בשבוע","name":"Advisor","price":"$2,000","per":"לחודש",
    "bestfor":"מייסדים שרוצים כיוון בכיר ואוזן קשבת בזמן שהם מנהלים את היומיום בעצמם.",
    "incl":["שיחת אסטרטגיה שבועית קבועה","זמינות אסינכרונית ביני לבין השיחות להחלטות האמיתיות","אני קובע את הכיוון והעדיפויות, אתם מבצעים"]},
-  {"commit":"שלב מוקדם","name":"Starter","price":"$6,000","per":"לחודש",
+  {"commit":"כשעתיים ביום","name":"Starter","price":"$6,000","per":"לחודש",
    "bestfor":"חברות בשלב מוקדם או עסקים קטנים שצריכים שיפור מכירות בסיסי.",
    "incl":["סקירת הכנסות ותנועת מכירות: איפה עסקאות נתקעות, דולפות או לא נסגרות","תוכנית מכירות ו-Playbook: ICP, ערוצים, תסריטים וקריטריוני החלטה","הטמעת תהליך מכירה ל-SDRs ו-AEs","מבנה פייפליין: שלבי CRM והגדרות"]},
-  {"commit":"בצמיחה","name":"Growth","price":"$12,000","per":"לחודש","feat":True,"badge":"הנפוץ ביותר",
+  {"commit":"חצי משרה, 4-5 שעות ביום","name":"Growth","price":"$12,000","per":"לחודש","feat":True,"badge":"הנפוץ ביותר",
    "bestfor":"חברות בצמיחה שצריכות ניהול מעשי והכוונת מכירות אסטרטגית.",
    "incl":["פיקוח על ביצועי הכנסות ומכירות","ניהול ישיר של צוות המכירות, SDRs ו-AEs","בעלות על ה-CRM וה-KPIs לתחזית ואחריותיות","תוכנית ביצוע חיה עם יעדים, לוחות זמנים ובעלות"]},
-  {"commit":"בעלות מלאה","name":"CRO Ownership","price":"$22,000","per":"לחודש",
+  {"commit":"משרה מלאה, בלעדי","name":"CRO Ownership","price":"$22,000","per":"לחודש",
    "bestfor":"בעלות מלאה ברמת CRO על ההכנסות, לרוחב מכירות, שיווק ו-GTM, עם מוביל אחד אחראי.",
    "incl":["בעלות מלאה ברמת CRO על אסטרטגיית ההכנסות והביצוע","סמכות על החלטות מכירות, שיווק ו-GTM","הובלת צוותי הכנסות ותיאום בין-מחלקתי","גיוס, קליטה וניהול ביצועים לתפקידי הכנסות","התערבות שוטפת לתיקון מסלול ותוצאות"]},
  ],
@@ -3416,10 +3442,9 @@ def render_pricing_body(d, cal):
         lis = "".join("<li>%s</li>" % esc(x) for x in t["incl"])
         return ('<div class="tier%s">%s<span class="commit">%s</span><h3>%s</h3>'
                 '<div class="amount">%s<span> %s</span></div><p class="bestfor">%s</p>'
-                '<ul class="incl">%s</ul>'
-                '<a class="btn btn-primary" href="%s" target="_blank" rel="noopener">%s</a></div>'
+                '<ul class="incl">%s</ul></div>'
                 ) % (feat, badge, esc(t["commit"]), esc(t["name"]), esc(t["price"]), esc(t["per"]),
-                     esc(t["bestfor"]), lis, cal, esc(book))
+                     esc(t["bestfor"]), lis)
     out = []
     out.append('      <h2>%s</h2>' % esc(d["cro_h"]))
     out.append('      <div class="price-grid cols4">%s</div>' % "".join(card(t) for t in d["cro"]))
@@ -3428,10 +3453,9 @@ def render_pricing_body(d, cal):
             ) % (esc(d["add_label"]), esc(d["sdr_name"]), esc(d["sdr_desc"]),
                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_incl"]))
     right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span></div>'
-             '<ul class="incl">%s</ul>'
-             '<a class="btn btn-primary" href="%s" target="_blank" rel="noopener">%s</a></div>'
+             '<ul class="incl">%s</ul></div>'
              ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]),
-                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), cal, esc(book))
+                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]))
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
