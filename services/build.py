@@ -3403,6 +3403,8 @@ PRICING_EN = {
  "calc_subject":"Quote request from talpaperin.com","calc_mo":"/mo",
  "calc_quote_title":"Your Quote","calc_print":"Print / Save as PDF","calc_lang":"en","calc_dir":"ltr",
  "calc_tagline":"Fractional CRO & Business Consulting",
+ "calc_result_note":"Monthly, no long contracts, no exit fines. Slide the controls below to adjust the mix, the price updates live. Final scope is confirmed on a quick call.",
+ "calc_sliders_h":"Adjust the mix","calc_slider_cro":"How much of me","calc_slider_sdr":"SDR team","calc_slider_mk":"Marketing","calc_none_label":"None",
  "calc_tier_outcomes":[
    "A senior revenue advisor on call, about 3 hours a week",
    "A fractional CRO in the seat about 2 hours a day, owning strategy, process and standards",
@@ -3475,6 +3477,8 @@ PRICING_HE = {
  "calc_subject":"בקשת הצעת מחיר מ-talpaperin.com","calc_mo":"לחודש",
  "calc_quote_title":"הצעת המחיר שלכם","calc_print":"הדפסה / שמירה כ-PDF","calc_lang":"he","calc_dir":"rtl",
  "calc_tagline":"סמנכ״ל מכירות במיקור חוץ וייעוץ עסקי",
+ "calc_result_note":"חודשי, בלי חוזים ארוכים, בלי קנסות יציאה. הזיזו את הפקדים למטה כדי לשנות את התמהיל, המחיר מתעדכן בזמן אמת. ההיקף הסופי מאושר בשיחה קצרה.",
+ "calc_sliders_h":"התאמת התמהיל","calc_slider_cro":"כמה ממני","calc_slider_sdr":"צוות SDR","calc_slider_mk":"שיווק","calc_none_label":"ללא",
  "calc_tier_outcomes":[
    "יועץ הכנסות בכיר בטלפון, כ-3 שעות בשבוע",
    "סמנכ״ל מכירות במיקור חוץ בכיסא כשעתיים ביום, אחראי על אסטרטגיה, תהליך וסטנדרטים",
@@ -3528,13 +3532,16 @@ def render_pricing_body(d, cal):
     def _num(p):
         return int(p.replace("$", "").replace(",", ""))
     tiers = [{"name": t["name"], "price": _num(t["price"]), "commit": t["commit"],
-              "outcome": d["calc_tier_outcomes"][i]} for i, t in enumerate(d["cro"])]
+              "outcome": d["calc_tier_outcomes"][i], "why": t["bestfor"]} for i, t in enumerate(d["cro"])]
+    mkq = d["calc_q"][3]["opts"]
+    mk_list = [{"mk": o.get("mk", 0), "name": o.get("mkname", ""), "out": o.get("mkout", "")} for o in mkq]
     labels = {"recommended": d["calc_recommended"], "outcome_h": d["calc_outcome_h"],
               "cost_h": d["calc_cost_h"], "prompt": d["calc_prompt"], "mo": d["calc_mo"],
               "sdr_outcome": d["calc_sdr_outcome"], "book_url": "https://calendly.com/ksw/15min",
               "book": d["calc_book"], "quote_title": d["calc_quote_title"], "terms": d["calc_note"],
               "print": d["calc_print"], "lang": d["calc_lang"], "dir": d["calc_dir"],
-              "brand": "TAL PAPERIN", "tagline": d["calc_tagline"], "site": "talpaperin.com"}
+              "brand": "TAL PAPERIN", "tagline": d["calc_tagline"], "site": "talpaperin.com",
+              "result_note": d["calc_result_note"], "none": d["calc_none_label"]}
     qhtml = ""
     for q in d["calc_q"]:
         cls = " qc-q-reps" if q.get("reps") else ""
@@ -3551,17 +3558,23 @@ def render_pricing_body(d, cal):
                 data += ' data-set="mk" data-mk="%d" data-mkname="%s" data-mkout="%s"' % (o["mk"], esc(o["mkname"]), esc(o["mkout"]))
             chips += '<button type="button" class="qc-chip"%s>%s</button>' % (data, esc(o["t"]))
         qhtml += '<div class="qc-q%s"><p class="qc-q-label">%s</p><div class="qc-chips">%s</div></div>' % (cls, esc(q["q"]), chips)
+    sliders = ('<div class="qc-sliders" hidden><p class="qc-sub-h">%s</p>'
+               '<div class="qc-slider"><label>%s: <span class="qc-cro-val"></span></label><input type="range" class="qc-cro-range" min="0" max="3" step="1" value="0" /></div>'
+               '<div class="qc-slider"><label>%s: <span class="qc-sdr-val"></span></label><input type="range" class="qc-sdr-range" min="0" max="6" step="1" value="0" /></div>'
+               '<div class="qc-slider"><label>%s: <span class="qc-mk-val"></span></label><input type="range" class="qc-mk-range" min="0" max="2" step="1" value="0" /></div></div>'
+               ) % (esc(d["calc_sliders_h"]), esc(d["calc_slider_cro"]), esc(d["calc_slider_sdr"]), esc(d["calc_slider_mk"]))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
-    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-tiers="%s" data-labels="%s">'
+    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-tiers="%s" data-labels="%s" data-marketing="%s">'
                '<p class="bestfor">%s</p>%s'
                '<div class="qc-result" aria-live="polite"><p class="qc-prompt">%s</p></div>'
+               '%s'
                '<div class="qc-fields"><input class="qc-name" placeholder="%s" autocomplete="name" /><input class="qc-email" type="email" placeholder="%s" autocomplete="email" /><input class="qc-company" placeholder="%s" autocomplete="organization" /></div>'
                '<div class="qc-actions"><button type="button" class="btn btn-secondary qc-download">%s</button>'
                '<a class="btn btn-primary qc-email-btn" href="mailto:tal@ksw.solutions">%s</a>'
                '<a class="btn btn-secondary qc-book" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">%s</a></div>'
                '<p class="price-note">%s</p></div>'
-               % (esc(d["calc_subject"]), esc(json.dumps(tiers, ensure_ascii=False)), esc(json.dumps(labels, ensure_ascii=False)),
-                  esc(d["calc_intro"]), qhtml, esc(d["calc_prompt"]),
+               % (esc(d["calc_subject"]), esc(json.dumps(tiers, ensure_ascii=False)), esc(json.dumps(labels, ensure_ascii=False)), esc(json.dumps(mk_list, ensure_ascii=False)),
+                  esc(d["calc_intro"]), qhtml, esc(d["calc_prompt"]), sliders,
                   esc(d["calc_name"]), esc(d["calc_email"]), esc(d["calc_company"]),
                   esc(d["calc_download"]), esc(d["calc_email_btn"]), esc(d["calc_book"]),
                   esc(d["calc_note"])))

@@ -306,3 +306,13 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .qc-out li::before{content:"";position:absolute;right:2px;top:9px;width:6px;height:6px;background:var(--blue);border-radius:50%}
 .qc-cost{font-size:2.1rem;font-weight:800;color:#fff;margin-top:2px}
 .qc-cost span{font-size:1rem;color:var(--soft);font-weight:600;margin-right:3px}
+
+/* quote calculator: why text, sliders */
+.qc-why{color:#c3d0dc;margin:2px 0 4px;line-height:1.55}
+.qc-result-note{color:var(--soft);font-size:.9rem;margin-top:14px;line-height:1.5}
+.qc-sliders{margin:0 0 22px;padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:rgba(90,176,255,.05)}
+.qc-slider{margin-bottom:14px}
+.qc-slider:last-child{margin-bottom:0}
+.qc-slider label{display:block;font-weight:700;color:#cdd6e0;font-size:.9rem;margin-bottom:8px}
+.qc-slider label span{color:var(--blue)}
+.qc-slider input[type=range]{width:100%;accent-color:var(--blue);height:6px;cursor:pointer}
