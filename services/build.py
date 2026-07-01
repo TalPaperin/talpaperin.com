@@ -117,6 +117,133 @@ CTA_BOX = '''      <div class="cta-box">
       </div>'''
 
 
+# --- Structured data (JSON-LD) --------------------------------------------
+# One canonical entity graph, referenced by @id from every page. This gives
+# Google a single, consistent business + person entity to reconcile, and gives
+# AI assistants a clean node to answer "who is Tal Paperin / what does he do /
+# how much" from. See graph_ld() for the shared @graph and the per-page nodes
+# (Service, Review/AggregateRating, OfferCatalog) that reference it.
+
+BUSINESS_ID = SITE + "/#business"
+PERSON_ID = SITE + "/#tal"
+WEBSITE_ID = SITE + "/#website"
+
+_BIZ_DESC_EN = ("Fractional CRO, Chief Growth Officer and B2B sales consultant. Twenty years "
+                "building and running revenue engines across four continents: fractional CRO "
+                "leadership, outsourced sales teams, go-to-market strategy and international "
+                "market entry.")
+_BIZ_DESC_HE = ("סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, Chief Growth Officer ויועץ מכירות B2B. "
+                "עשרים שנה של בנייה והרצה של מנועי הכנסות בארבע יבשות: הובלת מכירות במיקור חוץ, "
+                "צוותי מכירות, אסטרטגיית Go-To-Market וחדירה לשווקים בינלאומיים.")
+
+
+def _person_node(he=False):
+    name = "טל פאפרין" if he else "Tal Paperin"
+    return (
+        '{"@type":"Person","@id":"%s","name":"%s","url":"%s/",'
+        '"image":"%s/img/site/fractional-cro-portrait.jpg",'
+        '"jobTitle":"Fractional CRO and Chief Growth Officer",'
+        '"email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119",'
+        '"knowsLanguage":["English","Hebrew","Russian","Chinese"],'
+        '"alumniOf":{"@type":"CollegeOrUniversity","name":"Hebrew University of Jerusalem"},'
+        '"worksFor":{"@type":"Organization","name":"KSW Solutions","url":"https://ksw.solutions"},'
+        '"sameAs":["https://www.linkedin.com/in/talpaperin/"]}'
+    ) % (PERSON_ID, name, SITE, SITE)
+
+
+def _business_node(he=False, reviews=None, offers=None):
+    name = "טל פאפרין — סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ" if he else "Tal Paperin — Fractional CRO"
+    desc = _BIZ_DESC_HE if he else _BIZ_DESC_EN
+    extra = ""
+    if reviews:
+        revs = ",".join(
+            '{"@type":"Review","author":{"@type":"Person","name":"%s"},'
+            '"reviewBody":"%s","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"1"}}'
+            % (_jsonesc(t["name"]), _jsonesc(t["q"]))
+            for t in reviews if t.get("name"))
+        n = sum(1 for t in reviews if t.get("name"))
+        extra += (',"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5",'
+                  '"worstRating":"1","reviewCount":"%d"},"review":[%s]') % (n, revs)
+    if offers:
+        items = ",".join(
+            '{"@type":"Offer","name":"%s","price":"%s","priceCurrency":"USD",'
+            '"priceSpecification":{"@type":"UnitPriceSpecification","price":"%s",'
+            '"priceCurrency":"USD","unitText":"per month"},'
+            '"itemOffered":{"@type":"Service","name":"%s"}}'
+            % (_jsonesc(nm), pr, pr, _jsonesc(nm)) for nm, pr in offers)
+        cat_name = "חבילות שירות" if he else "Service packages"
+        extra += (',"hasOfferCatalog":{"@type":"OfferCatalog","name":"%s",'
+                  '"itemListElement":[%s]}') % (cat_name, items)
+    return (
+        '{"@type":"ProfessionalService","@id":"%s","name":"%s","url":"%s/",'
+        '"logo":"%s/img/icon-512.png","image":"%s/og-image.jpg",'
+        '"description":"%s","priceRange":"$2,000-$22,000",'
+        '"email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119",'
+        '"founder":{"@id":"%s"},"employee":{"@id":"%s"},'
+        '"areaServed":[{"@type":"Country","name":"United States"},'
+        '{"@type":"Country","name":"Israel"},{"@type":"Place","name":"Europe"},'
+        '{"@type":"Place","name":"Asia-Pacific"}],'
+        '"knowsAbout":["Fractional CRO","B2B sales","Go-to-market strategy",'
+        '"Sales team building","International market entry","Outsourced sales",'
+        '"Distributor and channel recruitment"],'
+        '"sameAs":["https://www.linkedin.com/in/talpaperin/"],'
+        '"contactPoint":{"@type":"ContactPoint","telephone":"+972-54-530-8119",'
+        '"email":"tal@ksw.solutions","contactType":"sales",'
+        '"availableLanguage":["English","Hebrew"]}%s}'
+    ) % (BUSINESS_ID, _jsonesc(name), SITE, SITE, SITE, _jsonesc(desc),
+         PERSON_ID, PERSON_ID, extra)
+
+
+def _website_node(he=False):
+    lang = "he" if he else "en"
+    return ('{"@type":"WebSite","@id":"%s","url":"%s/","name":"Tal Paperin",'
+            '"inLanguage":"%s","publisher":{"@id":"%s"}}') % (WEBSITE_ID, SITE, lang, BUSINESS_ID)
+
+
+def graph_ld(he=False, reviews=None, offers=None):
+    """The shared entity graph (ProfessionalService + Person + WebSite),
+    dropped into every page so @id references from Service/Review/Offer nodes
+    resolve on-page."""
+    nodes = "%s,%s,%s" % (_business_node(he, reviews, offers),
+                          _person_node(he), _website_node(he))
+    return ('<script type="application/ld+json">'
+            '{"@context":"https://schema.org","@graph":[%s]}</script>') % nodes
+
+
+# Guide slugs that are genuinely informational (comparisons / explainers) and
+# should stay Article. Everything else in GUIDES is a service offering (e.g.
+# "Fractional CRO for Fintech") and is marked up as Service.
+ARTICLE_GUIDES = {
+    "fractional-cro-cost", "fractional-cro-vs-outsourced-sales",
+    "fractional-cro-vs-vp-of-sales", "how-to-hire-a-fractional-cro",
+    "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
+}
+
+
+def guide_ld(g, url, he=False):
+    """Service for offering pages, Article for informational guides."""
+    if g["slug"] in ARTICLE_GUIDES:
+        lang = ',"inLanguage":"he"' if he else ""
+        author_url = SITE + "/he/" if he else SITE + "/"
+        author = "טל פאפרין" if he else "Tal Paperin"
+        return ('{"@context":"https://schema.org","@type":"Article",'
+                '"headline":"%s","description":"%s"%s,'
+                '"author":{"@type":"Person","@id":"%s","name":"%s","url":"%s"},'
+                '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
+                ) % (esc(g["h1"]), esc(g["desc"]), lang, PERSON_ID, author,
+                     author_url, BUSINESS_ID, url)
+    lang = ',"inLanguage":"he"' if he else ""
+    return ('{"@context":"https://schema.org","@type":"Service",'
+            '"name":"%s","description":"%s","serviceType":"Fractional CRO"%s,'
+            '"provider":{"@id":"%s"},"areaServed":[{"@type":"Country","name":"United States"},'
+            '{"@type":"Country","name":"Israel"}],"url":"%s","mainEntityOfPage":"%s"}'
+            ) % (esc(g["h1"]), esc(g["desc"]), lang, BUSINESS_ID, url, url)
+
+
+def _price_num(s):
+    return "".join(ch for ch in s if ch.isdigit())
+
+
 # --- Service content -------------------------------------------------------
 
 SERVICES = [
@@ -463,6 +590,7 @@ PAGE = '''<!doctype html>
 
   {analytics}
 
+  {graph}
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
@@ -520,6 +648,8 @@ INDEX = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -905,6 +1035,7 @@ HE_PAGE = '''<!doctype html>
 
   {analytics}
 
+  {graph}
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
@@ -959,6 +1090,8 @@ HE_INDEX = '''<!doctype html>
   <link rel="stylesheet" href="/he/he-pages.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1061,6 +1194,8 @@ CONTACT_EN = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1147,6 +1282,8 @@ CONTACT_HE = '''<!doctype html>
   <link rel="stylesheet" href="/he/he-pages.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1540,6 +1677,8 @@ REC_PAGE_EN = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1591,6 +1730,8 @@ REC_PAGE_HE = '''<!doctype html>
   <link rel="stylesheet" href="/he/he-pages.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1646,6 +1787,8 @@ CS_PAGE_EN = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1700,6 +1843,8 @@ CS_PAGE_HE = '''<!doctype html>
   <link rel="stylesheet" href="/he/he-pages.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -1802,6 +1947,7 @@ GUIDE_PAGE = '''<!doctype html>
 
   {analytics}
 
+  {graph}
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
@@ -2761,6 +2907,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
 
   {analytics}
 
+  {graph}
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
@@ -3049,6 +3196,8 @@ ABOUT_EN = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -3142,6 +3291,8 @@ ABOUT_HE = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {graph}
 </head>
 <body>
 {nav}
@@ -3595,13 +3746,17 @@ def pricing_ldblock(url, he):
     d = PRICING_HE if he else PRICING_EN
     ents = ",".join('{"@type":"Question","name":"%s","acceptedAnswer":{"@type":"Answer","text":"%s"}}'
                     % (_jsonesc(q), _jsonesc(a)) for q, a in d["faq"])
-    who = "טל פאפרין" if he else "Tal Paperin"
-    page = ('{"@context":"https://schema.org","@type":"WebPage","name":"Pricing","url":"%s",'
-            '"about":{"@type":"Service","serviceType":"Fractional CRO","provider":'
-            '{"@type":"Person","name":"%s","url":"%s/"}}}') % (url, who, SITE)
-    return ('<script type="application/ld+json">%s</script>\n'
+    offers = ([(t["name"], _price_num(t["price"])) for t in d["cro"]]
+              + [(d["sdr_name"], _price_num(d["sdr_amount"]))]
+              + [(t["name"], _price_num(t["price"])) for t in d["marketing"]])
+    graph = graph_ld(he, offers=offers)
+    page = ('{"@context":"https://schema.org","@type":"WebPage","@id":"%s#webpage",'
+            '"url":"%s","name":"Pricing","isPartOf":{"@id":"%s"},'
+            '"about":{"@id":"%s"}}') % (url, url, WEBSITE_ID, BUSINESS_ID)
+    return ('%s\n'
+            '  <script type="application/ld+json">%s</script>\n'
             '  <script type="application/ld+json">{"@context":"https://schema.org",'
-            '"@type":"FAQPage","mainEntity":[%s]}</script>') % (page, ents)
+            '"@type":"FAQPage","mainEntity":[%s]}</script>') % (graph, page, ents)
 
 
 PRICING_TPL = """<!doctype html>
@@ -3744,15 +3899,16 @@ def build():
                     '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, he_url, url)
         ld = ('{"@context":"https://schema.org","@type":"Service",'
               '"name":"%s","description":"%s","serviceType":"%s",'
-              '"provider":{"@type":"Person","name":"Tal Paperin","url":"%s/"},'
-              '"areaServed":"Worldwide","url":"%s"}'
-              ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), SITE, url)
+              '"provider":{"@id":"%s"},'
+              '"areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Israel"}],'
+              '"url":"%s","mainEntityOfPage":"%s"}'
+              ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), BUSINESS_ID, url, url)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
                  '{"@type":"ListItem","position":2,"name":"Services","item":"%s/services/"},'
                  '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
                  ) % (SITE, SITE, esc(svc["h1"]), url)
-        page = PAGE.format(
+        page = PAGE.format(graph=graph_ld(False),
             title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, site=SITE,
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_related(svc["slug"]),
@@ -3774,23 +3930,24 @@ def build():
     with open(os.path.join(SVC_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(INDEX.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
                              nav=NAV, footer=FOOTER, cards="\n".join(cards),
-                             gallery=render_gallery()))
+                             graph=graph_ld(False), gallery=render_gallery()))
 
     # Hebrew service pages
     for svc in HE_SERVICES:
         url = "%s/he/services/%s" % (SITE, svc["slug"])
         en = "%s/services/%s" % (SITE, svc["slug"])
         ld = ('{"@context":"https://schema.org","@type":"Service",'
-              '"name":"%s","description":"%s","serviceType":"%s",'
-              '"provider":{"@type":"Person","name":"טל פאפרין","url":"%s/he/"},'
-              '"areaServed":"Worldwide","url":"%s"}'
-              ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), SITE, url)
+              '"name":"%s","description":"%s","serviceType":"%s","inLanguage":"he",'
+              '"provider":{"@id":"%s"},'
+              '"areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Israel"}],'
+              '"url":"%s","mainEntityOfPage":"%s"}'
+              ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), BUSINESS_ID, url, url)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
                  '{"@type":"ListItem","position":2,"name":"שירותים","item":"%s/he/services/"},'
                  '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
                  ) % (SITE, SITE, esc(svc["h1"]), url)
-        page = HE_PAGE.format(
+        page = HE_PAGE.format(graph=graph_ld(True),
             title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, en=en, site=SITE,
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_he_related(svc["slug"]),
@@ -3812,7 +3969,7 @@ def build():
     with open(os.path.join(he_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(HE_INDEX.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
                                 nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards),
-                                gallery=render_gallery("טל פאפרין בשטח")))
+                                graph=graph_ld(True), gallery=render_gallery("טל פאפרין בשטח")))
 
     # Hebrew FAQ / challenges pillar page
     items_html = []
@@ -3833,16 +3990,16 @@ def build():
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
 
     with open(os.path.join(ROOT, "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, contactjs=CONTACT_JS_EN))
+        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False), contactjs=CONTACT_JS_EN))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, contactjs=CONTACT_JS_HE))
+        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, graph=graph_ld(True), contactjs=CONTACT_JS_HE))
 
     with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                gallery=render_gallery(), cta=CTA_BOX))
+                                graph=graph_ld(False), gallery=render_gallery(), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
+                                graph=graph_ld(True), gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
 
     with open(os.path.join(ROOT, "pricing.html"), "w", encoding="utf-8") as f:
         f.write(PRICING_TPL.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
@@ -3861,21 +4018,25 @@ def build():
 
     with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+                                  graph=graph_ld(False),
                                   cases=render_cases(CASE_STUDIES, "Result"),
                                   testimonials=render_testimonials(cs_en),
                                   gallery=render_gallery(), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+                                  graph=graph_ld(True),
                                   cases=render_cases(HE_CASES, "תוצאה"),
                                   testimonials=render_testimonials(cs_he, he=True),
                                   gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
 
     with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+                                   graph=graph_ld(False, reviews=TESTIMONIALS_EN),
                                    logos=render_logo_wall(LOGOS),
                                    quotes=render_quote_grid(TESTIMONIALS_EN), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+                                   graph=graph_ld(True, reviews=TESTIMONIALS_HE),
                                    logos=render_logo_wall(LOGOS),
                                    quotes=render_quote_grid(TESTIMONIALS_HE, he=True), cta=HE_CTA))
 
@@ -3890,18 +4051,13 @@ def build():
             hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
                         '  <link rel="alternate" hreflang="he" href="%s" />\n'
                         '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, he_url, url)
-        ld = ('{"@context":"https://schema.org","@type":"Article",'
-              '"headline":"%s","description":"%s",'
-              '"author":{"@type":"Person","name":"Tal Paperin","url":"%s/"},'
-              '"publisher":{"@type":"Organization","name":"Tal Paperin"},'
-              '"mainEntityOfPage":"%s"}'
-              ) % (esc(g["h1"]), esc(g["desc"]), SITE, url)
+        ld = guide_ld(g, url, he=False)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
                  '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
                  ) % (SITE, esc(g["h1"]), url)
         faq_html, faq_ld = render_faq(g.get("faqs"))
-        page = GUIDE_PAGE.format(
+        page = GUIDE_PAGE.format(graph=graph_ld(False),
             title=esc(g["title"]), desc=esc(g["desc"]), url=url, site=SITE,
             h1=esc(g["h1"]), eyebrow=esc(g["eyebrow"]), lead=esc(g["lead"]),
             sections=render_guide_sections(g), faq=faq_html, faqld=faq_ld,
@@ -3917,18 +4073,13 @@ def build():
         hreflang = ('  <link rel="alternate" hreflang="he" href="%s" />\n'
                     '  <link rel="alternate" hreflang="en" href="%s" />\n'
                     '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, en_url, en_url)
-        ld = ('{"@context":"https://schema.org","@type":"Article",'
-              '"headline":"%s","description":"%s","inLanguage":"he",'
-              '"author":{"@type":"Person","name":"טל פאפרין","url":"%s/he/"},'
-              '"publisher":{"@type":"Organization","name":"Tal Paperin"},'
-              '"mainEntityOfPage":"%s"}'
-              ) % (esc(g["h1"]), esc(g["desc"]), SITE, url)
+        ld = guide_ld(g, url, he=True)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
                  '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
                  ) % (SITE, esc(g["h1"]), url)
         faq_html, faq_ld = render_faq(g.get("faqs"), "שאלות נפוצות")
-        page = HE_GUIDE_PAGE.format(
+        page = HE_GUIDE_PAGE.format(graph=graph_ld(True),
             title=esc(g["title"]), desc=esc(g["desc"]), url=url, site=SITE,
             h1=esc(g["h1"]), eyebrow=esc(g["eyebrow"]), lead=esc(g["lead"]),
             sections=render_guide_sections(g), faq=faq_html, faqld=faq_ld,
