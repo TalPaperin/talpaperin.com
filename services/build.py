@@ -3506,7 +3506,7 @@ PRICING_HE = {
 def render_pricing_body(d, cal):
     book = d["book"]
     def card(t):
-        badge = ('<span class="badge">%s</span>' % esc(t["badge"])) if t.get("badge") else ""
+        badge = ('<span class="badge">%s</span>' % esc(t["badge"])) if t.get("badge") else '<span class="badge badge-empty">&nbsp;</span>'
         feat = " feat" if t.get("feat") else ""
         lis = "".join("<li>%s</li>" % esc(x) for x in t["incl"])
         return ('<div class="tier%s">%s<span class="commit">%s</span><h3>%s</h3>'
@@ -3558,11 +3558,15 @@ def render_pricing_body(d, cal):
                 data += ' data-set="mk" data-mk="%d" data-mkname="%s" data-mkout="%s"' % (o["mk"], esc(o["mkname"]), esc(o["mkout"]))
             chips += '<button type="button" class="qc-chip"%s>%s</button>' % (data, esc(o["t"]))
         qhtml += '<div class="qc-q%s"><p class="qc-q-label">%s</p><div class="qc-chips">%s</div></div>' % (cls, esc(q["q"]), chips)
+    cro_scale = '<div class="qc-scale">' + "".join('<span>%s</span>' % esc(t["name"]) for t in d["cro"]) + '</div>'
+    sdr_scale = '<div class="qc-scale"><span>0</span><span>3</span><span>6</span></div>'
+    mk_names = [d["calc_none_label"]] + [o.get("mkname", "") for o in mkq[1:]]
+    mk_scale = '<div class="qc-scale">' + "".join('<span>%s</span>' % esc(n) for n in mk_names) + '</div>'
     sliders = ('<div class="qc-sliders" hidden><p class="qc-sub-h">%s</p>'
-               '<div class="qc-slider"><label>%s: <span class="qc-cro-val"></span></label><input type="range" class="qc-cro-range" min="0" max="3" step="1" value="0" /></div>'
-               '<div class="qc-slider"><label>%s: <span class="qc-sdr-val"></span></label><input type="range" class="qc-sdr-range" min="0" max="6" step="1" value="0" /></div>'
-               '<div class="qc-slider"><label>%s: <span class="qc-mk-val"></span></label><input type="range" class="qc-mk-range" min="0" max="2" step="1" value="0" /></div></div>'
-               ) % (esc(d["calc_sliders_h"]), esc(d["calc_slider_cro"]), esc(d["calc_slider_sdr"]), esc(d["calc_slider_mk"]))
+               '<div class="qc-slider"><label>%s: <span class="qc-cro-val"></span></label><input type="range" class="qc-cro-range" min="0" max="3" step="1" value="0" />%s</div>'
+               '<div class="qc-slider"><label>%s: <span class="qc-sdr-val"></span></label><input type="range" class="qc-sdr-range" min="0" max="6" step="1" value="0" />%s</div>'
+               '<div class="qc-slider"><label>%s: <span class="qc-mk-val"></span></label><input type="range" class="qc-mk-range" min="0" max="2" step="1" value="0" />%s</div></div>'
+               ) % (esc(d["calc_sliders_h"]), esc(d["calc_slider_cro"]), cro_scale, esc(d["calc_slider_sdr"]), sdr_scale, esc(d["calc_slider_mk"]), mk_scale)
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
     out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-tiers="%s" data-labels="%s" data-marketing="%s">'
                '<p class="bestfor">%s</p>%s'
