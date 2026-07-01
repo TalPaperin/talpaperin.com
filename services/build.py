@@ -158,12 +158,10 @@ def _business_node(he=False, reviews=None, offers=None):
     if reviews:
         revs = ",".join(
             '{"@type":"Review","author":{"@type":"Person","name":"%s"},'
-            '"reviewBody":"%s","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"1"}}'
+            '"reviewBody":"%s"}'
             % (_jsonesc(t["name"]), _jsonesc(t["q"]))
             for t in reviews if t.get("name"))
-        n = sum(1 for t in reviews if t.get("name"))
-        extra += (',"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5",'
-                  '"worstRating":"1","reviewCount":"%d"},"review":[%s]') % (n, revs)
+        extra += ',"review":[%s]' % revs
     if offers:
         items = ",".join(
             '{"@type":"Offer","name":"%s","price":"%s","priceCurrency":"USD",'
