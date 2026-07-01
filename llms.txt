@@ -8,6 +8,7 @@
 - [Hebrew site](https://talpaperin.com/he/): Hebrew version of the homepage.
 - [Blog](https://talpaperin.com/blog/): field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.
 - [Case studies](https://talpaperin.com/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on four continents.
+- [Pricing](https://talpaperin.com/pricing): fractional CRO, SDR team and marketing pricing, from Advisor to full CRO ownership.
 - [Contact](https://talpaperin.com/contact): email, WhatsApp, a 15-minute booking link and a contact form.
 
 ## Services

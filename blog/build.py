@@ -107,6 +107,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/services/">Services</a>
+        <a href="/pricing">Pricing</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
         <a href="/blog/">Blog</a>
@@ -180,6 +181,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/he/">בית</a>
         <a href="/he/about">אודות</a>
         <a href="/he/services/">שירותים</a>
+        <a href="/he/pricing">תמחור</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
         <a href="/he/blog/">בלוג</a>
@@ -470,6 +472,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/guides' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
+        ('%s/pricing' % SITE, '0.8', today),
         ('%s/recommendations' % SITE, '0.7', today),
         ('%s/contact' % SITE, '0.7', today),
         ('%s/sales-doctor' % SITE, '0.7', today),
@@ -487,6 +490,7 @@ def render_sitemap(posts, he_posts=None):
     urls.append(('%s/he/about' % SITE, '0.6', today))
     urls.append(('%s/he/guides' % SITE, '0.6', today))
     urls.append(('%s/he/case-studies' % SITE, '0.7', today))
+    urls.append(('%s/he/pricing' % SITE, '0.6', today))
     urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))
     urls.append(('%s/he/sales-doctor' % SITE, '0.6', today))
@@ -520,6 +524,7 @@ def render_llms(posts):
         "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
         "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on four continents." % SITE,
+        "- [Pricing](%s/pricing): fractional CRO, SDR team and marketing pricing, from Advisor to full CRO ownership." % SITE,
         "- [Contact](%s/contact): email, WhatsApp, a 15-minute booking link and a contact form." % SITE,
         "",
         "## Services",

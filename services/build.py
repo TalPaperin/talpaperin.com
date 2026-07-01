@@ -70,6 +70,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/services/">Services</a>
+        <a href="/pricing">Pricing</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
         <a href="/blog/">Blog</a>
@@ -547,6 +548,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/he/">בית</a>
         <a href="/he/about">אודות</a>
         <a href="/he/services/">שירותים</a>
+        <a href="/he/pricing">תמחור</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
         <a href="/he/blog/">בלוג</a>
@@ -3326,6 +3328,240 @@ HUB_PAGE_HE = '''<!doctype html>
 '''
 
 
+PRICING_EN = {
+ "cro_h":"Fractional CRO and business consulting",
+ "cro":[
+  {"commit":"~3 hours a week","name":"Advisor","price":"$2,000","per":"/mo",
+   "bestfor":"Founders who want senior direction and a sounding board while they run the day to day themselves.",
+   "incl":["A standing weekly strategy call","Async access between calls for the real decisions","I set the direction and the priorities, you execute"]},
+  {"commit":"Early-stage","name":"Starter","price":"$6,000","per":"/mo",
+   "bestfor":"Early-stage companies or small businesses needing foundational sales improvements.",
+   "incl":["Revenue and sales motion review: where deals stall, leak or fail to convert","Sales plan and playbook: ICP, priority channels, talk tracks, decision criteria","Sales process enablement for SDRs and AEs","Pipeline structure: CRM stages and definitions"]},
+  {"commit":"Scaling","name":"Growth","price":"$12,000","per":"/mo","feat":True,"badge":"Most common",
+   "bestfor":"Scaling companies that need hands-on management and strategic sales guidance.",
+   "incl":["Revenue and sales performance oversight","Direct sales team management, SDRs and AEs","CRM and KPI ownership for forecasting and accountability","A living execution framework with goals, timelines and ownership"]},
+  {"commit":"Full ownership","name":"CRO Ownership","price":"$22,000","per":"/mo",
+   "bestfor":"End-to-end CRO-level revenue ownership across sales, marketing and GTM, with one accountable leader.",
+   "incl":["Full CRO-level ownership of revenue strategy and execution","Authority over sales, marketing and GTM decisions","Leadership of revenue teams and cross-functional alignment","Hiring, onboarding and performance management for revenue roles","Ongoing intervention to course-correct execution and results"]},
+ ],
+ "sdr_h":"Add a sales team (SDRs)","add_label":"Add to any package","sdr_name":"Dedicated SDRs",
+ "sdr_desc":"Need reps but don't want to hire in-house? I source, train and manage them, fully integrated with the leadership you are already paying for.",
+ "sdr_incl":["Sourcing, hiring and onboarding of SDR talent","Training on your process, messaging and objection handling","Ongoing performance management and coaching","Full integration with your KSW leadership and reporting"],
+ "sdr_price_label":"SDR pricing","sdr_amount":"$6,000","sdr_amount_per":"/ 1 rep / mo",
+ "sdr_tiers":["1 rep, $6,000/mo","2 reps, $11,000/mo","3+ reps, $5,000 each/mo"],
+ "mk_h":"Marketing leadership (via KSW)",
+ "marketing":[
+  {"commit":"Senior oversight","name":"Marketing Oversight","price":"$4,000","per":"/mo",
+   "bestfor":"Teams that already have someone running marketing but need senior oversight to improve focus, prioritization and decisions.",
+   "incl":["Ongoing senior review of plans, priorities and spend","Clear guidance on what to pursue, pause or stop","Leadership-level input to keep marketing aligned with the business"]},
+  {"commit":"Full ownership","name":"Fractional CMO","price":"$8,000","per":"/mo",
+   "bestfor":"Teams with a marketing function in place that need clear leadership, ownership and accountability.",
+   "incl":["Leadership of the marketing function and its priorities","Alignment between marketing, sales and executive leadership","Ongoing intervention when execution or results fall short"]},
+ ],
+ "faq_h":"Common questions",
+ "faq":[
+  ("How does pricing work?","Flat monthly retainers. No long contracts and no exit fines. You can move up or down a tier as the business changes."),
+  ("What is the difference between the tiers?","Advisor is senior direction on call. Starter builds the foundations. Growth adds hands-on management of the motion and the team. CRO Ownership is full end-to-end ownership of revenue across sales, marketing and GTM."),
+  ("Can I add a sales team?","Yes. SDRs can be added to any package. I source, train and manage them, integrated with the leadership you already have."),
+  ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
+ ],
+ "book":"Book a call",
+}
+
+PRICING_HE = {
+ "cro_h":"סמנכ״ל מכירות במיקור חוץ וייעוץ עסקי",
+ "cro":[
+  {"commit":"כ-3 שעות בשבוע","name":"Advisor","price":"$2,000","per":"לחודש",
+   "bestfor":"מייסדים שרוצים כיוון בכיר ואוזן קשבת בזמן שהם מנהלים את היומיום בעצמם.",
+   "incl":["שיחת אסטרטגיה שבועית קבועה","זמינות אסינכרונית ביני לבין השיחות להחלטות האמיתיות","אני קובע את הכיוון והעדיפויות, אתם מבצעים"]},
+  {"commit":"שלב מוקדם","name":"Starter","price":"$6,000","per":"לחודש",
+   "bestfor":"חברות בשלב מוקדם או עסקים קטנים שצריכים שיפור מכירות בסיסי.",
+   "incl":["סקירת הכנסות ותנועת מכירות: איפה עסקאות נתקעות, דולפות או לא נסגרות","תוכנית מכירות ו-Playbook: ICP, ערוצים, תסריטים וקריטריוני החלטה","הטמעת תהליך מכירה ל-SDRs ו-AEs","מבנה פייפליין: שלבי CRM והגדרות"]},
+  {"commit":"בצמיחה","name":"Growth","price":"$12,000","per":"לחודש","feat":True,"badge":"הנפוץ ביותר",
+   "bestfor":"חברות בצמיחה שצריכות ניהול מעשי והכוונת מכירות אסטרטגית.",
+   "incl":["פיקוח על ביצועי הכנסות ומכירות","ניהול ישיר של צוות המכירות, SDRs ו-AEs","בעלות על ה-CRM וה-KPIs לתחזית ואחריותיות","תוכנית ביצוע חיה עם יעדים, לוחות זמנים ובעלות"]},
+  {"commit":"בעלות מלאה","name":"CRO Ownership","price":"$22,000","per":"לחודש",
+   "bestfor":"בעלות מלאה ברמת CRO על ההכנסות, לרוחב מכירות, שיווק ו-GTM, עם מוביל אחד אחראי.",
+   "incl":["בעלות מלאה ברמת CRO על אסטרטגיית ההכנסות והביצוע","סמכות על החלטות מכירות, שיווק ו-GTM","הובלת צוותי הכנסות ותיאום בין-מחלקתי","גיוס, קליטה וניהול ביצועים לתפקידי הכנסות","התערבות שוטפת לתיקון מסלול ותוצאות"]},
+ ],
+ "sdr_h":"הוספת צוות מכירות (SDRs)","add_label":"הוספה לכל חבילה","sdr_name":"SDRs ייעודיים",
+ "sdr_desc":"צריכים נציגים אבל לא רוצים לגייס פנימית? אני מאתר, מכשיר ומנהל אותם, משולבים במלואם בהנהגה שאתם כבר משלמים עליה.",
+ "sdr_incl":["איתור, גיוס וקליטה של אנשי SDR","הכשרה על התהליך, המסרים והתמודדות עם התנגדויות שלכם","ניהול ביצועים ואימון שוטפים","שילוב מלא עם ההנהגה והדיווח של KSW"],
+ "sdr_price_label":"תמחור SDR","sdr_amount":"$6,000","sdr_amount_per":"/ נציג אחד / לחודש",
+ "sdr_tiers":["נציג אחד, $6,000 לחודש","שני נציגים, $11,000 לחודש","3+ נציגים, $5,000 כל אחד/לחודש"],
+ "mk_h":"הובלת שיווק (דרך KSW)",
+ "marketing":[
+  {"commit":"פיקוח בכיר","name":"Marketing Oversight","price":"$4,000","per":"לחודש",
+   "bestfor":"צוותים שכבר יש להם מישהו שמריץ שיווק, אבל צריכים פיקוח בכיר לשיפור מיקוד, תעדוף והחלטות.",
+   "incl":["סקירה בכירה שוטפת של תוכניות, עדיפויות ותקציב","הכוונה ברורה על מה לרדוף, להשהות או לעצור","קלט ברמת הנהגה שמיישר את השיווק עם העסק"]},
+  {"commit":"בעלות מלאה","name":"Fractional CMO","price":"$8,000","per":"לחודש",
+   "bestfor":"צוותים עם פונקציית שיווק קיימת שצריכים הובלה, בעלות ואחריותיות ברורות.",
+   "incl":["הובלת פונקציית השיווק והעדיפויות שלה","תיאום בין שיווק, מכירות והנהלה בכירה","התערבות שוטפת כשהביצוע או התוצאות לא עומדים ביעד"]},
+ ],
+ "faq_h":"שאלות נפוצות",
+ "faq":[
+  ("איך התמחור עובד?","ריטיינרים חודשיים קבועים. בלי חוזים ארוכים ובלי קנסות יציאה. אפשר לעלות או לרדת דרגה ככל שהעסק משתנה."),
+  ("מה ההבדל בין החבילות?","Advisor הוא כיוון בכיר בטלפון. Starter בונה את היסודות. Growth מוסיף ניהול מעשי של התנועה והצוות. CRO Ownership היא בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-GTM."),
+  ("אפשר להוסיף צוות מכירות?","כן. אפשר להוסיף SDRs לכל חבילה. אני מאתר, מכשיר ומנהל אותם, משולבים בהנהגה שכבר יש לכם."),
+  ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
+ ],
+ "book":"לתיאום שיחה",
+}
+
+def render_pricing_body(d, cal):
+    book = d["book"]
+    def card(t):
+        badge = ('<span class="badge">%s</span>' % esc(t["badge"])) if t.get("badge") else ""
+        feat = " feat" if t.get("feat") else ""
+        lis = "".join("<li>%s</li>" % esc(x) for x in t["incl"])
+        return ('<div class="tier%s">%s<span class="commit">%s</span><h3>%s</h3>'
+                '<div class="amount">%s<span> %s</span></div><p class="bestfor">%s</p>'
+                '<ul class="incl">%s</ul>'
+                '<a class="btn btn-primary" href="%s" target="_blank" rel="noopener">%s</a></div>'
+                ) % (feat, badge, esc(t["commit"]), esc(t["name"]), esc(t["price"]), esc(t["per"]),
+                     esc(t["bestfor"]), lis, cal, esc(book))
+    out = []
+    out.append('      <h2>%s</h2>' % esc(d["cro_h"]))
+    out.append('      <div class="price-grid cols4">%s</div>' % "".join(card(t) for t in d["cro"]))
+    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["sdr_h"]))
+    left = ('<div class="tier"><span class="commit">%s</span><h3>%s</h3><p class="bestfor">%s</p><ul class="incl">%s</ul></div>'
+            ) % (esc(d["add_label"]), esc(d["sdr_name"]), esc(d["sdr_desc"]),
+                 "".join("<li>%s</li>" % esc(x) for x in d["sdr_incl"]))
+    right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span></div>'
+             '<ul class="incl">%s</ul>'
+             '<a class="btn btn-primary" href="%s" target="_blank" rel="noopener">%s</a></div>'
+             ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]),
+                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), cal, esc(book))
+    out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
+    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
+    out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
+    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["faq_h"]))
+    faq = "".join('<h3>%s</h3><p>%s</p>' % (esc(q), esc(a)) for q, a in d["faq"])
+    out.append('      <div class="price-faq">%s</div>' % faq)
+    return out
+
+
+def pricing_ldblock(url, he):
+    d = PRICING_HE if he else PRICING_EN
+    ents = ",".join('{"@type":"Question","name":"%s","acceptedAnswer":{"@type":"Answer","text":"%s"}}'
+                    % (_jsonesc(q), _jsonesc(a)) for q, a in d["faq"])
+    who = "טל פאפרין" if he else "Tal Paperin"
+    page = ('{"@context":"https://schema.org","@type":"WebPage","name":"Pricing","url":"%s",'
+            '"about":{"@type":"Service","serviceType":"Fractional CRO","provider":'
+            '{"@type":"Person","name":"%s","url":"%s/"}}}') % (url, who, SITE)
+    return ('<script type="application/ld+json">%s</script>\n'
+            '  <script type="application/ld+json">{"@context":"https://schema.org",'
+            '"@type":"FAQPage","mainEntity":[%s]}</script>') % (page, ents)
+
+
+PRICING_TPL = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pricing: Fractional CRO, SDR Teams and Marketing | Tal Paperin</title>
+  <meta name="description" content="Straight monthly pricing for fractional CRO leadership, dedicated SDR teams and marketing leadership. Advisor to full CRO ownership. No long contracts, no exit fines." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/pricing" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/pricing" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/pricing" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/pricing" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/pricing" />
+  <meta property="og:title" content="Pricing: Fractional CRO, SDR Teams and Marketing | Tal Paperin" />
+  <meta property="og:description" content="Straight monthly pricing for fractional CRO leadership, SDR teams and marketing leadership. No long contracts." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pricing | Tal Paperin" />
+  <meta name="twitter:description" content="Straight monthly pricing for fractional CRO, SDR teams and marketing leadership." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  {analytics}
+
+  {ldblock}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="blog-head">
+        <div class="glowline"></div>
+        <p class="eyebrow">Pricing</p>
+        <h1>Straight pricing. No proposals, no games.</h1>
+        <p>Fractional CRO leadership, a sales team when you need it, and marketing leadership. Pick the level of ownership you need. Monthly, no long contracts, no exit fines.</p>
+      </div>
+{body}
+{cta}
+      <div class="svc-related">See <a href="/services/">what each engagement includes</a>, the <a href="/fractional-cro-cost">cost breakdown</a>, or <a href="/case-studies">the results</a>.</div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+"""
+
+PRICING_TPL_HE = """<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>תמחור: סמנכ״ל מכירות, צוותי SDR ושיווק | טל פאפרין</title>
+  <meta name="description" content="תמחור חודשי ברור להנהגת מכירות במיקור חוץ, צוותי SDR ייעודיים והובלת שיווק. מ-Advisor ועד בעלות CRO מלאה. בלי חוזים ארוכים, בלי קנסות יציאה." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/he/pricing" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/pricing" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/pricing" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/pricing" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/he/pricing" />
+  <meta property="og:title" content="תמחור: סמנכ״ל מכירות, צוותי SDR ושיווק | טל פאפרין" />
+  <meta property="og:description" content="תמחור חודשי ברור להנהגת מכירות, צוותי SDR והובלת שיווק. בלי חוזים ארוכים." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta property="og:locale" content="he_IL" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="תמחור | טל פאפרין" />
+  <meta name="twitter:description" content="תמחור חודשי ברור להנהגת מכירות, צוותי SDR והובלת שיווק." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="/he/he-pages.css" />
+
+  {analytics}
+
+  {ldblock}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="blog-head">
+        <div class="glowline"></div>
+        <p class="eyebrow">תמחור</p>
+        <h1>תמחור ישר. בלי הצעות מחיר, בלי משחקים.</h1>
+        <p>הנהגת מכירות במיקור חוץ, צוות מכירות כשצריך, והובלת שיווק. בוחרים את רמת הבעלות שאתם צריכים. חודשי, בלי חוזים ארוכים, בלי קנסות יציאה.</p>
+      </div>
+{body}
+{cta}
+      <div class="svc-related">ראו <a href="/he/services/">מה כל שירות כולל</a>, את <a href="/he/case-studies">התוצאות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+"""
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -3439,6 +3675,15 @@ def build():
     with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
                                 gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
+
+    with open(os.path.join(ROOT, "pricing.html"), "w", encoding="utf-8") as f:
+        f.write(PRICING_TPL.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+                cta=CTA_BOX, ldblock=pricing_ldblock(SITE + "/pricing", False),
+                body="\n".join(render_pricing_body(PRICING_EN, "https://calendly.com/ksw/15min"))))
+    with open(os.path.join(ROOT, "he", "pricing.html"), "w", encoding="utf-8") as f:
+        f.write(PRICING_TPL_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+                cta=HE_CTA, ldblock=pricing_ldblock(SITE + "/he/pricing", True),
+                body="\n".join(render_pricing_body(PRICING_HE, "https://calendly.com/ksw/15min"))))
 
     # The case-studies marquee is a teaser: drop the longest outlier quotes so the
     # strip stays a sensible height. The full set lives on the recommendations page.
