@@ -3392,6 +3392,12 @@ PRICING_EN = {
   ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
  ],
  "book":"Book a call",
+ "calc_h":"Build your quote","calc_intro":"Pick what you need and see the monthly total instantly. Download it, or send it straight to me.",
+ "calc_cro_label":"Fractional CRO","calc_none":"None","calc_sdr_label":"SDRs (number of reps)","calc_mk_label":"Marketing",
+ "calc_total":"Estimated monthly total","calc_name":"Your name","calc_email":"Your email","calc_company":"Company",
+ "calc_download":"Download quote","calc_email_btn":"Email this to Tal",
+ "calc_note":"Estimate only, monthly, no long contracts, no exit fines. Final scope is confirmed on a call.",
+ "calc_subject":"Quote request from talpaperin.com",
 }
 
 PRICING_HE = {
@@ -3432,6 +3438,12 @@ PRICING_HE = {
   ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
  ],
  "book":"לתיאום שיחה",
+ "calc_h":"בנו הצעת מחיר","calc_intro":"בחרו מה שאתם צריכים וראו את הסכום החודשי מיד. הורידו אותו, או שלחו אותו ישר אליי.",
+ "calc_cro_label":"סמנכ״ל מכירות במיקור חוץ","calc_none":"ללא","calc_sdr_label":"SDRs (מספר נציגים)","calc_mk_label":"שיווק",
+ "calc_total":"אומדן סכום חודשי","calc_name":"השם שלכם","calc_email":"האימייל שלכם","calc_company":"חברה",
+ "calc_download":"הורדת הצעת מחיר","calc_email_btn":"שליחת ההצעה לטל",
+ "calc_note":"אומדן בלבד, חודשי, בלי חוזים ארוכים, בלי קנסות יציאה. ההיקף הסופי מאושר בשיחה.",
+ "calc_subject":"בקשת הצעת מחיר מ-talpaperin.com",
 }
 
 def render_pricing_body(d, cal):
@@ -3459,9 +3471,33 @@ def render_pricing_body(d, cal):
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
+    # quote calculator
+    def _num(p):
+        return p.replace("$", "").replace(",", "")
+    cro_opts = '<option value="0">%s</option>' % esc(d["calc_none"])
+    for t in d["cro"]:
+        cro_opts += '<option value="%s">%s, %s</option>' % (_num(t["price"]), esc(t["name"]), esc(t["price"]))
+    mk_opts = '<option value="0">%s</option>' % esc(d["calc_none"])
+    for t in d["marketing"]:
+        mk_opts += '<option value="%s">%s, %s</option>' % (_num(t["price"]), esc(t["name"]), esc(t["price"]))
+    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
+    out.append('      <div class="quote-calc" data-subject="%s"><p class="bestfor">%s</p>'
+               '<div class="qc-row"><label>%s</label><select class="qc-cro">%s</select></div>'
+               '<div class="qc-row"><label>%s</label><input type="number" class="qc-sdr" min="0" max="20" step="1" value="0" data-r1="6000" data-r2="11000" data-r3="5000" /></div>'
+               '<div class="qc-row"><label>%s</label><select class="qc-mk">%s</select></div>'
+               '<div class="qc-total"><span>%s</span><strong class="qc-amount">$0<span>/mo</span></strong></div>'
+               '<div class="qc-fields"><input class="qc-name" placeholder="%s" autocomplete="name" /><input class="qc-email" type="email" placeholder="%s" autocomplete="email" /><input class="qc-company" placeholder="%s" autocomplete="organization" /></div>'
+               '<div class="qc-actions"><button type="button" class="btn btn-secondary qc-download">%s</button>'
+               '<a class="btn btn-primary qc-email-btn" href="mailto:tal@ksw.solutions">%s</a></div>'
+               '<p class="price-note">%s</p></div>'
+               % (esc(d["calc_subject"]), esc(d["calc_intro"]), esc(d["calc_cro_label"]), cro_opts,
+                  esc(d["calc_sdr_label"]), esc(d["calc_mk_label"]), mk_opts, esc(d["calc_total"]),
+                  esc(d["calc_name"]), esc(d["calc_email"]), esc(d["calc_company"]),
+                  esc(d["calc_download"]), esc(d["calc_email_btn"]), esc(d["calc_note"])))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["faq_h"]))
     faq = "".join('<h3>%s</h3><p>%s</p>' % (esc(q), esc(a)) for q, a in d["faq"])
     out.append('      <div class="price-faq">%s</div>' % faq)
+    out.append('      <script src="/quote.js" defer></script>')
     return out
 
 
