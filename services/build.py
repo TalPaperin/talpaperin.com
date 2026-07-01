@@ -19,6 +19,7 @@ templates). Edit the templates here, not the generated HTML, then re-run.
 import os
 import re
 import html
+import json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SVC_DIR = os.path.join(ROOT, "services")
@@ -3392,12 +3393,38 @@ PRICING_EN = {
   ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
  ],
  "book":"Book a call",
- "calc_h":"Build your quote","calc_intro":"Pick what you need and see the monthly total instantly. Download it, or send it straight to me.",
- "calc_cro_label":"Fractional CRO","calc_none":"None","calc_sdr_label":"SDRs (number of reps)","calc_mk_label":"Marketing",
- "calc_total":"Estimated monthly total","calc_name":"Your name","calc_email":"Your email","calc_company":"Company",
- "calc_download":"Download quote","calc_email_btn":"Email this to Tal",
+ "calc_h":"Not sure which package? Build your quote.",
+ "calc_intro":"Answer three quick questions. I'll recommend the package, tell you what you get each month and what it costs, then you can download it or send it to me.",
+ "calc_prompt":"Answer the questions above and your recommended package appears here.",
+ "calc_recommended":"Recommended for you","calc_outcome_h":"Your estimated monthly outcome","calc_cost_h":"Estimated monthly cost",
+ "calc_name":"Your name","calc_email":"Your email","calc_company":"Company",
+ "calc_download":"Download / print quote","calc_email_btn":"Email this to Tal","calc_book":"Book a call",
  "calc_note":"Estimate only, monthly, no long contracts, no exit fines. Final scope is confirmed on a call.",
- "calc_subject":"Quote request from talpaperin.com",
+ "calc_subject":"Quote request from talpaperin.com","calc_mo":"/mo",
+ "calc_quote_title":"Your Quote","calc_print":"Print / Save as PDF","calc_lang":"en","calc_dir":"ltr",
+ "calc_tagline":"Fractional CRO & Business Consulting",
+ "calc_tier_outcomes":[
+   "A senior revenue advisor on call, about 3 hours a week",
+   "A fractional CRO in the seat about 2 hours a day, owning strategy, process and standards",
+   "A fractional CRO 4 to 5 hours a day, running the motion and managing the team hands-on",
+   "A full-time, exclusive CRO owning revenue end to end across sales, marketing and GTM"],
+ "calc_sdr_outcome":"{n} SDR{s}, full-time, dialing and booking meetings on your behalf",
+ "calc_q":[
+   {"q":"What do you need me to own?","opts":[
+     {"t":"Senior direction and a sounding board","tier":0},
+     {"t":"Building the sales foundations from scratch","tier":1},
+     {"t":"Running the motion and the team, day to day","tier":2},
+     {"t":"Owning revenue end to end: sales, marketing and GTM","tier":3}]},
+   {"q":"Do you have a sales team?","opts":[
+     {"t":"No team. I need reps hired, trained and run","sdr":1},
+     {"t":"I have a team that needs leadership","sdr":0},
+     {"t":"Not sure yet","sdr":0}]},
+   {"q":"How many SDRs to start?","reps":True,"opts":[
+     {"t":"1 rep","reps":1},{"t":"2 reps","reps":2},{"t":"3+ reps","reps":3}]},
+   {"q":"What about marketing?","opts":[
+     {"t":"Marketing is handled","mk":0,"mkname":"","mkout":""},
+     {"t":"Someone runs it but needs oversight","mk":4000,"mkname":"Marketing Oversight","mkout":"senior marketing oversight, keeping spend and priorities aligned to sales"},
+     {"t":"I need someone to own marketing","mk":8000,"mkname":"Fractional CMO","mkout":"a full marketing function and funnel, owned end to end"}]}],
 }
 
 PRICING_HE = {
@@ -3438,12 +3465,38 @@ PRICING_HE = {
   ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
  ],
  "book":"לתיאום שיחה",
- "calc_h":"בנו הצעת מחיר","calc_intro":"בחרו מה שאתם צריכים וראו את הסכום החודשי מיד. הורידו אותו, או שלחו אותו ישר אליי.",
- "calc_cro_label":"סמנכ״ל מכירות במיקור חוץ","calc_none":"ללא","calc_sdr_label":"SDRs (מספר נציגים)","calc_mk_label":"שיווק",
- "calc_total":"אומדן סכום חודשי","calc_name":"השם שלכם","calc_email":"האימייל שלכם","calc_company":"חברה",
- "calc_download":"הורדת הצעת מחיר","calc_email_btn":"שליחת ההצעה לטל",
+ "calc_h":"לא בטוחים איזו חבילה? בנו הצעת מחיר.",
+ "calc_intro":"ענו על שלוש שאלות קצרות. אמליץ על החבילה, אגיד לכם מה מקבלים כל חודש וכמה זה עולה, ואז אפשר להוריד או לשלוח אליי.",
+ "calc_prompt":"ענו על השאלות למעלה והחבילה המומלצת תופיע כאן.",
+ "calc_recommended":"מומלץ עבורכם","calc_outcome_h":"התוצאה החודשית המשוערת שלכם","calc_cost_h":"עלות חודשית משוערת",
+ "calc_name":"השם שלכם","calc_email":"האימייל שלכם","calc_company":"חברה",
+ "calc_download":"הורדה / הדפסה","calc_email_btn":"שליחת ההצעה לטל","calc_book":"לתיאום שיחה",
  "calc_note":"אומדן בלבד, חודשי, בלי חוזים ארוכים, בלי קנסות יציאה. ההיקף הסופי מאושר בשיחה.",
- "calc_subject":"בקשת הצעת מחיר מ-talpaperin.com",
+ "calc_subject":"בקשת הצעת מחיר מ-talpaperin.com","calc_mo":"לחודש",
+ "calc_quote_title":"הצעת המחיר שלכם","calc_print":"הדפסה / שמירה כ-PDF","calc_lang":"he","calc_dir":"rtl",
+ "calc_tagline":"סמנכ״ל מכירות במיקור חוץ וייעוץ עסקי",
+ "calc_tier_outcomes":[
+   "יועץ הכנסות בכיר בטלפון, כ-3 שעות בשבוע",
+   "סמנכ״ל מכירות במיקור חוץ בכיסא כשעתיים ביום, אחראי על אסטרטגיה, תהליך וסטנדרטים",
+   "סמנכ״ל מכירות 4 עד 5 שעות ביום, מריץ את התנועה ומנהל את הצוות בידיים",
+   "סמנכ״ל מכירות במשרה מלאה ובלעדיות, אחראי על ההכנסות מקצה לקצה: מכירות, שיווק ו-GTM"],
+ "calc_sdr_outcome":"{n} SDRs, במשרה מלאה, מחייגים וקובעים פגישות עבורכם",
+ "calc_q":[
+   {"q":"על מה אתם צריכים שאהיה אחראי?","opts":[
+     {"t":"כיוון בכיר ואוזן קשבת","tier":0},
+     {"t":"לבנות את יסודות המכירה מאפס","tier":1},
+     {"t":"להריץ את התנועה ואת הצוות, יום-יום","tier":2},
+     {"t":"בעלות מלאה על ההכנסות: מכירות, שיווק ו-GTM","tier":3}]},
+   {"q":"יש לכם צוות מכירות?","opts":[
+     {"t":"אין צוות. צריך לגייס, להכשיר ולנהל נציגים","sdr":1},
+     {"t":"יש צוות שצריך הנהגה","sdr":0},
+     {"t":"עדיין לא בטוח","sdr":0}]},
+   {"q":"כמה SDRs להתחלה?","reps":True,"opts":[
+     {"t":"נציג אחד","reps":1},{"t":"שני נציגים","reps":2},{"t":"3+ נציגים","reps":3}]},
+   {"q":"ומה עם שיווק?","opts":[
+     {"t":"השיווק מטופל","mk":0,"mkname":"","mkout":""},
+     {"t":"מישהו מריץ אבל צריך פיקוח","mk":4000,"mkname":"פיקוח שיווק","mkout":"פיקוח שיווקי בכיר, ששומר על התקציב והעדיפויות מיושרים למכירות"},
+     {"t":"צריך מישהו שיהיה אחראי על השיווק","mk":8000,"mkname":"סמנכ״ל שיווק","mkout":"פונקציית שיווק ומשפך מלאים, בניהול מקצה לקצה"}]}],
 }
 
 def render_pricing_body(d, cal):
@@ -3471,29 +3524,47 @@ def render_pricing_body(d, cal):
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
-    # quote calculator
+    # quote calculator (outcomes-based questionnaire)
     def _num(p):
-        return p.replace("$", "").replace(",", "")
-    cro_opts = '<option value="0">%s</option>' % esc(d["calc_none"])
-    for t in d["cro"]:
-        cro_opts += '<option value="%s">%s, %s</option>' % (_num(t["price"]), esc(t["name"]), esc(t["price"]))
-    mk_opts = '<option value="0">%s</option>' % esc(d["calc_none"])
-    for t in d["marketing"]:
-        mk_opts += '<option value="%s">%s, %s</option>' % (_num(t["price"]), esc(t["name"]), esc(t["price"]))
+        return int(p.replace("$", "").replace(",", ""))
+    tiers = [{"name": t["name"], "price": _num(t["price"]), "commit": t["commit"],
+              "outcome": d["calc_tier_outcomes"][i]} for i, t in enumerate(d["cro"])]
+    labels = {"recommended": d["calc_recommended"], "outcome_h": d["calc_outcome_h"],
+              "cost_h": d["calc_cost_h"], "prompt": d["calc_prompt"], "mo": d["calc_mo"],
+              "sdr_outcome": d["calc_sdr_outcome"], "book_url": "https://calendly.com/ksw/15min",
+              "book": d["calc_book"], "quote_title": d["calc_quote_title"], "terms": d["calc_note"],
+              "print": d["calc_print"], "lang": d["calc_lang"], "dir": d["calc_dir"],
+              "brand": "TAL PAPERIN", "tagline": d["calc_tagline"], "site": "talpaperin.com"}
+    qhtml = ""
+    for q in d["calc_q"]:
+        cls = " qc-q-reps" if q.get("reps") else ""
+        chips = ""
+        for o in q["opts"]:
+            data = ""
+            if "tier" in o:
+                data += ' data-set="tier" data-tier="%d"' % o["tier"]
+            if "sdr" in o:
+                data += ' data-set="team" data-sdr="%d"' % o["sdr"]
+            if "reps" in o:
+                data += ' data-set="reps" data-reps="%d"' % o["reps"]
+            if "mk" in o:
+                data += ' data-set="mk" data-mk="%d" data-mkname="%s" data-mkout="%s"' % (o["mk"], esc(o["mkname"]), esc(o["mkout"]))
+            chips += '<button type="button" class="qc-chip"%s>%s</button>' % (data, esc(o["t"]))
+        qhtml += '<div class="qc-q%s"><p class="qc-q-label">%s</p><div class="qc-chips">%s</div></div>' % (cls, esc(q["q"]), chips)
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
-    out.append('      <div class="quote-calc" data-subject="%s"><p class="bestfor">%s</p>'
-               '<div class="qc-row"><label>%s</label><select class="qc-cro">%s</select></div>'
-               '<div class="qc-row"><label>%s</label><input type="number" class="qc-sdr" min="0" max="20" step="1" value="0" data-r1="6000" data-r2="11000" data-r3="5000" /></div>'
-               '<div class="qc-row"><label>%s</label><select class="qc-mk">%s</select></div>'
-               '<div class="qc-total"><span>%s</span><strong class="qc-amount">$0<span>/mo</span></strong></div>'
+    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-tiers="%s" data-labels="%s">'
+               '<p class="bestfor">%s</p>%s'
+               '<div class="qc-result" aria-live="polite"><p class="qc-prompt">%s</p></div>'
                '<div class="qc-fields"><input class="qc-name" placeholder="%s" autocomplete="name" /><input class="qc-email" type="email" placeholder="%s" autocomplete="email" /><input class="qc-company" placeholder="%s" autocomplete="organization" /></div>'
                '<div class="qc-actions"><button type="button" class="btn btn-secondary qc-download">%s</button>'
-               '<a class="btn btn-primary qc-email-btn" href="mailto:tal@ksw.solutions">%s</a></div>'
+               '<a class="btn btn-primary qc-email-btn" href="mailto:tal@ksw.solutions">%s</a>'
+               '<a class="btn btn-secondary qc-book" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">%s</a></div>'
                '<p class="price-note">%s</p></div>'
-               % (esc(d["calc_subject"]), esc(d["calc_intro"]), esc(d["calc_cro_label"]), cro_opts,
-                  esc(d["calc_sdr_label"]), esc(d["calc_mk_label"]), mk_opts, esc(d["calc_total"]),
+               % (esc(d["calc_subject"]), esc(json.dumps(tiers, ensure_ascii=False)), esc(json.dumps(labels, ensure_ascii=False)),
+                  esc(d["calc_intro"]), qhtml, esc(d["calc_prompt"]),
                   esc(d["calc_name"]), esc(d["calc_email"]), esc(d["calc_company"]),
-                  esc(d["calc_download"]), esc(d["calc_email_btn"]), esc(d["calc_note"])))
+                  esc(d["calc_download"]), esc(d["calc_email_btn"]), esc(d["calc_book"]),
+                  esc(d["calc_note"])))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["faq_h"]))
     faq = "".join('<h3>%s</h3><p>%s</p>' % (esc(q), esc(a)) for q, a in d["faq"])
     out.append('      <div class="price-faq">%s</div>' % faq)

@@ -319,3 +319,23 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .qc-fields{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
 .qc-actions{display:flex;flex-wrap:wrap;gap:12px}
 @media(max-width:640px){.qc-fields{grid-template-columns:1fr}}
+
+/* quote calculator: questionnaire chips + result */
+.qc-q{margin-bottom:20px}
+.qc-q-label{font-weight:700;color:#fff;margin-bottom:10px;font-size:1.02rem}
+.qc-chips{display:flex;flex-wrap:wrap;gap:10px}
+.qc-chip{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:#cdd6e0;font-size:.95rem;cursor:pointer;text-align:left;transition:border-color .2s,background .2s,transform .15s;font-family:inherit}
+.qc-chip:hover{border-color:rgba(90,176,255,.5);transform:translateY(-1px)}
+.qc-chip.sel{border-color:var(--blue);background:rgba(90,176,255,.14);color:#fff}
+.qc-q-reps{display:none}
+.qc-q-reps.show{display:block}
+.qc-result{margin:22px 0;padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--bg2)}
+.qc-prompt{color:var(--soft);margin:0}
+.qc-rec-label{color:var(--blue);font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+.qc-rec-name{font-size:1.6rem;font-weight:800;color:#fff;margin:6px 0 2px}
+.qc-sub-h{color:var(--soft);font-weight:700;font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;margin:18px 0 8px}
+.qc-out{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.qc-out li{position:relative;padding-left:22px;color:#dfe7ee;line-height:1.5}
+.qc-out li::before{content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;background:var(--blue);border-radius:50%}
+.qc-cost{font-size:2.1rem;font-weight:800;color:#fff;margin-top:2px}
+.qc-cost span{font-size:1rem;color:var(--soft);font-weight:600;margin-left:3px}
