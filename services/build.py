@@ -3653,6 +3653,7 @@ PRICING_TPL = """<!doctype html>
           <li>Revenue that compounds month over month, and a number someone finally owns</li>
         </ul>
         <p>Pick the level of ownership you need below. Monthly, no long contracts, no exit fines.</p>
+        <p style="margin-top:22px"><a class="btn btn-secondary" href="/services/">See all services &rarr;</a></p>
       </div>
 {body}
 {cta}
@@ -3715,6 +3716,7 @@ PRICING_TPL_HE = """<!doctype html>
           <li>הכנסה שגדלה מחודש לחודש, ומספר שמישהו סוף סוף אחראי עליו</li>
         </ul>
         <p>בחרו למטה את רמת הבעלות שאתם צריכים. חודשי, בלי חוזים ארוכים, בלי קנסות יציאה.</p>
+        <p style="margin-top:22px"><a class="btn btn-secondary" href="/he/services/">לכל השירותים &larr;</a></p>
       </div>
 {body}
 {cta}
