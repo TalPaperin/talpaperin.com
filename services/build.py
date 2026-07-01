@@ -3371,11 +3371,11 @@ PRICING_EN = {
    "bestfor":"End-to-end CRO-level revenue ownership across sales, marketing and GTM, with one accountable leader.",
    "incl":["Full CRO-level ownership of revenue strategy and execution","Authority over sales, marketing and GTM decisions","Leadership of revenue teams and cross-functional alignment","Hiring, onboarding and performance management for revenue roles","Ongoing intervention to course-correct execution and results"]},
  ],
- "sdr_h":"Add a sales team (SDRs)","add_label":"Add to any package","sdr_name":"Dedicated SDRs",
+ "sdr_h":"Add a sales team (salespeople)","add_label":"Add to any package","sdr_name":"Dedicated salespeople",
  "sdr_desc":"Need reps but don't want to hire in-house? I source, train and manage them, fully integrated with the leadership you are already paying for.",
- "sdr_incl":["Sourcing, hiring and onboarding of SDR talent","Training on your process, messaging and objection handling","Ongoing performance management and coaching","Full integration with your KSW leadership and reporting"],
- "sdr_price_label":"SDR pricing","sdr_amount":"$6,000","sdr_amount_per":"/ 1 rep / mo",
- "sdr_tiers":["1 rep, $6,000/mo","2 reps, $11,000/mo","3+ reps, $5,000 each/mo"],
+ "sdr_incl":["Sourcing, hiring and onboarding of sales talent","Training on your process, messaging and objection handling","Ongoing performance management and coaching","Full integration with your KSW leadership and reporting"],
+ "sdr_price_label":"Salespeople pricing","sdr_amount":"$6,000","sdr_amount_per":"/ 1 salesperson / mo",
+ "sdr_tiers":["1 salesperson, $6,000/mo","2 salespeople, $11,000/mo","3+ salespeople, $5,000 each/mo"],
  "mk_h":"Marketing leadership (via KSW)",
  "marketing":[
   {"commit":"Senior oversight","name":"Marketing Oversight","price":"$4,000","per":"/mo",
@@ -3404,13 +3404,13 @@ PRICING_EN = {
  "calc_quote_title":"Your Quote","calc_print":"Print / Save as PDF","calc_lang":"en","calc_dir":"ltr",
  "calc_tagline":"Fractional CRO & Business Consulting",
  "calc_result_note":"Monthly, no long contracts, no exit fines. Slide the controls below to adjust the mix, the price updates live. Final scope is confirmed on a quick call.",
- "calc_sliders_h":"Adjust the mix","calc_slider_cro":"How much of me","calc_slider_sdr":"SDR team","calc_slider_mk":"Marketing","calc_none_label":"None",
+ "calc_sliders_h":"Adjust the mix","calc_slider_cro":"How much of me","calc_slider_sdr":"Sales team","calc_slider_mk":"Marketing","calc_none_label":"None","calc_sdr_word1":"salesperson","calc_sdr_wordN":"salespeople","calc_sdr_line":"Sales team",
  "calc_tier_outcomes":[
    "A senior revenue advisor on call, about 3 hours a week",
    "A fractional CRO in the seat about 2 hours a day, owning strategy, process and standards",
    "A fractional CRO 4 to 5 hours a day, running the motion and managing the team hands-on",
    "A full-time, exclusive CRO owning revenue end to end across sales, marketing and GTM"],
- "calc_sdr_outcome":"{n} SDR{s}, full-time, dialing and booking meetings on your behalf",
+ "calc_sdr_outcome":"{n} {w}, full-time, dialing and booking meetings on your behalf",
  "calc_q":[
    {"q":"What do you need me to own?","opts":[
      {"t":"Senior direction and a sounding board","tier":0},
@@ -3445,11 +3445,11 @@ PRICING_HE = {
    "bestfor":"בעלות מלאה ברמת CRO על ההכנסות, לרוחב מכירות, שיווק ו-GTM, עם מוביל אחד אחראי.",
    "incl":["בעלות מלאה ברמת CRO על אסטרטגיית ההכנסות והביצוע","סמכות על החלטות מכירות, שיווק ו-GTM","הובלת צוותי הכנסות ותיאום בין-מחלקתי","גיוס, קליטה וניהול ביצועים לתפקידי הכנסות","התערבות שוטפת לתיקון מסלול ותוצאות"]},
  ],
- "sdr_h":"הוספת צוות מכירות (SDRs)","add_label":"הוספה לכל חבילה","sdr_name":"SDRs ייעודיים",
+ "sdr_h":"הוספת צוות מכירות (אנשי מכירות)","add_label":"הוספה לכל חבילה","sdr_name":"אנשי מכירות ייעודיים",
  "sdr_desc":"צריכים נציגים אבל לא רוצים לגייס פנימית? אני מאתר, מכשיר ומנהל אותם, משולבים במלואם בהנהגה שאתם כבר משלמים עליה.",
- "sdr_incl":["איתור, גיוס וקליטה של אנשי SDR","הכשרה על התהליך, המסרים והתמודדות עם התנגדויות שלכם","ניהול ביצועים ואימון שוטפים","שילוב מלא עם ההנהגה והדיווח של KSW"],
- "sdr_price_label":"תמחור SDR","sdr_amount":"$6,000","sdr_amount_per":"/ נציג אחד / לחודש",
- "sdr_tiers":["נציג אחד, $6,000 לחודש","שני נציגים, $11,000 לחודש","3+ נציגים, $5,000 כל אחד/לחודש"],
+ "sdr_incl":["איתור, גיוס וקליטה של אנשי מכירות","הכשרה על התהליך, המסרים והתמודדות עם התנגדויות שלכם","ניהול ביצועים ואימון שוטפים","שילוב מלא עם ההנהגה והדיווח של KSW"],
+ "sdr_price_label":"תמחור אנשי מכירות","sdr_amount":"$6,000","sdr_amount_per":"/ איש מכירות אחד / לחודש",
+ "sdr_tiers":["איש מכירות אחד, $6,000 לחודש","שני אנשי מכירות, $11,000 לחודש","3+ אנשי מכירות, $5,000 כל אחד/לחודש"],
  "mk_h":"הובלת שיווק (דרך KSW)",
  "marketing":[
   {"commit":"פיקוח בכיר","name":"Marketing Oversight","price":"$4,000","per":"לחודש",
@@ -3478,13 +3478,13 @@ PRICING_HE = {
  "calc_quote_title":"הצעת המחיר שלכם","calc_print":"הדפסה / שמירה כ-PDF","calc_lang":"he","calc_dir":"rtl",
  "calc_tagline":"סמנכ״ל מכירות במיקור חוץ וייעוץ עסקי",
  "calc_result_note":"חודשי, בלי חוזים ארוכים, בלי קנסות יציאה. הזיזו את הפקדים למטה כדי לשנות את התמהיל, המחיר מתעדכן בזמן אמת. ההיקף הסופי מאושר בשיחה קצרה.",
- "calc_sliders_h":"התאמת התמהיל","calc_slider_cro":"כמה ממני","calc_slider_sdr":"צוות SDR","calc_slider_mk":"שיווק","calc_none_label":"ללא",
+ "calc_sliders_h":"התאמת התמהיל","calc_slider_cro":"כמה ממני","calc_slider_sdr":"צוות מכירות","calc_slider_mk":"שיווק","calc_none_label":"ללא","calc_sdr_word1":"איש מכירות","calc_sdr_wordN":"אנשי מכירות","calc_sdr_line":"צוות מכירות",
  "calc_tier_outcomes":[
    "יועץ הכנסות בכיר בטלפון, כ-3 שעות בשבוע",
    "סמנכ״ל מכירות במיקור חוץ בכיסא כשעתיים ביום, אחראי על אסטרטגיה, תהליך וסטנדרטים",
    "סמנכ״ל מכירות 4 עד 5 שעות ביום, מריץ את התנועה ומנהל את הצוות בידיים",
    "סמנכ״ל מכירות במשרה מלאה ובלעדיות, אחראי על ההכנסות מקצה לקצה: מכירות, שיווק ו-GTM"],
- "calc_sdr_outcome":"{n} SDRs, במשרה מלאה, מחייגים וקובעים פגישות עבורכם",
+ "calc_sdr_outcome":"{n} {w}, במשרה מלאה, מחייגים וקובעים פגישות עבורכם",
  "calc_q":[
    {"q":"על מה אתם צריכים שאהיה אחראי?","opts":[
      {"t":"כיוון בכיר ואוזן קשבת","tier":0},
@@ -3537,7 +3537,7 @@ def render_pricing_body(d, cal):
     mk_list = [{"mk": o.get("mk", 0), "name": o.get("mkname", ""), "out": o.get("mkout", "")} for o in mkq]
     labels = {"recommended": d["calc_recommended"], "outcome_h": d["calc_outcome_h"],
               "cost_h": d["calc_cost_h"], "prompt": d["calc_prompt"], "mo": d["calc_mo"],
-              "sdr_outcome": d["calc_sdr_outcome"], "book_url": "https://calendly.com/ksw/15min",
+              "sdr_outcome": d["calc_sdr_outcome"], "sdr_word1": d["calc_sdr_word1"], "sdr_wordN": d["calc_sdr_wordN"], "sdr_line": d["calc_sdr_line"], "book_url": "https://calendly.com/ksw/15min",
               "book": d["calc_book"], "quote_title": d["calc_quote_title"], "terms": d["calc_note"],
               "print": d["calc_print"], "lang": d["calc_lang"], "dir": d["calc_dir"],
               "brand": "TAL PAPERIN", "tagline": d["calc_tagline"], "site": "talpaperin.com",
@@ -3642,7 +3642,15 @@ PRICING_TPL = """<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">Pricing</p>
         <h1>Straight pricing. No proposals, no games.</h1>
-        <p>Fractional CRO leadership, a sales team when you need it, and marketing leadership. Pick the level of ownership you need. Monthly, no long contracts, no exit fines.</p>
+        <p>Every engagement is built around one thing: a revenue number you can rely on. Whether I advise you a few hours a week or own the whole engine full-time, you are buying an outcome, not hours, and never a slide deck. <a href="/services/">See what each engagement includes</a>.</p>
+        <p class="price-outcomes-h">What every engagement is built to deliver</p>
+        <ul class="price-outcomes">
+          <li>A repeatable go-to-market motion that creates demand instead of waiting for it</li>
+          <li>A sales team that performs, hired, trained and managed to a standard</li>
+          <li>A pipeline you can actually forecast, with a CRM and process behind it</li>
+          <li>Revenue that compounds month over month, and a number someone finally owns</li>
+        </ul>
+        <p>Pick the level of ownership you need below. Monthly, no long contracts, no exit fines.</p>
       </div>
 {body}
 {cta}
@@ -3696,7 +3704,15 @@ PRICING_TPL_HE = """<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">תמחור</p>
         <h1>תמחור ישר. בלי הצעות מחיר, בלי משחקים.</h1>
-        <p>הנהגת מכירות במיקור חוץ, צוות מכירות כשצריך, והובלת שיווק. בוחרים את רמת הבעלות שאתם צריכים. חודשי, בלי חוזים ארוכים, בלי קנסות יציאה.</p>
+        <p>כל התקשרות נבנית סביב דבר אחד: מספר הכנסות שאפשר לסמוך עליו. בין אם אני מלווה אתכם כמה שעות בשבוע ובין אם אני מנהל את כל המנוע במשרה מלאה, אתם קונים תוצאה, לא שעות, ובטח לא מצגת. <a href="/he/services/">ראו מה כל שירות כולל</a>.</p>
+        <p class="price-outcomes-h">מה כל התקשרות נבנית לספק</p>
+        <ul class="price-outcomes">
+          <li>מנוע Go-to-Market חוזר שמייצר ביקוש במקום לחכות לו</li>
+          <li>צוות מכירות שמבצע, מגויס, מוכשר ומנוהל לפי סטנדרט</li>
+          <li>פייפליין שאפשר באמת לחזות, עם CRM ותהליך מאחוריו</li>
+          <li>הכנסה שגדלה מחודש לחודש, ומספר שמישהו סוף סוף אחראי עליו</li>
+        </ul>
+        <p>בחרו למטה את רמת הבעלות שאתם צריכים. חודשי, בלי חוזים ארוכים, בלי קנסות יציאה.</p>
       </div>
 {body}
 {cta}

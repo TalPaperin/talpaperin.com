@@ -29,14 +29,14 @@
   function outcomeLines() {
     var out = [];
     if (st.tier != null) out.push(cap(tiers[st.tier].outcome));
-    if (st.sdr && st.reps > 0) out.push(cap(L.sdr_outcome.replace('{n}', st.reps).replace('{s}', st.reps > 1 ? 's' : '')));
+    if (st.sdr && st.reps > 0) out.push(cap(L.sdr_outcome.replace('{n}', st.reps).replace('{w}', st.reps > 1 ? L.sdr_wordN : L.sdr_word1)));
     if (st.mk && st.mkout) out.push(cap(st.mkout));
     return out;
   }
   function lineItems() {
     var items = [];
     if (st.tier != null) items.push([tiers[st.tier].name + ' (' + tiers[st.tier].commit + ')', tiers[st.tier].price]);
-    if (st.sdr && st.reps > 0) items.push(['SDR team (' + st.reps + ' rep' + (st.reps > 1 ? 's' : '') + ')', sdrPrice(st.reps)]);
+    if (st.sdr && st.reps > 0) items.push([L.sdr_line + ' (' + st.reps + ' ' + (st.reps > 1 ? L.sdr_wordN : L.sdr_word1) + ')', sdrPrice(st.reps)]);
     if (st.mk) items.push([st.mkname, +st.mk]);
     return items;
   }
@@ -45,7 +45,7 @@
     if (!sliders) return;
     if (st.tier != null) sliders.hidden = false;
     if (croR && st.tier != null) { croR.value = st.tier; croV.textContent = tiers[st.tier].name; }
-    if (sdrR) { sdrR.value = st.sdr ? st.reps : 0; sdrV.textContent = (st.sdr && st.reps > 0) ? (st.reps + (st.reps > 1 ? ' reps' : ' rep')) : L.none; }
+    if (sdrR) { sdrR.value = st.sdr ? st.reps : 0; sdrV.textContent = (st.sdr && st.reps > 0) ? (st.reps + ' ' + (st.reps > 1 ? L.sdr_wordN : L.sdr_word1)) : L.none; }
     if (mkR) { mkR.value = mkIndex(); mkV.textContent = st.mk ? st.mkname : L.none; }
   }
 

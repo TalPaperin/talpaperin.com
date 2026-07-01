@@ -363,3 +363,18 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .qc-q-label{margin-bottom:12px;line-height:1.4}
 .qc-scale{display:flex;justify-content:space-between;gap:8px;margin-top:7px;color:var(--soft);font-size:.72rem}
 .qc-scale span{white-space:nowrap}
+
+/* pricing: outcomes list + mobile */
+.price-outcomes-h{color:#fff;font-weight:700;margin:18px 0 10px;font-size:1.05rem}
+.price-outcomes{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:10px}
+.price-outcomes li{position:relative;padding-left:26px;color:#cdd6e0;line-height:1.55}
+.price-outcomes li::before{content:"";position:absolute;left:4px;top:9px;width:7px;height:7px;background:var(--blue);border-radius:50%}
+@media(max-width:640px){
+  .quote-calc{padding:22px 18px}
+  .qc-actions{flex-direction:column}
+  .qc-actions .btn{width:100%}
+  .qc-scale{font-size:.62rem;gap:4px}
+  .qc-cost{font-size:1.7rem}
+  .tier{padding:24px 20px}
+  .price-h2{margin-top:44px}
+}
