@@ -1253,7 +1253,7 @@ CASE_STUDIES = [
   "result":"A go-to-market motion and a trained SDR and AE sales floor where there had been neither, turning a huge but skeptical, hard-to-reach market into a managed, repeatable outbound engine."},
  {"company":"KanduAI","id":"kanduai","meta":"AI SaaS startup, Fractional VP of Sales",
   "situation":"An early-stage AI startup with a product and no way to sell it. No pipeline, no process, no team, and nobody who had ever built a sales motion from zero. They did not need advice, they needed someone to take the revenue side off the founders' plate and build the engine, then keep it alive when the product pivoted out from under it. Twice.",
-  "did":["Owned go-to-market end to end as fractional VP of Sales from day one","Defined and validated the ICP, positioning and messaging before a single rep dialed","Built the outbound playbook and the entire motion from zero","Hired, trained and managed the SDR team","Relaunched the whole go-to-market through the pivot, twice, without losing momentum"],
+  "did":["Owned go-to-market end to end as Fractional VP of Sales from day one","Defined and validated the ICP, positioning and messaging before a single rep dialed","Built the outbound playbook and the entire motion from zero","Hired, trained and managed the SDR team","Relaunched the whole go-to-market through the pivot, twice, without losing momentum"],
   "result":"An outbound engine that existed where there had been nothing, rebuilt from scratch through two pivots. The founders got a real motion and a trained team instead of guessing at sales between everything else they were carrying."},
  {"company":"LoneStar Tracking","id":"lonestar","meta":"Founder-led IoT business, Outsourced sales leadership",
   "situation":"Marketing was doing its job and generating real interest. The problem was everything that happened after the lead came in. Deals stalled and died because there was no sales engine to convert them and founders who had never sold for a living. They were paying to create demand and watching it leak straight out the bottom.",
@@ -1401,7 +1401,7 @@ def render_testimonials(quotes, he=False):
 
 
 TESTIMONIALS_EN = [
- {"q": "We brought in Tal Paperin as our fractional VP of Sales from day one at KanduAi. He wasn't just a consultant, he acted as a true VP of Sales. He defined our Ideal Customer Profile, built our outbound playbook, hired and trained SDRs, and launched our outbound motion twice. If you're a founder trying to launch or relaunch sales from zero, Tal is who you want in your corner.", "name": "Ariel Shemesh", "role": "Co-Founder & CEO", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
+ {"q": "We brought in Tal Paperin as our Fractional VP of Sales from day one at KanduAi. He wasn't just a consultant, he acted as a true VP of Sales. He defined our Ideal Customer Profile, built our outbound playbook, hired and trained SDRs, and launched our outbound motion twice. If you're a founder trying to launch or relaunch sales from zero, Tal is who you want in your corner.", "name": "Ariel Shemesh", "role": "Co-Founder & CEO", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
  {"q": "Tal has been a pleasure to work with. I own and operate a small business in the IoT sector, and have very little experience in sales and marketing. Tal was able to quickly develop a strategy for us, implement a CRM, and start building and training our sales team. If you are a small (or large) business needing to get your sales and marketing straightened out, Tal is your guy.", "name": "Tommy Remmert", "role": "Co-Founder & CTO", "company": "LoneStar Tracking", "tag": "outsourced-sales", "photo": "/img/testimonials/tommy-remmert.jpg"},
  {"q": "If you are looking for someone who understands sales, Tal is your address. His grasp on the overall sales process, how to move a prospect forward and his on point grasp of how to move your business forward is invaluable. Follow him. Listen to him. Take his advice. Grow your business as a result.", "name": "Helen Gottstein", "role": "Public Speaking & Executive Communications", "company": "", "tag": "go-to-market-strategy", "photo": ""},
  {"q": "Tal is a hard-working and trustworthy person. I have experience as a client, a partner and working for him directly. He is a man of his word, delivers on what he promises. A competent salesperson and strategist I would recommend him to any company wanting a fractional sales leader, channel manager or strategist.", "name": "Steve Burton", "role": "CRO", "company": "The Point Company", "tag": "fractional-cro", "photo": "/img/testimonials/steve-burton.jpg"},
@@ -1731,7 +1731,7 @@ CS_PAGE_HE = '''<!doctype html>
 
 
 SERVICE_CASE_EN = {
- "fractional-cro":{"company":"KanduAI","anchor":"kanduai","line":"An early-stage AI startup with a product and no way to sell it: no pipeline, no process, no team. I came in as fractional VP of Sales and owned the revenue side end to end.","bullets":["Defined the ICP, positioning and messaging, then built the outbound motion from zero","Hired, trained and managed the SDR team","Relaunched the entire go-to-market through two product pivots without losing momentum"],"result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
+ "fractional-cro":{"company":"KanduAI","anchor":"kanduai","line":"An early-stage AI startup with a product and no way to sell it: no pipeline, no process, no team. I came in as Fractional VP of Sales and owned the revenue side end to end.","bullets":["Defined the ICP, positioning and messaging, then built the outbound motion from zero","Hired, trained and managed the SDR team","Relaunched the entire go-to-market through two product pivots without losing momentum"],"result":"A working outbound engine, rebuilt from scratch through a pivot, with speed and precision."},
  "outsourced-sales":{"company":"LoneStar Tracking","anchor":"lonestar","line":"Strong marketing generating real demand, a sales engine that was not converting it, and founders who had never sold for a living. I built and ran the entire sales side as outsourced leadership.","bullets":["Built the sales strategy, process, playbook and pipeline from scratch","Selected and implemented the CRM and the full sales stack","Recruited, trained and ran the team day to day"],"result":"Full VP-level sales leadership at a fraction of the cost of a hire."},
  "go-to-market-strategy":{"company":"Bacsoft","anchor":"bacsoft","line":"An Israeli IIoT company, backed by Japan's SUN Corp, that needed a real global go-to-market: strategy, a channel across continents, and complex public-sector deals. I owned all of it.","bullets":["Built the global sales strategy and the distributor network worldwide","Ran direct B2B sales of SaaS, hardware and services","Led B2G across long RFI and RFQ cycles with governments and enterprises"],"result":"A global channel and a B2G pipeline, built for complex IIoT sold worldwide."},
  "sales-team-building":{"company":"KanduAI","anchor":"kanduai","line":"A startup with no sales team and no playbook for one. I built the team and the motion from zero, and kept rebuilding it as the product pivoted.","bullets":["Hired and trained the SDR team from scratch","Built the outbound playbook the reps actually ran","Rebuilt the motion through two pivots without losing the team"],"result":"A trained team running a real outbound playbook, not improvising every call."},
@@ -2082,7 +2082,7 @@ GUIDES = [
       "Hiring, training and managing SDRs and AEs who can sell technical SaaS",
       "The forecast and the number, owned end to end"]},
     {"h":"Done before, in real SaaS","p":[
-      "At KanduAI I came in as fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through two pivots. For Synergix I sold scientific SaaS into universities, research labs and pharma, writing the scripts and playbook the reps actually ran. Different products, same discipline."]},
+      "At KanduAI I came in as Fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through two pivots. For Synergix I sold scientific SaaS into universities, research labs and pharma, writing the scripts and playbook the reps actually ran. Different products, same discipline."]},
   ],
   "faqs":[
     {"q":"What does a fractional CRO do for a SaaS company?","a":"Owns the revenue motion end to end: ICP and pricing, the outbound and inbound playbook, the CRM and pipeline, hiring and managing the reps, and the forecast, all without a full-time CRO salary."},
@@ -2198,7 +2198,7 @@ GUIDES = [
   "sections":[
     {"h":"Why startups stall on revenue","p":["Most startups get the first deals from the founders and the network, then stall because there is no repeatable motion and nobody senior owns the number. Hiring a $250,000 CRO too early burns runway; hiring junior reps with no leader burns time. A fractional CRO gives you the senior owner now and builds the engine the reps will run."]},
     {"h":"What I build for a startup","ul":["A validated ICP, positioning and pricing for how you actually get bought","The outbound and inbound motion, the playbook, the CRM and the pipeline","The first sales hires, trained and managed, and the ones to replace","A real forecast the board can trust","The founders out of every deal and into the right ones"]},
-    {"h":"Built for real startups","p":["I have come in as fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through pivots. Same discipline whether you are pre-seed or Series B: own the number, build the motion, make the team hit quota."]},
+    {"h":"Built for real startups","p":["I have come in as Fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through pivots. Same discipline whether you are pre-seed or Series B: own the number, build the motion, make the team hit quota."]},
   ],
   "faqs":[
     {"q":"When should a startup hire a fractional CRO?","a":"When the founders are still the only ones closing, or you need a repeatable motion and a forecast before you can justify a full-time CRO. Usually from first revenue through Series B."},
@@ -2224,18 +2224,18 @@ GUIDES = [
 
  {"slug":"fractional-vp-of-sales",
   "title":"Fractional VP of Sales | Tal Paperin",
-  "desc":"A fractional VP of Sales who builds and runs your sales team, the playbook and the pipeline, hands-on, without a full-time hire.",
+  "desc":"A Fractional VP of Sales who builds and runs your sales team, the playbook and the pipeline, hands-on, without a full-time hire.",
   "h1":"Fractional VP of Sales","eyebrow":"Guide",
-  "lead":"Need someone to build the team and run the sales floor, not just set strategy? That is a fractional VP of Sales. I hire, train and manage the reps and own the pipeline, part-time.",
+  "lead":"Need someone to build the team and run the sales floor, not just set strategy? That is a Fractional VP of Sales. I hire, train and manage the reps and own the pipeline, part-time.",
   "sections":[
-    {"h":"Fractional VP of Sales vs fractional CRO","p":["A VP of Sales runs the sales team and the pipeline day to day. A CRO owns all of revenue, sales, marketing and go-to-market, and the number itself. I do both; the right title depends on whether you need the sales floor run or the whole revenue function owned. Many companies start with a fractional VP of Sales and grow the scope into CRO."]},
-    {"h":"What I own as fractional VP of Sales","ul":["Hiring, training and managing SDRs, AEs and BDs","The playbook, the talk tracks and the sales process","The CRM, the pipeline and the forecast","Coaching reps to quota and replacing who cannot","Day-to-day management of the sales floor"]},
+    {"h":"Fractional VP of Sales vs fractional CRO","p":["A VP of Sales runs the sales team and the pipeline day to day. A CRO owns all of revenue, sales, marketing and go-to-market, and the number itself. I do both; the right title depends on whether you need the sales floor run or the whole revenue function owned. Many companies start with a Fractional VP of Sales and grow the scope into CRO."]},
+    {"h":"What I own as Fractional VP of Sales","ul":["Hiring, training and managing SDRs, AEs and BDs","The playbook, the talk tracks and the sales process","The CRM, the pipeline and the forecast","Coaching reps to quota and replacing who cannot","Day-to-day management of the sales floor"]},
     {"h":"Built the team before, many times","p":["I have recruited, trained and managed sales teams across four continents and 40-plus countries, from first reps to full floors with SDRs, AEs, post-sales and tech support. I make the team you have hit quota and build the team you do not have yet."]},
   ],
   "faqs":[
-    {"q":"What does a fractional VP of Sales do?","a":"Builds and runs your sales team and pipeline part-time: hiring, training and managing reps, owning the playbook, the CRM and the forecast, and coaching the team to quota."},
+    {"q":"What does a Fractional VP of Sales do?","a":"Builds and runs your sales team and pipeline part-time: hiring, training and managing reps, owning the playbook, the CRM and the forecast, and coaching the team to quota."},
     {"q":"Fractional VP of Sales or fractional CRO?","a":"Choose a VP of Sales to run the sales team and pipeline. Choose a CRO to own all of revenue including marketing and go-to-market. I do both and can grow the scope as you do."},
-    {"q":"How much does a fractional VP of Sales cost?","a":"Typically $2,000 to $12,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary."}],
+    {"q":"How much does a Fractional VP of Sales cost?","a":"Typically $2,000 to $12,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/sales-team-building">team building</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-chief-sales-officer",
@@ -2374,7 +2374,7 @@ GUIDES = [
   "sections":[
     {"h":"Why AI companies stall on revenue","p":["AI and deep-tech teams are brilliant at the product and improvise the sales. The result is a few design-partner deals and no repeatable motion, unclear pricing, and buyers who are curious but not sure what they are buying. The fix is a sharp ICP, pricing and a motion built for a technical, skeptical buyer, owned by someone senior."]},
     {"h":"What I build","ul":["An ICP and a value proposition a buyer understands, not a demo","Pricing and packaging for an AI product that is still evolving","The outbound and inbound motion, the playbook and the pipeline","Reps who can sell a technical product to skeptical buyers","The forecast and the number, owned end to end"]},
-    {"h":"Built selling hard technical products","p":["I came in as fractional VP of Sales at an AI startup from day one, defined the ICP, built the outbound motion from zero and rebuilt it through pivots, and I have sold scientific and technical software into universities, labs and pharma. AI buyers are skeptical and technical, exactly where a real motion beats a great demo."]},
+    {"h":"Built selling hard technical products","p":["I came in as Fractional VP of Sales at an AI startup from day one, defined the ICP, built the outbound motion from zero and rebuilt it through pivots, and I have sold scientific and technical software into universities, labs and pharma. AI buyers are skeptical and technical, exactly where a real motion beats a great demo."]},
   ],
   "faqs":[
     {"q":"Can you sell a technical AI product?","a":"Yes. I have built the sales motion for an AI startup from zero and sold scientific and technical software into skeptical, technical buyers. The win comes from a real motion, not just a demo."},
@@ -3363,10 +3363,10 @@ PRICING_EN = {
    "incl":["A standing weekly strategy call","Async access between calls for the real decisions","I set the direction and the priorities, you execute"]},
   {"commit":"~2 hours a day","name":"Starter","price":"$6,000","per":"/mo",
    "bestfor":"Early-stage companies or small businesses needing foundational sales improvements.",
-   "incl":["Revenue and sales motion review: where deals stall, leak or fail to convert","Sales plan and playbook: ICP, priority channels, talk tracks, decision criteria","Sales process enablement for SDRs and AEs","Pipeline structure: CRM stages and definitions"]},
+   "incl":["Revenue and sales motion review: where deals stall, leak or fail to convert","Sales plan and playbook: ICP, priority channels, talk tracks, decision criteria","Hire, train and manage your salespeople, part-time (about 2 hours a day)","Pipeline structure: CRM stages and definitions"]},
   {"commit":"Half-time, 4-5 hours a day","name":"Growth","price":"$12,000","per":"/mo","feat":True,"badge":"Most common",
    "bestfor":"Scaling companies that need hands-on management and strategic sales guidance.",
-   "incl":["Revenue and sales performance oversight","Direct sales team management, SDRs and AEs","CRM and KPI ownership for forecasting and accountability","A living execution framework with goals, timelines and ownership"]},
+   "incl":["Revenue and sales performance oversight","Hire, train and manage your salespeople, hands-on and day to day (about 4-5 hours a day)","CRM and KPI ownership for forecasting and accountability","A living execution framework with goals, timelines and ownership"]},
   {"commit":"Full-time, exclusive","name":"CRO Ownership","price":"$22,000","per":"/mo",
    "bestfor":"End-to-end CRO-level revenue ownership across sales, marketing and GTM, with one accountable leader.",
    "incl":["Full CRO-level ownership of revenue strategy and execution","Authority over sales, marketing and GTM decisions","Leadership of revenue teams and cross-functional alignment","Hiring, onboarding and performance management for revenue roles","Ongoing intervention to course-correct execution and results"]},
@@ -3376,6 +3376,7 @@ PRICING_EN = {
  "sdr_incl":["Sourcing, hiring and onboarding of sales talent","Training on your process, messaging and objection handling","Ongoing performance management and coaching","Full integration with your KSW leadership and reporting"],
  "sdr_price_label":"Salespeople pricing","sdr_amount":"$6,000","sdr_amount_per":"/ 1 salesperson / mo",
  "sdr_tiers":["1 salesperson, $6,000/mo","2 salespeople, $11,000/mo","3+ salespeople, $5,000 each/mo"],
+ "sdr_price_note":"Price includes full management, training and integration. No hidden management fees.",
  "mk_h":"Marketing leadership (via KSW)",
  "marketing":[
   {"commit":"Senior oversight","name":"Marketing Oversight","price":"$4,000","per":"/mo",
@@ -3388,7 +3389,7 @@ PRICING_EN = {
  "faq_h":"Common questions",
  "faq":[
   ("How does pricing work?","Flat monthly retainers. No long contracts and no exit fines. You can move up or down a tier as the business changes."),
-  ("What is the difference between the tiers?","Advisor is senior direction on call. Starter builds the foundations. Growth adds hands-on management of the motion and the team. CRO Ownership is full end-to-end ownership of revenue across sales, marketing and GTM."),
+  ("What is the difference between the tiers?","Advisor is senior direction on call. Starter and Growth are both hands-on: in both I hire, train and manage your salespeople and own the motion. The difference is time, Starter is about 2 hours a day, Growth is half my day, every day. CRO Ownership is full end-to-end ownership of revenue across sales, marketing and GTM."),
   ("Can I add a sales team?","Yes. SDRs can be added to any package. I source, train and manage them, integrated with the leadership you already have."),
   ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
  ],
@@ -3437,10 +3438,10 @@ PRICING_HE = {
    "incl":["שיחת אסטרטגיה שבועית קבועה","זמינות אסינכרונית ביני לבין השיחות להחלטות האמיתיות","אני קובע את הכיוון והעדיפויות, אתם מבצעים"]},
   {"commit":"כשעתיים ביום","name":"Starter","price":"$6,000","per":"לחודש",
    "bestfor":"חברות בשלב מוקדם או עסקים קטנים שצריכים שיפור מכירות בסיסי.",
-   "incl":["סקירת הכנסות ותנועת מכירות: איפה עסקאות נתקעות, דולפות או לא נסגרות","תוכנית מכירות ו-Playbook: ICP, ערוצים, תסריטים וקריטריוני החלטה","הטמעת תהליך מכירה ל-SDRs ו-AEs","מבנה פייפליין: שלבי CRM והגדרות"]},
+   "incl":["סקירת הכנסות ותנועת מכירות: איפה עסקאות נתקעות, דולפות או לא נסגרות","תוכנית מכירות ו-Playbook: ICP, ערוצים, תסריטים וקריטריוני החלטה","גיוס, הכשרה וניהול של אנשי המכירות שלכם, במשרה חלקית (כשעתיים ביום)","מבנה פייפליין: שלבי CRM והגדרות"]},
   {"commit":"חצי משרה, 4-5 שעות ביום","name":"Growth","price":"$12,000","per":"לחודש","feat":True,"badge":"הנפוץ ביותר",
    "bestfor":"חברות בצמיחה שצריכות ניהול מעשי והכוונת מכירות אסטרטגית.",
-   "incl":["פיקוח על ביצועי הכנסות ומכירות","ניהול ישיר של צוות המכירות, SDRs ו-AEs","בעלות על ה-CRM וה-KPIs לתחזית ואחריותיות","תוכנית ביצוע חיה עם יעדים, לוחות זמנים ובעלות"]},
+   "incl":["פיקוח על ביצועי הכנסות ומכירות","גיוס, הכשרה וניהול של אנשי המכירות שלכם, יומיומי ובידיים (כ-4-5 שעות ביום)","בעלות על ה-CRM וה-KPIs לתחזית ואחריותיות","תוכנית ביצוע חיה עם יעדים, לוחות זמנים ובעלות"]},
   {"commit":"משרה מלאה, בלעדי","name":"CRO Ownership","price":"$22,000","per":"לחודש",
    "bestfor":"בעלות מלאה ברמת CRO על ההכנסות, לרוחב מכירות, שיווק ו-GTM, עם מוביל אחד אחראי.",
    "incl":["בעלות מלאה ברמת CRO על אסטרטגיית ההכנסות והביצוע","סמכות על החלטות מכירות, שיווק ו-GTM","הובלת צוותי הכנסות ותיאום בין-מחלקתי","גיוס, קליטה וניהול ביצועים לתפקידי הכנסות","התערבות שוטפת לתיקון מסלול ותוצאות"]},
@@ -3450,6 +3451,7 @@ PRICING_HE = {
  "sdr_incl":["איתור, גיוס וקליטה של אנשי מכירות","הכשרה על התהליך, המסרים והתמודדות עם התנגדויות שלכם","ניהול ביצועים ואימון שוטפים","שילוב מלא עם ההנהגה והדיווח של KSW"],
  "sdr_price_label":"תמחור אנשי מכירות","sdr_amount":"$6,000","sdr_amount_per":"/ איש מכירות אחד / לחודש",
  "sdr_tiers":["איש מכירות אחד, $6,000 לחודש","שני אנשי מכירות, $11,000 לחודש","3+ אנשי מכירות, $5,000 כל אחד/לחודש"],
+ "sdr_price_note":"המחיר כולל ניהול מלא, הכשרה ואינטגרציה. בלי דמי ניהול נסתרים.",
  "mk_h":"הובלת שיווק (דרך KSW)",
  "marketing":[
   {"commit":"פיקוח בכיר","name":"Marketing Oversight","price":"$4,000","per":"לחודש",
@@ -3462,7 +3464,7 @@ PRICING_HE = {
  "faq_h":"שאלות נפוצות",
  "faq":[
   ("איך התמחור עובד?","ריטיינרים חודשיים קבועים. בלי חוזים ארוכים ובלי קנסות יציאה. אפשר לעלות או לרדת דרגה ככל שהעסק משתנה."),
-  ("מה ההבדל בין החבילות?","Advisor הוא כיוון בכיר בטלפון. Starter בונה את היסודות. Growth מוסיף ניהול מעשי של התנועה והצוות. CRO Ownership היא בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-GTM."),
+  ("מה ההבדל בין החבילות?","Advisor הוא כיוון בכיר בטלפון. Starter ו-Growth שניהם בידיים: בשניהם אני מגייס, מכשיר ומנהל את אנשי המכירות שלכם ומחזיק את התנועה. ההבדל הוא זמן, Starter הוא כשעתיים ביום, Growth הוא חצי מהיום שלי, כל יום. CRO Ownership היא בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-GTM."),
   ("אפשר להוסיף צוות מכירות?","כן. אפשר להוסיף SDRs לכל חבילה. אני מאתר, מכשיר ומנהל אותם, משולבים בהנהגה שכבר יש לכם."),
   ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
  ],
@@ -3522,9 +3524,9 @@ def render_pricing_body(d, cal):
             ) % (esc(d["add_label"]), esc(d["sdr_name"]), esc(d["sdr_desc"]),
                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_incl"]))
     right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span></div>'
-             '<ul class="incl">%s</ul></div>'
+             '<ul class="incl">%s</ul><p class="price-note">%s</p></div>'
              ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]),
-                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]))
+                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), esc(d["sdr_price_note"]))
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
