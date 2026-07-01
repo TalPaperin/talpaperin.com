@@ -90,6 +90,8 @@
     .brand{font-family:'Anton',sans-serif;font-size:46px;letter-spacing:.02em;text-transform:uppercase;line-height:1;color:#fff}
     .navlinks{display:flex;align-items:center;gap:30px}
     .navlinks a{font:600 14px/1 'Space Grotesk';letter-spacing:.04em;color:var(--soft);text-transform:uppercase}
+    .navlinks a{position:relative}
+    .navlinks a:not(:last-child)::after{content:"";position:absolute;inset-inline-end:-15px;top:50%;transform:translateY(-50%);height:13px;width:1px;background:rgba(255,255,255,.2)}
     .navlinks a:hover{color:#fff}
     .nav-right{display:flex;align-items:center;gap:14px}
     .flag-btn{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:8px;padding:5px 6px}

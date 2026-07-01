@@ -311,7 +311,7 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .quote-calc{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 24px;max-width:660px}
 .qc-row{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
 .qc-row label{font-weight:700;font-size:.9rem;color:#cdd6e0}
-.quote-calc select,.quote-calc input{background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:#fff;font-size:1rem;width:100%}
+.quote-calc select,.quote-calc input{background:var(--bg2);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:12px 14px;color:#fff;font-size:1rem;width:100%}
 .qc-total{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 0;padding-top:16px;border-top:1px solid var(--line)}
 .qc-total>span{color:var(--soft);font-weight:600}
 .qc-amount{font-size:2rem;font-weight:800;color:#fff}
@@ -324,7 +324,7 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .qc-q{margin-bottom:20px}
 .qc-q-label{font-weight:700;color:#fff;margin-bottom:10px;font-size:1.02rem}
 .qc-chips{display:flex;flex-wrap:wrap;gap:10px}
-.qc-chip{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:#cdd6e0;font-size:.95rem;cursor:pointer;text-align:left;transition:border-color .2s,background .2s,transform .15s;font-family:inherit}
+.qc-chip{background:#141c2b;border:1px solid rgba(255,255,255,.22);border-radius:12px;padding:12px 16px;color:#cdd6e0;font-size:.95rem;cursor:pointer;text-align:left;transition:border-color .2s,background .2s,transform .15s;font-family:inherit}
 .qc-chip:hover{border-color:rgba(90,176,255,.5);transform:translateY(-1px)}
 .qc-chip.sel{border-color:var(--blue);background:rgba(90,176,255,.14);color:#fff}
 .qc-q-reps{display:none}
@@ -378,3 +378,8 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
   .tier{padding:24px 20px}
   .price-h2{margin-top:44px}
 }
+
+/* nav dividers */
+.navlinks a{position:relative}
+.navlinks a:not(:last-child)::after{content:"";position:absolute;inset-inline-end:-15px;top:50%;transform:translateY(-50%);height:13px;width:1px;background:rgba(255,255,255,.2)}
+@media(max-width:760px){.navlinks a:not(:last-child)::after{display:none}}
