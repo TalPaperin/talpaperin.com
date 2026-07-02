@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Your Sales Team Says the Pipeline Is Healthy. They Are Wrong.</title>
+      <link>https://talpaperin.com/blog/your-pipeline-is-lying-to-you</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/your-pipeline-is-lying-to-you</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Most CEOs think they have a sales execution problem. They have a qualification problem. Here is the test that turns a $2M pipeline into an honest $700K.</description>
+    </item>
     <item>
       <title>From $4.8 Billion to $60 Million. A Great Product Cannot Save a Broken Business Model.</title>
       <link>https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-los-angeles</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Development for frum and heimishe business owners in Los Angeles, California, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Frum Business Consultant in Passaic</title>
-      <link>https://talpaperin.com/blog/frum-business-consultant-passaic</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-passaic</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Passaic and Clifton, New Jersey. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
     </item>
   </channel>
 </rss>
