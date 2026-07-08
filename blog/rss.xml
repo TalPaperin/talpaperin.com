@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>TPx Filed for Chapter 11 With $1.1 Billion in Debt. The Debt Was Not the Real Problem.</title>
+      <link>https://talpaperin.com/blog/tpx-chapter-11-revenue-engine</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/tpx-chapter-11-revenue-engine</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <description>TPx filed Chapter 11 with $1.1B in debt. The real killer was revenue that did not grow fast enough, and that is a Fractional CRO problem, not a VP of Sales one.</description>
+    </item>
     <item>
       <title>Your Sales Team Says the Pipeline Is Healthy. They Are Wrong.</title>
       <link>https://talpaperin.com/blog/your-pipeline-is-lying-to-you</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-flatbush</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Flatbush, Brooklyn. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
-    </item>
-    <item>
-      <title>Business Development for Frum Businesses in Los Angeles</title>
-      <link>https://talpaperin.com/blog/frum-business-development-los-angeles</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-los-angeles</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Development for frum and heimishe business owners in Los Angeles, California, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>
