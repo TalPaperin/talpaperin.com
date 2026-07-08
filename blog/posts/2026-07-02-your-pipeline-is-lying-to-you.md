@@ -60,7 +60,7 @@ Here is the part that should bother you.
 
 Most CEOs are convinced they have a sales execution problem. So they hire another salesperson. They buy another tool. They pour more money into marketing.
 
-They are feeding fuel into a broken system.
+They are feeding fuel into a broken system. It is the same reason [a $1.1 billion company can file for Chapter 11](/blog/tpx-chapter-11-revenue-engine) not because the product failed, but because the revenue engine never grew the way it needed to.
 
 If your pipeline is half fiction, a better closer just closes the fiction faster. More leads just create more fiction. A shiny new dashboard just measures the fiction in color.
 
