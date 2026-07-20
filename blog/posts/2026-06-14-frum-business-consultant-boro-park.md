@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Many Boro Park businesses are family-run and generations deep, built on relationships and word of mouth. That loyalty is gold inside the kehilla, and a wall the moment you need to sell to the wider market. Bridging that gap, without losing what makes the business yours, is exactly the work I do.
 
+## The Boro Park business landscape
+
+Boro Park is old, established frum business: importers and wholesalers, retail up and down 13th Avenue, real estate, medical and home-care, accounting and insurance shops, printers, and a growing bench of technology and e-commerce firms. Many are family names that have been trusted in the neighborhood for two or three generations. That is a real asset and a real trap. The same relationships that make you the obvious choice in Boro Park, Flatbush and Midwood are exactly what do not carry over when you try to sell to a mainstream US buyer who has never heard of you. I have spent twenty years selling into rooms where nobody knew me yet, and that is the muscle most established Boro Park businesses have never had to build.
+
 ## What I do for Boro Park frum businesses
 
 - Build your go-to-market and sales process from zero
