@@ -22,6 +22,10 @@ Passaic businesses are scaling, and many are hitting the same wall: growth built
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Passaic
+
+In Passaic and Clifton, a lot of business still comes from the community and word of mouth, and from proximity to the New York market. That base is real, but selling past it, to regional or national buyers, needs an actual outbound process rather than more referrals. Building that is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

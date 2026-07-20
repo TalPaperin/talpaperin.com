@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 In Williamsburg the kehilla is the network and trust is everything, which makes the inside market strong and the outside market intimidating. I do not speak fluent Yiddish, and I will not pretend to, but I have spent years inside the Yiddish-speaking, heimishe business world and I know how it buys and sells. Where the language matters in the actual selling, we put the right person in the room.
 
+## The Williamsburg business landscape
+
+Williamsburg is one of the most concentrated chassidish business centers in the world, heavily Satmar, Yiddish as a first language, and built on real estate, property management, construction, retail, wholesale and a deep web of B2B services. Business here runs on relationships, reputation and Yiddish, inside a very tight kehilla. That closeness is a real edge and it is also the wall many owners hit when they need to deal with the outside market on its terms.
+
 ## What I do for Williamsburg frum businesses
 
 - Build your go-to-market and sales process from zero

@@ -22,6 +22,10 @@ LA frum businesses often span services, real estate, e-commerce and B2B, with na
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Los Angeles businesses to the wider market
+
+Many frum LA businesses are strong within the community and want to reach the wider Los Angeles market, the West Coast, or national accounts. Turning local connections into a real business-development engine is exactly what I do.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

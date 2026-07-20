@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Miami is booming, and so is its frum business scene, which means a lot of fast-growing companies that have outrun their sales infrastructure. I come in to build the process, the team and the pipeline, so the growth rests on a system and not just a hot market.
 
+## The Miami business landscape
+
+Frum Miami is booming, from Miami Beach and Surfside to North Miami Beach, Aventura and Bal Harbour, swelled by an influx from New York and the northeast and by Florida's tax and lifestyle pull. The business base leans heavy on real estate, finance, hospitality, kosher food and retail. The money and the momentum are real. What many of these fast-growing businesses lack is a real sales engine underneath the growth.
+
 ## What I do for Miami frum businesses
 
 - Build your go-to-market and sales process from zero

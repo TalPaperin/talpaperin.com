@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Baltimore frum businesses tend to be steady and well-run, which is exactly why the next step is so often a real sales function: a process, a team and a pipeline that let you grow past your current ceiling without betting the business on a risky VP hire.
 
+## The Baltimore business landscape
+
+Baltimore is one of the older, more established frum communities in America, anchored by Ner Yisroel and centered around Park Heights and Pikesville, with a business base of professionals, healthcare, services, retail and real estate, and a cost of doing business well below New York. It is a stable, relationship-driven market where many businesses run entirely on the owner, which is where growth stalls.
+
 ## What I do for Baltimore frum businesses
 
 - Build your go-to-market and sales process from zero

@@ -22,6 +22,10 @@ Between Monsey, Spring Valley, New Square, Kaser, Suffern and Airmont, the area 
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Monsey growth ceiling
+
+The typical Monsey growth story is a business that took off on the founder's hustle and relationships and then flattened, because every deal still runs through one person. Add the pull of a large mishpacha and communal life, and there is not much time left to build the sales machine. That is the ceiling I help break.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

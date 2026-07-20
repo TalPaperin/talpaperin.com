@@ -22,6 +22,10 @@ Passaic businesses are scaling, and many are hitting the same wall: growth built
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Passaic growth ceiling
+
+The common Passaic pattern is a good business carried by the founder and the community that flattens once it outgrows word of mouth. Breaking that ceiling means a real sales function the owner does not have to be. That is the work.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

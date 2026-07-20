@@ -22,6 +22,10 @@ Crown Heights entrepreneurs think globally by instinct, with networks on every c
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Crown Heights
+
+Crown Heights businesses often have contacts almost everywhere, through the shluchim network and a globally-minded kehilla, and still struggle to convert that reach into steady sales. Warm connections are not the same as a sales process. Turning that remarkable network into qualified conversations, follow-up and closed deals, instead of one-off favors, is exactly what I build.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

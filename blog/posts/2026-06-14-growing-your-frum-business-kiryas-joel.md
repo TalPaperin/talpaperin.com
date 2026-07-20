@@ -22,6 +22,10 @@ KJ business runs in Yiddish and on trust, and the inside market is strong. The c
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Kiryas Joel growth ceiling
+
+Kiryas Joel businesses often grow fast on community and hustle, then hit the point where the founder is still the entire operation. Scaling past that, especially while reaching outside the village, needs a real system and someone senior to run it. That is the ceiling I help break.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

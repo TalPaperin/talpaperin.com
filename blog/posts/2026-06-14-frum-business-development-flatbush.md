@@ -22,6 +22,10 @@ Flatbush is full of serious businesses and serious professionals who have outgro
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Flatbush businesses to the wider market
+
+Plenty of Flatbush businesses are strong locally and unsure how to reach past the community. Whether it is the wider New York market, national accounts or selling into the mainstream, taking a Flatbush business beyond the neighborhood is exactly the jump I help owners make.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

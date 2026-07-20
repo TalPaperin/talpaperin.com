@@ -22,6 +22,10 @@ Miami is booming, and so is its frum business scene, which means a lot of fast-g
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Miami businesses to the wider market
+
+Miami's frum business scene is growing fast and full of new arrivals, which makes it a strong moment to build real business development, into the wider Florida market, national accounts and beyond. Turning momentum and connections into an engine is exactly what I do.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

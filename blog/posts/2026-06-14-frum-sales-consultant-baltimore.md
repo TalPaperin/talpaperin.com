@@ -22,6 +22,10 @@ Baltimore frum businesses tend to be steady and well-run, which is exactly why t
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Baltimore
+
+In Baltimore, business tends to move through a close, established frum community, from shul, school and long relationships. That is a real asset and a ceiling: selling past the Baltimore community, to regional or national buyers, needs a real process rather than more introductions. Putting that in place is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

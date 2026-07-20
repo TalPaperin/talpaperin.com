@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Five Towns businesses often have the product, the capital and the ambition, and still stall because nobody senior owns the revenue function. A fractional sales leader gives you that ownership without a six-figure VP hire, and from someone who understands your world.
 
+## The the Five Towns business landscape
+
+The Five Towns, Cedarhurst, Lawrence, Woodmere, Hewlett and Inwood, is one of the more affluent and business-heavy frum areas anywhere, with a commercial heart along Central Avenue and a base thick with finance, professionals, real estate, retail and B2B services, reaching over to Far Rockaway. The talent and the money are here. What is often missing is a real sales engine underneath businesses that grew on connections and reputation.
+
 ## What I do for Five Towns frum businesses
 
 - Build your go-to-market and sales process from zero

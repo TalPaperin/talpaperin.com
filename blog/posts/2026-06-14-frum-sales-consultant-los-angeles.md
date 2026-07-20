@@ -22,6 +22,10 @@ LA frum businesses often span services, real estate, e-commerce and B2B, with na
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Los Angeles
+
+In LA, the frum community is large but spread out, from Pico-Robertson to the Valley, and business often moves through personal and community connections across those pockets. Relationships open doors, but they are not a sales process, and reaching the wider Los Angeles market or going national needs a real motion. Building it is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

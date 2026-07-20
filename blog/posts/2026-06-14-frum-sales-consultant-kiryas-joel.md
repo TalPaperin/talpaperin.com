@@ -22,6 +22,10 @@ KJ business runs in Yiddish and on trust, and the inside market is strong. The c
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Kiryas Joel
+
+Business in Kiryas Joel runs on community, Yiddish and reputation, inside a very tight village. That is powerful locally and a wall when you need to sell to outside, English-speaking buyers who do not share the same handshake. I have spent years working inside the heimishe world and twenty years selling to people who did not know me yet, which is exactly what a KJ business needs to reach beyond the village.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

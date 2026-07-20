@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Chicago frum businesses are often well-established and ready to grow beyond the local market. The missing piece is usually a senior sales leader to own the motion and a system to run it, which is the role I fill, hands-on.
 
+## The Chicago business landscape
+
+Frum Chicago is centered in West Rogers Park, around Devon and California, and out into Skokie, an established Midwest community with a business base of professionals, services, healthcare, retail and real estate. It is a stable, relationship-driven market, and like most, full of businesses that run entirely on the owner, which is where growth stalls.
+
 ## What I do for Chicago frum businesses
 
 - Build your go-to-market and sales process from zero

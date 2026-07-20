@@ -22,6 +22,10 @@ In Williamsburg the kehilla is the network and trust is everything, which makes 
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Williamsburg businesses to the wider market
+
+A lot of Williamsburg businesses dominate inside the kehilla and freeze when they try to reach the wider New York market or national buyers. Taking a heimishe, Yiddish-first business into the mainstream without losing what makes it yours is specific work, and it is what I do.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

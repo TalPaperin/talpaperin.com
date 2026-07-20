@@ -22,6 +22,10 @@ Lakewood businesses tend to grow fast on hustle and a good name, then hit a ceil
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Lakewood
+
+In Lakewood, a huge amount of business still moves on referrals, from shul, from the neighborhood, from a good name that travels fast in a town this size. That referral engine is powerful and it is also a ceiling. When a Lakewood business tries to sell into the wider market or to national buyers, the warm introductions run out and there is no process to replace them. Building that, without losing the trust-first way you already sell, is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

@@ -22,6 +22,10 @@ Many Boro Park businesses are family-run and generations deep, built on relation
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Boro Park growth ceiling
+
+Boro Park businesses often grow to a point on family, reputation and a loyal local base, then plateau because the founder is still the whole sales engine. Scaling past that, especially when you also want to reach outside the kehilla, needs a real system and someone senior to own it. That is the ceiling I help break.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

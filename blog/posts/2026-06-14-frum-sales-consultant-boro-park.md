@@ -22,6 +22,10 @@ Many Boro Park businesses are family-run and generations deep, built on relation
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Boro Park
+
+In Boro Park, business runs on relationships and a name trusted along 13th Avenue and across the kehilla for years. That works until you need to sell to a mainstream, out-of-town buyer who does not know your name and does not run on the same handshake. Building the motion to reach and win those buyers, without losing what makes you the obvious choice at home, is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

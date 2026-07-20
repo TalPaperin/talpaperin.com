@@ -22,6 +22,10 @@ LA frum businesses often span services, real estate, e-commerce and B2B, with na
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Los Angeles growth ceiling
+
+The common LA pattern is a business that grew on the founder's network across a spread-out community and then plateaued because it never built a sales function beyond him. Scaling past that ceiling is the work I own.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

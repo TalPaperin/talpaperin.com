@@ -22,6 +22,10 @@ Between Monsey, Spring Valley, New Square, Kaser, Suffern and Airmont, the area 
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Monsey businesses to the wider market
+
+Plenty of Monsey businesses are strong inside the frum world and stall the second they need customers who never heard of them. Whether you are expanding across Rockland into the wider market, going national, or selling into the US mainstream from a base in Monsey, that is exactly the jump I help owners make.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

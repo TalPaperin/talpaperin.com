@@ -22,6 +22,10 @@ In Williamsburg the kehilla is the network and trust is everything, which makes 
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Williamsburg
+
+In Williamsburg, selling is personal, in Yiddish, and built on a name that carries weight in the kehilla. That works beautifully until you need to sell to a mainstream, English-speaking, out-of-town buyer who does not know your name. I do not speak fluent Yiddish and I will never pretend to, but I have spent years inside this world and twenty years selling into rooms full of strangers, which is exactly the muscle a Williamsburg business needs to add.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

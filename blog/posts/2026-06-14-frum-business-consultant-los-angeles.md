@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 LA frum businesses often span services, real estate, e-commerce and B2B, with national and international ambitions. What turns that ambition into revenue is a real sales engine and senior ownership of the number, which is what I bring.
 
+## The Los Angeles business landscape
+
+Frum Los Angeles is spread across Pico-Robertson, Hancock Park and La Brea, and the Valley, a diverse community, part yeshivish, part chassidish, part modern, in a huge, car-dependent, entertainment-adjacent market. The business base runs from real estate and retail to professionals, tech and media. The spread and the mix are an opportunity, but many businesses grew on local connections and never built a sales function that reaches past their own circle.
+
 ## What I do for Los Angeles frum businesses
 
 - Build your go-to-market and sales process from zero

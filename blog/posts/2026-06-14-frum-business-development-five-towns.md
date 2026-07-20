@@ -22,6 +22,10 @@ Five Towns businesses often have the product, the capital and the ambition, and 
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking the Five Towns businesses to the wider market
+
+Many Five Towns businesses are strong within a tight, affluent network and want to reach past it, to national accounts, new markets, or the US mainstream. Turning connections and reputation into a real business-development engine is exactly what I do.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

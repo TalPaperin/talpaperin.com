@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Crown Heights entrepreneurs think globally by instinct, with networks on every continent. What is often missing is the sales engine to turn that reach into real, repeatable revenue: a process, a pipeline and a forecast you can count on. That is what I build and run.
 
+## The Crown Heights business landscape
+
+Crown Heights is the center of the Lubavitch world, home to 770 and a shliach network that reaches every corner of the globe. That gives Crown Heights businesses something unusual: built-in connections on six continents. The local base runs from retail along Kingston Avenue to real estate, media, tech, services and a strong bench of online and B2B businesses. The global reach is real. What is often missing is the system to turn all those connections into pipeline.
+
 ## What I do for Crown Heights frum businesses
 
 - Build your go-to-market and sales process from zero

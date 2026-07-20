@@ -22,6 +22,10 @@ Lakewood businesses tend to grow fast on hustle and a good name, then hit a ceil
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Lakewood growth ceiling
+
+The typical Lakewood growth story is a business that took off on hustle and a good name and then flattened, because every deal still runs through the founder. In a town growing as fast as Lakewood, the opportunity is huge for the owners who build a real sales machine instead of running it all off their phone. That is the ceiling I help break.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

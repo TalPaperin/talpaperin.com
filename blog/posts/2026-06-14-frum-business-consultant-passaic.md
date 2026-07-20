@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Passaic businesses are scaling, and many are hitting the same wall: growth built entirely on the founder and on referrals, with no system underneath. I build the process, bring in and train the right people, and own the number until it runs.
 
+## The Passaic business landscape
+
+Passaic, together with neighboring Clifton, is a growing yeshivish community within commuting distance of New York, with a business base of professionals, services, retail, real estate and a rising number of B2B and online companies. Many owners are sharp and busy and are also the entire sales department, which is exactly where growth stalls.
+
 ## What I do for Passaic frum businesses
 
 - Build your go-to-market and sales process from zero

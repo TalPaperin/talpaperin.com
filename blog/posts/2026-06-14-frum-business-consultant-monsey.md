@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Between Monsey, Spring Valley, New Square, Kaser, Suffern and Airmont, the area is packed with frum businesses that are great at what they make and unsure how to sell it past the neighborhood. That is the gap I close: a real sales motion, a trained team, and a way into the wider market.
 
+## The Monsey business landscape
+
+Monsey is really a whole region, from the center of town out to Spring Valley, Kaser, New Square, Airmont and Wesley Hills, and the frum business base is just as varied: home-based operations, service firms, retail along Route 59, medical and home-care, real estate, camps and mosdos, and a growing bench of e-commerce and B2B companies. A lot of them are run entirely out of the founder's head. The strength is how much gets done on trust and a phone call. The weakness shows up the moment the owner wants to grow past the people who already daven with him.
+
 ## What I do for Monsey frum businesses
 
 - Build your go-to-market and sales process from zero

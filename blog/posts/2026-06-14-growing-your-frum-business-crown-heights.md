@@ -22,6 +22,10 @@ Crown Heights entrepreneurs think globally by instinct, with networks on every c
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Crown Heights growth ceiling
+
+Many Crown Heights businesses grow to a point on relationships and reach, then plateau because there is no engine underneath the network. Scaling means building the process that captures all those connections and works them, so growth does not depend on the founder personally knowing everyone. That is the ceiling I help break.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

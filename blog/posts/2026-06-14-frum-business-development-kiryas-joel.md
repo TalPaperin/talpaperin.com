@@ -22,6 +22,10 @@ KJ business runs in Yiddish and on trust, and the inside market is strong. The c
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Kiryas Joel businesses to the wider market
+
+Many Kiryas Joel businesses are strong inside the village and want to reach the wider Orange County market or national buyers. Taking a heimishe, Yiddish-first business into the mainstream without losing what makes it yours is specific work, and it is what I do.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

@@ -22,6 +22,10 @@ Miami is booming, and so is its frum business scene, which means a lot of fast-g
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Miami growth ceiling
+
+Many Miami frum businesses are growing quickly on relationships and the influx, and will plateau the same way others do, when the founder is still every deal. Building the sales function that lets growth continue without him is the work I own.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

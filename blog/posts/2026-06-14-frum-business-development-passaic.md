@@ -22,6 +22,10 @@ Passaic businesses are scaling, and many are hitting the same wall: growth built
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Passaic businesses to the wider market
+
+Plenty of Passaic businesses are solid locally and want to reach beyond the community and the New York commuter belt. Taking a Passaic business into the wider market or national accounts is exactly the jump I help owners make.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

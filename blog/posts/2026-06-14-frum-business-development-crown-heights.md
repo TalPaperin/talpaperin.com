@@ -23,6 +23,10 @@ Crown Heights entrepreneurs think globally by instinct, with networks on every c
 - Build the outreach and the relationships that turn into real deals
 - Run complex B2B and B2G deals from first contact to close
 
+## Taking Crown Heights businesses to the wider market
+
+Few communities are as globally connected as Crown Heights, and few leave as much of it on the table. If you want to turn the Lubavitch network and your own reach into real business development, into new markets, partners and distributors, that is the work I do.
+
 ## Why it works
 
 Business development is where most frum businesses leave the most money on the table. They know their own kehilla cold and have no system for everything beyond it. I find the partners and markets worth pursuing, build the relationships on purpose, and turn reach into signed, repeatable revenue.

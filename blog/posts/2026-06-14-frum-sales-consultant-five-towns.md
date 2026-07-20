@@ -22,6 +22,10 @@ Five Towns businesses often have the product, the capital and the ambition, and 
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond the Five Towns
+
+In the Five Towns, a lot of business moves through a well-connected, professional network across Cedarhurst, Lawrence and Woodmere. Strong relationships open doors, but relationships are not a sales process, and when a Five Towns business needs to sell past its own circle or go national, the warm intros run dry. Building the motion that replaces them is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

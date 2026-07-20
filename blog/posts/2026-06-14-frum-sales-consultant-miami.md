@@ -22,6 +22,10 @@ Miami is booming, and so is its frum business scene, which means a lot of fast-g
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Miami
+
+In Miami, a fast-growing frum community, much of it transplanted, means a lot of business still runs on who you knew up north and who you have met since. That network is real and it is not a sales process. When a Miami business needs to sell beyond its circle or nationally, building the outbound motion to do it is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

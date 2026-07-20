@@ -22,6 +22,10 @@ Flatbush is full of serious businesses and serious professionals who have outgro
 - Put the team, the process and the numbers in place to grow with control
 - Turn a strong local business into one that sells everywhere
 
+## The Flatbush growth ceiling
+
+The common Flatbush pattern is a solid business built on the founder and the neighborhood that flattens once it outgrows word of mouth. Breaking that ceiling means a real sales function that does not depend on the owner knowing everyone personally. That is the work.
+
 ## Why it works
 
 Most frum businesses stall at the size one person can personally carry. Growing past that is not about working more hours, it is about building a machine: a sales system, a team that runs it, and a leader who owns the number so you do not have to be in every deal. That is how a good local business becomes one that sells everywhere.

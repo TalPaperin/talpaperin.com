@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 Flatbush is full of serious businesses and serious professionals who have outgrown referral-only sales. When the founder can no longer be the entire sales team, you need a system and a leader to own the number. That is the role I step into.
 
+## The Flatbush business landscape
+
+Flatbush is a large and varied frum community, yeshivish and modern-orthodox together, with commercial strips along Avenue J, Avenue M and Coney Island Avenue. The business base is heavy on professionals, retail, services, medical, real estate and a growing set of B2B and online companies serving Flatbush, Midwood, Marine Park and beyond. Many are run well but entirely on the owner, which is exactly where growth stalls.
+
 ## What I do for Flatbush frum businesses
 
 - Build your go-to-market and sales process from zero

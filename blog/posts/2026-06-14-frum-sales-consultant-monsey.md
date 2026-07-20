@@ -22,6 +22,10 @@ Between Monsey, Spring Valley, New Square, Kaser, Suffern and Airmont, the area 
 - Own the number with you, hands-on, from first call to signed deal
 - Fix or replace what is not working, without the drama
 
+## Selling in and beyond Monsey
+
+In Monsey, most business still moves on who knows who, from shul, from the neighborhood, from a business introduction that carries weight. That referral engine is powerful and it is also a ceiling. When a Monsey business tries to sell into the wider Rockland market or out to national buyers, the warm introductions run out and there is no real process to replace them. Building that process, without losing the trust-first way you already sell, is the work.
+
 ## Why it works
 
 Real sales is not charm and it is not luck. It is a repeatable system run by trained people who are managed to a number. Most frum businesses never built that system because the owner's good name was doing the selling. I build it, run it, and hand you a sales function that does not depend on you being in every deal.

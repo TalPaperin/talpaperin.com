@@ -14,6 +14,10 @@ I am a frum, shomer Shabbos Yid from Eretz Yisrael who builds and runs sales for
 
 KJ business runs in Yiddish and on trust, and the inside market is strong. The challenge is selling beyond it. I do not speak fluent Yiddish and will not pretend to, but I have worked inside the Yiddish-speaking, heimishe business world for years, and I build the engine that takes a heimishe business into the wider market.
 
+## The Kiryas Joel business landscape
+
+Kiryas Joel, in Orange County, is a large Satmar chassidish village, Yiddish-speaking and young, with a fast-growing business base in manufacturing, retail, services, real estate and wholesale, connected out to Monroe and Woodbury. It is a close, insular market with real entrepreneurial energy. The edge is trust and community. The gap is reaching, and selling to, the world outside the village on its own terms.
+
 ## What I do for Kiryas Joel frum businesses
 
 - Build your go-to-market and sales process from zero
