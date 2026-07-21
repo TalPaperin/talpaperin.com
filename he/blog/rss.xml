@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI בונה צוות עסקי בישראל. זה מספר לכם הכל.</title>
+      <link>https://talpaperin.com/he/blog/openai-building-business-team-in-israel</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/openai-building-business-team-in-israel</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>OpenAI בונה בישראל נוכחות עסקית, לא מרכז פיתוח. מה זה אומר על הפיכת AI להכנסות, ועל גיוס לפי תוצאות במקום לפי מיקום.</description>
+    </item>
     <item>
       <title>TPx הגישה בקשה ל-Chapter 11 עם חוב של 1.1 מיליארד דולר. החוב לא היה הבעיה האמיתית.</title>
       <link>https://talpaperin.com/he/blog/tpx-chapter-11-revenue-engine</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-south-korea</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <description>מכירות B2B בדרום קוריאה: איך הקונה הקוריאני באמת קונה, היררכיה ויחסים, ומערך המכירות, השותפים והתמיכה שאני בונה ומנהל שם.</description>
-    </item>
-    <item>
-      <title>מכירות לממשלות וגופים גדולים (B2G): המשחק הארוך ששווה את זה</title>
-      <link>https://talpaperin.com/he/blog/selling-to-government-b2g</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/selling-to-government-b2g</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <description>מכירה לממשלות וגופים גדולים היא איטית, בירוקרטית ומתסכלת, וגם אחד הנכסים היציבים ביותר שחברה יכולה לבנות. איך משחקים את המשחק הארוך נכון.</description>
     </item>
   </channel>
 </rss>

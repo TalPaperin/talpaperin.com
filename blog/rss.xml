@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI Is Building a Business Team in Israel. That Tells You Everything.</title>
+      <link>https://talpaperin.com/blog/openai-building-business-team-in-israel</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/openai-building-business-team-in-israel</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>OpenAI is building a business team in Israel, not a dev center. What that says about turning AI into revenue, and about hiring for results over location.</description>
+    </item>
     <item>
       <title>TPx Filed for Chapter 11 With $1.1 Billion in Debt. The Debt Was Not the Real Problem.</title>
       <link>https://talpaperin.com/blog/tpx-chapter-11-revenue-engine</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-los-angeles</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Sales for frum and heimishe business owners in Los Angeles, California, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Frum Business Consultant in Flatbush</title>
-      <link>https://talpaperin.com/blog/frum-business-consultant-flatbush</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-flatbush</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Flatbush, Brooklyn. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
     </item>
   </channel>
 </rss>

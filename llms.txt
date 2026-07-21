@@ -71,6 +71,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [OpenAI Is Building a Business Team in Israel. That Tells You Everything.](https://talpaperin.com/blog/openai-building-business-team-in-israel): OpenAI is building a business team in Israel, not a dev center. What that says about turning AI into revenue, and about hiring for results over location.
 - [TPx Filed for Chapter 11 With $1.1 Billion in Debt. The Debt Was Not the Real Problem.](https://talpaperin.com/blog/tpx-chapter-11-revenue-engine): TPx filed Chapter 11 with $1.1B in debt. The real killer was revenue that did not grow fast enough, and that is a Fractional CRO problem, not a VP of Sales one.
 - [Your Sales Team Says the Pipeline Is Healthy. They Are Wrong.](https://talpaperin.com/blog/your-pipeline-is-lying-to-you): Most CEOs think they have a sales execution problem. They have a qualification problem. Here is the test that turns a $2M pipeline into an honest $700K.
 - [From $4.8 Billion to $60 Million. A Great Product Cannot Save a Broken Business Model.](https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model): Nano-X had revolutionary medical imaging tech and still lost 99 percent of its value. The lesson is not the technology. It is business-model-market fit.
