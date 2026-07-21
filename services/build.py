@@ -151,17 +151,13 @@ def _person_node(he=False):
     ) % (PERSON_ID, name, SITE, SITE)
 
 
-def _business_node(he=False, reviews=None, offers=None):
+def _business_node(he=False, offers=None):
     name = "טל פאפרין — סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ" if he else "Tal Paperin — Fractional CRO"
     desc = _BIZ_DESC_HE if he else _BIZ_DESC_EN
     extra = ""
-    if reviews:
-        revs = ",".join(
-            '{"@type":"Review","author":{"@type":"Person","name":"%s"},'
-            '"reviewBody":"%s"}'
-            % (_jsonesc(t["name"]), _jsonesc(t["q"]))
-            for t in reviews if t.get("name"))
-        extra += ',"review":[%s]' % revs
+    # No Review markup: Google requires an aggregateRating alongside multiple
+    # reviews, and Tal's testimonials carry no numeric ratings we would honestly
+    # assert. The testimonials still render as visible HTML on the page.
     if offers:
         items = ",".join(
             '{"@type":"Offer","name":"%s","price":"%s","priceCurrency":"USD",'
@@ -198,11 +194,11 @@ def _website_node(he=False):
             '"inLanguage":"%s","publisher":{"@id":"%s"}}') % (WEBSITE_ID, SITE, lang, BUSINESS_ID)
 
 
-def graph_ld(he=False, reviews=None, offers=None):
+def graph_ld(he=False, offers=None):
     """The shared entity graph (ProfessionalService + Person + WebSite),
-    dropped into every page so @id references from Service/Review/Offer nodes
+    dropped into every page so @id references from Service/Offer nodes
     resolve on-page."""
-    nodes = "%s,%s,%s" % (_business_node(he, reviews, offers),
+    nodes = "%s,%s,%s" % (_business_node(he, offers),
                           _person_node(he), _website_node(he))
     return ('<script type="application/ld+json">'
             '{"@context":"https://schema.org","@graph":[%s]}</script>') % nodes
@@ -4029,12 +4025,12 @@ def build():
 
     with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                   graph=graph_ld(False, reviews=TESTIMONIALS_EN),
+                                   graph=graph_ld(False),
                                    logos=render_logo_wall(LOGOS),
                                    quotes=render_quote_grid(TESTIMONIALS_EN), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                   graph=graph_ld(True, reviews=TESTIMONIALS_HE),
+                                   graph=graph_ld(True),
                                    logos=render_logo_wall(LOGOS),
                                    quotes=render_quote_grid(TESTIMONIALS_HE, he=True), cta=HE_CTA))
 
