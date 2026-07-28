@@ -15,7 +15,7 @@
     { "source": "/wp-admin/:path*", "destination": "/api/gone" },
     { "source": "/wp-content/:path*", "destination": "/api/gone" },
     { "source": "/wp-includes/:path*", "destination": "/api/gone" },
-    { "source": "/wp-login.php", "destination": "/api/gone" },
+    { "source": "/:file(wp-[^/]*\\.php)", "destination": "/api/gone" },
     { "source": "/xmlrpc.php", "destination": "/api/gone" }
   ]
 }
