@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>I Stopped Calling Myself a Sales Trainer. Here Is Why.</title>
+      <link>https://talpaperin.com/blog/why-sales-training-fails</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/why-sales-training-fails</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Most sales training is a two-day sugar high that wears off by Wednesday. I have trained 2,000 salespeople worldwide. The training was never the part that moved revenue.</description>
+    </item>
     <item>
       <title>OpenAI Is Building a Business Team in Israel. That Tells You Everything.</title>
       <link>https://talpaperin.com/blog/openai-building-business-team-in-israel</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-miami</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Growth for frum and heimishe business owners in Miami, Florida, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Frum Sales Consultant in Los Angeles</title>
-      <link>https://talpaperin.com/blog/frum-sales-consultant-los-angeles</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-los-angeles</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales for frum and heimishe business owners in Los Angeles, California, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>

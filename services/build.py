@@ -211,6 +211,7 @@ ARTICLE_GUIDES = {
     "fractional-cro-cost", "fractional-cro-vs-outsourced-sales",
     "fractional-cro-vs-vp-of-sales", "how-to-hire-a-fractional-cro",
     "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
+    "sales-training",
 }
 
 
@@ -2060,6 +2061,38 @@ SERVICE_FAQS_HE = {
 
 
 GUIDES = [
+ {"slug":"sales-training",
+  "title":"B2B Sales Training That Actually Sticks | Tal Paperin",
+  "desc":"Most sales training fails because nobody runs it afterward. I have trained 2,000 salespeople worldwide, then managed them to the number. Here is what works.",
+  "h1":"Sales Training Alone Does Not Work. Here Is What Does.","eyebrow":"Guide",
+  "lead":"I am not a sales trainer. I am a CRO and VP of Sales who has trained more than 2,000 salespeople across the globe, then stayed to manage them until the training showed up in closed deals. That second half is the part everyone skips, and it is the reason most sales training is a waste of money.",
+  "sections":[
+    {"h":"Why most sales training is a waste of money","p":[
+      "You bring in a trainer for two days. The team is fired up. They get a binder, a framework, maybe a role-play. Everyone feels sharper on Friday. By the following Wednesday they are back to selling exactly the way they did before, because nobody changed what happens after the training ends.",
+      "Training is not the product. Behavior change is. And behavior only changes when someone senior inspects it, coaches it, and holds the line every single week. A trainer flies home. A sales leader stays."]},
+    {"h":"I am not a trainer. I am a CRO who trains, then runs the team.","p":[
+      "There is a difference between someone who teaches a workshop and someone who owns the number. I have carried a quota, built the playbook, and sat in the deals myself. When I train your team, I am not teaching theory I read in a book. I am teaching exactly how I would close your deals, because I have closed deals like yours.",
+      "Then I do the part a trainer cannot: I manage the team to make sure it works. I sit in on calls, I inspect the pipeline, I coach the reps who are drifting, and I keep raising the standard until the new way of selling is simply the way your team sells."]},
+    {"h":"2,000 salespeople, then managed to the number","p":[
+      "Over 20-plus years I have trained more than 2,000 salespeople on four continents: SDRs, closers, channel partners and whole teams, in startups and in large organizations. The training was never the point. The point was what happened next: deals closed, cycles shortened, and the number went up and stayed up.",
+      "That is the test I hold myself to. Not how good the session felt on the day, but whether revenue actually moved a quarter later. It does."]},
+    {"h":"What real sales training looks like","ul":[
+      "It starts from your actual deals, your buyers and your real objections, not a generic curriculum",
+      "It is taught by an operator who still sells, so the reps respect it and use it",
+      "It is followed by weekly coaching, call reviews and pipeline inspection, not a binder on a shelf",
+      "It is enforced by a leader who owns the number, so the new behavior sticks",
+      "It is measured in closed revenue and shorter cycles, not in attendance and smiles"]},
+    {"h":"Training without management is theater","p":[
+      "If you only want a one-off workshop to tick a box, I am the wrong person, and honestly you should keep your money. But if you want your team to sell better and keep selling better, you need the training and the management together, from the same person, until it holds. That is what a fractional CRO does, and it is why my clients watch the numbers actually move."]},
+  ],
+  "faqs":[
+    {"q":"Do you offer sales training?","a":"Yes, but not as a standalone workshop. I train your team as part of owning your sales, which means I also manage the team afterward to make sure the training turns into closed deals. I have trained more than 2,000 salespeople worldwide."},
+    {"q":"Why does most sales training not work?","a":"Because the trainer leaves and nobody changes what happens next. Behavior only sticks when a senior leader coaches it, inspects it and holds the standard every week. Training without ongoing management is theater."},
+    {"q":"Who does the training?","a":"I do. I am a CRO and VP of Sales who still sells hands-on. I teach exactly how I would close your deals, from your real pipeline, not a generic curriculum out of a book."},
+    {"q":"How is this different from hiring a sales trainer?","a":"A trainer runs a session and flies home. I train your team and then stay to manage them to the number: call reviews, pipeline inspection and weekly coaching until the new way of selling is simply how your team sells."},
+    {"q":"How much does it cost?","a":"Training is part of a fractional CRO engagement, which runs $2,000 to $12,000 a month depending on how hands-on you need me. Use the calculator on the pricing page for a number in about a minute."}],
+  "related":'See <a href="/services/sales-team-building">sales team building</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/pricing">pricing</a>, or read <a href="/blog/why-sales-training-fails">why most sales training fails</a>.'},
+
  {"slug":"fractional-cro-cost",
   "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
   "desc":"A straight answer on fractional CRO pricing: what it costs per month, how that compares to a $250K full-time CRO, what is included, and when each level is worth it.",
@@ -2932,6 +2965,38 @@ HE_GUIDE_PAGE = '''<!doctype html>
 
 
 HE_GUIDES = [
+ {"slug":"sales-training",
+  "title":"הדרכת מכירות B2B שבאמת נדבקת | טל פאפרין",
+  "desc":"רוב הדרכות המכירות נכשלות כי אף אחד לא מנהל אותן אחר כך. הכשרתי 2,000 אנשי מכירות בעולם, ואז ניהלתי אותם עד למספר. הנה מה שעובד.",
+  "h1":"הדרכת מכירות לבדה לא עובדת. הנה מה שכן.","eyebrow":"מדריך",
+  "lead":"אני לא מדריך מכירות. אני סמנכ״ל מכירות ו-CRO שהכשיר יותר מ-2,000 אנשי מכירות ברחבי העולם, ואז נשאר לנהל אותם עד שההדרכה הופיעה בעסקאות סגורות. החצי השני הזה הוא החלק שכולם מדלגים עליו, וזו הסיבה שרוב הדרכות המכירות הן בזבוז כסף.",
+  "sections":[
+    {"h":"למה רוב הדרכות המכירות הן בזבוז כסף","p":[
+      "מביאים מדריך ליומיים. הצוות מתלהב. הם מקבלים חוברת, מתודולוגיה, אולי משחק תפקידים. כולם מרגישים חדים יותר ביום שישי. עד יום רביעי שאחרי הם חוזרים למכור בדיוק כמו קודם, כי אף אחד לא שינה את מה שקורה אחרי שההדרכה נגמרת.",
+      "ההדרכה היא לא המוצר. שינוי ההתנהגות הוא המוצר. וההתנהגות משתנה רק כשמישהו בכיר בודק אותה, מאמן אותה, ומחזיק את הרף כל שבוע מחדש. מדריך טס הביתה. מנהל מכירות נשאר."]},
+    {"h":"אני לא מדריך. אני CRO שמכשיר, ואז מנהל את הצוות.","p":[
+      "יש הבדל בין מי שמעביר סדנה לבין מי שאחראי על המספר. נשאתי מכסה, בניתי את הפלייבוק, וישבתי בעסקאות בעצמי. כשאני מכשיר את הצוות שלכם, אני לא מלמד תיאוריה שקראתי בספר. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, כי סגרתי עסקאות כמו שלכם.",
+      "ואז אני עושה את החלק שמדריך לא יכול: אני מנהל את הצוות כדי לוודא שזה עובד. אני יושב בשיחות, בודק את הפייפליין, מאמן את הנציגים שסוטים, ומעלה את הרף שוב ושוב עד שהדרך החדשה למכור היא פשוט הדרך שבה הצוות שלכם מוכר."]},
+    {"h":"2,000 אנשי מכירות, ואז ניהול עד למספר","p":[
+      "לאורך יותר מ-20 שנה הכשרתי יותר מ-2,000 אנשי מכירות בארבע יבשות: SDRs, סוגרים, שותפי ערוץ וצוותים שלמים, בסטארטאפים ובארגונים גדולים. ההדרכה מעולם לא הייתה העיקר. העיקר היה מה שקרה אחר כך: עסקאות נסגרו, מחזורי מכירה התקצרו, והמספר עלה ונשאר למעלה.",
+      "זה המבחן שאני מציב לעצמי. לא כמה טובה הרגישה הסדנה באותו יום, אלא אם ההכנסות באמת זזו רבעון אחר כך. הן זזות."]},
+    {"h":"איך נראית הדרכת מכירות אמיתית","ul":[
+      "היא מתחילה מהעסקאות האמיתיות שלכם, מהקונים שלכם ומההתנגדויות האמיתיות, לא מתוכנית גנרית",
+      "היא מועברת על ידי מפעיל שעדיין מוכר, כך שהנציגים מכבדים אותה ומשתמשים בה",
+      "אחריה מגיעים אימון שבועי, סקירת שיחות ובדיקת פייפליין, לא חוברת על המדף",
+      "היא נאכפת על ידי מנהל שאחראי על המספר, כך שההתנהגות החדשה נדבקת",
+      "היא נמדדת בהכנסות שנסגרו ובמחזורים קצרים יותר, לא בנוכחות וחיוכים"]},
+    {"h":"הדרכה בלי ניהול היא הצגה","p":[
+      "אם אתם רק רוצים סדנה חד פעמית כדי לסמן וי, אני האדם הלא נכון, ובכנות עדיף שתשמרו את הכסף. אבל אם אתם רוצים שהצוות שלכם ימכור טוב יותר וימשיך למכור טוב יותר, אתם צריכים את ההדרכה ואת הניהול יחד, מאותו אדם, עד שזה מחזיק. זה מה שסמנכ״ל מכירות במיקור חוץ עושה, וזו הסיבה שהלקוחות שלי רואים את המספרים באמת זזים."]},
+  ],
+  "faqs":[
+    {"q":"אתה מציע הדרכת מכירות?","a":"כן, אבל לא כסדנה עצמאית. אני מכשיר את הצוות שלכם כחלק מלקיחת אחריות על המכירות, כלומר אני גם מנהל את הצוות אחר כך כדי לוודא שההדרכה הופכת לעסקאות סגורות. הכשרתי יותר מ-2,000 אנשי מכירות בעולם."},
+    {"q":"למה רוב הדרכות המכירות לא עובדות?","a":"כי המדריך עוזב ואף אחד לא משנה את מה שקורה אחר כך. התנהגות נדבקת רק כשמנהל בכיר מאמן אותה, בודק אותה ומחזיק את הרף כל שבוע. הדרכה בלי ניהול מתמשך היא הצגה."},
+    {"q":"מי מעביר את ההדרכה?","a":"אני. אני סמנכ״ל מכירות ו-CRO שעדיין מוכר בידיים. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, מהפייפליין האמיתי שלכם, לא מתוכנית גנרית מתוך ספר."},
+    {"q":"במה זה שונה משכירת מדריך מכירות?","a":"מדריך מעביר סדנה וטס הביתה. אני מכשיר את הצוות ואז נשאר לנהל אותו עד למספר: סקירת שיחות, בדיקת פייפליין ואימון שבועי עד שהדרך החדשה למכור היא פשוט איך שהצוות שלכם מוכר."},
+    {"q":"כמה זה עולה?","a":"ההדרכה היא חלק מהתקשרות של סמנכ״ל מכירות במיקור חוץ, שנעה בין 2,000 ל-12,000 דולר בחודש תלוי כמה מעורבות אתם צריכים. השתמשו במחשבון בעמוד התמחור לקבלת מספר בערך בדקה."}],
+  "related":'ראו <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, את <a href="/he/services/fractional-cro">שירות סמנכ״ל המכירות במיקור חוץ</a>, <a href="/he/pricing">תמחור</a>, או קראו <a href="/he/blog/why-sales-training-fails">למה רוב הדרכות המכירות נכשלות</a>.'},
+
  {"slug":"fractional-cro-cost",
   "title":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ? | טל פאפרין",
   "desc":"תשובה ישירה על תמחור סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ: כמה זה עולה בחודש, איך זה משתווה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה של 250 אלף דולר, מה כלול, ומתי כל רמה שווה את זה.",
@@ -3358,7 +3423,7 @@ GUIDE_CATS = [
    "how-to-hire-a-fractional-cro", "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
    "fractional-cro-cost", "fractional-cro-vs-vp-of-sales", "fractional-cro-vs-outsourced-sales",
    "interim-cro", "outsourced-cro", "fractional-vp-of-sales", "fractional-chief-sales-officer",
-   "fractional-cro-for-startups"]),
+   "fractional-cro-for-startups", "sales-training"]),
  ("By industry", "לפי תעשייה", [
    "fractional-cro-for-saas", "fractional-cro-for-iot-hardware", "fractional-cro-for-medical-devices",
    "fractional-cro-for-manufacturers", "fractional-cro-for-cybersecurity", "fractional-cro-for-fintech",
