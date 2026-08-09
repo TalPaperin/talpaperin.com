@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>BioCatch Sold to Visa for $2.4 Billion. The Lesson Is Not the Technology.</title>
+      <link>https://talpaperin.com/blog/biocatch-visa-exit-sales-machine</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/biocatch-visa-exit-sales-machine</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>BioCatch went from $7M to $100M ARR before Visa paid $2.4 billion. The lesson for founders is not the tech. It is the repeatable sales machine that scaled it.</description>
+    </item>
     <item>
       <title>I Stopped Calling Myself a Sales Trainer. Here Is Why.</title>
       <link>https://talpaperin.com/blog/why-sales-training-fails</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-miami</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Miami, Florida. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
-    </item>
-    <item>
-      <title>Growing Your Frum Business in Miami</title>
-      <link>https://talpaperin.com/blog/growing-your-frum-business-miami</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-miami</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Growth for frum and heimishe business owners in Miami, Florida, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>

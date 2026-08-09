@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>BioCatch נמכרה לוויזה ב-2.4 מיליארד דולר. הלקח הוא לא הטכנולוגיה.</title>
+      <link>https://talpaperin.com/he/blog/biocatch-visa-exit-sales-machine</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/biocatch-visa-exit-sales-machine</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>BioCatch עברה מ-7 מיליון דולר ל-100 מיליון דולר ARR לפני שוויזה שילמה 2.4 מיליארד. הלקח למייסדים הוא לא הטכנולוגיה, אלא מכונת המכירות שהניעה את הצמיחה.</description>
+    </item>
     <item>
       <title>הפסקתי לקרוא לעצמי מדריך מכירות. הנה למה.</title>
       <link>https://talpaperin.com/he/blog/why-sales-training-fails</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/i-got-added-to-a-bds-boycott-list-here-is</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
       <description>אתר חרם לא רק מפרט חברות, הוא גם ממליץ על חלופות. מתחת ל-KSW Solutions? &quot;עדיין לא נרשמו חלופות&quot;.</description>
-    </item>
-    <item>
-      <title>בניית מערך מכירות בסין</title>
-      <link>https://talpaperin.com/he/blog/building-a-sales-operation-in-china</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-china</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <description>מכירות B2B בסין: איך הקונה הסיני באמת קונה, יחסים ונוכחות מקומית, ומערך המכירות, השותפים והתמיכה שאני בונה ומנהל שם.</description>
     </item>
   </channel>
 </rss>
