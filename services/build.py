@@ -3596,9 +3596,19 @@ PRICING_EN = {
    "bestfor":"Teams with a marketing function in place that need clear leadership, ownership and accountability.",
    "incl":["Leadership of the marketing function and its priorities","Alignment between marketing, sales and executive leadership","Ongoing intervention when execution or results fall short"]},
  ],
+ "perf":{
+  "h":"Skin in the game, in addition",
+  "sub":"Every price above is fixed and monthly. On top of it, we share in the growth, measured against a baseline we agree up front.",
+  "items":[
+    ("3%","of net new ARR","Me, your CRO"),
+    ("10%","of first-year deal value","Account Executives"),
+    ("$50","per qualified meeting held","SDRs"),
+  ],
+  "note":"Added on top of the monthly fee, never instead of it. Client-funded, no hidden fees, no games.",
+ },
  "faq_h":"Common questions",
  "faq":[
-  ("How does pricing work?","Flat monthly retainers. No long contracts and no exit fines. You can move up or down a tier as the business changes."),
+  ("How does pricing work?","Flat monthly retainers, plus a performance share on top: 3% of net new ARR to me, 10% of first-year deal value to the account executives, and $50 per qualified meeting held to the SDRs. No long contracts and no exit fines. You can move up or down a tier as the business changes."),
   ("What is the difference between the tiers?","Advisor is senior direction on call. Starter and Growth are both hands-on: in both I hire, train and manage your salespeople and own the motion. The difference is time, Starter is about 2 hours a day, Growth is half my day, every day. CRO Ownership is full end-to-end ownership of revenue across sales, marketing and GTM."),
   ("Can I add a sales team?","Yes. SDRs can be added to any package. I source, train and manage them, integrated with the leadership you already have."),
   ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
@@ -3671,9 +3681,19 @@ PRICING_HE = {
    "bestfor":"צוותים עם פונקציית שיווק קיימת שצריכים הובלה, בעלות ואחריותיות ברורות.",
    "incl":["הובלת פונקציית השיווק והעדיפויות שלה","תיאום בין שיווק, מכירות והנהלה בכירה","התערבות שוטפת כשהביצוע או התוצאות לא עומדים ביעד"]},
  ],
+ "perf":{
+  "h":"אחריות על התוצאה, בנוסף",
+  "sub":"כל מחיר למעלה הוא קבוע וחודשי. מעליו אנחנו שותפים לצמיחה, נמדדת מול בסיס שנסכם עליו מראש.",
+  "items":[
+    ("3%","מה-ARR נטו החדש","אני, ה-CRO שלכם"),
+    ("10%","משווי העסקה בשנה הראשונה","אנשי מכירות (AE)"),
+    ("$50","לכל פגישה מוכשרת שהתקיימה","SDRs"),
+  ],
+  "note":"מתווסף מעל התשלום החודשי, אף פעם לא במקומו. ממומן על ידי הלקוח, בלי עמלות נסתרות, בלי משחקים.",
+ },
  "faq_h":"שאלות נפוצות",
  "faq":[
-  ("איך התמחור עובד?","ריטיינרים חודשיים קבועים. בלי חוזים ארוכים ובלי קנסות יציאה. אפשר לעלות או לרדת דרגה ככל שהעסק משתנה."),
+  ("איך התמחור עובד?","ריטיינרים חודשיים קבועים, בתוספת שותפות בתוצאה מעליהם: 3% מה-ARR נטו החדש אליי, 10% משווי העסקה בשנה הראשונה לאנשי המכירות, ו-50 דולר לכל פגישה מוכשרת שהתקיימה ל-SDRs. בלי חוזים ארוכים ובלי קנסות יציאה. אפשר לעלות או לרדת דרגה ככל שהעסק משתנה."),
   ("מה ההבדל בין החבילות?","Advisor הוא כיוון בכיר בטלפון. Starter ו-Growth שניהם בידיים: בשניהם אני מגייס, מכשיר ומנהל את אנשי המכירות שלכם ומחזיק את התנועה. ההבדל הוא זמן, Starter הוא כשעתיים ביום, Growth הוא חצי מהיום שלי, כל יום. CRO Ownership היא בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-GTM."),
   ("אפשר להוסיף צוות מכירות?","כן. אפשר להוסיף SDRs לכל חבילה. אני מאתר, מכשיר ומנהל אותם, משולבים בהנהגה שכבר יש לכם."),
   ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
@@ -3740,6 +3760,26 @@ def render_pricing_body(d, cal):
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
+    # performance-share banner (added on top of the fixed fees)
+    p = d.get("perf")
+    if p:
+        items = "".join(
+            ('<div style="flex:1 1 180px;background:#10151e;border:1px solid rgba(255,255,255,.10);'
+             'border-radius:14px;padding:22px 18px;text-align:center">'
+             '<div style="font-weight:800;font-size:2.4rem;line-height:1;color:#E67E22">%s</div>'
+             '<div style="color:#fff;font-weight:600;font-size:.95rem;margin-top:8px">%s</div>'
+             '<div style="color:var(--soft);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;margin-top:8px">%s</div>'
+             '</div>') % (esc(a), esc(of), esc(who))
+            for a, of, who in p["items"])
+        out.append(
+            '      <h2 class="price-h2">%s</h2>' % esc(p["h"]))
+        out.append(
+            '      <div class="perf-banner" style="background:radial-gradient(80%% 130%% at 18%% 0%%,#0c2237 0%%,#0a0e14 60%%);'
+            'border:1px solid rgba(90,176,255,.35);border-radius:18px;padding:30px 28px;margin-top:16px">'
+            '<p style="color:var(--soft);margin:0 0 20px;max-width:640px">%s</p>'
+            '<div style="display:flex;gap:16px;flex-wrap:wrap">%s</div>'
+            '<p class="price-note" style="margin-top:20px">%s</p></div>'
+            % (esc(p["sub"]), items, esc(p["note"])))
     # quote calculator (outcomes-based questionnaire)
     def _num(p):
         return int(p.replace("$", "").replace(",", ""))
