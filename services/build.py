@@ -3605,6 +3605,9 @@ PRICING_EN = {
     ("$50","per qualified meeting held","SDRs"),
   ],
   "note":"Added on top of the monthly fee, never instead of it. Client-funded, no hidden fees, no games.",
+  "star_title":"Plus a performance share on top",
+  "star_note":"★ Plus a performance share, added on top of this fee.",
+  "star_link":"See the details",
  },
  "faq_h":"Common questions",
  "faq":[
@@ -3690,6 +3693,9 @@ PRICING_HE = {
     ("$50","לכל פגישה מוכשרת שהתקיימה","SDRs"),
   ],
   "note":"מתווסף מעל התשלום החודשי, אף פעם לא במקומו. ממומן על ידי הלקוח, בלי עמלות נסתרות, בלי משחקים.",
+  "star_title":"בתוספת שותפות בתוצאה, מעל התשלום",
+  "star_note":"★ בתוספת שותפות בתוצאה, מעל התשלום הזה.",
+  "star_link":"לפרטים",
  },
  "faq_h":"שאלות נפוצות",
  "faq":[
@@ -3737,25 +3743,31 @@ PRICING_HE = {
 
 def render_pricing_body(d, cal):
     book = d["book"]
-    def card(t):
+    star = ('<a href="#perf" title="%s" style="color:#E67E22;text-decoration:none;font-weight:800;'
+            'font-size:1.15rem;vertical-align:super;line-height:0;margin-left:3px">&#9733;</a>'
+            ) % esc(d.get("perf", {}).get("star_title", "")) if d.get("perf") else ""
+    def card(t, mark=False):
         badge = ('<span class="badge">%s</span>' % esc(t["badge"])) if t.get("badge") else '<span class="badge badge-empty">&nbsp;</span>'
         feat = " feat" if t.get("feat") else ""
         lis = "".join("<li>%s</li>" % esc(x) for x in t["incl"])
         return ('<div class="tier%s">%s<span class="commit">%s</span><h3>%s</h3>'
-                '<div class="amount">%s<span> %s</span></div><p class="bestfor">%s</p>'
+                '<div class="amount">%s<span> %s</span>%s</div><p class="bestfor">%s</p>'
                 '<ul class="incl">%s</ul></div>'
                 ) % (feat, badge, esc(t["commit"]), esc(t["name"]), esc(t["price"]), esc(t["per"]),
-                     esc(t["bestfor"]), lis)
+                     star if mark else "", esc(t["bestfor"]), lis)
     out = []
     out.append('      <h2>%s</h2>' % esc(d["cro_h"]))
-    out.append('      <div class="price-grid cols4">%s</div>' % "".join(card(t) for t in d["cro"]))
+    out.append('      <div class="price-grid cols4">%s</div>' % "".join(card(t, mark=True) for t in d["cro"]))
+    if d.get("perf"):
+        out.append('      <p style="color:#E67E22;font-size:.9rem;margin-top:14px">%s <a href="#perf" style="color:#E67E22">%s</a></p>'
+                   % (esc(d["perf"]["star_note"]), esc(d["perf"]["star_link"])))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["sdr_h"]))
     left = ('<div class="tier"><span class="commit">%s</span><h3>%s</h3><p class="bestfor">%s</p><ul class="incl">%s</ul></div>'
             ) % (esc(d["add_label"]), esc(d["sdr_name"]), esc(d["sdr_desc"]),
                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_incl"]))
-    right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span></div>'
+    right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span>%s</div>'
              '<ul class="incl">%s</ul><p class="price-note">%s</p></div>'
-             ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]),
+             ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]), star,
                   "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), esc(d["sdr_price_note"]))
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
@@ -3772,7 +3784,7 @@ def render_pricing_body(d, cal):
              '</div>') % (esc(a), esc(of), esc(who))
             for a, of, who in p["items"])
         out.append(
-            '      <h2 class="price-h2">%s</h2>' % esc(p["h"]))
+            '      <h2 class="price-h2" id="perf">%s</h2>' % esc(p["h"]))
         out.append(
             '      <div class="perf-banner" style="background:radial-gradient(80%% 130%% at 18%% 0%%,#0c2237 0%%,#0a0e14 60%%);'
             'border:1px solid rgba(90,176,255,.35);border-radius:18px;padding:30px 28px;margin-top:16px">'
