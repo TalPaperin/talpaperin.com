@@ -3806,6 +3806,10 @@ def render_pricing_body(d, cal):
               "print": d["calc_print"], "lang": d["calc_lang"], "dir": d["calc_dir"],
               "brand": "TAL PAPERIN", "tagline": d["calc_tagline"], "site": "talpaperin.com",
               "result_note": d["calc_result_note"], "none": d["calc_none_label"]}
+    if d.get("perf"):
+        labels["perf_h"] = d["perf"]["h"]
+        labels["perf_items"] = ["%s %s (%s)" % (a, of, who) for a, of, who in d["perf"]["items"]]
+        labels["perf_note"] = d["perf"]["note"]
     qhtml = ""
     for q in d["calc_q"]:
         cls = " qc-q-reps" if q.get("reps") else ""

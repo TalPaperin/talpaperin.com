@@ -41,6 +41,15 @@
     return items;
   }
 
+  function perfItems() { return (L.perf_items && L.perf_items.length) ? L.perf_items : null; }
+  function perfHtml() {
+    var it = perfItems();
+    if (!it) return '';
+    return '<div class="qc-sub-h">' + L.perf_h + '</div><ul class="qc-out">' +
+      it.map(function (t) { return '<li>' + t + '</li>'; }).join('') +
+      '</ul><p class="qc-result-note">' + L.perf_note + '</p>';
+  }
+
   function syncSliders() {
     if (!sliders) return;
     if (st.tier != null) sliders.hidden = false;
@@ -60,6 +69,7 @@
       '<ul class="qc-out">' + bullets + '</ul>' +
       '<div class="qc-sub-h">' + L.cost_h + '</div>' +
       '<div class="qc-cost">' + money(cost()) + '<span>' + L.mo + '</span></div>' +
+      perfHtml() +
       '<p class="qc-result-note">' + L.result_note + '</p>';
     syncSliders();
     var m = calc.querySelector('.qc-email-btn');
@@ -72,6 +82,8 @@
     lines.push('', L.outcome_h + ':');
     outcomeLines().forEach(function (t) { lines.push('- ' + t); });
     lines.push('', L.cost_h + ': ' + money(cost()) + L.mo);
+    var pit = perfItems();
+    if (pit) { lines.push('', L.perf_h + ':'); pit.forEach(function (t) { lines.push('- ' + t); }); lines.push('(' + L.perf_note + ')'); }
     var name = val('.qc-name'), email = val('.qc-email'), company = val('.qc-company');
     if (name || email || company) {
       lines.push('', '---');
@@ -142,6 +154,7 @@
       '<p class="why">' + tiers[st.tier].why + '</p>' +
       '<h3>' + L.outcome_h + '</h3><ul>' + bullets + '</ul>' +
       '<table>' + rows + '<tr class="total"><td>' + L.cost_h + '</td><td class="p">' + money(cost()) + L.mo + '</td></tr></table>' +
+      (perfItems() ? '<h3>' + L.perf_h + '</h3><ul>' + perfItems().map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul><p class="terms">' + L.perf_note + '</p>' : '') +
       '<p class="terms">' + L.terms + '</p>' +
       '<div class="foot">' + L.book + ': <a href="' + L.book_url + '">' + L.book_url + '</a> · <a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></div>' +
       '<div class="noprint"><button class="pbtn" onclick="window.print()">' + L.print + '</button></div>' +
