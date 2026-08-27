@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>חברה שכרה אותי כדי לצמוח פי 30. הנה התשובה הכנה.</title>
+      <link>https://talpaperin.com/he/blog/can-you-grow-a-company-30x</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/can-you-grow-a-company-30x</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description>חברה שכרה אותי כדי לצמוח פי 30. גרנט קרדון עושה פי 10. אפשר באמת לצמוח פי 30? כן, אבל רק אם עובדים אחורה ובונים את המכונה שמייצרת את זה.</description>
+    </item>
     <item>
       <title>BioCatch נמכרה לוויזה ב-2.4 מיליארד דולר. הלקח הוא לא הטכנולוגיה.</title>
       <link>https://talpaperin.com/he/blog/biocatch-visa-exit-sales-machine</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/sentinelone-hit-1b-in-revenue-then-laid-off-300-people</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <description>חברה יכולה לצמוח ועדיין להפוך לפחות רווחית. &quot;אנחנו צומחים&quot; הוא אחד המשפטים הכי מסוכנים בעסקים. צומחים מה בדיוק?</description>
-    </item>
-    <item>
-      <title>הוספתי לרשימת חרם של BDS. הנה למה זה עוזר לעסק שלי.</title>
-      <link>https://talpaperin.com/he/blog/i-got-added-to-a-bds-boycott-list-here-is</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/i-got-added-to-a-bds-boycott-list-here-is</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <description>אתר חרם לא רק מפרט חברות, הוא גם ממליץ על חלופות. מתחת ל-KSW Solutions? &quot;עדיין לא נרשמו חלופות&quot;.</description>
     </item>
   </channel>
 </rss>
