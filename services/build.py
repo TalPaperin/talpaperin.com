@@ -292,7 +292,9 @@ SERVICES = [
      "html":PPM_PRICE_EN},
     {"h":"What counts as a meeting","p":[
       "No catch, but we agree on what a meeting means before we start. You approve the ICP and the personas. We go after them. If someone who matches those criteria agrees to meet and we schedule a date and time, that is a booked meeting.",
-      "We count meetings booked, not meetings attended. If the prospect later reschedules, cancels or does not show, that does not undo the work that created the meeting. And a booked meeting is not a guaranteed sale. We are responsible for getting the right person to agree to a sales conversation. What happens in and after that conversation depends on your product, offer, process and salespeople."]},
+      "We count meetings booked, not meetings attended. If the prospect later reschedules, cancels or does not show, that does not undo the work that created the meeting, so the meeting still counts and is still paid.",
+      "That said, I am not here to bill you for a name on a calendar that never shows. If a booked meeting no-shows or cancels, we rebook it for you at no extra charge. To be clear, the original booking still counts and is still paid: the free rebooking is a courtesy on top, because what you are really buying is the conversation, and we keep working until you get it.",
+      "And a booked meeting is not a guaranteed sale. We are responsible for getting the right person to agree to a sales conversation. What happens in and after that conversation depends on your product, offer, process and salespeople."]},
     {"h":"Why pay this way","p":[
       "Because it aligns us. A traditional SDR service charges a flat retainer, allocates people, sends thousands of emails and sends you activity reports. Maybe you get meetings, maybe you do not, and you pay the same either way.",
       "I prefer a simpler conversation: how many meetings did we book? Three, you pay the three-meeting tier. Seventeen, you pay the fifteen-plus tier. The incentive is obvious. The more meetings we get you, the more we make."]},
@@ -818,7 +820,9 @@ HE_SERVICES = [
      "html":PPM_PRICE_HE},
     {"h":"מה נחשב פגישה","p":[
       "אין קאץ׳, אבל אנחנו מסכמים מה זו פגישה לפני שמתחילים. אתם מאשרים את ה-ICP ואת הפרסונות. אנחנו הולכים אליהם. אם מישהו שתואם לקריטריונים מסכים להיפגש ואנחנו קובעים תאריך ושעה, זו פגישה שנקבעה.",
-      "אנחנו סופרים פגישות שנקבעו, לא פגישות שהתקיימו. אם הפרוספקט אחר כך דוחה, מבטל או לא מגיע, זה לא מבטל את העבודה שיצרה את הפגישה. ופגישה שנקבעה היא לא מכירה מובטחת. אנחנו אחראים להביא את האדם הנכון להסכים לשיחת מכירה. מה שקורה במהלך השיחה ואחריה תלוי במוצר, בהצעה, בתהליך ובאנשי המכירות שלכם."]},
+      "אנחנו סופרים פגישות שנקבעו, לא פגישות שהתקיימו. אם הפרוספקט אחר כך דוחה, מבטל או לא מגיע, זה לא מבטל את העבודה שיצרה את הפגישה, ולכן הפגישה עדיין נספרת ועדיין משולמת.",
+      "עם זאת, אני לא כאן כדי לחייב אתכם על שם ביומן שלא מגיע. אם פגישה שנקבעה לא מתקיימת או מבוטלת, אנחנו קובעים אותה מחדש בלי חיוב נוסף. שיהיה ברור: הפגישה המקורית עדיין נספרת ועדיין משולמת, הקביעה מחדש היא בונוס מצדנו, כי מה שאתם באמת קונים זו השיחה, ואנחנו ממשיכים לעבוד עד שתקבלו אותה.",
+      "ופגישה שנקבעה היא לא מכירה מובטחת. אנחנו אחראים להביא את האדם הנכון להסכים לשיחת מכירה. מה שקורה במהלך השיחה ואחריה תלוי במוצר, בהצעה, בתהליך ובאנשי המכירות שלכם."]},
     {"h":"למה לשלם ככה","p":[
       "כי זה מיישר אותנו. שירות SDR מסורתי גובה ריטיינר קבוע, מקצה אנשים, שולח אלפי מיילים ושולח לכם דוחות פעילות. אולי תקבלו פגישות, אולי לא, ואתם משלמים אותו דבר כך או כך.",
       "אני מעדיף שיחה פשוטה יותר: כמה פגישות קבענו? שלוש, אתם משלמים את מדרגת שלוש הפגישות. שבע עשרה, אתם משלמים את מדרגת ה-15+. התמריץ ברור. ככל שנשיג לכם יותר פגישות, כך נרוויח יותר."]},
@@ -2093,7 +2097,7 @@ SERVICE_FAQS_EN = {
  "pay-per-meeting":[
   {"q":"What is pay-per-meeting appointment setting?","a":"You pay for the qualified B2B sales meetings we book on your calendar, not for emails, leads or lists. We define your ICP, find and contact the right people, and book the meetings. You run and close them."},
   {"q":"How much does it cost?","a":"A one-time $5,000 setup to launch the campaign, then a monthly fee that tracks the meetings we book: $4,000 for up to 3, $5,500 for 4 to 6, $8,000 for 7 to 14, and $10,000 for 15 or more. Fewer meetings, you pay less."},
-  {"q":"Do you count meetings booked or attended?","a":"Booked. If a prospect who matches the agreed ICP agrees to a date and time, that is a booked meeting. Reschedules and no-shows do not undo the work that created it, and a meeting is not a guaranteed sale."},
+  {"q":"Do you count meetings booked or attended?","a":"Booked. If a prospect who matches the agreed ICP agrees to a date and time, that is a booked meeting, and it counts and is paid even if they later reschedule or no-show. That said, if a booked meeting no-shows we rebook it for you free of charge as a courtesy, since what you really want is the conversation."},
   {"q":"How is this different from a retainer SDR service?","a":"A retainer bills you the same whether you get meetings or not. This bills by results: the more meetings we book, the more we make, so our incentives are aligned with yours."}],
  "fractional-cro":[
   {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your strategy, team, pipeline, forecast and the number, part time, without a full-time CRO salary or a long-term lock-in."},
@@ -2133,7 +2137,7 @@ SERVICE_FAQS_HE = {
  "pay-per-meeting":[
   {"q":"מה זה תשלום לפי פגישה?","a":"אתם משלמים על פגישות המכירה המוכשרות ב-B2B שאנחנו קובעים ביומן שלכם, לא על מיילים, לידים או רשימות. אנחנו מגדירים ICP, מוצאים ופונים לאנשים הנכונים וקובעים את הפגישות. אתם מריצים וסוגרים אותן."},
   {"q":"כמה זה עולה?","a":"דמי הקמה חד פעמיים של 5,000 דולר להשקת הקמפיין, ואז תשלום חודשי שתואם למספר הפגישות שקבענו: 4,000 דולר עד 3, 5,500 דולר ל-4 עד 6, 8,000 דולר ל-7 עד 14, ו-10,000 דולר ל-15 ומעלה. פחות פגישות, אתם משלמים פחות."},
-  {"q":"אתם סופרים פגישות שנקבעו או שהתקיימו?","a":"שנקבעו. אם פרוספקט שתואם ל-ICP שסיכמנו מסכים לתאריך ושעה, זו פגישה שנקבעה. דחיות ואי-הגעה לא מבטלות את העבודה שיצרה אותה, ופגישה אינה מכירה מובטחת."},
+  {"q":"אתם סופרים פגישות שנקבעו או שהתקיימו?","a":"שנקבעו. אם פרוספקט שתואם ל-ICP שסיכמנו מסכים לתאריך ושעה, זו פגישה שנקבעה, והיא נספרת ומשולמת גם אם אחר כך ידחו או לא יגיעו. עם זאת, אם פגישה שנקבעה לא מתקיימת אנחנו קובעים אותה מחדש בלי חיוב כבונוס, כי מה שאתם באמת רוצים זו השיחה."},
   {"q":"במה זה שונה משירות SDR בריטיינר?","a":"ריטיינר גובה מכם אותו דבר בין אם קיבלתם פגישות ובין אם לא. כאן משלמים לפי תוצאה: ככל שנקבע יותר פגישות, כך נרוויח יותר, כך שהתמריצים שלנו מיושרים עם שלכם."}],
  "fractional-cro":[
   {"q":"מה זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על האסטרטגיה, הצוות, הפייפליין, התחזית והתוצאות, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
@@ -3916,7 +3920,7 @@ def render_pricing_body(d, cal):
         out.append('      <h2 class="price-h2">%s</h2>' % esc(d["ppm_h"]))
         out.append('      <p class="bestfor">%s</p>' % esc(d["ppm_desc"]))
         out.append('      ' + d["ppm_price"])
-        out.append('      <p class="price-note">%s <a href="%s">%s</a>.</p>'
+        out.append('      <p class="price-note">%s <a href="%s" style="color:var(--blue);font-weight:600">%s</a>.</p>'
                    % (esc(d["ppm_more"]), d["ppm_url"], esc(d["ppm_more_link"])))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))

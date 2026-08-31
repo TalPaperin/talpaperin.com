@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Stop Paying SDR Retainers for Activity. Pay for Meetings.](https://talpaperin.com/blog/pay-per-meeting-not-per-retainer): Most SDR services bill a flat retainer for activity. I built the opposite: you pay for the qualified B2B meetings we actually book. Fewer meetings, you pay less.
 - [A Client Hired Me to Grow Them 30X. Here Is the Honest Answer.](https://talpaperin.com/blog/can-you-grow-a-company-30x): A company hired me to grow them 30X. Grant Cardone does 10X. Can you actually 30X a business? Yes, but only if you work backwards and build the machine to produce it.
 - [BioCatch Sold to Visa for $2.4 Billion. The Lesson Is Not the Technology.](https://talpaperin.com/blog/biocatch-visa-exit-sales-machine): BioCatch went from $7M to $100M ARR before Visa paid $2.4 billion. The lesson for founders is not the tech. It is the repeatable sales machine that scaled it.
 - [I Stopped Calling Myself a Sales Trainer. Here Is Why.](https://talpaperin.com/blog/why-sales-training-fails): Most sales training is a two-day sugar high that wears off by Wednesday. I have trained 2,000 salespeople worldwide. The training was never the part that moved revenue.
