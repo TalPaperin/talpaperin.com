@@ -11,6 +11,7 @@
   var L = JSON.parse(calc.getAttribute('data-labels') || '{}');
   var subject = calc.getAttribute('data-subject') || 'Quote request';
   var R1 = +calc.getAttribute('data-sdr-r1'), R2 = +calc.getAttribute('data-sdr-r2'), R3 = +calc.getAttribute('data-sdr-r3');
+  var PS = +calc.getAttribute('data-ppm-setup') || 0;
   var repsQ = calc.querySelector('.qc-q-reps');
   var result = calc.querySelector('.qc-result');
   var sliders = calc.querySelector('.qc-sliders');
@@ -18,19 +19,23 @@
   var croV = calc.querySelector('.qc-cro-val'), sdrV = calc.querySelector('.qc-sdr-val'), mkV = calc.querySelector('.qc-mk-val');
   var isHe = L.lang === 'he';
 
-  var st = { tier: null, sdr: 0, reps: 1, mk: 0, mkname: '', mkout: '' };
+  var st = { tier: null, sdr: 0, reps: 1, mk: 0, mkname: '', mkout: '', ppm: 0 };
+  function recName() { return st.tier != null ? tiers[st.tier].name : (st.ppm ? L.ppm_rec_name : ''); }
+  function recWhy() { return st.tier != null ? tiers[st.tier].why : ''; }
+  function setupNote() { return st.ppm ? (money(PS) + ' ' + L.ppm_setup_label) : ''; }
 
   function money(n) { return '$' + (n || 0).toLocaleString('en-US'); }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
   function sdrPrice(n) { n = +n || 0; if (n <= 0) return 0; if (n === 1) return R1; if (n === 2) return R2; return n * R3; }
   function mkIndex() { for (var i = 0; i < marketing.length; i++) if (+marketing[i].mk === +st.mk) return i; return 0; }
-  function cost() { return (st.tier != null ? tiers[st.tier].price : 0) + (st.sdr ? sdrPrice(st.reps) : 0) + (+st.mk || 0); }
+  function cost() { return (st.tier != null ? tiers[st.tier].price : 0) + (st.sdr ? sdrPrice(st.reps) : 0) + (+st.mk || 0) + (+st.ppm || 0); }
 
   function outcomeLines() {
     var out = [];
     if (st.tier != null) out.push(cap(tiers[st.tier].outcome));
     if (st.sdr && st.reps > 0) out.push(cap(L.sdr_outcome.replace('{n}', st.reps).replace('{w}', st.reps > 1 ? L.sdr_wordN : L.sdr_word1)));
     if (st.mk && st.mkout) out.push(cap(st.mkout));
+    if (st.ppm) out.push(L.ppm_outcome);
     return out;
   }
   function lineItems() {
@@ -38,6 +43,7 @@
     if (st.tier != null) items.push([tiers[st.tier].name + ' (' + tiers[st.tier].commit + ')', tiers[st.tier].price]);
     if (st.sdr && st.reps > 0) items.push([L.sdr_line + ' (' + st.reps + ' ' + (st.reps > 1 ? L.sdr_wordN : L.sdr_word1) + ')', sdrPrice(st.reps)]);
     if (st.mk) items.push([st.mkname, +st.mk]);
+    if (st.ppm) items.push([L.ppm_line, +st.ppm]);
     return items;
   }
 
@@ -59,16 +65,17 @@
   }
 
   function renderResult() {
-    if (st.tier == null) { result.innerHTML = '<p class="qc-prompt">' + L.prompt + '</p>'; return; }
+    if (st.tier == null && !st.ppm) { result.innerHTML = '<p class="qc-prompt">' + L.prompt + '</p>'; return; }
     var bullets = outcomeLines().map(function (t) { return '<li>' + t + '</li>'; }).join('');
     result.innerHTML =
       '<div class="qc-rec-label">' + L.recommended + '</div>' +
-      '<div class="qc-rec-name">' + tiers[st.tier].name + '</div>' +
-      '<p class="qc-why">' + tiers[st.tier].why + '</p>' +
+      '<div class="qc-rec-name">' + recName() + '</div>' +
+      (recWhy() ? '<p class="qc-why">' + recWhy() + '</p>' : '') +
       '<div class="qc-sub-h">' + L.outcome_h + '</div>' +
       '<ul class="qc-out">' + bullets + '</ul>' +
       '<div class="qc-sub-h">' + L.cost_h + '</div>' +
       '<div class="qc-cost">' + money(cost()) + '<span>' + L.mo + '</span></div>' +
+      (setupNote() ? '<p class="qc-result-note">+ ' + setupNote() + '</p>' : '') +
       perfHtml() +
       '<p class="qc-result-note">' + L.result_note + '</p>';
     syncSliders();
@@ -78,10 +85,11 @@
 
   function emailBody() {
     var lines = [L.quote_title + ' — talpaperin.com', ''];
-    if (st.tier != null) lines.push(L.recommended + ': ' + tiers[st.tier].name);
+    if (recName()) lines.push(L.recommended + ': ' + recName());
     lines.push('', L.outcome_h + ':');
     outcomeLines().forEach(function (t) { lines.push('- ' + t); });
     lines.push('', L.cost_h + ': ' + money(cost()) + L.mo);
+    if (setupNote()) lines.push('+ ' + setupNote());
     var pit = perfItems();
     if (pit) { lines.push('', L.perf_h + ':'); pit.forEach(function (t) { lines.push('- ' + t); }); lines.push('(' + L.perf_note + ')'); }
     var name = val('.qc-name'), email = val('.qc-email'), company = val('.qc-company');
@@ -111,6 +119,7 @@
         } else if (repsQ) repsQ.classList.remove('show');
       } else if (set === 'reps') st.reps = +chip.getAttribute('data-reps');
       else if (set === 'mk') { st.mk = +chip.getAttribute('data-mk'); st.mkname = chip.getAttribute('data-mkname') || ''; st.mkout = chip.getAttribute('data-mkout') || ''; }
+      else if (set === 'ppm') st.ppm = +chip.getAttribute('data-ppm');
       renderResult();
     });
   });
@@ -123,7 +132,7 @@
 
   // branded printable quote
   function printQuote() {
-    if (st.tier == null) { alert(L.prompt); return; }
+    if (st.tier == null && !st.ppm) { alert(L.prompt); return; }
     var dir = L.dir || 'ltr';
     var dateStr = new Date().toLocaleDateString(isHe ? 'he-IL' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     var rows = lineItems().map(function (it) { return '<tr><td>' + it[0] + '</td><td class="p">' + money(it[1]) + L.mo + '</td></tr>'; }).join('');
@@ -150,10 +159,11 @@
       '<div class="brand">' + (L.brand || 'TAL PAPERIN') + '</div><div class="tag">' + (L.tagline || '') + '</div><div class="bar"></div>' +
       '<h1>' + L.quote_title + '</h1><div class="muted">' + dateStr + '</div>' +
       (who ? '<div class="who">' + who + '</div>' : '') +
-      '<div class="rec">' + L.recommended + '</div><div class="recn">' + tiers[st.tier].name + '</div>' +
-      '<p class="why">' + tiers[st.tier].why + '</p>' +
+      '<div class="rec">' + L.recommended + '</div><div class="recn">' + recName() + '</div>' +
+      (recWhy() ? '<p class="why">' + recWhy() + '</p>' : '') +
       '<h3>' + L.outcome_h + '</h3><ul>' + bullets + '</ul>' +
       '<table>' + rows + '<tr class="total"><td>' + L.cost_h + '</td><td class="p">' + money(cost()) + L.mo + '</td></tr></table>' +
+      (setupNote() ? '<p class="terms">+ ' + setupNote() + '</p>' : '') +
       (perfItems() ? '<h3>' + L.perf_h + '</h3><ul>' + perfItems().map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul><p class="terms">' + L.perf_note + '</p>' : '') +
       '<p class="terms">' + L.terms + '</p>' +
       '<div class="foot">' + L.book + ': <a href="' + L.book_url + '">' + L.book_url + '</a> · <a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></div>' +

@@ -241,7 +241,72 @@ def _price_num(s):
 
 # --- Service content -------------------------------------------------------
 
+# Pay-per-meeting price ladder (reused on the service page and the pricing page)
+PPM_SETUP = "$5,000"
+PPM_TIERS = [("Up to 3 meetings a month", "$4,000"), ("4 to 6 meetings", "$5,500"),
+             ("7 to 14 meetings", "$8,000"), ("15+ meetings", "$10,000")]
+PPM_TIERS_HE = [("עד 3 פגישות בחודש", "$4,000"), ("4 עד 6 פגישות", "$5,500"),
+                ("7 עד 14 פגישות", "$8,000"), ("15+ פגישות", "$10,000")]
+
+
+def _ppm_price_block(setup_label, rows, note, mo):
+    r = "".join(
+        '<div style="display:flex;justify-content:space-between;align-items:baseline;padding:10px 0;'
+        'border-bottom:1px solid rgba(255,255,255,.08)"><span style="color:#cdd6e0">' + lbl + '</span>'
+        '<span style="color:#fff;font-weight:700">' + amt +
+        '<span style="color:#9aa7b5;font-weight:600;font-size:.85rem">' + mo + '</span></span></div>'
+        for lbl, amt in rows)
+    return (
+        '<div class="ppm-price" style="background:radial-gradient(80% 130% at 18% 0%,#0c2237 0%,#0a0e14 60%);'
+        'border:1px solid rgba(90,176,255,.35);border-radius:18px;padding:24px;margin:18px 0;max-width:460px">'
+        '<div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:12px;'
+        'margin-bottom:6px;border-bottom:1px solid rgba(255,255,255,.14)">'
+        '<span style="color:#fff;font-weight:700">' + setup_label + '</span>'
+        '<span style="color:#E67E22;font-weight:800;font-size:1.2rem">' + PPM_SETUP + '</span></div>'
+        + r + '<p style="color:#9aa7b5;font-size:.85rem;margin:14px 0 0">' + note + '</p></div>')
+
+
+PPM_PRICE_EN = _ppm_price_block("Setup, one-time", PPM_TIERS,
+    "You pay the tier that matches the meetings we book that month. No long contracts, no exit fines.", "/mo")
+PPM_PRICE_HE = _ppm_price_block("הקמה, חד פעמי", PPM_TIERS_HE,
+    "אתם משלמים את המדרגה שתואמת למספר הפגישות שקבענו באותו חודש. בלי חוזים ארוכים, בלי קנסות יציאה.", "לחודש")
+
 SERVICES = [
+ {"slug":"pay-per-meeting","nav":"Pay-Per-Meeting","h1":"Pay-Per-Meeting B2B Sales Meetings",
+  "title":"Pay-Per-Meeting B2B Sales Meetings and Appointment Setting | Tal Paperin",
+  "desc":"You pay for the B2B sales meetings we book, not emails, leads or lists. We define your ICP, find the people, run the outreach and put qualified meetings on your calendar.",
+  "eyebrow":"Service",
+  "lead":"You need sales meetings. I get them for you. Not another retainer for activity, you pay based on the number of qualified meetings we actually book on your calendar.",
+  "card":"Outbound that bills by results. You pay for the qualified B2B meetings we book, not emails, lists or leads.",
+  "sections":[
+    {"h":"You need meetings, not another pipeline lecture","p":[
+      "Most companies do not need another consultant telling them they need more pipeline. They need meetings. That is all this service does.",
+      "You tell us what you sell and who you want to sell it to. Together we define exactly what a relevant prospect looks like: industry, geography, company size, type of company and the people inside those companies you want to meet. Then we go get them.",
+      "You do not pay me to send emails. You do not pay me for leads. You do not pay me for lists. You pay based on the number of sales meetings we book. Simple."]},
+    {"h":"How it works","ul":[
+      "You tell us who you want to meet. We agree on your ICP and target personas, for example US financial services companies, 500-plus employees, targeting the CIO, CTO and VP Engineering. You approve it. That is who we go after.",
+      "We do the work. We find the companies, find the people, build the lists, create and run the outreach, follow up and manage the whole process. SDRs, researchers, email, LinkedIn, phone, data and tooling: that is our problem, not yours.",
+      "We put meetings on your calendar. When someone matching the agreed ICP and persona says yes to a date and time, we have done our job. You take the meeting, run discovery, demo, qualify, negotiate and close. We create the conversation, you take it from there."]},
+    {"h":"What you pay","p":[
+      "An initial setup fee launches the campaign. After that, what you pay depends on how many meetings we actually book. A weaker month, you pay less. More meetings, you pay more. That is intentional: you should not pay the same for three meetings as for fifteen."],
+     "html":PPM_PRICE_EN},
+    {"h":"What counts as a meeting","p":[
+      "No catch, but we agree on what a meeting means before we start. You approve the ICP and the personas. We go after them. If someone who matches those criteria agrees to meet and we schedule a date and time, that is a booked meeting.",
+      "We count meetings booked, not meetings attended. If the prospect later reschedules, cancels or does not show, that does not undo the work that created the meeting. And a booked meeting is not a guaranteed sale. We are responsible for getting the right person to agree to a sales conversation. What happens in and after that conversation depends on your product, offer, process and salespeople."]},
+    {"h":"Why pay this way","p":[
+      "Because it aligns us. A traditional SDR service charges a flat retainer, allocates people, sends thousands of emails and sends you activity reports. Maybe you get meetings, maybe you do not, and you pay the same either way.",
+      "I prefer a simpler conversation: how many meetings did we book? Three, you pay the three-meeting tier. Seventeen, you pay the fifteen-plus tier. The incentive is obvious. The more meetings we get you, the more we make."]},
+    {"h":"Why there is a setup fee","p":[
+      "Before we can book meetings we build the campaign. The first two to three weeks cover defining the ICP and personas, building prospect data, creating the messaging, preparing the outreach, standing up the infrastructure and training the people involved. Once that is done, the focus is simple: book meetings."]},
+    {"h":"Who this is for, and who it is not","p":[
+      "This works for B2B companies that already have something to sell and need more conversations. You might have a sales team, a single AE, or still be founder-led. You might be entering a new market or simply short on pipeline. What matters is that you know what to do when someone gives you a meeting."],
+     "ul":[
+      "Good fit: you can take a relevant prospect from first conversation through discovery, proposal and close",
+      "Too early: you do not yet know what you sell or who buys it",
+      "Wrong fit: you expect every meeting to become an opportunity, or you want one service to both book and close for you"]},
+    {"h":"Why KSW","p":[
+      "I have spent more than 20 years building and managing B2B sales around the world: software, SaaS, hardware, services and complex enterprise deals. I have built teams from zero, recruited and managed SDRs and AEs, and opened international markets. So when we go get you meetings, it is not a generic lead-generation exercise. We understand sales, we understand who needs to be in the room, and we know the only reason to run outbound is to create real sales conversations.",
+      "Tell me who you want to sell to and we will get you in front of them. No SDR to recruit, no team to manage, no technology to figure out, no lists to build. We book the meetings. You sell."]}]},
  {"slug":"fractional-cmo","nav":"Fractional CMO","h1":"Fractional CMO and Marketing Leadership",
   "title":"Fractional CMO and Marketing Leadership | Tal Paperin",
   "desc":"Senior marketing leadership on demand: senior oversight or full fractional CMO ownership, so marketing and sales run as one revenue engine.",
@@ -733,6 +798,41 @@ HE_CTA = '''      <div class="cta-box">
       </div>'''
 
 HE_SERVICES = [
+ {"slug":"pay-per-meeting","nav":"תשלום לפי פגישה","h1":"פגישות מכירה B2B בתשלום לפי פגישה",
+  "title":"פגישות מכירה B2B בתשלום לפי פגישה | טל פאפרין",
+  "desc":"אתם משלמים על פגישות המכירה שאנחנו קובעים, לא על מיילים, לידים או רשימות. אנחנו מגדירים את ה-ICP, מוצאים את האנשים, מריצים את הפנייה ושמים פגישות מוכשרות ביומן שלכם.",
+  "eyebrow":"שירות",
+  "lead":"אתם צריכים פגישות מכירה. אני משיג לכם אותן. לא עוד ריטיינר על פעילות, אתם משלמים לפי מספר הפגישות המוכשרות שאנחנו באמת קובעים ביומן שלכם.",
+  "card":"אאוטבאונד שמחייב לפי תוצאה. אתם משלמים על פגישות B2B מוכשרות שאנחנו קובעים, לא על מיילים, רשימות או לידים.",
+  "sections":[
+    {"h":"אתם צריכים פגישות, לא עוד הרצאה על פייפליין","p":[
+      "רוב החברות לא צריכות עוד יועץ שאומר להן שהן צריכות יותר פייפליין. הן צריכות פגישות. זה כל מה שהשירות הזה עושה.",
+      "אתם אומרים לנו מה אתם מוכרים ולמי אתם רוצים למכור. יחד אנחנו מגדירים בדיוק איך נראה פרוספקט רלוונטי: תעשייה, גיאוגרפיה, גודל חברה, סוג חברה והאנשים בתוך אותן חברות שאתם רוצים לפגוש. ואז אנחנו הולכים להשיג אותם.",
+      "אתם לא משלמים לי כדי לשלוח מיילים. לא משלמים לי על לידים. לא משלמים לי על רשימות. אתם משלמים לפי מספר פגישות המכירה שאנחנו קובעים. פשוט."]},
+    {"h":"איך זה עובד","ul":[
+      "אתם אומרים לנו את מי אתם רוצים לפגוש. אנחנו מסכמים על ה-ICP והפרסונות, למשל חברות שירותים פיננסיים בארה״ב, 500+ עובדים, בכיוון CIO, CTO ו-VP Engineering. אתם מאשרים. זה מי שאנחנו הולכים אליו.",
+      "אנחנו עושים את העבודה. מוצאים את החברות, מוצאים את האנשים, בונים את הרשימות, יוצרים ומריצים את הפנייה, עושים מעקב ומנהלים את כל התהליך. SDRs, חוקרים, מייל, לינקדאין, טלפון, דאטה וכלים: זו הבעיה שלנו, לא שלכם.",
+      "אנחנו שמים פגישות ביומן שלכם. כשמישהו שתואם ל-ICP ולפרסונה שסיכמנו אומר כן לתאריך ושעה, עשינו את העבודה שלנו. אתם לוקחים את הפגישה, מריצים דיסקברי, דמו, כישור, משא ומתן וסגירה. אנחנו יוצרים את השיחה, אתם ממשיכים משם."]},
+    {"h":"מה אתם משלמים","p":[
+      "דמי הקמה חד פעמיים משיקים את הקמפיין. אחרי זה, מה שאתם משלמים תלוי בכמה פגישות אנחנו באמת קובעים. חודש חלש, אתם משלמים פחות. יותר פגישות, אתם משלמים יותר. זה מכוון: אתם לא אמורים לשלם על שלוש פגישות אותו דבר כמו על חמש עשרה."],
+     "html":PPM_PRICE_HE},
+    {"h":"מה נחשב פגישה","p":[
+      "אין קאץ׳, אבל אנחנו מסכמים מה זו פגישה לפני שמתחילים. אתם מאשרים את ה-ICP ואת הפרסונות. אנחנו הולכים אליהם. אם מישהו שתואם לקריטריונים מסכים להיפגש ואנחנו קובעים תאריך ושעה, זו פגישה שנקבעה.",
+      "אנחנו סופרים פגישות שנקבעו, לא פגישות שהתקיימו. אם הפרוספקט אחר כך דוחה, מבטל או לא מגיע, זה לא מבטל את העבודה שיצרה את הפגישה. ופגישה שנקבעה היא לא מכירה מובטחת. אנחנו אחראים להביא את האדם הנכון להסכים לשיחת מכירה. מה שקורה במהלך השיחה ואחריה תלוי במוצר, בהצעה, בתהליך ובאנשי המכירות שלכם."]},
+    {"h":"למה לשלם ככה","p":[
+      "כי זה מיישר אותנו. שירות SDR מסורתי גובה ריטיינר קבוע, מקצה אנשים, שולח אלפי מיילים ושולח לכם דוחות פעילות. אולי תקבלו פגישות, אולי לא, ואתם משלמים אותו דבר כך או כך.",
+      "אני מעדיף שיחה פשוטה יותר: כמה פגישות קבענו? שלוש, אתם משלמים את מדרגת שלוש הפגישות. שבע עשרה, אתם משלמים את מדרגת ה-15+. התמריץ ברור. ככל שנשיג לכם יותר פגישות, כך נרוויח יותר."]},
+    {"h":"למה יש דמי הקמה","p":[
+      "לפני שאנחנו יכולים לקבוע פגישות אנחנו בונים את הקמפיין. השבועיים שלושה הראשונים כוללים הגדרת ICP ופרסונות, בניית דאטה על פרוספקטים, יצירת מסרים, הכנת הפנייה, הקמת התשתית והכשרת האנשים המעורבים. אחרי שזה נעשה, המיקוד פשוט: לקבוע פגישות."]},
+    {"h":"למי זה מתאים, ולמי לא","p":[
+      "זה עובד לחברות B2B שכבר יש להן מה למכור וצריכות יותר שיחות. אולי יש לכם צוות מכירות, אולי AE אחד, אולי אתם עדיין מובלים על ידי המייסד. אולי אתם נכנסים לשוק חדש או פשוט חסר לכם פייפליין. מה שחשוב זה שאתם יודעים מה לעשות כשמישהו נותן לכם פגישה."],
+     "ul":[
+      "התאמה טובה: אתם יכולים לקחת פרוספקט רלוונטי משיחה ראשונה דרך דיסקברי, הצעה וסגירה",
+      "מוקדם מדי: אתם עדיין לא יודעים מה אתם מוכרים או מי קונה",
+      "לא מתאים: אתם מצפים שכל פגישה תהפוך להזדמנות, או רוצים ששירות אחד גם יקבע וגם יסגור בשבילכם"]},
+    {"h":"למה KSW","p":[
+      "ביליתי יותר מ-20 שנה בבניית וניהול מכירות B2B ברחבי העולם: תוכנה, SaaS, חומרה, שירותים ועסקאות אנטרפרייז מורכבות. בניתי צוותים מאפס, גייסתי וניהלתי SDRs ו-AEs, ופתחתי שווקים בינלאומיים. אז כשאנחנו הולכים להשיג לכם פגישות, זה לא תרגיל גנרי של יצירת לידים. אנחנו מבינים מכירות, מבינים מי צריך להיות בחדר, ויודעים שהסיבה היחידה להריץ אאוטבאונד היא ליצור שיחות מכירה אמיתיות.",
+      "תגידו לי למי אתם רוצים למכור ואנחנו נביא אתכם מולם. בלי SDR לגייס, בלי צוות לנהל, בלי טכנולוגיה להבין, בלי רשימות לבנות. אנחנו קובעים את הפגישות. אתם מוכרים."]}]},
  {"slug":"fractional-cmo","nav":"סמנכ״ל שיווק","h1":"סמנכ״ל שיווק במיקור חוץ והובלת שיווק",
   "title":"סמנכ״ל שיווק במיקור חוץ | טל פאפרין",
   "desc":"הובלת שיווק בכירה לפי דרישה: פיקוח בכיר או בעלות מלאה כסמנכ״ל שיווק, כך שהשיווק והמכירות פועלים כמנוע הכנסות אחד.",
@@ -950,7 +1050,7 @@ HE_SERVICES = [
 # Final service order (top sellers first); also drops merged/removed slugs
 # (contract-negotiation folded into fractional CRO / B2G, saas-sales into GTM,
 # global-markets merged into market-entry).
-_SVC_ORDER = ["fractional-cro", "outsourced-sales", "go-to-market-strategy", "fractional-cmo", "market-entry",
+_SVC_ORDER = ["fractional-cro", "outsourced-sales", "pay-per-meeting", "go-to-market-strategy", "fractional-cmo", "market-entry",
               "sales-team-building", "distributor-channel-recruitment", "b2g-public-sector"]
 
 
@@ -1990,6 +2090,11 @@ def render_faq(faqs, heading="Common questions"):
 
 
 SERVICE_FAQS_EN = {
+ "pay-per-meeting":[
+  {"q":"What is pay-per-meeting appointment setting?","a":"You pay for the qualified B2B sales meetings we book on your calendar, not for emails, leads or lists. We define your ICP, find and contact the right people, and book the meetings. You run and close them."},
+  {"q":"How much does it cost?","a":"A one-time $5,000 setup to launch the campaign, then a monthly fee that tracks the meetings we book: $4,000 for up to 3, $5,500 for 4 to 6, $8,000 for 7 to 14, and $10,000 for 15 or more. Fewer meetings, you pay less."},
+  {"q":"Do you count meetings booked or attended?","a":"Booked. If a prospect who matches the agreed ICP agrees to a date and time, that is a booked meeting. Reschedules and no-shows do not undo the work that created it, and a meeting is not a guaranteed sale."},
+  {"q":"How is this different from a retainer SDR service?","a":"A retainer bills you the same whether you get meetings or not. This bills by results: the more meetings we book, the more we make, so our incentives are aligned with yours."}],
  "fractional-cro":[
   {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your strategy, team, pipeline, forecast and the number, part time, without a full-time CRO salary or a long-term lock-in."},
   {"q":"How is a fractional CRO different from a consultant?","a":"A consultant hands you a deck and leaves. I do the work, in the pipeline and the deals, and answer for the result."},
@@ -2025,6 +2130,11 @@ SERVICE_FAQS_EN = {
 }
 
 SERVICE_FAQS_HE = {
+ "pay-per-meeting":[
+  {"q":"מה זה תשלום לפי פגישה?","a":"אתם משלמים על פגישות המכירה המוכשרות ב-B2B שאנחנו קובעים ביומן שלכם, לא על מיילים, לידים או רשימות. אנחנו מגדירים ICP, מוצאים ופונים לאנשים הנכונים וקובעים את הפגישות. אתם מריצים וסוגרים אותן."},
+  {"q":"כמה זה עולה?","a":"דמי הקמה חד פעמיים של 5,000 דולר להשקת הקמפיין, ואז תשלום חודשי שתואם למספר הפגישות שקבענו: 4,000 דולר עד 3, 5,500 דולר ל-4 עד 6, 8,000 דולר ל-7 עד 14, ו-10,000 דולר ל-15 ומעלה. פחות פגישות, אתם משלמים פחות."},
+  {"q":"אתם סופרים פגישות שנקבעו או שהתקיימו?","a":"שנקבעו. אם פרוספקט שתואם ל-ICP שסיכמנו מסכים לתאריך ושעה, זו פגישה שנקבעה. דחיות ואי-הגעה לא מבטלות את העבודה שיצרה אותה, ופגישה אינה מכירה מובטחת."},
+  {"q":"במה זה שונה משירות SDR בריטיינר?","a":"ריטיינר גובה מכם אותו דבר בין אם קיבלתם פגישות ובין אם לא. כאן משלמים לפי תוצאה: ככל שנקבע יותר פגישות, כך נרוויח יותר, כך שהתמריצים שלנו מיושרים עם שלכם."}],
  "fractional-cro":[
   {"q":"מה זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על האסטרטגיה, הצוות, הפייפליין, התחזית והתוצאות, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
   {"q":"במה זה שונה מיועץ?","a":"יועץ מגיש מצגת והולך. אני עושה את העבודה, בתוך הפייפליין ובתוך העסקאות, ואחראי על התוצאה."},
@@ -3587,6 +3697,12 @@ PRICING_EN = {
  "sdr_price_label":"Salespeople pricing","sdr_amount":"$6,000","sdr_amount_per":"/ 1 salesperson / mo",
  "sdr_tiers":["1 salesperson, $6,000/mo","2 salespeople, $11,000/mo","3+ salespeople, $5,000 each/mo"],
  "sdr_price_note":"Price includes full management, training and integration. No hidden management fees.",
+ "ppm_h":"Pay-per-meeting sales development",
+ "ppm_desc":"Prefer to buy meetings instead of managing a team? We define your ICP, run the outbound and put qualified meetings on your calendar. You pay by the meetings we book, not by activity. A one-time setup launches the campaign, then the monthly tracks results.",
+ "ppm_price":PPM_PRICE_EN,
+ "ppm_more":"Full details on the",
+ "ppm_url":"/services/pay-per-meeting",
+ "ppm_more_link":"pay-per-meeting service page",
  "mk_h":"Marketing leadership (via KSW)",
  "marketing":[
   {"commit":"Senior oversight","name":"Marketing Oversight","price":"$4,000","per":"/mo",
@@ -3650,7 +3766,17 @@ PRICING_EN = {
    {"q":"What about marketing?","opts":[
      {"t":"Marketing is handled","mk":0,"mkname":"","mkout":""},
      {"t":"Someone runs it but needs oversight","mk":4000,"mkname":"Marketing Oversight","mkout":"senior marketing oversight, keeping spend and priorities aligned to sales"},
-     {"t":"I need someone to own marketing","mk":8000,"mkname":"Fractional CMO","mkout":"a full marketing function and funnel, owned end to end"}]}],
+     {"t":"I need someone to own marketing","mk":8000,"mkname":"Fractional CMO","mkout":"a full marketing function and funnel, owned end to end"}]},
+   {"q":"Want us to book sales meetings for you? (pay per meeting)","opts":[
+     {"t":"No thanks","ppm":0},
+     {"t":"Up to 3 a month","ppm":4000},
+     {"t":"4 to 6 a month","ppm":5500},
+     {"t":"7 to 14 a month","ppm":8000},
+     {"t":"15+ a month","ppm":10000}]}],
+ "calc_ppm_line":"Meetings booked (pay per meeting)",
+ "calc_ppm_outcome":"Qualified sales meetings booked on your calendar, pay per meeting",
+ "calc_ppm_setup_label":"one-time setup to launch the campaign",
+ "calc_ppm_rec_name":"Pay-per-meeting sales development",
 }
 
 PRICING_HE = {
@@ -3675,6 +3801,12 @@ PRICING_HE = {
  "sdr_price_label":"תמחור אנשי מכירות","sdr_amount":"$6,000","sdr_amount_per":"/ איש מכירות אחד / לחודש",
  "sdr_tiers":["איש מכירות אחד, $6,000 לחודש","שני אנשי מכירות, $11,000 לחודש","3+ אנשי מכירות, $5,000 כל אחד/לחודש"],
  "sdr_price_note":"המחיר כולל ניהול מלא, הכשרה ואינטגרציה. בלי דמי ניהול נסתרים.",
+ "ppm_h":"פיתוח מכירות בתשלום לפי פגישה",
+ "ppm_desc":"מעדיפים לקנות פגישות במקום לנהל צוות? אנחנו מגדירים את ה-ICP, מריצים את האאוטבאונד ושמים פגישות מוכשרות ביומן שלכם. אתם משלמים לפי הפגישות שאנחנו קובעים, לא לפי פעילות. הקמה חד פעמית משיקה את הקמפיין, ואז החודשי תואם לתוצאות.",
+ "ppm_price":PPM_PRICE_HE,
+ "ppm_more":"כל הפרטים ב",
+ "ppm_url":"/he/services/pay-per-meeting",
+ "ppm_more_link":"עמוד שירות התשלום לפי פגישה",
  "mk_h":"הובלת שיווק (דרך KSW)",
  "marketing":[
   {"commit":"פיקוח בכיר","name":"Marketing Oversight","price":"$4,000","per":"לחודש",
@@ -3738,7 +3870,17 @@ PRICING_HE = {
    {"q":"ומה עם שיווק?","opts":[
      {"t":"השיווק מטופל","mk":0,"mkname":"","mkout":""},
      {"t":"מישהו מריץ אבל צריך פיקוח","mk":4000,"mkname":"פיקוח שיווק","mkout":"פיקוח שיווקי בכיר, ששומר על התקציב והעדיפויות מיושרים למכירות"},
-     {"t":"צריך מישהו שיהיה אחראי על השיווק","mk":8000,"mkname":"סמנכ״ל שיווק","mkout":"פונקציית שיווק ומשפך מלאים, בניהול מקצה לקצה"}]}],
+     {"t":"צריך מישהו שיהיה אחראי על השיווק","mk":8000,"mkname":"סמנכ״ל שיווק","mkout":"פונקציית שיווק ומשפך מלאים, בניהול מקצה לקצה"}]},
+   {"q":"רוצים שנקבע לכם פגישות מכירה? (תשלום לפי פגישה)","opts":[
+     {"t":"לא, תודה","ppm":0},
+     {"t":"עד 3 בחודש","ppm":4000},
+     {"t":"4 עד 6 בחודש","ppm":5500},
+     {"t":"7 עד 14 בחודש","ppm":8000},
+     {"t":"15+ בחודש","ppm":10000}]}],
+ "calc_ppm_line":"פגישות שנקבעו (תשלום לפי פגישה)",
+ "calc_ppm_outcome":"פגישות מכירה מוכשרות ביומן שלכם, בתשלום לפי פגישה",
+ "calc_ppm_setup_label":"הקמה חד פעמית להשקת הקמפיין",
+ "calc_ppm_rec_name":"פיתוח מכירות בתשלום לפי פגישה",
 }
 
 def render_pricing_body(d, cal):
@@ -3770,6 +3912,12 @@ def render_pricing_body(d, cal):
              ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]), star,
                   "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), esc(d["sdr_price_note"]))
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
+    if d.get("ppm_price"):
+        out.append('      <h2 class="price-h2">%s</h2>' % esc(d["ppm_h"]))
+        out.append('      <p class="bestfor">%s</p>' % esc(d["ppm_desc"]))
+        out.append('      ' + d["ppm_price"])
+        out.append('      <p class="price-note">%s <a href="%s">%s</a>.</p>'
+                   % (esc(d["ppm_more"]), d["ppm_url"], esc(d["ppm_more_link"])))
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
     # performance-share banner (added on top of the fixed fees)
@@ -3810,6 +3958,10 @@ def render_pricing_body(d, cal):
         labels["perf_h"] = d["perf"]["h"]
         labels["perf_items"] = ["%s %s (%s)" % (a, of, who) for a, of, who in d["perf"]["items"]]
         labels["perf_note"] = d["perf"]["note"]
+    labels["ppm_line"] = d.get("calc_ppm_line", "")
+    labels["ppm_outcome"] = d.get("calc_ppm_outcome", "")
+    labels["ppm_setup_label"] = d.get("calc_ppm_setup_label", "")
+    labels["ppm_rec_name"] = d.get("calc_ppm_rec_name", "")
     qhtml = ""
     for q in d["calc_q"]:
         cls = " qc-q-reps" if q.get("reps") else ""
@@ -3824,6 +3976,8 @@ def render_pricing_body(d, cal):
                 data += ' data-set="reps" data-reps="%d"' % o["reps"]
             if "mk" in o:
                 data += ' data-set="mk" data-mk="%d" data-mkname="%s" data-mkout="%s"' % (o["mk"], esc(o["mkname"]), esc(o["mkout"]))
+            if "ppm" in o:
+                data += ' data-set="ppm" data-ppm="%d"' % o["ppm"]
             chips += '<button type="button" class="qc-chip"%s>%s</button>' % (data, esc(o["t"]))
         qhtml += '<div class="qc-q%s"><p class="qc-q-label">%s</p><div class="qc-chips">%s</div></div>' % (cls, esc(q["q"]), chips)
     cro_scale = '<div class="qc-scale">' + "".join('<span>%s</span>' % esc(t["name"]) for t in d["cro"]) + '</div>'
@@ -3836,7 +3990,7 @@ def render_pricing_body(d, cal):
                '<div class="qc-slider"><label>%s: <span class="qc-mk-val"></span></label><input type="range" class="qc-mk-range" min="0" max="2" step="1" value="0" />%s</div></div>'
                ) % (esc(d["calc_sliders_h"]), esc(d["calc_slider_cro"]), cro_scale, esc(d["calc_slider_sdr"]), sdr_scale, esc(d["calc_slider_mk"]), mk_scale)
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
-    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-tiers="%s" data-labels="%s" data-marketing="%s">'
+    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-ppm-setup="5000" data-tiers="%s" data-labels="%s" data-marketing="%s">'
                '<p class="bestfor">%s</p>%s'
                '<div class="qc-result" aria-live="polite"><p class="qc-prompt">%s</p></div>'
                '%s'
