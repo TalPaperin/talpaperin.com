@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>כשהמספר יורד, כל מה שבניתם מעליו מגיע לפירעון</title>
+      <link>https://talpaperin.com/he/blog/revenue-is-the-only-real-collateral</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/revenue-is-the-only-real-collateral</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>אריאלי לוותה 30 מיליון דולר כנגד מניות אלרון. המניה ירדה 34% והשותפות מתפרקת. הלקח למנכ״לים: רק הכנסות בנות קיימא הן בטוחה אמיתית.</description>
+    </item>
     <item>
       <title>תפסיקו לשלם ריטיינר ל-SDR על פעילות. שלמו על פגישות.</title>
       <link>https://talpaperin.com/he/blog/pay-per-meeting-not-per-retainer</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-the-netherlands</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
       <description>מכירות B2B בהולנד: איך הקונה ההולנדי באמת קונה, ומערך המכירות, החברה הבת והתמיכה שאני בונה ומנהל שם.</description>
-    </item>
-    <item>
-      <title>איך מגדירים ICP (פרופיל לקוח אידאלי) שבאמת ממיר</title>
-      <link>https://talpaperin.com/he/blog/ideal-customer-profile-icp</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/ideal-customer-profile-icp</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <description>רוב החברות חושבות שיש להן ICP, אבל מה שיש להן זה תיאור מעורפל של &quot;מי שיקנה&quot;. איך בונים פרופיל לקוח אידאלי חד שמכפיל את אחוזי הסגירה.</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>When the Number Falls, Everything You Built on Top of It Comes Due</title>
+      <link>https://talpaperin.com/blog/revenue-is-the-only-real-collateral</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/revenue-is-the-only-real-collateral</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Arieli borrowed $30M against Elron shares. The stock fell 34% and the partnership is unraveling. The lesson for CEOs: only durable revenue is real collateral.</description>
+    </item>
     <item>
       <title>Stop Paying SDR Retainers for Activity. Pay for Meetings.</title>
       <link>https://talpaperin.com/blog/pay-per-meeting-not-per-retainer</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-chicago</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Sales for frum and heimishe business owners in Chicago, Illinois, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Sales for the Yiddish-Speaking Business World</title>
-      <link>https://talpaperin.com/blog/yiddish-speaking-business-world-sales</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/yiddish-speaking-business-world-sales</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales leadership for the Yiddish-speaking, heimishe business world, from a frum operator who knows how it really buys and sells, and works in English with Yiddish-speaking owners.</description>
     </item>
   </channel>
 </rss>
