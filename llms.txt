@@ -73,6 +73,8 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Why Your Startup Can't Sell (And It's Not the Product)](https://talpaperin.com/blog/why-your-startup-cant-sell): Most founders blame the product when sales stall. The real problem is almost always the motion around it. Here is how to tell, and what to fix first.
+- [When to Hire Your First Salesperson (Founders Wait Too Long, Then Panic)](https://talpaperin.com/blog/when-to-hire-first-salesperson): Revenue milestones do not tell you when to hire your first salesperson. A repeatable motion you can hand off does. Here is what ready actually looks like.
 - [When the Number Falls, Everything You Built on Top of It Comes Due](https://talpaperin.com/blog/revenue-is-the-only-real-collateral): Arieli borrowed $30M against Elron shares. The stock fell 34% and the partnership is unraveling. The lesson for CEOs: only durable revenue is real collateral.
 - [Stop Paying SDR Retainers for Activity. Pay for Meetings.](https://talpaperin.com/blog/pay-per-meeting-not-per-retainer): Most SDR services bill a flat retainer for activity. I built the opposite: you pay for the qualified B2B meetings we actually book. Fewer meetings, you pay less.
 - [A Client Hired Me to Grow Them 30X. Here Is the Honest Answer.](https://talpaperin.com/blog/can-you-grow-a-company-30x): A company hired me to grow them 30X. Grant Cardone does 10X. Can you actually 30X a business? Yes, but only if you work backwards and build the machine to produce it.

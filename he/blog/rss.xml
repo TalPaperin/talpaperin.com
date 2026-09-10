@@ -6,7 +6,21 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>למה הסטארטאפ שלכם לא מצליח למכור (וזה לא המוצר)</title>
+      <link>https://talpaperin.com/he/blog/why-your-startup-cant-sell</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/why-your-startup-cant-sell</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>רוב המייסדים מאשימים את המוצר כשהמכירות נתקעות. הבעיה האמיתית היא כמעט תמיד התנועה סביבו. הנה איך לזהות, ומה לתקן קודם.</description>
+    </item>
+    <item>
+      <title>מתי לגייס את איש המכירות הראשון (מייסדים מחכים יותר מדי, ואז נכנסים לפאניקה)</title>
+      <link>https://talpaperin.com/he/blog/when-to-hire-first-salesperson</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/when-to-hire-first-salesperson</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>אבני דרך של הכנסות לא אומרות לכם מתי לגייס את איש המכירות הראשון. מהלך מכירה שאפשר להעביר הלאה כן. הנה איך נראית מוכנות אמיתית.</description>
+    </item>
     <item>
       <title>כשהמספר יורד, כל מה שבניתם מעליו מגיע לפירעון</title>
       <link>https://talpaperin.com/he/blog/revenue-is-the-only-real-collateral</link>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/most-ceos-dont-have-a-sales-problem-they-have-a</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
       <description>הם לא יודעים איפה להתחיל, ולאן ללכת אחר כך. אנשי המכירות שלהם מתקשרים לאנשים הלא נכונים, וה-ICP הוא ניחוש שנכתב פעם ולא תוקף מעולם.</description>
-    </item>
-    <item>
-      <title>בניית מערך מכירות בצרפת</title>
-      <link>https://talpaperin.com/he/blog/building-a-sales-operation-in-france</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-france</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <description>מכירות B2B בצרפת: איך הקונה הצרפתי באמת קונה, שפה ויחסים, ומערך המכירות, החברה הבת והתמיכה שאני בונה ומנהל שם.</description>
-    </item>
-    <item>
-      <title>בניית מערך מכירות בהולנד</title>
-      <link>https://talpaperin.com/he/blog/building-a-sales-operation-in-the-netherlands</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-the-netherlands</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <description>מכירות B2B בהולנד: איך הקונה ההולנדי באמת קונה, ומערך המכירות, החברה הבת והתמיכה שאני בונה ומנהל שם.</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,21 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Why Your Startup Can&#x27;t Sell (And It&#x27;s Not the Product)</title>
+      <link>https://talpaperin.com/blog/why-your-startup-cant-sell</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/why-your-startup-cant-sell</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Most founders blame the product when sales stall. The real problem is almost always the motion around it. Here is how to tell, and what to fix first.</description>
+    </item>
+    <item>
+      <title>When to Hire Your First Salesperson (Founders Wait Too Long, Then Panic)</title>
+      <link>https://talpaperin.com/blog/when-to-hire-first-salesperson</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/when-to-hire-first-salesperson</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Revenue milestones do not tell you when to hire your first salesperson. A repeatable motion you can hand off does. Here is what ready actually looks like.</description>
+    </item>
     <item>
       <title>When the Number Falls, Everything You Built on Top of It Comes Due</title>
       <link>https://talpaperin.com/blog/revenue-is-the-only-real-collateral</link>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-monsey</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Growth for frum and heimishe business owners in Monsey, New York, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Building a B2B Sales Machine in Western Europe</title>
-      <link>https://talpaperin.com/blog/building-a-sales-machine-in-western-europe</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/building-a-sales-machine-in-western-europe</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>How I build a sales machine in Western Europe: market research first, then a focused push on the UK and Eastern Europe, built and run hands-on, not handed over as a deck.</description>
-    </item>
-    <item>
-      <title>Frum Sales Consultant in Chicago</title>
-      <link>https://talpaperin.com/blog/frum-sales-consultant-chicago</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-chicago</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales for frum and heimishe business owners in Chicago, Illinois, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>
