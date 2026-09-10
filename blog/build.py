@@ -280,6 +280,11 @@ def load_posts(directory=POSTS_DIR, lang="en"):
         slug = meta.get("slug") or re.sub(r"\.md$", "", fn)
         slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", slug)
         date = parse_date(meta["date"])
+        # Scheduled publishing: a post dated in the future stays hidden (out of the
+        # index, RSS, sitemap and hreflang) until its date arrives. Set BUILD_FUTURE=1
+        # to preview future-dated posts locally.
+        if date > datetime.date.today() and os.environ.get("BUILD_FUTURE") != "1":
+            continue
         updated = parse_date(meta["updated"]) if meta.get("updated") else date
         tags = [t.strip() for t in meta.get("tags", "").split(",") if t.strip()]
         md = markdown.Markdown(extensions=["extra", "sane_lists", "toc"])
