@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Hand Off Founder-Led Sales Without Killing the Pipeline</title>
+      <link>https://talpaperin.com/blog/founder-led-sales-handoff</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/founder-led-sales-handoff</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Most founder-led sales handoffs fail because founders dump leads on a rep with no motion. Here is how to transfer the sale without killing your pipeline.</description>
+    </item>
     <item>
       <title>Why Your Startup Can&#x27;t Sell (And It&#x27;s Not the Product)</title>
       <link>https://talpaperin.com/blog/why-your-startup-cant-sell</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-crown-heights</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Growth for frum and heimishe business owners in Crown Heights, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Growing Your Frum Business in Monsey</title>
-      <link>https://talpaperin.com/blog/growing-your-frum-business-monsey</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-monsey</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Growth for frum and heimishe business owners in Monsey, New York, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>

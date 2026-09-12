@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>איך להעביר מכירות ממייסד לצוות בלי להרוג את הפייפליין</title>
+      <link>https://talpaperin.com/he/blog/founder-led-sales-handoff</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/founder-led-sales-handoff</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <description>רוב המעברים ממכירות מייסד נכשלים כי המייסד זורק לידים על איש מכירות בלי מהלך. הנה איך להעביר את המכירה בלי להרוג את הפייפליין.</description>
+    </item>
     <item>
       <title>למה הסטארטאפ שלכם לא מצליח למכור (וזה לא המוצר)</title>
       <link>https://talpaperin.com/he/blog/why-your-startup-cant-sell</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/most-founders-completely-misunderstand-sales-objections</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       <description>לפני זמן מה הוזמנתי ללמד טיפול בהתנגדויות לסטודנטים בקולג&#x27; בקליפורניה. ההרצאה הפכה לחלק רשמי מתוכנית הלימודים.</description>
-    </item>
-    <item>
-      <title>לרוב המנכ&quot;לים אין בעיית מכירות. יש להם בעיית תנועה.</title>
-      <link>https://talpaperin.com/he/blog/most-ceos-dont-have-a-sales-problem-they-have-a</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/most-ceos-dont-have-a-sales-problem-they-have-a</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <description>הם לא יודעים איפה להתחיל, ולאן ללכת אחר כך. אנשי המכירות שלהם מתקשרים לאנשים הלא נכונים, וה-ICP הוא ניחוש שנכתב פעם ולא תוקף מעולם.</description>
     </item>
   </channel>
 </rss>
