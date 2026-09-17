@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>הגיוס הראשון שלכם למכירות ממשיך להיכשל. הנה למה.</title>
+      <link>https://talpaperin.com/he/blog/first-sales-hire-keeps-failing</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/first-sales-hire-keeps-failing</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description>פיטרתם את איש המכירות הראשון והשני מתקשה גם? זה לעיתים רחוקות איש המכירות. הנה הסיבה האמיתית שהגיוס הראשון למכירות ממשיך להיכשל, ואיך לתקן.</description>
+    </item>
     <item>
       <title>איך בונים תהליך מכירה B2B מאפס</title>
       <link>https://talpaperin.com/he/blog/build-b2b-sales-process</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/20-sales-problems-everyone-has-1-platform-with-20-solutions</guid>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       <description>רוב מייסדי ה-B2B לא גרועים במכירות. הם מוכרים בלי מערכת. בלי פלייבוק, בלי תהליך, ובלי תשובה אמיתית לשאלה הכי חשובה: למי בכלל למכור?</description>
-    </item>
-    <item>
-      <title>בניית מערך מכירות ביפן</title>
-      <link>https://talpaperin.com/he/blog/building-a-sales-operation-in-japan</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-japan</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-      <description>מכירות B2B ביפן: איך הקונה היפני באמת קונה, קונצנזוס ואמון, ומערך המכירות, החברה הבת והתמיכה שאני בונה ומנהל שם.</description>
     </item>
   </channel>
 </rss>

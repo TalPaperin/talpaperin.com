@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Your First Sales Hire Keeps Failing. Here Is Why.</title>
+      <link>https://talpaperin.com/blog/first-sales-hire-keeps-failing</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/first-sales-hire-keeps-failing</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Fired your first salesperson and the second is struggling too? It is rarely the rep. Here is the real reason your first sales hire keeps failing, and how to fix it.</description>
+    </item>
     <item>
       <title>How to Build a B2B Sales Process From Scratch</title>
       <link>https://talpaperin.com/blog/build-b2b-sales-process</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-crown-heights</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Development for frum and heimishe business owners in Crown Heights, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Sales Help for Heimishe Business Owners</title>
-      <link>https://talpaperin.com/blog/sales-help-for-heimishe-business-owners</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/sales-help-for-heimishe-business-owners</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales and business help for heimishe business owners, from a frum operator who respects the kehilla, the calendar and the way our world really does business.</description>
     </item>
   </channel>
 </rss>
