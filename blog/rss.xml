@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Forecast Revenue When You Have No Sales History</title>
+      <link>https://talpaperin.com/blog/forecast-revenue-no-history</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/forecast-revenue-no-history</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <description>No sales history? A top-down wish is not a forecast. Here is how to build a bottoms-up revenue model from activity and conversion assumptions you can defend.</description>
+    </item>
     <item>
       <title>Your First Sales Hire Keeps Failing. Here Is Why.</title>
       <link>https://talpaperin.com/blog/first-sales-hire-keeps-failing</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-boro-park</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Growth for frum and heimishe business owners in Borough Park, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Business Development for Frum Businesses in Crown Heights</title>
-      <link>https://talpaperin.com/blog/frum-business-development-crown-heights</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-crown-heights</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Development for frum and heimishe business owners in Crown Heights, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>
