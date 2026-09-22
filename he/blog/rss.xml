@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>אאוטבאונד מול אינבאונד ל-B2B בשלב מוקדם: מאיפה מתחילים</title>
+      <link>https://talpaperin.com/he/blog/outbound-vs-inbound-early-stage</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/outbound-vs-inbound-early-stage</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>אינבאונד מצטבר אבל לוקח חודשים רבים. אאוטבאונד קונה שליטה, מהירות והיכרות עם השוק עכשיו. הנה למה B2B בשלב מוקדם כמעט תמיד צריך אאוטבאונד קודם.</description>
+    </item>
     <item>
       <title>איך לחזות הכנסות כשאין לכם היסטוריית מכירות</title>
       <link>https://talpaperin.com/he/blog/forecast-revenue-no-history</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/an-anti-israel-org-targeted-me-with-an-ad-it</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
       <description>שני ארגונים הסתכלו על אותו מצב והגיעו לאותה מסקנה. שניהם טעו. הנה שלושה שיעורים על מיקוד, על השחקנים הגדולים ועל בזבוז.</description>
-    </item>
-    <item>
-      <title>מכירה מורכבת ומחזור מכירה ארוך: איך לא לאבד עסקאות בדרך</title>
-      <link>https://talpaperin.com/he/blog/complex-sales-long-cycle</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/complex-sales-long-cycle</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <description>במכירה מורכבת עם הרבה מקבלי החלטות ומחזור ארוך, רוב העסקאות לא נופלות על מחיר, הן פשוט מתות בדרך. איך לשמור עסקאות בחיים עד החתימה.</description>
     </item>
   </channel>
 </rss>

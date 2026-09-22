@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Outbound vs Inbound for Early-Stage B2B: Where to Start](https://talpaperin.com/blog/outbound-vs-inbound-early-stage): Inbound compounds but takes many months. Outbound buys control, speed, and market knowledge now. Here is why early-stage B2B almost always needs outbound first.
 - [How to Forecast Revenue When You Have No Sales History](https://talpaperin.com/blog/forecast-revenue-no-history): No sales history? A top-down wish is not a forecast. Here is how to build a bottoms-up revenue model from activity and conversion assumptions you can defend.
 - [Your First Sales Hire Keeps Failing. Here Is Why.](https://talpaperin.com/blog/first-sales-hire-keeps-failing): Fired your first salesperson and the second is struggling too? It is rarely the rep. Here is the real reason your first sales hire keeps failing, and how to fix it.
 - [How to Build a B2B Sales Process From Scratch](https://talpaperin.com/blog/build-b2b-sales-process): A CRM with random stages is not a sales process. Here is how to build a real B2B sales process from scratch, with buyer-based stages and a forecast you can trust.
