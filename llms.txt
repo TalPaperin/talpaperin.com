@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Intel Almost Killed RealSense. Then It Fixed Its Sales and Sold for $600M.](https://talpaperin.com/blog/realsense-cognex-fix-your-sales): Intel nearly shut RealSense down. Spun out, it went from $8M a quarter to a $600M sale. The technology did not change. The way it sold did.
 - [Outbound vs Inbound for Early-Stage B2B: Where to Start](https://talpaperin.com/blog/outbound-vs-inbound-early-stage): Inbound compounds but takes many months. Outbound buys control, speed, and market knowledge now. Here is why early-stage B2B almost always needs outbound first.
 - [How to Forecast Revenue When You Have No Sales History](https://talpaperin.com/blog/forecast-revenue-no-history): No sales history? A top-down wish is not a forecast. Here is how to build a bottoms-up revenue model from activity and conversion assumptions you can defend.
 - [Your First Sales Hire Keeps Failing. Here Is Why.](https://talpaperin.com/blog/first-sales-hire-keeps-failing): Fired your first salesperson and the second is struggling too? It is rarely the rep. Here is the real reason your first sales hire keeps failing, and how to fix it.

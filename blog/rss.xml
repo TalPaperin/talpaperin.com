@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Intel Almost Killed RealSense. Then It Fixed Its Sales and Sold for $600M.</title>
+      <link>https://talpaperin.com/blog/realsense-cognex-fix-your-sales</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/realsense-cognex-fix-your-sales</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Intel nearly shut RealSense down. Spun out, it went from $8M a quarter to a $600M sale. The technology did not change. The way it sold did.</description>
+    </item>
     <item>
       <title>Outbound vs Inbound for Early-Stage B2B: Where to Start</title>
       <link>https://talpaperin.com/blog/outbound-vs-inbound-early-stage</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-boro-park</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Borough Park, Brooklyn. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
-    </item>
-    <item>
-      <title>Business Development for Frum Businesses in Flatbush</title>
-      <link>https://talpaperin.com/blog/frum-business-development-flatbush</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-flatbush</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Development for frum and heimishe business owners in Flatbush, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>
