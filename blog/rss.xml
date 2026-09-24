@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How Long Should a B2B Sales Cycle Be (and How to Shorten Yours)</title>
+      <link>https://talpaperin.com/blog/b2b-sales-cycle-length</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/b2b-sales-cycle-length</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Most B2B sales cycles are long because of stalls and weak qualification, not real complexity. Here are honest benchmarks and the two moves that shorten cycles.</description>
+    </item>
     <item>
       <title>Intel Almost Killed RealSense. Then It Fixed Its Sales and Sold for $600M.</title>
       <link>https://talpaperin.com/blog/realsense-cognex-fix-your-sales</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-fractional-sales-leader</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>A frum, shomer Shabbos fractional sales leader and business consultant who shares your values, respects your calendar, and takes real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Frum Business Consultant in Boro Park</title>
-      <link>https://talpaperin.com/blog/frum-business-consultant-boro-park</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-consultant-boro-park</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>A frum, shomer Shabbos business consultant and fractional sales leader for frum and heimishe business owners in Borough Park, Brooklyn. Real sales ownership, shared values, no Shabbos or Yom Tov calls.</description>
     </item>
   </channel>
 </rss>

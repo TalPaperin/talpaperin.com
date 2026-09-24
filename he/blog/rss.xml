@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>כמה זמן צריך להימשך מחזור מכירה B2B (ואיך לקצר את שלכם)</title>
+      <link>https://talpaperin.com/he/blog/b2b-sales-cycle-length</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/b2b-sales-cycle-length</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>רוב מחזורי המכירה ב-B2B ארוכים בגלל תקיעות וכישור חלש, לא בגלל מורכבות אמיתית. הנה בנצ&#x27;מרקים כנים ושני המהלכים שמקצרים מחזורים.</description>
+    </item>
     <item>
       <title>אינטל כמעט סגרה את RealSense. ואז היא תיקנה את המכירות ונמכרה ב-600 מיליון דולר.</title>
       <link>https://talpaperin.com/he/blog/realsense-cognex-fix-your-sales</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/fractional-cro-vs-full-time-cro</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
       <description>פירוק מעשי של מתי סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ עדיף על גיוס במשרה מלאה, כמה כל אחד באמת עולה, ואיך לדעת מה שלב ההכנסות שלכם דורש.</description>
-    </item>
-    <item>
-      <title>מנהיגות דורשת ביצים. לרוב האנשים הן התנוונו.</title>
-      <link>https://talpaperin.com/he/blog/leadership-requires-balls</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/leadership-requires-balls</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <description>מנהיגות אמיתית באה מקושי, לא מסדנה בבאלי. למה לקוחות בוחרים בי על פני גיוס בטוח במשרה מלאה, ומה לעשות אם זה חסר לכם.</description>
     </item>
   </channel>
 </rss>
