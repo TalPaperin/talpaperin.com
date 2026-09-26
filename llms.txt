@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Why Your Demos Don't Close](https://talpaperin.com/blog/why-your-demos-dont-close): Demos fail when they come before discovery. You are showing features to a problem you never uncovered. Sell the problem first, then demo only to the pain you found.
 - [How Long Should a B2B Sales Cycle Be (and How to Shorten Yours)](https://talpaperin.com/blog/b2b-sales-cycle-length): Most B2B sales cycles are long because of stalls and weak qualification, not real complexity. Here are honest benchmarks and the two moves that shorten cycles.
 - [Intel Almost Killed RealSense. Then It Fixed Its Sales and Sold for $600M.](https://talpaperin.com/blog/realsense-cognex-fix-your-sales): Intel nearly shut RealSense down. Spun out, it went from $8M a quarter to a $600M sale. The technology did not change. The way it sold did.
 - [Outbound vs Inbound for Early-Stage B2B: Where to Start](https://talpaperin.com/blog/outbound-vs-inbound-early-stage): Inbound compounds but takes many months. Outbound buys control, speed, and market knowledge now. Here is why early-stage B2B almost always needs outbound first.

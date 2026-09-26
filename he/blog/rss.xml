@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>למה הדמו שלכם לא סוגר</title>
+      <link>https://talpaperin.com/he/blog/why-your-demos-dont-close</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/why-your-demos-dont-close</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <description>דמו נכשל כשהוא בא לפני דיסקברי. אתם מציגים פיצ&#x27;רים לבעיה שמעולם לא חשפתם. מכרו את הבעיה קודם, ואז הדגימו רק את הכאב שמצאתם.</description>
+    </item>
     <item>
       <title>כמה זמן צריך להימשך מחזור מכירה B2B (ואיך לקצר את שלכם)</title>
       <link>https://talpaperin.com/he/blog/b2b-sales-cycle-length</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-operation-in-the-uk</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <description>מכירות B2B בבריטניה: איך הקונה הבריטי באמת קונה, ומערך המכירות, החברה הבת והתמיכה שאני בונה ומנהל שם.</description>
-    </item>
-    <item>
-      <title>סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה: מה החברה שלכם באמת צריכה?</title>
-      <link>https://talpaperin.com/he/blog/fractional-cro-vs-full-time-cro</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/fractional-cro-vs-full-time-cro</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <description>פירוק מעשי של מתי סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ עדיף על גיוס במשרה מלאה, כמה כל אחד באמת עולה, ואיך לדעת מה שלב ההכנסות שלכם דורש.</description>
     </item>
   </channel>
 </rss>
