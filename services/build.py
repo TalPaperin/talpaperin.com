@@ -1714,15 +1714,15 @@ TESTIMONIALS_HE = [
 
 
 LOGOS = [
- ("pepsico","PepsiCo"),("mars","Mars"),("mehadrin","Mehadrin"),
- ("saskatchewan","University of Saskatchewan"),("palram","Palram Applications"),
- ("motorad","MotoRad"),("source","Source"),("bt9","BT9"),
+ ("hirematch","HireMatch AI"),("vectorize","Vectorize"),("clinicmind","ClinicMind"),
+ ("tagmedical","TAG Medical"),("mis","MIS"),
+ ("palram","Palram Applications"),("motorad","MotoRad"),("source","Source"),("bt9","BT9"),
  ("limat","Limat Group"),
  ("lonestar","LoneStar Tracking"),("supra","Supra National Express"),
  ("bacsoft","Bacsoft"),("ofekpoint","OfekPoint"),("headcount","Headcount"),
  ("structshare","StructShare"),("hiarc","HiArc"),("cornsys","Cornsys"),
  ("epropertycare","ePropertyCare"),("chabad","Chabad on Campus"),
- ("kanduai","KanduAI"),("clinicmind","ClinicMind"),("plasticplace","PlasticPlace"),
+ ("kanduai","KanduAI"),("plasticplace","PlasticPlace"),
 ]
 
 
