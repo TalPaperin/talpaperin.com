@@ -1715,7 +1715,7 @@ TESTIMONIALS_HE = [
 
 LOGOS = [
  ("hirematch","HireMatch AI"),("vectorize","Vectorize"),("clinicmind","ClinicMind"),
- ("tagmedical","TAG Medical"),("mis","MIS"),
+ ("tagmedical","TAG Medical"),("teva","Teva Pharmaceuticals"),
  ("palram","Palram Applications"),("motorad","MotoRad"),("source","Source"),("bt9","BT9"),
  ("limat","Limat Group"),
  ("lonestar","LoneStar Tracking"),("supra","Supra National Express"),
