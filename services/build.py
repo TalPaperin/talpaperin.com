@@ -1723,6 +1723,7 @@ LOGOS = [
  ("structshare","StructShare"),("hiarc","HiArc"),("cornsys","Cornsys"),
  ("epropertycare","ePropertyCare"),("chabad","Chabad on Campus"),
  ("kanduai","KanduAI"),("plasticplace","PlasticPlace"),
+ ("typoductions","TypoDuctions"),("drift","DRIFT"),
 ]
 
 
