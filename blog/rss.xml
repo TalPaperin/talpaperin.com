@@ -6,7 +6,21 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>OpenWeb Raised $390M and Hit a $1.5B Valuation. Now It&#x27;s Seeking Insolvency Protection.</title>
+      <link>https://talpaperin.com/blog/openweb-insolvency-revenue-lesson</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/openweb-insolvency-revenue-lesson</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>OpenWeb raised $390M at a $1.5B valuation and now seeks insolvency protection. The lesson for founders: fix the revenue machine while you still have runway.</description>
+    </item>
+    <item>
+      <title>How to Scale From Founder-Led Sales to a Real Sales Team</title>
+      <link>https://talpaperin.com/blog/scale-founder-led-to-team</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/scale-founder-led-to-team</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Founder-led sales does not scale by hiring. Codify the founder&#x27;s motion into a playbook, hire to that profile, install management and cadence. Order matters.</description>
+    </item>
     <item>
       <title>Why Your Demos Don&#x27;t Close</title>
       <link>https://talpaperin.com/blog/why-your-demos-dont-close</link>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-boro-park</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
       <description>Business Development for frum and heimishe business owners in Borough Park, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Growing Your Frum Business in Lakewood</title>
-      <link>https://talpaperin.com/blog/growing-your-frum-business-lakewood</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/growing-your-frum-business-lakewood</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Growth for frum and heimishe business owners in Lakewood, New Jersey, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
-    </item>
-    <item>
-      <title>Frum Sales Consultant in Lakewood</title>
-      <link>https://talpaperin.com/blog/frum-sales-consultant-lakewood</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-sales-consultant-lakewood</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Sales for frum and heimishe business owners in Lakewood, New Jersey, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>

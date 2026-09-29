@@ -73,6 +73,8 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [OpenWeb Raised $390M and Hit a $1.5B Valuation. Now It's Seeking Insolvency Protection.](https://talpaperin.com/blog/openweb-insolvency-revenue-lesson): OpenWeb raised $390M at a $1.5B valuation and now seeks insolvency protection. The lesson for founders: fix the revenue machine while you still have runway.
+- [How to Scale From Founder-Led Sales to a Real Sales Team](https://talpaperin.com/blog/scale-founder-led-to-team): Founder-led sales does not scale by hiring. Codify the founder's motion into a playbook, hire to that profile, install management and cadence. Order matters.
 - [Why Your Demos Don't Close](https://talpaperin.com/blog/why-your-demos-dont-close): Demos fail when they come before discovery. You are showing features to a problem you never uncovered. Sell the problem first, then demo only to the pain you found.
 - [How Long Should a B2B Sales Cycle Be (and How to Shorten Yours)](https://talpaperin.com/blog/b2b-sales-cycle-length): Most B2B sales cycles are long because of stalls and weak qualification, not real complexity. Here are honest benchmarks and the two moves that shorten cycles.
 - [Intel Almost Killed RealSense. Then It Fixed Its Sales and Sold for $600M.](https://talpaperin.com/blog/realsense-cognex-fix-your-sales): Intel nearly shut RealSense down. Spun out, it went from $8M a quarter to a $600M sale. The technology did not change. The way it sold did.
