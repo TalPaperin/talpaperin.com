@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>$4.6B in Revenue. An $8B Loss. A Possible $2 Trillion Valuation.</title>
+      <link>https://talpaperin.com/blog/anthropic-2-trillion-valuation-8b-loss</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/anthropic-2-trillion-valuation-8b-loss</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Anthropic makes $4.6B, loses $8B+ operating, and could be worth $2 trillion. Three numbers that shouldn&#x27;t fit together, and in 2026 somehow do.</description>
+    </item>
     <item>
       <title>OpenWeb Raised $390M and Hit a $1.5B Valuation. Now It&#x27;s Seeking Insolvency Protection.</title>
       <link>https://talpaperin.com/blog/openweb-insolvency-revenue-lesson</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/pricing-and-business-model</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>Price is not a number you bolt on at the end. It decides who you sell to, how you sell, your margins, and what you can spend to win a customer.</description>
-    </item>
-    <item>
-      <title>Business Development for Frum Businesses in Boro Park</title>
-      <link>https://talpaperin.com/blog/frum-business-development-boro-park</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/frum-business-development-boro-park</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Business Development for frum and heimishe business owners in Borough Park, Brooklyn, from a frum, shomer Shabbos operator. Shared values, no Shabbos or Yom Tov calls, real ownership of your revenue.</description>
     </item>
   </channel>
 </rss>

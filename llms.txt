@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [$4.6B in Revenue. An $8B Loss. A Possible $2 Trillion Valuation.](https://talpaperin.com/blog/anthropic-2-trillion-valuation-8b-loss): Anthropic makes $4.6B, loses $8B+ operating, and could be worth $2 trillion. Three numbers that shouldn't fit together, and in 2026 somehow do.
 - [OpenWeb Raised $390M and Hit a $1.5B Valuation. Now It's Seeking Insolvency Protection.](https://talpaperin.com/blog/openweb-insolvency-revenue-lesson): OpenWeb raised $390M at a $1.5B valuation and now seeks insolvency protection. The lesson for founders: fix the revenue machine while you still have runway.
 - [How to Scale From Founder-Led Sales to a Real Sales Team](https://talpaperin.com/blog/scale-founder-led-to-team): Founder-led sales does not scale by hiring. Codify the founder's motion into a playbook, hire to that profile, install management and cadence. Order matters.
 - [Why Your Demos Don't Close](https://talpaperin.com/blog/why-your-demos-dont-close): Demos fail when they come before discovery. You are showing features to a problem you never uncovered. Sell the problem first, then demo only to the pain you found.
