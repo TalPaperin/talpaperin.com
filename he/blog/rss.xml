@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>תוכניות תגמול מכירות שבאמת מניעות</title>
+      <link>https://talpaperin.com/he/blog/sales-comp-plans-that-work</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/sales-comp-plans-that-work</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description>תוכנית תגמול טובה פשוטה מספיק שנציג יכול לחשב את הצ&#x27;ק שלו בעצמו. הנה איך לקבוע בסיס, משתנה, OTE ומכסה לפי תפקיד, ואילו טעויות להימנע מהן.</description>
+    </item>
     <item>
       <title>4.6 מיליארד דולר הכנסה. הפסד של 8 מיליארד. שווי אפשרי של 2 טריליון דולר.</title>
       <link>https://talpaperin.com/he/blog/anthropic-2-trillion-valuation-8b-loss</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/pricing-and-business-model</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>מחיר הוא לא מספר שמדביקים בסוף. הוא קובע למי מוכרים, איך מוכרים, את הרווחיות, וכמה אפשר להוציא כדי לזכות בלקוח.</description>
-    </item>
-    <item>
-      <title>איך בונים מכונת מכירות B2B במערב אירופה</title>
-      <link>https://talpaperin.com/he/blog/building-a-sales-machine-in-western-europe</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-machine-in-western-europe</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>איך אני בונה מכונת מכירות במערב אירופה: קודם מחקר שוק, ואז מהלך ממוקד על בריטניה ומזרח אירופה, שנבנה ומנוהל בידיים, לא מצגת שמגישים ונעלמים.</description>
     </item>
   </channel>
 </rss>

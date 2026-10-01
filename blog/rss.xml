@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Sales Comp Plans That Actually Motivate</title>
+      <link>https://talpaperin.com/blog/sales-comp-plans-that-work</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/sales-comp-plans-that-work</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A good comp plan is simple enough a rep can calculate their own check. Here is how to set base, variable, OTE, and quota by role, and the mistakes to avoid.</description>
+    </item>
     <item>
       <title>$4.6B in Revenue. An $8B Loss. A Possible $2 Trillion Valuation.</title>
       <link>https://talpaperin.com/blog/anthropic-2-trillion-valuation-8b-loss</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/how-to-price-a-b2b-product</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>Most B2B companies price by cost-plus or by copying a competitor and leave money on every deal. Here is how to price for the value you actually deliver.</description>
-    </item>
-    <item>
-      <title>Your Price Is Your Business Model</title>
-      <link>https://talpaperin.com/blog/pricing-and-business-model</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/pricing-and-business-model</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Price is not a number you bolt on at the end. It decides who you sell to, how you sell, your margins, and what you can spend to win a customer.</description>
     </item>
   </channel>
 </rss>
