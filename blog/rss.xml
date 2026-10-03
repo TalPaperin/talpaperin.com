@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Set Sales Quotas Your Team Can Actually Hit</title>
+      <link>https://talpaperin.com/blog/set-sales-quotas-you-can-hit</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/set-sales-quotas-you-can-hit</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A quota nobody hits demotivates your team and hides the real problem. Here is how to build quotas bottoms-up from rep capacity and pipeline math.</description>
+    </item>
     <item>
       <title>Sales Comp Plans That Actually Motivate</title>
       <link>https://talpaperin.com/blog/sales-comp-plans-that-work</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/eurosatory-outbound-beats-inbound</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>France boarded up 30 Israeli defense booths at Eurosatory after they complied with every demand. Here is why it proves outbound beats inbound when your product is proven and your buyers are known.</description>
-    </item>
-    <item>
-      <title>How to Price a B2B Product: Value, Not Cost-Plus</title>
-      <link>https://talpaperin.com/blog/how-to-price-a-b2b-product</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/how-to-price-a-b2b-product</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Most B2B companies price by cost-plus or by copying a competitor and leave money on every deal. Here is how to price for the value you actually deliver.</description>
     </item>
   </channel>
 </rss>

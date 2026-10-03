@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>איך לקבוע יעדי מכירות שהצוות שלכם באמת יכול לעמוד בהם</title>
+      <link>https://talpaperin.com/he/blog/set-sales-quotas-you-can-hit</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/set-sales-quotas-you-can-hit</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <description>יעד שאף אחד לא עומד בו מדכא את הצוות ומסתיר את הבעיה האמיתית. הנה איך לבנות יעדים מלמטה למעלה, מקיבולת הנציג וממתמטיקת הפייפליין.</description>
+    </item>
     <item>
       <title>תוכניות תגמול מכירות שבאמת מניעות</title>
       <link>https://talpaperin.com/he/blog/sales-comp-plans-that-work</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/how-to-price-a-b2b-product</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>רוב חברות ה-B2B מתמחרות לפי עלות-פלוס או בהעתקה ממתחרה, ומשאירות כסף על השולחן בכל עסקה. ככה מתמחרים לפי הערך שאתם באמת מספקים.</description>
-    </item>
-    <item>
-      <title>המחיר שלכם הוא המודל העסקי</title>
-      <link>https://talpaperin.com/he/blog/pricing-and-business-model</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/pricing-and-business-model</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>מחיר הוא לא מספר שמדביקים בסוף. הוא קובע למי מוכרים, איך מוכרים, את הרווחיות, וכמה אפשר להוציא כדי לזכות בלקוח.</description>
     </item>
   </channel>
 </rss>
