@@ -1724,14 +1724,29 @@ LOGOS = [
  ("epropertycare","ePropertyCare"),("chabad","Chabad on Campus"),
  ("kanduai","KanduAI"),("plasticplace","PlasticPlace"),
  ("typoductions","TypoDuctions"),("drift","DRIFT"),
+ ("agat","AGAT Software"),("bmt","BMT Diagnostics"),("oppeo","Oppeo"),
+ ("valmar","Valmar Surgical"),("appsgrade","AppsGrade"),("nuversys","NuVersys"),
+ ("substrata","Substrata"),("royalcare","Royal Care"),("theboxny","TheBoxNY"),
 ]
 
 
 def render_logo_wall(logos):
-    imgs = "".join(
-        '<img src="/logos/%s.jpg" alt="%s" loading="lazy" />' % (slug, esc(name))
-        for slug, name in logos)
-    return '<div class="proof-logos">%s</div>' % imgs
+    # Two-row auto-scrolling carousel. Each row's set is duplicated so the
+    # CSS translateX(-50%) loop is seamless; the duplicate is aria-hidden.
+    mid = (len(logos) + 1) // 2
+    rows = [logos[:mid], logos[mid:]]
+
+    def track(items, cls):
+        base = "".join(
+            '<img src="/logos/%s.jpg" alt="%s" loading="lazy" />' % (slug, esc(name))
+            for slug, name in items)
+        dup = "".join(
+            '<img src="/logos/%s.jpg" alt="" aria-hidden="true" loading="lazy" />' % slug
+            for slug, _ in items)
+        return '<div class="proof-track %s">%s%s</div>' % (cls, base, dup)
+
+    return ('<div class="proof-carousel" aria-label="Companies Tal has built sales for">%s%s</div>'
+            % (track(rows[0], "ltr"), track(rows[1], "rtl")))
 
 
 def render_gallery(alt="Tal Paperin in the field"):
