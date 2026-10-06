@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [How Much Pipeline You Really Need to Hit Your Number](https://talpaperin.com/blog/how-much-pipeline-to-hit-number): Pipeline coverage is quota divided by win rate, adjusted for cycle time. Most teams undercount because the pipeline is stuffed with dead deals.
 - [How to Set Sales Quotas Your Team Can Actually Hit](https://talpaperin.com/blog/set-sales-quotas-you-can-hit): A quota nobody hits demotivates your team and hides the real problem. Here is how to build quotas bottoms-up from rep capacity and pipeline math.
 - [Sales Comp Plans That Actually Motivate](https://talpaperin.com/blog/sales-comp-plans-that-work): A good comp plan is simple enough a rep can calculate their own check. Here is how to set base, variable, OTE, and quota by role, and the mistakes to avoid.
 - [$4.6B in Revenue. An $8B Loss. A Possible $2 Trillion Valuation.](https://talpaperin.com/blog/anthropic-2-trillion-valuation-8b-loss): Anthropic makes $4.6B, loses $8B+ operating, and could be worth $2 trillion. Three numbers that shouldn't fit together, and in 2026 somehow do.
