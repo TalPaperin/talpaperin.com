@@ -147,8 +147,8 @@
     /* logos (light band, logos need light bg) */
     .logos{background:var(--bg2);padding:46px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
     .logos .label{display:block;text-align:center;font:600 12px/1 'Space Grotesk';letter-spacing:.16em;text-transform:uppercase;color:var(--soft);margin-bottom:28px}
-    .logos .logo-img{flex:0 0 auto;height:56px;width:auto;margin:0 16px;object-fit:contain;background:#fff;border-radius:10px;padding:9px 16px;border:1px solid rgba(0,0,0,.12)}
-    @media(max-width:600px){.logos .logo-img{height:46px;margin:0 11px;padding:7px 12px}}
+    .logos .logo-img{flex:0 0 auto;height:86px;width:auto;margin:0 13px;object-fit:contain;background:#f5f5f5;border-radius:14px;padding:16px 22px}
+    @media(max-width:600px){.logos .logo-img{height:62px;margin:0 9px;padding:12px 16px}}
 
     /* marquee */
     .marquee{overflow:hidden;width:100%;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
@@ -526,7 +526,7 @@
 
   <script>
     // logos
-    var logos=[["pepsico","PepsiCo"],["mars","Mars"],["mehadrin","Mehadrin"],["saskatchewan","University of Saskatchewan"],["palram","Palram Applications"],["motorad","MotoRad"],["source","Source"],["bt9","BT9"],["limat","Limat Group"],["lonestar","LoneStar Tracking"],["supra","Supra National Express"],["bacsoft","Bacsoft"],["ofekpoint","OfekPoint"],["headcount","HeadCounter"],["structshare","StructShare"],["hiarc","HiArc"],["cornsys","Cornsys"],["epropertycare","ePropertyCare"],["chabad","Chabad on Campus"],["kanduai","KanduAI"],["clinicmind","ClinicMind"],["plasticplace","PlasticPlace"]];
+    var logos=[["hirematch","HireMatch AI"],["vectorize","Vectorize"],["clinicmind","ClinicMind"],["tagmedical","TAG Medical"],["teva","Teva Pharmaceuticals"],["palram","Palram Applications"],["motorad","MotoRad"],["source","Source"],["bt9","BT9"],["limat","Limat Group"],["lonestar","LoneStar Tracking"],["supra","Supra National Express"],["bacsoft","Bacsoft"],["ofekpoint","OfekPoint"],["headcount","Headcount"],["structshare","StructShare"],["hiarc","HiArc"],["cornsys","Cornsys"],["epropertycare","ePropertyCare"],["chabad","Chabad on Campus"],["kanduai","KanduAI"],["plasticplace","PlasticPlace"],["typoductions","TypoDuctions"],["drift","DRIFT"],["agat","AGAT Software"],["bmt","BMT Diagnostics"],["oppeo","Oppeo"],["valmar","Valmar Surgical"],["appsgrade","AppsGrade"],["nuversys","NuVersys"],["substrata","Substrata"],["royalcare","Royal Care"],["theboxny","TheBoxNY"]];
     var lt=document.getElementById('logotrack'),lh='';
     for(var d=0;d<2;d++){logos.forEach(function(l){lh+='<img class="logo-img" src="/logos/'+l[0]+'.jpg" alt="'+(d?'':l[1])+'"'+(d?' aria-hidden="true"':'')+' loading="lazy" />';});}
     lt.innerHTML=lh;
