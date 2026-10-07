@@ -1737,11 +1737,15 @@ def render_logo_wall(logos):
     rows = [logos[:mid], logos[mid:]]
 
     def track(items, cls):
+        # NOT loading="lazy": the track is a transform:translateX marquee, so every logo is laid
+        # out off-screen to the right (width:max-content) and the browser never fires lazy-load for
+        # them as the animation scrolls them in - they'd stay blank #f5f5f5 cards. Load eagerly
+        # (small logos) and decode async so the whole wall renders.
         base = "".join(
-            '<img src="/logos/%s.jpg" alt="%s" loading="lazy" />' % (slug, esc(name))
+            '<img src="/logos/%s.jpg" alt="%s" decoding="async" />' % (slug, esc(name))
             for slug, name in items)
         dup = "".join(
-            '<img src="/logos/%s.jpg" alt="" aria-hidden="true" loading="lazy" />' % slug
+            '<img src="/logos/%s.jpg" alt="" aria-hidden="true" decoding="async" />' % slug
             for slug, _ in items)
         return '<div class="proof-track %s">%s%s</div>' % (cls, base, dup)
 
