@@ -175,6 +175,8 @@
     .case-full .case{grid-template-columns:1fr;align-items:start}
     .case-full .case+.case{margin-top:0}
     @media(max-width:760px){.case-full{grid-template-columns:1fr}}
+    .case-toggle-wrap{display:none}
+    @media(max-width:760px){.case-full .case:nth-child(n+3){display:none}#cases.cases-open .case-full .case:nth-child(n+3){display:grid}.case-toggle-wrap{display:block}}
 
     .caps{display:grid;grid-template-columns:1fr 1fr;gap:20px 24px;margin-top:42px}
     .cap{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-right:3px solid rgba(90,176,255,.5);border-radius:14px;padding:22px 24px;will-change:transform;transition:transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .25s ease,border-color .25s ease}
@@ -412,6 +414,7 @@
       <article class="case"><div class="who"><img class="case-logo" src="/logos/bt9.jpg" alt="BT9 / Xsense" /><h3>חברת IoT ו-SaaS</h3><p class="role">BT9 / Xsense, מכירות בינלאומיות שנבנו מאפס</p><p class="intro">חברת IoT ו-SaaS שהייתה צריכה נוכחות בינלאומית אמיתית. בניתי את כל מערך המכירות הגלובלי מאפס, במכירה ישירה ודרך מפיצים, וניהלתי את הצוות יום-יום.</p></div></article>
       <article class="case"><div class="who"><img class="case-logo" src="/logos/palram.jpg" alt="Palram Applications" /><h3>יצרן גלובלי</h3><p class="role">פריצה לשוק במזרח אירופה</p><p class="intro">יצרן בינלאומי שהיה בטוח שאין כסף אמיתי במזרח אירופה, ולכן נמנע מלהיכנס לשם. הוכחתי להם שהם טועים, בניתי תוכנית עבודה ופתחתי את השוק הזה בעצמי.</p></div></article>
       </div>
+      <div class="case-toggle-wrap" style="text-align:center;margin-top:22px"><button type="button" class="btn btn-secondary case-toggle" aria-expanded="false">עוד מקרי מבחן</button></div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/he/case-studies">לכל מקרי המבחן &larr;</a></p>
     </div>
   </section>
