@@ -11,7 +11,7 @@ Service URLs are also pulled into sitemap.xml and llms.txt by blog/build.py,
 so run this first, then blog/build.py.
 
 These templates are the source of truth and reproduce the live pages exactly
-(About's "Fractional CRO / CGO" positioning, the HeadCounter case study, the
+(About's "Fractional CRO / CGO" positioning, the Headcount ERC case study, the
 btn-primary/btn-secondary classes and the magnetic-button block are all in the
 templates). Edit the templates here, not the generated HTML, then re-run.
 """
@@ -1483,7 +1483,7 @@ CONTACT_JS_HE = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
 
 
 CASE_STUDIES = [
- {"company":"HeadCounter","id":"headcounter","meta":"US tax-credit (ERC) recovery, Go-to-market and sales team build",
+ {"company":"Headcount ERC","id":"headcount-erc","meta":"US tax-credit (ERC) recovery, Go-to-market and sales team build",
   "situation":"A US firm helping eligible businesses claim the federal Employee Retention Credit, money many of them were genuinely owed and had no idea they qualified for. The offer was real and the addressable market was enormous, but there was no go-to-market motion to reach it at scale and no sales team to run it. On top of that it was a high-velocity, high-volume sale against the clock: a closing filing window and a buyer who had already been cold-called by a dozen ERC shops and trusted none of them. Trust had to be earned fast, at scale.",
   "did":["Built the entire go-to-market plan and sales strategy from scratch","Defined the ICP, the qualification criteria and the outbound messaging that cut through the ERC noise","Designed the full sales process and playbook, from first touch to signed engagement","Recruited, hired and onboarded the team of SDRs and AEs","Managed the SDRs and AEs day to day: targets, scripts, coaching, pipeline and performance"],
   "result":"A go-to-market motion and a trained SDR and AE sales floor where there had been neither, turning a huge but skeptical, hard-to-reach market into a managed, repeatable outbound engine."},
@@ -1526,7 +1526,7 @@ CASE_STUDIES = [
 ]
 
 HE_CASES = [
- {"company":"HeadCounter","id":"headcounter","meta":"החזרי מס (ERC) בארה״ב, בניית GTM וצוות מכירות",
+ {"company":"Headcount ERC","id":"headcount-erc","meta":"החזרי מס (ERC) בארה״ב, בניית GTM וצוות מכירות",
   "situation":"חברה אמריקאית שעוזרת לעסקים זכאים לתבוע את ה-Employee Retention Credit הפדרלי, כסף שרבים מהם באמת היו זכאים לו ולא ידעו שהם עומדים בקריטריונים. ההצעה הייתה אמיתית והשוק הפוטנציאלי ענק, אבל לא הייתה תנועת GTM להגיע אליו בקנה מידה ולא צוות מכירות שיריץ אותה. נוסף על כך, זו הייתה מכירה מהירה ובנפח גבוה במרוץ נגד השעון: חלון הגשה שנסגר, וקונה שכבר קיבל שיחות קרות מתריסר חברות ERC ולא בטח באף אחת מהן. היה צריך לבנות אמון מהר, בקנה מידה.",
   "did":["בניתי את כל תוכנית ואסטרטגיית ה-GTM מאפס","הגדרתי את ה-ICP, קריטריוני הסינון והמסרים שחתכו את הרעש בשוק ה-ERC","תכננתי את כל תהליך המכירה וה-Playbook, מהמגע הראשון ועד החתימה","גייסתי, הכשרתי וקלטתי את צוות ה-SDR וה-AE","ניהלתי את ה-SDRs וה-AEs יום-יום: יעדים, סקריפטים, אימון, פייפליין וביצועים"],
   "result":"תנועת GTM וצוות מכירות מיומן של SDRs ו-AEs במקום שבו לא היה אף אחד מהם, שהפכו שוק ענק אך סקפטי וקשה להשגה למנוע אאוטבאונד מנוהל וניתן לשחזור."},
@@ -1569,7 +1569,7 @@ HE_CASES = [
 ]
 
 
-LOGO_MAP = {"HeadCounter":"headcount","KanduAI":"kanduai","LoneStar Tracking":"lonestar","Bacsoft":"bacsoft",
+LOGO_MAP = {"Headcount ERC":"headcount","KanduAI":"kanduai","LoneStar Tracking":"lonestar","Bacsoft":"bacsoft",
             "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source","Limat":"limat"}
 
 
@@ -1721,7 +1721,7 @@ LOGOS = [
  ("palram","Palram Applications"),("motorad","MotoRad"),("source","Source"),("bt9","BT9"),
  ("limat","Limat Group"),
  ("lonestar","LoneStar Tracking"),("supra","Supra National Express"),
- ("bacsoft","Bacsoft"),("ofekpoint","OfekPoint"),("headcount","Headcount"),
+ ("bacsoft","Bacsoft"),("ofekpoint","OfekPoint"),("headcount","Headcount ERC"),
  ("structshare","StructShare"),("hiarc","HiArc"),("cornsys","Cornsys"),
  ("epropertycare","ePropertyCare"),("chabad","Chabad on Campus"),
  ("kanduai","KanduAI"),("plasticplace","PlasticPlace"),
