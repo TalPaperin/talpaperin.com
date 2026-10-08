@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>איך לגייס שותפי ערוץ שבאמת מוכרים</title>
+      <link>https://talpaperin.com/he/blog/recruit-channel-partners</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/recruit-channel-partners</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description>רוב השותפויות לא מייצרות כלום. גייסו שותפים לפי התאמה ומוטיבציה אמיתית, הכשירו אותם כמו שצריך, החזיקו אותם למספרים, או חתכו אותם.</description>
+    </item>
     <item>
       <title>כמה פייפליין אתם באמת צריכים כדי לעמוד ביעד</title>
       <link>https://talpaperin.com/he/blog/how-much-pipeline-to-hit-number</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/b2b-pricing-models</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <description>מנוי, תמחור לפי שימוש, חד-פעמי והיברידי, כל אחד מתאים למוצר וללקוח אחר. איך בוחרים את המודל שמתאים לכם.</description>
-    </item>
-    <item>
-      <title>המארגנים הצרפתים האנטישמיים עשו לתעשיית הביטחון הישראלית טובה</title>
-      <link>https://talpaperin.com/he/blog/eurosatory-outbound-beats-inbound</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/eurosatory-outbound-beats-inbound</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>צרפת חסמה 30 ביתנים ישראליים ביורוסאטורי אחרי שעמדו בכל דרישה. למה זה מוכיח שאאוטבאונד מנצח אינבאונד כשהמוצר מוכח והקונים ידועים.</description>
     </item>
   </channel>
 </rss>

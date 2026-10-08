@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Recruit Channel Partners That Actually Sell</title>
+      <link>https://talpaperin.com/blog/recruit-channel-partners</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/recruit-channel-partners</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Most partnerships produce nothing. Recruit partners for real fit and motivation, enable them properly, hold them to numbers, or cut them.</description>
+    </item>
     <item>
       <title>How Much Pipeline You Really Need to Hit Your Number</title>
       <link>https://talpaperin.com/blog/how-much-pipeline-to-hit-number</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/cro-vs-cgo-which-one-does-your-company-need</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <description>A Chief Revenue Officer owns the number. A Chief Growth Officer owns the whole engine that produces it - sales, marketing, partnerships and new markets. Most founders hire the wrong one.</description>
-    </item>
-    <item>
-      <title>B2B Pricing Models: Subscription, Usage, Hybrid, and When Each Wins</title>
-      <link>https://talpaperin.com/blog/b2b-pricing-models</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/b2b-pricing-models</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Subscription, usage-based, one-time and hybrid pricing each fit a different product and buyer. How to choose the model that fits yours.</description>
     </item>
   </channel>
 </rss>
