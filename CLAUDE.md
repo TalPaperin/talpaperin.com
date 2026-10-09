@@ -35,7 +35,7 @@ Every new English post gets a Hebrew translation, no exceptions.
 
 ## Build & deploy workflow
 1. Run `services/build.py` first (services, guides, about, contact, pricing, case-studies, recommendations), THEN `blog/build.py` (posts, blog index, RSS, sitemap.xml, llms.txt).
-2. `blog/build.py` needs the `markdown` package: `pip install markdown` (NOT persistent across recycled containers — reinstall if `ModuleNotFoundError`).
+2. `blog/build.py` needs the `markdown` package. Install it with `python3 -m pip install markdown`, NOT bare `pip install markdown`: on recycled containers `pip` can point at a different Python than `python3` (seen: `pip` on 3.13, `python3` on 3.11), so a bare `pip install` reports success while `python3` still raises `ModuleNotFoundError`. Not persistent across recycled containers, so reinstall when it is missing.
 3. The `.py` templates are the source of truth and must stay in sync with the live HTML. Edit templates, then rebuild; a rebuild of unchanged pages should produce a zero diff.
 4. **All development goes straight to `main`** (per Tal). Recycled containers often start on the stale `claude/determined-brahmagupta-rkvaL` branch, which can be behind `main` — always `git fetch origin main` and reconcile to `origin/main` before building/committing so nothing is lost.
 
