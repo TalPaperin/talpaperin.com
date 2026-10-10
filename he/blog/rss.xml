@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>מכירות Enterprise לסטארטאפים: למכור לחברות פי 100 מכם</title>
+      <link>https://talpaperin.com/he/blog/enterprise-sales-for-startups</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/enterprise-sales-for-startups</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <description>מכירה לענקיות אומרת ועדות, רכש ומחזורים ארוכים. גייסו שגריר, פרסו את החשבון לכמה חוטים, הורידו את הסיכון, ואל תסתמכו לעולם על חוט אחד.</description>
+    </item>
     <item>
       <title>איך לגייס שותפי ערוץ שבאמת מוכרים</title>
       <link>https://talpaperin.com/he/blog/recruit-channel-partners</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/cro-vs-cgo-which-one-does-your-company-need</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <description>סמנכ״ל הכנסות (CRO) אחראי על המספר. סמנכ״ל צמיחה (CGO) אחראי על כל המנוע שמייצר אותו - מכירות, שיווק, שותפויות ושווקים חדשים. רוב המייסדים שוכרים את הלא נכון.</description>
-    </item>
-    <item>
-      <title>מודלי תמחור B2B: מנוי, לפי שימוש, היברידי, ומתי כל אחד מנצח</title>
-      <link>https://talpaperin.com/he/blog/b2b-pricing-models</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/b2b-pricing-models</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>מנוי, תמחור לפי שימוש, חד-פעמי והיברידי, כל אחד מתאים למוצר וללקוח אחר. איך בוחרים את המודל שמתאים לכם.</description>
     </item>
   </channel>
 </rss>

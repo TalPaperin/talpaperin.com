@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Enterprise Sales for Startups: Selling to Companies 100x Your Size</title>
+      <link>https://talpaperin.com/blog/enterprise-sales-for-startups</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/enterprise-sales-for-startups</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Selling to giants means committees, procurement, and long cycles. Land a champion, multi-thread the account, de-risk the buy, and never single-thread.</description>
+    </item>
     <item>
       <title>How to Recruit Channel Partners That Actually Sell</title>
       <link>https://talpaperin.com/blog/recruit-channel-partners</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/a-startup-raised-20-million-and-sold-for-150000</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <description>Swish.ai had Coca-Cola, Nestlé and CyberArk as customers and eight years in business, yet sold for the price of a used car. The reason was never the market. It was go-to-market.</description>
-    </item>
-    <item>
-      <title>I Spent 20 Years as a CRO. Half That Time I Was Actually a CGO.</title>
-      <link>https://talpaperin.com/blog/cro-vs-cgo-which-one-does-your-company-need</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/cro-vs-cgo-which-one-does-your-company-need</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>A Chief Revenue Officer owns the number. A Chief Growth Officer owns the whole engine that produces it - sales, marketing, partnerships and new markets. Most founders hire the wrong one.</description>
     </item>
   </channel>
 </rss>

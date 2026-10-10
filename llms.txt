@@ -73,6 +73,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Enterprise Sales for Startups: Selling to Companies 100x Your Size](https://talpaperin.com/blog/enterprise-sales-for-startups): Selling to giants means committees, procurement, and long cycles. Land a champion, multi-thread the account, de-risk the buy, and never single-thread.
 - [How to Recruit Channel Partners That Actually Sell](https://talpaperin.com/blog/recruit-channel-partners): Most partnerships produce nothing. Recruit partners for real fit and motivation, enable them properly, hold them to numbers, or cut them.
 - [How Much Pipeline You Really Need to Hit Your Number](https://talpaperin.com/blog/how-much-pipeline-to-hit-number): Pipeline coverage is quota divided by win rate, adjusted for cycle time. Most teams undercount because the pipeline is stuffed with dead deals.
 - [How to Set Sales Quotas Your Team Can Actually Hit](https://talpaperin.com/blog/set-sales-quotas-you-can-hit): A quota nobody hits demotivates your team and hides the real problem. Here is how to build quotas bottoms-up from rep capacity and pipeline math.
