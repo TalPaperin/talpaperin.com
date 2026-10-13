@@ -114,6 +114,7 @@ CTA_BOX = '''      <div class="cta-box">
         <h3>Tell me where revenue stalled. I'll tell you why.</h3>
         <p>A 15-minute call, no pitch. You will leave with at least one concrete thing to fix, whether or not we work together.</p>
         <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+        <a class="btn btn-secondary" style="margin-left:10px" href="https://wa.me/972545308119?text=Hi%20Tal%2C%20I%20found%20your%20site%20and%20want%20to%20talk%20go-to-market." target="_blank" rel="noopener">WhatsApp me</a>
       </div>'''
 
 
@@ -798,6 +799,7 @@ HE_CTA = '''      <div class="cta-box">
         <h3>ספרו לי איפה המכירות נתקעו. אני אגיד לכם למה.</h3>
         <p>שיחה של 15 דקות, בלי ניסיונות מכירה. תצאו ממנה עם לפחות דבר אחד פרקטי לתקן, בין אם נעבוד יחד ובין אם לא.</p>
         <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
+        <a class="btn btn-secondary" style="margin-right:10px" href="https://wa.me/972545308119?text=%D7%94%D7%99%D7%99%20%D7%98%D7%9C%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%93%D7%A8%D7%9A%20%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%93%D7%91%D7%A8." target="_blank" rel="noopener">דברו איתי בוואטסאפ</a>
       </div>'''
 
 HE_SERVICES = [
