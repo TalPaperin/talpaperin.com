@@ -214,6 +214,7 @@ ARTICLE_GUIDES = {
     "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
     "sales-training",
     "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
+    "tal-paperin-podcasts-and-press",
 }
 
 
@@ -3048,6 +3049,20 @@ GUIDES = [
     {"q":"Do I need a US entity and US team on day one?","a":"Not always. I help you sequence it: prove the motion first, then stand up the presence and team, direct or through partners, when it is justified."},
     {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
   "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/us-market-entry-for-israeli-startups">US entry for Israeli startups</a> guide, or <a href="/contact">get in touch</a>.'},
+
+ {"slug":"tal-paperin-podcasts-and-press",
+  "title":"Tal Paperin: Podcasts, Interviews and Panels",
+  "desc":"Tal Paperin on go-to-market, B2B sales and revenue: selected podcasts, interviews and conference panels, in his own words.",
+  "h1":"Tal Paperin: Podcasts, Interviews and Panels","eyebrow":"Featured",
+  "lead":"Where I have talked go-to-market, sales and revenue in public. Podcasts, interviews and panels, aimed at founders and CEOs.",
+  "sections":[
+    {"h":"What I talk about","p":["The same things I do for clients: why founder-led sales stalls, how to build a go-to-market motion that scales, what actually changed in SaaS selling, and how to turn a raise into revenue. Direct, opinionated, aimed at founders and revenue leaders."]},
+    {"h":"Selected appearances","p":["A sample of recent shows and panels is below. For a podcast, panel or talk, get in touch and I will make the time."]},
+  ],
+  "faqs":[
+    {"q":"Is Tal Paperin available for podcasts and panels?","a":"Yes. I regularly join podcasts, interviews and conference panels on go-to-market, B2B sales, revenue and scaling founder-led sales. Get in touch with the details and I will make the time."},
+    {"q":"What does Tal Paperin speak about?","a":"Go-to-market strategy, building and scaling B2B sales teams, why founder-led sales stalls, what changed in SaaS selling, and turning funding into revenue. Practical and direct, for founders and revenue leaders."}],
+  "related":'<p>Selected appearances:</p><ul><li><a href="https://podcasts.apple.com/us/podcast/tal-paperin-ai-didnt-kill-saas-it-killed-lazy-sales-motion/id1812655142?i=1000750906146" target="_blank" rel="noopener">The Sales Strategist Podcast: "AI didn\'t kill SaaS, it killed lazy sales motion"</a> (<a href="https://open.spotify.com/episode/4GXV4h6wxRCVWXoyDzwynA" target="_blank" rel="noopener">Spotify</a>)</li><li><a href="https://marcuscauchi.podbean.com/e/success-comes-through-people-who-plan-execute-and-adapt-not-those-who-talk-about-it/" target="_blank" rel="noopener">TheInquisitor with Marcus Cauchi: "Success Comes To People Who Plan, Execute and Adapt"</a></li><li><a href="https://goodpods.com/podcasts/ask-win-114648/tal-paperin-part-2-5875148" target="_blank" rel="noopener">Ask Win: Tal Paperin (Part 2)</a></li><li><a href="https://davosinthedesert.us/israeli-technology-conference-speaker-podcasts/" target="_blank" rel="noopener">Davos in the Desert: Israeli Technology Conference panel</a></li></ul><p><a href="/contact">Want me on your show or panel? Get in touch.</a></p>'},
 ]
 
 
@@ -3432,6 +3447,20 @@ HE_GUIDES = [
     {"q":"במה זה שונה מיועץ?","a":"יועץ מייעץ. סמנכ״ל הכנסות במיקור חוץ לוקח אחריות על העבודה, על הפייפליין ועל התוצאות, ועונה על התוצאה."},
     {"q":"כמה עולה סמנכ״ל הכנסות במיקור חוץ?","a":"בדרך כלל 2,000 עד 12,000 דולר בחודש לפי מעורבות, בחיוב חודשי בלי נעילה, הרבה מתחת ל-CRO מלא."}],
   "related":'ראו <a href="/he/how-to-hire-a-fractional-cro">איך לשכור אחד</a> ואת שירות <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות</a>, או <a href="/he/contact">צרו קשר</a>.'},
+
+ {"slug":"tal-paperin-podcasts-and-press",
+  "title":"טל פאפרין: פודקאסטים, ראיונות ופאנלים",
+  "desc":"טל פאפרין על הליכה לשוק, מכירות B2B והכנסות: מבחר פודקאסטים, ראיונות ופאנלים, במילים שלו.",
+  "h1":"טל פאפרין: פודקאסטים, ראיונות ופאנלים","eyebrow":"בתקשורת",
+  "lead":"איפה דיברתי על הליכה לשוק, מכירות והכנסות בפומבי. פודקאסטים, ראיונות ופאנלים, לטובת מייסדים ומנכ״לים.",
+  "sections":[
+    {"h":"על מה אני מדבר","p":["אותם דברים שאני עושה ללקוחות: למה מכירות מבוססות-מייסד נתקעות, איך בונים מהלך הליכה לשוק שמתרחב, מה באמת השתנה במכירת SaaS, ואיך הופכים גיוס להכנסה. ישיר, דעתן, לטובת מייסדים ומובילי הכנסות."]},
+    {"h":"מבחר הופעות","p":["דוגמה להופעות ופאנלים אחרונים למטה. לפודקאסט, פאנל או הרצאה, צרו קשר ואמצא את הזמן."]},
+  ],
+  "faqs":[
+    {"q":"האם טל פאפרין זמין לפודקאסטים ופאנלים?","a":"כן. אני מצטרף באופן קבוע לפודקאסטים, ראיונות ופאנלים בכנסים על הליכה לשוק, מכירות B2B, הכנסות והרחבת מכירות מבוססות-מייסד. צרו קשר עם הפרטים ואמצא את הזמן."},
+    {"q":"על מה טל פאפרין מדבר?","a":"אסטרטגיית הליכה לשוק, בנייה והרחבה של צוותי מכירות B2B, למה מכירות מבוססות-מייסד נתקעות, מה השתנה במכירת SaaS, והפיכת גיוס להכנסה. פרקטי וישיר, למייסדים ומובילי הכנסות."}],
+  "related":'<p>מבחר הופעות:</p><ul><li><a href="https://podcasts.apple.com/us/podcast/tal-paperin-ai-didnt-kill-saas-it-killed-lazy-sales-motion/id1812655142?i=1000750906146" target="_blank" rel="noopener">The Sales Strategist Podcast: "AI didn\'t kill SaaS, it killed lazy sales motion"</a> (<a href="https://open.spotify.com/episode/4GXV4h6wxRCVWXoyDzwynA" target="_blank" rel="noopener">Spotify</a>)</li><li><a href="https://marcuscauchi.podbean.com/e/success-comes-through-people-who-plan-execute-and-adapt-not-those-who-talk-about-it/" target="_blank" rel="noopener">TheInquisitor with Marcus Cauchi: "Success Comes To People Who Plan, Execute and Adapt"</a></li><li><a href="https://goodpods.com/podcasts/ask-win-114648/tal-paperin-part-2-5875148" target="_blank" rel="noopener">Ask Win: Tal Paperin (Part 2)</a></li><li><a href="https://davosinthedesert.us/israeli-technology-conference-speaker-podcasts/" target="_blank" rel="noopener">Davos in the Desert: Israeli Technology Conference panel</a></li></ul><p><a href="/he/contact">רוצים אותי בשואו או בפאנל? צרו קשר.</a></p>'},
 ]
 
 
@@ -3649,6 +3678,7 @@ GUIDE_CATS = [
  ("Market entry", "חדירה לשווקים", [
    "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market", "fractional-cro-israel"]),
  ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),
+ ("In the media", "בתקשורת", ["tal-paperin-podcasts-and-press"]),
 ]
 
 

@@ -403,6 +403,12 @@
     <lastmod>2026-10-13</lastmod>
   </url>
   <url>
+    <loc>https://talpaperin.com/tal-paperin-podcasts-and-press</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
     <loc>https://talpaperin.com/he/sales-training</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -488,6 +494,12 @@
   </url>
   <url>
     <loc>https://talpaperin.com/he/outsourced-cro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/tal-paperin-podcasts-and-press</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-10-13</lastmod>
