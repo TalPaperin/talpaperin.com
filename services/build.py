@@ -212,6 +212,7 @@ ARTICLE_GUIDES = {
     "fractional-cro-vs-vp-of-sales", "how-to-hire-a-fractional-cro",
     "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
     "sales-training",
+    "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
 }
 
 
@@ -2499,6 +2500,41 @@ GUIDES = [
     {"q":"How quickly will I see results?","a":"You get a diagnosis in week one and a plan and forecast in week two. Pipeline and process improvements follow as the motion gets built and run."}],
   "related":'See <a href="/how-to-hire-a-fractional-cro">how to hire a fractional CRO</a>, the <a href="/services/fractional-cro">service</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
+ {"slug":"founder-led-sales-wont-scale",
+  "title":"Founder-Led Sales Won't Scale: How to Fix It | Tal Paperin",
+  "desc":"Founder-led sales stalls when every deal still runs through you. Here is how to turn it into a motion a team can run, without losing what got you here.",
+  "h1":"When Founder-Led Sales Stops Scaling","eyebrow":"Guide",
+  "lead":"Founder-led sales works right up until it does not. Here is why it stalls, and how to hand the motion to a team without the number falling off a cliff.",
+  "sections":[
+    {"h":"Why it stalls","p":["Founder-led sales works early because you are the best salesperson in the building. You know the product cold, you carry the authority to bend terms, and buyers trust the person who built the thing. That is also the trap. The motion lives in your head, not in a system, so it cannot be copied. Growth stays capped at the number of hours you can personally sell."]},
+    {"h":"The signs you have hit the ceiling","ul":["Every real deal still needs you on the call to close","Reps you hired are busy but not closing","Your pipeline and forecast are a guess, because only you know which deals are real","Revenue flattens the moment you step back to run the company","New hires take months to ramp and most never reach your numbers"]},
+    {"h":"What actually needs to transfer","p":["Hiring reps does not fix this. You are not short on bodies, you are short on a repeatable motion. What has to move out of your head and onto paper is the whole system: who the real buyer is, the message that lands, the qualifying questions, the objection answers, the steps from first call to signed, and the way you read a deal. Transfer the motion, then the people can run it."]},
+    {"h":"How I fix it","p":["Week one I diagnose what you actually do when you sell, including the parts you do not even notice. Week two I turn it into a documented motion with a real forecast. Then I build and train the team to run it, replace who cannot, and own the number while they ramp. You get your week back without watching revenue stall."]},
+    {"h":"What waiting costs","p":["Every quarter you stay the only closer is a quarter the company cannot grow past you, and a quarter your best reps spend learning nothing transferable. Founders who wait usually pay twice: once for the reps who did not work, and again to rebuild the motion later under pressure."]},
+  ],
+  "faqs":[
+    {"q":"Why can't my reps close like I do?","a":"Because the motion lives in your head, not in a system they can learn. Reps are not short on effort, they are short on a documented way to sell the way you do. Build the motion, train them on it, and closing becomes teachable."},
+    {"q":"Should I just hire a VP of Sales?","a":"Only if you can define the motion for them to scale. Hiring a VP to invent your sales process from scratch is how founders churn through expensive VPs. A fractional CRO builds the motion first, then you hire to run it."},
+    {"q":"How long until the team can sell without me?","a":"A documented motion and a real forecast come in the first two weeks. Reps ramping on it is a matter of weeks after that, not the many months an unled hire takes."}],
+  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/services/sales-team-building">sales team building</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"building-a-sales-team-after-funding",
+  "title":"Building a Sales Team After You Raise | Tal Paperin",
+  "desc":"Just raised? The fastest way to burn the round is hiring reps with no motion and no leader. Here is the order of operations that turns funding into revenue.",
+  "h1":"How to Build a Sales Team After You Raise","eyebrow":"Guide",
+  "lead":"A round does not buy you a market, it buys you time. Here is how to spend it building a sales team that produces revenue instead of burning the raise.",
+  "sections":[
+    {"h":"The post-raise trap","p":["The board wants growth, so the instinct is to hire fast: a handful of reps, maybe an SDR team, and go. Then two quarters pass, the reps are busy, the pipeline looks full, and almost nothing closes. The money went out, the revenue did not come in. The round did not fail you. Hiring a team before you had a motion did."]},
+    {"h":"The order that works","ul":["Lock the motion first: who buys, why, the message, and the repeatable path from first call to signed","Prove it with a few deals a non-founder can close, not just you","Hire a sales leader, or a fractional one, before you scale the headcount","Then add reps against a motion that already works, so they ramp on a system instead of guessing","Build the forecast and pipeline discipline before you are reporting on it to a board"]},
+    {"h":"Where the money actually burns","p":["Founders burn the round in predictable places: reps hired with no leader above them, an SDR team feeding a funnel nobody qualified, discounts given to force early wins that set a bad price, and a forecast built on hope. Each one feels like progress and each one costs you a quarter you cannot get back."]},
+    {"h":"How I help post-raise","p":["I come in as a fractional CRO, build the motion, hire and train the team against it, and own the number while it ramps, so you are not betting the round on a full-time hire who takes months to find and may not fit. You get senior leadership now, at a fraction of a full CRO cost, exactly when the pressure to grow is highest."]},
+  ],
+  "faqs":[
+    {"q":"Should I hire reps right after raising?","a":"Not first. Reps hired before you have a repeatable motion and a leader to run it are the most common way founders burn a round. Lock the motion, prove it, add the leader, then scale reps against it."},
+    {"q":"Full-time CRO or fractional after a raise?","a":"Fractional is often right straight after a raise: you get senior leadership immediately, build the motion and the team, and avoid betting the round on a months-long full-time search. Move to full-time once the function justifies the salary."},
+    {"q":"How fast should the team be producing?","a":"You should have a documented motion and a real forecast within the first two weeks, with reps ramping on it over the following weeks, rather than a team that looks busy for two quarters with nothing closing."}],
+  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/services/sales-team-building">sales team building</a>, <a href="/fractional-cro-for-startups">fractional CRO for startups</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
  {"slug":"fractional-cro-for-startups",
   "title":"Fractional CRO for Startups | Tal Paperin",
   "desc":"A fractional CRO for startups: senior revenue leadership from first revenue to Series B without a full-time hire. The motion, the team and the number.",
@@ -3264,6 +3300,41 @@ HE_GUIDES = [
     {"q":"כמה מהר אראה תוצאות?","a":"אתם מקבלים אבחון בשבוע הראשון ותוכנית ותחזית בשבוע השני. שיפורים בפייפליין ובתהליך מגיעים ככל שהתהליך נבנה ורץ."}],
   "related":'ראו <a href="/he/how-to-hire-a-fractional-cro">איך לשכור</a> ואת <a href="/he/services/fractional-cro">השירות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
 
+ {"slug":"founder-led-sales-wont-scale",
+  "title":"מכירות מבוססות-מייסד לא מתרחבות: איך מתקנים | טל פאפרין",
+  "desc":"מכירות מבוססות-מייסד נתקעות כשכל עסקה עדיין עוברת דרככם. הנה איך להפוך את זה למהלך שצוות יכול להריץ, בלי לאבד את מה שהביא אתכם לכאן.",
+  "h1":"כשמכירות מבוססות-מייסד מפסיקות להתרחב","eyebrow":"מדריך",
+  "lead":"מכירות מבוססות-מייסד עובדות בדיוק עד שהן מפסיקות. הנה למה זה נתקע, ואיך למסור את המהלך לצוות בלי שהמספר יתרסק.",
+  "sections":[
+    {"h":"למה זה נתקע","p":["מכירות מבוססות-מייסד עובדות בהתחלה כי אתם איש המכירות הטוב בחברה. אתם מכירים את המוצר לעומק, יש לכם הסמכות לכופף תנאים, וקונים סומכים על מי שבנה את הדבר. זו גם המלכודת. המהלך חי בראש שלכם, לא במערכת, ולכן אי אפשר להעתיק אותו. הצמיחה נשארת חסומה במספר השעות שאתם יכולים למכור בעצמכם."]},
+    {"h":"הסימנים שהגעתם לתקרה","ul":["כל עסקה אמיתית עדיין צריכה אתכם בשיחה כדי להיסגר","הנציגים שגייסתם עסוקים אבל לא סוגרים","הפייפליין והתחזית הם ניחוש, כי רק אתם יודעים אילו עסקאות אמיתיות","ההכנסות משתטחות ברגע שאתם פונים לנהל את החברה","גיוסים חדשים לוקחים חודשים להיכנס לקצב ורובם לא מגיעים למספרים שלכם"]},
+    {"h":"מה באמת צריך לעבור","p":["גיוס נציגים לא פותר את זה. אתם לא חסרים ידיים, אתם חסרים מהלך חוזר. מה שחייב לצאת מהראש שלכם אל הנייר הוא כל המערכת: מי הקונה האמיתי, המסר שעובד, שאלות הסינון, התשובות להתנגדויות, הצעדים משיחה ראשונה לחתימה, והדרך שבה אתם קוראים עסקה. העבירו את המהלך, ואז האנשים יכולים להריץ אותו."]},
+    {"h":"איך אני מתקן","p":["בשבוע הראשון אני מאבחן מה אתם באמת עושים כשאתם מוכרים, כולל החלקים שאתם לא שמים לב אליהם. בשבוע השני אני הופך את זה למהלך מתועד עם תחזית אמיתית. אחר כך אני בונה ומאמן את הצוות להריץ אותו, מחליף את מי שלא מתאים, ולוקח אחריות על המספר בזמן שהם נכנסים לקצב. אתם מקבלים את השבוע שלכם בחזרה בלי לראות את ההכנסות נתקעות."]},
+    {"h":"מה עולה ההמתנה","p":["כל רבעון שאתם נשארים הסוגר היחיד הוא רבעון שהחברה לא יכולה לצמוח מעבר אליכם, ורבעון שהנציגים הכי טובים שלכם מבזבזים על למידה שלא עוברת הלאה. מייסדים שמחכים בדרך כלל משלמים פעמיים: פעם על הנציגים שלא עבדו, ושוב על בניית המהלך מחדש אחר כך תחת לחץ."]},
+  ],
+  "faqs":[
+    {"q":"למה הנציגים שלי לא סוגרים כמוני?","a":"כי המהלך חי בראש שלכם, לא במערכת שהם יכולים ללמוד. הנציגים לא חסרי מאמץ, הם חסרי דרך מתועדת למכור כמוכם. בנו את המהלך, אמנו אותם עליו, והסגירה הופכת לנלמדת."},
+    {"q":"שאשכור פשוט סמנכ״ל מכירות?","a":"רק אם אתם יכולים להגדיר לו את המהלך להרחבה. לגייס סמנכ״ל כדי שימציא את תהליך המכירה מאפס זו הדרך שבה מייסדים שורפים סמנכ״לים יקרים. סמנכ״ל הכנסות במיקור חוץ בונה קודם את המהלך, ואז אתם מגייסים כדי להריץ אותו."},
+    {"q":"כמה זמן עד שהצוות ימכור בלעדיי?","a":"מהלך מתועד ותחזית אמיתית מגיעים בשבועיים הראשונים. כניסת הנציגים לקצב עליו היא עניין של שבועות אחרי זה, לא החודשים הרבים שלוקח לגיוס לא-מונחה."}],
+  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-Fractional CRO</a>, <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+
+ {"slug":"building-a-sales-team-after-funding",
+  "title":"בניית צוות מכירות אחרי גיוס | טל פאפרין",
+  "desc":"גייסתם? הדרך הכי מהירה לשרוף את הסבב היא לגייס נציגים בלי מהלך ובלי מנהיג. הנה סדר הפעולות שהופך גיוס להכנסה.",
+  "h1":"איך בונים צוות מכירות אחרי גיוס","eyebrow":"מדריך",
+  "lead":"סבב לא קונה לכם שוק, הוא קונה לכם זמן. הנה איך לבזבז אותו על בניית צוות מכירות שמייצר הכנסה במקום לשרוף את הגיוס.",
+  "sections":[
+    {"h":"המלכודת שאחרי הגיוס","p":["הדירקטוריון רוצה צמיחה, אז האינסטינקט הוא לגייס מהר: כמה נציגים, אולי צוות SDR, וקדימה. אחר כך עוברים שני רבעונים, הנציגים עסוקים, הפייפליין נראה מלא, וכמעט כלום לא נסגר. הכסף יצא, ההכנסה לא נכנסה. הסבב לא אכזב אתכם. גיוס צוות לפני שהיה לכם מהלך אכזב."]},
+    {"h":"הסדר שעובד","ul":["קודם נעלו את המהלך: מי קונה, למה, המסר, והדרך החוזרת משיחה ראשונה לחתימה","הוכיחו אותו עם כמה עסקאות שאדם שאינו המייסד יכול לסגור, לא רק אתם","גייסו מנהיג מכירות, או כזה במיקור חוץ, לפני שאתם מרחיבים את כוח האדם","אז הוסיפו נציגים מול מהלך שכבר עובד, כך שהם נכנסים לקצב על מערכת במקום לנחש","בנו את התחזית ואת משמעת הפייפליין לפני שאתם מדווחים עליהן לדירקטוריון"]},
+    {"h":"איפה הכסף באמת נשרף","p":["מייסדים שורפים את הסבב במקומות צפויים: נציגים שגויסו בלי מנהיג מעליהם, צוות SDR שמזין משפך שאף אחד לא סינן, הנחות שניתנו כדי לכפות ניצחונות מוקדמים שקובעים מחיר גרוע, ותחזית בנויה על תקווה. כל אחד מהם מרגיש כמו התקדמות וכל אחד מהם עולה לכם רבעון שלא תחזירו."]},
+    {"h":"איך אני עוזר אחרי גיוס","p":["אני נכנס כסמנכ״ל הכנסות במיקור חוץ, בונה את המהלך, מגייס ומאמן את הצוות מולו, ולוקח אחריות על המספר בזמן שהוא נכנס לקצב, כך שאתם לא מהמרים את הסבב על גיוס במשרה מלאה שלוקח חודשים למצוא ואולי לא יתאים. אתם מקבלים הנהגה בכירה עכשיו, בשבריר מעלות CRO מלא, בדיוק כשהלחץ לצמוח הכי גבוה."]},
+  ],
+  "faqs":[
+    {"q":"לגייס נציגים מיד אחרי גיוס?","a":"לא קודם. נציגים שגויסו לפני שיש מהלך חוזר ומנהיג שיריץ אותו הם הדרך הנפוצה ביותר שבה מייסדים שורפים סבב. נעלו את המהלך, הוכיחו אותו, הוסיפו את המנהיג, ואז הרחיבו נציגים מולו."},
+    {"q":"CRO במשרה מלאה או במיקור חוץ אחרי גיוס?","a":"מיקור חוץ לרוב נכון מיד אחרי גיוס: אתם מקבלים הנהגה בכירה מיד, בונים את המהלך ואת הצוות, ונמנעים מהימור של הסבב על חיפוש ארוך למשרה מלאה. עברו למשרה מלאה כשהפונקציה מצדיקה את המשכורת."},
+    {"q":"כמה מהר הצוות אמור לייצר?","a":"אתם אמורים לקבל מהלך מתועד ותחזית אמיתית תוך השבועיים הראשונים, עם נציגים שנכנסים לקצב בשבועות שאחרי, במקום צוות שנראה עסוק שני רבעונים בלי שכלום נסגר."}],
+  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-Fractional CRO</a>, <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, <a href="/he/fractional-cro-for-startups">Fractional CRO לסטארטאפים</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+
  {"slug":"fractional-cro-for-startups",
   "title":"Fractional CRO לסטארטאפים | טל פאפרין",
   "desc":"סמנכ״ל הכנסות במיקור חוץ לסטארטאפים: הנהגת הכנסות בכירה מההכנסה הראשונה ועד סבב B בלי משרה מלאה. התהליך, הצוות והתוצאות.",
@@ -3559,7 +3630,8 @@ GUIDE_CATS = [
    "how-to-hire-a-fractional-cro", "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
    "fractional-cro-cost", "fractional-cro-vs-vp-of-sales", "fractional-cro-vs-outsourced-sales",
    "interim-cro", "outsourced-cro", "fractional-vp-of-sales", "fractional-chief-sales-officer",
-   "fractional-cro-for-startups", "sales-training"]),
+   "fractional-cro-for-startups", "sales-training",
+   "founder-led-sales-wont-scale", "building-a-sales-team-after-funding"]),
  ("By industry", "לפי תעשייה", [
    "fractional-cro-for-saas", "fractional-cro-for-iot-hardware", "fractional-cro-for-medical-devices",
    "fractional-cro-for-manufacturers", "fractional-cro-for-cybersecurity", "fractional-cro-for-fintech",
