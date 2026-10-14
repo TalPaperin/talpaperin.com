@@ -277,7 +277,7 @@ PPM_PRICE_HE = _ppm_price_block("הקמה, חד פעמי", PPM_TIERS_HE,
 SERVICES = [
  {"slug":"pay-per-meeting","nav":"Pay-Per-Meeting","h1":"Pay-Per-Meeting B2B Sales Meetings",
   "title":"Pay-Per-Meeting B2B Sales Meetings and Appointment Setting | Tal Paperin",
-  "desc":"You pay for the B2B sales meetings we book, not emails, leads or lists. We define your ICP, find the people, run the outreach and put qualified meetings on your calendar.",
+  "desc":"You pay for the B2B sales meetings we book, not emails or lists. We define your ICP, find the people, and put qualified meetings on your calendar.",
   "eyebrow":"Service",
   "lead":"You need sales meetings. I get them for you. Not another retainer for activity, you pay based on the number of qualified meetings we actually book on your calendar.",
   "card":"Outbound that bills by results. You pay for the qualified B2B meetings we book, not emails, lists or leads.",
@@ -429,7 +429,7 @@ SERVICES = [
 
  {"slug":"market-entry","nav":"Market Entry & Global Markets","h1":"International Market Entry and Global Markets",
   "title":"International Market Entry and Global Expansion | Tal Paperin",
-  "desc":"Break into new markets without the expensive mistakes. I have built and run sales, teams, subsidiaries and support across four continents, repeatedly and for multiple companies. Here is how I pick a market and build it.",
+  "desc":"Break into new markets without the expensive mistakes. I have built sales, teams and subsidiaries across four continents. How I pick a market and win it.",
   "eyebrow":"Service",
   "lead":"Four continents. More than forty countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
   "card":"Pick the right market, then build and run the whole operation: sales, subsidiary, support and customer service. Built across four continents.",
@@ -515,7 +515,7 @@ SERVICES = [
 
  {"slug":"global-markets","nav":"Global Markets","h1":"Global Markets: Where I Build and Run Revenue",
   "title":"Global Markets: International Sales Expansion | Tal Paperin",
-  "desc":"I have built, hired, trained and managed sales teams, opened subsidiaries and run support and customer service across four continents, repeatedly and for multiple companies. Here is how I pick a market and build it.",
+  "desc":"I have built and run sales teams, subsidiaries and support across four continents for multiple companies. Here is how I pick a market and build revenue in it.",
   "eyebrow":"Global",
   "lead":"Four continents. More than forty countries. Hundreds of cities, on the ground, not over email. I do not just enter a market, I help you choose the right one, then build and run it.",
   "card":"Built revenue across four continents. I help you pick the right market, then build and run the whole operation there.",
@@ -806,7 +806,7 @@ HE_CTA = '''      <div class="cta-box">
 HE_SERVICES = [
  {"slug":"pay-per-meeting","nav":"תשלום לפי פגישה","h1":"פגישות מכירה B2B בתשלום לפי פגישה",
   "title":"פגישות מכירה B2B בתשלום לפי פגישה | טל פאפרין",
-  "desc":"אתם משלמים על פגישות המכירה שאנחנו קובעים, לא על מיילים, לידים או רשימות. אנחנו מגדירים את ה-ICP, מוצאים את האנשים, מריצים את הפנייה ושמים פגישות מוכשרות ביומן שלכם.",
+  "desc":"אתם משלמים על פגישות המכירה שאנחנו קובעים, לא על מיילים או רשימות. אנחנו מגדירים את ה-ICP, מוצאים את האנשים ושמים פגישות מוכשרות ביומן שלכם.",
   "eyebrow":"שירות",
   "lead":"אתם צריכים פגישות מכירה. אני משיג לכם אותן. לא עוד ריטיינר על פעילות, אתם משלמים לפי מספר הפגישות המוכשרות שאנחנו באמת קובעים ביומן שלכם.",
   "card":"אאוטבאונד שמחייב לפי תוצאה. אתם משלמים על פגישות B2B מוכשרות שאנחנו קובעים, לא על מיילים, רשימות או לידים.",
@@ -2235,7 +2235,7 @@ GUIDES = [
 
  {"slug":"fractional-cro-cost",
   "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
-  "desc":"A straight answer on fractional CRO pricing: what it costs per month, how that compares to a $250K full-time CRO, what is included, and when each level is worth it.",
+  "desc":"A straight answer on fractional CRO pricing: what it costs per month, how it compares to a $250K full-time CRO, and when each level is worth it.",
   "h1":"What a Fractional CRO Actually Costs","eyebrow":"Guide",
   "lead":"Most consultants hide the number, hand you a deck, and disappear. I am an operator who still sells, I bill monthly with no contract, and here is exactly what a fractional CRO costs, in plain figures.",
   "sections":[
@@ -2310,7 +2310,7 @@ GUIDES = [
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"Fractional CRO vs Hiring a VP of Sales | Tal Paperin",
-  "desc":"Tired of $30K-a-month VP of Sales hires you fire in 90 days? A fractional CRO gives you proven revenue leadership with no hiring gamble, no severance, and no lock-in.",
+  "desc":"Tired of $30K-a-month VP of Sales hires you fire in 90 days? A fractional CRO gives you proven revenue leadership with no hiring gamble and no lock-in.",
   "h1":"Fractional CRO vs Hiring a VP of Sales","eyebrow":"Guide",
   "lead":"You have done this before. Hire a VP of Sales at thirty grand a month, wait, watch nothing move, fire them at month three, eat the severance, start over. Here is the alternative.",
   "sections":[
@@ -2450,7 +2450,7 @@ GUIDES = [
 
  {"slug":"fractional-cro-for-manufacturers","en_only":True,
   "title":"Fractional CRO for Manufacturers | Tal Paperin",
-  "desc":"A fractional CRO for manufacturers: open new territories and channels, sign distributors and retail chains, and get product onto shelves in markets you wrote off.",
+  "desc":"A fractional CRO for manufacturers: open new territories, sign distributors and retail chains, and get product onto shelves in markets you wrote off.",
   "h1":"Fractional CRO for Manufacturers","eyebrow":"Guide",
   "lead":"Manufacturers grow by opening territories and channels. I find the real buyers, sign the distributors and chains, and put product on shelves, including in markets you were told had no money.",
   "sections":[
@@ -3188,7 +3188,7 @@ HE_GUIDES = [
 
  {"slug":"fractional-cro-cost",
   "title":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ? | טל פאפרין",
-  "desc":"תשובה ישירה על תמחור סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ: כמה זה עולה בחודש, איך זה משתווה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה של 250 אלף דולר, מה כלול, ומתי כל רמה שווה את זה.",
+  "desc":"תשובה ישירה על תמחור סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ: כמה זה עולה בחודש, איך זה משתווה למשרה מלאה של 250 אלף דולר, ומתי כל רמה שווה את זה.",
   "h1":"כמה באמת עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ","eyebrow":"מדריך",
   "lead":"רוב היועצים מסתירים את המחיר, מגישים לכם מצגת, ונעלמים. אני מפעיל שעדיין מוכר בעצמו, מחייב חודשית בלי חוזה, והנה בדיוק כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, במספרים ברורים.",
   "sections":[
@@ -3261,7 +3261,7 @@ HE_GUIDES = [
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול גיוס VP מכירות | טל פאפרין",
-  "desc":"נמאס לכם מגיוסי VP מכירות של 30 אלף דולר בחודש שאתם מפטרים תוך 90 יום? סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ נותן מנהיגות הכנסות מוכחת בלי הימור גיוס, בלי פיצויים ובלי נעילה.",
+  "desc":"נמאס לכם מגיוסי VP מכירות של 30 אלף דולר בחודש שאתם מפטרים תוך 90 יום? סמנכ״ל הכנסות במיקור חוץ נותן מנהיגות הכנסות מוכחת בלי הימור גיוס ובלי נעילה.",
   "h1":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול גיוס VP מכירות","eyebrow":"מדריך",
   "lead":"כבר עשיתם את זה. שכרתם VP מכירות בשלושים אלף בחודש, חיכיתם, ראיתם שכלום לא זז, פיטרתם בחודש השלישי, אכלתם את הפיצויים, התחלתם מחדש. הנה האלטרנטיבה.",
   "sections":[
