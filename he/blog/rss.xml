@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>איך לכתוב Cold Email שבאמת קובע פגישות</title>
+      <link>https://talpaperin.com/he/blog/cold-email-that-books-meetings</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/cold-email-that-books-meetings</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>רוב ה-Cold Email נכשל כי הוא פותח במוצר. הנה הפריימוורק שאני משתמש בו כדי לכתוב מיילים קצרים ורלוונטיים שקובעים פגישות B2B אמיתיות.</description>
+    </item>
     <item>
       <title>למה עסקאות נתקעות בשלב ההצעה (ואיך לשחרר אותן)</title>
       <link>https://talpaperin.com/he/blog/why-deals-stall-at-proposal</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/building-a-sales-team-from-zero-in-a-skeptical-market</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       <description>כסף חינם, דדליין שנסגר, ושוק כל כך מוצף בשיחות קרות שאף אחד כבר לא האמין. ככה בונים צוות מכירות מאפס כשהחלק הקשה הוא לא ההצעה, אלא האמון.</description>
-    </item>
-    <item>
-      <title>סטארטאפ גייס 20 מיליון דולר. הוא נמכר עכשיו ב-150,000 דולר.</title>
-      <link>https://talpaperin.com/he/blog/a-startup-raised-20-million-and-sold-for-150000</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/a-startup-raised-20-million-and-sold-for-150000</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <description>ל-Swish היו קוקה-קולה, נסטלה ו-CyberArk כלקוחות ושמונה שנות פעילות, ובכל זאת היא נמכרה במחיר של מכונית יד שנייה. הסיבה מעולם לא הייתה השוק. היא הייתה ה-Go-to-Market.</description>
     </item>
   </channel>
 </rss>
