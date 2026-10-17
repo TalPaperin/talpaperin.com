@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>In-House SDRs vs Outsourced: What Early-Stage B2B Should Do</title>
+      <link>https://talpaperin.com/blog/sdr-in-house-vs-outsourced</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/sdr-in-house-vs-outsourced</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description>In-house SDRs give control but are slow and costly to build. Outsourced and pay-per-meeting give speed and results-based cost. Here is how to choose by stage.</description>
+    </item>
     <item>
       <title>How to Write a Cold Email That Actually Books Meetings</title>
       <link>https://talpaperin.com/blog/cold-email-that-books-meetings</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <description>Nano-X had revolutionary medical imaging tech and still lost 99 percent of its value. The lesson is not the technology. It is business-model-market fit.</description>
-    </item>
-    <item>
-      <title>Germany Is Dumping US Missiles for Startups. That&#x27;s a B2B Procurement Masterclass.</title>
-      <link>https://talpaperin.com/blog/germany-is-dumping-us-missiles-for-defense-startups</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/germany-is-dumping-us-missiles-for-defense-startups</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Berlin is bypassing legacy US defense giants for agile startups in Israel and Ukraine. It is a masterclass in B2B procurement disruption, and a warning for anyone who sells to enterprise.</description>
     </item>
   </channel>
 </rss>

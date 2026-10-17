@@ -76,6 +76,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [In-House SDRs vs Outsourced: What Early-Stage B2B Should Do](https://talpaperin.com/blog/sdr-in-house-vs-outsourced): In-house SDRs give control but are slow and costly to build. Outsourced and pay-per-meeting give speed and results-based cost. Here is how to choose by stage.
 - [How to Write a Cold Email That Actually Books Meetings](https://talpaperin.com/blog/cold-email-that-books-meetings): Most cold email fails because it leads with the product. Here is the framework I use to write short, relevant emails that book real B2B meetings.
 - [Why Deals Stall at the Proposal Stage (and How to Unstick Them)](https://talpaperin.com/blog/why-deals-stall-at-proposal): A proposal is not a close. Deals stall because you sent a price before you built consensus and urgency. Here is how to fix it before the proposal goes out.
 - [Enterprise Sales for Startups: Selling to Companies 100x Your Size](https://talpaperin.com/blog/enterprise-sales-for-startups): Selling to giants means committees, procurement, and long cycles. Land a champion, multi-thread the account, de-risk the buy, and never single-thread.
