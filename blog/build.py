@@ -110,6 +110,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/pricing">Pricing</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
+        <a href="/tal-paperin-podcasts-and-press">Media</a>
         <a href="/blog/">Blog</a>
       </div>
       <div class="nav-right">
@@ -184,6 +185,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/he/pricing">תמחור</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
+        <a href="/he/tal-paperin-podcasts-and-press">בתקשורת</a>
         <a href="/he/blog/">בלוג</a>
       </div>
       <div class="nav-right">
