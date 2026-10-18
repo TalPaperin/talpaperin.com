@@ -118,6 +118,77 @@ CTA_BOX = '''      <div class="cta-box">
         <a class="btn btn-secondary" href="https://wa.me/972545308119?text=Hi%20Tal%2C%20I%20found%20your%20site%20and%20want%20to%20talk%20go-to-market." target="_blank" rel="noopener">WhatsApp me</a>
       </div>'''
 
+# ---- Decision infographics (ported from the KSW sales page, rebuilt in HTML/CSS) ----
+IG_SIGNS_EN = '''<div class="ig-signs">
+<div class="ig-sign"><div class="n">01</div><p>Sales have plateaued</p></div>
+<div class="ig-sign"><div class="n">02</div><p>The founder still leads every deal</p></div>
+<div class="ig-sign"><div class="n">03</div><p>Marketing and sales do not agree</p></div>
+<div class="ig-sign"><div class="n">04</div><p>Pipeline is full but deals do not close</p></div>
+<div class="ig-sign"><div class="n">05</div><p>You are preparing to scale</p></div>
+<div class="ig-sign"><div class="n">06</div><p>Forecasts are guesses, not a system</p></div>
+<div class="ig-sign"><div class="n">07</div><p>Your third VP Sales left this year</p></div>
+<div class="ig-sign"><div class="n">08</div><p>Product and funding are here, a sales team is not</p></div>
+</div>
+<p class="ig-cap">Two or more of these, and it is time for an owner of the number.</p>'''
+IG_SIGNS_HE = '''<div class="ig-signs">
+<div class="ig-sign"><div class="n">01</div><p>המכירות נתקעו ולא צומחות</p></div>
+<div class="ig-sign"><div class="n">02</div><p>המייסד עדיין מוביל כל עסקה</p></div>
+<div class="ig-sign"><div class="n">03</div><p>שיווק ומכירות לא מסונכרנים</p></div>
+<div class="ig-sign"><div class="n">04</div><p>הפייפליין מלא אבל עסקאות לא נסגרות</p></div>
+<div class="ig-sign"><div class="n">05</div><p>אתם נערכים לצמיחה</p></div>
+<div class="ig-sign"><div class="n">06</div><p>התחזיות הן ניחוש, לא מערכת</p></div>
+<div class="ig-sign"><div class="n">07</div><p>סמנכ״ל המכירות השלישי עזב השנה</p></div>
+<div class="ig-sign"><div class="n">08</div><p>יש מוצר ויש גיוס, אין צוות מכירות</p></div>
+</div>
+<p class="ig-cap">שניים או יותר מאלה, והגיע הזמן לבעל אחראי על המספר.</p>'''
+
+IG_ENGINE_EN = '''<div class="ig-engine">
+<span class="node">CEO</span>
+<div class="conn"></div>
+<span class="node cro">Fractional CRO</span>
+<div class="conn"></div>
+<div class="funcs"><span class="node">Marketing</span><span class="node">Sales</span><span class="node">Customer Success</span><span class="node">Revenue Operations</span></div>
+<p class="cap">One accountable executive across the whole revenue engine.</p>
+</div>'''
+IG_ENGINE_HE = '''<div class="ig-engine">
+<span class="node">מנכ״ל</span>
+<div class="conn"></div>
+<span class="node cro">סמנכ״ל הכנסות במיקור חוץ</span>
+<div class="conn"></div>
+<div class="funcs"><span class="node">שיווק</span><span class="node">מכירות</span><span class="node">הצלחת לקוחות</span><span class="node">תפעול הכנסות</span></div>
+<p class="cap">מנהל אחד אחראי על כל מנוע ההכנסות.</p>
+</div>'''
+
+IG_PHASES_EN = '''<div class="ig-phases">
+<div class="ig-phase"><div class="wk">Week 1</div><h4>Diagnose</h4><ul><li>Revenue audit</li><li>Pipeline review</li><li>CRM analysis</li><li>Leadership interviews</li><li>Customer journey</li></ul></div>
+<div class="ig-phase"><div class="wk">Weeks 2-3</div><h4>Build</h4><ul><li>Sales process</li><li>ICP and messaging</li><li>Hiring plan</li><li>Playbooks</li><li>KPIs</li></ul></div>
+<div class="ig-phase"><div class="wk">Weeks 4-12</div><h4>Scale</h4><ul><li>Forecasting cadence</li><li>Management rhythm</li><li>Pipeline reviews</li><li>Team scaling</li><li>Ongoing leadership</li></ul></div>
+</div>
+<p class="ig-cap">Exact timing depends on the retainer and the starting point.</p>'''
+IG_PHASES_HE = '''<div class="ig-phases">
+<div class="ig-phase"><div class="wk">שבוע 1</div><h4>אבחון</h4><ul><li>ביקורת הכנסות</li><li>סקירת פייפליין</li><li>ניתוח CRM</li><li>ראיונות הנהלה</li><li>מסע לקוח</li></ul></div>
+<div class="ig-phase"><div class="wk">שבועות 2-3</div><h4>בנייה</h4><ul><li>תהליך מכירה</li><li>ICP ומסרים</li><li>תוכנית גיוס</li><li>פלייבוקים</li><li>מדדי KPI</li></ul></div>
+<div class="ig-phase"><div class="wk">שבועות 4-12</div><h4>הרחבה</h4><ul><li>קצב תחזיות</li><li>שגרת ניהול</li><li>סקירות פייפליין</li><li>הרחבת צוות</li><li>הובלה מתמשכת</li></ul></div>
+</div>
+<p class="ig-cap">העיתוי המדויק תלוי בחבילת הריטיינר ובנקודת הפתיחה.</p>'''
+
+IG_CAREER_EN = '''<div class="ig-career">
+<div class="it"><div class="yr">2001</div><div class="lbl">International sales</div></div>
+<div class="it"><div class="yr">2005</div><div class="lbl">Managing global teams</div></div>
+<div class="it"><div class="yr">2010</div><div class="lbl">Building international distribution</div></div>
+<div class="it"><div class="yr">2015</div><div class="lbl">SaaS, manufacturing and IoT</div></div>
+<div class="it"><div class="yr">2019</div><div class="lbl">Co-founded KSW Solutions</div></div>
+<div class="it"><div class="yr">2023+</div><div class="lbl">Fractional CRO and revenue leadership</div></div>
+</div>'''
+IG_CAREER_HE = '''<div class="ig-career">
+<div class="it"><div class="yr">2001</div><div class="lbl">מכירות בינלאומיות</div></div>
+<div class="it"><div class="yr">2005</div><div class="lbl">ניהול צוותים גלובליים</div></div>
+<div class="it"><div class="yr">2010</div><div class="lbl">בניית הפצה בינלאומית</div></div>
+<div class="it"><div class="yr">2015</div><div class="lbl">SaaS, ייצור ו-IoT</div></div>
+<div class="it"><div class="yr">2019</div><div class="lbl">הקמת KSW Solutions</div></div>
+<div class="it"><div class="yr">2023+</div><div class="lbl">סמנכ״ל הכנסות והובלת הכנסות</div></div>
+</div>'''
+
 
 # --- Structured data (JSON-LD) --------------------------------------------
 # One canonical entity graph, referenced by @id from every page. This gives
@@ -2495,8 +2566,10 @@ GUIDES = [
   "h1":"When Do You Need a Fractional CRO?","eyebrow":"Guide",
   "lead":"Most companies wait too long. Here are the signs you need a fractional CRO now, not after another lost quarter.",
   "sections":[
-    {"h":"The signs","ul":["Revenue has stalled and nobody actually owns the number","You are scaling and need senior leadership before you can justify a full-time CRO","You have churned through VPs of Sales who did not move the number","You have a great product that just will not sell at scale","Your pipeline and forecast are guesses, not a system","Founders are still the only ones who can close","You want to enter a new market and do not know where to start"]},
+    {"h":"The eight signs it is time","html":IG_SIGNS_EN},
+    {"h":"What a fractional CRO owns","html":IG_ENGINE_EN},
     {"h":"What changes when someone owns the number","p":["A fractional CRO takes the strategy, the team, the pipeline, the forecast and the accountability off your plate and onto theirs. Week one is diagnosis, week two is a plan and a real forecast, then they run it, hiring where needed, training the team you have and replacing who cannot. You stop guessing and start operating."]},
+    {"h":"How an engagement unfolds","html":IG_PHASES_EN},
     {"h":"What waiting costs","p":["The cost of waiting is a wrong VP hire, a year lost, and six figures spent learning what a senior operator would have told you in week one. Stalled revenue rarely fixes itself, and the longer the motion stays broken, the more it costs to rebuild."]},
   ],
   "faqs":[
@@ -3309,8 +3382,10 @@ HE_GUIDES = [
   "h1":"מתי צריך Fractional CRO?","eyebrow":"מדריך",
   "lead":"רוב החברות מחכות יותר מדי. הנה הסימנים שאתם צריכים סמנכ״ל הכנסות במיקור חוץ עכשיו, לא אחרי עוד רבעון אבוד.",
   "sections":[
-    {"h":"הסימנים","ul":["ההכנסות נתקעו ואף אחד באמת לא אחראי על התוצאות","אתם בצמיחה וצריכים הנהגה בכירה לפני שאפשר להצדיק משרה מלאה","התחלפתם בכמה VP מכירות שלא הזיזו את התוצאות","יש לכם מוצר מצוין שפשוט לא נמכר בקנה מידה","הפייפליין והתחזית שלכם הם ניחושים, לא מערכת","המייסדים עדיין היחידים שיכולים לסגור","אתם רוצים להיכנס לשוק חדש ולא יודעים מאיפה להתחיל"]},
+    {"h":"שמונה הסימנים שהגיע הזמן","html":IG_SIGNS_HE},
+    {"h":"על מה סמנכ״ל הכנסות במיקור חוץ אחראי","html":IG_ENGINE_HE},
     {"h":"מה משתנה כשמישהו אחראי על התוצאות","p":["סמנכ״ל הכנסות במיקור חוץ לוקח את האסטרטגיה, הצוות, הפייפליין, התחזית והאחריות מהצלחת שלכם אל שלו. שבוע ראשון זה אבחון, שבוע שני זה תוכנית ותחזית אמיתית, ואז הוא מריץ את זה, מגייס איפה שצריך, מכשיר את הצוות שיש לכם ומחליף את מי שלא יכול. אתם מפסיקים לנחש ומתחילים לתפעל."]},
+    {"h":"איך נראה תהליך העבודה","html":IG_PHASES_HE},
     {"h":"מה עולה לחכות","p":["המחיר של ההמתנה הוא גיוס VP שגוי, שנה שאבדה, ושש ספרות שהוצאו כדי ללמוד מה שאיש ביצוע בכיר היה אומר לכם בשבוע הראשון. הכנסות תקועות כמעט אף פעם לא מתקנות את עצמן, וככל שהתהליך נשאר שבור יותר זמן, כך עולה יותר לבנות אותו מחדש."]},
   ],
   "faqs":[
@@ -3515,6 +3590,9 @@ ABOUT_EN = '''<!doctype html>
         <p>I am a veteran international sales operator, fractional CRO / CGO and business strategist with more than 20 years building and scaling B2B sales engines. I started in the mud, hands-on, as an SDR, moved up to Account Executive and Team Leader, then served as VP of Global Sales and Business Development for multinationals and venture-backed startups. I build and run revenue functions from zero, across North America, Europe, APAC and the Middle East.</p>
         <p>Along the way I have managed international distributor networks, owned CRM architecture and the sales stack, and run market-entry strategies, including putting written-off products back onto retail shelves across Eastern Europe, EMEA and APAC. Different products, different buyers, the same discipline: own the number, do the work.</p>
 
+        <h2>20+ years building revenue organizations</h2>
+{career}
+
         <h2>Fractional CRO or fractional CGO?</h2>
         <p>The title depends on the mandate. A Chief Revenue Officer owns the number: sales, pipeline, forecasting and the closing motion. A Chief Growth Officer owns the whole system that produces it: sales plus marketing, partnerships and channel, pricing and packaging, and entry into new markets. I have run both, and the distinction is real.</p>
         <p>Growth has always been the wider part of my work. KSW Solutions deliberately runs sales and marketing as one function, not two departments that blame each other. I have built distributor and channel networks across four continents, set pricing, and taken products into markets from zero. That is growth work, not just revenue work. So if your problem is &ldquo;we are not closing,&rdquo; you want a CRO. If it is &ldquo;we do not have a growth engine,&rdquo; you want a CGO. I can carry either seat, fractionally.</p>
@@ -3609,6 +3687,9 @@ ABOUT_HE = '''<!doctype html>
         <h2>עשרים שנה של אחריות על התוצאות</h2>
         <p>אני איש מכירות בינלאומי ותיק, סמנכ״ל מכירות וצמיחה במיקור חוץ (CRO / CGO) ואסטרטג עסקי עם מעל 20 שנה של בנייה והרחבת מנועי מכירות B2B. התחלתי בבוץ, ידיים, כאיש SDR, עליתי ל-Account Executive וראש צוות, ובהמשך כיהנתי כ-VP of Global Sales and Business Development בתאגידים רב-לאומיים ובסטארטאפים מגובי הון סיכון. אני בונה ומנהל מחלקות הכנסה מאפס, בצפון אמריקה, אירופה, APAC והמזרח התיכון.</p>
         <p>בדרך ניהלתי רשתות מפיצים בינלאומיות, הייתי אחראי על ארכיטקטורת ה-CRM ומערך המכירות, והרצתי אסטרטגיות חדירה לשווקים, כולל החזרת מוצרים שנמחקו אל מדפי הקמעונאות במזרח אירופה, EMEA ו-APAC. מוצרים שונים, קונים שונים, אותה משמעת: לקחת אחריות על התוצאות, ולעשות את העבודה.</p>
+
+        <h2>20+ שנים של בניית מחלקות הכנסה</h2>
+{career}
 
         <h2>סמנכ״ל הכנסות במיקור חוץ או סמנכ״ל צמיחה?</h2>
         <p>התואר תלוי במנדט. סמנכ״ל הכנסות (CRO) אחראי על המספר: מכירות, צינור, תחזית ומהלך הסגירה. סמנכ״ל צמיחה (CGO) אחראי על כל המערכת שמייצרת אותו: מכירות יחד עם שיווק, שותפויות וערוצי הפצה, תמחור ואריזה, וכניסה לשווקים חדשים. עשיתי את שני התפקידים, וההבדל אמיתי.</p>
@@ -4397,10 +4478,10 @@ def build():
 
     with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                graph=graph_ld(False), gallery=render_gallery(), cta=CTA_BOX))
+                                graph=graph_ld(False), gallery=render_gallery(), cta=CTA_BOX, career=IG_CAREER_EN))
     with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                graph=graph_ld(True), gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
+                                graph=graph_ld(True), gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA, career=IG_CAREER_HE))
 
     with open(os.path.join(ROOT, "pricing.html"), "w", encoding="utf-8") as f:
         f.write(PRICING_TPL.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,

@@ -389,3 +389,28 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .navlinks a{position:relative}
 .navlinks a:not(:last-child)::after{content:"";position:absolute;inset-inline-end:-15px;top:50%;transform:translateY(-50%);height:13px;width:1px;background:rgba(255,255,255,.2)}
 @media(max-width:760px){.navlinks a:not(:last-child)::after{display:none}}
+/* decision infographics (fractional CRO guide + about) */
+.ig-signs{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:10px 0 6px}
+.ig-sign{border:1px solid var(--line);border-radius:14px;padding:18px;background:rgba(255,255,255,.015)}
+.ig-sign .n{font-family:'Anton';font-size:1.5rem;color:#3D9BFF;line-height:1}
+.ig-sign p{margin:8px 0 0;color:#fff;font-weight:600;font-size:1rem}
+@media(max-width:600px){.ig-signs{grid-template-columns:1fr}}
+.ig-engine{border:1px solid var(--line);border-radius:16px;padding:26px 18px;text-align:center;background:radial-gradient(90% 120% at 50% 0%,#0c2237 0%,#0a0e14 65%)}
+.ig-engine .node{display:inline-block;border:1px solid rgba(37,99,235,.5);background:rgba(37,99,235,.1);color:#fff;font-weight:600;border-radius:10px;padding:9px 18px;margin:3px}
+.ig-engine .cro{background:linear-gradient(180deg,#3D9BFF,#2563EB);border:none}
+.ig-engine .conn{height:20px;width:1px;background:rgba(255,255,255,.22);margin:4px auto}
+.ig-engine .funcs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}
+.ig-engine .cap{color:var(--soft);margin-top:16px;font-size:.92rem}
+.ig-phases{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:10px 0}
+.ig-phase{border:1px solid var(--line);border-radius:14px;padding:18px;background:rgba(255,255,255,.015)}
+.ig-phase .wk{font-family:'Anton';text-transform:uppercase;color:#3D9BFF;font-size:.78rem;letter-spacing:.05em}
+.ig-phase h4{font-family:'Anton';text-transform:uppercase;color:#fff;font-size:1.1rem;margin:4px 0 10px}
+.ig-phase ul{margin:0;padding-inline-start:18px}
+.ig-phase li{color:var(--soft);margin:5px 0;font-size:.9rem}
+@media(max-width:700px){.ig-phases{grid-template-columns:1fr}}
+.ig-cap{color:var(--soft);font-size:.88rem;margin-top:6px}
+.ig-career{border-inline-start:2px solid rgba(37,99,235,.4);margin:12px 0 4px;padding-inline-start:22px}
+.ig-career .it{position:relative;padding:0 0 18px}
+.ig-career .it::before{content:'';position:absolute;inset-inline-start:-29px;top:4px;width:11px;height:11px;border-radius:50%;background:#3D9BFF;box-shadow:0 0 0 4px rgba(37,99,235,.18)}
+.ig-career .yr{font-family:'Anton';color:#fff;font-size:1.05rem}
+.ig-career .lbl{color:var(--soft);font-size:.95rem}
