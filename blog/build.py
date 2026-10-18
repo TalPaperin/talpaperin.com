@@ -107,6 +107,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/services/">Services</a>
+        <a href="/when-do-you-need-a-fractional-cro">Need a CRO?</a>
         <a href="/guides">Guides</a>
         <a href="/pricing">Pricing</a>
         <a href="/case-studies">Case Studies</a>
@@ -183,6 +184,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
         <a href="/he/">בית</a>
         <a href="/he/about">אודות</a>
         <a href="/he/services/">שירותים</a>
+        <a href="/he/when-do-you-need-a-fractional-cro">צריך CRO?</a>
         <a href="/he/guides">מדריכים</a>
         <a href="/he/pricing">תמחור</a>
         <a href="/he/case-studies">מקרי מבחן</a>
