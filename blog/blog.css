@@ -91,6 +91,7 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .cta-box{margin-top:54px;background:radial-gradient(80% 130% at 18% 0%,#0c2237 0%,#0a0e14 60%);border:1px solid var(--line);border-radius:18px;padding:36px 34px}
 .cta-box h3{font-family:'Anton';text-transform:uppercase;font-size:1.7rem;color:#fff}
 .cta-box p{color:var(--soft);margin:12px 0 22px}
+.cta-box .btn+.btn{margin-inline-start:10px}
 
 .subscribe-box{margin-top:34px;background:var(--bg2);border:1px solid var(--line);border-radius:18px;padding:30px 32px}
 .subscribe-box h3{font-family:'Anton';text-transform:uppercase;font-size:1.5rem;color:#fff}
@@ -236,7 +237,7 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .wa-float:hover{transform:scale(1.08)}
 .wa-float svg{width:30px;height:30px;display:block}
 
-@media(max-width:600px){.wrap{padding:0 20px}.brand{font-size:30px}.page{padding-top:96px}.post-card{padding:24px}.cta-box .btn{width:100%}}
+@media(max-width:600px){.wrap{padding:0 20px}.brand{font-size:30px}.page{padding-top:96px}.post-card{padding:24px}.cta-box .btn{width:100%}.cta-box .btn+.btn{margin-inline-start:0;margin-top:12px}}
 @media(max-width:400px){.brand{font-size:24px}.nav-right .btn{padding:10px 13px;font-size:13px}}
 
 /* FAQ accordion (guide/landing pages) */

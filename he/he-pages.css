@@ -76,13 +76,14 @@ nav.site .inner{max-width:var(--maxw);margin:0 auto;padding:14px 32px;display:fl
 .cta-box{margin-top:54px;background:radial-gradient(80% 130% at 82% 0%,#0c2237 0%,#0a0e14 60%);border:1px solid var(--line);border-radius:18px;padding:36px 34px}
 .cta-box h3{font-size:1.6rem;color:#fff}
 .cta-box p{color:var(--soft);margin:12px 0 22px}
+.cta-box .btn+.btn{margin-inline-start:10px}
 footer{padding:38px 0;border-top:1px solid var(--line);color:var(--soft);font-size:.92rem;background:#04060a}
 footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-inline-end:84px}
 .wa-float{position:fixed;bottom:22px;left:22px;z-index:60;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.4)}
 .wa-float:hover{transform:scale(1.08)}
 .wa-float svg{width:30px;height:30px;display:block}
 @media(max-width:760px){.svc-grid{grid-template-columns:1fr}}
-@media(max-width:600px){.wrap{padding:0 20px}.brand{font-size:28px}.page{padding-top:96px}.cta-box .btn{width:100%}}
+@media(max-width:600px){.wrap{padding:0 20px}.brand{font-size:28px}.page{padding-top:96px}.cta-box .btn{width:100%}.cta-box .btn+.btn{margin-inline-start:0;margin-top:12px}}
 
 .contact-cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:42px;align-items:stretch}
 .contact-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 32px}
