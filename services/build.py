@@ -188,6 +188,39 @@ IG_CAREER_HE = '''<div class="ig-career">
 <div class="it"><div class="yr">2023+</div><div class="lbl">סמנכ״ל הכנסות והובלת הכנסות</div></div>
 </div>'''
 
+IG_OWNS_EN = '''<div class="ig-two">
+<div class="ig-col pos"><h4>A fractional CRO owns</h4><ul><li>Marketing and demand</li><li>The sales team and the motion</li><li>Pipeline and forecast</li><li>Customer success and retention</li><li>The revenue number, end to end</li></ul></div>
+<div class="ig-col"><h4>A VP of Sales owns</h4><ul><li>The sales team</li><li>Pipeline and closing</li><li>Quota attainment</li></ul></div>
+</div>
+<p class="ig-cap">A VP of Sales runs the sales team. A CRO owns the whole engine that produces revenue.</p>'''
+IG_OWNS_HE = '''<div class="ig-two">
+<div class="ig-col pos"><h4>סמנכ״ל הכנסות במיקור חוץ אחראי על</h4><ul><li>שיווק וביקוש</li><li>צוות המכירות והמהלך</li><li>פייפליין ותחזית</li><li>הצלחת לקוחות ושימור</li><li>מספר ההכנסות, מקצה לקצה</li></ul></div>
+<div class="ig-col"><h4>VP מכירות אחראי על</h4><ul><li>צוות המכירות</li><li>פייפליין וסגירה</li><li>עמידה ביעד</li></ul></div>
+</div>
+<p class="ig-cap">VP מכירות מריץ את צוות המכירות. CRO אחראי על כל המנוע שמייצר הכנסות.</p>'''
+
+IG_BA_EN = '''<div class="ig-two">
+<div class="ig-col"><h4>Before</h4><ul><li>Every deal runs through the founder</li><li>Nobody actually owns the number</li><li>The forecast is a guess</li><li>Revenue is lumpy and stalling</li><li>Marketing and sales blame each other</li></ul></div>
+<div class="ig-col pos"><h4>After</h4><ul><li>The motion runs without the founder</li><li>A senior operator owns the number</li><li>A real forecast, updated every week</li><li>Repeatable, growing revenue</li><li>One accountable revenue function</li></ul></div>
+</div>'''
+IG_BA_HE = '''<div class="ig-two">
+<div class="ig-col"><h4>לפני</h4><ul><li>כל עסקה עוברת דרך המייסד</li><li>אף אחד באמת לא אחראי על המספר</li><li>התחזית היא ניחוש</li><li>ההכנסות מקוטעות ונתקעות</li><li>שיווק ומכירות מאשימים זה את זה</li></ul></div>
+<div class="ig-col pos"><h4>אחרי</h4><ul><li>המהלך רץ בלי המייסד</li><li>איש ביצוע בכיר אחראי על המספר</li><li>תחזית אמיתית, מתעדכנת כל שבוע</li><li>הכנסות חוזרות וצומחות</li><li>פונקציית הכנסות אחת אחראית</li></ul></div>
+</div>'''
+
+IG_DOES_EN = '''<div class="ig-does">
+<div class="ig-do"><h4>Build the go-to-market</h4><p>The motion, the ICP, the messaging and the sales process, built to scale, not just advised on.</p></div>
+<div class="ig-do"><h4>Hire and run the team</h4><p>SDRs, AEs and managers, recruited, trained and managed, with the ones who cannot perform replaced.</p></div>
+<div class="ig-do"><h4>Own pipeline and forecast</h4><p>A real pipeline and a forecast you can trust, run on a weekly cadence instead of a guess.</p></div>
+<div class="ig-do"><h4>Carry the number</h4><p>Accountable for revenue and the result, not a deck and a goodbye.</p></div>
+</div>'''
+IG_DOES_HE = '''<div class="ig-does">
+<div class="ig-do"><h4>בניית הליכה לשוק</h4><p>המהלך, ה-ICP, המסרים ותהליך המכירה, בנויים להתרחבות, לא רק ייעוץ.</p></div>
+<div class="ig-do"><h4>גיוס וניהול הצוות</h4><p>SDR, AE ומנהלים, מגויסים, מוכשרים ומנוהלים, ומי שלא מתפקד מוחלף.</p></div>
+<div class="ig-do"><h4>אחריות על פייפליין ותחזית</h4><p>פייפליין אמיתי ותחזית שאפשר לסמוך עליה, בקצב שבועי במקום ניחוש.</p></div>
+<div class="ig-do"><h4>נשיאה במספר</h4><p>אחריות על ההכנסות ועל התוצאה, לא מצגת ולהתראות.</p></div>
+</div>'''
+
 
 # --- Structured data (JSON-LD) --------------------------------------------
 # One canonical entity graph, referenced by @id from every page. This gives
@@ -2566,7 +2599,10 @@ GUIDES = [
   "sections":[
     {"h":"The eight signs it is time","html":IG_SIGNS_EN},
     {"h":"What a fractional CRO owns","html":IG_ENGINE_EN},
+    {"h":"Fractional CRO or VP of Sales?","html":IG_OWNS_EN},
     {"h":"What changes when someone owns the number","p":["A fractional CRO takes the strategy, the team, the pipeline, the forecast and the accountability off your plate and onto theirs. Week one is diagnosis, week two is a plan and a real forecast, then they run it, hiring where needed, training the team you have and replacing who cannot. You stop guessing and start operating."]},
+    {"h":"Before and after","html":IG_BA_EN},
+    {"h":"What a fractional CRO actually does","html":IG_DOES_EN},
     {"h":"How an engagement unfolds","html":IG_PHASES_EN},
     {"h":"What waiting costs","p":["The cost of waiting is a wrong VP hire, a year lost, and six figures spent learning what a senior operator would have told you in week one. Stalled revenue rarely fixes itself, and the longer the motion stays broken, the more it costs to rebuild."]},
   ],
@@ -3382,7 +3418,10 @@ HE_GUIDES = [
   "sections":[
     {"h":"שמונה הסימנים שהגיע הזמן","html":IG_SIGNS_HE},
     {"h":"על מה סמנכ״ל הכנסות במיקור חוץ אחראי","html":IG_ENGINE_HE},
+    {"h":"סמנכ״ל הכנסות במיקור חוץ או VP מכירות?","html":IG_OWNS_HE},
     {"h":"מה משתנה כשמישהו אחראי על התוצאות","p":["סמנכ״ל הכנסות במיקור חוץ לוקח את האסטרטגיה, הצוות, הפייפליין, התחזית והאחריות מהצלחת שלכם אל שלו. שבוע ראשון זה אבחון, שבוע שני זה תוכנית ותחזית אמיתית, ואז הוא מריץ את זה, מגייס איפה שצריך, מכשיר את הצוות שיש לכם ומחליף את מי שלא יכול. אתם מפסיקים לנחש ומתחילים לתפעל."]},
+    {"h":"לפני ואחרי","html":IG_BA_HE},
+    {"h":"מה סמנכ״ל הכנסות במיקור חוץ באמת עושה","html":IG_DOES_HE},
     {"h":"איך נראה תהליך העבודה","html":IG_PHASES_HE},
     {"h":"מה עולה לחכות","p":["המחיר של ההמתנה הוא גיוס VP שגוי, שנה שאבדה, ושש ספרות שהוצאו כדי ללמוד מה שאיש ביצוע בכיר היה אומר לכם בשבוע הראשון. הכנסות תקועות כמעט אף פעם לא מתקנות את עצמן, וככל שהתהליך נשאר שבור יותר זמן, כך עולה יותר לבנות אותו מחדש."]},
   ],

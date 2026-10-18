@@ -381,3 +381,17 @@ footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:spa
 .ig-career .it::before{content:'';position:absolute;inset-inline-start:-29px;top:4px;width:11px;height:11px;border-radius:50%;background:#3D9BFF;box-shadow:0 0 0 4px rgba(37,99,235,.18)}
 .ig-career .yr{font-weight:800;color:#fff;font-size:1.05rem}
 .ig-career .lbl{color:var(--soft);font-size:.95rem}
+/* more decision infographics (RTL) */
+.ig-two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:10px 0}
+.ig-col{border:1px solid var(--line);border-radius:14px;padding:18px;background:rgba(255,255,255,.015)}
+.ig-col.pos{border-color:rgba(37,99,235,.5);background:rgba(37,99,235,.07)}
+.ig-col h4{font-weight:800;color:#fff;font-size:1.05rem;margin:0 0 10px}
+.ig-col.pos h4{color:#3D9BFF}
+.ig-col ul{margin:0;padding-inline-start:18px}
+.ig-col li{color:var(--soft);margin:6px 0;font-size:.92rem}
+@media(max-width:600px){.ig-two{grid-template-columns:1fr}}
+.ig-does{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:10px 0}
+.ig-do{border:1px solid var(--line);border-radius:14px;padding:18px;background:rgba(255,255,255,.015)}
+.ig-do h4{font-weight:800;color:#3D9BFF;font-size:1rem;margin:0 0 6px}
+.ig-do p{color:var(--soft);margin:0;font-size:.92rem}
+@media(max-width:600px){.ig-does{grid-template-columns:1fr}}
