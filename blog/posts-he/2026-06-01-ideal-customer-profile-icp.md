@@ -46,4 +46,4 @@ ICP, או Ideal Customer Profile, הוא ההגדרה החדה של הלקוח �
 
 ---
 
-**קריאה נוספת:** [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy), [שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלי](/he/services/fractional-cro).
+**קריאה נוספת:** [המדריך לאסטרטגיית Go-To-Market ל-B2B](/he/b2b-go-to-market-strategy) שה-ICP מזין, [מיצוב ומסר ל-B2B](/he/b2b-positioning-and-messaging), [שירות אסטרטגיית ה-GTM](/he/services/go-to-market-strategy), ו[שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלי](/he/services/fractional-cro).

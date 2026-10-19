@@ -45,4 +45,4 @@ image: /og-image.jpg
 
 ---
 
-**קריאה נוספת:** [חדירה לשווקים בינלאומיים](/he/services/market-entry), [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy).
+**קריאה נוספת:** [חדירה לשווקים בינלאומיים](/he/services/market-entry), [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy), ו[המדריך לאסטרטגיית Go-To-Market ל-B2B](/he/b2b-go-to-market-strategy).

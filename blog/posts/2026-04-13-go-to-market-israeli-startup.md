@@ -43,4 +43,4 @@ If you are selling abroad without a clear GTM, or with one that is not working, 
 
 ---
 
-Related: [go-to-market strategy](/services/go-to-market-strategy), [SaaS sales and GTM](/services/go-to-market-strategy).
+Related: the full [B2B go-to-market strategy guide](/b2b-go-to-market-strategy), [B2B positioning and messaging](/b2b-positioning-and-messaging), [how to choose your go-to-market motion](/go-to-market-motion), and the [go-to-market strategy service](/services/go-to-market-strategy).

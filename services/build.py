@@ -318,6 +318,7 @@ ARTICLE_GUIDES = {
     "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
     "sales-training",
     "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
+    "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
     "tal-paperin-podcasts-and-press",
 }
 
@@ -494,6 +495,10 @@ SERVICES = [
       "The same applies, sharpened, to software: positioning, the motion, the channel and the team built for the SaaS sale, including the long, technical, trust-based sale to enterprise, universities, research labs and pharma."]},
     {"h":"Across markets","p":[
       "North America, the EU, Eastern and Central Europe, and APAC. I have opened markets others wrote off, and I know the expensive mistakes before you make them."]},
+    {"h":"Go deeper in the guides","links":[
+      ["B2B go-to-market strategy guide", "/b2b-go-to-market-strategy"],
+      ["B2B positioning and messaging", "/b2b-positioning-and-messaging"],
+      ["How to choose your go-to-market motion", "/go-to-market-motion"]]},
     {"img": "/img/site/gtm-excel-london.jpg", "alt": "Tal Paperin at ExCeL London trade show", "cap": "Going to market means showing up where the market is."},
   ]},
 
@@ -1008,6 +1013,10 @@ HE_SERVICES = [
      "p":["אותו דבר, מחודד, לתוכנה: מיצוב, תנועה, ערוץ וצוות שנבנים למכירת ה-SaaS, כולל המכירה הארוכה, הטכנית ועתירת האמון לארגונים גדולים, אוניברסיטאות, מעבדות מחקר וחברות פארמה."]},
     {"h":"לרוחב השווקים",
      "p":["צפון אמריקה, האיחוד האירופי, מזרח ומרכז אירופה ו-APAC. פתחתי שווקים שאחרים מחקו, ואני מכיר את הטעויות היקרות לפני שאתם עושים אותן."]},
+    {"h":"להעמיק במדריכים","links":[
+      ["מדריך אסטרטגיית Go-To-Market ל-B2B", "/he/b2b-go-to-market-strategy"],
+      ["מיצוב ומסר ל-B2B", "/he/b2b-positioning-and-messaging"],
+      ["איך בוחרים מהלך הליכה לשוק", "/he/go-to-market-motion"]]},
     {"img": "/img/site/gtm-excel-london.jpg", "alt": "טל פאפרין בתערוכת ExCeL לונדון", "cap": "Go-To-Market זה להגיע לאן שהשוק נמצא."},
   ]},
 
@@ -3172,6 +3181,113 @@ GUIDES = [
     {"q":"Is Tal Paperin available for podcasts and panels?","a":"Yes. I regularly join podcasts, interviews and conference panels on go-to-market, B2B sales, revenue and scaling founder-led sales. Get in touch with the details and I will make the time."},
     {"q":"What does Tal Paperin speak about?","a":"Go-to-market strategy, building and scaling B2B sales teams, why founder-led sales stalls, what changed in SaaS selling, and turning funding into revenue. Practical and direct, for founders and revenue leaders."}],
   "related":'<p>Selected appearances:</p><ul><li><a href="https://podcasts.apple.com/us/podcast/tal-paperin-ai-didnt-kill-saas-it-killed-lazy-sales-motion/id1812655142?i=1000750906146" target="_blank" rel="noopener">The Sales Strategist Podcast: "AI didn\'t kill SaaS, it killed lazy sales motion"</a> (<a href="https://open.spotify.com/episode/4GXV4h6wxRCVWXoyDzwynA" target="_blank" rel="noopener">Spotify</a>)</li><li><a href="https://marcuscauchi.podbean.com/e/success-comes-through-people-who-plan-execute-and-adapt-not-those-who-talk-about-it/" target="_blank" rel="noopener">TheInquisitor with Marcus Cauchi: "Success Comes To People Who Plan, Execute and Adapt"</a></li><li><a href="https://goodpods.com/podcasts/ask-win-114648/tal-paperin-part-2-5875148" target="_blank" rel="noopener">Ask Win: Tal Paperin (Part 2)</a></li><li><a href="https://davosinthedesert.us/israeli-technology-conference-speaker-podcasts/" target="_blank" rel="noopener">Davos in the Desert: Israeli Technology Conference panel</a></li></ul><p>More interviews and features:</p><ul><li>Solution Nation Podcast: "Investing in Israeli IIoT Companies" (2022)</li><li>The Business Blast Podcast with Tyler Wagner (2018)</li><li>The Daily Sales with Daniel Disney, on social selling (2018)</li><li>CEO Money with Michael Yorba (2018)</li><li>The Hard Corps Marketing Show: "Global Sales Fundamentals" (2018)</li><li>The Bob Low Show: "How to Penetrate New Markets" (2018)</li></ul><p>Also: "An Introduction to Sales in the 21st Century", Tal Paperin\'s eBook on B2B sales.</p><p><a href="/contact">Want me on your show or panel? Get in touch.</a></p>'},
+
+ {"slug":"b2b-go-to-market-strategy",
+  "title":"B2B Go-To-Market Strategy: The Operator's Guide | Tal Paperin",
+  "desc":"A go-to-market strategy you can run, not file away. The five parts of a real B2B GTM, the order to build them, and the mistakes that burn the budget.",
+  "h1":"B2B Go-To-Market Strategy, Built by Someone Who Runs It","eyebrow":"Guide",
+  "lead":"Most go-to-market strategy is a deck that gets opened once and never again. A real one is an engine you run every week. Here are the five parts, the order they go in, and how to keep it alive until it produces pipeline. This is the same sequence I use in the first 90 days with a client.",
+  "sections":[
+    {"h":"A GTM strategy is a plan for turning a product into paying customers","p":[
+      "Strip away the jargon and go-to-market is four questions with real answers: who you sell to, what you say to them, through which channel, and by what process. Add the number you expect it to produce and you have a strategy. Leave any one of them vague and every salesperson improvises, every marketing dollar points a different direction, and you cannot tell a channel problem from a message problem.",
+      "I have opened the US, the EU, Eastern Europe and APAC for B2B companies, direct and through channel. The ones that scaled had answers to those questions written down and tested. The ones that burned a year had a product and a hope."]},
+    {"h":"The five parts, in the order they matter","tiers":[
+      "Ideal customer profile. Not \"B2B companies\" but a sharp profile: company size, industry, the buyer's role, and the specific pain they feel. Every part after this gets easier the sharper this is, and harder if you skip it.",
+      "Positioning and message. The reason this buyer needs you, in their words, tied to a business outcome they already care about. Same product, a different message for each persona. This is where most GTM quietly fails.",
+      "Motion and channel. How you actually reach them: outbound, inbound, product-led, partners, events. The mix depends on your price point, your buyer and your stage, not on what is trending.",
+      "Sales process. The path from first touch to signature: the stages, who is involved, how long each takes, and what moves a deal forward. No defined process means no forecast and no way to improve.",
+      "Forecast. A number with milestones and the math behind it, not a hope. If you cannot show the pipeline that produces the number, you do not have a forecast, you have a wish."]},
+    {"h":"Build them in sequence, not all at once","p":[
+      "The order is not decoration. A great message aimed at the wrong customer still misses. A perfect channel carrying a weak message still burns money. Nail the ICP, then write the message for that ICP, then pick the motion that reaches them, then build the process, then forecast what the process produces.",
+      "Teams get this backwards constantly. They buy an outbound tool and hire an SDR before anyone has defined who to call or what to say. The tool works fine. The strategy underneath it does not exist."]},
+    {"h":"Start from one closed deal, not a blank page","p":[
+      "You do not invent a GTM in a conference room. You extract it from a real deal. Take the last customer you closed, or the one closest to closing, and dig: why they bought, what hurt before they did, what convinced them, and what the path actually looked like. One honest deal gives you the first draft of all five parts. Then you test whether it repeats. That is how you build an engine from fact instead of assumption."]},
+    {"h":"The mistakes that burn the budget","ul":[
+      "Selling before the ICP is defined, so you learn the wrong lessons from the wrong buyers",
+      "A message that describes the product instead of the buyer's outcome",
+      "Copying another company's motion when your price point and buyer are different",
+      "Treating the GTM as a document to finish rather than an engine to run and correct",
+      "Forecasting off gut feel because no sales process was ever defined"]},
+    {"h":"Go deeper on each part","links":[
+      ["B2B positioning and messaging", "/b2b-positioning-and-messaging"],
+      ["How to choose your go-to-market motion", "/go-to-market-motion"],
+      ["Go-to-market strategy service", "/services/go-to-market-strategy"]]},
+    {"h":"Strategy that stays on the slide is worthless","p":[
+      "The deck is the easy part. Running it is the job. I build the GTM with you, then lead the execution until you have pipeline, partners and first sales, correcting the plan against what the market actually does. If you are selling without a clear GTM, or with one that is not working, that is the work I do."]},
+  ],
+  "faqs":[
+    {"q":"What is a B2B go-to-market strategy?","a":"It is the concrete plan for turning your product into paying customers: who you sell to, what you say, through which channel, by what process, and the number you expect it to produce. Written down and tested, not assumed."},
+    {"q":"What are the parts of a GTM strategy?","a":"Five: a sharp ideal customer profile, positioning and message, the sales motion and channel, a defined sales process, and a forecast with the math behind it. Build them in that order, because each one depends on the one before it."},
+    {"q":"Where do I start building a GTM?","a":"From one real deal, not a blank page. Take the last customer you closed and work out why they bought, what hurt, what convinced them and how the deal actually moved. That gives you the first draft of all five parts, which you then test for whether it repeats."},
+    {"q":"Do I need a GTM strategy if I am already selling?","a":"If selling is inconsistent, slow or unforecastable, you are selling without a working GTM even if deals occasionally close. A defined strategy is what lets you tell a channel problem from a message problem and fix the right one."},
+    {"q":"Can you build the GTM and help run it?","a":"Yes. I build the strategy with you and then lead the execution until there is pipeline, partners and first sales. I do not stop at the slide deck, because the deck is the part that does not sell."}],
+  "related":'See the <a href="/services/go-to-market-strategy">go-to-market strategy service</a>, go deeper on <a href="/b2b-positioning-and-messaging">positioning and messaging</a> and <a href="/go-to-market-motion">choosing your GTM motion</a>, or read <a href="/blog/go-to-market-israeli-startup">a GTM strategy for a startup selling abroad</a> and <a href="/blog/ideal-customer-profile-icp">how to define an ICP that converts</a>.'},
+
+ {"slug":"b2b-positioning-and-messaging",
+  "title":"B2B Positioning and Messaging That Wins Deals | Tal Paperin",
+  "desc":"Positioning is why a buyer picks you over the status quo. How to build B2B positioning and a message that sells the outcome, not the feature list.",
+  "h1":"B2B Positioning and Messaging That Makes Buyers Pick You","eyebrow":"Guide",
+  "lead":"Most B2B messaging describes the product. Buyers do not care about your product. They care about the problem it ends and the outcome they get. Here is how to position a B2B product so the right buyer sees themselves in it and picks you over doing nothing.",
+  "sections":[
+    {"h":"Positioning is the frame, messaging is the words","p":[
+      "Positioning is the decision about what category you are in, who you are for, and why you beat the alternative, including the alternative of changing nothing. Messaging is how you say that in language the buyer already uses. Get the positioning wrong and no amount of clever copy saves you. Get it right and the words almost write themselves.",
+      "Your real competitor is rarely the other vendor. It is the status quo: the spreadsheet, the intern, the process they already tolerate. Position against that and the conversation changes."]},
+    {"h":"Sell the outcome, not the feature","p":[
+      "A feature is what your product does. An outcome is what the buyer gets: time back, risk removed, revenue added, a number they are measured on going the right way. Buyers approve budget for outcomes, not for features. The same feature list, reframed as the outcome a specific buyer cares about, is the difference between a demo that lands and one that gets a polite no.",
+      "This is why positioning starts from the buyer, not the roadmap. If you cannot name the outcome in the buyer's own words, you have a feature list, not a message."]},
+    {"h":"One product, a different message per persona","p":[
+      "The CFO, the end user and the head of the department buy the same product for different reasons. The CFO wants the cost and the risk gone. The user wants their day to get easier. The department head wants the number they report on to move. Same product, three messages. Writing one message for everyone means writing one that fully convinces no one."]},
+    {"h":"How to build it","ul":[
+      "Start from your sharpest ICP, because you position for a specific buyer, not for everyone",
+      "Name the status quo they live with today and why it quietly costs them",
+      "State the outcome they get in their language, with a concrete before and after",
+      "Pick the one claim you can prove and lead with it, instead of ten you can only assert",
+      "Pressure-test every line against a real buyer, then cut whatever they skim past"]},
+    {"h":"How to tell it is working","p":[
+      "Good positioning shows up in the sales cycle, not in a brand survey. Deals move faster because less time goes on explaining what you are. Discovery calls start with the buyer describing their own pain back to you. Discounting drops, because you are no longer compared feature to feature with a cheaper tool. If none of that is happening, the positioning is the thing to fix before you spend another dollar on outreach."]},
+    {"h":"Where this fits","links":[
+      ["The full go-to-market strategy", "/b2b-go-to-market-strategy"],
+      ["How to choose your go-to-market motion", "/go-to-market-motion"],
+      ["Go-to-market strategy service", "/services/go-to-market-strategy"]]},
+  ],
+  "faqs":[
+    {"q":"What is the difference between positioning and messaging?","a":"Positioning is the strategic decision about what category you are in, who you are for, and why you beat the alternative including doing nothing. Messaging is how you express that in the buyer's own words. Positioning comes first, because the words only work once the frame is right."},
+    {"q":"Why is my B2B messaging not converting?","a":"Usually because it describes the product instead of the buyer's outcome, or because it is written for everyone and so convinces no one. Buyers approve budget for outcomes they are measured on, not for feature lists. Reframe each message around the specific outcome a specific persona cares about."},
+    {"q":"Who is my real competitor?","a":"Most of the time it is the status quo, not another vendor: the spreadsheet, the manual process, the thing they already tolerate. Position against doing nothing and you address the decision the buyer is actually making."},
+    {"q":"Should the message change by buyer?","a":"Yes. The CFO, the user and the department head buy the same product for different reasons, so each needs a message aimed at what they care about. One message for everyone is a message that fully persuades no one."}],
+  "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/go-to-market-motion">choosing your GTM motion</a>, the <a href="/services/go-to-market-strategy">GTM service</a>, or read <a href="/blog/ideal-customer-profile-icp">how to define an ICP that converts</a>.'},
+
+ {"slug":"go-to-market-motion",
+  "title":"How to Choose Your Go-To-Market Motion | Tal Paperin",
+  "desc":"Outbound, inbound, product-led or channel? How to choose the right B2B go-to-market motion by price point, buyer and stage, not by hype.",
+  "h1":"How to Choose Your Go-To-Market Motion","eyebrow":"Guide",
+  "lead":"Every quarter someone on LinkedIn declares a motion dead. Outbound is dead, inbound is dead, PLG killed sales, sales killed PLG. Ignore all of it. A go-to-market motion is a choice you make from your price point, your buyer and your stage, not a belief system. Here is how to pick the one that fits.",
+  "sections":[
+    {"h":"The motions, and who each one fits","tiers":[
+      "Outbound. You go to the buyer: targeted outreach, SDRs, direct selling. Fits higher price points, defined buyers, and any early stage where you need control, speed and market knowledge now.",
+      "Inbound. The buyer comes to you: content, SEO, reputation, word of mouth. Compounds beautifully and takes six to eighteen months to produce predictable pipeline, so it is an asset you build, not a switch you flip.",
+      "Product-led. The product sells itself through a free tier or trial. Fits low price points, self-serve products and a user who can adopt without a committee. Breaks down the moment the deal needs sign-off.",
+      "Channel and partners. Someone else's salesforce or distributor sells for you. Fits markets where trust is local, the buyer is hard to reach directly, or you cannot afford feet on the ground yet."]},
+    {"h":"Choose by three things, not by trend","ul":[
+      "Price point: low and self-serve leans product-led, high and committee-bought needs sales-led",
+      "Buyer: easy to find and reach favors outbound, a broad self-serve user favors product-led",
+      "Stage: early almost always needs outbound first, because you need control and learning now"]},
+    {"h":"Why early-stage B2B almost always starts outbound","p":[
+      "Founders want inbound: leads that arrive already interested. Who would not. The problem is that inbound is an asset you build over many months, and at the earliest stage you do not have the runway and you do not yet know enough to feed the machine. Outbound buys you control, speed and direct market knowledge now. You learn who actually buys and why by talking to them, and that learning is what lets you build inbound well later. Start outbound, earn the right to inbound.",
+      "I built my own company by visiting a customer, not by posting and waiting. The principle holds for most B2B: go to the market before you expect it to come to you."]},
+    {"h":"Most companies end up with a hybrid","p":[
+      "The honest answer is rarely one motion. A typical B2B scales outbound for control early, layers in inbound as content and reputation compound, and adds channel where a market is hard to reach directly. Product-led sits underneath only if the product genuinely sells without a human. The mistake is picking a motion by ideology and forcing the business to fit it, instead of letting the buyer and the price point decide."]},
+    {"h":"Where this fits","links":[
+      ["The full go-to-market strategy", "/b2b-go-to-market-strategy"],
+      ["B2B positioning and messaging", "/b2b-positioning-and-messaging"],
+      ["Go-to-market strategy service", "/services/go-to-market-strategy"]]},
+  ],
+  "faqs":[
+    {"q":"How do I choose a go-to-market motion?","a":"By three things: your price point, your buyer and your stage. Low price and self-serve leans product-led, high price and committee buying needs sales-led, an easy-to-reach buyer favors outbound, and a hard-to-reach local market favors channel. Pick from the business, not from whatever motion is trending."},
+    {"q":"Should an early-stage startup do outbound or inbound?","a":"Outbound first, almost always. Inbound compounds but takes six to eighteen months, and early on you lack both the runway and the market knowledge to feed it. Outbound buys control, speed and direct learning about who actually buys, which is what lets you build inbound well later."},
+    {"q":"When does product-led growth work?","a":"When the product genuinely sells itself: low price point, self-serve adoption, and a single user who does not need committee sign-off. The moment a deal requires approval from finance or a department head, you need a sales motion alongside it."},
+    {"q":"Can I run more than one motion?","a":"Most B2B companies do, and should. A common path is outbound for control early, inbound layered in as it compounds, and channel added where a market is hard to reach directly. The error is forcing one motion by ideology instead of matching motions to the buyer and price point."}],
+  "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/b2b-positioning-and-messaging">positioning and messaging</a>, the <a href="/services/go-to-market-strategy">GTM service</a>, or read <a href="/blog/outbound-vs-inbound-early-stage">outbound vs inbound for early-stage B2B</a> and <a href="/blog/product-led-vs-sales-led">product-led vs sales-led growth</a>.'},
 ]
 
 
@@ -3575,6 +3691,113 @@ HE_GUIDES = [
     {"q":"האם טל פאפרין זמין לפודקאסטים ופאנלים?","a":"כן. אני מצטרף באופן קבוע לפודקאסטים, ראיונות ופאנלים בכנסים על הליכה לשוק, מכירות B2B, הכנסות והרחבת מכירות מבוססות-מייסד. צרו קשר עם הפרטים ואמצא את הזמן."},
     {"q":"על מה טל פאפרין מדבר?","a":"אסטרטגיית הליכה לשוק, בנייה והרחבה של צוותי מכירות B2B, למה מכירות מבוססות-מייסד נתקעות, מה השתנה במכירת SaaS, והפיכת גיוס להכנסה. פרקטי וישיר, למייסדים ומובילי הכנסות."}],
   "related":'<p>מבחר הופעות:</p><ul><li><a href="https://podcasts.apple.com/us/podcast/tal-paperin-ai-didnt-kill-saas-it-killed-lazy-sales-motion/id1812655142?i=1000750906146" target="_blank" rel="noopener">The Sales Strategist Podcast: "AI didn\'t kill SaaS, it killed lazy sales motion"</a> (<a href="https://open.spotify.com/episode/4GXV4h6wxRCVWXoyDzwynA" target="_blank" rel="noopener">Spotify</a>)</li><li><a href="https://marcuscauchi.podbean.com/e/success-comes-through-people-who-plan-execute-and-adapt-not-those-who-talk-about-it/" target="_blank" rel="noopener">TheInquisitor with Marcus Cauchi: "Success Comes To People Who Plan, Execute and Adapt"</a></li><li><a href="https://goodpods.com/podcasts/ask-win-114648/tal-paperin-part-2-5875148" target="_blank" rel="noopener">Ask Win: Tal Paperin (Part 2)</a></li><li><a href="https://davosinthedesert.us/israeli-technology-conference-speaker-podcasts/" target="_blank" rel="noopener">Davos in the Desert: Israeli Technology Conference panel</a></li></ul><p>עוד ראיונות והופעות:</p><ul><li>Solution Nation Podcast: "Investing in Israeli IIoT Companies" (2022)</li><li>The Business Blast Podcast עם Tyler Wagner (2018)</li><li>The Daily Sales עם Daniel Disney, על מכירה חברתית (2018)</li><li>CEO Money עם Michael Yorba (2018)</li><li>The Hard Corps Marketing Show: "Global Sales Fundamentals" (2018)</li><li>The Bob Low Show: "How to Penetrate New Markets" (2018)</li></ul><p>בנוסף: "An Introduction to Sales in the 21st Century", הספר הדיגיטלי של טל פאפרין על מכירות B2B.</p><p><a href="/he/contact">רוצים אותי בשואו או בפאנל? צרו קשר.</a></p>'},
+
+ {"slug":"b2b-go-to-market-strategy",
+  "title":"אסטרטגיית Go-To-Market ל-B2B: המדריך של מפעיל | טל פאפרין",
+  "desc":"אסטרטגיית הליכה לשוק שאפשר להריץ, לא להגניז. חמשת החלקים של GTM אמיתי ל-B2B, הסדר לבנות אותם, והטעויות ששורפות את התקציב.",
+  "h1":"אסטרטגיית Go-To-Market ל-B2B, בנויה בידי מי שמריץ אותה","eyebrow":"מדריך",
+  "lead":"רוב אסטרטגיות ה-GTM הן מצגת שנפתחת פעם אחת ולא שוב. אסטרטגיה אמיתית היא מנוע שמריצים כל שבוע. הנה חמשת החלקים, הסדר שבו הם באים, ואיך שומרים אותם חיים עד שהם מייצרים פייפליין. זה אותו רצף שאני מפעיל ב-90 הימים הראשונים אצל לקוח.",
+  "sections":[
+    {"h":"אסטרטגיית GTM היא תוכנית להפוך מוצר ללקוחות משלמים","p":[
+      "כשמורידים את הבאזז, הליכה לשוק היא ארבע שאלות עם תשובות אמיתיות: למי אתם מוכרים, מה אתם אומרים להם, דרך איזה ערוץ, ובאיזה תהליך. מוסיפים את המספר שאתם מצפים שזה ייצר ויש לכם אסטרטגיה. משאירים אחת מהן מעורפלת, וכל איש מכירות מאלתר, כל דולר שיווק מצביע לכיוון אחר, ואי אפשר להבחין בין בעיית ערוץ לבעיית מסר.",
+      "פתחתי את ארצות הברית, אירופה, מזרח אירופה ו-APAC לחברות B2B, ישירות ודרך ערוצים. לאלה שהתרחבו היו תשובות כתובות ובדוקות לשאלות האלה. לאלה ששרפו שנה היו מוצר ותקווה."]},
+    {"h":"חמשת החלקים, לפי סדר החשיבות","tiers":[
+      "פרופיל לקוח אידיאלי. לא \"חברות B2B\" אלא פרופיל חד: גודל חברה, תעשייה, תפקיד מקבל ההחלטה, והכאב הספציפי שהוא מרגיש. כל חלק שבא אחריו נעשה קל יותר ככל שזה חד יותר, וקשה יותר אם מדלגים עליו.",
+      "מיצוב ומסר. הסיבה שהקונה הזה צריך אתכם, במילים שלו, קשורה לתוצאה עסקית שכבר אכפת לו ממנה. אותו מוצר, מסר שונה לכל פרסונה. כאן רוב ה-GTM נכשל בשקט.",
+      "מהלך וערוץ. איך אתם באמת מגיעים אליהם: אאוטבאונד, אינבאונד, מוצר-מוביל, שותפים, אירועים. התמהיל תלוי בנקודת המחיר, בקונה ובשלב שלכם, לא במה שבאופנה.",
+      "תהליך מכירה. הדרך ממגע ראשון לחתימה: השלבים, מי מעורב, כמה זמן לוקח כל שלב, ומה מקדם עסקה. בלי תהליך מוגדר אין תחזית ואין דרך להשתפר.",
+      "תחזית. מספר עם אבני דרך והחשבון שמאחוריו, לא תקווה. אם אתם לא יכולים להראות את הפייפליין שמייצר את המספר, אין לכם תחזית, יש לכם משאלה."]},
+    {"h":"בונים אותם ברצף, לא הכול בבת אחת","p":[
+      "הסדר הוא לא קישוט. מסר מצוין שמכוון ללקוח הלא נכון עדיין מחטיא. ערוץ מושלם שנושא מסר חלש עדיין שורף כסף. קבעו קודם את ה-ICP, אז כתבו את המסר ל-ICP הזה, אז בחרו את המהלך שמגיע אליהם, אז בנו את התהליך, ואז חזו מה התהליך מייצר.",
+      "צוותים עושים את זה הפוך כל הזמן. הם קונים כלי אאוטבאונד ומגייסים SDR לפני שמישהו הגדיר למי להתקשר ומה לומר. הכלי עובד מצוין. האסטרטגיה שמתחתיו פשוט לא קיימת."]},
+    {"h":"מתחילים מעסקה אחת שנסגרה, לא מדף ריק","p":[
+      "לא ממציאים GTM בחדר ישיבות. מחלצים אותו מעסקה אמיתית. קחו את הלקוח האחרון שסגרתם, או הקרוב ביותר לסגירה, וחפרו: למה הם קנו, מה כאב להם לפני, מה שכנע אותם, ואיך הדרך באמת נראתה. עסקה אחת כנה נותנת לכם טיוטה ראשונה של כל חמשת החלקים. אז בודקים אם זה חוזר על עצמו. כך בונים מנוע מתוך עובדה ולא מתוך הנחה."]},
+    {"h":"הטעויות ששורפות את התקציב","ul":[
+      "מכירה לפני שה-ICP מוגדר, כך שלומדים את הלקחים הלא נכונים מהקונים הלא נכונים",
+      "מסר שמתאר את המוצר במקום את התוצאה של הקונה",
+      "העתקת מהלך של חברה אחרת כשנקודת המחיר והקונה שלכם שונים",
+      "התייחסות ל-GTM כמסמך שצריך לסיים במקום כמנוע שצריך להריץ ולתקן",
+      "תחזית מתוך תחושת בטן כי תהליך מכירה מעולם לא הוגדר"]},
+    {"h":"להעמיק בכל חלק","links":[
+      ["מיצוב ומסר ל-B2B", "/he/b2b-positioning-and-messaging"],
+      ["איך בוחרים את מהלך ההליכה לשוק", "/he/go-to-market-motion"],
+      ["שירות אסטרטגיית Go-To-Market", "/he/services/go-to-market-strategy"]]},
+    {"h":"אסטרטגיה שנשארת על השקף חסרת ערך","p":[
+      "המצגת היא החלק הקל. להריץ אותה זו העבודה. אני בונה את ה-GTM אתכם, ואז מוביל את הביצוע עד שיש פייפליין, שותפים ומכירות ראשונות, תוך תיקון התוכנית מול מה שהשוק באמת עושה. אם אתם מוכרים בלי GTM ברור, או עם כזה שלא עובד, זו העבודה שאני עושה."]},
+  ],
+  "faqs":[
+    {"q":"מה זה אסטרטגיית Go-To-Market ל-B2B?","a":"זו התוכנית הקונקרטית להפוך את המוצר ללקוחות משלמים: למי מוכרים, מה אומרים, דרך איזה ערוץ, באיזה תהליך, ומה המספר שמצפים שזה ייצר. כתוב ובדוק, לא מונח."},
+    {"q":"מהם החלקים של אסטרטגיית GTM?","a":"חמישה: פרופיל לקוח אידיאלי חד, מיצוב ומסר, מהלך המכירה והערוץ, תהליך מכירה מוגדר, ותחזית עם החשבון שמאחוריה. בונים אותם בסדר הזה, כי כל אחד תלוי בקודמו."},
+    {"q":"מאיפה מתחילים לבנות GTM?","a":"מעסקה אמיתית אחת, לא מדף ריק. קחו את הלקוח האחרון שסגרתם ובדקו למה קנו, מה כאב, מה שכנע ואיך העסקה זזה. זה נותן טיוטה ראשונה של כל חמשת החלקים, שאותה בודקים אם היא חוזרת."},
+    {"q":"האם אני צריך אסטרטגיית GTM אם אני כבר מוכר?","a":"אם המכירה לא עקבית, איטית או לא ניתנת לחיזוי, אתם מוכרים בלי GTM עובד גם אם עסקאות נסגרות מדי פעם. אסטרטגיה מוגדרת היא מה שמאפשר להבחין בין בעיית ערוץ לבעיית מסר ולתקן את הנכונה."},
+    {"q":"אתה יכול לבנות את ה-GTM וגם לעזור להריץ אותו?","a":"כן. אני בונה את האסטרטגיה אתכם ואז מוביל את הביצוע עד שיש פייפליין, שותפים ומכירות ראשונות. אני לא עוצר במצגת, כי המצגת היא החלק שלא מוכר."}],
+  "related":'ראו את <a href="/he/services/go-to-market-strategy">שירות אסטרטגיית ה-GTM</a>, העמיקו ב<a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a> וב<a href="/he/go-to-market-motion">בחירת מהלך ה-GTM</a>, או קראו <a href="/he/blog/go-to-market-israeli-startup">אסטרטגיית GTM לסטארטאפ שמוכר בחו״ל</a> ו<a href="/he/blog/ideal-customer-profile-icp">איך מגדירים ICP שממיר</a>.'},
+
+ {"slug":"b2b-positioning-and-messaging",
+  "title":"מיצוב ומסר ל-B2B שמנצחים עסקאות | טל פאפרין",
+  "desc":"מיצוב הוא הסיבה שקונה בוחר בכם ולא בלהישאר כמו שהם. איך בונים מיצוב ומסר ל-B2B שמוכרים את התוצאה, לא את רשימת הפיצ׳רים.",
+  "h1":"מיצוב ומסר ל-B2B שגורמים לקונים לבחור בכם","eyebrow":"מדריך",
+  "lead":"רוב המסרים ב-B2B מתארים את המוצר. לקונים לא אכפת מהמוצר שלכם. אכפת להם מהבעיה שהוא מסיים ומהתוצאה שהם מקבלים. הנה איך ממצבים מוצר B2B כך שהקונה הנכון רואה את עצמו בו ובוחר בכם במקום לא לעשות כלום.",
+  "sections":[
+    {"h":"מיצוב הוא המסגרת, מסר הוא המילים","p":[
+      "מיצוב הוא ההחלטה באיזו קטגוריה אתם, למי אתם, ולמה אתם מנצחים את החלופה, כולל החלופה לא לשנות כלום. מסר הוא איך אומרים את זה בשפה שהקונה כבר משתמש בה. אם המיצוב שגוי, שום קופירייטינג חכם לא יציל. אם הוא נכון, המילים כמעט כותבות את עצמן.",
+      "המתחרה האמיתי שלכם הוא לרוב לא הספק האחר. הוא הסטטוס קוו: הגיליון, המתמחה, התהליך שהם כבר סובלים. מצבו מול זה והשיחה משתנה."]},
+    {"h":"מוכרים את התוצאה, לא את הפיצ׳ר","p":[
+      "פיצ׳ר הוא מה שהמוצר עושה. תוצאה היא מה שהקונה מקבל: זמן שחוזר, סיכון שיורד, הכנסה שנוספת, מספר שהוא נמדד עליו שזז לכיוון הנכון. קונים מאשרים תקציב על תוצאות, לא על פיצ׳רים. אותה רשימת פיצ׳רים, ממוסגרת כתוצאה שאכפת לקונה מסוים ממנה, היא ההבדל בין דמו שנוחת לבין דמו שמקבל 'לא' מנומס.",
+      "לכן מיצוב מתחיל מהקונה, לא מהרואדמאפ. אם אתם לא יכולים לנסח את התוצאה במילים של הקונה, יש לכם רשימת פיצ׳רים, לא מסר."]},
+    {"h":"מוצר אחד, מסר שונה לכל פרסונה","p":[
+      "סמנכ״ל הכספים, המשתמש הסופי וראש המחלקה קונים את אותו מוצר מסיבות שונות. הכספים רוצה שהעלות והסיכון יירדו. המשתמש רוצה שהיום שלו יהיה קל יותר. ראש המחלקה רוצה שהמספר שהוא מדווח עליו יזוז. אותו מוצר, שלושה מסרים. מסר אחד לכולם זה מסר שלא משכנע אף אחד עד הסוף."]},
+    {"h":"איך בונים את זה","ul":[
+      "התחילו מה-ICP החד ביותר, כי ממצבים לקונה ספציפי ולא לכולם",
+      "נקבו בסטטוס קוו שהם חיים בו היום ולמה הוא עולה להם בשקט",
+      "נסחו את התוצאה שהם מקבלים בשפה שלהם, עם לפני ואחרי קונקרטיים",
+      "בחרו את הטענה האחת שאתם יכולים להוכיח והובילו איתה, במקום עשר שאתם רק מצהירים",
+      "בדקו כל שורה מול קונה אמיתי, ואז מחקו כל מה שהוא מדלג עליו"]},
+    {"h":"איך יודעים שזה עובד","p":[
+      "מיצוב טוב מופיע במחזור המכירה, לא בסקר מותג. עסקאות זזות מהר יותר כי מבזבזים פחות זמן על הסבר מי אתם. שיחות גילוי נפתחות בכך שהקונה מתאר לכם בחזרה את הכאב שלו. ההנחות יורדות, כי כבר לא משווים אתכם פיצ׳ר מול פיצ׳ר לכלי זול יותר. אם כלום מזה לא קורה, המיצוב הוא הדבר לתקן לפני שמוציאים עוד דולר על פנייה."]},
+    {"h":"איפה זה משתלב","links":[
+      ["אסטרטגיית ה-GTM המלאה", "/he/b2b-go-to-market-strategy"],
+      ["איך בוחרים את מהלך ההליכה לשוק", "/he/go-to-market-motion"],
+      ["שירות אסטרטגיית Go-To-Market", "/he/services/go-to-market-strategy"]]},
+  ],
+  "faqs":[
+    {"q":"מה ההבדל בין מיצוב למסר?","a":"מיצוב הוא ההחלטה האסטרטגית באיזו קטגוריה אתם, למי אתם, ולמה אתם מנצחים את החלופה כולל לא לעשות כלום. מסר הוא איך מבטאים את זה במילים של הקונה. מיצוב בא קודם, כי המילים עובדות רק כשהמסגרת נכונה."},
+    {"q":"למה המסר שלי ב-B2B לא ממיר?","a":"לרוב כי הוא מתאר את המוצר במקום את התוצאה של הקונה, או כי הוא כתוב לכולם ולכן לא משכנע אף אחד. קונים מאשרים תקציב על תוצאות שהם נמדדים עליהן, לא על רשימות פיצ׳רים. מסגרו כל מסר סביב התוצאה הספציפית שאכפת לפרסונה ספציפית ממנה."},
+    {"q":"מי המתחרה האמיתי שלי?","a":"רוב הזמן זה הסטטוס קוו, לא ספק אחר: הגיליון, התהליך הידני, הדבר שהם כבר סובלים. מצבו מול לא לעשות כלום ואתם מתייחסים להחלטה שהקונה באמת מקבל."},
+    {"q":"האם המסר צריך להשתנות לפי קונה?","a":"כן. הכספים, המשתמש וראש המחלקה קונים את אותו מוצר מסיבות שונות, כך שכל אחד צריך מסר שמכוון למה שאכפת לו. מסר אחד לכולם הוא מסר שלא משכנע אף אחד עד הסוף."}],
+  "related":'חלק מאשכול <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ההליכה לשוק</a>. ראו גם <a href="/he/go-to-market-motion">בחירת מהלך ה-GTM</a>, את <a href="/he/services/go-to-market-strategy">שירות ה-GTM</a>, או קראו <a href="/he/blog/ideal-customer-profile-icp">איך מגדירים ICP שממיר</a>.'},
+
+ {"slug":"go-to-market-motion",
+  "title":"איך בוחרים את מהלך ה-Go-To-Market | טל פאפרין",
+  "desc":"אאוטבאונד, אינבאונד, מוצר-מוביל או ערוץ? איך בוחרים את מהלך ההליכה לשוק הנכון ל-B2B לפי נקודת מחיר, קונה ושלב, לא לפי אופנה.",
+  "h1":"איך בוחרים את מהלך ה-Go-To-Market","eyebrow":"מדריך",
+  "lead":"כל רבעון מישהו בלינקדאין מכריז שמהלך מסוים מת. אאוטבאונד מת, אינבאונד מת, PLG הרג את המכירות, המכירות הרגו את PLG. התעלמו מהכול. מהלך הליכה לשוק הוא בחירה שעושים מתוך נקודת המחיר, הקונה והשלב שלכם, לא אמונה. הנה איך בוחרים את זה שמתאים.",
+  "sections":[
+    {"h":"המהלכים, ולמי כל אחד מתאים","tiers":[
+      "אאוטבאונד. אתם הולכים לקונה: פנייה ממוקדת, SDRs, מכירה ישירה. מתאים לנקודות מחיר גבוהות, קונים מוגדרים, וכל שלב מוקדם שבו אתם צריכים שליטה, מהירות וידע שוק עכשיו.",
+      "אינבאונד. הקונה בא אליכם: תוכן, SEO, מוניטין, מפה לאוזן. מצטבר יפה ולוקח שישה עד שמונה עשר חודשים לייצר פייפליין צפוי, כך שזה נכס שבונים, לא מתג שמדליקים.",
+      "מוצר-מוביל. המוצר מוכר את עצמו דרך שכבה חינמית או ניסיון. מתאים לנקודות מחיר נמוכות, מוצרים בשירות עצמי ומשתמש שיכול לאמץ בלי ועדה. מתפרק ברגע שהעסקה צריכה אישור.",
+      "ערוץ ושותפים. כוח מכירות או מפיץ של מישהו אחר מוכר בשבילכם. מתאים לשווקים שבהם האמון מקומי, הקונה קשה להשגה ישירה, או שאתם עדיין לא יכולים להרשות לעצמכם אנשים בשטח."]},
+    {"h":"בוחרים לפי שלושה דברים, לא לפי אופנה","ul":[
+      "נקודת מחיר: נמוכה ובשירות עצמי נוטה למוצר-מוביל, גבוהה ובקנייה בוועדה צריכה מכירה מובלת",
+      "קונה: קל למצוא ולהגיע אליו מעדיף אאוטבאונד, משתמש רחב בשירות עצמי מעדיף מוצר-מוביל",
+      "שלב: מוקדם כמעט תמיד צריך אאוטבאונד קודם, כי צריך שליטה ולמידה עכשיו"]},
+    {"h":"למה B2B בשלב מוקדם כמעט תמיד מתחיל באאוטבאונד","p":[
+      "מייסדים רוצים אינבאונד: לידים שמגיעים כבר מעוניינים. מי לא. הבעיה היא שאינבאונד הוא נכס שבונים לאורך חודשים רבים, ובשלב הכי מוקדם אין לכם את מסלול הריצה ואתם עדיין לא יודעים מספיק כדי להזין את המכונה. אאוטבאונד קונה לכם שליטה, מהירות וידע שוק ישיר עכשיו. אתם לומדים מי באמת קונה ולמה מתוך שיחה איתם, והלמידה הזו היא מה שמאפשר לבנות אינבאונד טוב אחר כך. התחילו באאוטבאונד, הרוויחו את הזכות לאינבאונד.",
+      "בניתי את החברה שלי בכך שביקרתי לקוח, לא בכך שפרסמתי וחיכיתי. העיקרון מחזיק לרוב ה-B2B: לכו לשוק לפני שאתם מצפים שהוא יבוא אליכם."]},
+    {"h":"רוב החברות מגיעות להיברידי","p":[
+      "התשובה הכנה היא לעתים רחוקות מהלך אחד. B2B טיפוסי מרחיב אאוטבאונד לשליטה מוקדם, משלב אינבאונד ככל שתוכן ומוניטין מצטברים, ומוסיף ערוץ היכן ששוק קשה להשגה ישירה. מוצר-מוביל יושב מתחת רק אם המוצר באמת מוכר בלי בן אדם. הטעות היא לבחור מהלך מתוך אידאולוגיה ולהכריח את העסק להתאים לו, במקום לתת לקונה ולנקודת המחיר להחליט."]},
+    {"h":"איפה זה משתלב","links":[
+      ["אסטרטגיית ה-GTM המלאה", "/he/b2b-go-to-market-strategy"],
+      ["מיצוב ומסר ל-B2B", "/he/b2b-positioning-and-messaging"],
+      ["שירות אסטרטגיית Go-To-Market", "/he/services/go-to-market-strategy"]]},
+  ],
+  "faqs":[
+    {"q":"איך בוחרים מהלך הליכה לשוק?","a":"לפי שלושה דברים: נקודת המחיר, הקונה והשלב שלכם. מחיר נמוך ושירות עצמי נוטים למוצר-מוביל, מחיר גבוה וקנייה בוועדה צריכים מכירה מובלת, קונה קל להשגה מעדיף אאוטבאונד, ושוק מקומי קשה להשגה מעדיף ערוץ. בוחרים מתוך העסק, לא מתוך מה שבאופנה."},
+    {"q":"סטארטאפ בשלב מוקדם צריך אאוטבאונד או אינבאונד?","a":"אאוטבאונד קודם, כמעט תמיד. אינבאונד מצטבר אבל לוקח שישה עד שמונה עשר חודשים, ובהתחלה חסרים לכם גם מסלול הריצה וגם ידע השוק כדי להזין אותו. אאוטבאונד קונה שליטה, מהירות ולמידה ישירה על מי שבאמת קונה, וזה מה שמאפשר לבנות אינבאונד טוב אחר כך."},
+    {"q":"מתי צמיחה מוצר-מובילה עובדת?","a":"כשהמוצר באמת מוכר את עצמו: נקודת מחיר נמוכה, אימוץ בשירות עצמי, ומשתמש יחיד שלא צריך אישור ועדה. ברגע שעסקה דורשת אישור מכספים או מראש מחלקה, אתם צריכים מהלך מכירה לצידו."},
+    {"q":"אפשר להריץ יותר ממהלך אחד?","a":"רוב חברות ה-B2B עושות זאת, ונכון שיעשו. דרך נפוצה היא אאוטבאונד לשליטה מוקדם, אינבאונד משולב ככל שהוא מצטבר, וערוץ נוסף היכן ששוק קשה להשגה ישירה. הטעות היא להכריח מהלך אחד מתוך אידאולוגיה במקום להתאים מהלכים לקונה ולנקודת המחיר."}],
+  "related":'חלק מאשכול <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ההליכה לשוק</a>. ראו גם <a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a>, את <a href="/he/services/go-to-market-strategy">שירות ה-GTM</a>, או קראו <a href="/he/blog/outbound-vs-inbound-early-stage">אאוטבאונד מול אינבאונד בשלב מוקדם</a> ו<a href="/he/blog/product-led-vs-sales-led">צמיחה מוצר-מובילה מול מכירה-מובילה</a>.'},
 ]
 
 
@@ -3795,6 +4018,8 @@ GUIDE_CATS = [
    "fractional-cro-for-professional-services"]),
  ("Outsourced sales and marketing", "מכירות ושיווק במיקור חוץ", [
    "outsourced-sales-and-marketing-department", "outsourced-sdr-team", "b2b-lead-generation-services"]),
+ ("Go-to-market strategy", "אסטרטגיית הליכה לשוק", [
+   "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion"]),
  ("Market entry", "חדירה לשווקים", [
    "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market", "fractional-cro-israel"]),
  ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),

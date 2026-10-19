@@ -29,6 +29,6 @@ This is the part people miss. Outbound and inbound are not rivals. Outbound come
 
 Run outbound to learn who buys and why. Once you have a repeatable motion and know your real ICP, start pouring that knowledge into inbound so it compounds while you sleep. Skip the outbound stage and your inbound is a guess dressed up as a strategy.
 
-If you do not want to build the outbound machine in-house yet, you can rent the output. My [pay-per-meeting service](/services/pay-per-meeting) puts qualified buyers on your calendar so you learn the market fast without hiring an SDR team. And if you are not sure who to target or how to sequence channels at all, that is a [go-to-market strategy](/services/go-to-market-strategy) problem, and it is worth solving before you spend a dollar on either channel.
+If you do not want to build the outbound machine in-house yet, you can rent the output. My [pay-per-meeting service](/services/pay-per-meeting) puts qualified buyers on your calendar so you learn the market fast without hiring an SDR team. And if you are not sure who to target or how to sequence channels at all, that is a [go-to-market strategy](/services/go-to-market-strategy) problem, and it is worth solving before you spend a dollar on either channel. The full decision is in [how to choose your go-to-market motion](/go-to-market-motion).
 
 Start with outbound. Earn inbound. In that order.

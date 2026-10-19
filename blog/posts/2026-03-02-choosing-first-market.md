@@ -46,4 +46,4 @@ If you are weighing where to start, let's talk. I have built sales engines in do
 
 ---
 
-Related: [market entry](/services/market-entry), [go-to-market strategy](/services/go-to-market-strategy).
+Related: [market entry](/services/market-entry), [go-to-market strategy](/services/go-to-market-strategy), and the [B2B go-to-market strategy guide](/b2b-go-to-market-strategy).

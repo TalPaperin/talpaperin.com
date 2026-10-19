@@ -37,6 +37,6 @@ Here is what actually happens in the real world. Very few companies are purely o
 
 A common pattern: product-led at the bottom to capture individual users and small teams cheaply, then sales-led on top the moment a company shows expansion signals worth a human touch. Product generates the signal, sales closes the expansion. Done right, each motion feeds the other.
 
-The failure mode is picking a motion by fashion instead of by your buyer, price, and complexity, then wondering why growth stalls. That is a [go-to-market strategy](/services/go-to-market-strategy) question, and it is worth answering deliberately before you staff a team or build a self-serve funnel around the wrong assumption.
+The failure mode is picking a motion by fashion instead of by your buyer, price, and complexity, then wondering why growth stalls. That is a [go-to-market strategy](/services/go-to-market-strategy) question, answered in [how to choose your go-to-market motion](/go-to-market-motion), and it is worth answering deliberately before you staff a team or build a self-serve funnel around the wrong assumption.
 
 If you are choosing your motion, sequencing the two, or fixing one that is not converting, that is exactly the work I do as a [Fractional CRO](/services/fractional-cro). Choose by the buyer in front of you. The buyer decides the motion, not the other way around.

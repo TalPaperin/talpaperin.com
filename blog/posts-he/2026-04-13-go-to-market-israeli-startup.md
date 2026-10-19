@@ -43,4 +43,4 @@ Go-To-Market, או GTM, הפך למילת באזז שזורקים בכל פגי�
 
 ---
 
-**קריאה נוספת:** [אסטרטגיית Go-To-Market](/he/services/go-to-market-strategy), [מכירות SaaS ו-Go-To-Market](/he/services/go-to-market-strategy).
+**קריאה נוספת:** [המדריך המלא לאסטרטגיית Go-To-Market ל-B2B](/he/b2b-go-to-market-strategy), [מיצוב ומסר ל-B2B](/he/b2b-positioning-and-messaging), [איך בוחרים מהלך הליכה לשוק](/he/go-to-market-motion), ו[שירות אסטרטגיית ה-GTM](/he/services/go-to-market-strategy).

@@ -47,4 +47,4 @@ If you are not sure who your real ICP is, or suspect it is too broad, let's talk
 
 ---
 
-Related: [go-to-market strategy](/services/go-to-market-strategy), [the fractional CRO service](/services/fractional-cro).
+Related: the [B2B go-to-market strategy guide](/b2b-go-to-market-strategy) the ICP feeds into, [B2B positioning and messaging](/b2b-positioning-and-messaging), the [go-to-market strategy service](/services/go-to-market-strategy), and [the fractional CRO service](/services/fractional-cro).
