@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>מדדי המכירות שמייסדים באמת צריכים לעקוב אחריהם</title>
+      <link>https://talpaperin.com/he/blog/sales-metrics-founders-should-track</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/sales-metrics-founders-should-track</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>מייסדים טובעים בדשבורדים. הנה חמשת מדדי המכירות שבאמת מנבאים הכנסה, מדדי הראווה להתעלם מהם, ומתי כל אחד צריך להניע אתכם לפעולה.</description>
+    </item>
     <item>
       <title>SDRs פנימיים מול מיקור חוץ: מה כדאי לחברות B2B בשלב מוקדם</title>
       <link>https://talpaperin.com/he/blog/sdr-in-house-vs-outsourced</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/your-pipeline-is-lying-to-you</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
       <description>רוב המנכ״לים חושבים שיש להם בעיית ביצוע מכירות. יש להם בעיית כישור. הנה המבחן שהופך פייפליין של 2 מיליון דולר ל-700 אלף דולר כנים.</description>
-    </item>
-    <item>
-      <title>יועץ עסקי ממעלות-תרשיחא, עם תיק עבודות בארבע יבשות</title>
-      <link>https://talpaperin.com/he/blog/business-consultant-maalot-tarshiha</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/business-consultant-maalot-tarshiha</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <description>אני טל פאפרין, יועץ עסקי וסמנכ״ל מכירות במיקור חוץ ממעלות-תרשיחא. עוזר לעסקים בגליל ובצפון לבנות מנוע מכירות B2B אמיתי ולצמוח לשווקים גלובליים.</description>
     </item>
   </channel>
 </rss>

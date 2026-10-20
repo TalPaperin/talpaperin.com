@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Sales Metrics Founders Should Actually Track</title>
+      <link>https://talpaperin.com/blog/sales-metrics-founders-should-track</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/sales-metrics-founders-should-track</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Founders drown in dashboards. Here are the five sales metrics that actually predict revenue, the vanity numbers to ignore, and when each one should make you act.</description>
+    </item>
     <item>
       <title>In-House SDRs vs Outsourced: What Early-Stage B2B Should Do</title>
       <link>https://talpaperin.com/blog/sdr-in-house-vs-outsourced</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/your-pipeline-is-lying-to-you</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
       <description>Most CEOs think they have a sales execution problem. They have a qualification problem. Here is the test that turns a $2M pipeline into an honest $700K.</description>
-    </item>
-    <item>
-      <title>From $4.8 Billion to $60 Million. A Great Product Cannot Save a Broken Business Model.</title>
-      <link>https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Nano-X had revolutionary medical imaging tech and still lost 99 percent of its value. The lesson is not the technology. It is business-model-market fit.</description>
     </item>
   </channel>
 </rss>
