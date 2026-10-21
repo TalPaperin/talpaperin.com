@@ -382,7 +382,7 @@ PPM_PRICE_HE = _ppm_price_block("הקמה, חד פעמי", PPM_TIERS_HE,
 
 SERVICES = [
  {"slug":"pay-per-meeting","nav":"Pay-Per-Meeting","h1":"Pay-Per-Meeting B2B Sales Meetings",
-  "title":"Pay-Per-Meeting B2B Sales Meetings and Appointment Setting | Tal Paperin",
+  "title":"Pay-Per-Meeting B2B Appointment Setting | Tal Paperin",
   "desc":"You pay for the B2B sales meetings we book, not emails or lists. We define your ICP, find the people, and put qualified meetings on your calendar.",
   "eyebrow":"Service",
   "lead":"You need sales meetings. I get them for you. Not another retainer for activity, you pay based on the number of qualified meetings we actually book on your calendar.",
@@ -2449,7 +2449,7 @@ GUIDES = [
 
  {"slug":"frum-business-consultant","en_only":True,
   "title":"Frum Business Consultant and Sales Leader | Tal Paperin",
-  "desc":"A frum, shomer Shabbos business consultant and fractional sales leader from Eretz Yisrael, who knows the heimishe, Yiddish-speaking business world and helps frum business owners grow.",
+  "desc":"A frum, shomer Shabbos business consultant and fractional sales leader who knows the heimishe, Yiddish-speaking business world and helps frum businesses grow.",
   "h1":"A Frum Business Consultant Who Gets the Heimishe World","eyebrow":"For Frum Businesses",
   "lead":"I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run sales for businesses on four continents. If you are a frum business owner who wants a sales leader who shares your values and understands your world, not just your spreadsheet, this is for you.",
   "sections":[
@@ -2658,7 +2658,7 @@ GUIDES = [
   "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/services/sales-team-building">sales team building</a>, <a href="/fractional-cro-for-startups">fractional CRO for startups</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"sales-team-missing-quota",
-  "title":"Sales Team Missing Quota? Here Is Why and How to Fix It | Tal Paperin",
+  "title":"Sales Team Missing Quota? How to Fix It | Tal Paperin",
   "desc":"Your sales team keeps missing quota. It is usually not the reps. Here is the real diagnosis, from pipeline coverage to deal inspection, and how I fix it.",
   "h1":"When Your Sales Team Keeps Missing Quota","eyebrow":"Guide",
   "lead":"When a team misses quota two quarters running, the instinct is to blame the reps or swap them out. That is almost always the wrong move. Most quota misses are a pipeline and process problem, and you can fix those without firing anyone.",
@@ -2676,7 +2676,7 @@ GUIDES = [
   "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/sales-forecast-always-wrong">why your forecast is always wrong</a>, <a href="/hired-reps-but-no-pipeline">hired reps but no pipeline</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"sales-forecast-always-wrong",
-  "title":"Why Your Sales Forecast Is Always Wrong (and How to Fix It) | Tal Paperin",
+  "title":"Why Your Sales Forecast Is Always Wrong | Tal Paperin",
   "desc":"You commit a number to the board, then miss it. Again. Here is why your sales forecast keeps missing, and the discipline that makes it trustworthy.",
   "h1":"Why Your Sales Forecast Is Always Wrong","eyebrow":"Guide",
   "lead":"You commit a number to the board, then miss it by a third. Next quarter, same story. A forecast that is always wrong is not bad luck. It is a pipeline you cannot trust and a process that lets everyone guess.",
@@ -2709,7 +2709,7 @@ GUIDES = [
     {"q":"Why aren't my new sales reps generating pipeline?","a":"Usually because there is no motion for them to run. No sharp ICP, no outbound system, no target list, no playbook. Strong closers in particular are weak at prospecting and need pipeline handed to them. Build the motion first and the same reps start producing."},
     {"q":"Should I hire more reps to get more pipeline?","a":"Not until a motion exists. Adding headcount to a broken motion multiplies the cost without multiplying the pipeline. Build and prove the outbound engine, then hire against something that already works so new reps ramp on a system instead of guessing."},
     {"q":"Do I need SDRs or AEs to fix an empty pipeline?","a":"Often both, in the right seats. SDRs prospect and book meetings, AEs close. The common mistake is hiring closers and expecting them to prospect, or hiring SDRs with no playbook. I put the right people in the right seats and train them on a built motion."}],
-  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/services/sales-team-building">sales team building</a>, <a href="/founder-led-sales-wont-scale">founder-led sales will not scale</a>, <a href="/outsourced-sdr-team">an outsourced SDR team</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/services/sales-team-building">sales team building</a>, <a href="/founder-led-sales-wont-scale">founder-led sales will not scale</a>, <a href="/outsourced-sdr-team">an outsourced SDR team</a>, <a href="/go-to-market-motion">how to choose your go-to-market motion</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-for-startups",
   "title":"Fractional CRO for Startups | Tal Paperin",
@@ -3276,7 +3276,7 @@ GUIDES = [
     {"q":"Where do I start building a GTM?","a":"From one real deal, not a blank page. Take the last customer you closed and work out why they bought, what hurt, what convinced them and how the deal actually moved. That gives you the first draft of all five parts, which you then test for whether it repeats."},
     {"q":"Do I need a GTM strategy if I am already selling?","a":"If selling is inconsistent, slow or unforecastable, you are selling without a working GTM even if deals occasionally close. A defined strategy is what lets you tell a channel problem from a message problem and fix the right one."},
     {"q":"Can you build the GTM and help run it?","a":"Yes. I build the strategy with you and then lead the execution until there is pipeline, partners and first sales. I do not stop at the slide deck, because the deck is the part that does not sell."}],
-  "related":'See the <a href="/services/go-to-market-strategy">go-to-market strategy service</a>, go deeper on <a href="/b2b-positioning-and-messaging">positioning and messaging</a> and <a href="/go-to-market-motion">choosing your GTM motion</a>, or read <a href="/blog/go-to-market-israeli-startup">a GTM strategy for a startup selling abroad</a> and <a href="/blog/ideal-customer-profile-icp">how to define an ICP that converts</a>.'},
+  "related":'See the <a href="/services/go-to-market-strategy">go-to-market strategy service</a>, go deeper on <a href="/b2b-positioning-and-messaging">positioning and messaging</a> and <a href="/go-to-market-motion">choosing your GTM motion</a>, or read <a href="/blog/go-to-market-israeli-startup">a GTM strategy for a startup selling abroad</a> and <a href="/blog/ideal-customer-profile-icp">how to define an ICP that converts</a>. If the forecast part keeps missing, see <a href="/sales-forecast-always-wrong">why your sales forecast is always wrong</a>.'},
 
  {"slug":"b2b-positioning-and-messaging",
   "title":"B2B Positioning and Messaging That Wins Deals | Tal Paperin",
@@ -3342,7 +3342,7 @@ GUIDES = [
     {"q":"Should an early-stage startup do outbound or inbound?","a":"Outbound first, almost always. Inbound compounds but takes six to eighteen months, and early on you lack both the runway and the market knowledge to feed it. Outbound buys control, speed and direct learning about who actually buys, which is what lets you build inbound well later."},
     {"q":"When does product-led growth work?","a":"When the product genuinely sells itself: low price point, self-serve adoption, and a single user who does not need committee sign-off. The moment a deal requires approval from finance or a department head, you need a sales motion alongside it."},
     {"q":"Can I run more than one motion?","a":"Most B2B companies do, and should. A common path is outbound for control early, inbound layered in as it compounds, and channel added where a market is hard to reach directly. The error is forcing one motion by ideology instead of matching motions to the buyer and price point."}],
-  "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/b2b-positioning-and-messaging">positioning and messaging</a>, the <a href="/services/go-to-market-strategy">GTM service</a>, or read <a href="/blog/outbound-vs-inbound-early-stage">outbound vs inbound for early-stage B2B</a> and <a href="/blog/product-led-vs-sales-led">product-led vs sales-led growth</a>.'},
+  "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/b2b-positioning-and-messaging">positioning and messaging</a>, the <a href="/services/go-to-market-strategy">GTM service</a>, or read <a href="/blog/outbound-vs-inbound-early-stage">outbound vs inbound for early-stage B2B</a> and <a href="/blog/product-led-vs-sales-led">product-led vs sales-led growth</a>. If you hired reps but have no pipeline, the missing piece is usually the motion itself: see <a href="/hired-reps-but-no-pipeline">hired reps but no pipeline</a>.'},
 ]
 
 
@@ -3689,7 +3689,7 @@ HE_GUIDES = [
     {"q":"למה הנציגים החדשים שלי לא מייצרים פייפליין?","a":"בדרך כלל כי אין מהלך להריץ. אין ICP חד, אין מערכת אאוטבאונד, אין רשימת יעד, אין playbook. סוגרים חזקים במיוחד חלשים בפנייה וצריכים שיגישו להם פייפליין. בנו את המהלך קודם ואותם נציגים מתחילים להפיק."},
     {"q":"שאגייס עוד נציגים כדי לקבל יותר פייפליין?","a":"לא עד שקיים מהלך. הוספת כוח אדם למהלך שבור מכפילה את העלות בלי להכפיל את הפייפליין. בנו והוכיחו את מנוע האאוטבאונד, ואז גייסו מול משהו שכבר עובד כך שנציגים חדשים נכנסים לקצב על מערכת במקום לנחש."},
     {"q":"אני צריך SDR-ים או AE-ים כדי לתקן פייפליין ריק?","a":"לרוב את שניהם, בכיסאות הנכונים. SDR-ים פונים וקובעים פגישות, AE-ים סוגרים. הטעות הנפוצה היא לגייס סוגרים ולצפות שיפנו, או לגייס SDR-ים בלי playbook. אני שם את האנשים הנכונים בכיסאות הנכונים ומאמן אותם על מהלך בנוי."}],
-  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-Fractional CRO</a>, <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, <a href="/he/founder-led-sales-wont-scale">מכירות מבוססות-מייסד לא מתרחבות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-Fractional CRO</a>, <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, <a href="/he/founder-led-sales-wont-scale">מכירות מבוססות-מייסד לא מתרחבות</a>, <a href="/he/go-to-market-motion">איך בוחרים את מהלך ה-GTM</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
 
  {"slug":"fractional-cro-for-startups",
   "title":"Fractional CRO לסטארטאפים | טל פאפרין",
@@ -3840,7 +3840,7 @@ HE_GUIDES = [
     {"q":"מאיפה מתחילים לבנות GTM?","a":"מעסקה אמיתית אחת, לא מדף ריק. קחו את הלקוח האחרון שסגרתם ובדקו למה קנו, מה כאב, מה שכנע ואיך העסקה זזה. זה נותן טיוטה ראשונה של כל חמשת החלקים, שאותה בודקים אם היא חוזרת."},
     {"q":"האם אני צריך אסטרטגיית GTM אם אני כבר מוכר?","a":"אם המכירה לא עקבית, איטית או לא ניתנת לחיזוי, אתם מוכרים בלי GTM עובד גם אם עסקאות נסגרות מדי פעם. אסטרטגיה מוגדרת היא מה שמאפשר להבחין בין בעיית ערוץ לבעיית מסר ולתקן את הנכונה."},
     {"q":"אתה יכול לבנות את ה-GTM וגם לעזור להריץ אותו?","a":"כן. אני בונה את האסטרטגיה אתכם ואז מוביל את הביצוע עד שיש פייפליין, שותפים ומכירות ראשונות. אני לא עוצר במצגת, כי המצגת היא החלק שלא מוכר."}],
-  "related":'ראו את <a href="/he/services/go-to-market-strategy">שירות אסטרטגיית ה-GTM</a>, העמיקו ב<a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a> וב<a href="/he/go-to-market-motion">בחירת מהלך ה-GTM</a>, או קראו <a href="/he/blog/go-to-market-israeli-startup">אסטרטגיית GTM לסטארטאפ שמוכר בחו״ל</a> ו<a href="/he/blog/ideal-customer-profile-icp">איך מגדירים ICP שממיר</a>.'},
+  "related":'ראו את <a href="/he/services/go-to-market-strategy">שירות אסטרטגיית ה-GTM</a>, העמיקו ב<a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a> וב<a href="/he/go-to-market-motion">בחירת מהלך ה-GTM</a>, או קראו <a href="/he/blog/go-to-market-israeli-startup">אסטרטגיית GTM לסטארטאפ שמוכר בחו״ל</a> ו<a href="/he/blog/ideal-customer-profile-icp">איך מגדירים ICP שממיר</a>. אם חלק התחזית ממשיך לפספס, ראו <a href="/he/sales-forecast-always-wrong">למה תחזית המכירות תמיד שגויה</a>.'},
 
  {"slug":"b2b-positioning-and-messaging",
   "title":"מיצוב ומסר ל-B2B שמנצחים עסקאות | טל פאפרין",
@@ -3906,7 +3906,7 @@ HE_GUIDES = [
     {"q":"סטארטאפ בשלב מוקדם צריך אאוטבאונד או אינבאונד?","a":"אאוטבאונד קודם, כמעט תמיד. אינבאונד מצטבר אבל לוקח שישה עד שמונה עשר חודשים, ובהתחלה חסרים לכם גם מסלול הריצה וגם ידע השוק כדי להזין אותו. אאוטבאונד קונה שליטה, מהירות ולמידה ישירה על מי שבאמת קונה, וזה מה שמאפשר לבנות אינבאונד טוב אחר כך."},
     {"q":"מתי צמיחה מוצר-מובילה עובדת?","a":"כשהמוצר באמת מוכר את עצמו: נקודת מחיר נמוכה, אימוץ בשירות עצמי, ומשתמש יחיד שלא צריך אישור ועדה. ברגע שעסקה דורשת אישור מכספים או מראש מחלקה, אתם צריכים מהלך מכירה לצידו."},
     {"q":"אפשר להריץ יותר ממהלך אחד?","a":"רוב חברות ה-B2B עושות זאת, ונכון שיעשו. דרך נפוצה היא אאוטבאונד לשליטה מוקדם, אינבאונד משולב ככל שהוא מצטבר, וערוץ נוסף היכן ששוק קשה להשגה ישירה. הטעות היא להכריח מהלך אחד מתוך אידאולוגיה במקום להתאים מהלכים לקונה ולנקודת המחיר."}],
-  "related":'חלק מאשכול <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ההליכה לשוק</a>. ראו גם <a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a>, את <a href="/he/services/go-to-market-strategy">שירות ה-GTM</a>, או קראו <a href="/he/blog/outbound-vs-inbound-early-stage">אאוטבאונד מול אינבאונד בשלב מוקדם</a> ו<a href="/he/blog/product-led-vs-sales-led">צמיחה מוצר-מובילה מול מכירה-מובילה</a>.'},
+  "related":'חלק מאשכול <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ההליכה לשוק</a>. ראו גם <a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a>, את <a href="/he/services/go-to-market-strategy">שירות ה-GTM</a>, או קראו <a href="/he/blog/outbound-vs-inbound-early-stage">אאוטבאונד מול אינבאונד בשלב מוקדם</a> ו<a href="/he/blog/product-led-vs-sales-led">צמיחה מוצר-מובילה מול מכירה-מובילה</a>. אם גייסתם נציגים ואין פייפליין, החלק החסר הוא לרוב המהלך עצמו: ראו <a href="/he/hired-reps-but-no-pipeline">גייסתם נציגים ואין פייפליין</a>.'},
 ]
 
 
