@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Product-Led vs Sales-Led Growth: Which Does Your B2B Need?</title>
+      <link>https://talpaperin.com/blog/product-led-vs-sales-led</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/product-led-vs-sales-led</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>PLG fits low-ACV self-serve products. Sales-led fits high-ACV committee buying. Most B2B need a hybrid. Choose by buyer, price, and complexity, not by hype.</description>
+    </item>
     <item>
       <title>The Sales Metrics Founders Should Actually Track</title>
       <link>https://talpaperin.com/blog/sales-metrics-founders-should-track</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/tpx-chapter-11-revenue-engine</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
       <description>TPx filed Chapter 11 with $1.1B in debt. The real killer was revenue that did not grow fast enough, and that is a Fractional CRO problem, not a VP of Sales one.</description>
-    </item>
-    <item>
-      <title>Your Sales Team Says the Pipeline Is Healthy. They Are Wrong.</title>
-      <link>https://talpaperin.com/blog/your-pipeline-is-lying-to-you</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/your-pipeline-is-lying-to-you</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>Most CEOs think they have a sales execution problem. They have a qualification problem. Here is the test that turns a $2M pipeline into an honest $700K.</description>
     </item>
   </channel>
 </rss>

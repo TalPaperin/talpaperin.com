@@ -82,6 +82,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Product-Led vs Sales-Led Growth: Which Does Your B2B Need?](https://talpaperin.com/blog/product-led-vs-sales-led): PLG fits low-ACV self-serve products. Sales-led fits high-ACV committee buying. Most B2B need a hybrid. Choose by buyer, price, and complexity, not by hype.
 - [The Sales Metrics Founders Should Actually Track](https://talpaperin.com/blog/sales-metrics-founders-should-track): Founders drown in dashboards. Here are the five sales metrics that actually predict revenue, the vanity numbers to ignore, and when each one should make you act.
 - [In-House SDRs vs Outsourced: What Early-Stage B2B Should Do](https://talpaperin.com/blog/sdr-in-house-vs-outsourced): In-house SDRs give control but are slow and costly to build. Outsourced and pay-per-meeting give speed and results-based cost. Here is how to choose by stage.
 - [How to Write a Cold Email That Actually Books Meetings](https://talpaperin.com/blog/cold-email-that-books-meetings): Most cold email fails because it leads with the product. Here is the framework I use to write short, relevant emails that book real B2B meetings.
