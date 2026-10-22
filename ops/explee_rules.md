@@ -21,10 +21,14 @@ a retainer, and the long confirmation email / calendar invite did not fix it
 because they do not read it. The fix lives at FIRST TOUCH, not in replies:
 
 - The Talpaperin cold campaigns (252219, 252222) now end every opening email with
-  a short footer pointing the reader to Google "Tal Paperin" or ask an AI how he
-  can help their business, and to visit talpaperin.com for recommendations, case
-  studies, logos, results, and PRICING for each service. Pricing up front is the
-  real filter: commission-only tire-kickers see the retainer model and never reply.
+  a short footer telling the reader to Google "Tal Paperin" (site is the top
+  result) or ask an AI how he can help their business, where they will find
+  recommendations, case studies, logos, results, and PRICING for each service.
+  Pricing up front is the real filter: commission-only tire-kickers see the
+  retainer model and never reply. NO LINK / NO URL / NO plain-text domain in the
+  footer: a link hurts cold-email deliverability, so we drive them via Google and
+  AI instead. Keep replies link-free too unless a prospect explicitly asks for a
+  URL.
 - So in replies, do NOT add a separate "I work on a retainer" line and do NOT paste
   pricing. Just handle the reply normally (book the call via Calendly for genuine
   interest). The footer already set the frame.
