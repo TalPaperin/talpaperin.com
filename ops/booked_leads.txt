@@ -1,0 +1,9 @@
+# Explee leads who have BOOKED a call (closed-won in progress).
+# The reply-check and EOD-handoff routines read this file each run and skip any
+# thread whose lead email is listed here: no reply, no rebuttal, no nudge, no SDR handoff.
+# Bookings are invisible to the Explee API, so this file is the only record of them.
+# One lowercase email per line. Lines starting with '#' are comments.
+# When a lead books, append their email here and commit+push to main and the dev branch.
+
+sharon@gotrack.io       # Sharon Habzo, CEO, GoTrack (Talpaperin 252219)
+mohan@spenego.com       # Mohan Sam, Spenego (Talpaperin 252219)
