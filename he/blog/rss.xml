@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>At-Bay הוערכה ב-1.35 מיליארד דולר. היא נמכרה ב-575 מיליון. תקראו את הפער.</title>
+      <link>https://talpaperin.com/he/blog/valuation-is-not-a-business</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/valuation-is-not-a-business</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>At-Bay הגיעה לשווי 1.35 מיליארד דולר ונמכרה ל-Munich Re ב-575 מיליון. שווי הוא הימור. הכנסה היא עובדה. ככה מייסדים צריכים לקרוא את ההבדל.</description>
+    </item>
     <item>
       <title>Product-Led מול Sales-Led: איזה צמיחה ה-B2B שלכם צריך?</title>
       <link>https://talpaperin.com/he/blog/product-led-vs-sales-led</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/openai-building-business-team-in-israel</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <description>OpenAI בונה בישראל נוכחות עסקית, לא מרכז פיתוח. מה זה אומר על הפיכת AI להכנסות, ועל גיוס לפי תוצאות במקום לפי מיקום.</description>
-    </item>
-    <item>
-      <title>TPx הגישה בקשה ל-Chapter 11 עם חוב של 1.1 מיליארד דולר. החוב לא היה הבעיה האמיתית.</title>
-      <link>https://talpaperin.com/he/blog/tpx-chapter-11-revenue-engine</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/tpx-chapter-11-revenue-engine</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <description>TPx הגישה Chapter 11 עם חוב של 1.1 מיליארד דולר. מה שהרג באמת היה הכנסות שלא צמחו מספיק מהר, וזו בעיה של Fractional CRO, לא של VP מכירות.</description>
     </item>
   </channel>
 </rss>
