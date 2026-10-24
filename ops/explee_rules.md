@@ -34,3 +34,20 @@ because they do not read it. The fix lives at FIRST TOUCH, not in replies:
   interest). The footer already set the frame.
 - If a prospect still pushes commission-only terms after all that, stop: surface to
   Tal, do not keep booking.
+
+## Shabbat pause (Tal keeps Shabbat, ALWAYS honor this)
+
+Tal observes Shabbat, so NOTHING may go out in his name during it.
+- Window: from Friday 12:00 until Saturday nightfall in Israel time (Asia/Jerusalem,
+  UTC+3 in DST / UTC+2 in standard time). Use Saturday 20:30 Israel time as a safe
+  year-round "Shabbat is over" cutoff; if unsure whether it has ended, wait.
+- During the window the reply-check routine may still run its read-only scan, but it
+  sends NOTHING: no reply, no rebuttal, no nudge, and no email to Tal. Stay completely
+  quiet. Hold any hot lead or nudge until after the window; prospects can still self-book
+  via the Calendly link already in their thread, so nothing is lost by waiting.
+- A 48h nudge that comes due during Shabbat is sent AFTER the window, not during it.
+- MOTZEI SHABBAT SUMMARY: the FIRST reply-check run after Saturday 20:30 Israel posts
+  Tal ONE consolidated summary of everything that came in and everything held across
+  Friday-Saturday, then processes the held backlog (send the held replies/nudges then).
+  Only the hourly routine (not the +30 offset one) posts this summary, to avoid a
+  duplicate; if a motzei-Shabbat summary was already posted since Shabbat ended, stay quiet.
