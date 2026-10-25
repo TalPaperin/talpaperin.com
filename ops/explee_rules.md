@@ -5,6 +5,27 @@ this file each run and apply it. Add new lessons here (one short rule per bullet
 and commit. Keep everything short: prospects do NOT read long emails or long
 meeting invites, so qualifying has to be built into the copy, not a wall of text.
 
+## Follow-up cadence: POUND warm non-bookers until they book (Tal, 2026-10-25)
+
+This OVERRIDES the routine prompt's "one 48h nudge, once ever" limit. For any lead who showed
+genuine buying intent but has NOT booked (said yes, asked for a time or a link, offered specific
+times, "looking forward to the call", asked us to elaborate on the offer), keep following up until
+they book, hard-decline, or dead-end. Not one nudge: as many as it takes, spaced about 2-3 days apart.
+- VARY every touch. Never resend the same canned nudge. Change the angle and, where possible, the
+  SUBJECT LINE. The Explee reply endpoint IGNORES a custom subject (it always threads "Re: <orig>",
+  tested 2026-10-25), so to change the subject send the follow-up from tal@ksw.solutions via Gmail
+  (mcp__Gmail__send_message, fresh subject, no replyThreadId so it starts a new thread) to the lead's
+  real email (use the address they actually reply from). Bonus: this sends from Tal's own address, not
+  the rotating campaign mailboxes that are landing in spam, which helps deliverability and trust.
+- Remove booking friction. Offer "reply with a time and I will send a calendar invite to your inbox"
+  alongside the Calendly link, especially for anyone who stalled on Calendly or offered their own times.
+- STOP pounding when the lead books (add them to ops/booked_leads.txt), hard-declines / opts out, or is
+  a disqualifier below. A soft "not now / not relevant" still gets just the ONE rebuttal; if they then
+  re-engage, they become a pound target again.
+- Booked leads (ops/booked_leads.txt) are NEVER pounded.
+- These leads are all Explee-sourced even when the live conversation has moved into Tal's Gmail inbox;
+  a Gmail-direct pound is correct and expected, it is not off-campaign outreach.
+
 ## Disqualifiers (NOT a fit: do not auto-book, do not push Calendly, do not hand to an SDR; surface to Tal)
 
 - COMMISSION-ONLY / SUCCESS-FEE-ONLY / REV-SHARE / EQUITY-ONLY. Tal works on a
