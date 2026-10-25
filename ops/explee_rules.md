@@ -35,6 +35,22 @@ because they do not read it. The fix lives at FIRST TOUCH, not in replies:
 - If a prospect still pushes commission-only terms after all that, stop: surface to
   Tal, do not keep booking.
 
+## Campaign coverage (do NOT trust the analytics feed to list campaigns)
+
+The GET /autogtm/projects/{pid}/analytics reply-count list is INCOMPLETE: it only
+surfaces the currently-sending ("outreach") campaigns. Paused / "listening" campaigns
+still receive inbound replies that the analytics list hides. A whole campaign of warm
+leads was missed this way (252224 Industrial had 23 replied contacts, 252223 Services 3,
+none visible in analytics).
+
+So EVERY reply-check cycle, scan these inboxes DIRECTLY, by campaign id, regardless of
+whether analytics lists them:
+- Talpaperin (project 49501): 252219, 252222, 252223, 252224 (and any other 49501 campaign).
+- HireMatch (project 51033): 263741, 263742, 263743, 263746, 280152.
+GET /autogtm/campaigns/{cid}/inbox for each, page it, and process every contact with
+reply_count>0. Treat a flat total_replies number as NOT proof that nothing changed; the
+real signal is the per-campaign inbox contents.
+
 ## Shabbat pause (Tal keeps Shabbat, ALWAYS honor this)
 
 Tal observes Shabbat, so NOTHING may go out in his name during it.
