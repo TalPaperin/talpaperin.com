@@ -352,11 +352,11 @@ def _price_num(s):
 # --- Service content -------------------------------------------------------
 
 # Pay-per-meeting price ladder (reused on the service page and the pricing page)
-PPM_SETUP = "$5,000"
-PPM_TIERS = [("Up to 3 meetings a month", "$4,000"), ("4 to 6 meetings", "$5,500"),
-             ("7 to 14 meetings", "$8,000"), ("15+ meetings", "$10,000")]
-PPM_TIERS_HE = [("עד 3 פגישות בחודש", "$4,000"), ("4 עד 6 פגישות", "$5,500"),
-                ("7 עד 14 פגישות", "$8,000"), ("15+ פגישות", "$10,000")]
+PPM_SETUP = "$2,500"
+PPM_TIERS = [("Up to 3 meetings a month", "$3,000"), ("4 to 6 meetings", "$4,500"),
+             ("7 to 14 meetings", "$6,500"), ("15+ meetings", "$9,000")]
+PPM_TIERS_HE = [("עד 3 פגישות בחודש", "$3,000"), ("4 עד 6 פגישות", "$4,500"),
+                ("7 עד 14 פגישות", "$6,500"), ("15+ פגישות", "$9,000")]
 
 
 def _ppm_price_block(setup_label, rows, note, mo):
@@ -2245,7 +2245,7 @@ def render_faq(faqs, heading="Common questions"):
 SERVICE_FAQS_EN = {
  "pay-per-meeting":[
   {"q":"What is pay-per-meeting appointment setting?","a":"You pay for the qualified B2B sales meetings we book on your calendar, not for emails, leads or lists. We define your ICP, find and contact the right people, and book the meetings. You run and close them."},
-  {"q":"How much does it cost?","a":"A one-time $5,000 setup to launch the campaign, then a monthly fee that tracks the meetings we book: $4,000 for up to 3, $5,500 for 4 to 6, $8,000 for 7 to 14, and $10,000 for 15 or more. Fewer meetings, you pay less."},
+  {"q":"How much does it cost?","a":"A one-time $2,500 setup to launch the campaign, then a monthly fee that tracks the meetings we book: $3,000 for up to 3, $4,500 for 4 to 6, $6,500 for 7 to 14, and $9,000 for 15 or more. Fewer meetings, you pay less."},
   {"q":"Do you count meetings booked or attended?","a":"Booked. If a prospect who matches the agreed ICP agrees to a date and time, that is a booked meeting, and it counts and is paid even if they later reschedule or no-show. That said, if a booked meeting no-shows we rebook it for you free of charge as a courtesy, since what you really want is the conversation."},
   {"q":"How is this different from a retainer SDR service?","a":"A retainer bills you the same whether you get meetings or not. This bills by results: the more meetings we book, the more we make, so our incentives are aligned with yours."}],
  "fractional-cro":[
@@ -2285,7 +2285,7 @@ SERVICE_FAQS_EN = {
 SERVICE_FAQS_HE = {
  "pay-per-meeting":[
   {"q":"מה זה תשלום לפי פגישה?","a":"אתם משלמים על פגישות המכירה המוכשרות ב-B2B שאנחנו קובעים ביומן שלכם, לא על מיילים, לידים או רשימות. אנחנו מגדירים ICP, מוצאים ופונים לאנשים הנכונים וקובעים את הפגישות. אתם מריצים וסוגרים אותן."},
-  {"q":"כמה זה עולה?","a":"דמי הקמה חד פעמיים של 5,000 דולר להשקת הקמפיין, ואז תשלום חודשי שתואם למספר הפגישות שקבענו: 4,000 דולר עד 3, 5,500 דולר ל-4 עד 6, 8,000 דולר ל-7 עד 14, ו-10,000 דולר ל-15 ומעלה. פחות פגישות, אתם משלמים פחות."},
+  {"q":"כמה זה עולה?","a":"דמי הקמה חד פעמיים של 2,500 דולר להשקת הקמפיין, ואז תשלום חודשי שתואם למספר הפגישות שקבענו: 3,000 דולר עד 3, 4,500 דולר ל-4 עד 6, 6,500 דולר ל-7 עד 14, ו-9,000 דולר ל-15 ומעלה. פחות פגישות, אתם משלמים פחות."},
   {"q":"אתם סופרים פגישות שנקבעו או שהתקיימו?","a":"שנקבעו. אם פרוספקט שתואם ל-ICP שסיכמנו מסכים לתאריך ושעה, זו פגישה שנקבעה, והיא נספרת ומשולמת גם אם אחר כך ידחו או לא יגיעו. עם זאת, אם פגישה שנקבעה לא מתקיימת אנחנו קובעים אותה מחדש בלי חיוב כבונוס, כי מה שאתם באמת רוצים זו השיחה."},
   {"q":"במה זה שונה משירות SDR בריטיינר?","a":"ריטיינר גובה מכם אותו דבר בין אם קיבלתם פגישות ובין אם לא. כאן משלמים לפי תוצאה: ככל שנקבע יותר פגישות, כך נרוויח יותר, כך שהתמריצים שלנו מיושרים עם שלכם."}],
  "fractional-cro":[
@@ -4493,10 +4493,10 @@ PRICING_EN = {
      {"t":"I need someone to own marketing","mk":8000,"mkname":"Fractional CMO","mkout":"a full marketing function and funnel, owned end to end"}]},
    {"q":"Want us to book sales meetings for you? (pay per meeting)","opts":[
      {"t":"No thanks","ppm":0},
-     {"t":"Up to 3 a month","ppm":4000},
-     {"t":"4 to 6 a month","ppm":5500},
-     {"t":"7 to 14 a month","ppm":8000},
-     {"t":"15+ a month","ppm":10000}]}],
+     {"t":"Up to 3 a month","ppm":3000},
+     {"t":"4 to 6 a month","ppm":4500},
+     {"t":"7 to 14 a month","ppm":6500},
+     {"t":"15+ a month","ppm":9000}]}],
  "calc_ppm_line":"Meetings booked (pay per meeting)",
  "calc_ppm_outcome":"Qualified sales meetings booked on your calendar, pay per meeting",
  "calc_ppm_setup_label":"one-time setup to launch the campaign",
@@ -4597,10 +4597,10 @@ PRICING_HE = {
      {"t":"צריך מישהו שיהיה אחראי על השיווק","mk":8000,"mkname":"סמנכ״ל שיווק","mkout":"פונקציית שיווק ומשפך מלאים, בניהול מקצה לקצה"}]},
    {"q":"רוצים שנקבע לכם פגישות מכירה? (תשלום לפי פגישה)","opts":[
      {"t":"לא, תודה","ppm":0},
-     {"t":"עד 3 בחודש","ppm":4000},
-     {"t":"4 עד 6 בחודש","ppm":5500},
-     {"t":"7 עד 14 בחודש","ppm":8000},
-     {"t":"15+ בחודש","ppm":10000}]}],
+     {"t":"עד 3 בחודש","ppm":3000},
+     {"t":"4 עד 6 בחודש","ppm":4500},
+     {"t":"7 עד 14 בחודש","ppm":6500},
+     {"t":"15+ בחודש","ppm":9000}]}],
  "calc_ppm_line":"פגישות שנקבעו (תשלום לפי פגישה)",
  "calc_ppm_outcome":"פגישות מכירה מוכשרות ביומן שלכם, בתשלום לפי פגישה",
  "calc_ppm_setup_label":"הקמה חד פעמית להשקת הקמפיין",
@@ -4714,7 +4714,7 @@ def render_pricing_body(d, cal):
                '<div class="qc-slider"><label>%s: <span class="qc-mk-val"></span></label><input type="range" class="qc-mk-range" min="0" max="2" step="1" value="0" />%s</div></div>'
                ) % (esc(d["calc_sliders_h"]), esc(d["calc_slider_cro"]), cro_scale, esc(d["calc_slider_sdr"]), sdr_scale, esc(d["calc_slider_mk"]), mk_scale)
     out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
-    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-ppm-setup="5000" data-tiers="%s" data-labels="%s" data-marketing="%s">'
+    out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-ppm-setup="2500" data-tiers="%s" data-labels="%s" data-marketing="%s">'
                '<p class="bestfor">%s</p>%s'
                '<div class="qc-result" aria-live="polite"><p class="qc-prompt">%s</p></div>'
                '%s'
