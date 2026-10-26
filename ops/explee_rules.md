@@ -31,6 +31,30 @@ they book, hard-decline, or dead-end. Not one nudge: as many as it takes, spaced
 - These leads are all Explee-sourced even when the live conversation has moved into Tal's Gmail inbox;
   a Gmail-direct pound is correct and expected, it is not off-campaign outreach.
 
+## An autoresponder is NOT a lead (Tal + client Adam, 2026-10-26)
+
+A real client (Adam/Vectorize) rejected a handoff file because an out-of-office auto-reply was
+labelled "engaged, needs human follow-up." It was a TAFW vacation auto-reply from ms@svb.com, the
+reply landed 11 seconds after our send, and the name on the record ("Sindhu M") was the campaign's
+bad personalization token, not the mailbox owner (Manoj Selvaraj, which Explee's own contact field
+already had right). Lessons, apply everywhere (reply check AND SDR handoff):
+
+- "ENGAGED" / "WARM" means a HUMAN replied on the merits: real interest, a real question, a request,
+  or a genuine "not now, come back at <time>." Nothing less ever gets that label.
+- NEVER treat as engagement, and EXCLUDE from the SDR handoff entirely (do not list them at all, not
+  even as DIAL/REACH-OUT): out-of-office / vacation / TAFW / "automatic reply" autoresponders, bounces,
+  invalid-address and recipient-gone system notices, left-company / email-changed redirects. These are
+  not leads. Padding a client's list with them is why a client pushed back.
+- TIMING TELL: any "reply" that arrives within ~60 seconds of our send is an autoresponder by
+  definition. Check the timestamps; a near-instant reply is never a human.
+- NAME: use the person's real name from their signature or Explee's contact record, NOT the opener's
+  personalization token (the token is often wrong, as with "Sindhu"). If the name cannot be verified,
+  leave it blank; never guess.
+- CONTACT DETAILS: a general switchboard number (e.g. a 1-800/1-888 main line) or a role/group mailbox
+  is NOT a direct contact. Mark it "(general)" or leave it blank; never present it as the person's line.
+- If a client has NO genuinely engaged human leads in the window, send "nothing new." An honest empty
+  list beats a padded one.
+
 ## Disqualifiers (NOT a fit: do not auto-book, do not push Calendly, do not hand to an SDR; surface to Tal)
 
 - COMMISSION-ONLY / SUCCESS-FEE-ONLY / REV-SHARE / EQUITY-ONLY. Tal works on a
