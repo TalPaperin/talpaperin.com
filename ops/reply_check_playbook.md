@@ -42,4 +42,4 @@ Explee's cc_emails is unreliable (rotating mailboxes drop it), so after EACH suc
 Note: a follow-up sent FROM tal@ksw.solutions via Gmail (e.g. a pound with a fresh subject) is already in Tal's Sent, so it needs no separate copy; the guaranteed copy is for Explee-channel sends.
 
 ## Report
-Report only new replies, rebuttals or nudges sent, or anything genuinely needing Tal (a real lead, an ambiguous thread, a problem). Otherwise stay completely quiet.
+Report only new replies, rebuttals or nudges sent, or anything genuinely needing Tal (a real lead, an ambiguous thread, a problem). Otherwise stay completely quiet. Hard declines, opt-outs, and leads who decline again AFTER our one rebuttal are dropped from the pound/watch list automatically and NOT reported: no "FYI they passed", no closing-the-loop line (Tal, 2026-10-26). Surface a decline only when it is genuinely ambiguous or carries something Tal needs (a referral, a complaint, a deliverability signal).

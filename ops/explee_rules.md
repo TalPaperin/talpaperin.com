@@ -22,6 +22,11 @@ they book, hard-decline, or dead-end. Not one nudge: as many as it takes, spaced
 - STOP pounding when the lead books (add them to ops/booked_leads.txt), hard-declines / opts out, or is
   a disqualifier below. A soft "not now / not relevant" still gets just the ONE rebuttal; if they then
   re-engage, they become a pound target again.
+- AUTO-DROP declines silently (Tal, 2026-10-26). When a lead hard-declines, opts out, or declines again
+  AFTER we already sent our one rebuttal, drop them from the pound/watch list automatically and do NOT
+  surface the decline to Tal. No "FYI they passed" note, no closing-the-loop line: just stop and stay
+  quiet. Only surface a decline when it is genuinely ambiguous (unclear whether it deserves a rebuttal)
+  or carries something Tal needs (a referral to someone else, a complaint, a deliverability signal).
 - Booked leads (ops/booked_leads.txt) are NEVER pounded.
 - These leads are all Explee-sourced even when the live conversation has moved into Tal's Gmail inbox;
   a Gmail-direct pound is correct and expected, it is not off-campaign outreach.
