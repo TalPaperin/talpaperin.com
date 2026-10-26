@@ -6,6 +6,6 @@
 # One lowercase email per line. Lines starting with '#' are comments.
 # When a lead books, append their email here and commit+push to main and the dev branch.
 
-sharon@gotrack.io       # Sharon Habzo, CEO, GoTrack (Talpaperin 252219)
+sharon@gotrack.io       # Sharon Habzo, CEO, GoTrack (Talpaperin 252219) - MET 2026-10-26
 mohan@spenego.com       # Mohan Sam, Spenego (met 2026-10-22, commission-only, waste, do not re-contact)
 hunter@pre-fi.com       # Hunter Hensley, Pre-fi (met 2026-10-22, not a fit, do not re-contact)
