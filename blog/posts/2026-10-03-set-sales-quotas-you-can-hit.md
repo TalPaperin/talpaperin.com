@@ -39,4 +39,6 @@ When quotas are set from real capacity, a miss is information. It points at one 
 
 This is core to how I run revenue as a [fractional CRO](/services/fractional-cro): the number has to be honest before anything downstream means anything. And it starts by admitting that your [pipeline is probably lying to you](/blog/your-pipeline-is-lying-to-you) too.
 
+The full method, from rep capacity to pipeline coverage, is in my guide on [how to set sales quotas](/setting-sales-quotas), part of [building and scaling a sales team](/how-to-build-a-sales-team).
+
 Set a number your team can hit. Then watch who does.

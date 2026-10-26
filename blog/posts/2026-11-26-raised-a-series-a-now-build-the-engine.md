@@ -23,6 +23,6 @@ So what does the first year post-raise look like if you do it right? You spend s
 
 That is unglamorous next to shipping features. It is also the only version of the next eighteen months that ends in a Series B instead of a bridge round.
 
-If you just raised and you are deciding where the money goes, the sequence matters more than the spend. Get [the go-to-market right first](/services/go-to-market-strategy), then hire into it. And if runway or the clock is tighter than the deck suggested, the math changes fast, so read [how sales math shifts when time is short](/blog/sales-math-when-runway-is-short) before you staff up.
+If you just raised and you are deciding where the money goes, the sequence matters more than the spend. Get [the go-to-market right first](/services/go-to-market-strategy), then hire into it, in the order I lay out in [how to build and scale a sales team](/how-to-build-a-sales-team). And if runway or the clock is tighter than the deck suggested, the math changes fast, so read [how sales math shifts when time is short](/blog/sales-math-when-runway-is-short) before you staff up.
 
 The $28 million is in the account. The question your next investor will ask is whether you built an engine with it, or just ran faster on the one that was always going to stall.

@@ -34,4 +34,4 @@ Charisma got you the first ten customers. It will not get you the next hundred. 
 
 ## The order is the whole point
 
-Playbook, then people, then management. Founders almost always do it backwards. They hire first, panic when it does not work, and bolt on process too late. Do it in order and your first hires have a real shot. Do it backwards and you will keep concluding, wrongly, that sales just cannot be delegated. It can. It just has to be built. If you do not want to build it alone, that is what a [Fractional CRO](/services/fractional-cro) is for.
+Playbook, then people, then management. Founders almost always do it backwards. They hire first, panic when it does not work, and bolt on process too late. Do it in order and your first hires have a real shot. Do it backwards and you will keep concluding, wrongly, that sales just cannot be delegated. It can. It just has to be built, in the order I lay out in [how to build and scale a sales team](/how-to-build-a-sales-team). If you do not want to build it alone, that is what a [Fractional CRO](/services/fractional-cro) is for.
