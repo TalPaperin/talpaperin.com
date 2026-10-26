@@ -39,12 +39,17 @@ reply landed 11 seconds after our send, and the name on the record ("Sindhu M") 
 bad personalization token, not the mailbox owner (Manoj Selvaraj, which Explee's own contact field
 already had right). Lessons, apply everywhere (reply check AND SDR handoff):
 
-- "ENGAGED" / "WARM" means a HUMAN replied on the merits: real interest, a real question, a request,
-  or a genuine "not now, come back at <time>." Nothing less ever gets that label.
-- NEVER treat as engagement, and EXCLUDE from the SDR handoff entirely (do not list them at all, not
-  even as DIAL/REACH-OUT): out-of-office / vacation / TAFW / "automatic reply" autoresponders, bounces,
-  invalid-address and recipient-gone system notices, left-company / email-changed redirects. These are
-  not leads. Padding a client's list with them is why a client pushed back.
+- "ENGAGED" / "WARM" / "HOT" means a HUMAN replied on the merits: real interest, a real question, a
+  request, or a genuine "not now, come back at <time>." Nothing less EVER gets that label. An
+  autoresponder is NEVER hot/warm/engaged, full stop.
+- You MAY harvest contact details from an autoresponder, but you MUST label the source (Tal, 2026-10-26).
+  Out-of-office / vacation / TAFW / "automatic reply" notices and left-company / email-changed redirects
+  often expose usable intel: the person's real name and return date, or an alternate/redirect contact's
+  name, email and phone. Capture that into a clearly-labelled "REACH-OUT (from auto-reply, not engaged)"
+  entry, LOW priority, and state in the Status/notes that it came from an auto-reply and the person has
+  NOT engaged. Never imply interest. If an auto-reply exposes no usable new contact detail (just "I'm
+  away"), skip it. Pure bounces / invalid-address / recipient-gone notices with no alternate contact are
+  still dropped entirely.
 - TIMING TELL: any "reply" that arrives within ~60 seconds of our send is an autoresponder by
   definition. Check the timestamps; a near-instant reply is never a human.
 - NAME: use the person's real name from their signature or Explee's contact record, NOT the opener's
