@@ -59,6 +59,33 @@ A $149/month AI sales platform that gives founders and sales teams "everything I
 demand." Keep it as the self-serve / DIY option alongside the fractional and
 fully-outsourced paths.
 
+## Full service catalog + match-to-problem (all on talpaperin.com/services)
+Tal has NINE services plus DealMentor. In replies, MATCH the service to the prospect's
+STATED problem; never default to one (a past miss: offering DealMentor to someone whose
+problem was leads, when Pay-Per-Meeting was the answer).
+- Fractional CRO: owns the revenue number, strategy, team, pipeline, forecast; no $250K
+  full-time hire. -> "I want someone senior to own and fix my whole revenue engine."
+- Outsourced Sales: the entire sales function outsourced, native-speaking SDRs/AEs plus
+  leadership/VP, hired/trained/managed by KSW. -> "I have no sales team and want one run for me."
+- Pay-Per-Meeting: we define the ICP, find the people, book qualified meetings on your
+  calendar; you pay per meeting. -> "I need leads / meetings / can't get the first contact / no list."
+- Sales Team Building & Training: hire, train and manage SDRs/AEs/BDs in-house for the
+  client, replace who can't. -> "I want to build my OWN in-house team."
+- Go-To-Market Strategy: ICP, positioning, channels, playbook, forecast, then help running
+  it. -> "No real GTM / my motion is unclear / launching something."
+- Market Entry & Global Markets: break into new markets, built across four continents.
+  -> "I want to enter the US / a new market."
+- Distributor & Channel Recruitment: recruit, sign and manage distributors/channel
+  partners. -> "I need channel/distribution to open territories."
+- Fractional CMO & Marketing Leadership: senior marketing oversight or full fractional CMO;
+  marketing and sales as one engine. -> "Marketing is the gap / sales and marketing are disconnected."
+- B2G & Public Sector: government/public-sector deals, RFIs/RFQs, across the globe.
+  -> "I sell to government / public sector."
+- TheDealMentor.AI ($149/mo, DIY): the ICP/playbook/scripts/motion on demand.
+  -> "Can't afford a service / want to do it myself / very early pre-revenue."
+A prospect can fit several; lead with the one that solves their stated problem. Pricing-
+specific questions go to Tal. No link in cold replies (deliverability); name the service.
+
 ## Language rules
 - OK: "fractional CRO", "senior sales leader", "owns the revenue number", "builds,
   trains and manages the team", "brings his own sales and marketing team when needed",
