@@ -516,9 +516,13 @@ def render_llms(posts):
     lines = [
         "# Tal Paperin",
         "",
-        "> Fractional CRO and B2B sales consultant. I rebuild revenue functions and "
-        "fix broken sales, fast. 30-plus B2B companies rebuilt, $20M ARR managed. Work "
-        "with me three ways: fractional CRO (me, personally), fully outsourced sales via "
+        "> Fractional CRO and B2B sales leader. I own the revenue number and make the team "
+        "deliver it. I come in, diagnose where revenue is stuck, and fix it: for early-stage "
+        "companies I build the motion from scratch, hire and train the SDRs and AEs, and own "
+        "the pipeline; for established teams I train and manage the reps you have or bring my "
+        "own on top, with marketing run by an in-house fractional CMO. Not a marketing agency, "
+        "and not a hand-off consultant. 30-plus B2B companies rebuilt, $20M ARR managed, across "
+        "four continents. Work with me three ways: fractional CRO, the full revenue team via "
         "KSW Solutions, or TheDealMentor.AI for founders who want to run the motion themselves.",
         "",
         "## Key pages",

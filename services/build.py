@@ -2342,7 +2342,7 @@ GUIDES = [
       "That is the test I hold myself to. Not how good the session felt on the day, but whether revenue actually moved a quarter later. It does."]},
     {"h":"What real sales training looks like","ul":[
       "It starts from your actual deals, your buyers and your real objections, not a generic curriculum",
-      "It is taught by an operator who still sells, so the reps respect it and use it",
+      "It is taught by an operator who owns the number and gets into the real deals, so the reps respect it and use it",
       "It is followed by weekly coaching, call reviews and pipeline inspection, not a binder on a shelf",
       "It is enforced by a leader who owns the number, so the new behavior sticks",
       "It is measured in closed revenue and shorter cycles, not in attendance and smiles"]},
@@ -2352,7 +2352,7 @@ GUIDES = [
   "faqs":[
     {"q":"Do you offer sales training?","a":"Yes, but not as a standalone workshop. I train your team as part of owning your sales, which means I also manage the team afterward to make sure the training turns into closed deals. I have trained more than 2,000 salespeople worldwide."},
     {"q":"Why does most sales training not work?","a":"Because the trainer leaves and nobody changes what happens next. Behavior only sticks when a senior leader coaches it, inspects it and holds the standard every week. Training without ongoing management is theater."},
-    {"q":"Who does the training?","a":"I do. I am a CRO and VP of Sales who still sells hands-on. I teach exactly how I would close your deals, from your real pipeline, not a generic curriculum out of a book."},
+    {"q":"Who does the training?","a":"I do. I am a CRO and VP of Sales who has carried the number hands-on. I teach exactly how I would close your deals, from your real pipeline, not a generic curriculum out of a book."},
     {"q":"How is this different from hiring a sales trainer?","a":"A trainer runs a session and flies home. I train your team and then stay to manage them to the number: call reviews, pipeline inspection and weekly coaching until the new way of selling is simply how your team sells."},
     {"q":"How much does it cost?","a":"Training is part of a fractional CRO engagement, which runs $2,000 to $12,000 a month depending on how hands-on you need me. Use the calculator on the pricing page for a number in about a minute."}],
   "related":'See <a href="/services/sales-team-building">sales team building</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/pricing">pricing</a>, or read <a href="/blog/why-sales-training-fails">why most sales training fails</a>.'},
@@ -2361,7 +2361,7 @@ GUIDES = [
   "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
   "desc":"A straight answer on fractional CRO pricing: what it costs per month, how it compares to a $250K full-time CRO, and when each level is worth it.",
   "h1":"What a Fractional CRO Actually Costs","eyebrow":"Guide",
-  "lead":"Most consultants hide the number, hand you a deck, and disappear. I am an operator who still sells, I bill monthly with no contract, and here is exactly what a fractional CRO costs, in plain figures.",
+  "lead":"Most consultants hide the number, hand you a deck, and disappear. I am an operator who owns the number, I bill monthly with no contract, and here is exactly what a fractional CRO costs, in plain figures.",
   "sections":[
     {"h":"The short answer","p":[
       "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee. The role is identical at every level. The only thing that changes is how many hours a day I am in your business."]},
@@ -2375,7 +2375,7 @@ GUIDES = [
       "Monthly billing, no contract, no lock-in, no exit fines: do not like it, we are done at the end of the month",
       "Results in week one, not month six"]},
     {"h":"You are hiring an operator, not an advisor","p":[
-      "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO, and I still do the selling myself, in the pipeline and in the deals. And I bill monthly with no contract, so I keep the work by being good at it, not by trapping you in one."]},
+      "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO. I own the number, build and manage the team that delivers it, and step into the big deals myself. And I bill monthly with no contract, so I keep the work by being good at it, not by trapping you in one."]},
     {"h":"When a fractional CRO is the wrong call","p":[
       "If your sales motion is already proven and the work is genuinely a full week every week, hire full-time. Fractional wins when the motion is not yet proven, the volume is not yet a full week, or you need results before committing to a permanent hire."]},
   ],
@@ -2391,7 +2391,7 @@ GUIDES = [
   "title":"Fractional CRO vs Outsourced Sales: Which Do You Need? | Tal Paperin",
   "desc":"Fractional CRO, fully outsourced sales, or a do-it-yourself system? A straight breakdown of which fits your stage, and how to choose.",
   "h1":"Fractional CRO vs Outsourced Sales","eyebrow":"Guide",
-  "lead":"Three ways to fix revenue, one decision. Whichever you pick, you get an operator who still sells, billed monthly with no contract and no lock-in. Here is which one fits your stage, and which one wastes your money.",
+  "lead":"Three ways to fix revenue, one decision. Whichever you pick, you get an operator who owns the number, billed monthly with no contract and no lock-in. Here is which one fits your stage, and which one wastes your money.",
   "sections":[
     {"h":"The three options","tiers":[
       "Do it yourself. You have the founder energy and the time to run the motion, you just need the system: the playbook, scripts, battle cards and daily guidance. Lowest cost, most of your time.",
@@ -2445,8 +2445,8 @@ GUIDES = [
       "I have built and run revenue for 30-plus B2B companies on four continents. You are not betting on whether I can do it. I have already done it.",
       "No recruiter fees, no equity, no severance risk, no months-long search",
       "Results in week one: I diagnose where deals leak, then I run the fix. No ramp, no learning curve"]},
-    {"h":"I still sell. Myself. Hands on.","p":[
-      "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO, and I still do the selling myself, on the phone, in the room, in the deal. You are hiring an operator, not an advisor."]},
+    {"h":"I own the number. Myself. Hands on.","p":[
+      "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO. I diagnose where revenue is stuck, build and manage the team that fixes it, and step into the big deals myself. You are hiring an operator, not an advisor."]},
     {"h":"Monthly. No contract. No hostages.","p":[
       "I bill monthly. No long contract, no lock-in, no exit fines. You do not like what I deliver, we are done at the end of the month, and you owe nothing more. I keep the engagement because the work is good, not because a contract traps you. That is the opposite of a VP hire you cannot easily undo."]},
   ],
@@ -2454,7 +2454,7 @@ GUIDES = [
     {"q":"Is a fractional CRO better than hiring a VP of Sales?","a":"If your sales motion is not yet proven, yes. A VP hire is a six-figure gamble with months of search, a quarter of ramp and real severance risk. A fractional CRO who has done it 30-plus times delivers from week one, with no hiring risk and no lock-in."},
     {"q":"How much does a fractional CRO cost vs a VP of Sales?","a":"A VP of Sales runs $30,000 a month or more all in, plus recruiter fees, equity and severance. My fractional engagements run $2,000 to $12,000 a month, billed monthly with no contract."},
     {"q":"What if it is not working out?","a":"I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."},
-    {"q":"Do you actually do the selling, or just advise?","a":"I do the selling. I am an ex VP of Global Sales and CRO and I still work hands-on in the pipeline and the deals, not just in strategy decks."}],
+    {"q":"Do you do the work, or just advise?","a":"I do the work. I am an ex VP of Global Sales and CRO. I own the number, build and manage the team, and step into the big deals myself, not just the strategy decks."}],
   "related":'Compare the <a href="/fractional-cro-cost">cost</a>, see <a href="/fractional-cro-vs-outsourced-sales">fractional CRO vs outsourced sales</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"frum-business-consultant","en_only":True,
@@ -2546,7 +2546,7 @@ GUIDES = [
   ],
   "faqs":[
     {"q":"Do you sell hardware as well as software?","a":"Yes. IoT deals are usually a bundle of hardware, software and services, and I have run exactly that, direct and through distributors, to utilities, manufacturers, municipalities and enterprises."},
-    {"q":"Can you build and manage a distributor network for hardware?","a":"Yes. Recruiting, signing and managing distributors and resellers across markets is a core part of how I sell IoT and hardware, alongside direct sales."},
+    {"q":"Can you build and manage a distributor network for hardware?","a":"Yes. Recruiting, signing and managing distributors and resellers across markets is a core part of how I build IoT and hardware revenue, alongside a direct sales team."},
     {"q":"Do you handle public-sector and B2G IoT deals?","a":"Yes. I have run long RFI and RFQ cycles and complex government and utility projects internationally for industrial IoT companies."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a>, <a href="/services/distributor-channel-recruitment">distributor recruitment</a> and <a href="/services/b2g-public-sector">B2G</a> services, or <a href="/contact">get in touch</a>.'},
 
@@ -2798,7 +2798,7 @@ GUIDES = [
   "faqs":[
     {"q":"When should a startup hire a fractional CRO?","a":"When the founders are still the only ones closing, or you need a repeatable motion and a forecast before you can justify a full-time CRO. Usually from first revenue through Series B."},
     {"q":"Is a fractional CRO affordable for a startup?","a":"Yes, that is the point. You get senior revenue leadership for $2,000 to $12,000 a month, billed monthly, instead of a $250,000-plus full-time salary plus equity."},
-    {"q":"Will you actually sell or just advise?","a":"I sell and build. I get in the pipeline and the deals, hire and manage the reps, and own the forecast, not a slide deck."}],
+    {"q":"Will you do the work or just advise?","a":"I do the work. I hire, train and manage the reps, own the pipeline and the forecast, and step into the big deals myself, not just hand you a slide deck."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"interim-cro",
@@ -3599,7 +3599,7 @@ HE_GUIDES = [
       "זה המבחן שאני מציב לעצמי. לא כמה טובה הרגישה הסדנה באותו יום, אלא אם ההכנסות באמת זזו רבעון אחר כך. הן זזות."]},
     {"h":"איך נראית הדרכת מכירות אמיתית","ul":[
       "היא מתחילה מהעסקאות האמיתיות שלכם, מהקונים שלכם ומההתנגדויות האמיתיות, לא מתוכנית גנרית",
-      "היא מועברת על ידי מפעיל שעדיין מוכר, כך שהנציגים מכבדים אותה ומשתמשים בה",
+      "היא מועברת על ידי מפעיל שאחראי על המספר ונכנס לעסקאות האמיתיות, כך שהנציגים מכבדים אותה ומשתמשים בה",
       "אחריה מגיעים אימון שבועי, סקירת שיחות ובדיקת פייפליין, לא חוברת על המדף",
       "היא נאכפת על ידי מנהל שאחראי על המספר, כך שההתנהגות החדשה נדבקת",
       "היא נמדדת בהכנסות שנסגרו ובמחזורים קצרים יותר, לא בנוכחות וחיוכים"]},
@@ -3609,7 +3609,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"אתה מציע הדרכת מכירות?","a":"כן, אבל לא כסדנה עצמאית. אני מכשיר את הצוות שלכם כחלק מלקיחת אחריות על המכירות, כלומר אני גם מנהל את הצוות אחר כך כדי לוודא שההדרכה הופכת לעסקאות סגורות. הכשרתי יותר מ-2,000 אנשי מכירות בעולם."},
     {"q":"למה רוב הדרכות המכירות לא עובדות?","a":"כי המדריך עוזב ואף אחד לא משנה את מה שקורה אחר כך. התנהגות נדבקת רק כשמנהל בכיר מאמן אותה, בודק אותה ומחזיק את הרף כל שבוע. הדרכה בלי ניהול מתמשך היא הצגה."},
-    {"q":"מי מעביר את ההדרכה?","a":"אני. אני סמנכ״ל מכירות ו-CRO שעדיין מוכר בידיים. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, מהפייפליין האמיתי שלכם, לא מתוכנית גנרית מתוך ספר."},
+    {"q":"מי מעביר את ההדרכה?","a":"אני. אני סמנכ״ל מכירות ו-CRO שנשא את המספר בידיים. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, מהפייפליין האמיתי שלכם, לא מתוכנית גנרית מתוך ספר."},
     {"q":"במה זה שונה משכירת מדריך מכירות?","a":"מדריך מעביר סדנה וטס הביתה. אני מכשיר את הצוות ואז נשאר לנהל אותו עד למספר: סקירת שיחות, בדיקת פייפליין ואימון שבועי עד שהדרך החדשה למכור היא פשוט איך שהצוות שלכם מוכר."},
     {"q":"כמה זה עולה?","a":"ההדרכה היא חלק מהתקשרות של סמנכ״ל מכירות במיקור חוץ, שנעה בין 2,000 ל-12,000 דולר בחודש תלוי כמה מעורבות אתם צריכים. השתמשו במחשבון בעמוד התמחור לקבלת מספר בערך בדקה."}],
   "related":'ראו <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, את <a href="/he/services/fractional-cro">שירות סמנכ״ל המכירות במיקור חוץ</a>, <a href="/he/pricing">תמחור</a>, או קראו <a href="/he/blog/why-sales-training-fails">למה רוב הדרכות המכירות נכשלות</a>.'},
@@ -3618,7 +3618,7 @@ HE_GUIDES = [
   "title":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ? | טל פאפרין",
   "desc":"תשובה ישירה על תמחור סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ: כמה זה עולה בחודש, איך זה משתווה למשרה מלאה של 250 אלף דולר, ומתי כל רמה שווה את זה.",
   "h1":"כמה באמת עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ","eyebrow":"מדריך",
-  "lead":"רוב היועצים מסתירים את המחיר, מגישים לכם מצגת, ונעלמים. אני מפעיל שעדיין מוכר בעצמו, מחייב חודשית בלי חוזה, והנה בדיוק כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, במספרים ברורים.",
+  "lead":"רוב היועצים מסתירים את המחיר, מגישים לכם מצגת, ונעלמים. אני מפעיל שאחראי על המספר, מחייב חודשית בלי חוזה, והנה בדיוק כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, במספרים ברורים.",
   "sections":[
     {"h":"התשובה הקצרה","p":[
       "סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה עולה 250 אלף דולר ומעלה בסך הכל, אחרי שמוסיפים בסיס, אקוויטי, בונוס, סיכון פיצויי פיטורין ומחזור גיוס של חודשים. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ נותן לכם את אותה מנהיגות בכירה בתשלום חודשי. התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."]},
@@ -3632,7 +3632,7 @@ HE_GUIDES = [
       "חיוב חודשי, בלי חוזה, בלי נעילה, בלי קנסות יציאה: לא אהבתם, סיימנו בסוף החודש",
       "תוצאות בשבוע הראשון, לא בחודש השישי"]},
     {"h":"אתם שוכרים מפעיל, לא יועץ","p":[
-      "רוב היועצים מגישים לכם מצגת ונעלמים. הם מעולם לא נשאו אחריות על מספר. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר, ואני עדיין עושה את המכירה בעצמי, בפייפליין ובעסקאות. ואני מחייב חודשית בלי חוזה, אז אני שומר על העבודה בזכות זה שאני טוב בה, לא בזכות חוזה שכולא אתכם."]},
+      "רוב היועצים מגישים לכם מצגת ונעלמים. הם מעולם לא נשאו אחריות על מספר. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר. אני לוקח אחריות על המספר, בונה ומנהל את הצוות שמביא אותו, ונכנס לעסקאות הגדולות בעצמי. ואני מחייב חודשית בלי חוזה, אז אני שומר על העבודה בזכות זה שאני טוב בה, לא בזכות חוזה שכולא אתכם."]},
   ],
   "faqs":[
     {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"הפרויקטים שלי נעים בין 2,000 ל-12,000 דולר בחודש לפי רמת המעורבות, לעומת 250 אלף דולר ומעלה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה אחרי אקוויטי, בונוס ופיצויים."},
@@ -3646,7 +3646,7 @@ HE_GUIDES = [
   "title":"סמנכ״ל מכירות במיקור חוץ מול סוכנות מכירות | טל פאפרין",
   "desc":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, מכירות במיקור חוץ מלא, או מערכת שאתם מריצים לבד? פירוק ישיר של מה מתאים לשלב שלכם, ואיך לבחור.",
   "h1":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול מכירות במיקור חוץ","eyebrow":"מדריך",
-  "lead":"שלוש דרכים לתקן הכנסות, החלטה אחת. בכל אחת אתם מקבלים מפעיל שעדיין מוכר בעצמו, בחיוב חודשי בלי חוזה ובלי נעילה. הנה איזו מהן מתאימה לשלב שלכם, ואיזו מבזבזת לכם כסף.",
+  "lead":"שלוש דרכים לתקן הכנסות, החלטה אחת. בכל אחת אתם מקבלים מפעיל שאחראי על המספר, בחיוב חודשי בלי חוזה ובלי נעילה. הנה איזו מהן מתאימה לשלב שלכם, ואיזו מבזבזת לכם כסף.",
   "sections":[
     {"h":"שלוש האפשרויות","tiers":[
       "לעשות זאת בעצמכם. יש לכם את האנרגיה והזמן להריץ את התנועה, אתם רק צריכים את המערכת: ה-Playbook, התסריטים, כרטיסי הקרב והליווי היומי. העלות הנמוכה ביותר, רוב הזמן שלכם.",
@@ -3700,8 +3700,8 @@ HE_GUIDES = [
       "בניתי והרצתי הכנסות ל-30 ומעלה חברות B2B בארבע יבשות. אתם לא מהמרים אם אני יכול לעשות את זה. כבר עשיתי",
       "בלי דמי מגייסים, בלי אקוויטי, בלי סיכון פיצויים, בלי חיפוש של חודשים",
       "תוצאות בשבוע הראשון: אני מאבחן איפה העסקאות דולפות, ואז מריץ את התיקון. בלי התברגות, בלי עקומת למידה"]},
-    {"h":"אני עדיין מוכר. בעצמי. ידיים בבוץ.","p":[
-      "רוב היועצים מגישים לכם מצגת ונעלמים. הם מעולם לא נשאו אחריות על מספר. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר, ואני עדיין עושה את המכירה בעצמי, בטלפון, בחדר, בעסקה. אתם שוכרים מפעיל, לא יועץ."]},
+    {"h":"אני לוקח אחריות על המספר. בעצמי. ידיים בבוץ.","p":[
+      "רוב היועצים מגישים לכם מצגת ונעלמים. הם מעולם לא נשאו אחריות על מספר. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר. אני מאבחן איפה ההכנסות נתקעו, בונה ומנהל את הצוות שמתקן את זה, ונכנס לעסקאות הגדולות בעצמי. אתם שוכרים מפעיל, לא יועץ."]},
     {"h":"חודשי. בלי חוזה. בלי בני ערובה.","p":[
       "אני מחייב חודשית. בלי חוזה ארוך, בלי נעילה, בלי קנסות יציאה. לא אהבתם מה שאני מספק, סיימנו בסוף החודש, ואתם לא חייבים עוד כלום. אני שומר על העבודה כי היא טובה, לא כי חוזה כולא אתכם. זה ההפך מגיוס VP שאי אפשר לבטל בקלות."]},
   ],
@@ -3709,7 +3709,7 @@ HE_GUIDES = [
     {"q":"האם סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ עדיף על גיוס VP מכירות?","a":"אם תנועת המכירות שלכם עוד לא מוכחת, כן. גיוס VP הוא הימור של שש ספרות עם חודשי חיפוש, רבעון התברגות וסיכון פיצויים אמיתי. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שעשה את זה 30 פעמים ומעלה מספק מהשבוע הראשון, בלי סיכון גיוס ובלי נעילה."},
     {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול VP מכירות?","a":"VP מכירות עולה 30,000 דולר בחודש או יותר בסך הכל, פלוס דמי מגייסים, אקוויטי ופיצויים. הפרויקטים שלי במיקור חוץ נעים בין 2,000 ל-12,000 דולר בחודש, בחיוב חודשי בלי חוזה."},
     {"q":"ומה אם זה לא עובד?","a":"אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."},
-    {"q":"אתה באמת עושה את המכירה, או רק מייעץ?","a":"אני עושה את המכירה. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר ואני עדיין עובד ידיים בבוץ בפייפליין ובעסקאות, לא רק במצגות אסטרטגיה."}],
+    {"q":"אתה באמת עושה את העבודה, או רק מייעץ?","a":"אני עושה את העבודה. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר. אני לוקח אחריות על המספר, בונה ומנהל את הצוות, ונכנס לעסקאות הגדולות בעצמי, לא רק במצגות אסטרטגיה."}],
   "related":'השוו את <a href="/he/fractional-cro-cost">העלות</a>, ראו <a href="/he/fractional-cro-vs-outsourced-sales">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול מכירות במיקור חוץ</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/when-to-hire-vp-sales">מתי לגייס סמנכ״ל מכירות</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
 
  {"slug":"how-to-hire-a-fractional-cro",
@@ -3916,7 +3916,7 @@ HE_GUIDES = [
   "faqs":[
     {"q":"מתי סטארטאפ צריך לשכור Fractional CRO?","a":"כשהמייסדים עדיין היחידים שסוגרים, או כשאתם צריכים תהליך חוזר ותחזית לפני שאפשר להצדיק CRO במשרה מלאה. בדרך כלל מההכנסה הראשונה ועד סבב B."},
     {"q":"זה אפשרי כלכלית לסטארטאפ?","a":"כן, זו כל הנקודה. אתם מקבלים הנהגת הכנסות בכירה ב-2,000 עד 12,000 דולר בחודש, בחיוב חודשי, במקום משכורת מלאה של 250,000 דולר ומעלה פלוס אקוויטי."},
-    {"q":"אתה באמת תמכור או רק תייעץ?","a":"אני מוכר ובונה. אני נכנס לפייפליין ולעסקאות, מגייס ומנהל את הנציגים, ולוקח אחריות על התחזית, לא על מצגת."}],
+    {"q":"אתה באמת תעשה את העבודה או רק תייעץ?","a":"אני עושה את העבודה. אני מגייס, מכשיר ומנהל את הנציגים, לוקח אחריות על הפייפליין והתחזית, ונכנס לעסקאות הגדולות בעצמי, לא מגיש מצגת."}],
   "related":'ראו את שירותי <a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a> ו<a href="/he/services/go-to-market-strategy">Go-To-Market</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
 
  {"slug":"interim-cro",
@@ -4237,7 +4237,7 @@ ABOUT_EN = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">About</p>
         <h1>About Tal Paperin</h1>
-        <p class="lead">Operator, not advisor. I do the selling, the building, the management and the closing, and I answer for the number. Twenty years of it, on four continents.</p>
+        <p class="lead">Operator, not advisor. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty years of it, on four continents.</p>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
 
@@ -4335,7 +4335,7 @@ ABOUT_HE = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">אודות</p>
         <h1>אודות טל פאפרין</h1>
-        <p class="lead">איש ביצוע, לא יועץ. אני עושה את המכירה, הבנייה, הניהול והסגירה, ואני אחראי על התוצאות. עשרים שנה, בארבע יבשות.</p>
+        <p class="lead">איש ביצוע, לא יועץ. אני לוקח אחריות על המספר ודואג שהצוות יספק אותו: מאבחן איפה ההכנסות נתקעו, ואז בונה, מכשיר ומנהל את הצוות, או מביא צוות משלי, עד שהמספר זז. עשרים שנה, בארבע יבשות.</p>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" width="800" height="1200" loading="lazy" /><figcaption>הנהגת הכנסות בכירה, בכיסא.</figcaption></figure>
 
