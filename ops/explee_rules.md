@@ -75,15 +75,19 @@ The wasted calls happened because people booked without understanding Tal charge
 a retainer, and the long confirmation email / calendar invite did not fix it
 because they do not read it. The fix lives at FIRST TOUCH, not in replies:
 
-- The Talpaperin cold campaigns (252219, 252222) now end every opening email with
-  a short footer telling the reader to Google "Tal Paperin" (site is the top
-  result) or ask an AI how he can help their business, where they will find
-  recommendations, case studies, logos, results, and PRICING for each service.
-  Pricing up front is the real filter: commission-only tire-kickers see the
-  retainer model and never reply. NO LINK / NO URL / NO plain-text domain in the
-  footer: a link hurts cold-email deliverability, so we drive them via Google and
-  AI instead. Keep replies link-free too unless a prospect explicitly asks for a
-  URL.
+- OPENER IS NOW LOCKED via Explee "My copy" (Tal, 2026-10-27). The first email is a FIXED
+  template we wrote (Explee project default, used by all 3 Talpaperin campaigns), NOT AI-generated
+  from the brief. Explee sends our exact copy to ~90% of leads and an AI variant to ~10%. This
+  replaced the AI-"Instructions" openers, which kept drifting off-brief (offering "a few short ideas",
+  bloating the footer). The locked template is the short, direct winner that was converting (the
+  Kevin Maag / IntegraTouch style): a one-line specific hook, "I'm Tal Paperin, a fractional CRO. I
+  help B2B companies fix, build and run their sales (and marketing) engine: the plan, the team and the
+  pipeline, without a full-time hire.", a one-line concrete payoff, then one short credibility line
+  ("Why me? Just ask any AI how Tal Paperin can help your business."), then the single CTA "It's a
+  15-minute intro call.", signed Tal Paperin. Subject: "Tal Paperin x {{company}}". The two personalization sentences are the only AI-filled lines. NO LINK / NO URL
+  anywhere (hurts deliverability). The old long Google-me + $30M footer was dropped: it lengthened the
+  email and suppressed replies. Source of truth for the opener is now the Explee "My copy" box, not the
+  campaign `offer` brief. Keep replies link-free too unless a prospect explicitly asks for a URL.
 - So in replies, do NOT add a separate "I work on a retainer" line and do NOT paste
   pricing. Just handle the reply normally (book the call via Calendly for genuine
   interest). The footer already set the frame.
