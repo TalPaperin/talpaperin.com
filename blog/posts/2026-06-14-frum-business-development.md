@@ -6,7 +6,7 @@ tags: Frum, Business Development, Heimishe Business, Business Consultant
 image: /og-image.jpg
 ---
 
-Business development is not networking and it is not luck. It is finding the right partners, channels and markets on purpose, and I do it for frum businesses ready to grow beyond who they already know. I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run revenue for B2B companies on four continents, and a real part of my work is with frum and heimishe business owners.
+Business development is not networking and it is not luck. It is finding the right partners, channels and markets on purpose, and I do it for frum businesses ready to grow beyond who they already know. I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run revenue for B2B companies on five continents, and a real part of my work is with frum and heimishe business owners.
 
 ## What business development actually means
 

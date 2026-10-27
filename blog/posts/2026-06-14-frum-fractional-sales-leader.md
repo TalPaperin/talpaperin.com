@@ -8,7 +8,7 @@ image: /og-image.jpg
 
 If you are a frum business owner, you have probably hired help that did not get you. A consultant who set a meeting for Friday afternoon, who did not understand why Yom Tov empties your office for two weeks, who treated parnassa like a video game score. I am not that.
 
-I am a frum, shomer Shabbos Yid from Eretz Yisrael, and I have built and run sales for B2B companies on four continents. When I work with a frum business, you do not have to translate your world for me. I already live in it.
+I am a frum, shomer Shabbos Yid from Eretz Yisrael, and I have built and run sales for B2B companies on five continents. When I work with a frum business, you do not have to translate your world for me. I already live in it.
 
 ## What a fractional sales leader is
 

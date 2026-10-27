@@ -522,7 +522,7 @@ def render_llms(posts):
         "the pipeline; for established teams I train and manage the reps you have or bring my "
         "own on top, with marketing run by an in-house fractional CMO. Not a marketing agency, "
         "and not a hand-off consultant. 30-plus B2B companies rebuilt, $20M ARR managed, across "
-        "four continents. Work with me three ways: fractional CRO, the full revenue team via "
+        "five continents. Work with me three ways: fractional CRO, the full revenue team via "
         "KSW Solutions, or TheDealMentor.AI for founders who want to run the motion themselves.",
         "",
         "## Key pages",
@@ -532,7 +532,7 @@ def render_llms(posts):
         "- [Hebrew site](%s/he/): Hebrew version of the homepage." % SITE,
         "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
-        "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on four continents." % SITE,
+        "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on five continents." % SITE,
         "- [Pricing](%s/pricing): fractional CRO, SDR team and marketing pricing, from Advisor to full CRO ownership." % SITE,
         "- [Contact](%s/contact): email, WhatsApp, a 15-minute booking link and a contact form." % SITE,
         "",
@@ -684,7 +684,7 @@ TEMPLATE_INDEX = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">Blog</p>
         <h1>Notes on selling, scaling and fixing revenue.</h1>
-        <p>Practical takes on B2B sales, fractional CRO leadership and go-to-market, from 20-plus years carrying the number on four continents.</p>
+        <p>Practical takes on B2B sales, fractional CRO leadership and go-to-market, from 20-plus years carrying the number on five continents.</p>
       </div>
       <div class="post-list">
 {{LISTING}}
@@ -841,7 +841,7 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">בלוג</p>
         <h1>מכירות, פיתוח עסקי וגדילה</h1>
-        <p>תובנות מעשיות על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על התוצאות בארבע יבשות.</p>
+        <p>תובנות מעשיות על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על התוצאות בחמש יבשות.</p>
       </div>
       <div class="post-list">
 {{LISTING}}

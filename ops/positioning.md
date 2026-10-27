@@ -40,7 +40,7 @@ company's revenue number. (Public number is "20+ years"; use that, not "24".)
 - Clients mostly US-based; he drives US and domestic growth and also works
   internationally (NA, Europe, APAC). Never frame him as export/international only.
 - Proof points (LinkedIn-verified, public): 30-plus B2B companies rebuilt, a 300-person
-  SaaS company managing $20M ARR, work across four continents.
+  SaaS company managing $20M ARR, work across five continents.
 - Named clients approved for public use (on his LinkedIn): ClinicMind, PepsiCo, Mars,
   Teva Pharmaceuticals, TAG Medical. Do NOT invent any metric or result not stated here
   or already on the site.
@@ -73,7 +73,7 @@ problem was leads, when Pay-Per-Meeting was the answer).
   client, replace who can't. -> "I want to build my OWN in-house team."
 - Go-To-Market Strategy: ICP, positioning, channels, playbook, forecast, then help running
   it. -> "No real GTM / my motion is unclear / launching something."
-- Market Entry & Global Markets: break into new markets, built across four continents.
+- Market Entry & Global Markets: break into new markets, built across five continents.
   -> "I want to enter the US / a new market."
 - Distributor & Channel Recruitment: recruit, sign and manage distributors/channel
   partners. -> "I need channel/distribution to open territories."
@@ -89,20 +89,20 @@ specific questions go to Tal. No link in cold replies (deliverability); name the
 ## KSW Solutions, the firm (from ksw.solutions/sales and /marketing)
 KSW is the firm behind Tal. Tal Paperin runs the SALES/revenue side (Fractional CRO; also a
 narrower FRACTIONAL VP SALES option that owns pipeline, where the CRO owns the whole engine).
-Samantha Paperin is the FRACTIONAL CMO and co-founder who runs the MARKETING side. Every sales
+A fractional CMO / the marketing department runs the MARKETING side. Every sales
 engagement gets marketing input (messaging/positioning) and every marketing engagement gets
 fractional VP Sales input, so sales and marketing run as one engine. No standing junior team:
 specialists/freelancers are brought in per project, or KSW helps the client hire. Embedded inside
 the business, NOT "a consultant who hands you a report and disappears," NOT an outside advisor,
 NOT a full-time hire (so no severance/hiring risk). When the problem is MARKETING, it is led by
-Samantha Paperin (the fractional CMO), not Tal.
+a fractional CMO / the marketing department, not Tal. (The fractional CMO is not named on talpaperin.com.)
 
 ### How an engagement unfolds (the "how we work" narrative, reuse it)
 - Week 1, Diagnose: revenue audit, pipeline review, CRM analysis, leadership interviews, customer journey.
 - Weeks 2-3, Build: sales process, ICP, messaging, hiring, sales playbooks, KPIs.
 - Weeks 4-12, Scale: forecasting cadence, management rhythm, pipeline reviews, team scaling, ongoing leadership.
 
-### Marketing offering (Samantha Paperin, fractional CMO)
+### Marketing offering (a fractional CMO / the marketing department)
 Materials for salespeople, lead-gen campaigns, ICP/customer-journey, website-for-leads, social and
 events strategy, community management, product/market launches. Process: Understand -> Prioritize
 -> Execute -> Measure -> Repeat. Theme: most companies do not need a full-time CMO; the highest-ROI
@@ -119,8 +119,9 @@ decision is often what NOT to do.
 - TAG Medical: built direct sales, a distributor network, and a marketing department for an EU launch.
 - BT9 (Xsense): built international sales across the FSU, EU and APAC.
 
-### TO RECONCILE (open, confirm with Tal before relying on it)
-- Continents count: talpaperin.com says "four continents," ksw.solutions says "five." Pick one and make both sites consistent.
+### RESOLVED / DECIDED (confirmed with Tal)
+- Continents count: RESOLVED. Five continents, aligned to KSW. talpaperin.com now says "five continents" everywhere (EN and HE).
+- Fractional VP Sales: DECIDED (Tal): VP Sales stays KSW-only, NOT added to the talpaperin.com catalog.
 
 ## Language rules
 - OK: "fractional CRO", "senior sales leader", "owns the revenue number", "builds,

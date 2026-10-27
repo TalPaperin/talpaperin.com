@@ -30,7 +30,7 @@ Drop a pure CRO into that and they will optimize a motion that was never going t
 
 ## Where I land
 
-I have carried both seats. At KSW Solutions we deliberately run sales and marketing as one function, not two departments that blame each other across a wall. I have built distributor and channel networks across four continents, set pricing, and taken products into markets from zero, including putting written-off products back onto retail shelves across EMEA and APAC. That is growth work. It is wider than revenue.
+I have carried both seats. At KSW Solutions we deliberately run sales and marketing as one function, not two departments that blame each other across a wall. I have built distributor and channel networks across five continents, set pricing, and taken products into markets from zero, including putting written-off products back onto retail shelves across EMEA and APAC. That is growth work. It is wider than revenue.
 
 So yes, depending on the mandate, I operate as a fractional CRO or a fractional CGO. Same operator, different scope. If your problem is "we are not closing," you want the CRO. If your problem is "we do not have a growth engine," you want the CGO.
 

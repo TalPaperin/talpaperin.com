@@ -11,7 +11,7 @@ A CEO called me last month and asked if I do sales training.
 
 I said no.
 
-Then I told him I have personally trained more than 2,000 salespeople across four continents, and he got confused, which is fair. So let me explain the distinction, because it is the whole point, and it is costing you money right now if you do not see it.
+Then I told him I have personally trained more than 2,000 salespeople across five continents, and he got confused, which is fair. So let me explain the distinction, because it is the whole point, and it is costing you money right now if you do not see it.
 
 ## The two-day sugar high
 

@@ -6,7 +6,7 @@ tags: Frum, Sales, Heimishe Business, Business Consultant
 image: /og-image.jpg
 ---
 
-If sales still run through you and a pile of referrals, that is a ceiling, not a strategy. I am a frum sales consultant who builds the engine that breaks through it. I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run revenue for B2B companies on four continents, and a real part of my work is with frum and heimishe business owners.
+If sales still run through you and a pile of referrals, that is a ceiling, not a strategy. I am a frum sales consultant who builds the engine that breaks through it. I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run revenue for B2B companies on five continents, and a real part of my work is with frum and heimishe business owners.
 
 ## What sales actually means
 

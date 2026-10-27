@@ -234,11 +234,11 @@ PERSON_ID = SITE + "/#tal"
 WEBSITE_ID = SITE + "/#website"
 
 _BIZ_DESC_EN = ("Fractional CRO, Chief Growth Officer and B2B sales consultant. Twenty years "
-                "building and running revenue engines across four continents: fractional CRO "
+                "building and running revenue engines across five continents: fractional CRO "
                 "leadership, outsourced sales teams, go-to-market strategy and international "
                 "market entry.")
 _BIZ_DESC_HE = ("סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, Chief Growth Officer ויועץ מכירות B2B. "
-                "עשרים שנה של בנייה והרצה של מנועי הכנסות בארבע יבשות: הובלת מכירות במיקור חוץ, "
+                "עשרים שנה של בנייה והרצה של מנועי הכנסות בחמש יבשות: הובלת מכירות במיקור חוץ, "
                 "צוותי מכירות, אסטרטגיית Go-To-Market וחדירה לשווקים בינלאומיים.")
 
 
@@ -451,7 +451,7 @@ SERVICES = [
       "Marketing that actually feeds pipeline, not just activity",
       "The hard calls: who to hire, who to train, who to replace"]},
     {"h":"How it works","p":[
-      "Week one I diagnose where deals stall and leak. Week two you have a plan and a real forecast. Week three I am running it. You get a senior operator who has done this 30-plus times on four continents, not a strategy deck that sits in a drawer."]},
+      "Week one I diagnose where deals stall and leak. Week two you have a plan and a real forecast. Week three I am running it. You get a senior operator who has done this 30-plus times on five continents, not a strategy deck that sits in a drawer."]},
     {"h":"Priced by how much of me you need","p":[
       "From a weekly advisor to a fully embedded CRO. The more of me you take, the more I own. The only thing that changes is how much of my week is on your business."],
      "ul":[
@@ -545,10 +545,10 @@ SERVICES = [
 
  {"slug":"market-entry","nav":"Market Entry & Global Markets","h1":"International Market Entry and Global Markets",
   "title":"International Market Entry and Global Expansion | Tal Paperin",
-  "desc":"Break into new markets without the expensive mistakes. I have built sales, teams and subsidiaries across four continents. How I pick a market and win it.",
+  "desc":"Break into new markets without the expensive mistakes. I have built sales, teams and subsidiaries across five continents. How I pick a market and win it.",
   "eyebrow":"Service",
-  "lead":"Four continents. More than forty countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
-  "card":"Pick the right market, then build and run the whole operation: sales, subsidiary, support and customer service. Built across four continents.",
+  "lead":"Five continents. More than forty countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
+  "card":"Pick the right market, then build and run the whole operation: sales, subsidiary, support and customer service. Built across five continents.",
   "sections":[
     {"h":"I choose the market, then build it","p":[
       "The most expensive mistake in expansion is entering the wrong market, fast. I start by assessing whether a market is even yours, the pain, the access, the willingness to pay, the competition, and then I build the operation only where it makes sense. Planning and execution, from the same person who answers for the number."]},
@@ -564,7 +564,7 @@ SERVICES = [
       "Pricing, positioning and the go-to-market built for the local buyer",
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
-      "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
+      "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on five continents. Different products, different buyers, the same discipline. I also run B2G and complex public-sector deals across the globe."]},
     {"img":"/img/site/market-entry-expo.jpg","alt":"An international trade show floor","cap":"Global markets, up close. Where new business actually gets opened."},
     {"h":"Regions","links":[
       ["European Union","/blog/selling-b2b-in-the-eu"],
@@ -613,7 +613,7 @@ SERVICES = [
     {"h":"When you need this","p":["Your biggest deals are the ones you can least afford to lose, and the ones most likely to stall in negotiation: pricing, terms, legal, procurement, and a buyer who senses hesitation."],
      "ul":["High-value deals keep slipping at the negotiation stage","Your team is strong at selling but not at closing the hard terms","You need a steady hand on the deals that matter most"]},
     {"h":"What I do","ul":["Take over the negotiation on your complex, high-value deals","Hold price and terms without losing the deal","Manage procurement, legal and the decision-makers","Close the agreements that actually move the number"]},
-    {"h":"How it works","p":["I step into the live deal, get the full picture fast, and lead it to signature. Twenty years of closing complex B2B and B2G agreements across four continents means I have seen the tactics before they are used on you."]},
+    {"h":"How it works","p":["I step into the live deal, get the full picture fast, and lead it to signature. Twenty years of closing complex B2B and B2G agreements across five continents means I have seen the tactics before they are used on you."]},
   ]},
 
  {"slug":"saas-sales","nav":"SaaS Sales","h1":"SaaS Sales and Go-To-Market",
@@ -631,10 +631,10 @@ SERVICES = [
 
  {"slug":"global-markets","nav":"Global Markets","h1":"Global Markets: Where I Build and Run Revenue",
   "title":"Global Markets: International Sales Expansion | Tal Paperin",
-  "desc":"I have built and run sales teams, subsidiaries and support across four continents for multiple companies. Here is how I pick a market and build revenue in it.",
+  "desc":"I have built and run sales teams, subsidiaries and support across five continents for multiple companies. Here is how I pick a market and build revenue in it.",
   "eyebrow":"Global",
-  "lead":"Four continents. More than forty countries. Hundreds of cities, on the ground, not over email. I do not just enter a market, I help you choose the right one, then build and run it.",
-  "card":"Built revenue across four continents. I help you pick the right market, then build and run the whole operation there.",
+  "lead":"Five continents. More than forty countries. Hundreds of cities, on the ground, not over email. I do not just enter a market, I help you choose the right one, then build and run it.",
+  "card":"Built revenue across five continents. I help you pick the right market, then build and run the whole operation there.",
   "sections":[
     {"h":"I choose the market, then build it","p":[
       "The most expensive mistake in expansion is entering the wrong market, fast. I start by assessing whether a market is even yours, the pain, the access, the willingness to pay, the competition, and then I build the operation only where it makes sense. Planning and execution, from the same person who answers for the number."]},
@@ -645,7 +645,7 @@ SERVICES = [
       "Pricing, positioning and the go-to-market built for the local buyer",
       "The CRM, pipeline, forecast and accountability behind the number"]},
     {"h":"Done repeatedly, for multiple companies","p":[
-      "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on four continents. Different products, different buyers, the same discipline."]},
+      "This is not a one-time story. I have built, hired, trained and managed teams across these markets more than once, for more than one company, on five continents. Different products, different buyers, the same discipline."]},
     {"h":"Regions","links":[
       ["European Union","/blog/selling-b2b-in-the-eu"],
       ["Nordics","/blog/selling-b2b-in-the-nordics"],
@@ -847,7 +847,7 @@ INDEX = '''<!doctype html>
 {cards}
       </div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/pricing">See pricing &rarr;</a></p>
-      <h2 class="cases-recs-h">On the ground, on four continents</h2>
+      <h2 class="cases-recs-h">On the ground, on five continents</h2>
 {gallery}
     </div>
   </main>
@@ -982,7 +982,7 @@ HE_SERVICES = [
     {"h":"על מה אני לוקח אחריות",
      "ul":["אסטרטגיית ההכנסות, התחזית והאחריות, מקצה לקצה","תנועת ה-Go-to-Market, הפייפליין והצוות שמריץ אותם","שיווק שבאמת מזין את הפייפליין, לא רק מייצר פעילות","ההחלטות הקשות: את מי לגייס, את מי להכשיר ואת מי להחליף"]},
     {"h":"איך זה עובד",
-     "p":["בשבוע הראשון אני מאבחן איפה העסקאות נתקעות ודולפות. בשבוע השני יש לכם תוכנית ותחזית אמיתית. בשבוע השלישי אני כבר מריץ אותה. אתם מקבלים מנהל מנוסה שעשה את זה יותר מ-30 פעם בארבע יבשות, לא עוד מצגת אסטרטגיה שנשארת במגירה."]},
+     "p":["בשבוע הראשון אני מאבחן איפה העסקאות נתקעות ודולפות. בשבוע השני יש לכם תוכנית ותחזית אמיתית. בשבוע השלישי אני כבר מריץ אותה. אתם מקבלים מנהל מנוסה שעשה את זה יותר מ-30 פעם בחמש יבשות, לא עוד מצגת אסטרטגיה שנשארת במגירה."]},
     {"h":"מתומחר לפי כמה ממני אתם צריכים",
      "p":["מיועץ שבועי ועד סמנכ״ל הכנסות מוטמע במלואו. ככל שאתם לוקחים יותר ממני, אני לוקח יותר אחריות. הדבר היחיד שמשתנה הוא כמה מהשבוע שלי בעסק שלכם."],
      "ul":["Advisor, 2,000 דולר בחודש: כשלוש שעות בשבוע, שיחת אסטרטגיה קבועה וגישה אליי בין השיחות","Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה. מה שרוב החברות בוחרות","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום, בידיים. משרה מלאה ובלעדית זמינה לפי בקשה"]},
@@ -1061,10 +1061,10 @@ HE_SERVICES = [
 
  {"slug":"market-entry","nav":"חדירה לשווקים ושווקים גלובליים","h1":"חדירה לשווקים בינלאומיים ושווקים גלובליים",
   "title":"חדירה לשווקים בינלאומיים והתרחבות גלובלית | טל פאפרין",
-  "desc":"לפרוץ לשווקים חדשים בלי הטעויות היקרות. בניתי וניהלתי מכירות, צוותים, חברות בנות ותמיכה בארבע יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
+  "desc":"לפרוץ לשווקים חדשים בלי הטעויות היקרות. בניתי וניהלתי מכירות, צוותים, חברות בנות ותמיכה בחמש יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
   "eyebrow":"שירות",
-  "lead":"ארבע יבשות. יותר מארבעים מדינות. מאות ערים, בשטח, לא מהאימייל. כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
-  "card":"בוחרים את השוק הנכון, ואז בונים ומנהלים את כל המערך: מכירות, חברה בת, תמיכה ושירות לקוחות. נבנה בארבע יבשות.",
+  "lead":"חמש יבשות. יותר מארבעים מדינות. מאות ערים, בשטח, לא מהאימייל. כניסה לשוק חדש זה המקום שבו חברות שורפות הכי הרבה כסף. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
+  "card":"בוחרים את השוק הנכון, ואז בונים ומנהלים את כל המערך: מכירות, חברה בת, תמיכה ושירות לקוחות. נבנה בחמש יבשות.",
   "sections":[
     {"h":"קודם בוחרים שוק, אחר כך בונים אותו",
      "p":["הטעות היקרה ביותר בהתרחבות היא להיכנס מהר לשוק הלא נכון. אני מתחיל בלשפוט אם השוק בכלל שלכם, הכאב, הנגישות, הנכונות לשלם, התחרות, ואז בונה את המערך רק איפה שזה הגיוני. תכנון וביצוע, מאותו אדם שאחראי על התוצאות."]},
@@ -1073,7 +1073,7 @@ HE_SERVICES = [
     {"h":"כל המערך, לא רק המכירה",
      "ul":["צוותי מכירות: SDR, AE והובלה, מגויסים, מוכשרים ומנוהלים","חברות בנות שנפתחות כשלקוחות או גיוס דורשים ישות מקומית","מערכי תמיכה טכנית ושירות לקוחות שמוקמים ומנוהלים","תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי","ה-CRM, הפייפליין, התחזית והאחריות על התוצאות"]},
     {"h":"נעשה שוב ושוב, למספר חברות",
-     "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
+     "p":["זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בחמש יבשות. מוצרים שונים, קונים שונים, אותה משמעת. אני גם מנהל עסקאות B2G ומורכבות מול המגזר הציבורי בכל העולם."]},
     {"img":"/img/site/market-entry-expo.jpg","alt":"רחבת תערוכה בינלאומית","cap":"שווקים גלובליים מקרוב. איפה שבאמת פותחים עסקים חדשים."},
     {"h":"אזורים","links":[
       ["האיחוד האירופי","/he/blog/selling-b2b-in-the-eu"],
@@ -1122,7 +1122,7 @@ HE_SERVICES = [
     {"h":"מתי צריך את זה","p":["העסקאות הכי גדולות שלכם הן אלה שאתם הכי לא יכולים להרשות לעצמכם להפסיד, ואלה שהכי נוטות להיתקע במשא ומתן: מחיר, תנאים, משפטי, רכש, וקונה שמריח היסוס."],
      "ul":["עסקאות גדולות נתקעות שוב ושוב בשלב המשא ומתן","הצוות שלכם חזק במכירה אבל לא בסגירת התנאים הקשים","אתם צריכים יד יציבה על העסקאות הכי חשובות"]},
     {"h":"מה אני עושה","ul":["לקיחת פיקוד על המשא ומתן בעסקאות המורכבות והגדולות שלכם","החזקת מחיר ותנאים בלי לאבד את העסקה","ניהול הרכש, המשפטי ומקבלי ההחלטות","סגירת ההסכמים שבאמת מזיזים את התוצאות"]},
-    {"h":"איך זה עובד","p":["אני נכנס לעסקה החיה, קולט את התמונה המלאה מהר, ומוביל אותה עד החתימה. 20 שנה של סגירת הסכמים מורכבים B2B ו-B2G בארבע יבשות, אני מכיר את הטקטיקות עוד לפני שמפעילים אותן עליכם."]},
+    {"h":"איך זה עובד","p":["אני נכנס לעסקה החיה, קולט את התמונה המלאה מהר, ומוביל אותה עד החתימה. 20 שנה של סגירת הסכמים מורכבים B2B ו-B2G בחמש יבשות, אני מכיר את הטקטיקות עוד לפני שמפעילים אותן עליכם."]},
   ]},
 
  {"slug":"saas-sales","nav":"מכירות SaaS","h1":"מכירות SaaS ו-Go-To-Market",
@@ -1140,10 +1140,10 @@ HE_SERVICES = [
 
  {"slug":"global-markets","nav":"שווקים גלובליים","h1":"שווקים גלובליים: איפה אני בונה ומנהל הכנסות",
   "title":"שווקים גלובליים: התרחבות מכירות בינלאומית | טל פאפרין",
-  "desc":"בניתי, גייסתי, הכשרתי וניהלתי צוותי מכירות, פתחתי חברות בנות וניהלתי תמיכה ושירות לקוחות בארבע יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
+  "desc":"בניתי, גייסתי, הכשרתי וניהלתי צוותי מכירות, פתחתי חברות בנות וניהלתי תמיכה ושירות לקוחות בחמש יבשות, שוב ושוב ולמספר חברות. הנה איך אני בוחר שוק ובונה אותו.",
   "eyebrow":"גלובלי",
-  "lead":"ארבע יבשות. יותר מארבעים מדינות. מאות ערים, בשטח, לא מהאימייל. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
-  "card":"בניתי הכנסות בארבע יבשות. אני עוזר לכם לבחור את השוק הנכון, ואז בונה ומנהל שם את כל המערך.",
+  "lead":"חמש יבשות. יותר מארבעים מדינות. מאות ערים, בשטח, לא מהאימייל. אני לא רק נכנס לשוק, אני עוזר לכם לבחור את הנכון, ואז בונה ומנהל אותו.",
+  "card":"בניתי הכנסות בחמש יבשות. אני עוזר לכם לבחור את השוק הנכון, ואז בונה ומנהל שם את כל המערך.",
   "sections":[
     {"h":"קודם בוחרים שוק, אחר כך בונים אותו","p":[
       "הטעות היקרה ביותר בהתרחבות היא להיכנס מהר לשוק הלא נכון. אני מתחיל בלשפוט אם השוק בכלל שלכם, הכאב, הנגישות, הנכונות לשלם, התחרות, ואז בונה את המערך רק איפה שזה הגיוני. תכנון וביצוע, מאותו אדם שאחראי על התוצאות."]},
@@ -1154,7 +1154,7 @@ HE_SERVICES = [
       "תמחור, מיצוב ו-Go-To-Market שנבנים לקונה המקומי",
       "ה-CRM, הפייפליין, התחזית והאחריות על התוצאות"]},
     {"h":"נעשה שוב ושוב, למספר חברות","p":[
-      "זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בארבע יבשות. מוצרים שונים, קונים שונים, אותה משמעת."]},
+      "זה לא סיפור חד פעמי. בניתי, גייסתי, הכשרתי וניהלתי צוותים בשווקים האלה יותר מפעם אחת, למספר חברות, בחמש יבשות. מוצרים שונים, קונים שונים, אותה משמעת."]},
     {"h":"אזורים","links":[
       ["האיחוד האירופי","/he/blog/selling-b2b-in-the-eu"],
       ["מדינות נורדיות","/he/blog/selling-b2b-in-the-nordics"],
@@ -1335,7 +1335,7 @@ HE_INDEX = '''<!doctype html>
 {cards}
       </div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/he/pricing">לתמחור &larr;</a></p>
-      <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
+      <h2 class="cases-recs-h">בשטח, בחמש יבשות</h2>
 {gallery}
     </div>
   </main>
@@ -1626,7 +1626,7 @@ CASE_STUDIES = [
  {"company":"Bacsoft","id":"bacsoft","meta":"Israeli industrial IoT, backed by Japan's SUN Corp, VP of Global Sales",
   "situation":"An Israeli industrial IoT company, backed by Japan's SUN Corp, that made existing equipment smart and connected for water and wastewater utilities, manufacturers and smart cities. The technology was real and the global demand was there, with projects from Peru to Holland to Australia. What was missing was the engine to actually sell complex industrial IoT across borders: a strategy, a distributor network across continents, and the patience to win public-sector deals with long RFI and RFQ cycles.",
   "did":["Owned the global sales strategy end to end","Recruited and managed distributors across continents, from Europe to South America to APAC","Ran direct B2B sales of SaaS, hardware and services into utilities, manufacturers and municipalities","Led B2G: RFIs, RFQs and complex government and utility projects across the globe","Represented the company at international industry shows and managed marketing and marcom"],
-  "result":"A global channel and a live B2G pipeline for a small Israeli company selling complex industrial IoT, hardware, software and services, to utilities and governments on four continents."},
+  "result":"A global channel and a live B2G pipeline for a small Israeli company selling complex industrial IoT, hardware, software and services, to utilities and governments on five continents."},
  {"company":"Palram","id":"palram","meta":"Global manufacturer, Eastern Europe market entry",
   "situation":"A global manufacturer had looked at Eastern Europe and decided there was no money in it, so they stayed out and left the territory blank on the map. The assumption had never actually been tested against the real channel or the real buyers on the ground. It was a story the company told itself, not a fact.",
   "did":["Built the market-entry strategy and the milestone plan","Mapped the channel and the real decision-makers on the ground","Led every negotiation personally","Signed multiple distributors and retail chains across the region"],
@@ -1669,7 +1669,7 @@ HE_CASES = [
  {"company":"Bacsoft","id":"bacsoft","meta":"חברת IoT תעשייתית ישראלית בגיבוי SUN Corp מיפן, VP מכירות גלובלי",
   "situation":"חברת IoT תעשייתית ישראלית, בגיבוי SUN Corp מיפן, שהפכה ציוד קיים לחכם ומחובר עבור תאגידי מים וביוב, יצרנים וערים חכמות. הטכנולוגיה הייתה אמיתית והביקוש הגלובלי היה שם, עם פרויקטים מפרו ועד הולנד ועד אוסטרליה. מה שחסר היה המנוע שבאמת ימכור IoT תעשייתי מורכב מעבר לגבולות: אסטרטגיה, רשת מפיצים בכמה יבשות, והסבלנות לזכות בעסקאות מול המגזר הציבורי עם מחזורי RFI ו-RFQ ארוכים.",
   "did":["לקחתי אחריות מלאה על אסטרטגיית המכירות הגלובלית","גייסתי וניהלתי מפיצים בכמה יבשות, מאירופה ועד דרום אמריקה ועד APAC","הרצתי מכירה ישירה B2B של SaaS, חומרה ושירותים לתאגידי מים, יצרנים ורשויות","הובלתי B2G: מכרזים, RFIs, RFQs ופרויקטים ממשלתיים ותשתיתיים מורכבים בכל העולם","ייצגתי את החברה בתערוכות תעשייה בינלאומיות וניהלתי את השיווק וה-Marcom"],
-  "result":"רשת ערוצים גלובלית ופייפליין B2G חי, לחברה ישראלית קטנה שמוכרת IoT תעשייתי מורכב, חומרה, תוכנה ושירותים, לתאגידים ולממשלות בארבע יבשות."},
+  "result":"רשת ערוצים גלובלית ופייפליין B2G חי, לחברה ישראלית קטנה שמוכרת IoT תעשייתי מורכב, חומרה, תוכנה ושירותים, לתאגידים ולממשלות בחמש יבשות."},
  {"company":"Palram","id":"palram","meta":"יצרן גלובלי, חדירה לשוק במזרח אירופה",
   "situation":"יצרן גלובלי הסתכל על מזרח אירופה והחליט שאין שם כסף, ולכן נמנע מלהיכנס והשאיר את הטריטוריה ריקה על המפה. ההנחה הזו מעולם לא נבחנה באמת מול הערוץ האמיתי או הקונים האמיתיים בשטח. זה היה סיפור שהחברה סיפרה לעצמה, לא עובדה.",
   "did":["בניתי את אסטרטגיית החדירה ותוכנית אבני הדרך","מיפיתי את הערוץ ואת מקבלי ההחלטות האמיתיים בשטח","ניהלתי כל משא ומתן באופן אישי","החתמתי מספר מפיצים ורשתות קמעונאות באזור"],
@@ -1904,7 +1904,7 @@ REC_PAGE_EN = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Recommendations &amp; Clients | Tal Paperin, Fractional CRO</title>
-  <meta name="description" content="What founders and executives say about working with Tal Paperin, and the companies he has built sales for, from multinationals to startups, on four continents." />
+  <meta name="description" content="What founders and executives say about working with Tal Paperin, and the companies he has built sales for, from multinationals to startups, on five continents." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/recommendations" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/recommendations" />
@@ -1960,7 +1960,7 @@ REC_PAGE_HE = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>המלצות ולקוחות | טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</title>
-  <meta name="description" content="מה מייסדים ומנהלים אומרים על עבודה עם טל פאפרין, והחברות שבנה להן מכירות, מתאגידים רב-לאומיים ועד סטארטאפים, בארבע יבשות." />
+  <meta name="description" content="מה מייסדים ומנהלים אומרים על עבודה עם טל פאפרין, והחברות שבנה להן מכירות, מתאגידים רב-לאומיים ועד סטארטאפים, בחמש יבשות." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/he/recommendations" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/recommendations" />
@@ -2014,7 +2014,7 @@ CS_PAGE_EN = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Case Studies | Tal Paperin, Fractional CRO</title>
-  <meta name="description" content="Real results from a fractional CRO: building sales engines, opening markets and closing complex deals for B2B companies across startups, IoT, manufacturing, medical and SaaS, on four continents." />
+  <meta name="description" content="Real results from a fractional CRO: building sales engines, opening markets and closing complex deals for B2B companies across startups, IoT, manufacturing, medical and SaaS, on five continents." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/case-studies" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/case-studies" />
@@ -2048,13 +2048,13 @@ CS_PAGE_EN = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">Case Studies</p>
         <h1>Brought in to build the engine, not just advise on it.</h1>
-        <p class="lead">Real companies, real problems, real ownership. Here is what I have built and fixed, across startups, IoT, manufacturing, medical devices, retail and SaaS, on four continents.</p>
+        <p class="lead">Real companies, real problems, real ownership. Here is what I have built and fixed, across startups, IoT, manufacturing, medical devices, retail and SaaS, on five continents.</p>
         <div class="cases-list">
 {cases}
         </div>
         <h2 class="cases-recs-h">What clients say</h2>
 {testimonials}
-        <h2 class="cases-recs-h">On the ground, on four continents</h2>
+        <h2 class="cases-recs-h">On the ground, on five continents</h2>
 {gallery}
 {cta}
         <div class="svc-related">See the <a href="/services/">services</a> behind these, or <a href="/blog/">read the blog</a>.</div>
@@ -2073,7 +2073,7 @@ CS_PAGE_HE = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>מקרי מבחן | טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</title>
-  <meta name="description" content="תוצאות אמיתיות: בניית מנועי מכירות, פתיחת שווקים וסגירת עסקאות מורכבות לחברות B2B, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי ו-SaaS, בארבע יבשות." />
+  <meta name="description" content="תוצאות אמיתיות: בניית מנועי מכירות, פתיחת שווקים וסגירת עסקאות מורכבות לחברות B2B, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי ו-SaaS, בחמש יבשות." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/he/case-studies" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/case-studies" />
@@ -2104,13 +2104,13 @@ CS_PAGE_HE = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">מקרי מבחן</p>
         <h1>הגעתי כדי לבנות את המנוע, לא רק לייעץ עליו.</h1>
-        <p class="lead">חברות אמיתיות, בעיות אמיתיות, אחריות אמיתית. הנה מה שבניתי ותיקנתי, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי, קמעונאות ו-SaaS, בארבע יבשות.</p>
+        <p class="lead">חברות אמיתיות, בעיות אמיתיות, אחריות אמיתית. הנה מה שבניתי ותיקנתי, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי, קמעונאות ו-SaaS, בחמש יבשות.</p>
         <div class="cases-list">
 {cases}
         </div>
         <h2 class="cases-recs-h">מה הלקוחות אומרים</h2>
 {testimonials}
-        <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
+        <h2 class="cases-recs-h">בשטח, בחמש יבשות</h2>
 {gallery}
 {cta}
         <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/he/blog/">קראו את הבלוג</a>.</div>
@@ -2280,7 +2280,7 @@ SERVICE_FAQS_EN = {
  "contract-negotiation":[
   {"q":"When should I bring you into a negotiation?","a":"The moment a high-value deal stalls on price, terms, legal or procurement, or whenever the deal is too important to risk on a hesitant close. The earlier I step in, the more leverage we keep."},
   {"q":"Do you take over the deal or coach my team?","a":"Either. I can lead the negotiation to signature myself, or sit alongside your team and steer the hard moments. Whatever gives the deal the best odds."},
-  {"q":"What kind of deals have you closed?","a":"Complex, high-value B2B and B2G agreements across four continents, twenty-plus years of holding price and terms without losing the deal."}],
+  {"q":"What kind of deals have you closed?","a":"Complex, high-value B2B and B2G agreements across five continents, twenty-plus years of holding price and terms without losing the deal."}],
 }
 
 SERVICE_FAQS_HE = {
@@ -2320,7 +2320,7 @@ SERVICE_FAQS_HE = {
  "contract-negotiation":[
   {"q":"מתי כדאי לשלב אותך במשא ומתן?","a":"ברגע שעסקה בעלת ערך גבוה נתקעת על מחיר, תנאים, משפטי או רכש, או בכל פעם שהעסקה חשובה מכדי לסכן אותה בסגירה מהוססת. ככל שאכנס מוקדם יותר, כך נשמור על יותר מנוף."},
   {"q":"אתה משתלט על העסקה או מלווה את הצוות?","a":"גם וגם. אני יכול להוביל את המשא ומתן עד החתימה בעצמי, או לשבת לצד הצוות ולכוון ברגעים הקשים. מה שייתן לעסקה את הסיכוי הטוב ביותר."},
-  {"q":"אילו עסקאות סגרת?","a":"הסכמי B2B ו-B2G מורכבים ובעלי ערך גבוה בארבע יבשות, מעל עשרים שנה של החזקת מחיר ותנאים בלי לאבד את העסקה."}],
+  {"q":"אילו עסקאות סגרת?","a":"הסכמי B2B ו-B2G מורכבים ובעלי ערך גבוה בחמש יבשות, מעל עשרים שנה של החזקת מחיר ותנאים בלי לאבד את העסקה."}],
 }
 
 
@@ -2338,7 +2338,7 @@ GUIDES = [
       "There is a difference between someone who teaches a workshop and someone who owns the number. I have carried a quota, built the playbook, and sat in the deals myself. When I train your team, I am not teaching theory I read in a book. I am teaching exactly how I would close your deals, because I have closed deals like yours.",
       "Then I do the part a trainer cannot: I manage the team to make sure it works. I sit in on calls, I inspect the pipeline, I coach the reps who are drifting, and I keep raising the standard until the new way of selling is simply the way your team sells."]},
     {"h":"2,000 salespeople, then managed to the number","p":[
-      "Over 20-plus years I have trained more than 2,000 salespeople on four continents: SDRs, closers, channel partners and whole teams, in startups and in large organizations. The training was never the point. The point was what happened next: deals closed, cycles shortened, and the number went up and stayed up.",
+      "Over 20-plus years I have trained more than 2,000 salespeople on five continents: SDRs, closers, channel partners and whole teams, in startups and in large organizations. The training was never the point. The point was what happened next: deals closed, cycles shortened, and the number went up and stayed up.",
       "That is the test I hold myself to. Not how good the session felt on the day, but whether revenue actually moved a quarter later. It does."]},
     {"h":"What real sales training looks like","ul":[
       "It starts from your actual deals, your buyers and your real objections, not a generic curriculum",
@@ -2442,7 +2442,7 @@ GUIDES = [
       "A VP of Sales runs $30,000 a month or more, all in. The search takes months. The ramp takes a quarter. And if the fit is wrong, and it often is, you fire them at month two, three or four, eat the severance, and start the whole cycle again. I have watched founders burn hundreds of thousands of dollars this way, with nothing to show for it but lost time.",
       "The hire is a gamble. You are betting six figures on a resume and three interviews."]},
     {"h":"A fractional CRO is not a gamble","ul":[
-      "I have built and run revenue for 30-plus B2B companies on four continents. You are not betting on whether I can do it. I have already done it.",
+      "I have built and run revenue for 30-plus B2B companies on five continents. You are not betting on whether I can do it. I have already done it.",
       "No recruiter fees, no equity, no severance risk, no months-long search",
       "Results in week one: I diagnose where deals leak, then I run the fix. No ramp, no learning curve"]},
     {"h":"I own the number. Myself. Hands on.","p":[
@@ -2461,7 +2461,7 @@ GUIDES = [
   "title":"Frum Business Consultant and Sales Leader | Tal Paperin",
   "desc":"A frum, shomer Shabbos business consultant and fractional sales leader who knows the heimishe, Yiddish-speaking business world and helps frum businesses grow.",
   "h1":"A Frum Business Consultant Who Gets the Heimishe World","eyebrow":"For Frum Businesses",
-  "lead":"I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run sales for businesses on four continents. If you are a frum business owner who wants a sales leader who shares your values and understands your world, not just your spreadsheet, this is for you.",
+  "lead":"I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run sales for businesses on five continents. If you are a frum business owner who wants a sales leader who shares your values and understands your world, not just your spreadsheet, this is for you.",
   "sections":[
     {"h":"A fellow Yid, not a stranger to your world","p":[
       "I am a frum business consultant and fractional sales leader, shomer Torah u'mitzvos, raised and based in Eretz Yisrael. I have spent over twenty years building sales engines for B2B companies, and a real part of my work has been with frum and heimishe business owners in the US, from Boro Park to Lakewood to Monsey. You will not have to explain to me why you do not pick up on Shabbos, why Yom Tov shuts the office, or why parnassa with kavod matters more than a vanity number."]},
@@ -2825,7 +2825,7 @@ GUIDES = [
   "sections":[
     {"h":"Fractional VP of Sales vs fractional CRO","p":["A VP of Sales runs the sales team and the pipeline day to day. A CRO owns all of revenue, sales, marketing and go-to-market, and the number itself. I do both; the right title depends on whether you need the sales floor run or the whole revenue function owned. Many companies start with a Fractional VP of Sales and grow the scope into CRO."]},
     {"h":"What I own as Fractional VP of Sales","ul":["Hiring, training and managing SDRs, AEs and BDs","The playbook, the talk tracks and the sales process","The CRM, the pipeline and the forecast","Coaching reps to quota and replacing who cannot","Day-to-day management of the sales floor"]},
-    {"h":"Built the team before, many times","p":["I have recruited, trained and managed sales teams across four continents and 40-plus countries, from first reps to full floors with SDRs, AEs, post-sales and tech support. I make the team you have hit quota and build the team you do not have yet."]},
+    {"h":"Built the team before, many times","p":["I have recruited, trained and managed sales teams across five continents and 40-plus countries, from first reps to full floors with SDRs, AEs, post-sales and tech support. I make the team you have hit quota and build the team you do not have yet."]},
   ],
   "faqs":[
     {"q":"What does a Fractional VP of Sales do?","a":"Builds and runs your sales team and pipeline part-time: hiring, training and managing reps, owning the playbook, the CRM and the forecast, and coaching the team to quota."},
@@ -2889,7 +2889,7 @@ GUIDES = [
   "sections":[
     {"h":"What you get","ul":["Native-speaking SDRs and BDRs for your markets","The outbound motion, the lists, the sequences and the scripts","A manager and senior leadership over the team, not reps left alone","The CRM, the cadence and the reporting","Qualified meetings handed to your closers"]},
     {"h":"Why outsource the top of funnel","p":["Hiring, training and managing SDRs in-house is slow and high-churn, and most teams never build a real outbound system. We run the motion that books meetings while you focus on closing and product. You get pipeline in weeks, not after a long hiring cycle."]},
-    {"h":"Run by people who have built floors","p":["This is not a call center. The SDR team sits under senior sales leadership that has recruited, trained and managed reps across four continents, on a playbook that actually books meetings."]},
+    {"h":"Run by people who have built floors","p":["This is not a call center. The SDR team sits under senior sales leadership that has recruited, trained and managed reps across five continents, on a playbook that actually books meetings."]},
   ],
   "faqs":[
     {"q":"What does an outsourced SDR team do?","a":"Runs your top of funnel: building lists, sequences and scripts, doing the outbound, and booking qualified meetings for your closers, all managed for you outside your headcount."},
@@ -2937,10 +2937,10 @@ GUIDES = [
   "sections":[
     {"h":"Why fintech sales are hard","p":["Selling fintech B2B means long cycles, security and compliance reviews, procurement, and risk-averse buyers at banks, insurers and enterprises. Founders often get early traction then stall when deals get bigger and the buying process gets heavier. The fix is a motion built for that reality and someone senior owning the pipeline and the forecast."]},
     {"h":"What I build","ul":["An ICP and message for regulated, risk-averse buyers","A sales motion that survives compliance, security and procurement reviews","Reps who can run a long, multi-stakeholder enterprise sale","Partnerships and channels where they shorten the path","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for long, complex B2B sales","p":["I have run complex, high-value B2B and B2G deals across four continents, the kind with many stakeholders, formal procurement and a long road to signature. That is exactly the shape of a serious fintech sale."]},
+    {"h":"Built for long, complex B2B sales","p":["I have run complex, high-value B2B and B2G deals across five continents, the kind with many stakeholders, formal procurement and a long road to signature. That is exactly the shape of a serious fintech sale."]},
   ],
   "faqs":[
-    {"q":"Have you sold into regulated, enterprise buyers?","a":"Yes. I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across four continents, the same shape as enterprise fintech sales."},
+    {"q":"Have you sold into regulated, enterprise buyers?","a":"Yes. I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across five continents, the same shape as enterprise fintech sales."},
     {"q":"Can you handle long, compliance-heavy cycles?","a":"That is the job. I build a motion that survives security, compliance and procurement reviews and keeps multi-stakeholder deals moving to signature."},
     {"q":"What does a fractional CRO for fintech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service, or <a href="/contact">get in touch</a>.'},
@@ -3021,7 +3021,7 @@ GUIDES = [
   ],
   "faqs":[
     {"q":"Can you get us into retailers and distributors?","a":"Yes. I have sold direct into large retailers and big-box chains and built the distributor and broker networks that get products onto shelves, including across borders."},
-    {"q":"Do you handle international foodtech expansion?","a":"Yes. Market entry across four continents, including building the local channel, is one of the things I do."},
+    {"q":"Do you handle international foodtech expansion?","a":"Yes. Market entry across five continents, including building the local channel, is one of the things I do."},
     {"q":"What does a fractional CRO for foodtech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
@@ -3033,11 +3033,11 @@ GUIDES = [
   "sections":[
     {"h":"Why agritech sales are hard","p":["Your buyers are growers, cooperatives, distributors and large agribusinesses, spread across regions and slow to change, and your product is often a mix of hardware, software and services. It is a channel-heavy, international, long-cycle sale that most teams are not built to run. The fix is a real channel strategy plus direct selling, owned by someone senior."]},
     {"h":"What I build","ul":["A channel of distributors and partners that reach growers and agribusiness","Direct sales into large agribusinesses and cooperatives","Market entry where the opportunity is across borders","An ICP, pricing and message for a practical, ROI-driven buyer","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for channel and cross-border sales","p":["I have built distributor networks and run international market entry for IoT, hardware and manufacturing companies, selling devices, software and services through channel and direct across four continents. Agritech sits squarely in that world."]},
+    {"h":"Built for channel and cross-border sales","p":["I have built distributor networks and run international market entry for IoT, hardware and manufacturing companies, selling devices, software and services through channel and direct across five continents. Agritech sits squarely in that world."]},
   ],
   "faqs":[
     {"q":"Can you build our agritech channel?","a":"Yes. Reaching growers and agribusiness usually runs through distributors and partners, and building and managing that channel is part of the work, alongside direct sales into large accounts."},
-    {"q":"Do you handle international expansion for agritech?","a":"Yes. I run market entry across four continents, including building the local channel and team."},
+    {"q":"Do you handle international expansion for agritech?","a":"Yes. I run market entry across five continents, including building the local channel and team."},
     {"q":"What does a fractional CRO for agritech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
@@ -3081,7 +3081,7 @@ GUIDES = [
   "sections":[
     {"h":"Why logistics sales are hard","p":["You sell into operations, procurement and IT at enterprises that run on thin margins and do not change vendors lightly, through long cycles and hard ROI scrutiny, often internationally. Early traction stalls when deals get bigger and the buying committee grows. The fix is a motion built for that buyer and someone senior owning the pipeline and forecast."]},
     {"h":"What I build","ul":["An ICP and ROI-driven message for operations and procurement buyers","A motion that handles long cycles and multi-stakeholder committees","Direct sales into large enterprise and operations accounts","Channels and partnerships where they shorten the path","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for complex, international B2B","p":["I have built and run complex B2B sales into large enterprise and industrial accounts across four continents, including the operations-heavy, ROI-driven buyers that logistics and supply-chain tech sell to."]},
+    {"h":"Built for complex, international B2B","p":["I have built and run complex B2B sales into large enterprise and industrial accounts across five continents, including the operations-heavy, ROI-driven buyers that logistics and supply-chain tech sell to."]},
   ],
   "faqs":[
     {"q":"Have you sold into enterprise operations buyers?","a":"Yes. I have run complex B2B sales into large enterprise and industrial accounts internationally, the same operations-heavy, ROI-driven buyers logistics tech sells to."},
@@ -3097,7 +3097,7 @@ GUIDES = [
   "sections":[
     {"h":"Why Israeli startups stumble in the US","p":["Great Israeli tech often stalls in the US because the sale is run from Israel on Israeli assumptions: the wrong ICP, a message that does not land, no US presence, and founders trying to close a market they do not yet understand. The US rewards focus and presence, not a part-time experiment from eight time zones away."]},
     {"h":"What I do","ul":["Pick the right beachhead segment instead of spreading thin","Adapt the ICP, positioning and pricing for the US buyer","Build the motion, hire the first US reps and manage them","Open the first accounts and lead the key deals personally","Stand up the US presence, direct or through partners"]},
-    {"h":"Built for this exact move","p":["I am based in Israel and work US hours, and I have built and run sales in the US and across four continents for Israeli and international companies. I know the expensive mistakes before you make them, and I have opened markets others wrote off."]},
+    {"h":"Built for this exact move","p":["I am based in Israel and work US hours, and I have built and run sales in the US and across five continents for Israeli and international companies. I know the expensive mistakes before you make them, and I have opened markets others wrote off."]},
   ],
   "faqs":[
     {"q":"Can you help an Israeli startup enter the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
@@ -3129,10 +3129,10 @@ GUIDES = [
   "sections":[
     {"h":"Why insurtech sales are hard","p":["You sell into carriers, MGAs and brokers: conservative, regulated buyers with committees, compliance and procurement, and a strong preference for partners over newcomers. Distribution often runs through the incumbents you are trying to disrupt. It takes a motion built for long, relationship-heavy, regulated sales and someone senior owning the pipeline."]},
     {"h":"What I build","ul":["An ICP and message for carriers, MGAs and brokers","A motion that survives compliance, procurement and committees","Carrier and broker partnerships that become distribution","Reps who can run a long, multi-stakeholder regulated sale","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for regulated, partnership-driven sales","p":["I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across four continents, and built channel and partner networks that became real distribution. That is the shape of an insurtech sale."]},
+    {"h":"Built for regulated, partnership-driven sales","p":["I have run complex, high-value B2B and B2G deals with formal procurement and many stakeholders across five continents, and built channel and partner networks that became real distribution. That is the shape of an insurtech sale."]},
   ],
   "faqs":[
-    {"q":"Have you sold into regulated, conservative industries?","a":"Yes. I have run complex, multi-stakeholder regulated deals with formal procurement across four continents, the same dynamics as selling to carriers and brokers."},
+    {"q":"Have you sold into regulated, conservative industries?","a":"Yes. I have run complex, multi-stakeholder regulated deals with formal procurement across five continents, the same dynamics as selling to carriers and brokers."},
     {"q":"Can you build carrier and broker partnerships?","a":"Yes. Insurtech distribution often runs through carriers and brokers, and building and managing those partnerships is part of the work."},
     {"q":"What does a fractional CRO for insurtech cost?","a":"Typically $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/distributor-channel-recruitment">channel</a> services, or <a href="/contact">get in touch</a>.'},
@@ -3145,7 +3145,7 @@ GUIDES = [
   "sections":[
     {"h":"Why proptech sales are hard","p":["Real estate owners, operators and brokerages are relationship-driven, fragmented and slow to adopt new tools, and a pilot in one building rarely rolls out on its own. You need a motion that lands the first accounts, proves ROI on the ground, and turns pilots into portfolio-wide deals, owned by someone senior."]},
     {"h":"What I build","ul":["An ICP and ROI-driven message for owners, operators and brokerages","A motion that turns single-site pilots into portfolio rollouts","Direct sales into large owners and operators","Partnerships and channels that reach a fragmented market","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for relationship-driven, on-the-ground sales","p":["I have opened markets on the ground across four continents, sold direct into large accounts and built the channel to reach fragmented buyers. Proptech rewards exactly that mix of direct selling and a real channel."]},
+    {"h":"Built for relationship-driven, on-the-ground sales","p":["I have opened markets on the ground across five continents, sold direct into large accounts and built the channel to reach fragmented buyers. Proptech rewards exactly that mix of direct selling and a real channel."]},
   ],
   "faqs":[
     {"q":"Can you turn proptech pilots into bigger deals?","a":"Yes. The job is building a motion that proves ROI in the first sites and expands pilots into portfolio-wide rollouts, not leaving them stuck as one-offs."},
@@ -3161,7 +3161,7 @@ GUIDES = [
   "sections":[
     {"h":"Why legaltech sales are hard","p":["Law firms and in-house legal teams are risk-averse, consensus-driven and slow to change tools, with partners, committees and procurement all in the path. Adoption stalls without a clear ROI case and a motion built for cautious, multi-stakeholder buyers, owned by someone senior."]},
     {"h":"What I build","ul":["An ICP and message for law firms and general counsel","A motion that handles committees, partners and procurement","A clear ROI and risk case the buyer can defend internally","Reps who can run a long, consensus-driven sale","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for conservative, multi-stakeholder buyers","p":["I have run complex, high-value B2B deals with many stakeholders and formal procurement across four continents. The careful, consensus-driven legal buyer is exactly that kind of sale."]},
+    {"h":"Built for conservative, multi-stakeholder buyers","p":["I have run complex, high-value B2B deals with many stakeholders and formal procurement across five continents. The careful, consensus-driven legal buyer is exactly that kind of sale."]},
   ],
   "faqs":[
     {"q":"Have you sold to conservative, committee-driven buyers?","a":"Yes. Complex, multi-stakeholder deals with procurement and a long road to consensus are the deals I have run for years, the same shape as selling to law firms."},
@@ -3241,7 +3241,7 @@ GUIDES = [
   "sections":[
     {"h":"Why telecom sales are hard","p":["Carriers and operators are large, bureaucratic and slow, buying through RFPs, long procurement and entrenched vendor relationships, often across borders. It is one of the hardest enterprise sales there is, and it needs someone who has run formal, multi-stakeholder, international deals owning the pipeline."]},
     {"h":"What I build","ul":["An ICP and message for carriers, operators and large enterprises","A motion built for RFPs, procurement and long cycles","The channel: integrators, resellers and partners that carry telecom","Direct relationships with key carrier and operator accounts","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for formal, international, channel sales","p":["I have run B2G and complex public-sector deals with RFIs and RFQs, built international distributor and channel networks, and managed long, formal procurement across four continents. Telecom sits squarely in that world."]},
+    {"h":"Built for formal, international, channel sales","p":["I have run B2G and complex public-sector deals with RFIs and RFQs, built international distributor and channel networks, and managed long, formal procurement across five continents. Telecom sits squarely in that world."]},
   ],
   "faqs":[
     {"q":"Can you run RFP and procurement-driven deals?","a":"Yes. Formal RFIs, RFQs, RFPs and long procurement with many stakeholders are deals I have run internationally for years."},
@@ -3273,7 +3273,7 @@ GUIDES = [
   "sections":[
     {"h":"Why professional-services firms plateau","p":["Agencies, consultancies and services firms grow on referrals and the founders' relationships, then hit a ceiling when those run out. Most have never built real business development: a defined ICP, an outbound motion, a pipeline and someone who owns the number instead of waiting for the phone to ring."]},
     {"h":"What I build","ul":["A defined ICP and positioning beyond word of mouth","A real business-development motion and pipeline","The first business-development hires, trained and managed","The founders out of every pitch and into the right ones","The pipeline, the forecast and the number, owned end to end"]},
-    {"h":"Built for relationship and services selling","p":["I have built go-to-market from zero and run the kind of relationship-driven, trust-based selling that services firms depend on, across four continents. The same discipline turns a referral business into one with a real pipeline."]},
+    {"h":"Built for relationship and services selling","p":["I have built go-to-market from zero and run the kind of relationship-driven, trust-based selling that services firms depend on, across five continents. The same discipline turns a referral business into one with a real pipeline."]},
   ],
   "faqs":[
     {"q":"Can you grow a referral-based services firm?","a":"Yes. The job is building real business development on top of referrals: an ICP, an outbound motion, a pipeline and someone owning the number, so growth does not depend on who you already know."},
@@ -3289,7 +3289,7 @@ GUIDES = [
   "sections":[
     {"h":"Why foreign companies stall in the US","p":["Companies from Europe, Israel, APAC and beyond bring a product that works at home and run the US sale on home assumptions: the wrong ICP, a message that does not land, no US presence and leadership eight time zones away. The US rewards focus and presence, and punishes a part-time experiment run from abroad."]},
     {"h":"What I do","ul":["Pick the right beachhead segment instead of spreading thin","Adapt the ICP, positioning and pricing for the US buyer","Build the motion, hire the first US reps and manage them","Open the first accounts and lead the key deals personally","Stand up the US presence, direct or through partners"]},
-    {"h":"Built for cross-border entry into the US","p":["I am based in Israel and work US hours, and I have built and run sales in the US and across four continents and 40-plus countries for foreign and global companies. I know the expensive mistakes before you make them, and I have opened markets others wrote off."]},
+    {"h":"Built for cross-border entry into the US","p":["I am based in Israel and work US hours, and I have built and run sales in the US and across five continents and 40-plus countries for foreign and global companies. I know the expensive mistakes before you make them, and I have opened markets others wrote off."]},
   ],
   "faqs":[
     {"q":"Can you take a foreign company into the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
@@ -3595,7 +3595,7 @@ HE_GUIDES = [
       "יש הבדל בין מי שמעביר סדנה לבין מי שאחראי על המספר. נשאתי מכסה, בניתי את הפלייבוק, וישבתי בעסקאות בעצמי. כשאני מכשיר את הצוות שלכם, אני לא מלמד תיאוריה שקראתי בספר. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, כי סגרתי עסקאות כמו שלכם.",
       "ואז אני עושה את החלק שמדריך לא יכול: אני מנהל את הצוות כדי לוודא שזה עובד. אני יושב בשיחות, בודק את הפייפליין, מאמן את הנציגים שסוטים, ומעלה את הרף שוב ושוב עד שהדרך החדשה למכור היא פשוט הדרך שבה הצוות שלכם מוכר."]},
     {"h":"2,000 אנשי מכירות, ואז ניהול עד למספר","p":[
-      "לאורך יותר מ-20 שנה הכשרתי יותר מ-2,000 אנשי מכירות בארבע יבשות: SDRs, סוגרים, שותפי ערוץ וצוותים שלמים, בסטארטאפים ובארגונים גדולים. ההדרכה מעולם לא הייתה העיקר. העיקר היה מה שקרה אחר כך: עסקאות נסגרו, מחזורי מכירה התקצרו, והמספר עלה ונשאר למעלה.",
+      "לאורך יותר מ-20 שנה הכשרתי יותר מ-2,000 אנשי מכירות בחמש יבשות: SDRs, סוגרים, שותפי ערוץ וצוותים שלמים, בסטארטאפים ובארגונים גדולים. ההדרכה מעולם לא הייתה העיקר. העיקר היה מה שקרה אחר כך: עסקאות נסגרו, מחזורי מכירה התקצרו, והמספר עלה ונשאר למעלה.",
       "זה המבחן שאני מציב לעצמי. לא כמה טובה הרגישה הסדנה באותו יום, אלא אם ההכנסות באמת זזו רבעון אחר כך. הן זזות."]},
     {"h":"איך נראית הדרכת מכירות אמיתית","ul":[
       "היא מתחילה מהעסקאות האמיתיות שלכם, מהקונים שלכם ומההתנגדויות האמיתיות, לא מתוכנית גנרית",
@@ -3697,7 +3697,7 @@ HE_GUIDES = [
       "VP מכירות עולה 30,000 דולר בחודש או יותר, בסך הכל. החיפוש לוקח חודשים. ההתברגות לוקחת רבעון. ואם ההתאמה שגויה, וזה קורה הרבה, אתם מפטרים בחודש השני, השלישי או הרביעי, אוכלים את הפיצויים, ומתחילים את כל המחזור מחדש. ראיתי מייסדים שורפים מאות אלפי דולרים ככה, בלי שום דבר להראות מלבד זמן אבוד.",
       "הגיוס הוא הימור. אתם מהמרים שש ספרות על קורות חיים ושלושה ראיונות."]},
     {"h":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ הוא לא הימור","ul":[
-      "בניתי והרצתי הכנסות ל-30 ומעלה חברות B2B בארבע יבשות. אתם לא מהמרים אם אני יכול לעשות את זה. כבר עשיתי",
+      "בניתי והרצתי הכנסות ל-30 ומעלה חברות B2B בחמש יבשות. אתם לא מהמרים אם אני יכול לעשות את זה. כבר עשיתי",
       "בלי דמי מגייסים, בלי אקוויטי, בלי סיכון פיצויים, בלי חיפוש של חודשים",
       "תוצאות בשבוע הראשון: אני מאבחן איפה העסקאות דולפות, ואז מריץ את התיקון. בלי התברגות, בלי עקומת למידה"]},
     {"h":"אני לוקח אחריות על המספר. בעצמי. ידיים בבוץ.","p":[
@@ -3943,7 +3943,7 @@ HE_GUIDES = [
   "sections":[
     {"h":"VP מכירות במיקור חוץ מול Fractional CRO","p":["VP מכירות מריץ את צוות המכירות ואת הפייפליין יום-יום. CRO אחראי על כל ההכנסות, מכירות, שיווק ו-Go-To-Market, ועל התוצאות עצמן. אני עושה את שניהם; התפקיד הנכון תלוי אם אתם צריכים שיריצו את רצפת המכירות או שייקחו אחריות על כל מערך ההכנסות. הרבה חברות מתחילות עם VP מכירות במיקור חוץ ומגדילות את ההיקף ל-CRO."]},
     {"h":"מה באחריותי כ-VP מכירות במיקור חוץ","ul":["גיוס, הכשרה וניהול של SDR, AE ו-BD","ה-playbook, התסריטים ותהליך המכירה","ה-CRM, הפייפליין והתחזית","אימון נציגים ליעד והחלפת מי שלא יכול","ניהול יומיומי של רצפת המכירות"]},
-    {"h":"בניתי את הצוות, הרבה פעמים","p":["גייסתי, הכשרתי וניהלתי צוותי מכירות בארבע יבשות וביותר מ-40 מדינות, מנציגים ראשונים ועד רצפות מלאות עם SDR, AE, פוסט-סייל ותמיכה טכנית. אני גורם לצוות שיש לכם לעמוד ביעד ובונה את הצוות שעוד אין לכם."]},
+    {"h":"בניתי את הצוות, הרבה פעמים","p":["גייסתי, הכשרתי וניהלתי צוותי מכירות בחמש יבשות וביותר מ-40 מדינות, מנציגים ראשונים ועד רצפות מלאות עם SDR, AE, פוסט-סייל ותמיכה טכנית. אני גורם לצוות שיש לכם לעמוד ביעד ובונה את הצוות שעוד אין לכם."]},
   ],
   "faqs":[
     {"q":"מה עושה VP מכירות במיקור חוץ?","a":"בונה ומריץ את צוות המכירות והפייפליין במשרה חלקית: גיוס, הכשרה וניהול נציגים, אחריות על ה-playbook, ה-CRM והתחזית, ואימון הצוות ליעד."},
@@ -4203,7 +4203,7 @@ ABOUT_EN = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About Tal Paperin | Fractional CRO / CGO and B2B Growth Leader</title>
-  <meta name="description" content="Tal Paperin is a fractional CRO and Chief Growth Officer (CGO) with 20-plus years building and scaling revenue and growth engines across four continents. Operator, not advisor." />
+  <meta name="description" content="Tal Paperin is a fractional CRO and Chief Growth Officer (CGO) with 20-plus years building and scaling revenue and growth engines across five continents. Operator, not advisor." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/about" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
@@ -4213,12 +4213,12 @@ ABOUT_EN = '''<!doctype html>
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://talpaperin.com/about" />
   <meta property="og:title" content="About Tal Paperin | Fractional CRO / CGO" />
-  <meta property="og:description" content="Twenty years carrying the number on four continents. Fractional CRO and Chief Growth Officer. Operator, not advisor." />
+  <meta property="og:description" content="Twenty years carrying the number on five continents. Fractional CRO and Chief Growth Officer. Operator, not advisor." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="About Tal Paperin | Fractional CRO / CGO" />
-  <meta name="twitter:description" content="Twenty years carrying the number on four continents. Operator, not advisor." />
+  <meta name="twitter:description" content="Twenty years carrying the number on five continents. Operator, not advisor." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
   {fonts}
@@ -4237,7 +4237,7 @@ ABOUT_EN = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">About</p>
         <h1>About Tal Paperin</h1>
-        <p class="lead">Operator, not advisor. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty years of it, on four continents.</p>
+        <p class="lead">Operator, not advisor. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty years of it, on five continents.</p>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
 
@@ -4250,10 +4250,10 @@ ABOUT_EN = '''<!doctype html>
 
         <h2>Fractional CRO or fractional CGO?</h2>
         <p>The title depends on the mandate. A Chief Revenue Officer owns the number: sales, pipeline, forecasting and the closing motion. A Chief Growth Officer owns the whole system that produces it: sales plus marketing, partnerships and channel, pricing and packaging, and entry into new markets. I have run both, and the distinction is real.</p>
-        <p>Growth has always been the wider part of my work. KSW Solutions deliberately runs sales and marketing as one function, not two departments that blame each other. I have built distributor and channel networks across four continents, set pricing, and taken products into markets from zero. That is growth work, not just revenue work. So if your problem is &ldquo;we are not closing,&rdquo; you want a CRO. If it is &ldquo;we do not have a growth engine,&rdquo; you want a CGO. I can carry either seat, fractionally.</p>
+        <p>Growth has always been the wider part of my work. KSW Solutions deliberately runs sales and marketing as one function, not two departments that blame each other. I have built distributor and channel networks across five continents, set pricing, and taken products into markets from zero. That is growth work, not just revenue work. So if your problem is &ldquo;we are not closing,&rdquo; you want a CRO. If it is &ldquo;we do not have a growth engine,&rdquo; you want a CGO. I can carry either seat, fractionally.</p>
 
         <h2>KSW Solutions</h2>
-        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the firm I co-lead with Samantha Paperin, is an entire sales and marketing department for hire. Not advisors on the side, the whole function under one roof: the people and the senior leadership both. SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that runs them, hired, trained, managed and accountable. A company can outsource the entire revenue engine to us instead of building it.</p>
+        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the firm I co-lead, is an entire sales and marketing department for hire. Not advisors on the side, the whole function under one roof: the people and the senior leadership both. SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that runs them, hired, trained, managed and accountable. A company can outsource the entire revenue engine to us instead of building it.</p>
         <p>We deliver field-ready operations, not slideware, across SaaS, IoT and hardware, medical devices, manufacturing and consumer brands.</p>
 
         <h2>TheDealMentor.AI</h2>
@@ -4264,14 +4264,14 @@ ABOUT_EN = '''<!doctype html>
           <li>20-plus years in B2B sales, from SDR to VP of Global Sales and Business Development</li>
           <li>Operates as both a fractional CRO (revenue) and a fractional CGO (full growth: sales, marketing, partnerships and market entry)</li>
           <li>Built and rebuilt revenue for 30-plus B2B companies, from startups to multinationals</li>
-          <li>Worked across four continents and more than forty countries</li>
+          <li>Worked across five continents and more than forty countries</li>
           <li>Served in the Israeli Air Force</li>
           <li>Dual B.A. from the Hebrew University of Jerusalem, in International Relations and Chinese and East Asian Studies</li>
           <li>Speaks English, Hebrew, Russian and Chinese</li>
         </ul>
 
         <h2>The short personal version</h2>
-        <p>Born in the USSR in 1981, in Israel since 1990. Married to Samantha, an American-born marketing executive, and a father of five. Off the clock I collect mechanical tool watches, read science fiction and post-apocalyptic novels, and keep a structured strength-training habit.</p>
+        <p>Born in the USSR in 1981, in Israel since 1990. Married to an American-born marketing executive, and a father of five. Off the clock I collect mechanical tool watches, read science fiction and post-apocalyptic novels, and keep a structured strength-training habit.</p>
 
         <p><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">View my full background on LinkedIn &rarr;</a></p>
 
@@ -4282,7 +4282,7 @@ ABOUT_EN = '''<!doctype html>
           <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/-w_sHvp2v1I" title="Hard Corps Marketing Show #34" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">Global sales fundamentals</p></div>
         </div>
 
-        <h2 class="cases-recs-h">On the ground, on four continents</h2>
+        <h2 class="cases-recs-h">On the ground, on five continents</h2>
 {gallery}
 {cta}
         <div class="svc-related">See <a href="/services/">how I can help</a>, the <a href="/case-studies">case studies</a>, or <a href="/recommendations">what clients say</a>.</div>
@@ -4301,7 +4301,7 @@ ABOUT_HE = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>אודות טל פאפרין | סמנכ״ל מכירות וצמיחה במיקור חוץ (CRO / CGO)</title>
-  <meta name="description" content="טל פאפרין הוא סמנכ״ל מכירות במיקור חוץ וסמנכ״ל צמיחה (CRO / CGO) עם מעל 20 שנה של בנייה והרחבת מנועי הכנסות וצמיחה בארבע יבשות. איש ביצוע, לא יועץ." />
+  <meta name="description" content="טל פאפרין הוא סמנכ״ל מכירות במיקור חוץ וסמנכ״ל צמיחה (CRO / CGO) עם מעל 20 שנה של בנייה והרחבת מנועי הכנסות וצמיחה בחמש יבשות. איש ביצוע, לא יועץ." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/he/about" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
@@ -4311,12 +4311,12 @@ ABOUT_HE = '''<!doctype html>
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://talpaperin.com/he/about" />
   <meta property="og:title" content="אודות טל פאפרין | סמנכ״ל מכירות וצמיחה (CRO / CGO)" />
-  <meta property="og:description" content="עשרים שנה של אחריות על התוצאות, בארבע יבשות. סמנכ״ל מכירות וצמיחה במיקור חוץ. איש ביצוע, לא יועץ." />
+  <meta property="og:description" content="עשרים שנה של אחריות על התוצאות, בחמש יבשות. סמנכ״ל מכירות וצמיחה במיקור חוץ. איש ביצוע, לא יועץ." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="אודות טל פאפרין | סמנכ״ל מכירות וצמיחה (CRO / CGO)" />
-  <meta name="twitter:description" content="עשרים שנה של אחריות על התוצאות, בארבע יבשות. איש ביצוע, לא יועץ." />
+  <meta name="twitter:description" content="עשרים שנה של אחריות על התוצאות, בחמש יבשות. איש ביצוע, לא יועץ." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
   {fonts}
@@ -4335,7 +4335,7 @@ ABOUT_HE = '''<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">אודות</p>
         <h1>אודות טל פאפרין</h1>
-        <p class="lead">איש ביצוע, לא יועץ. אני לוקח אחריות על המספר ודואג שהצוות יספק אותו: מאבחן איפה ההכנסות נתקעו, ואז בונה, מכשיר ומנהל את הצוות, או מביא צוות משלי, עד שהמספר זז. עשרים שנה, בארבע יבשות.</p>
+        <p class="lead">איש ביצוע, לא יועץ. אני לוקח אחריות על המספר ודואג שהצוות יספק אותו: מאבחן איפה ההכנסות נתקעו, ואז בונה, מכשיר ומנהל את הצוות, או מביא צוות משלי, עד שהמספר זז. עשרים שנה, בחמש יבשות.</p>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" width="800" height="1200" loading="lazy" /><figcaption>הנהגת הכנסות בכירה, בכיסא.</figcaption></figure>
 
@@ -4348,10 +4348,10 @@ ABOUT_HE = '''<!doctype html>
 
         <h2>סמנכ״ל הכנסות במיקור חוץ או סמנכ״ל צמיחה?</h2>
         <p>התואר תלוי במנדט. סמנכ״ל הכנסות (CRO) אחראי על המספר: מכירות, צינור, תחזית ומהלך הסגירה. סמנכ״ל צמיחה (CGO) אחראי על כל המערכת שמייצרת אותו: מכירות יחד עם שיווק, שותפויות וערוצי הפצה, תמחור ואריזה, וכניסה לשווקים חדשים. עשיתי את שני התפקידים, וההבדל אמיתי.</p>
-        <p>הצמיחה תמיד הייתה החלק הרחב יותר בעבודה שלי. KSW Solutions מריצה בכוונה מכירות ושיווק כפונקציה אחת, לא שתי מחלקות שמאשימות זו את זו. בניתי רשתות מפיצים וערוצי הפצה בארבע יבשות, קבעתי תמחור, והכנסתי מוצרים לשווקים מאפס. זו עבודת צמיחה, לא רק עבודת הכנסות. אז אם הבעיה היא &rdquo;אנחנו לא סוגרים&ldquo;, אתם צריכים CRO. אם היא &rdquo;אין לנו מנוע צמיחה&ldquo;, אתם צריכים CGO. אני יכול לשבת בכל אחד מהכיסאות, במיקור חוץ.</p>
+        <p>הצמיחה תמיד הייתה החלק הרחב יותר בעבודה שלי. KSW Solutions מריצה בכוונה מכירות ושיווק כפונקציה אחת, לא שתי מחלקות שמאשימות זו את זו. בניתי רשתות מפיצים וערוצי הפצה בחמש יבשות, קבעתי תמחור, והכנסתי מוצרים לשווקים מאפס. זו עבודת צמיחה, לא רק עבודת הכנסות. אז אם הבעיה היא &rdquo;אנחנו לא סוגרים&ldquo;, אתם צריכים CRO. אם היא &rdquo;אין לנו מנוע צמיחה&ldquo;, אתם צריכים CGO. אני יכול לשבת בכל אחד מהכיסאות, במיקור חוץ.</p>
 
         <h2>KSW Solutions</h2>
-        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שאני מוביל יחד עם סמנתה פאפרין, היא מחלקת מכירות ושיווק שלמה להשכרה. לא יועצים מהצד, אלא כל הפונקציה תחת קורת גג אחת: גם האנשים וגם ההנהגה הבכירה. אנשי SDR, AE, BD ושיווק, יחד עם ההנהלה ברמת VP ו-CRO שמנהלת אותם, מגויסים, מוכשרים, מנוהלים ואחראים. חברה יכולה להוציא אלינו את כל מנוע ההכנסות למיקור חוץ במקום לבנות אותו.</p>
+        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שאני מוביל, היא מחלקת מכירות ושיווק שלמה להשכרה. לא יועצים מהצד, אלא כל הפונקציה תחת קורת גג אחת: גם האנשים וגם ההנהגה הבכירה. אנשי SDR, AE, BD ושיווק, יחד עם ההנהלה ברמת VP ו-CRO שמנהלת אותם, מגויסים, מוכשרים, מנוהלים ואחראים. חברה יכולה להוציא אלינו את כל מנוע ההכנסות למיקור חוץ במקום לבנות אותו.</p>
         <p>אנחנו מספקים מערכים מוכנים לשטח, לא מצגות, ב-SaaS, IoT וחומרה, מכשור רפואי, תעשייה ומותגי צריכה.</p>
 
         <h2>TheDealMentor.AI</h2>
@@ -4362,14 +4362,14 @@ ABOUT_HE = '''<!doctype html>
           <li>מעל 20 שנה במכירות B2B, מ-SDR ועד VP of Global Sales and Business Development</li>
           <li>פועל גם כסמנכ״ל הכנסות במיקור חוץ (CRO) וגם כסמנכ״ל צמיחה (CGO): מכירות, שיווק, שותפויות וכניסה לשווקים</li>
           <li>בניתי ובניתי מחדש הכנסות ל-30 ומעלה חברות B2B, מסטארטאפים ועד רב-לאומיות</li>
-          <li>עבדתי בארבע יבשות ובמעל ארבעים מדינות</li>
+          <li>עבדתי בחמש יבשות ובמעל ארבעים מדינות</li>
           <li>שירתתי בחיל האוויר הישראלי</li>
           <li>תואר ראשון כפול מהאוניברסיטה העברית בירושלים, ביחסים בינלאומיים ובלימודי סין ומזרח אסיה</li>
           <li>דובר אנגלית, עברית, רוסית וסינית</li>
         </ul>
 
         <h2>הגרסה האישית הקצרה</h2>
-        <p>נולדתי בברית המועצות ב-1981, בישראל מ-1990. נשוי לסמנתה, מנהלת שיווק ילידת ארה"ב, ואב לחמישה. בשעות הפנאי אני אוסף שעוני כלי מכניים, קורא מדע בדיוני ורומנים פוסט-אפוקליפטיים, ושומר על שגרת אימוני כוח מסודרת.</p>
+        <p>נולדתי בברית המועצות ב-1981, בישראל מ-1990. נשוי למנהלת שיווק ילידת ארה"ב, ואב לחמישה. בשעות הפנאי אני אוסף שעוני כלי מכניים, קורא מדע בדיוני ורומנים פוסט-אפוקליפטיים, ושומר על שגרת אימוני כוח מסודרת.</p>
 
         <p><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">לרקע המלא שלי בלינקדאין &larr;</a></p>
 
@@ -4380,7 +4380,7 @@ ABOUT_HE = '''<!doctype html>
           <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/-w_sHvp2v1I" title="Hard Corps Marketing Show #34" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">יסודות ועקרונות במכירות בינלאומיות</p></div>
         </div>
 
-        <h2 class="cases-recs-h">בשטח, בארבע יבשות</h2>
+        <h2 class="cases-recs-h">בשטח, בחמש יבשות</h2>
 {gallery}
 {cta}
         <div class="svc-related">ראו <a href="/he/services/">איך אני יכול לעזור</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/recommendations">מה לקוחות אומרים</a>.</div>

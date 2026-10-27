@@ -9,7 +9,7 @@ image: /og-image.jpg
 
 Most founders ask the wrong question first. They ask "can we afford a CRO?" when the real question is "how much revenue leadership do we need right now, and for how long?" Get that second question right and the cost answer takes care of itself.
 
-Here is how I think about it after 20-plus years building and running revenue functions on four continents.
+Here is how I think about it after 20-plus years building and running revenue functions on five continents.
 
 ## What a CRO is supposed to do
 

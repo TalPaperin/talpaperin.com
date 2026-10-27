@@ -6,7 +6,7 @@ tags: Frum, Business Growth, Heimishe Business, Business Consultant
 image: /og-image.jpg
 ---
 
-You built something real. Now you want to expand it without it all resting on your shoulders. Growing a frum business past the founder takes a system, a team and senior ownership of revenue, which is exactly what I bring. I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run revenue for B2B companies on four continents, and a real part of my work is with frum and heimishe business owners.
+You built something real. Now you want to expand it without it all resting on your shoulders. Growing a frum business past the founder takes a system, a team and senior ownership of revenue, which is exactly what I bring. I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run revenue for B2B companies on five continents, and a real part of my work is with frum and heimishe business owners.
 
 ## What business growth actually means
 
