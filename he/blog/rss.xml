@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>HubSpot פיטרה 660 עובדים וקראה לזה AI. קראו את זה אחרת.</title>
+      <link>https://talpaperin.com/he/blog/ai-layoffs-expose-weak-sales</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/ai-layoffs-expose-weak-sales</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>HubSpot פיטרה כמעט 660 עובדים ו-HoneyBook קיצצה 14 אחוז, שתיהן בשם ה-AI. הקריאה הכנה: AI נתן כיסוי לקצץ כוח אדם שמנוע מכירות חלש נשא.</description>
+    </item>
     <item>
       <title>At-Bay הוערכה ב-1.35 מיליארד דולר. היא נמכרה ב-575 מיליון. תקראו את הפער.</title>
       <link>https://talpaperin.com/he/blog/valuation-is-not-a-business</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/why-sales-training-fails</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
       <description>רוב הדרכות המכירות הן זריקת סוכר של יומיים שנגמרת עד יום רביעי. הכשרתי 2,000 אנשי מכירות בעולם. ההדרכה מעולם לא הייתה החלק שהזיז את ההכנסות.</description>
-    </item>
-    <item>
-      <title>OpenAI בונה צוות עסקי בישראל. זה מספר לכם הכל.</title>
-      <link>https://talpaperin.com/he/blog/openai-building-business-team-in-israel</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/openai-building-business-team-in-israel</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <description>OpenAI בונה בישראל נוכחות עסקית, לא מרכז פיתוח. מה זה אומר על הפיכת AI להכנסות, ועל גיוס לפי תוצאות במקום לפי מיקום.</description>
     </item>
   </channel>
 </rss>

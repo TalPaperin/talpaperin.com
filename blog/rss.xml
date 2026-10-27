@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>HubSpot Cut 660 Jobs and Called It AI. Read It Differently.</title>
+      <link>https://talpaperin.com/blog/ai-layoffs-expose-weak-sales</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/ai-layoffs-expose-weak-sales</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount that a weak sales engine had been carrying.</description>
+    </item>
     <item>
       <title>At-Bay Was Valued at $1.35B. It Sold for $575M. Read the Gap.</title>
       <link>https://talpaperin.com/blog/valuation-is-not-a-business</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/why-sales-training-fails</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
       <description>Most sales training is a two-day sugar high that wears off by Wednesday. I have trained 2,000 salespeople worldwide. The training was never the part that moved revenue.</description>
-    </item>
-    <item>
-      <title>OpenAI Is Building a Business Team in Israel. That Tells You Everything.</title>
-      <link>https://talpaperin.com/blog/openai-building-business-team-in-israel</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/openai-building-business-team-in-israel</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <description>OpenAI is building a business team in Israel, not a dev center. What that says about turning AI into revenue, and about hiring for results over location.</description>
     </item>
   </channel>
 </rss>

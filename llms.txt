@@ -79,12 +79,15 @@
 - [B2B Go-To-Market Strategy, Built by Someone Who Runs It](https://talpaperin.com/b2b-go-to-market-strategy): A go-to-market strategy you can run, not file away. The five parts of a real B2B GTM, the order to build them, and the mistakes that burn the budget.
 - [B2B Positioning and Messaging That Makes Buyers Pick You](https://talpaperin.com/b2b-positioning-and-messaging): Positioning is why a buyer picks you over the status quo. How to build B2B positioning and a message that sells the outcome, not the feature list.
 - [How to Choose Your Go-To-Market Motion](https://talpaperin.com/go-to-market-motion): Outbound, inbound, product-led or channel? How to choose the right B2B go-to-market motion by price point, buyer and stage, not by hype.
+- [Sell in Israel First, or Go Straight Abroad?](https://talpaperin.com/sell-in-israel-first-or-go-global): Should an Israeli B2B startup sell at home first or go straight abroad? The honest answer, when local-first helps, and when it quietly burns a year.
+- [When to Expand to the US Market](https://talpaperin.com/when-to-expand-to-the-us): How to know your B2B company is ready for the US, the signals that say wait, and what to validate before you spend a dollar on a US move.
 
 ## Hebrew (עברית)
 - [Services in Hebrew](https://talpaperin.com/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew.
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [HubSpot Cut 660 Jobs and Called It AI. Read It Differently.](https://talpaperin.com/blog/ai-layoffs-expose-weak-sales): HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount that a weak sales engine had been carrying.
 - [At-Bay Was Valued at $1.35B. It Sold for $575M. Read the Gap.](https://talpaperin.com/blog/valuation-is-not-a-business): At-Bay hit a $1.35B valuation and sold to Munich Re for $575M. A valuation is a bet. Revenue is a fact. Here is how founders should read the difference.
 - [Product-Led vs Sales-Led Growth: Which Does Your B2B Need?](https://talpaperin.com/blog/product-led-vs-sales-led): PLG fits low-ACV self-serve products. Sales-led fits high-ACV committee buying. Most B2B need a hybrid. Choose by buyer, price, and complexity, not by hype.
 - [The Sales Metrics Founders Should Actually Track](https://talpaperin.com/blog/sales-metrics-founders-should-track): Founders drown in dashboards. Here are the five sales metrics that actually predict revenue, the vanity numbers to ignore, and when each one should make you act.

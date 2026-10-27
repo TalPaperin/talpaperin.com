@@ -321,6 +321,7 @@ ARTICLE_GUIDES = {
     "sales-team-missing-quota", "sales-forecast-always-wrong", "hired-reps-but-no-pipeline",
     "how-to-build-a-sales-team", "sales-compensation-plan", "setting-sales-quotas",
     "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
+    "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
     "tal-paperin-podcasts-and-press",
 }
 
@@ -2429,7 +2430,7 @@ GUIDES = [
     {"q":"Do you work with Israeli companies?","a":"Yes. Most of my work is taking Israeli B2B companies into the US, the EU and other markets, direct and through distributors."},
     {"q":"Can we work in Hebrew?","a":"Yes. I work with Israeli founders and teams in Hebrew and run the international selling in English or the target market's language."},
     {"q":"How much does a fractional CRO in Israel cost?","a":"Engagements run $2,000 to $12,000 a month depending on involvement, far below a $250,000-plus full-time CRO hire."}],
-  "related":'See the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he/">the Hebrew site</a>.'},
+  "related":'Weighing local versus global? See <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a> and <a href="/when-to-expand-to-the-us">when to expand to the US</a>. Or see the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he/">the Hebrew site</a>.'},
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"Fractional CRO vs Hiring a VP of Sales | Tal Paperin",
@@ -3102,7 +3103,7 @@ GUIDES = [
     {"q":"Can you help an Israeli startup enter the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
     {"q":"Do I need a US entity and US reps?","a":"Often eventually, but not always on day one. I help you sequence it: prove the motion, then stand up the presence and team, direct or through partners, when it is justified."},
     {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
-  "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide, or <a href="/contact">get in touch</a>.'},
+  "related":'Deciding the timing and sequence? See <a href="/when-to-expand-to-the-us">when to expand to the US</a> and <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a>. Or see the <a href="/services/market-entry">market entry</a> service and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"outsourced-cro",
   "title":"Outsourced CRO | Tal Paperin",
@@ -3416,6 +3417,80 @@ GUIDES = [
     {"q":"When does product-led growth work?","a":"When the product genuinely sells itself: low price point, self-serve adoption, and a single user who does not need committee sign-off. The moment a deal requires approval from finance or a department head, you need a sales motion alongside it."},
     {"q":"Can I run more than one motion?","a":"Most B2B companies do, and should. A common path is outbound for control early, inbound layered in as it compounds, and channel added where a market is hard to reach directly. The error is forcing one motion by ideology instead of matching motions to the buyer and price point."}],
   "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/b2b-positioning-and-messaging">positioning and messaging</a>, the <a href="/services/go-to-market-strategy">GTM service</a>, or read <a href="/blog/outbound-vs-inbound-early-stage">outbound vs inbound for early-stage B2B</a> and <a href="/blog/product-led-vs-sales-led">product-led vs sales-led growth</a>. If you hired reps but have no pipeline, the missing piece is usually the motion itself: see <a href="/hired-reps-but-no-pipeline">hired reps but no pipeline</a>.'},
+
+ {"slug":"sell-in-israel-first-or-go-global",
+  "title":"Sell in Israel First, or Go Global? | Tal Paperin",
+  "desc":"Should an Israeli B2B startup sell at home first or go straight abroad? The honest answer, when local-first helps, and when it quietly burns a year.",
+  "h1":"Sell in Israel First, or Go Straight Abroad?","eyebrow":"Market Entry",
+  "lead":"Most Israeli B2B founders frame it as a binary: Israel or abroad. Wrong frame. What matters is what the local market can actually teach you, and what it quietly hides until the day you try to sell in New York. Here is how I decide it with clients, and when selling at home first is a trap.",
+  "sections":[
+    {"h":"The Israeli market is too small to be your target, and that is the point","p":[
+      "Israel has under ten million people and a small pool of buyers for any given B2B product. No serious Israeli company has ever been built on the domestic market alone, and most of my work for 20-plus years has been taking Israeli companies into the US, the EU, Eastern Europe and APAC. So when a founder says they will nail Israel first and expand later, I push back. Expand to what? The target was always abroad.",
+      "That does not make the local market useless. It makes it a rehearsal room, not a stage. The trap is mistaking the rehearsal for the show."]},
+    {"h":"What selling in Israel first is genuinely good for","ul":[
+      "Testing the pitch cheaply, in person, with buyers you reach by driving across Tel Aviv instead of flying eight time zones",
+      "Getting your first reference logos and case studies, even small ones, so a US buyer is not your first ever customer",
+      "Learning the mechanics of your own sale: the objections, the stakeholders, how long a cycle really runs",
+      "Pressure-testing the product against real procurement before the stakes are a make-or-break US account"]},
+    {"h":"What it quietly hides, and why local-first burns a year","p":[
+      "Israeli buyers are not American buyers. They negotiate harder on price, they tolerate a rougher product from a company they know personally, and they buy partly because the founder served with someone who vouched for you. None of that travels. You can close a dozen deals in Israel on relationships and informality, declare the motion proven, and then watch it fall apart the first time a US buyer who has never heard of you runs you through a real evaluation.",
+      "That is the year founders burn. They treat local traction as proof the go-to-market works, scale on it, and discover in the US that they validated the wrong thing. The home market flattered them."]},
+    {"h":"When local-first actually makes sense","tiers":[
+      "Regulated or locally-bound products. If you sell to Israeli banks, hospitals, utilities or the public sector, the local market is a real market with real revenue, not a rehearsal. Start where you can win.",
+      "Defense and government-adjacent. An IDF or Israeli government reference is an asset abroad, not a distraction. Here the local deal is strategic, not just practice.",
+      "Hebrew-first or Israel-specific products. If the product only makes sense in the local language, regulation or market structure, abroad is a separate product, not a next step.",
+      "Pure cash survival. If you need revenue this quarter to stay alive and the only reachable buyers are local, sell to them. Just do not confuse surviving with validating."]},
+    {"h":"How I sequence it with clients","p":[
+      "Use the local market to learn, not to prove. Close a handful of Israeli deals to sharpen the pitch and the mechanics, treat the results as a draft, and build the real go-to-market for the target market from day one. I built my own company by getting on a plane and visiting a customer, not by waiting for the home market to carry me. For most Israeli B2B companies the honest sequence is simple: learn at home if it is cheap and fast, but point the strategy, the ICP and the message at the US or the EU from the start."]},
+    {"h":"Go deeper","links":[
+      ["US market entry for Israeli startups", "/us-market-entry-for-israeli-startups"],
+      ["When to expand to the US", "/when-to-expand-to-the-us"],
+      ["Market entry service", "/services/market-entry"]]},
+  ],
+  "faqs":[
+    {"q":"Should an Israeli startup sell in Israel before going abroad?","a":"For most B2B companies, treat Israel as a place to learn, not your target market. It is too small to build a company on, and local traction can flatter you because Israeli buyers buy on relationships and informality that do not travel. Sharpen the pitch at home if it is cheap, but build the go-to-market for the US or EU from day one."},
+    {"q":"When does selling locally first make sense?","a":"When the local market is a real market with real revenue: regulated or locally-bound products sold to Israeli banks, hospitals, utilities or the public sector; defense and government deals where an Israeli reference is an asset abroad; Hebrew-first products; or pure cash survival when local buyers are the only ones you can reach now."},
+    {"q":"Why do Israeli startups fail when they expand from a strong local base?","a":"Because they validated the wrong thing. Deals closed in Israel on personal relationships and a tolerance for a rough product do not predict how a US buyer who has never heard of you will evaluate you. Founders scale on home traction and find out abroad that the motion never actually worked for a cold market."},
+    {"q":"Can you help an Israeli company sequence local and global sales?","a":"Yes. I have spent 20-plus years taking Israeli B2B companies into the US, the EU, Eastern Europe and APAC. I help decide what to learn at home, what to point abroad from day one, and then build and run the go-to-market for the target market."}],
+  "related":'See <a href="/us-market-entry-for-israeli-startups">US market entry for Israeli startups</a>, <a href="/when-to-expand-to-the-us">when to expand to the US</a> and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide. From the blog: <a href="/blog/choosing-first-market">how to choose your first market</a>, <a href="/blog/why-israeli-startups-fail-at-sales">why Israeli startups fail at sales abroad</a> and <a href="/blog/an-israeli-saas-company-sold-to-the-wrong-market-for">an Israeli SaaS company that sold to the wrong market</a>.'},
+
+ {"slug":"when-to-expand-to-the-us",
+  "title":"When to Expand to the US Market | Tal Paperin",
+  "desc":"How to know your B2B company is ready for the US, the signals that say wait, and what to validate before you spend a dollar on a US move.",
+  "h1":"When to Expand to the US Market","eyebrow":"Market Entry",
+  "lead":"The US is the biggest prize and the fastest way to burn a raise. Most companies get the timing wrong in one of two directions: they race over to sell before they know anything, or they wait so long the home market becomes a ceiling. Here is how I read readiness, and what to prove before you commit a dollar.",
+  "sections":[
+    {"h":"Race to learn, not to sell","p":[
+      "The most expensive US mistake is treating the move as a sales launch when it is really a learning exercise. Founders fly over, rent an office, hire two reps and expect pipeline in a quarter. Then nothing closes, the burn is real, and the raise is gone. The US does not reward presence alone. It rewards a company that already knows who buys, why, and what the sale looks like before it scales the spend.",
+      "Expand when you are ready to learn fast and cheap in the US, not when you are desperate to book revenue there."]},
+    {"h":"Signals you are ready","ul":[
+      "You have referenceable customers, even small ones, who will take a call from a US prospect",
+      "Your sale repeats: you can name the ICP, the stages and the cycle length without guessing",
+      "US buyers are already pulling, inbound or in conversations, not just a market you assume wants you",
+      "You have the runway to give it twelve to eighteen months, because a US motion does not pay back in a quarter",
+      "A founder or senior leader can spend real time on US hours, not a rep left to sink or swim"]},
+    {"h":"Signals you are not ready yet","ul":[
+      "Sales still run entirely through the founder's personal network and nothing is documented",
+      "You cannot describe your ICP without saying \"anyone who\"",
+      "Your only proof is home-market deals closed on relationships, not a cold, repeatable motion",
+      "You are expanding to escape a stalled home market rather than to chase real US demand",
+      "The plan is to hire a US VP of Sales, hand them the problem and hope"]},
+    {"h":"What to validate before you spend","p":[
+      "Before the entity, the office and the first hire, have twenty real conversations with US buyers who fit your ICP. Not to sell. To learn whether the pain you solve is the pain they feel, whether your message lands in their words, and what they would actually pay. If US buyers take the meeting and lean in, that is the strongest readiness signal there is. If you cannot get them on the phone from Israel, a US office will not fix that.",
+      "Then size it honestly: how much of your real addressable market sits in the US. If most of it does, the US is not a question of whether, only when and how."]},
+    {"h":"Enter lean, then scale","p":[
+      "Readiness does not mean relocating the company. The first US sales can come from your existing team working US hours, then a small landing team, then reps and an entity once the motion proves out. Sequence it: prove, then build the presence, direct or through partners, when it is justified. The companies that burn the US are the ones that build the whole apparatus before they have a single repeatable deal."]},
+    {"h":"Go deeper","links":[
+      ["US market entry for Israeli startups", "/us-market-entry-for-israeli-startups"],
+      ["Fractional CRO for the US market", "/fractional-cro-for-the-us-market"],
+      ["Sell in Israel first, or go global?", "/sell-in-israel-first-or-go-global"]]},
+  ],
+  "faqs":[
+    {"q":"When should a startup expand to the US?","a":"When the sale already repeats and US buyers are pulling, not when you need revenue there to survive. Concretely: you have referenceable customers, a defined ICP and cycle, 12 to 18 months of runway, and a leader who can give it real time on US hours. If sales still run through the founder's network and nothing is documented, it is too early."},
+    {"q":"How do I know if my company is ready for the US market?","a":"Have 20 real conversations with US buyers who fit your ICP before you spend a dollar on an entity or office. If they take the meeting and lean in, that is the strongest readiness signal. If you cannot get them on the phone from home, a US office will not fix it. Also check how much of your addressable market is actually in the US."},
+    {"q":"Do I need a US office and team to start selling there?","a":"No. The first US sales can come from your existing team working US hours, then a small landing team, then reps and an entity once the motion proves out. Building the full apparatus before you have one repeatable deal is how companies burn the US."},
+    {"q":"What is the most common US expansion mistake?","a":"Treating the move as a sales launch instead of a learning exercise. Founders rent an office and hire reps expecting pipeline in a quarter, then burn the raise when nothing closes. Expand to learn fast and cheap, not to book revenue you have not earned the right to yet."}],
+  "related":'See <a href="/us-market-entry-for-israeli-startups">US market entry for Israeli startups</a>, <a href="/fractional-cro-for-the-us-market">fractional CRO for the US market</a> and <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a>. From the blog: <a href="/blog/entering-the-us-market">entering the US market</a>, <a href="/blog/setting-up-us-subsidiary">setting up a US subsidiary</a> and <a href="/blog/choosing-first-market">how to choose your first market</a>.'},
 ]
 
 
@@ -3610,7 +3685,7 @@ HE_GUIDES = [
     {"q":"אתם עובדים עם חברות ישראליות?","a":"כן. רוב העבודה שלי היא לקחת חברות B2B ישראליות לארה״ב, לאיחוד האירופי ולשווקים נוספים, במכירה ישירה ודרך מפיצים."},
     {"q":"אפשר לעבוד בעברית?","a":"כן. אני עובד עם מייסדים וצוותים ישראליים בעברית ומריץ את המכירה הבינלאומית באנגלית או בשפת השוק היעד."},
     {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל?","a":"הפרויקטים נעים בין 2,000 ל-12,000 דולר בחודש לפי רמת המעורבות, הרבה מתחת לגיוס סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה של 250 אלף דולר ומעלה."}],
-  "related":'ראו את שירותי <a href="/he/services/market-entry">כניסה לשוק</a> ו-<a href="/he/services/fractional-cro">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>, או <a href="/fractional-cro-israel">הגרסה באנגלית</a>. מהבלוג: <a href="/he/blog/entering-the-us-market">כניסה לשוק האמריקאי</a>, <a href="/he/blog/why-israeli-startups-fail-at-sales">למה סטארטאפים ישראלים נכשלים במכירות בחו״ל</a>.'},
+  "related":'שוקלים מקומי מול גלובלי? ראו <a href="/he/sell-in-israel-first-or-go-global">למכור קודם בישראל, או ישר לחו״ל?</a> ו<a href="/he/when-to-expand-to-the-us">מתי להתרחב לשוק האמריקאי</a>. או ראו את שירותי <a href="/he/services/market-entry">כניסה לשוק</a> ו-<a href="/he/services/fractional-cro">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>, או <a href="/fractional-cro-israel">הגרסה באנגלית</a>. מהבלוג: <a href="/he/blog/entering-the-us-market">כניסה לשוק האמריקאי</a>, <a href="/he/blog/why-israeli-startups-fail-at-sales">למה סטארטאפים ישראלים נכשלים במכירות בחו״ל</a>.'},
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ מול גיוס VP מכירות | טל פאפרין",
@@ -4044,6 +4119,80 @@ HE_GUIDES = [
     {"q":"מתי צמיחה מוצר-מובילה עובדת?","a":"כשהמוצר באמת מוכר את עצמו: נקודת מחיר נמוכה, אימוץ בשירות עצמי, ומשתמש יחיד שלא צריך אישור ועדה. ברגע שעסקה דורשת אישור מכספים או מראש מחלקה, אתם צריכים מהלך מכירה לצידו."},
     {"q":"אפשר להריץ יותר ממהלך אחד?","a":"רוב חברות ה-B2B עושות זאת, ונכון שיעשו. דרך נפוצה היא אאוטבאונד לשליטה מוקדם, אינבאונד משולב ככל שהוא מצטבר, וערוץ נוסף היכן ששוק קשה להשגה ישירה. הטעות היא להכריח מהלך אחד מתוך אידאולוגיה במקום להתאים מהלכים לקונה ולנקודת המחיר."}],
   "related":'חלק מאשכול <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ההליכה לשוק</a>. ראו גם <a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a>, את <a href="/he/services/go-to-market-strategy">שירות ה-GTM</a>, או קראו <a href="/he/blog/outbound-vs-inbound-early-stage">אאוטבאונד מול אינבאונד בשלב מוקדם</a> ו<a href="/he/blog/product-led-vs-sales-led">צמיחה מוצר-מובילה מול מכירה-מובילה</a>. אם גייסתם נציגים ואין פייפליין, החלק החסר הוא לרוב המהלך עצמו: ראו <a href="/he/hired-reps-but-no-pipeline">גייסתם נציגים ואין פייפליין</a>.'},
+
+ {"slug":"sell-in-israel-first-or-go-global",
+  "title":"למכור קודם בישראל, או ישר לחו״ל? | טל פאפרין",
+  "desc":"האם סטארטאפ B2B ישראלי צריך להוכיח מכירות בבית לפני חו״ל, או לדלג על השוק המקומי? התשובה הכנה, ומתי התחלה מקומית היא מלכודת.",
+  "h1":"למכור קודם בישראל, או ישר לחו״ל?","eyebrow":"חדירה לשווקים",
+  "lead":"רוב המייסדים הישראלים ממסגרים את זה כבינארי: ישראל או חו״ל. מסגרת שגויה. מה שחשוב הוא מה השוק המקומי באמת יכול ללמד אתכם, ומה הוא מסתיר בשקט עד היום שבו תנסו למכור בניו יורק. הנה איך אני מכריע את זה עם לקוחות, ומתי מכירה בבית קודם היא מלכודת.",
+  "sections":[
+    {"h":"השוק הישראלי קטן מכדי להיות היעד שלכם, וזו הנקודה","p":[
+      "בישראל חיים פחות מעשרה מיליון אנשים ומאגר קטן של קונים לכל מוצר B2B נתון. אף חברה ישראלית רצינית לא נבנתה על השוק המקומי לבדו, ורוב העבודה שלי ביותר מ-20 שנה הייתה לקחת חברות ישראליות לארה״ב, לאיחוד האירופי, למזרח אירופה ול-APAC. אז כשמייסד אומר שהוא יכבוש קודם את ישראל ואז יתרחב, אני מתנגד. יתרחב לאן? היעד תמיד היה בחו״ל.",
+      "זה לא הופך את השוק המקומי לחסר תועלת. זה הופך אותו לחדר חזרות, לא לבמה. המלכודת היא לבלבל בין החזרה להצגה."]},
+    {"h":"במה מכירה בישראל קודם באמת טובה","ul":[
+      "בדיקת המסר בזול, פנים אל פנים, מול קונים שמגיעים אליהם בנסיעה ברחבי תל אביב במקום בטיסה של שמונה אזורי זמן",
+      "השגת הלוגואים ומקרי המבחן הראשונים, גם קטנים, כדי שקונה אמריקאי לא יהיה הלקוח הראשון שלכם אי פעם",
+      "ללמוד את המכניקה של המכירה שלכם: ההתנגדויות, בעלי העניין, כמה זמן מחזור באמת נמשך",
+      "לבחון את המוצר מול רכש אמיתי לפני שהסיכון הוא חשבון אמריקאי גורלי"]},
+    {"h":"מה הוא מסתיר בשקט, ולמה התחלה מקומית שורפת שנה","p":[
+      "קונים ישראלים הם לא קונים אמריקאים. הם מתמקחים חזק יותר על מחיר, סובלים מוצר גולמי יותר מחברה שהם מכירים אישית, וקונים בין היתר כי המייסד שירת עם מישהו שערב לכם. שום דבר מזה לא עובר לחו״ל. אפשר לסגור תריסר עסקאות בישראל על קשרים ואי-פורמליות, להכריז שהמהלך הוכח, ואז לראות אותו מתפרק ברגע שקונה אמריקאי שמעולם לא שמע עליכם מריץ אתכם בתהליך הערכה אמיתי.",
+      "זו השנה שמייסדים שורפים. הם מתייחסים לטרקשן המקומי כהוכחה שה-Go-to-Market עובד, מתרחבים עליו, ומגלים בארה״ב שהם אימתו את הדבר הלא נכון. השוק הביתי החמיא להם."]},
+    {"h":"מתי התחלה מקומית באמת הגיונית","tiers":[
+      "מוצרים מפוקחים או קשורים למקום. אם אתם מוכרים לבנקים, בתי חולים, חברות תשתית או למגזר הציבורי בישראל, השוק המקומי הוא שוק אמיתי עם הכנסה אמיתית, לא חזרה. התחילו איפה שאתם יכולים לנצח.",
+      "ביטחון וסמוך לממשל. רפרנס של צה״ל או של ממשלת ישראל הוא נכס בחו״ל, לא הסחת דעת. כאן העסקה המקומית אסטרטגית, לא רק אימון.",
+      "מוצרים שעברית תחילה או ספציפיים לישראל. אם המוצר הגיוני רק בשפה, ברגולציה או במבנה השוק המקומי, חו״ל הוא מוצר נפרד, לא שלב הבא.",
+      "הישרדות תזרימית טהורה. אם אתם צריכים הכנסה ברבעון הזה כדי לשרוד והקונים היחידים שבהישג יד הם מקומיים, מכרו להם. רק אל תבלבלו הישרדות עם אימות."]},
+    {"h":"איך אני מסדר את הרצף עם לקוחות","p":[
+      "השתמשו בשוק המקומי כדי ללמוד, לא כדי להוכיח. סגרו קומץ עסקאות ישראליות כדי לחדד את המסר ואת המכניקה, התייחסו לתוצאות כטיוטה, ובנו את ה-Go-to-Market האמיתי לשוק היעד מהיום הראשון. בניתי את החברה שלי בכך שעליתי על מטוס וביקרתי לקוח, לא בכך שחיכיתי שהשוק הביתי יישא אותי. לרוב חברות ה-B2B הישראליות הרצף הכן פשוט: ללמוד בבית אם זה זול ומהיר, אבל לכוון את האסטרטגיה, ה-ICP והמסר לארה״ב או לאיחוד האירופי מההתחלה."]},
+    {"h":"להעמיק","links":[
+      ["מתי להתרחב לשוק האמריקאי", "/he/when-to-expand-to-the-us"],
+      ["סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל", "/he/fractional-cro-israel"],
+      ["שירות כניסה לשוק", "/he/services/market-entry"]]},
+  ],
+  "faqs":[
+    {"q":"האם סטארטאפ ישראלי צריך למכור בישראל לפני חו״ל?","a":"לרוב חברות ה-B2B, התייחסו לישראל כמקום ללמוד בו, לא כיעד. הוא קטן מכדי לבנות עליו חברה, והטרקשן המקומי יכול להחמיא לכם כי קונים ישראלים קונים על קשרים ואי-פורמליות שלא עוברים לחו״ל. חדדו את המסר בבית אם זה זול, אבל בנו את ה-Go-to-Market לארה״ב או לאיחוד האירופי מהיום הראשון."},
+    {"q":"מתי מכירה מקומית קודם הגיונית?","a":"כשהשוק המקומי הוא שוק אמיתי עם הכנסה אמיתית: מוצרים מפוקחים או קשורים למקום שנמכרים לבנקים, בתי חולים, תשתיות או למגזר הציבורי בישראל; עסקאות ביטחון וממשל שבהן רפרנס ישראלי הוא נכס בחו״ל; מוצרים שעברית תחילה; או הישרדות תזרימית טהורה כשהקונים המקומיים הם היחידים בהישג יד עכשיו."},
+    {"q":"למה סטארטאפים ישראלים נכשלים כשהם מתרחבים מבסיס מקומי חזק?","a":"כי הם אימתו את הדבר הלא נכון. עסקאות שנסגרו בישראל על קשרים אישיים וסובלנות למוצר גולמי לא מנבאות איך קונה אמריקאי שמעולם לא שמע עליכם יעריך אתכם. מייסדים מתרחבים על הטרקשן הביתי ומגלים בחו״ל שהמהלך מעולם לא באמת עבד לשוק קר."},
+    {"q":"אתם יכולים לעזור לחברה ישראלית לסדר את רצף המכירות המקומי והגלובלי?","a":"כן. ביליתי יותר מ-20 שנה בלקיחת חברות B2B ישראליות לארה״ב, לאיחוד האירופי, למזרח אירופה ול-APAC. אני עוזר להחליט מה ללמוד בבית, מה לכוון לחו״ל מהיום הראשון, ואז לבנות ולהריץ את ה-Go-to-Market לשוק היעד."}],
+  "related":'ראו <a href="/he/when-to-expand-to-the-us">מתי להתרחב לשוק האמריקאי</a>, את המדריך <a href="/he/fractional-cro-israel">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל</a> ואת <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ה-Go-to-Market</a>. מהבלוג: <a href="/he/blog/choosing-first-market">איך לבחור את השוק הראשון</a>, <a href="/he/blog/why-israeli-startups-fail-at-sales">למה סטארטאפים ישראלים נכשלים במכירות בחו״ל</a> ו<a href="/he/blog/an-israeli-saas-company-sold-to-the-wrong-market-for">חברת SaaS ישראלית שמכרה לשוק הלא נכון</a>. או <a href="/sell-in-israel-first-or-go-global">הגרסה באנגלית</a>.'},
+
+ {"slug":"when-to-expand-to-the-us",
+  "title":"מתי להתרחב לשוק האמריקאי | טל פאפרין",
+  "desc":"איך לדעת שהחברה שלכם מוכנה לארה״ב, הסימנים שאומרים לחכות, ומה לאמת לפני שתוציאו דולר על המהלך.",
+  "h1":"מתי להתרחב לשוק האמריקאי","eyebrow":"חדירה לשווקים",
+  "lead":"ארה״ב היא הפרס הגדול ביותר והדרך המהירה ביותר לשרוף גיוס. רוב החברות טועות בתזמון באחד משני כיוונים: הן ממהרות לשם למכור לפני שהן יודעות משהו, או מחכות כל כך הרבה שהשוק הביתי הופך לתקרה. הנה איך אני קורא מוכנות, ומה להוכיח לפני שמתחייבים לדולר.",
+  "sections":[
+    {"h":"רוצו ללמוד, לא למכור","p":[
+      "הטעות האמריקאית היקרה ביותר היא להתייחס למהלך כהשקת מכירות כשהוא בעצם תרגיל למידה. מייסדים טסים לשם, שוכרים משרד, מגייסים שני נציגים ומצפים לפייפליין ברבעון. ואז כלום לא נסגר, השריפה אמיתית, והגיוס נגמר. ארה״ב לא מתגמלת נוכחות לבדה. היא מתגמלת חברה שכבר יודעת מי קונה, למה, ואיך המכירה נראית לפני שהיא מגדילה את ההוצאה.",
+      "התרחבו כשאתם מוכנים ללמוד מהר ובזול בארה״ב, לא כשאתם נואשים להזמין שם הכנסה."]},
+    {"h":"סימנים שאתם מוכנים","ul":[
+      "יש לכם לקוחות שאפשר להפנות אליהם, גם קטנים, שיענו לשיחה מפרוספקט אמריקאי",
+      "המכירה שלכם חוזרת על עצמה: אתם יכולים לנקוב ב-ICP, בשלבים ובאורך המחזור בלי לנחש",
+      "קונים אמריקאים כבר מושכים, באינבאונד או בשיחות, לא רק שוק שאתם מניחים שרוצה אתכם",
+      "יש לכם ראנוויי לתת לזה שנים עשר עד שמונה עשר חודשים, כי מהלך אמריקאי לא מחזיר ברבעון",
+      "מייסד או מנהל בכיר יכול להקדיש זמן אמיתי לשעות ארה״ב, לא נציג שנזרק למים"]},
+    {"h":"סימנים שאתם עוד לא מוכנים","ul":[
+      "המכירות עדיין רצות כולן דרך הרשת האישית של המייסד ושום דבר לא מתועד",
+      "אתם לא יכולים לתאר את ה-ICP בלי לומר כל מי ש",
+      "ההוכחה היחידה שלכם היא עסקאות ביתיות שנסגרו על קשרים, לא מהלך קר שחוזר על עצמו",
+      "אתם מתרחבים כדי לברוח משוק ביתי תקוע, לא כדי לרדוף אחרי ביקוש אמריקאי אמיתי",
+      "התוכנית היא לגייס סמנכ״ל מכירות אמריקאי, למסור לו את הבעיה ולקוות"]},
+    {"h":"מה לאמת לפני שמוציאים","p":[
+      "לפני הישות, המשרד והגיוס הראשון, קיימו עשרים שיחות אמיתיות עם קונים אמריקאים שמתאימים ל-ICP שלכם. לא כדי למכור. כדי ללמוד אם הכאב שאתם פותרים הוא הכאב שהם מרגישים, אם המסר שלכם נוחת במילים שלהם, ומה הם באמת ישלמו. אם קונים אמריקאים מגיעים לפגישה ומתכופפים פנימה, זה סימן המוכנות החזק ביותר שיש. אם אתם לא מצליחים להשיג אותם בטלפון מישראל, משרד אמריקאי לא יתקן את זה.",
+      "ואז העריכו ביושר: כמה מהשוק הפוטנציאלי האמיתי שלכם נמצא בארה״ב. אם רובו שם, ארה״ב היא לא שאלה של אם, רק של מתי ואיך."]},
+    {"h":"חדרו רזה, ואז הגדילו","p":[
+      "מוכנות לא אומרת להעתיק את החברה. המכירות האמריקאיות הראשונות יכולות לבוא מהצוות הקיים שעובד בשעות ארה״ב, אז צוות נחיתה קטן, אז נציגים וישות ברגע שהמהלך מוכיח את עצמו. סדרו את זה ברצף: להוכיח, ואז לבנות את הנוכחות, ישירות או דרך שותפים, כשזה מוצדק. החברות ששורפות את ארה״ב הן אלה שבונות את כל המנגנון לפני שיש להן עסקה אחת שחוזרת."]},
+    {"h":"להעמיק","links":[
+      ["למכור קודם בישראל, או ישר לחו״ל?", "/he/sell-in-israel-first-or-go-global"],
+      ["סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל", "/he/fractional-cro-israel"],
+      ["שירות כניסה לשוק", "/he/services/market-entry"]]},
+  ],
+  "faqs":[
+    {"q":"מתי סטארטאפ צריך להתרחב לארה״ב?","a":"כשהמכירה כבר חוזרת על עצמה וקונים אמריקאים מושכים, לא כשאתם צריכים שם הכנסה כדי לשרוד. קונקרטית: יש לכם לקוחות להפניה, ICP ומחזור מוגדרים, ראנוויי של 12 עד 18 חודשים, ומנהיג שיכול להקדיש זמן אמיתי לשעות ארה״ב. אם המכירות עדיין רצות דרך הרשת של המייסד ושום דבר לא מתועד, מוקדם מדי."},
+    {"q":"איך אני יודע אם החברה שלי מוכנה לשוק האמריקאי?","a":"קיימו 20 שיחות אמיתיות עם קונים אמריקאים שמתאימים ל-ICP שלכם לפני שאתם מוציאים דולר על ישות או משרד. אם הם מגיעים לפגישה ומתכופפים פנימה, זה סימן המוכנות החזק ביותר. אם אתם לא מצליחים להשיג אותם בטלפון מהבית, משרד אמריקאי לא יתקן את זה. בדקו גם כמה מהשוק הפוטנציאלי שלכם באמת בארה״ב."},
+    {"q":"האם אני צריך משרד וצוות אמריקאי כדי להתחיל למכור שם?","a":"לא. המכירות האמריקאיות הראשונות יכולות לבוא מהצוות הקיים שעובד בשעות ארה״ב, אז צוות נחיתה קטן, אז נציגים וישות ברגע שהמהלך מוכיח את עצמו. לבנות את כל המנגנון לפני עסקה אחת שחוזרת זה איך חברות שורפות את ארה״ב."},
+    {"q":"מה טעות ההתרחבות הנפוצה ביותר לארה״ב?","a":"להתייחס למהלך כהשקת מכירות במקום כתרגיל למידה. מייסדים שוכרים משרד ומגייסים נציגים מתוך ציפייה לפייפליין ברבעון, ואז שורפים את הגיוס כשכלום לא נסגר. התרחבו כדי ללמוד מהר ובזול, לא כדי להזמין הכנסה שעוד לא הרווחתם את הזכות אליה."}],
+  "related":'ראו <a href="/he/sell-in-israel-first-or-go-global">למכור קודם בישראל, או ישר לחו״ל?</a>, את המדריך <a href="/he/fractional-cro-israel">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל</a> ואת <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ה-Go-to-Market</a>. מהבלוג: <a href="/he/blog/entering-the-us-market">כניסה לשוק האמריקאי</a>, <a href="/he/blog/setting-up-us-subsidiary">הקמת חברת בת בארה״ב</a> ו<a href="/he/blog/choosing-first-market">איך לבחור את השוק הראשון</a>. או <a href="/when-to-expand-to-the-us">הגרסה באנגלית</a>.'},
 ]
 
 
@@ -4270,6 +4419,7 @@ GUIDE_CATS = [
  ("Go-to-market strategy", "אסטרטגיית הליכה לשוק", [
    "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion"]),
  ("Market entry", "חדירה לשווקים", [
+   "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
    "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market", "fractional-cro-israel"]),
  ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),
  ("In the media", "בתקשורת", ["tal-paperin-podcasts-and-press"]),
