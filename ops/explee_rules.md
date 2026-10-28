@@ -37,9 +37,11 @@ Tal wants big-corporate meetings, so (his call 2026-10-28) I reworked the two li
 (263613, 263612) via API, NOT down-market:
 - Persona -> the technical CHAMPION who owns the agent in production (staff/principal AI eng,
   ML-platform/agent-infra eng), then multithread to their Head of AI. Not the CTO cold.
-- Crowd -> qualify on an ACTIVE agent project / shipped agent feature / hiring agent engineers
-  (intent signals), spanning AI-native scale-ups (Series B-D) through large enterprises. Dropped
-  the pure headcount gate.
+- Crowd -> LARGE COMPANIES ONLY (Tal's call 2026-10-28: he wants big-corporate deals): 263613
+  roughly 2,000+ employees, 263612 roughly 1,000+ / $500M+ revenue, AND qualify on an active
+  agent project / shipped agent feature (intent signal), not headcount alone. (An earlier pass
+  briefly opened this to Series B-D scale-ups; Tal reverted it to large-only.) Edited in place,
+  no new campaigns.
 - Opener -> lead with the open-source standard + the Nvidia/Groq/EA proof and ONE specific
   question tied to the prospect's own live agent; link-free email 1 (already in the brief).
 Deferred (Tal: signals first): mining developers already using Hindsight inside big companies
