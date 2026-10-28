@@ -28,10 +28,12 @@ Decisions + actions taken:
 
 ## DealMentor campaign launched (Tal, 2026-10-28)
 
-Tal added a DealMentor outreach as a NEW project 55881 (NOT inside 49501). 6 campaigns:
-310570 Founder-led sales, 310571 Fast-growing startups, 310572 B2B SaaS sales teams,
-310573 Sales Training Firms, 310574 Outbound Agencies, 310575 Agency sales teams. As of
-2026-10-28 all were discovery/listening (0 sent, pools still building). target_url =
+Tal added a DealMentor outreach as a NEW project 55881 (NOT inside 49501). 6 campaigns exist
+but only THREE are relevant (Tal, 2026-10-28): 310570 Founder-led sales, 310571 Fast-growing
+startups, 310572 B2B SaaS sales teams (the direct end-user buyers). The other three, 310573
+Sales Training Firms, 310574 Outbound Agencies, 310575 Agency sales teams, are user-paused and
+NOT relevant, do not monitor or re-tune them unless Tal resumes them. As of 2026-10-28 the live
+three were discovery/review (0 sent, pools still building). target_url =
 https://www.thedealmentor.ai/contact. Decisions: I handle DealMentor replies on a DM-specific
 track (see reply_check_playbook.md: point to thedealmentor.ai, $149/mo DIY framing, NO Calendly,
 NO fractional-CRO pitch), and I tightened the ICP + offers (done via PATCH): set target_role per
