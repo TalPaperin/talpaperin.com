@@ -26,7 +26,23 @@ Decisions + actions taken:
 - Reply ask stays LINK-ONLY on warm replies (Tal's call): send positioning + soft Calendly link,
   do NOT propose specific call times.
 
+## DealMentor campaign launched (Tal, 2026-10-28)
 
+Tal added a DealMentor outreach as a NEW project 55881 (NOT inside 49501). 6 campaigns:
+310570 Founder-led sales, 310571 Fast-growing startups, 310572 B2B SaaS sales teams,
+310573 Sales Training Firms, 310574 Outbound Agencies, 310575 Agency sales teams. As of
+2026-10-28 all were discovery/listening (0 sent, pools still building). target_url =
+https://www.thedealmentor.ai/contact. Decisions: I handle DealMentor replies on a DM-specific
+track (see reply_check_playbook.md: point to thedealmentor.ai, $149/mo DIY framing, NO Calendly,
+NO fractional-CRO pitch), and I tightened the ICP + offers (done via PATCH): set target_role per
+segment, capped company size to small (~1-50, a couple at ~1-75; dropped the old 1-500 band,
+since the DealMentor buyer is the "can't afford senior help" small/early crowd), and rewrote each
+offer to lead with what TheDealMentor.AI is ($149/mo AI sales platform) plus the segment benefit.
+Do NOT re-broaden to mid-market/enterprise. Add 55881 to every reply-check cycle. Note: the
+`keywords` field is read-only via the API (PATCH rejects it with extra_forbidden); strip it from
+any PATCH body.
+
+## Follow-up cadence: POUND warm non-bookers until they book (Tal, 2026-10-25)
 
 This OVERRIDES the routine prompt's "one 48h nudge, once ever" limit. For any lead who showed
 genuine buying intent but has NOT booked (said yes, asked for a time or a link, offered specific
