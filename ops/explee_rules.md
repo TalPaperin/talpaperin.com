@@ -5,7 +5,28 @@ this file each run and apply it. Add new lessons here (one short rule per bullet
 and commit. Keep everything short: prospects do NOT read long emails or long
 meeting invites, so qualifying has to be built into the copy, not a wall of text.
 
-## Follow-up cadence: POUND warm non-bookers until they book (Tal, 2026-10-25)
+## Campaign review + ICP tightening (Tal, 2026-10-28)
+
+Tal flagged "still no leads." Pulled project 49501 analytics + full inboxes. Diagnosis:
+all-time 3,737 sent, 46 replies (1.2 pct), 18 flagged hot, but only 5 EVER booked (all in
+252219 B2B SaaS); 252222 / 252223 / 252224 have 0 bookings. Reply volume fell from 13-15/day
+(Oct 15-19) to ~2/day (Oct 27-28). Two leaks, not one: (1) volume (opener; the My-copy lock is
+too new to judge), and (2) the bigger one, the replies we get are wrong-fit or tire-kickers, so
+hot never becomes booked. Receipts: Yair Goldfinger/AppCard (150 emp, 10 yrs, we even used a
+stale company name) hard "no interest"; Eran Elias/Spark Labs (an accelerator) "not at this
+stage"; 252224 Industrial 23 replies / 0 books.
+
+Decisions + actions taken:
+- TIGHTENED ICP HARD (done via PATCH, targeting_editable=true). 252219 B2B SaaS: size now
+  ~10-75 employees, seed-Series B, exclude >100 emp / >~8yr mature / accelerators-incubators-VCs-
+  agencies. 252222 Bootstrapped: size ~5-50, B2B software/tech-enabled only (dropped generic "B2B
+  services"), exclude mid-market+enterprise and accelerators/incubators/VCs/agencies. Do NOT
+  re-broaden these size bands; the oversized/wrong-entity pulls were the core booking leak.
+- 252224 Industrial: ARCHIVED (status=archived). Wrong vertical for Tal. Do not resume.
+- Reply ask stays LINK-ONLY on warm replies (Tal's call): send positioning + soft Calendly link,
+  do NOT propose specific call times.
+
+
 
 This OVERRIDES the routine prompt's "one 48h nudge, once ever" limit. For any lead who showed
 genuine buying intent but has NOT booked (said yes, asked for a time or a link, offered specific
