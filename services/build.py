@@ -2253,6 +2253,10 @@ SERVICE_FAQS_EN = {
   {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your strategy, team, pipeline, forecast and the number, part time, without a full-time CRO salary or a long-term lock-in."},
   {"q":"How is a fractional CRO different from a consultant?","a":"A consultant hands you a deck and leaves. I do the work, in the pipeline and the deals, and answer for the result."},
   {"q":"How much does a fractional CRO cost?","a":"$2,000 to $12,000 a month depending on how many hours a day you need, versus $250,000-plus for a full-time CRO, billed monthly with no contract."}],
+ "fractional-cmo":[
+  {"q":"What is a fractional CMO?","a":"Senior marketing leadership, part time. I either oversee your marketing or own the function outright, aligned to the revenue number, without a full-time CMO salary or a long-term lock-in."},
+  {"q":"How is a fractional CMO different from a marketing agency?","a":"An agency runs campaigns and bills for activity. A fractional CMO owns the marketing function, its priorities, budget and people, and answers for whether it produces pipeline. I am not an agency."},
+  {"q":"Can you run marketing and sales as one function?","a":"Yes, and that is the point. Most companies run marketing and sales as two departments that blame each other. I run them as one revenue engine, so the leads marketing creates are leads sales can actually close. Delivered with KSW Solutions."}],
  "outsourced-sales":[
   {"q":"What do I get with outsourced sales?","a":"A full team: native-speaking SDRs and AEs, senior leadership and a VP, hired, trained, managed and reported on, living outside your headcount."},
   {"q":"When does outsourcing beat hiring in-house?","a":"When building a team is too slow, too costly or too risky for your stage. You get a working engine in weeks, not six to twelve months, with no severance risk."},
@@ -2293,6 +2297,10 @@ SERVICE_FAQS_HE = {
   {"q":"מה זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על האסטרטגיה, הצוות, הפייפליין, התחזית והתוצאות, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
   {"q":"במה זה שונה מיועץ?","a":"יועץ מגיש מצגת והולך. אני עושה את העבודה, בתוך הפייפליין ובתוך העסקאות, ואחראי על התוצאה."},
   {"q":"כמה זה עולה?","a":"בין 2,000 ל-12,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, מול 250 אלף דולר ומעלה למשרה מלאה, בתשלום חודשי בלי חוזה."}],
+ "fractional-cmo":[
+  {"q":"מה זה סמנכ\"ל שיווק במיקור חוץ?","a":"מנהיגות שיווק בכירה במשרה חלקית. אני מפקח על השיווק שלכם או לוקח עליו אחריות מלאה, מיושר למספר ההכנסות, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
+  {"q":"במה סמנכ\"ל שיווק שונה מסוכנות שיווק?","a":"סוכנות מריצה קמפיינים וגובה על פעילות. סמנכ\"ל שיווק לוקח אחריות על פונקציית השיווק, על סדרי העדיפויות, התקציב והאנשים, ואחראי על השאלה אם זה מייצר פייפליין. אני לא סוכנות."},
+  {"q":"אתה יכול להריץ שיווק ומכירות כפונקציה אחת?","a":"כן, וזו כל הנקודה. רוב החברות מריצות שיווק ומכירות כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, כך שהלידים שהשיווק מייצר הם לידים שהמכירות יכולות באמת לסגור. באספקה עם KSW Solutions."}],
  "outsourced-sales":[
   {"q":"מה מקבלים במכירות במיקור חוץ?","a":"צוות שלם: אנשי SDR ו-AE דוברי שפת אם, הנהגה בכירה ו-VP, מגויסים, מוכשרים, מנוהלים ומדווחים, מחוץ למצבת כוח האדם שלכם."},
   {"q":"מתי מיקור חוץ עדיף על גיוס פנימי?","a":"כשבניית צוות איטית, יקרה או מסוכנת מדי לשלב שלכם. מקבלים מנוע עובד תוך שבועות, לא שישה עד שנים-עשר חודשים, בלי סיכון פיצויים."},
