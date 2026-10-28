@@ -50,6 +50,18 @@ Tal wants big-corporate meetings, so (his call 2026-10-28) I reworked the two li
   + gaming memory use cases: persistent NPCs, player-support agents, moderation, live-ops copilots).
   TRUTH GUARD: the site lists EA among "teams building with Vectorize", so say "builds on Hindsight",
   NOT "paying customer". Same lookalike logic can later extend to Nvidia/Groq peers (AI infra/chips).
+- FINANCE ICP added (Tal fwded Chris's CRM list, 2026-10-28): NEW dedicated campaign 311502
+  "F: Investment firms (AI research agents)" in project 51016. ICP = investment firms (VC, PE,
+  hedge funds, asset managers, investment platforms) building AI agents for investment research,
+  memo/Q&A generation, deal tracking or institutional-knowledge memory. SIZE: qualify on AUM +
+  active agent project + 5-6 figure budget, ANY headcount (Tal's call; these firms are small-
+  headcount/big-budget, so the large-only floor does NOT apply here). Champion persona = Head of
+  AI/Data/Eng or CTO at the fund, or the agent-strategy lead they are hiring (a live signal).
+  Finance hook: own-cloud / data-never-leaves (compliance) + the open-source standard. CONFIDENTIALITY
+  GUARD: the firms Chris named (Madrona, Serengeti, Arcole, DSV, Tudor) are PRIVATE CRM engagements,
+  some on hold, NOT public reference customers. Use them ONLY to shape the ICP and use-case language;
+  NEVER name them in outreach (unlike EA/Nvidia/Groq, which are public site logos). As of 2026-10-28
+  311502 is in discovery (pool building); it needs Tal to approve/launch it in Explee to start sending.
 Deferred (Tal: signals first): mining developers already using Hindsight inside big companies
 (the warm-champion / PLG-to-enterprise path) and competitor-tool-user lists; both need GitHub/
 usage or intent data Explee won't source itself. STILL OPEN as levers: lower volume + higher
