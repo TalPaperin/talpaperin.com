@@ -44,6 +44,12 @@ Tal wants big-corporate meetings, so (his call 2026-10-28) I reworked the two li
   no new campaigns.
 - Opener -> lead with the open-source standard + the Nvidia/Groq/EA proof and ONE specific
   question tied to the prospect's own live agent; link-free email 1 (already in the brief).
+- LOOKALIKE by customer (Tal's idea 2026-10-28): EA builds on Hindsight, so 263613 now prioritizes
+  gaming / interactive-entertainment peers (Activision Blizzard, Riot, Epic, Ubisoft, Take-Two,
+  Roblox and similar), with a gaming-specific opener (peer proof "teams like EA build on Hindsight"
+  + gaming memory use cases: persistent NPCs, player-support agents, moderation, live-ops copilots).
+  TRUTH GUARD: the site lists EA among "teams building with Vectorize", so say "builds on Hindsight",
+  NOT "paying customer". Same lookalike logic can later extend to Nvidia/Groq peers (AI infra/chips).
 Deferred (Tal: signals first): mining developers already using Hindsight inside big companies
 (the warm-champion / PLG-to-enterprise path) and competitor-tool-user lists; both need GitHub/
 usage or intent data Explee won't source itself. STILL OPEN as levers: lower volume + higher
