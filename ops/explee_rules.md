@@ -26,6 +26,29 @@ Decisions + actions taken:
 - Reply ask stays LINK-ONLY on warm replies (Tal's call): send positioning + soft Calendly link,
   do NOT propose specific call times.
 
+## Vectorize (Hindsight) reworked for enterprise meetings (Tal, 2026-10-28)
+
+Vectorize sells Hindsight, the open-source standard for AI agent memory (teams at Nvidia, Groq,
+EA build on it; large OSS dev base; paid product Hindsight Enterprise, 5-6 figure ACV; meetings
+go to calendly.com/adam-hulkower-vectorize). It was the worst performer: 6,159 sent, 2 human
+replies (0.03 pct), 0 hot, most "replies" auto-responders, highest spend. Cause: targeting
+enterprise BY SIZE (2,000+/1,000+ employees) and cold-hitting VPs/CTOs who never answer cold.
+Tal wants big-corporate meetings, so (his call 2026-10-28) I reworked the two live campaigns
+(263613, 263612) via API, NOT down-market:
+- Persona -> the technical CHAMPION who owns the agent in production (staff/principal AI eng,
+  ML-platform/agent-infra eng), then multithread to their Head of AI. Not the CTO cold.
+- Crowd -> qualify on an ACTIVE agent project / shipped agent feature / hiring agent engineers
+  (intent signals), spanning AI-native scale-ups (Series B-D) through large enterprises. Dropped
+  the pure headcount gate.
+- Opener -> lead with the open-source standard + the Nvidia/Groq/EA proof and ONE specific
+  question tied to the prospect's own live agent; link-free email 1 (already in the brief).
+Deferred (Tal: signals first): mining developers already using Hindsight inside big companies
+(the warm-champion / PLG-to-enterprise path) and competitor-tool-user lists; both need GitHub/
+usage or intent data Explee won't source itself. STILL OPEN as levers: lower volume + higher
+relevance and deliverability (the total silence on 3,295 enterprise sends hints at spam-foldering)
+- flag to Tal, do not change client budgets unprompted. Vectorize stays auto-reply-ON, we do NOT
+send replies there (see reply bullet); this note is about the outbound targeting only.
+
 ## DealMentor campaign launched (Tal, 2026-10-28)
 
 Tal added a DealMentor outreach as a NEW project 55881 (NOT inside 49501). 6 campaigns exist
