@@ -22,9 +22,8 @@ main,body>section,body>footer,body>header,.chero{position:relative;z-index:2}
 .chero .flash{inset:0;opacity:0;background:radial-gradient(60% 70% at 40% 35%,#fff,rgba(var(--lc),.6) 50%,rgba(var(--lc),.15))}
 .chero .ttl{left:0;right:0;top:auto;bottom:31%;text-align:center;font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(2.6rem,7.4vw,7.6rem);line-height:1;color:#fff;opacity:0;padding:0 4vw;text-shadow:0 0 26px rgba(0,0,0,.9),0 0 50px rgba(0,0,0,.6),0 0 40px rgba(var(--lc),.4),0 0 2px rgba(255,255,255,.6);will-change:opacity,filter,letter-spacing}
 .chero .ttl.big{font-size:clamp(3.4rem,10.5vw,10.5rem);letter-spacing:.02em}
-.chero .ttl.s{font-size:clamp(2.2rem,5.6vw,5.8rem);letter-spacing:.04em}
-.chero .lb{left:0;right:0;height:0;background:#000;z-index:20}
-.chero .stage>.lb.b{top:auto;bottom:0}
+.chero .ttl.s{font-size:clamp(2.8rem,7.4vw,7.6rem);letter-spacing:.03em;line-height:1.02}
+.chero .tshade{left:0;right:0;top:auto;bottom:12%;height:52%;opacity:0;background:radial-gradient(60% 50% at 50% 55%,rgba(0,0,0,.82),rgba(0,0,0,.45) 55%,transparent 80%)}
 .chero .content{position:relative;z-index:10;width:100%;max-width:1280px;margin:0 auto;padding:110px 40px 60px;display:flex}
 .chero .text{width:50%;min-width:380px;margin-left:auto}
 .chero .kicker{font:600 14px/1 'Space Grotesk';letter-spacing:.18em;text-transform:uppercase;color:#9fc6e8;margin-bottom:20px}
@@ -46,19 +45,19 @@ main,body>section,body>footer,body>header,.chero{position:relative;z-index:2}
   .chero{display:block;min-height:0}
   .chero .stage{position:relative;inset:auto;width:100%;height:100vh}
   .chero .scrim{background:linear-gradient(0deg,#000 0%,rgba(0,0,0,.5) 14%,transparent 34%)}
-  .chero .ttl{bottom:26%;font-size:12vw}.chero .ttl.big{font-size:15vw}.chero .ttl.s{font-size:9.5vw}
+  .chero .ttl{bottom:26%;font-size:12vw}.chero .ttl.big{font-size:15vw}.chero .ttl.s{font-size:11.5vw}
   .chero .content{padding:6px 20px 70px;display:block}
   .chero .text{width:100%;min-width:0}
   .chero .cta{flex-direction:column;align-items:stretch}
 }
 
 /* intro controls: skip + CTA live in the bottom letterbox */
-.introbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;justify-content:flex-end;align-items:center;gap:22px;padding:0 32px;height:11vh;transition:opacity .6s}
+.introbar{position:fixed;right:32px;bottom:32px;z-index:60;transition:opacity .6s}
 .introbar.hide{opacity:0;pointer-events:none}
-.introbar .skip{font:600 12.5px/1 'Space Grotesk';letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);background:none;border:0;cursor:pointer;padding:10px 4px}
-.introbar .skip:hover{color:#fff}
-.introbar .btn-primary{padding:11px 20px;font-size:14px}
-@media(max-width:760px){.introbar{height:8vh;padding:0 16px}}
+.introbar .skip{display:inline-flex;align-items:center;gap:10px;font:700 17px/1 'Space Grotesk';letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.55);border-radius:999px;padding:16px 28px;cursor:pointer;backdrop-filter:blur(8px);box-shadow:0 10px 30px rgba(0,0,0,.5);transition:background .2s,border-color .2s,transform .2s}
+.introbar .skip span{font-size:24px;line-height:0}
+.introbar .skip:hover{background:rgba(255,255,255,.22);border-color:#fff;transform:translateY(-1px)}
+@media(max-width:760px){.introbar{right:16px;bottom:20px}.introbar .skip{font-size:15px;padding:14px 22px}}
 nav.site{will-change:opacity}
 .wa-float{transition:opacity .6s}
 body.intro .wa-float{opacity:0;pointer-events:none}
@@ -107,7 +106,6 @@ footer{background:#020305}
 /* ===== every page ===== */
 html.cine .page{background:transparent}
 body:not(.cine-home)::after{content:"";position:fixed;inset:0;background:#000;z-index:45;pointer-events:none;animation:cineopen 1.2s cubic-bezier(.6,0,.2,1) .1s forwards}
-body:not(.cine-home)::before{content:"";position:fixed;inset:0;z-index:56;pointer-events:none;border-top:10vh solid #000;border-bottom:10vh solid #000;animation:lbout 1.4s cubic-bezier(.7,0,.2,1) .45s forwards}
 @keyframes cineopen{to{opacity:0;visibility:hidden}}
 @keyframes lbout{to{border-top-width:0;border-bottom-width:0;visibility:hidden}}
 .cv{opacity:0;transform:translateY(24px);filter:blur(8px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1),filter 1s cubic-bezier(.16,1,.3,1)}
@@ -125,4 +123,4 @@ html.cine main p,html.cine main li{text-shadow:0 1px 12px rgba(0,0,0,.85)}
 .demo .lbl{color:#ffb35a;letter-spacing:.14em;font-size:10px;padding:0 6px;text-transform:uppercase}
 .demo button{font:inherit;color:#d5dee8;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:7px 10px;cursor:pointer}
 .demo button.act{background:linear-gradient(180deg,#3D9BFF,#2563EB);color:#fff;border-color:transparent}
-@media(max-width:760px){.demo{top:calc(8vh + 6px);bottom:auto;left:8px;padding:4px;gap:3px;font-size:10.5px}.demo .lbl{display:none}.demo button{padding:6px 7px}}
+@media(max-width:760px){.demo{top:10px;bottom:auto;left:8px;padding:4px;gap:3px;font-size:10.5px}.demo .lbl{display:none}.demo button{padding:6px 7px}}

@@ -54,12 +54,12 @@
   // ---------- homepage intro ----------
   var hero=$('#stage')?$('#main'):null,H={};
   if(hero){
-    H={stage:$('#stage'),subj:$('#subj'),sweep:$('#sweep'),scrim:$('#scrim'),flash:$('#flash'),t1:$('#t1'),t2:$('#t2'),t3:$('#t3'),lbT:$('#lbt'),lbB:$('#lbb'),nav:$('nav.site'),bar:$('#introbar'),
+    H={stage:$('#stage'),subj:$('#subj'),sweep:$('#sweep'),scrim:$('#scrim'),flash:$('#flash'),t1:$('#t1'),t3:$('#t3'),shade:$('#tshade'),nav:$('nav.site'),bar:$('#introbar'),
       reveals:[].slice.call(hero.querySelectorAll('[data-at]')),stats:[].slice.call(hero.querySelectorAll('.stats b')),mts:[].slice.call(hero.querySelectorAll('.mt'))};
     H.sweep.style.webkitMaskImage=H.sweep.style.maskImage='url('+H.subj.src+')';
   }
   var AR=1012/1000,DUR=[1.5,2.2,2.2,1.7,1.6],CUTS=[],c0=3.85;DUR.forEach(function(d){CUTS.push(c0);c0+=d+.05});
-  var T2IN=c0+.25,PRE=T2IN+1.95,IMPACT=PRE+.6,MV=IMPACT+2.7;
+  var PRE=c0+.35,IMPACT=PRE+.6,MV=IMPACT+2.7;
 
   // ---------- WebGL: smoke + volumetric light shining through the subject or the heading in view ----------
   var gl=null,U={},q=.5,mc2=D.createElement('canvas'),tex2=null;
@@ -80,10 +80,10 @@
     ' vec2 uv=gl_FragCoord.xy/R;vec2 as=vec2(A,1.);vec2 d=(uv-L)*as;float dist=length(d);',
     ' vec2 st=(uv-L)/'+NS+'.;vec2 s=uv;float ill=0.,dec=1.;',
     ' for(int i=0;i<'+NS+';i++){s-=st;vec2 dd=(s-L)*as;float g=exp(-dot(dd,dd)*16.);float nz=texture2D(N,s*vec2(1.6,.9)+vec2(T*.012,-T*.006)).r;float o=max(oc(s,MR,M),oc(s,MR2,M2));ill+=g*(1.-o)*(.25+1.2*nz*nz)*dec;dec*=.972;}',
-    ' ill*=LI*.064*56./'+NS+'.;',
+    ' ill*=LI*.05*56./'+NS+'.;',
     ' vec2 qq=uv*as*2.;float sm=fbm(qq+vec2(T*.04,T*.015)+.6*fbm(qq*1.4-vec2(T*.025,T*.01)));sm=smoothstep(.3,1.05,sm);',
     ' float lit=exp(-dist*dist*2.2)*LI;',
-    ' vec3 c=LC*.03*sm*SM*(.3+1.1*lit);',
+    ' vec3 c=LC*.022*sm*SM*(.3+1.*lit);',
     ' float r=SH*1.5;c+=mix(LC,vec3(1.),.4)*(SH>0.?exp(-pow((dist-r)*12.,2.))*(1.-SH)*(.4+1.*sm):0.);',
     ' c+=mix(LC,vec3(1.),.1)*ill*(.4+.5*sm);',
     ' c+=mix(LC,vec3(1.),.5)*exp(-dist*dist*70.)*LI*.6*CORE;',
@@ -165,10 +165,10 @@
     H.t3.style.opacity=(t<IMPACT?0:k3*(1-o3)).toFixed(3);H.t3.style.filter='blur('+((1-k3)*12+o3*10).toFixed(1)+'px)';
     H.t3.style.transform='scale('+(lerp(1.35,1,k3)*(1+.03*seg(t,IMPACT,IMPACT+2.5))).toFixed(4)+')';
     H.t3.style.textShadow=(ca>.3?(-ca)+'px 0 rgba(255,40,90,.7),'+ca+'px 0 rgba(40,220,255,.7),':'')+'0 0 26px rgba(0,0,0,.9),0 0 50px rgba(0,0,0,.6),0 0 50px rgba(var(--lc),.55)';
-    title(H.t1,t,1.0,3.45);title(H.t2,t,T2IN,PRE-.1);
+    title(H.t1,t,1.0,3.45);
     H.mts.forEach(function(e,i){var a=CUTS[i],d=DUR[i],k=eo(seg(t,a,a+.4)),o=seg(t,a+d-.35,a+d);e.style.opacity=(k*(1-o)).toFixed(3);e.style.filter='blur('+((1-k)*8+o*8).toFixed(1)+'px)';e.style.transform='scale('+(1.06-.06*eo(seg(t,a,a+d))).toFixed(4)+')'});
     H.flash.style.opacity=t>=IMPACT?(.75*Math.exp(-(t-IMPACT)*7)).toFixed(3):0;
-    var lbh=(mob?8:11)*(1-eio(seg(t,MV+.2,MV+1.2)));H.lbT.style.height=H.lbB.style.height=lbh+'vh';
+    var tsh=Math.max(+H.t1.style.opacity||0,+H.t3.style.opacity||0);H.mts.forEach(function(e){tsh=Math.max(tsh,+e.style.opacity||0)});H.shade.style.opacity=tsh.toFixed(3);
     H.nav.style.opacity=seg(t,MV+.7,MV+1.5).toFixed(3);H.nav.style.pointerEvents=t<MV+.7?'none':'';
     H.scrim.style.opacity=eo(seg(t,MV+.1,MV+1.3)).toFixed(3);
     H.reveals.forEach(function(e){var on=t>=MV+parseFloat(e.getAttribute('data-at'));if(e._on!==on){e._on=on;e.classList.toggle('on',on)}});
@@ -176,7 +176,7 @@
     var inIntro=t<MV+1.6;if(last.intro!==inIntro){D.body.classList.toggle('intro',inIntro);last.intro=inIntro}
     var showBar=inIntro&&t>.3&&t<MV+.3;if(last.bar!==showBar){H.bar.classList.toggle('hide',!showBar);last.bar=showBar}
     if(!inIntro&&!marked){marked=true;try{sessionStorage.setItem('tp_intro','1')}catch(e){}}
-    return {Lx:lxp,Ly:lyp+hTop,LI:LI,SM:SM*.8,SH:SH,mr:[sx/W,1-(sy+hTop+G.h)/VH,G.w/W,G.h/VH],shx:shx,shy:shy,boost:t>=IMPACT&&t<IMPACT+.6};
+    return {Lx:lxp,Ly:lyp+hTop,LI:LI*.8,SM:SM*.5,SH:SH,mr:[sx/W,1-(sy+hTop+G.h)/VH,G.w/W,G.h/VH],shx:shx,shy:shy,boost:t>=IMPACT&&t<IMPACT+.6};
   }
 
   function frame(now){
