@@ -346,8 +346,9 @@
     .foot-contact a:hover{border-color:var(--blue);color:#fff;transform:translateY(-2px)}
     .foot-contact svg{width:18px;height:18px;display:block}
   </style>
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
-<body>
+<body class="cine-home">
 
   <a class="skip-link" href="#main">Skip to content</a>
 
@@ -374,30 +375,46 @@
     </div>
   </nav>
 
-  <!-- Hero -->
-  <header class="hero" id="main">
-    <img class="photo" src="/tal-paperin.jpg" width="1300" height="1316" alt="Tal Paperin, Fractional CRO and Business Consultant" />
-    <canvas id="cv"></canvas>
-    <div class="fade"></div>
+  <!-- Hero (cinematic) -->
+  <header class="chero" id="main">
+    <div class="stage" id="stage">
+      <img id="subj" src="/cine/tal-cutout.webp" width="1000" height="1012" alt="Tal Paperin, Fractional CRO and Business Consultant" />
+      <div id="rimlight"></div>
+      <div id="sweep"></div>
+      <div class="scrim" id="scrim"></div>
+      <div class="flash" id="flash"></div>
+      <div class="tshade" id="tshade"></div>
+      <div class="ttl" id="t1">Your sales suck...</div>
+      <div class="ttl s mt">No pipeline...</div>
+      <div class="ttl s mt">Your team keeps failing...<br>Or no team at all...</div>
+      <div class="ttl s mt">Your 4th VP of Sales hasn't delivered...<br>Again...</div>
+      <div class="ttl s mt">You're still closing every deal...</div>
+      <div class="ttl s mt">Or no sales at all...</div>
+      <div class="ttl big" id="t3">I can help.</div>
+    </div>
     <div class="content">
       <div class="text">
-        <p class="kicker">Fractional CRO &nbsp;·&nbsp; Business Consultant</p>
-        <h1>Your sales suck.<br>You don't know why.<br>I do.</h1>
-        <p class="sub">And I fix it, <span class="u">end to end.</span></p>
-        <p class="detail">Week one: I find what's broken. Week two: you get the plan. Then I rebuild your sales engine, hire where needed, train your team, replace who can't perform, and own the revenue number.</p>
-        <div class="stats">
-          <div><b>30+</b><span>B2B companies rebuilt</span></div>
-          <div><b>$20M</b><span>ARR managed last year</span></div>
-          <div><b>1,000+</b><span>salespeople trained &amp; managed, 40+ countries</span></div>
-          <div><b>300+</b><span>founders worked with</span></div>
+        <p class="kicker rv" data-at=".7">Fractional CRO &nbsp;·&nbsp; Business Consultant</p>
+        <h1><span class="ml" data-at=".78"><span>Your sales suck.</span></span><span class="ml" data-at=".88"><span>You don't know why.</span></span><span class="ml" data-at=".98"><span>I do.</span></span></h1>
+        <p class="sub rv" data-at="1.18">And I fix it, <span class="u">end to end.</span></p>
+        <p class="detail rv" data-at="1.3">Week one: I find what's broken. Week two: you get the plan. Then I rebuild your sales engine, hire where needed, train your team, replace who can't perform, and own the revenue number.</p>
+        <div class="stats rv" data-at="1.4">
+          <div><b data-v="30" data-f="{}+">30+</b><span>B2B companies rebuilt</span></div>
+          <div><b data-v="20" data-f="${}M">$20M</b><span>ARR managed last year</span></div>
+          <div><b data-v="1000" data-f="{}+">1,000+</b><span>salespeople trained &amp; managed, 40+ countries</span></div>
+          <div><b data-v="300" data-f="{}+">300+</b><span>founders worked with</span></div>
         </div>
-        <div class="cta">
+        <div class="cta rv" data-at="1.52">
           <a class="btn btn-primary btn-lg" href="https://calendly.com/ksw/15min" onclick="return openCal()">Book a Call</a>
           <a class="btn btn-secondary btn-lg" href="/sales-doctor">Try the Sales Doctor &rarr;</a>
         </div>
       </div>
     </div>
   </header>
+  <div class="introbar hide" id="introbar">
+    <button class="skip" id="skipintro" type="button">Skip intro <span aria-hidden="true">&rsaquo;</span></button>
+  </div>
+
 
   <!-- Logos -->
   <section class="logos">
@@ -511,7 +528,7 @@
 
   <!-- Final -->
   <section class="final">
-    <canvas id="cv2"></canvas>
+    
     <div class="wrap">
       <div class="reveal">
         <div class="glowline"></div>
@@ -634,5 +651,6 @@
   });
 })();
 </script>
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>

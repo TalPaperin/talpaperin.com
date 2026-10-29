@@ -775,6 +775,7 @@ PAGE = '''<!doctype html>
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -797,6 +798,7 @@ PAGE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -831,6 +833,7 @@ INDEX = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -853,6 +856,7 @@ INDEX = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1266,6 +1270,7 @@ HE_PAGE = '''<!doctype html>
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -1288,6 +1293,7 @@ HE_PAGE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1319,6 +1325,7 @@ HE_INDEX = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -1341,6 +1348,7 @@ HE_INDEX = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1369,6 +1377,7 @@ HE_FAQPAGE = '''<!doctype html>
   {analytics}
 
   <script type="application/ld+json">{faqld}</script>
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -1388,6 +1397,7 @@ HE_FAQPAGE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1423,6 +1433,7 @@ CONTACT_EN = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -1480,6 +1491,7 @@ CONTACT_EN = '''<!doctype html>
 
 {footer}
 {contactjs}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1511,6 +1523,7 @@ CONTACT_HE = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -1568,6 +1581,7 @@ CONTACT_HE = '''<!doctype html>
 
 {footer}
 {contactjs}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1928,6 +1942,7 @@ REC_PAGE_EN = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -1950,6 +1965,7 @@ REC_PAGE_EN = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -1981,6 +1997,7 @@ REC_PAGE_HE = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -2003,6 +2020,7 @@ REC_PAGE_HE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -2038,6 +2056,7 @@ CS_PAGE_EN = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -2063,6 +2082,7 @@ CS_PAGE_EN = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -2094,6 +2114,7 @@ CS_PAGE_HE = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -2119,6 +2140,7 @@ CS_PAGE_HE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -2200,6 +2222,7 @@ GUIDE_PAGE = '''<!doctype html>
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -2221,6 +2244,7 @@ GUIDE_PAGE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -3563,6 +3587,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
   <script type="application/ld+json">{ld}</script>
   <script type="application/ld+json">{crumb}</script>
   {faqld}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -3584,6 +3609,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -4235,6 +4261,7 @@ ABOUT_EN = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -4299,6 +4326,7 @@ ABOUT_EN = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -4333,6 +4361,7 @@ ABOUT_HE = '''<!doctype html>
   {analytics}
 
   {graph}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -4397,6 +4426,7 @@ ABOUT_HE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -4483,6 +4513,7 @@ HUB_PAGE_EN = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -4501,6 +4532,7 @@ HUB_PAGE_EN = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -4534,6 +4566,7 @@ HUB_PAGE_HE = '''<!doctype html>
   <link rel="stylesheet" href="/he/he-pages.css" />
 
   {analytics}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -4552,6 +4585,7 @@ HUB_PAGE_HE = '''<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -4940,6 +4974,7 @@ PRICING_TPL = """<!doctype html>
   {analytics}
 
   {ldblock}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -4968,6 +5003,7 @@ PRICING_TPL = """<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 """
@@ -5003,6 +5039,7 @@ PRICING_TPL_HE = """<!doctype html>
   {analytics}
 
   {ldblock}
+  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {nav}
@@ -5031,6 +5068,7 @@ PRICING_TPL_HE = """<!doctype html>
   </main>
 
 {footer}
+<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 """
