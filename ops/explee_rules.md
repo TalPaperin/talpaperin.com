@@ -221,3 +221,46 @@ Tal observes Shabbat, so NOTHING may go out in his name during it.
   Friday-Saturday, then processes the held backlog (send the held replies/nudges then).
   Only the hourly routine (not the +30 offset one) posts this summary, to avoid a
   duplicate; if a motzei-Shabbat summary was already posted since Shabbat ended, stay quiet.
+
+## Friday review: Talpaperin quality fix + DealMentor VP-Sales pivot + Vectorize opener rewrite (Tal, 2026-10-30)
+
+Tal: "Talpaperin performance significantly worse than last week. We waited Wed/Thu, now it's Fri, fix it."
+Computed week-over-week genuine human replies (autoresponders stripped) on 252219+252222:
+- Last wk (Oct16-22): 24 genuine. This wk (Oct23-30): 22 genuine. Prior (Oct9-15): 7. So raw reply
+  volume is FLAT, not collapsed. What dropped is the MIX/quality, not the count.
+- Last wk mix: ~5 clean "let's meet" + 1 booking (Sharon/gotrack, Shlomo, Moris, Taylor, Kevin).
+- This wk mix: 2 clean meeting-intent (Allen/ContractorRush, John Wurch) + a pile of price-shoppers
+  (Umesh "charging structure", Eyal "pay per meeting?", Liran "success-based", Karim) + more
+  hostility (Ivan, Ron Peled, Yair/AppCard, Kahlil, Tomer declining).
+ROOT CAUSE: the price/commission flood is concentrated in 252222 "Bootstrapped B2B" whose own ICP
+selected for "cash-conscious growth / lightly funded" = people who want commission-only and cannot
+fund a retainer. Fishing for retainer clients in a commission-only pond. NOT a geography problem
+(gotrack, this period's booking cohort, is Israeli), it is an AFFORDABILITY/FIT problem.
+FIXES (done via PATCH, targeting_editable=true):
+- 252222 renamed "Funded small B2B SaaS", repointed OFF bootstrapped/cash-conscious -> funded OR
+  revenue-scaled small B2B SaaS (15-75 emp) that can actually fund senior help. Offer reworded
+  "funded and growing" (was "bootstrapped and small"). Do NOT re-add "bootstrapped/cash-conscious".
+- BOTH 252219 and 252222 negative_criteria now exclude "Wants commission-only / pay-on-success /
+  percentage-of-sales" and "Pre-revenue or so cash-constrained there is no budget for senior help".
+- Did NOT touch geo (Israel includes real wins) and did NOT touch the locked My-copy opener.
+- Give it runtime: the ICP change takes a few days to flow into sends then replies before judging.
+
+DealMentor VP-Sales pivot (Tal, 2026-10-30): "need VP Sales or sales directors in SMALL companies,
+NOT tech. 3 demos yesterday but looks like curiosity." The old 3 campaigns targeted founders/CEOs at
+small TECH/SaaS = curiosity tire-kickers on a $149 tool. Repointed all 3 (310570/310571/310572) via
+PATCH to: ROLE = VP Sales / Sales Director / Head of Sales who owns the number and manages a team
+(NOT founder/CEO, NOT a lone rep); SIZE = small NON-TECH companies ~10-100 emp with a real sales team
+and a sales leader; split by non-tech vertical: 310570 manufacturing/industrial, 310571 distribution/
+wholesale/logistics, 310572 B2B services (staffing/agencies/commercial/professional/construction).
+Offer + customer_problem reworded for a sales LEADER (team visibility, next-step per rep, deal reviews,
+prospect research + scripts for the whole team) not a founder. MY-COPY: use the "team managers" version
+(Version B) across all 3 now; the "founders" version (A) no longer matches the audience.
+
+Vectorize opener rewrite (Tal, 2026-10-30): across ~3,970 contacts, 100% autoresponders, 0 human
+replies = COPY problem, not volume or ICP (the OOO/left-company bounces prove the addresses are real
+and senior). Rewrote the offer brief on 263613 + 263612 via PATCH: write as Adam, a real ENGINEER,
+peer-to-peer, short (4-6 sentences), lowercase-casual; OPEN with a specific observation about THEIR
+agent/AI work; ONE line = what Hindsight is + Nvidia/Groq/EA + open-source proof; ASK = low-friction
+TECHNICAL ("want me to send the repo / a short writeup?" or swap notes with the engineers who built
+it), NOT a demo/calendar link, because engineers reply to a repo offer far sooner than a sales call.
+FORBIDDEN: buzzwords, feature lists, invented metrics. Fixed-opener (My-copy) draft handed to Tal.
