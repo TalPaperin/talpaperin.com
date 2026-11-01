@@ -275,3 +275,12 @@ agent/AI work; ONE line = what Hindsight is + Nvidia/Groq/EA + open-source proof
 TECHNICAL ("want me to send the repo / a short writeup?" or swap notes with the engineers who built
 it), NOT a demo/calendar link, because engineers reply to a repo offer far sooner than a sales call.
 FORBIDDEN: buzzwords, feature lists, invented metrics. Fixed-opener (My-copy) draft handed to Tal.
+
+## Copy capitalization: NEVER write openers in all-lowercase (Tal, 2026-11-01)
+
+I handed Tal a Vectorize opener written entirely in lowercase ("engineer-casual"); he had to
+make ~13 fixes, almost all capitalization, including the brand (Hindsight, Vectorize), proof names
+(NVIDIA, Groq) and the sender's own name (Adam). Lowercasing proper nouns is a defect, not a style.
+RULE: all opener/reply copy uses normal capitalization, capital sentence starts and every proper
+noun (company, product, partner, person) capitalized. Never all-lowercase. The Vectorize offer
+briefs (263613/263612) were fixed to require this for the AI-variant too.
