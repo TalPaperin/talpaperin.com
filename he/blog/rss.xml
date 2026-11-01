@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>חוב לא הורג חברות. הכנסה רכה פלוס חוב כן.</title>
+      <link>https://talpaperin.com/he/blog/debt-plus-soft-revenue-kills-startups</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/debt-plus-soft-revenue-kills-startups</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>אנליסטים מזהירים שחוב עלול להגביר את הנזק של ה-AI לעסקים. הסיכון האמיתי הוא חוב שמונח על הכנסה שמעולם לא הייתה עמידה. תתקנו קודם את ההכנסה.</description>
+    </item>
     <item>
       <title>HubSpot פיטרה 660 עובדים וקראה לזה AI. קראו את זה אחרת.</title>
       <link>https://talpaperin.com/he/blog/ai-layoffs-expose-weak-sales</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/biocatch-visa-exit-sales-machine</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
       <description>BioCatch עברה מ-7 מיליון דולר ל-100 מיליון דולר ARR לפני שוויזה שילמה 2.4 מיליארד. הלקח למייסדים הוא לא הטכנולוגיה, אלא מכונת המכירות שהניעה את הצמיחה.</description>
-    </item>
-    <item>
-      <title>הפסקתי לקרוא לעצמי מדריך מכירות. הנה למה.</title>
-      <link>https://talpaperin.com/he/blog/why-sales-training-fails</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/why-sales-training-fails</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>רוב הדרכות המכירות הן זריקת סוכר של יומיים שנגמרת עד יום רביעי. הכשרתי 2,000 אנשי מכירות בעולם. ההדרכה מעולם לא הייתה החלק שהזיז את ההכנסות.</description>
     </item>
   </channel>
 </rss>

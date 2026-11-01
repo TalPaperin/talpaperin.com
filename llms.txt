@@ -87,6 +87,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [Debt Does Not Kill Companies. Soft Revenue Plus Debt Does.](https://talpaperin.com/blog/debt-plus-soft-revenue-kills-startups): Analysts warn that debt could amplify the damage AI does to businesses. The real risk is debt stacked on revenue that was never durable. Fix the revenue first.
 - [HubSpot Cut 660 Jobs and Called It AI. Read It Differently.](https://talpaperin.com/blog/ai-layoffs-expose-weak-sales): HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount that a weak sales engine had been carrying.
 - [At-Bay Was Valued at $1.35B. It Sold for $575M. Read the Gap.](https://talpaperin.com/blog/valuation-is-not-a-business): At-Bay hit a $1.35B valuation and sold to Munich Re for $575M. A valuation is a bet. Revenue is a fact. Here is how founders should read the difference.
 - [Product-Led vs Sales-Led Growth: Which Does Your B2B Need?](https://talpaperin.com/blog/product-led-vs-sales-led): PLG fits low-ACV self-serve products. Sales-led fits high-ACV committee buying. Most B2B need a hybrid. Choose by buyer, price, and complexity, not by hype.

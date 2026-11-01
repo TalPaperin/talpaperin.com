@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Debt Does Not Kill Companies. Soft Revenue Plus Debt Does.</title>
+      <link>https://talpaperin.com/blog/debt-plus-soft-revenue-kills-startups</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/debt-plus-soft-revenue-kills-startups</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Analysts warn that debt could amplify the damage AI does to businesses. The real risk is debt stacked on revenue that was never durable. Fix the revenue first.</description>
+    </item>
     <item>
       <title>HubSpot Cut 660 Jobs and Called It AI. Read It Differently.</title>
       <link>https://talpaperin.com/blog/ai-layoffs-expose-weak-sales</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/biocatch-visa-exit-sales-machine</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
       <description>BioCatch went from $7M to $100M ARR before Visa paid $2.4 billion. The lesson for founders is not the tech. It is the repeatable sales machine that scaled it.</description>
-    </item>
-    <item>
-      <title>I Stopped Calling Myself a Sales Trainer. Here Is Why.</title>
-      <link>https://talpaperin.com/blog/why-sales-training-fails</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/why-sales-training-fails</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Most sales training is a two-day sugar high that wears off by Wednesday. I have trained 2,000 salespeople worldwide. The training was never the part that moved revenue.</description>
     </item>
   </channel>
 </rss>
