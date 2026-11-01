@@ -303,3 +303,15 @@ Root issue vs the agency = VOLUME and FOLLOW-UPS, not targeting/copy. Decisions:
   CONFIRM follow-ups are ON for this new lane too (may be per-campaign).
 Now three active Talpaperin lanes (252219, 252222, 347642) + follow-ups + fixed conversion = the
 volume/sequencing/conversion stack we were missing vs the agency, at a fraction of the cost.
+
+## Add a marketing / lead-gen line to warm replies (Tal, 2026-11-01)
+
+Shlomi Kakon (CEO, Box.co.il) asked "how can you help?", I answered with the sales-engine pitch
+only, and he passed. Lesson: many prospects' real pain is PIPELINE/LEADS, not sales management, so
+leading only with "I build and run your sales team" misses them. RULE: in warm Talpaperin replies,
+and especially in "what do you do / how can you help" answers, include ONE short line that KSW also
+drives the MARKETING side, getting them leads and booked meetings, not just running the sales team.
+Two levers to name (match to their hint): the in-house fractional CMO / demand-gen capability, and
+Pay-Per-Meeting (done-for-you qualified meetings on their calendar, https://talpaperin.com/services/pay-per-meeting).
+Keep it to one line, do not turn the reply into a feature list. Stays consistent with positioning.md
+(fractional CRO owns the number; full marketing capability via an in-house fractional CMO).
