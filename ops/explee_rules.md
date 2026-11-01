@@ -38,6 +38,17 @@ Decisions + actions taken:
 - 252224 Industrial: ARCHIVED (status=archived). Wrong vertical for Tal. Do not resume.
 - Reply ask stays LINK-ONLY on warm replies (Tal's call): send positioning + soft Calendly link,
   do NOT propose specific call times.
+  SUPERSEDED (Tal, 2026-11-01): LINK-ONLY is REVERSED for HIGH-INTENT replies. A two-week review
+  found ~10 Oct 18-24 leads who said "yes, let's talk" / offered their own times / gave a phone
+  number, and we bounced every one to a Calendly link; NONE booked (Allen Thrush, Shlomo Talitman,
+  Moris Elkayam, Taylor Byington, John Wurch, Ori Yona, Oren Haimov, Kelly Franko). The link is the
+  friction. NEW RULE: when a prospect offers times, asks us to send times, says "call me", or gives
+  a phone number, do NOT send Calendly. Propose ONE concrete time (and offer to send a calendar
+  invite on their yes), or offer to call the number they gave. Keep Calendly ONLY for lukewarm
+  "maybe sometime" replies. If Explee returns reply_rate_limited for a contact (we already messaged
+  them ~3x), send the re-engagement from tal@ksw.solutions via Gmail with a fresh subject instead
+  (pound-policy bypass). Also: do NOT let a high-intent "yes" sit on one Calendly nudge and die;
+  follow the POUND policy until they book, decline, or disqualify.
 
 ## Vectorize (Hindsight) reworked for enterprise meetings (Tal, 2026-10-28)
 
