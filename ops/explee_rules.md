@@ -284,3 +284,22 @@ make ~13 fixes, almost all capitalization, including the brand (Hindsight, Vecto
 RULE: all opener/reply copy uses normal capitalization, capital sentence starts and every proper
 noun (company, product, partner, person) capitalized. Never all-lowercase. The Vectorize offer
 briefs (263613/263612) were fixed to require this for the AI-variant too.
+
+## Volume + follow-ups + new segment (Tal, 2026-11-01)
+
+Benchmark: Tal's old outbound agency (BEC) ran 500 mailboxes, ~5,000 emails/day, got 166 leads +
+dozens of meetings + 2 closed for $11K. Our Explee engine is ~6x cheaper per lead ($10.62 vs ~$66)
+and ~3x more efficient per email, but was volume-starved: ~305 emails/day and ZERO follow-ups.
+Root issue vs the agency = VOLUME and FOLLOW-UPS, not targeting/copy. Decisions:
+- Tal raised the project daily budget to $36/day.
+- Tal turned FOLLOW-UPS ON (was single-touch, 0 follow-ups; most replies come from touches 2-4).
+- Replies: handled by the reply-check routines (conversion leak already fixed 2026-11-01).
+- NEW SEGMENT added (campaign 347642 "Scaling B2B (Series B+, US, 50-200)", project 49501):
+  later-stage / bigger buyer to add volume AND chase bigger deals. ICP = US B2B tech/tech-enabled,
+  ~50-200 emp, Series B+ or real revenue scale, scaling past founder-led sales, no seasoned CRO yet;
+  CEO/revenue-owner. Excludes commission-only/no-budget, established CRO, enterprise >500, tiny/pre-rev.
+  Inherits the project Calendly + locked "My copy" opener. Cap ~$10/day (12+13+10 under the $36).
+  Created in "discovery" status; if it does not auto-advance to outreach, Tal approves/launches in UI.
+  CONFIRM follow-ups are ON for this new lane too (may be per-campaign).
+Now three active Talpaperin lanes (252219, 252222, 347642) + follow-ups + fixed conversion = the
+volume/sequencing/conversion stack we were missing vs the agency, at a fraction of the cost.
