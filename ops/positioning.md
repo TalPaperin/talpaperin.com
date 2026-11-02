@@ -55,7 +55,7 @@ that should be higher), then "I fix that," then the two modes.
   underperforming teams, stalled revenue.
 
 ## TheDealMentor.AI (the "can't afford me full time" entry point)
-A $149/month AI sales platform that gives founders and sales teams "everything I do, on
+A self-serve AI sales platform (tiered license fees, see thedealmentor.ai) that gives founders and sales teams "everything I do, on
 demand." Keep it as the self-serve / DIY option alongside the fractional and
 fully-outsourced paths.
 
@@ -81,7 +81,7 @@ problem was leads, when Pay-Per-Meeting was the answer).
   marketing and sales as one engine. -> "Marketing is the gap / sales and marketing are disconnected."
 - B2G & Public Sector: government/public-sector deals, RFIs/RFQs, across the globe.
   -> "I sell to government / public sector."
-- TheDealMentor.AI ($149/mo, DIY): the ICP/playbook/scripts/motion on demand.
+- TheDealMentor.AI (DIY, tiered license fees; see thedealmentor.ai): the ICP/playbook/scripts/motion on demand.
   -> "Can't afford a service / want to do it myself / very early pre-revenue."
 A prospect can fit several; lead with the one that solves their stated problem. Pricing-
 specific questions go to Tal. No link in cold replies (deliverability); name the service.
@@ -116,7 +116,7 @@ decision is often what NOT to do.
   $2k entry; it is far less scary than an annualized figure. NEVER say "$72,000/year" (that number is
   wrong AND maximally scary). If a number is genuinely needed, "starts at $2k/month" is the line.
 - Fractional CMO: month-to-month (vs a full-time CMO at $180K-300K all-in). Oversight vs full-ownership tiers.
-- Do NOT push TheDealMentor ($149/mo) as a downsell and do NOT volunteer it (Tal, 2026-11-02).
+- Do NOT push TheDealMentor as a downsell and do NOT volunteer it (Tal, 2026-11-02). DealMentor pricing is TIERED LICENSE FEES, NOT a flat $149/mo (Tal, 2026-11-02); never state a flat price in copy or replies, point to thedealmentor.ai.
 
 ### Verified case studies / proof (public; do NOT embellish or invent metrics)
 - KanduAI: built the sales motion from zero (ICP, outbound playbook, SDR hiring); relaunched through pivots.

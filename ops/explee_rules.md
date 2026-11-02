@@ -89,7 +89,7 @@ Dissected a weak email Claude sent. Rules, apply to every warm reply and re-enga
 - IF they ask price: the real tiers are $2,000/month, then $6,000/month, then $12,000/month,
   month-to-month. Lead with "$2k/month". NEVER say "$72,000/year" (it is WRONG and maximally scary).
   Frame per month, never annualized. Anchor against a full-time VP ($150-250K/yr) only if needed.
-- Do NOT push or even volunteer TheDealMentor ($149/mo) or a "downsell". Offering the cheap option
+- Do NOT push or even volunteer TheDealMentor or a "downsell". Offering the cheap option
   before they object plants the objection, signals low conviction, and gives them permission to pass.
 - Do NOT turn the call into an email price-gate. Never make a prospect "reply to confirm the price
   works" in writing, alone, before a call -- that is where they self-reject. Objections (e.g. "I
@@ -105,12 +105,12 @@ he charges. This is how we stop wasting Tal's calls on people who did not know t
 - SEQUENCE on any warm "let's talk" / "send me a time" / "send the invite" reply: FIRST point them
   to talpaperin.com (what Tal does) and talpaperin.com/pricing (what he charges), and state the
   model plainly in the reply: fractional CRO, month-to-month retainer, starts around $72,000/year,
-  NOT commission-only, NOT a $149 software tool. Ask them to take a look. ONLY AFTER they have the
+  NOT commission-only, NOT a self-serve software tool. Ask them to take a look. ONLY AFTER they have the
   model/price and it is a fit do you lock a time. Make sure they have been sent to the site before
   any booking. Do NOT send a prospect a specific meeting time until this gate is passed.
 - NO RANDOM TIME PROPOSALS. Never throw out a clock time just to fill the calendar.
 - If the retainer is above their budget, route to the cheaper rungs instead of a call: Pay-Per-Meeting
-  (done-for-you leads) or TheDealMentor.AI ($149/mo DIY). Do not burn a call slot on someone who
+  (done-for-you leads) or TheDealMentor.AI (DIY, tiered license fees). Do not burn a call slot on someone who
   cannot afford the service.
 - TAL'S AVAILABILITY (Israel time, Asia/Jerusalem) -- NEVER propose/accept a time outside it:
   base windows 11:00-15:00 and 16:30-22:00, MINUS a STANDING DAILY MEETING that is always blocked.
@@ -181,11 +181,11 @@ Sales Training Firms, 310574 Outbound Agencies, 310575 Agency sales teams, are u
 NOT relevant, do not monitor or re-tune them unless Tal resumes them. As of 2026-10-28 the live
 three were discovery/review (0 sent, pools still building). target_url =
 https://www.thedealmentor.ai/contact. Decisions: I handle DealMentor replies on a DM-specific
-track (see reply_check_playbook.md: point to thedealmentor.ai, $149/mo DIY framing, NO Calendly,
+track (see reply_check_playbook.md: point to thedealmentor.ai, DIY framing (do not quote a flat price), NO Calendly,
 NO fractional-CRO pitch), and I tightened the ICP + offers (done via PATCH): set target_role per
 segment, capped company size to small (~1-50, a couple at ~1-75; dropped the old 1-500 band,
 since the DealMentor buyer is the "can't afford senior help" small/early crowd), and rewrote each
-offer to lead with what TheDealMentor.AI is ($149/mo AI sales platform) plus the segment benefit.
+offer to lead with what TheDealMentor.AI is (self-serve AI sales platform, see thedealmentor.ai for pricing) plus the segment benefit.
 Do NOT re-broaden to mid-market/enterprise. Add 55881 to every reply-check cycle. Note: the
 `keywords` field is read-only via the API (PATCH rejects it with extra_forbidden); strip it from
 any PATCH body.
@@ -337,7 +337,7 @@ FIXES (done via PATCH, targeting_editable=true):
 
 DealMentor VP-Sales pivot (Tal, 2026-10-30): "need VP Sales or sales directors in SMALL companies,
 NOT tech. 3 demos yesterday but looks like curiosity." The old 3 campaigns targeted founders/CEOs at
-small TECH/SaaS = curiosity tire-kickers on a $149 tool. Repointed all 3 (310570/310571/310572) via
+small TECH/SaaS = curiosity tire-kickers on a DIY tool. Repointed all 3 (310570/310571/310572) via
 PATCH to: ROLE = VP Sales / Sales Director / Head of Sales who owns the number and manages a team
 (NOT founder/CEO, NOT a lone rep); SIZE = small NON-TECH companies ~10-100 emp with a real sales team
 and a sales leader; split by non-tech vertical: 310570 manufacturing/industrial, 310571 distribution/
