@@ -30,6 +30,6 @@ After: "Hi Dana, you are hiring two SDRs in the US while your pipeline is still 
 
 Same length. The second one gets replies because it is about her, not me.
 
-If you would rather skip the writing entirely and just get meetings on the calendar, that is exactly what my [pay-per-meeting service](/services/pay-per-meeting) does. And if you want the logic behind paying for booked meetings instead of activity, I wrote about [why I charge per meeting, not per retainer](/blog/pay-per-meeting-not-per-retainer).
+Cold email is one piece of a bigger outbound system, the sequence, the list and the qualification around it, which I lay out in [how to build a B2B outbound motion](/b2b-outbound-sales). If you would rather skip the writing entirely and just get meetings on the calendar, that is exactly what my [pay-per-meeting service](/services/pay-per-meeting) does. And if you want the logic behind paying for booked meetings instead of activity, I wrote about [why I charge per meeting, not per retainer](/blog/pay-per-meeting-not-per-retainer).
 
 Write fewer emails. Make each one impossible to ignore.

@@ -64,7 +64,7 @@ They are feeding fuel into a broken system. It is the same reason [a $1.1 billio
 
 If your pipeline is half fiction, a better closer just closes the fiction faster. More leads just create more fiction. A shiny new dashboard just measures the fiction in color.
 
-You do not have an execution problem. You have a qualification problem. And qualification is not a rep skill you can hire your way around. It is a discipline the company either enforces from the top or quietly abandons.
+You do not have an execution problem. You have a qualification problem. And qualification is not a rep skill you can hire your way around. It is a discipline the company either enforces from the top or quietly abandons. It is one link in a bigger chain, and I lay out the whole thing in [how to build a sales pipeline you can forecast](/sales-pipeline-and-forecasting).
 
 ## The test, right now
 

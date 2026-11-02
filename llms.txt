@@ -81,12 +81,16 @@
 - [How to Choose Your Go-To-Market Motion](https://talpaperin.com/go-to-market-motion): Outbound, inbound, product-led or channel? How to choose the right B2B go-to-market motion by price point, buyer and stage, not by hype.
 - [Sell in Israel First, or Go Straight Abroad?](https://talpaperin.com/sell-in-israel-first-or-go-global): Should an Israeli B2B startup sell at home first or go straight abroad? The honest answer, when local-first helps, and when it quietly burns a year.
 - [When to Expand to the US Market](https://talpaperin.com/when-to-expand-to-the-us): How to know your B2B company is ready for the US, the signals that say wait, and what to validate before you spend a dollar on a US move.
+- [How to Build a Sales Pipeline You Can Forecast](https://talpaperin.com/sales-pipeline-and-forecasting): Pipeline, outbound and forecasting are one system. How to fill the pipeline, qualify it honestly, size coverage, and forecast a number you can trust.
+- [How Much Pipeline Do You Actually Need?](https://talpaperin.com/how-much-pipeline-do-you-need): Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it right, and why most teams carry half what they think.
+- [How to Build a B2B Outbound Sales Motion](https://talpaperin.com/b2b-outbound-sales): Outbound is a system, not a headcount. How to build one from ICP to sequence to qualification, who runs it, and the metric that tells you it is working.
 
 ## Hebrew (עברית)
 - [Services in Hebrew](https://talpaperin.com/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew.
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [40 Companies, One Category, 20 of Them Israeli. How Do You Sell?](https://talpaperin.com/blog/selling-in-a-crowded-category): Nikesh Arora counts 40 firms racing to secure AI agents, at least 20 Israeli. When the category is a knife fight, the deck does not win. The sales motion does.
 - [Debt Does Not Kill Companies. Soft Revenue Plus Debt Does.](https://talpaperin.com/blog/debt-plus-soft-revenue-kills-startups): Analysts warn that debt could amplify the damage AI does to businesses. The real risk is debt stacked on revenue that was never durable. Fix the revenue first.
 - [HubSpot Cut 660 Jobs and Called It AI. Read It Differently.](https://talpaperin.com/blog/ai-layoffs-expose-weak-sales): HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount that a weak sales engine had been carrying.
 - [At-Bay Was Valued at $1.35B. It Sold for $575M. Read the Gap.](https://talpaperin.com/blog/valuation-is-not-a-business): At-Bay hit a $1.35B valuation and sold to Munich Re for $575M. A valuation is a bet. Revenue is a fact. Here is how founders should read the difference.

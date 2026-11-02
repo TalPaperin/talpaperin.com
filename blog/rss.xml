@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>40 Companies, One Category, 20 of Them Israeli. How Do You Sell?</title>
+      <link>https://talpaperin.com/blog/selling-in-a-crowded-category</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/selling-in-a-crowded-category</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Nikesh Arora counts 40 firms racing to secure AI agents, at least 20 Israeli. When the category is a knife fight, the deck does not win. The sales motion does.</description>
+    </item>
     <item>
       <title>Debt Does Not Kill Companies. Soft Revenue Plus Debt Does.</title>
       <link>https://talpaperin.com/blog/debt-plus-soft-revenue-kills-startups</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/can-you-grow-a-company-30x</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>A company hired me to grow them 30X. Grant Cardone does 10X. Can you actually 30X a business? Yes, but only if you work backwards and build the machine to produce it.</description>
-    </item>
-    <item>
-      <title>BioCatch Sold to Visa for $2.4 Billion. The Lesson Is Not the Technology.</title>
-      <link>https://talpaperin.com/blog/biocatch-visa-exit-sales-machine</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/biocatch-visa-exit-sales-machine</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>BioCatch went from $7M to $100M ARR before Visa paid $2.4 billion. The lesson for founders is not the tech. It is the repeatable sales machine that scaled it.</description>
     </item>
   </channel>
 </rss>

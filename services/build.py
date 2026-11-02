@@ -322,6 +322,7 @@ ARTICLE_GUIDES = {
     "how-to-build-a-sales-team", "sales-compensation-plan", "setting-sales-quotas",
     "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
     "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
+    "sales-pipeline-and-forecasting", "how-much-pipeline-do-you-need", "b2b-outbound-sales",
     "tal-paperin-podcasts-and-press",
 }
 
@@ -477,6 +478,10 @@ SERVICES = [
       "When building an in-house team is too slow, too expensive, or too risky for your stage. You get a working revenue engine in weeks, not the 6-12 months it takes to hire and ramp one yourself, and none of the severance risk if the fit is wrong."]},
     {"h":"Who runs it","p":[
       "KSW Solutions, led by me. 20-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets. Your sales function, owned by people who have done it before."]},
+    {"h":"Go deeper in the guides","links":[
+      ["How to build a sales pipeline you can forecast","/sales-pipeline-and-forecasting"],
+      ["How to build a B2B outbound motion","/b2b-outbound-sales"],
+      ["How much pipeline you actually need","/how-much-pipeline-do-you-need"]]},
     {"img": "/img/site/outsourced-team.jpg", "alt": "Tal Paperin with a sales team", "cap": "A full team, run for you, outside your headcount."},
   ]},
 
@@ -1006,6 +1011,10 @@ HE_SERVICES = [
      "p":["כשבניית צוות פנימי איטית מדי, יקרה מדי או מסוכנת מדי לשלב שלכם. אתם מקבלים מנוע מכירות עובד תוך שבועות, לא ב-6 עד 12 חודשים של גיוס וחימום, ובלי סיכון הפיצויים אם ההתאמה לא נכונה."]},
     {"h":"מי מריץ את זה",
      "p":["KSW Solutions, בהובלתי. מעל 20 שנה של בנייה וניהול מכירות B2B בארה״ב, אירופה, APAC והשווקים הפוסט-סובייטיים. מערך המכירות שלכם, בידיים של מי שכבר עשה את זה."]},
+    {"h":"להעמיק במדריכים","links":[
+      ["איך בונים פייפליין מכירות שאפשר לחזות","/he/sales-pipeline-and-forecasting"],
+      ["איך בונים מהלך אאוטבאונד B2B","/he/b2b-outbound-sales"],
+      ["כמה פייפליין אתם באמת צריכים","/he/how-much-pipeline-do-you-need"]]},
     {"img": "/img/site/outsourced-team.jpg", "alt": "טל פאפרין עם צוות מכירות", "cap": "צוות שלם שמורץ עבורכם, מחוץ למצבת כוח האדם."},
   ]},
 
@@ -2733,7 +2742,7 @@ GUIDES = [
     {"q":"Why is my sales forecast always too high?","a":"Almost always because reps set their own probabilities and nobody inspects the deals. Optimism and happy ears inflate the number, dead deals stay in the pipeline, and stages have no real meaning. Fix the stage criteria and run honest weekly inspection and the forecast tightens fast."},
     {"q":"Is inaccurate forecasting a CRM problem or a sales problem?","a":"Both, and they feed each other. Undefined stages and uncalibrated probabilities are configuration problems; reps setting their own odds and nobody inspecting deals is a discipline problem. You have to fix the system and the habit together, which is exactly what I do in the first two weeks."},
     {"q":"How quickly can you make the forecast reliable?","a":"I define stages and exit criteria and clean the pipeline in the first week, then run weekly deal inspection from there. Within a couple of weeks the forecast reflects real deals, and it keeps tightening as the calibrated probabilities get tested against actual closes."}],
-  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/sales-team-missing-quota">sales team missing quota</a>, <a href="/services/go-to-market-strategy">go-to-market strategy</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'Part of <a href="/sales-pipeline-and-forecasting">how to build a sales pipeline you can forecast</a>. See also <a href="/how-much-pipeline-do-you-need">how much pipeline you need</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/sales-team-missing-quota">sales team missing quota</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"hired-reps-but-no-pipeline",
   "title":"Hired Sales Reps but No Pipeline? Here Is Why | Tal Paperin",
@@ -2751,7 +2760,7 @@ GUIDES = [
     {"q":"Why aren't my new sales reps generating pipeline?","a":"Usually because there is no motion for them to run. No sharp ICP, no outbound system, no target list, no playbook. Strong closers in particular are weak at prospecting and need pipeline handed to them. Build the motion first and the same reps start producing."},
     {"q":"Should I hire more reps to get more pipeline?","a":"Not until a motion exists. Adding headcount to a broken motion multiplies the cost without multiplying the pipeline. Build and prove the outbound engine, then hire against something that already works so new reps ramp on a system instead of guessing."},
     {"q":"Do I need SDRs or AEs to fix an empty pipeline?","a":"Often both, in the right seats. SDRs prospect and book meetings, AEs close. The common mistake is hiring closers and expecting them to prospect, or hiring SDRs with no playbook. I put the right people in the right seats and train them on a built motion."}],
-  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/services/sales-team-building">sales team building</a>, <a href="/founder-led-sales-wont-scale">founder-led sales will not scale</a>, <a href="/outsourced-sdr-team">an outsourced SDR team</a>, <a href="/go-to-market-motion">how to choose your go-to-market motion</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'Part of <a href="/sales-pipeline-and-forecasting">how to build a sales pipeline you can forecast</a>. See also <a href="/b2b-outbound-sales">how to build a B2B outbound motion</a>, <a href="/services/outsourced-sales">outsourced sales</a>, <a href="/outsourced-sdr-team">an outsourced SDR team</a>, <a href="/founder-led-sales-wont-scale">founder-led sales will not scale</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"how-to-build-a-sales-team",
   "title":"How to Build and Scale a B2B Sales Team | Tal Paperin",
@@ -3523,6 +3532,125 @@ GUIDES = [
     {"q":"Do I need a US office and team to start selling there?","a":"No. The first US sales can come from your existing team working US hours, then a small landing team, then reps and an entity once the motion proves out. Building the full apparatus before you have one repeatable deal is how companies burn the US."},
     {"q":"What is the most common US expansion mistake?","a":"Treating the move as a sales launch instead of a learning exercise. Founders rent an office and hire reps expecting pipeline in a quarter, then burn the raise when nothing closes. Expand to learn fast and cheap, not to book revenue you have not earned the right to yet."}],
   "related":'See <a href="/us-market-entry-for-israeli-startups">US market entry for Israeli startups</a>, <a href="/fractional-cro-for-the-us-market">fractional CRO for the US market</a> and <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a>. From the blog: <a href="/blog/entering-the-us-market">entering the US market</a>, <a href="/blog/setting-up-us-subsidiary">setting up a US subsidiary</a> and <a href="/blog/choosing-first-market">how to choose your first market</a>.'},
+
+ {"slug":"sales-pipeline-and-forecasting",
+  "title":"How to Build a Sales Pipeline You Can Forecast | Tal Paperin",
+  "desc":"Pipeline, outbound and forecasting are one system. How to fill the pipeline, qualify it honestly, size coverage, and forecast a number you can trust.",
+  "h1":"How to Build a Sales Pipeline You Can Forecast","eyebrow":"Guide",
+  "lead":"Most founders treat pipeline, outbound and forecasting as three separate problems, hand them to three different people, and wonder why the number on the board never matches the money in the bank. They are one system. You fill the pipeline with outbound, you keep it honest with qualification, then you forecast what is left. Break any link and the whole chain lies to you. Here is how I build the chain as a fractional CRO.",
+  "sections":[
+    {"h":"The three things are one system","p":[
+      "Pipeline is not a list of logos your reps feel good about. It is the raw material the forecast reads from, and it exists only because something put it there: outbound you ran, inbound you earned, or partners who sent it. If the top of the system is weak, no amount of closing skill fixes the number. If the middle is full of deals nobody qualified, the forecast is fiction. If the discipline at the bottom is loose, you commit a number to the board and miss it by a third.",
+      "So stop debugging them separately. A dry pipeline, a wrong forecast, and a team that looks busy and sells nothing are usually the same problem seen from three angles. Fix the system, not the symptom."]},
+    {"h":"Start from the number and work backwards","p":[
+      "A pipeline target is not a vibe. It is arithmetic. Take the revenue you have to close, divide by your true win rate, and that is the qualified pipeline you need in the door in time to close inside the period. Have to close one million and you win one qualified deal in four? You need four million of real pipeline, created early enough that your sales cycle can carry it over the line.",
+      "Most teams quote a flattering win rate measured from proposal, not from qualified opportunity, so they carry half the coverage they think they do. Get the real number and the gap shows up while you can still do something about it."]},
+    {"h":"Fill it with outbound, not hope","ul":[
+      "A sharp ICP, so you are not spraying a whole market and converting none of it",
+      "A message built from the buyer's pain in their words, not your feature list",
+      "A target list of the actual accounts and people, not a database you rented",
+      "A sequence that earns replies across more than one channel",
+      "Qualifying questions that sort a real buyer from a polite one on the first call"]},
+    {"h":"Qualify honestly or the forecast lies","p":[
+      "A good conversation is not a deal. A positive demo is not a deal. A prospect asking for a proposal is not a deal. Your team knows this and gets rewarded, emotionally and sometimes literally, for believing otherwise. That is why you cannot leave pipeline judgment to the same people who built the pipeline."],
+     "ul":[
+      "Confirmed pain in the buyer's own words, not yours",
+      "The economic buyer has been in at least one real conversation",
+      "A defined next step on the calendar, not a vague follow-up",
+      "A known buying process, step by step, from here to signature",
+      "An honest answer to what happens if they do nothing, because most deals are lost to nothing, not to a competitor"]},
+    {"h":"Then, and only then, forecast","p":[
+      "A forecast is a claim about which deals close and when. It is only as honest as the pipeline under it. Define your stages with real exit criteria so a deal advances when something concrete happened, calibrate probabilities to how your deals have actually closed, and run weekly deal inspection where someone senior calls the deals honestly, including the ones the team wants to believe in. One source of truth, the CRM, with no shadow spreadsheet running next to it. Do that and you can hire, spend and report against a number that holds."]},
+    {"h":"Go deeper on each part","links":[
+      ["How much pipeline you actually need","/how-much-pipeline-do-you-need"],
+      ["How to build a B2B outbound motion","/b2b-outbound-sales"],
+      ["Why your sales forecast is always wrong","/sales-forecast-always-wrong"],
+      ["Hired reps but no pipeline","/hired-reps-but-no-pipeline"],
+      ["How to set sales quotas reps can hit","/setting-sales-quotas"],
+      ["Outsourced sales service","/services/outsourced-sales"]]},
+    {"h":"How I build it","p":[
+      "I come in as a fractional CRO, build the outbound motion from the ICP out, put the right people in the right seats, then clean the pipeline and run the forecast discipline so the number you give the board is one you can keep. You get the whole system owned by one person who answers for the result, not three vendors pointing at each other. If your pipeline is dry, or full, and the forecast still misses, that is the problem I fix."]},
+  ],
+  "faqs":[
+    {"q":"What is the difference between pipeline and forecast?","a":"Pipeline is every open opportunity, the raw material. The forecast is the claim about which of those deals will close and when. A forecast is only as honest as the pipeline under it, so if the pipeline is full of unqualified deals, the forecast misses every time."},
+    {"q":"How much pipeline do I need to hit my number?","a":"Take the revenue you must close and divide by your true win rate, measured from qualified opportunity to closed-won, not from proposal. If you win one in four, you need roughly four times your number in real pipeline, created early enough for your sales cycle to close it in the period."},
+    {"q":"Do I need outbound if I have inbound?","a":"Early on, almost always yes. Inbound compounds but takes six to eighteen months to produce predictable pipeline. Outbound gives you control, speed and market learning now, and it teaches you the messaging that later makes inbound work."},
+    {"q":"Why does my forecast keep missing even though the pipeline looks full?","a":"Because the pipeline is full of deals nobody qualified. Strip out the deals with no confirmed pain, no economic buyer and no real next step, and a three-times coverage often collapses to one and a half. The forecast was reading fiction. Fix the qualification and the number tightens fast."},
+    {"q":"Can a fractional CRO build this for me?","a":"Yes. I build the outbound motion, clean the pipeline, define the stages and run weekly deal inspection, so you get pipeline, qualification and forecast as one owned system instead of three disconnected efforts. It is core to what I do in the first ninety days."}],
+  "related":'See the <a href="/services/outsourced-sales">outsourced sales</a> and <a href="/services/fractional-cro">fractional CRO</a> services, then go deeper on <a href="/how-much-pipeline-do-you-need">how much pipeline you need</a>, <a href="/b2b-outbound-sales">building an outbound motion</a> and <a href="/sales-forecast-always-wrong">why your forecast is always wrong</a>. Or read <a href="/blog/your-pipeline-is-lying-to-you">your pipeline is lying to you</a> and <a href="/blog/how-much-pipeline-to-hit-number">how much pipeline you really need</a>.'},
+
+ {"slug":"how-much-pipeline-do-you-need",
+  "title":"How Much Sales Pipeline Do You Actually Need? | Tal Paperin",
+  "desc":"Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it right, and why most teams carry half what they think.",
+  "h1":"How Much Pipeline Do You Actually Need?","eyebrow":"Guide",
+  "lead":"\"We have 3x coverage, so we are fine.\" I hear that in almost every forecast review, and it is almost always wrong. Not because the math is hard. Because the inputs are fake. Here is how to size the pipeline you actually need, and how to tell whether the number you are carrying is real.",
+  "sections":[
+    {"h":"Coverage is arithmetic, not a feeling","p":[
+      "Take the revenue you have to close, divide by your true win rate, and that is the qualified pipeline you need in the door in time to close inside the period. Have to close one million and you win one in four? You need four million of real pipeline. That is the whole formula. The trouble is that every input in it gets fudged, and three small lies multiply into a number you cannot trust."]},
+    {"h":"The three inputs teams get wrong","ul":[
+      "Win rate. Everyone quotes the flattering one, measured from proposal, not from qualified opportunity. Your real win rate, from qualified opportunity to closed-won, is usually about half what the team quotes, which doubles the pipeline you actually need.",
+      "Cycle time. Pipeline you create today does nothing for this quarter if your sales cycle is five months. Coverage only counts if it was created early enough for your cycle to carry it over the line in the period.",
+      "The denominator. This is the big one. Most pipelines are padded with deals that are already dead and nobody moved to closed-lost: the champion went quiet, the budget got pulled, the decision slipped three times. That is not coverage. It is wishful thinking with a dollar value on it."]},
+    {"h":"Strip the pipeline before you trust the ratio","p":[
+      "Before you calculate coverage, clean the pipeline. Every open deal passes a basic test or it comes out of the number."],
+     "ul":[
+      "Confirmed pain in the buyer's own words, not yours",
+      "The economic buyer has been in at least one real conversation",
+      "A defined next step on the calendar, not a vague follow-up",
+      "A known buying process, step by step, from here to signature"]},
+    {"h":"Honest coverage is lower, and that is good news","p":[
+      "Run that test honestly and a 3x pipeline often collapses to 1.5x. That is not a disaster. That is the truth arriving in week two, while you still have a quarter to build, instead of in week twelve when it is too late to do anything but miss. A coverage number that scares you early is worth more than a comfortable one that lies.",
+      "Coverage is also not one number for the whole company. Early-stage motions with thin conversion data need more cushion. A long enterprise cycle needs pipeline built quarters ahead. A 90-day transactional sale can run leaner. Size it to your real win rate and cycle, not to a benchmark you read in a blog."]},
+    {"h":"Coverage is a system, not a snapshot","p":[
+      "The discipline is not calculating coverage once. It is keeping the pipeline honest week after week so the ratio means something every time you look. Reps graded on pipeline volume inflate it. Reps graded on pipeline that converts do not. That is a management choice, and it is the one that decides whether your forecast is a tool or a decoration."]},
+    {"h":"Where this fits","links":[
+      ["How to build a sales pipeline you can forecast","/sales-pipeline-and-forecasting"],
+      ["Why your sales forecast is always wrong","/sales-forecast-always-wrong"],
+      ["How to set sales quotas reps can hit","/setting-sales-quotas"],
+      ["Hired reps but no pipeline","/hired-reps-but-no-pipeline"],
+      ["Fractional CRO service","/services/fractional-cro"]]},
+  ],
+  "faqs":[
+    {"q":"How much pipeline coverage do I need?","a":"Divide the revenue you must close by your true win rate from qualified opportunity to closed-won. If you win one in four, you need about four times your number. The common 3x rule is only right if your real win rate is one in three and the pipeline is clean, which it usually is not."},
+    {"q":"Why is 3x pipeline coverage not enough?","a":"Because the 3x is usually measured against an inflated pipeline and a flattering win rate. Strip out the dead deals and use your real qualified-to-won rate and the honest coverage is often half what the dashboard shows. The ratio is only as good as the deals under it."},
+    {"q":"Does pipeline coverage change by sales cycle?","a":"Yes. Pipeline only counts as coverage for the period if it was created early enough for your sales cycle to close it in time. A five-month cycle means the pipeline for this quarter had to exist last quarter. New opportunities are coverage for later, not for now."},
+    {"q":"How do I know if my pipeline is real?","a":"Test every open deal: confirmed pain in the buyer's words, the economic buyer in a real conversation, a next step on the calendar, and a known buying process to signature. Deals that fail come out of the number. What survives is the pipeline you can actually forecast against."}],
+  "related":'Part of <a href="/sales-pipeline-and-forecasting">how to build a sales pipeline you can forecast</a>. See also <a href="/sales-forecast-always-wrong">why your forecast is always wrong</a>, <a href="/setting-sales-quotas">setting sales quotas</a> and the <a href="/services/fractional-cro">fractional CRO service</a>. Or read <a href="/blog/how-much-pipeline-to-hit-number">the real coverage math</a> and <a href="/blog/your-pipeline-is-lying-to-you">your pipeline is lying to you</a>.'},
+
+ {"slug":"b2b-outbound-sales",
+  "title":"How to Build a B2B Outbound Sales Motion | Tal Paperin",
+  "desc":"Outbound is a system, not a headcount. How to build one from ICP to sequence to qualification, who runs it, and the metric that tells you it is working.",
+  "h1":"How to Build a B2B Outbound Sales Motion","eyebrow":"Guide",
+  "lead":"Most founders try to buy outbound by hiring a rep. Then the rep looks busy for two quarters and the pipeline stays dry. Headcount is not a motion. Outbound is a system you build, piece by piece, and only then hand to a person to run. Here is how to build it so it actually fills the funnel.",
+  "sections":[
+    {"h":"Headcount is not a motion","p":[
+      "Hiring an SDR or a closer feels like buying pipeline. It is not. A rep can run a motion that already works, but almost none can invent one from scratch at a company they just joined. Drop someone into a seat with no ICP, no message, no list and no sequence, and they will fill the day with activity and produce almost nothing. The gap is not effort. There is nothing for the effort to run on."]},
+    {"h":"Build it from the ICP out","tiers":[
+      "ICP. A sharp profile, not \"B2B companies\": the company size, the industry, the buyer's role and the specific pain they feel. Every step after this gets easier the sharper this is.",
+      "Message. The reason this buyer should care, in their words, tied to a business outcome they already lose sleep over. Lead with their pain, not your feature list.",
+      "List. The actual accounts and the actual people in them, built and verified, not a bulk database you rented and blasted.",
+      "Sequence. A series of touches across more than one channel, email, phone, LinkedIn, spaced and written to earn a reply, not a single email fired once and forgotten.",
+      "Qualification. The questions that sort a real buyer from a polite one on the first call, so your closers spend time on deals that can close."]},
+    {"h":"SDRs prospect, AEs close","p":[
+      "The common mistake is hiring a senior closer and expecting them to prospect their own pipeline. Most strong closers are weak at outbound and hate it, so they wait for leads that never come. Put the right people in the right seats: SDRs to open conversations and book meetings, AEs to run and close them. At the earliest stage the founder is the best SDR, because the founder knows the pain cold. Hand it off once the motion repeats, not before."]},
+    {"h":"Measure pipeline created, not activity","p":[
+      "The fastest way to kill an outbound motion is to grade it on calls made and emails sent. Pay for activity and you get activity: a busy team and an empty funnel. Grade it on qualified pipeline created and meetings that convert, and the team optimizes for the thing you actually want. Activity is an input you inspect, not the result you reward."]},
+    {"h":"Build it, rent it, or outsource it","p":[
+      "You do not have to build the whole machine in-house on day one. If you want meetings on the calendar fast while you learn the market, you can rent the output with a pay-per-meeting service. If you want a whole outbound team run for you outside your headcount, that is outsourced sales. And if you are building in-house, build the system first, then hire against a motion that already works so the reps ramp on something real instead of guessing."]},
+    {"h":"Where this fits","links":[
+      ["How to build a sales pipeline you can forecast","/sales-pipeline-and-forecasting"],
+      ["Hired reps but no pipeline","/hired-reps-but-no-pipeline"],
+      ["How much pipeline you actually need","/how-much-pipeline-do-you-need"],
+      ["Outsourced SDR team","/outsourced-sdr-team"],
+      ["Pay-per-meeting appointment setting","/services/pay-per-meeting"],
+      ["Outsourced sales service","/services/outsourced-sales"]]},
+  ],
+  "faqs":[
+    {"q":"What is a B2B outbound sales motion?","a":"It is the system that turns a target account into a booked meeting: a sharp ICP, a message built from the buyer's pain, a verified target list, a multi-channel sequence, and qualifying questions. Outbound is the system, not the rep you hire to run it."},
+    {"q":"Why is my outbound not generating pipeline?","a":"Usually because there is no system under it. No sharp ICP, no built list, no real sequence, so every rep improvises and most do it badly. Build the ICP, message, list, sequence and qualification first, and the same reps start producing."},
+    {"q":"Should outbound be done by SDRs or AEs?","a":"SDRs prospect and book meetings, AEs run and close them. Hiring a closer and expecting them to prospect their own pipeline is the common and expensive mistake. At the earliest stage the founder is often the best prospector, then you hand it off once the motion repeats."},
+    {"q":"Should I build outbound in-house or outsource it?","a":"Depends on stage and speed. Renting meetings through pay-per-meeting gets buyers on your calendar fast while you learn the market. Outsourced sales runs a whole team outside your headcount. In-house is right once you want the motion and the people to live inside the company, but build the system before you hire."}],
+  "related":'Part of <a href="/sales-pipeline-and-forecasting">how to build a sales pipeline you can forecast</a>. See also <a href="/hired-reps-but-no-pipeline">hired reps but no pipeline</a>, the <a href="/services/outsourced-sales">outsourced sales</a> and <a href="/services/pay-per-meeting">pay-per-meeting</a> services. Or read <a href="/blog/outbound-vs-inbound-early-stage">outbound vs inbound for early-stage B2B</a> and <a href="/blog/cold-email-that-books-meetings">cold email that books meetings</a>.'},
 ]
 
 
@@ -3853,7 +3981,7 @@ HE_GUIDES = [
     {"q":"למה תחזית המכירות שלי תמיד גבוהה מדי?","a":"כמעט תמיד כי נציגים קובעים את ההסתברויות בעצמם ואף אחד לא בודק את העסקאות. אופטימיות ואוזניים נוחות מנפחות את המספר, עסקאות מתות נשארות בפייפליין, ולשלבים אין משמעות אמיתית. תקנו את קריטריוני השלבים והריצו בדיקה שבועית כנה והתחזית מתהדקת מהר."},
     {"q":"תחזית לא מדויקת היא בעיית CRM או בעיית מכירות?","a":"שתיהן, והן מזינות זו את זו. שלבים לא מוגדרים והסתברויות לא מכוילות הן בעיות קונפיגורציה; נציגים שקובעים את הסיכויים בעצמם ואף אחד שלא בודק עסקאות זו בעיית משמעת. חייבים לתקן את המערכת ואת ההרגל יחד, וזה בדיוק מה שאני עושה בשבועיים הראשונים."},
     {"q":"כמה מהר אתה יכול להפוך את התחזית לאמינה?","a":"אני מגדיר שלבים וקריטריוני יציאה ומנקה את הפייפליין בשבוע הראשון, ואז מריץ בדיקת עסקאות שבועית משם. תוך שבועיים התחזית משקפת עסקאות אמיתיות, והיא ממשיכה להתהדק ככל שההסתברויות המכוילות נבחנות מול סגירות אמיתיות."}],
-  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-Fractional CRO</a>, <a href="/he/sales-team-missing-quota">צוות מכירות לא עומד ביעד</a>, <a href="/he/services/go-to-market-strategy">אסטרטגיית Go-To-Market</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+  "related":'חלק מ<a href="/he/sales-pipeline-and-forecasting">איך בונים פייפליין מכירות שאפשר לחזות</a>. ראו גם <a href="/he/how-much-pipeline-do-you-need">כמה פייפליין אתם צריכים</a>, את <a href="/he/services/fractional-cro">שירות סמנכ״ל ההכנסות במיקור חוץ</a>, <a href="/he/sales-team-missing-quota">צוות מכירות לא עומד ביעד</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
 
  {"slug":"hired-reps-but-no-pipeline",
   "title":"גייסתם נציגי מכירות ואין פייפליין? הנה למה | טל פאפרין",
@@ -3871,7 +3999,7 @@ HE_GUIDES = [
     {"q":"למה הנציגים החדשים שלי לא מייצרים פייפליין?","a":"בדרך כלל כי אין מהלך להריץ. אין ICP חד, אין מערכת אאוטבאונד, אין רשימת יעד, אין playbook. סוגרים חזקים במיוחד חלשים בפנייה וצריכים שיגישו להם פייפליין. בנו את המהלך קודם ואותם נציגים מתחילים להפיק."},
     {"q":"שאגייס עוד נציגים כדי לקבל יותר פייפליין?","a":"לא עד שקיים מהלך. הוספת כוח אדם למהלך שבור מכפילה את העלות בלי להכפיל את הפייפליין. בנו והוכיחו את מנוע האאוטבאונד, ואז גייסו מול משהו שכבר עובד כך שנציגים חדשים נכנסים לקצב על מערכת במקום לנחש."},
     {"q":"אני צריך SDR-ים או AE-ים כדי לתקן פייפליין ריק?","a":"לרוב את שניהם, בכיסאות הנכונים. SDR-ים פונים וקובעים פגישות, AE-ים סוגרים. הטעות הנפוצה היא לגייס סוגרים ולצפות שיפנו, או לגייס SDR-ים בלי playbook. אני שם את האנשים הנכונים בכיסאות הנכונים ומאמן אותם על מהלך בנוי."}],
-  "related":'ראו את <a href="/he/services/fractional-cro">שירות ה-Fractional CRO</a>, <a href="/he/services/sales-team-building">בניית צוות מכירות</a>, <a href="/he/founder-led-sales-wont-scale">מכירות מבוססות-מייסד לא מתרחבות</a>, <a href="/he/go-to-market-motion">איך בוחרים את מהלך ה-GTM</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
+  "related":'חלק מ<a href="/he/sales-pipeline-and-forecasting">איך בונים פייפליין מכירות שאפשר לחזות</a>. ראו גם <a href="/he/b2b-outbound-sales">איך בונים מהלך אאוטבאונד B2B</a>, <a href="/he/services/outsourced-sales">מכירות במיקור חוץ</a>, <a href="/he/founder-led-sales-wont-scale">מכירות מבוססות-מייסד לא מתרחבות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.'},
 
  {"slug":"how-to-build-a-sales-team",
   "title":"איך בונים ומרחיבים צוות מכירות B2B | טל פאפרין",
@@ -4227,6 +4355,124 @@ HE_GUIDES = [
     {"q":"האם אני צריך משרד וצוות אמריקאי כדי להתחיל למכור שם?","a":"לא. המכירות האמריקאיות הראשונות יכולות לבוא מהצוות הקיים שעובד בשעות ארה״ב, אז צוות נחיתה קטן, אז נציגים וישות ברגע שהמהלך מוכיח את עצמו. לבנות את כל המנגנון לפני עסקה אחת שחוזרת זה איך חברות שורפות את ארה״ב."},
     {"q":"מה טעות ההתרחבות הנפוצה ביותר לארה״ב?","a":"להתייחס למהלך כהשקת מכירות במקום כתרגיל למידה. מייסדים שוכרים משרד ומגייסים נציגים מתוך ציפייה לפייפליין ברבעון, ואז שורפים את הגיוס כשכלום לא נסגר. התרחבו כדי ללמוד מהר ובזול, לא כדי להזמין הכנסה שעוד לא הרווחתם את הזכות אליה."}],
   "related":'ראו <a href="/he/sell-in-israel-first-or-go-global">למכור קודם בישראל, או ישר לחו״ל?</a>, את המדריך <a href="/he/fractional-cro-israel">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל</a> ואת <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ה-Go-to-Market</a>. מהבלוג: <a href="/he/blog/entering-the-us-market">כניסה לשוק האמריקאי</a>, <a href="/he/blog/setting-up-us-subsidiary">הקמת חברת בת בארה״ב</a> ו<a href="/he/blog/choosing-first-market">איך לבחור את השוק הראשון</a>. או <a href="/when-to-expand-to-the-us">הגרסה באנגלית</a>.'},
+
+ {"slug":"sales-pipeline-and-forecasting","alt":"sales-pipeline-and-forecasting",
+  "title":"איך בונים פייפליין מכירות שאפשר לחזות | טל פאפרין",
+  "desc":"פייפליין, אאוטבאונד ותחזית הם מערכת אחת. איך ממלאים את הפייפליין, מסננים אותו בכנות, מחשבים כיסוי, וחוזים מספר שאפשר לסמוך עליו.",
+  "h1":"איך בונים פייפליין מכירות שאפשר לחזות","eyebrow":"מדריך",
+  "lead":"רוב המייסדים מתייחסים לפייפליין, אאוטבאונד ותחזית כשלוש בעיות נפרדות, מוסרים אותן לשלושה אנשים שונים, ותוהים למה המספר מול הדירקטוריון אף פעם לא תואם לכסף בבנק. זו מערכת אחת. ממלאים את הפייפליין באאוטבאונד, שומרים עליו כן בעזרת סינון, ואז חוזים את מה שנשאר. שברו חוליה אחת וכל השרשרת משקרת לכם. הנה איך אני בונה את השרשרת כסמנכ״ל הכנסות במיקור חוץ.",
+  "sections":[
+    {"h":"שלושת הדברים הם מערכת אחת","p":[
+      "פייפליין הוא לא רשימת לוגואים שהנציגים מרגישים טוב לגביה. הוא חומר הגלם שהתחזית קוראת ממנו, והוא קיים רק כי משהו שם אותו שם: אאוטבאונד שהרצתם, אינבאונד שהרווחתם, או שותפים ששלחו אותו. אם ראש המערכת חלש, שום כישרון סגירה לא מתקן את המספר. אם האמצע מלא בעסקאות שאף אחד לא סינן, התחזית היא בדיה. אם המשמעת בתחתית רופפת, אתם מתחייבים למספר מול הדירקטוריון ומפספסים אותו בשליש.",
+      "אז תפסיקו לנפות אותם בנפרד. פייפליין יבש, תחזית שגויה וצוות שנראה עסוק ולא מוכר כלום הם בדרך כלל אותה בעיה משלושה כיוונים. תקנו את המערכת, לא את הסימפטום."]},
+    {"h":"מתחילים מהמספר ועובדים אחורה","p":[
+      "יעד פייפליין הוא לא תחושה. זו אריתמטיקה. קחו את ההכנסה שאתם חייבים לסגור, חלקו באחוז הסגירה האמיתי שלכם, וזה הפייפליין המסונן שאתם צריכים בדלת בזמן כדי לסגור בתוך התקופה. חייבים לסגור מיליון וסוגרים עסקה מסוננת אחת מכל ארבע? אתם צריכים ארבעה מיליון של פייפליין אמיתי, שנוצר מוקדם מספיק כדי שמחזור המכירה שלכם יספיק לגרור אותו מעבר לקו.",
+      "רוב הצוותים מצטטים אחוז סגירה מחמיא שנמדד מהצעת מחיר, לא מהזדמנות מסוננת, אז הם נושאים חצי מהכיסוי שהם חושבים. השיגו את המספר האמיתי והפער צף למעלה בזמן שעוד אפשר לעשות משהו."]},
+    {"h":"ממלאים אותו באאוטבאונד, לא בתקווה","ul":[
+      "ICP חד, כך שאתם לא מתזים על שוק שלם וממירים אפס ממנו",
+      "מסר שבנוי מהכאב של הקונה במילים שלו, לא מרשימת הפיצ'רים שלכם",
+      "רשימת יעד של החשבונות והאנשים האמיתיים, לא בסיס נתונים שקניתם",
+      "רצף שמרוויח תשובות על פני יותר מערוץ אחד",
+      "שאלות סינון שממיינות קונה אמיתי מנימוסי כבר בשיחה הראשונה"]},
+    {"h":"סננו בכנות או שהתחזית משקרת","p":[
+      "שיחה טובה היא לא עסקה. דמו חיובי הוא לא עסקה. פרוספקט שמבקש הצעת מחיר הוא לא עסקה. הצוות שלכם יודע את זה, ומתוגמל, רגשית ולפעמים ממש בכסף, על להאמין אחרת. בגלל זה אי אפשר להשאיר את שיפוט הפייפליין לאותם אנשים שבנו את הפייפליין."],
+     "ul":[
+      "כאב מאושר במילים של הקונה, לא שלכם",
+      "הקונה הכלכלי היה בלפחות שיחה אמיתית אחת",
+      "צעד הבא מוגדר ביומן, לא \"נעקוב\" מעורפל",
+      "תהליך קנייה ידוע, צעד אחר צעד, מכאן עד החתימה",
+      "תשובה כנה לשאלה מה קורה אם לא יעשו כלום, כי רוב העסקאות אובדות ל\"כלום\", לא למתחרה"]},
+    {"h":"ואז, ורק אז, חוזים","p":[
+      "תחזית היא טענה לגבי אילו עסקאות ייסגרו ומתי. היא כנה רק כמו הפייפליין שתחתיה. הגדירו את השלבים עם קריטריוני יציאה אמיתיים כך שעסקה מתקדמת רק כשקרה משהו קונקרטי, כיילו הסתברויות לאיך שהעסקאות שלכם באמת נסגרו, והריצו בדיקת עסקאות שבועית שבה מישהו בכיר קורא את העסקאות בכנות, כולל אלה שהצוות רוצה להאמין בהן. מקור אמת יחיד, ה-CRM, בלי גיליון צללים שרץ לצידו. עשו את זה ותוכלו לגייס, להוציא ולדווח מול מספר שמחזיק."]},
+    {"h":"העמיקו בכל חלק","links":[
+      ["כמה פייפליין אתם באמת צריכים","/he/how-much-pipeline-do-you-need"],
+      ["איך בונים מהלך אאוטבאונד B2B","/he/b2b-outbound-sales"],
+      ["למה תחזית המכירות שלכם תמיד שגויה","/he/sales-forecast-always-wrong"],
+      ["גייסתם נציגים ואין פייפליין","/he/hired-reps-but-no-pipeline"],
+      ["איך קובעים יעדי מכירות שאפשר לעמוד בהם","/he/setting-sales-quotas"],
+      ["שירות מכירות במיקור חוץ","/he/services/outsourced-sales"]]},
+    {"h":"איך אני בונה את זה","p":[
+      "אני נכנס כסמנכ״ל הכנסות במיקור חוץ, בונה את מהלך האאוטבאונד מה-ICP החוצה, שם את האנשים הנכונים בכיסאות הנכונים, ואז מנקה את הפייפליין ומריץ את משמעת התחזית כך שהמספר שאתם נותנים לדירקטוריון הוא כזה שאתם יכולים לעמוד בו. אתם מקבלים את כל המערכת בבעלות של אדם אחד שאחראי על התוצאה, לא שלושה ספקים שמצביעים זה על זה. אם הפייפליין שלכם יבש, או מלא, והתחזית עדיין מפספסת, זו הבעיה שאני מתקן."]},
+  ],
+  "faqs":[
+    {"q":"מה ההבדל בין פייפליין לתחזית?","a":"פייפליין הוא כל הזדמנות פתוחה, חומר הגלם. התחזית היא הטענה לגבי אילו מהעסקאות האלה ייסגרו ומתי. תחזית כנה רק כמו הפייפליין שתחתיה, אז אם הפייפליין מלא בעסקאות לא מסוננות, התחזית מפספסת כל פעם."},
+    {"q":"כמה פייפליין אני צריך כדי לעמוד במספר?","a":"קחו את ההכנסה שאתם חייבים לסגור וחלקו באחוז הסגירה האמיתי שלכם, שנמדד מהזדמנות מסוננת לעסקה סגורה, לא מהצעת מחיר. אם אתם סוגרים אחת מארבע, אתם צריכים בערך פי ארבעה מהמספר בפייפליין אמיתי, שנוצר מוקדם מספיק למחזור המכירה שלכם."},
+    {"q":"אני צריך אאוטבאונד אם יש לי אינבאונד?","a":"בשלב מוקדם, כמעט תמיד כן. אינבאונד נצבר אבל לוקח שישה עד שמונה-עשר חודשים לייצר פייפליין צפוי. אאוטבאונד נותן לכם שליטה, מהירות ולמידת שוק עכשיו, והוא מלמד אתכם את המסר שאחר כך גורם לאינבאונד לעבוד."},
+    {"q":"למה התחזית שלי ממשיכה לפספס למרות שהפייפליין נראה מלא?","a":"כי הפייפליין מלא בעסקאות שאף אחד לא סינן. הוציאו את העסקאות בלי כאב מאושר, בלי קונה כלכלי ובלי צעד הבא אמיתי, וכיסוי של פי שלושה לרוב קורס לפי אחד וחצי. התחזית קראה בדיה. תקנו את הסינון והמספר מתהדק מהר."},
+    {"q":"האם סמנכ״ל הכנסות במיקור חוץ יכול לבנות את זה בשבילי?","a":"כן. אני בונה את מהלך האאוטבאונד, מנקה את הפייפליין, מגדיר את השלבים ומריץ בדיקת עסקאות שבועית, כך שאתם מקבלים פייפליין, סינון ותחזית כמערכת אחת בבעלות במקום שלושה מאמצים מנותקים. זה ליבת מה שאני עושה בתשעים הימים הראשונים."}],
+  "related":'ראו את שירותי <a href="/he/services/outsourced-sales">מכירות במיקור חוץ</a> ו<a href="/he/services/fractional-cro">סמנכ״ל ההכנסות במיקור חוץ</a>, אז העמיקו ב<a href="/he/how-much-pipeline-do-you-need">כמה פייפליין אתם צריכים</a>, <a href="/he/b2b-outbound-sales">בניית מהלך אאוטבאונד</a> ו<a href="/he/sales-forecast-always-wrong">למה התחזית שלכם תמיד שגויה</a>. או קראו <a href="/he/blog/your-pipeline-is-lying-to-you">הפייפליין שלכם משקר לכם</a> ו<a href="/he/blog/how-much-pipeline-to-hit-number">כמה פייפליין באמת צריך</a>.'},
+
+ {"slug":"how-much-pipeline-do-you-need","alt":"how-much-pipeline-do-you-need",
+  "title":"כמה פייפליין מכירות אתם באמת צריכים? | טל פאפרין",
+  "desc":"כיסוי פייפליין הוא המספר שלכם חלקי אחוז הסגירה האמיתי, מותאם למחזור המכירה. איך לחשב אותו נכון, ולמה רוב הצוותים נושאים חצי ממה שהם חושבים.",
+  "h1":"כמה פייפליין אתם באמת צריכים?","eyebrow":"מדריך",
+  "lead":"\"יש לנו כיסוי של פי שלושה, אז אנחנו בסדר.\" אני שומע את זה כמעט בכל סקירת תחזית, וזה כמעט תמיד שגוי. לא כי המתמטיקה קשה. כי הנתונים מזויפים. הנה איך לחשב את הפייפליין שאתם באמת צריכים, ואיך לדעת אם המספר שאתם נושאים הוא אמיתי.",
+  "sections":[
+    {"h":"כיסוי הוא אריתמטיקה, לא תחושה","p":[
+      "קחו את ההכנסה שאתם חייבים לסגור, חלקו באחוז הסגירה האמיתי שלכם, וזה הפייפליין המסונן שאתם צריכים בדלת בזמן כדי לסגור בתוך התקופה. חייבים לסגור מיליון וסוגרים אחת מארבע? אתם צריכים ארבעה מיליון של פייפליין אמיתי. זו כל הנוסחה. הבעיה היא שכל נתון בה מטושטש, ושלושה שקרים קטנים מתרבים למספר שאי אפשר לסמוך עליו."]},
+    {"h":"שלושת הנתונים שצוותים טועים בהם","ul":[
+      "אחוז סגירה. כולם מצטטים את המחמיא, שנמדד מהצעת מחיר, לא מהזדמנות מסוננת. אחוז הסגירה האמיתי שלכם, מהזדמנות מסוננת לעסקה סגורה, הוא בדרך כלל כחצי ממה שהצוות מצטט, וזה מכפיל את הפייפליין שאתם באמת צריכים.",
+      "זמן מחזור. פייפליין שאתם יוצרים היום לא עוזר לרבעון הזה אם מחזור המכירה שלכם חמישה חודשים. כיסוי נספר רק אם הוא נוצר מוקדם מספיק כדי שהמחזור שלכם יספיק לסגור אותו בתקופה.",
+      "המכנה. זה הגדול. רוב הפייפליינים מנופחים בעסקאות שכבר מתות ואף אחד לא העביר ל\"אבודות\": השגריר נעלם, התקציב בוטל, ההחלטה נדחתה שלוש פעמים. זה לא כיסוי. זו משאלה עם מספר עליה."]},
+    {"h":"נקו את הפייפליין לפני שאתם סומכים על היחס","p":[
+      "לפני שאתם מחשבים כיסוי, נקו את הפייפליין. כל עסקה פתוחה עוברת מבחן בסיסי או שהיא יוצאת מהמספר."],
+     "ul":[
+      "כאב מאושר במילים של הקונה, לא שלכם",
+      "הקונה הכלכלי היה בלפחות שיחה אמיתית אחת",
+      "צעד הבא מוגדר ביומן, לא \"נעקוב\" מעורפל",
+      "תהליך קנייה ידוע, צעד אחר צעד, מכאן עד החתימה"]},
+    {"h":"כיסוי כן נמוך יותר, וזו בשורה טובה","p":[
+      "הריצו את המבחן הזה בכנות וכיסוי של פי שלושה לרוב קורס לפי אחד וחצי. זו לא קטסטרופה. זו האמת שמגיעה בשבוע השני, בזמן שעוד יש לכם רבעון לבנות, במקום בשבוע השנים-עשר כשכבר מאוחר מדי לכל דבר חוץ מלפספס. מספר כיסוי שמפחיד אתכם מוקדם שווה יותר ממספר נוח שמשקר.",
+      "כיסוי הוא גם לא מספר אחד לכל החברה. מהלכים בשלב מוקדם עם נתוני המרה דקים צריכים יותר כרית. מחזור אנטרפרייז ארוך צריך פייפליין שנבנה רבעונים קדימה. מכירה טרנזקציונית של 90 יום יכולה לרוץ רזה יותר. התאימו אותו לאחוז הסגירה והמחזור האמיתיים שלכם, לא למדד שקראתם בבלוג."]},
+    {"h":"כיסוי הוא מערכת, לא צילום רגע","p":[
+      "המשמעת היא לא לחשב כיסוי פעם אחת. היא לשמור על הפייפליין כן שבוע אחר שבוע כך שהיחס אומר משהו בכל פעם שאתם מסתכלים. נציגים שנמדדים על נפח פייפליין מנפחים אותו. נציגים שנמדדים על פייפליין שממיר לא. זו בחירה ניהולית, והיא זו שמחליטה אם התחזית שלכם היא כלי או קישוט."]},
+    {"h":"איפה זה משתלב","links":[
+      ["איך בונים פייפליין מכירות שאפשר לחזות","/he/sales-pipeline-and-forecasting"],
+      ["למה תחזית המכירות שלכם תמיד שגויה","/he/sales-forecast-always-wrong"],
+      ["איך קובעים יעדי מכירות שאפשר לעמוד בהם","/he/setting-sales-quotas"],
+      ["גייסתם נציגים ואין פייפליין","/he/hired-reps-but-no-pipeline"],
+      ["שירות סמנכ״ל הכנסות במיקור חוץ","/he/services/fractional-cro"]]},
+  ],
+  "faqs":[
+    {"q":"כמה כיסוי פייפליין אני צריך?","a":"חלקו את ההכנסה שאתם חייבים לסגור באחוז הסגירה האמיתי שלכם מהזדמנות מסוננת לעסקה סגורה. אם אתם סוגרים אחת מארבע, אתם צריכים בערך פי ארבעה מהמספר. כלל פי שלושה הנפוץ נכון רק אם אחוז הסגירה האמיתי שלכם אחד משלושה והפייפליין נקי, מה שבדרך כלל לא המצב."},
+    {"q":"למה כיסוי של פי שלושה לא מספיק?","a":"כי פי שלושה בדרך כלל נמדד מול פייפליין מנופח ואחוז סגירה מחמיא. הוציאו את העסקאות המתות והשתמשו באחוז האמיתי מהזדמנות מסוננת לסגורה והכיסוי הכן לרוב חצי ממה שהדשבורד מראה. היחס טוב רק כמו העסקאות שתחתיו."},
+    {"q":"האם כיסוי פייפליין משתנה לפי מחזור המכירה?","a":"כן. פייפליין נספר ככיסוי לתקופה רק אם נוצר מוקדם מספיק כדי שמחזור המכירה שלכם יסגור אותו בזמן. מחזור של חמישה חודשים אומר שהפייפליין לרבעון הזה היה צריך להתקיים ברבעון הקודם. הזדמנויות חדשות הן כיסוי לאחר כך, לא לעכשיו."},
+    {"q":"איך אני יודע אם הפייפליין שלי אמיתי?","a":"בדקו כל עסקה פתוחה: כאב מאושר במילים של הקונה, הקונה הכלכלי בשיחה אמיתית, צעד הבא ביומן, ותהליך קנייה ידוע עד החתימה. עסקאות שנכשלות יוצאות מהמספר. מה שנשאר הוא הפייפליין שבאמת אפשר לחזות מולו."}],
+  "related":'חלק מ<a href="/he/sales-pipeline-and-forecasting">איך בונים פייפליין מכירות שאפשר לחזות</a>. ראו גם <a href="/he/sales-forecast-always-wrong">למה התחזית שלכם תמיד שגויה</a>, <a href="/he/setting-sales-quotas">קביעת יעדי מכירות</a> ואת <a href="/he/services/fractional-cro">שירות סמנכ״ל ההכנסות במיקור חוץ</a>. או קראו <a href="/he/blog/how-much-pipeline-to-hit-number">מתמטיקת הכיסוי האמיתית</a> ו<a href="/he/blog/your-pipeline-is-lying-to-you">הפייפליין שלכם משקר לכם</a>.'},
+
+ {"slug":"b2b-outbound-sales","alt":"b2b-outbound-sales",
+  "title":"איך בונים מהלך אאוטבאונד B2B | טל פאפרין",
+  "desc":"אאוטבאונד הוא מערכת, לא כוח אדם. איך בונים אותו מ-ICP דרך רצף ועד סינון, מי מריץ אותו, והמדד שמראה שהוא עובד.",
+  "h1":"איך בונים מהלך אאוטבאונד B2B","eyebrow":"מדריך",
+  "lead":"רוב המייסדים מנסים לקנות אאוטבאונד בגיוס נציג. ואז הנציג נראה עסוק שני רבעונים והפייפליין נשאר יבש. כוח אדם הוא לא מהלך. אאוטבאונד הוא מערכת שאתם בונים, חתיכה אחר חתיכה, ורק אז מוסרים לאדם להריץ. הנה איך בונים אותו כך שהוא באמת ממלא את המשפך.",
+  "sections":[
+    {"h":"כוח אדם הוא לא מהלך","p":[
+      "גיוס SDR או סוגר מרגיש כמו קניית פייפליין. זה לא. נציג יכול להריץ מהלך שכבר עובד, אבל כמעט אף אחד לא יכול להמציא אחד מאפס בחברה שרק הצטרף אליה. הכניסו מישהו לכיסא בלי ICP, בלי מסר, בלי רשימה ובלי רצף, והוא ימלא את היום בפעילות ויפיק כמעט כלום. הפער הוא לא מאמץ. פשוט אין על מה המאמץ ירוץ."]},
+    {"h":"בונים אותו מה-ICP החוצה","tiers":[
+      "ICP. פרופיל חד, לא \"חברות B2B\": גודל החברה, התעשייה, תפקיד הקונה והכאב הספציפי שהוא מרגיש. כל צעד אחרי זה נהיה קל יותר ככל שזה חד יותר.",
+      "מסר. הסיבה שלקונה הזה צריך לאכפת, במילים שלו, קשורה לתוצאה עסקית שהוא כבר מאבד עליה שינה. הובילו בכאב שלו, לא ברשימת הפיצ'רים שלכם.",
+      "רשימה. החשבונות האמיתיים והאנשים האמיתיים בהם, בנויים ומאומתים, לא בסיס נתונים בכמות שהשכרתם והפצצתם.",
+      "רצף. סדרת מגעים על פני יותר מערוץ אחד, מייל, טלפון, לינקדאין, מרווחים וכתובים כדי להרוויח תשובה, לא מייל בודד שנורה פעם אחת ונשכח.",
+      "סינון. השאלות שממיינות קונה אמיתי מנימוסי בשיחה הראשונה, כך שהסוגרים שלכם מבלים זמן על עסקאות שיכולות להיסגר."]},
+    {"h":"SDR-ים פונים, AE-ים סוגרים","p":[
+      "הטעות הנפוצה היא לגייס סוגר בכיר ולצפות שיפיק לעצמו את הפייפליין. רוב הסוגרים החזקים חלשים באאוטבאונד ושונאים אותו, אז הם מחכים ללידים שלא מגיעים. שימו את האנשים הנכונים בכיסאות הנכונים: SDR-ים לפתוח שיחות ולקבוע פגישות, AE-ים להריץ ולסגור אותן. בשלב הכי מוקדם המייסד הוא ה-SDR הכי טוב, כי המייסד מכיר את הכאב בעל פה. מסרו הלאה ברגע שהמהלך חוזר על עצמו, לא לפני."]},
+    {"h":"מדדו פייפליין שנוצר, לא פעילות","p":[
+      "הדרך המהירה ביותר להרוג מהלך אאוטבאונד היא לדרג אותו על שיחות ומיילים שנשלחו. שלמו על פעילות ותקבלו פעילות: צוות עסוק ומשפך ריק. דרגו על פייפליין מסונן שנוצר ופגישות שממירות, והצוות מייעל עבור הדבר שאתם באמת רוצים. פעילות היא קלט שבודקים, לא התוצאה שמתגמלים."]},
+    {"h":"לבנות, לשכור, או למקר החוצה","p":[
+      "אתם לא חייבים לבנות את כל המכונה בבית ביום הראשון. אם אתם רוצים פגישות ביומן מהר בזמן שאתם לומדים את השוק, אתם יכולים לשכור את התוצר בשירות תשלום לפי פגישה. אם אתם רוצים צוות אאוטבאונד שלם שמורץ עבורכם מחוץ למצבת כוח האדם, זה מכירות במיקור חוץ. ואם אתם בונים בבית, בנו קודם את המערכת, אז גייסו מול מהלך שכבר עובד כך שהנציגים נכנסים לקצב על משהו אמיתי במקום לנחש."]},
+    {"h":"איפה זה משתלב","links":[
+      ["איך בונים פייפליין מכירות שאפשר לחזות","/he/sales-pipeline-and-forecasting"],
+      ["גייסתם נציגים ואין פייפליין","/he/hired-reps-but-no-pipeline"],
+      ["כמה פייפליין אתם באמת צריכים","/he/how-much-pipeline-do-you-need"],
+      ["שירות מכירות במיקור חוץ","/he/services/outsourced-sales"],
+      ["תשלום לפי פגישה","/he/services/pay-per-meeting"]]},
+  ],
+  "faqs":[
+    {"q":"מהו מהלך אאוטבאונד B2B?","a":"זו המערכת שהופכת חשבון יעד לפגישה שנקבעה: ICP חד, מסר שבנוי מהכאב של הקונה, רשימת יעד מאומתת, רצף רב-ערוצי, ושאלות סינון. אאוטבאונד הוא המערכת, לא הנציג שאתם מגייסים להריץ אותה."},
+    {"q":"למה האאוטבאונד שלי לא מייצר פייפליין?","a":"בדרך כלל כי אין מערכת תחתיו. אין ICP חד, אין רשימה בנויה, אין רצף אמיתי, אז כל נציג מאלתר ורובם גרוע. בנו קודם את ה-ICP, המסר, הרשימה, הרצף והסינון, ואותם נציגים מתחילים להפיק."},
+    {"q":"האם אאוטבאונד צריך להיעשות בידי SDR-ים או AE-ים?","a":"SDR-ים פונים וקובעים פגישות, AE-ים מריצים וסוגרים אותן. לגייס סוגר ולצפות שיפיק לעצמו פייפליין זו הטעות הנפוצה והיקרה. בשלב הכי מוקדם המייסד הוא לרוב הפונה הכי טוב, ואז מוסרים הלאה ברגע שהמהלך חוזר."},
+    {"q":"לבנות אאוטבאונד בבית או למקר החוצה?","a":"תלוי בשלב ובמהירות. שכירת פגישות דרך תשלום לפי פגישה מביאה קונים ליומן מהר בזמן שאתם לומדים את השוק. מכירות במיקור חוץ מריצות צוות שלם מחוץ למצבת כוח האדם. בית נכון ברגע שאתם רוצים שהמהלך והאנשים יחיו בתוך החברה, אבל בנו את המערכת לפני שאתם מגייסים."}],
+  "related":'חלק מ<a href="/he/sales-pipeline-and-forecasting">איך בונים פייפליין מכירות שאפשר לחזות</a>. ראו גם <a href="/he/hired-reps-but-no-pipeline">גייסתם נציגים ואין פייפליין</a>, את שירותי <a href="/he/services/outsourced-sales">מכירות במיקור חוץ</a> ו<a href="/he/services/pay-per-meeting">תשלום לפי פגישה</a>. או קראו <a href="/he/blog/outbound-vs-inbound-early-stage">אאוטבאונד מול אינבאונד בשלב מוקדם</a> ו<a href="/he/blog/cold-email-that-books-meetings">מייל קר שקובע פגישות</a>.'},
 ]
 
 
@@ -4437,11 +4683,13 @@ GUIDE_CATS = [
    "how-to-hire-a-fractional-cro", "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
    "fractional-cro-cost", "fractional-cro-vs-vp-of-sales", "fractional-cro-vs-outsourced-sales",
    "interim-cro", "outsourced-cro", "fractional-vp-of-sales", "fractional-chief-sales-officer",
-   "fractional-cro-for-startups", "sales-training",
-   "sales-forecast-always-wrong", "hired-reps-but-no-pipeline"]),
+   "fractional-cro-for-startups", "sales-training"]),
  ("Building and scaling a sales team", "בניית והרחבת צוות מכירות", [
    "how-to-build-a-sales-team", "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
    "sales-team-missing-quota", "sales-compensation-plan", "setting-sales-quotas"]),
+ ("Pipeline, forecasting and outbound", "פייפליין, תחזית ואאוטבאונד", [
+   "sales-pipeline-and-forecasting", "how-much-pipeline-do-you-need", "b2b-outbound-sales",
+   "sales-forecast-always-wrong", "hired-reps-but-no-pipeline"]),
  ("By industry", "לפי תעשייה", [
    "fractional-cro-for-saas", "fractional-cro-for-iot-hardware", "fractional-cro-for-medical-devices",
    "fractional-cro-for-manufacturers", "fractional-cro-for-cybersecurity", "fractional-cro-for-fintech",

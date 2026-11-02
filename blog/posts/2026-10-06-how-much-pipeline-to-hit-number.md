@@ -38,4 +38,4 @@ This is exactly why I say your [pipeline is lying to you](/blog/your-pipeline-is
 
 The real discipline is not calculating coverage once. It is keeping the pipeline honest week after week so the ratio means something every time you look at it. Reps who are graded on pipeline volume will always inflate it. Reps who are graded on pipeline that converts will not.
 
-Getting that discipline in place, the win-rate tracking, the cleanup cadence, the forecast you can trust, is a core part of what I build as a [fractional CRO](/services/fractional-cro). The number does not lie once the inputs stop lying.
+Getting that discipline in place, the win-rate tracking, the cleanup cadence, the forecast you can trust, is a core part of what I build as a [fractional CRO](/services/fractional-cro). I walk through the full coverage math, input by input, in [how much pipeline you actually need](/how-much-pipeline-do-you-need). The number does not lie once the inputs stop lying.
