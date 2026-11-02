@@ -50,6 +50,20 @@ Decisions + actions taken:
   (pound-policy bypass). Also: do NOT let a high-intent "yes" sit on one Calendly nudge and die;
   follow the POUND policy until they book, decline, or disqualify.
 
+## NEVER outreach a CLIENT (Tal, 2026-11-02) -- HARD RULE, learned the hard way
+
+The KSW re-engagement CSV (and any old CRM export) contains people who are now CLIENTS or
+partners, not prospects. NEVER send a client a prospecting / re-engagement / "here is what I do
+and what it costs" email. Before ANY re-engagement wave or prospect send, scrub the list against
+known clients and drop them silently.
+KNOWN CLIENTS / PARTNERS -- do NOT prospect, do NOT re-engage, do NOT pitch:
+- noam@ai-recruitment.co (Noam) -- CLIENT. (Mistakenly sent a re-engagement 2026-11-02; do not repeat.)
+- chris.latimer@vectorize.io (Chris Latimer, Vectorize) -- CLIENT (won deal). He appears in the
+  re-engagement CSV at P4-NURTURE; NEVER email him as a prospect.
+- Vectorize and HireMatch are active CLIENT accounts (we run their outbound). Anyone clearly at a
+  client company is off-limits for KSW prospecting.
+When in doubt whether a name is a client, ASK Tal before sending, do not guess.
+
 ## Meeting-qualification GATE + Tal's availability (Tal, 2026-11-02) -- HARD RULE
 
 The point of all outreach is MEETINGS WITH QUALIFIED PROSPECTS, not meetings. A prospect is
