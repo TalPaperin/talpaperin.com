@@ -50,6 +50,31 @@ Decisions + actions taken:
   (pound-policy bypass). Also: do NOT let a high-intent "yes" sit on one Calendly nudge and die;
   follow the POUND policy until they book, decline, or disqualify.
 
+## Meeting-qualification GATE + Tal's availability (Tal, 2026-11-02) -- HARD RULE
+
+The point of all outreach is MEETINGS WITH QUALIFIED PROSPECTS, not meetings. A prospect is
+NOT ready to book until they have visited talpaperin.com and seen (a) what Tal does and (b) what
+he charges. This is how we stop wasting Tal's calls on people who did not know the model or price.
+- SEQUENCE on any warm "let's talk" / "send me a time" / "send the invite" reply: FIRST point them
+  to talpaperin.com (what Tal does) and talpaperin.com/pricing (what he charges), and state the
+  model plainly in the reply: fractional CRO, month-to-month retainer, starts around $72,000/year,
+  NOT commission-only, NOT a $149 software tool. Ask them to take a look. ONLY AFTER they have the
+  model/price and it is a fit do you lock a time. Make sure they have been sent to the site before
+  any booking. Do NOT send a prospect a specific meeting time until this gate is passed.
+- NO RANDOM TIME PROPOSALS. Never throw out a clock time just to fill the calendar.
+- If the retainer is above their budget, route to the cheaper rungs instead of a call: Pay-Per-Meeting
+  (done-for-you leads) or TheDealMentor.AI ($149/mo DIY). Do not burn a call slot on someone who
+  cannot afford the service.
+- TAL'S AVAILABILITY (Israel time, Asia/Jerusalem) -- NEVER propose/accept a time outside it:
+  11:00-15:00 and 16:30-22:00. (Plus the standing Shabbat pause: Fri 12:00 to Sat nightfall.)
+  Convert the prospect's zone into Tal's window before proposing. Useful anchor: US Pacific morning
+  maps to Tal's 16:30-22:00 evening block (9am PT = 19:00 Israel; 10am PT = 20:00 Israel). US Eastern
+  late-morning maps to Tal's 16:30-22:00 too (10am ET = 17:00 Israel). Propose ONE concrete time
+  inside the window and offer to send the calendar invite on their yes.
+- Tal sends the actual calendar invite himself (direct invite + video link). Claude qualifies the
+  prospect (site + pricing), proposes/confirms a time inside Tal's window, then hands to Tal to send
+  the invite. Claude does NOT send calendar invites.
+
 ## Vectorize (Hindsight) reworked for enterprise meetings (Tal, 2026-10-28)
 
 Vectorize sells Hindsight, the open-source standard for AI agent memory (teams at Nvidia, Groq,
