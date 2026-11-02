@@ -64,6 +64,27 @@ KNOWN CLIENTS / PARTNERS -- do NOT prospect, do NOT re-engage, do NOT pitch:
   client company is off-limits for KSW prospecting.
 When in doubt whether a name is a client, ASK Tal before sending, do not guess.
 
+## How to write a warm-reply / re-engagement (Tal, 2026-11-02, from the Raj Bhan post-mortem)
+
+Dissected a weak email Claude sent. Rules, apply to every warm reply and re-engagement:
+- OPEN WITH THEIR PAIN, not with Tal. Lead with the prospect's problem (weak sales, no sales,
+  underperforming reps/team, no leads, no pipeline, stalled growth, can't afford a full-time hire),
+  tie it to what they do, THEN position Tal as the fix. Do NOT open with "I'm a fractional CRO and
+  here's what I do" -- that is all about us and converts nobody.
+- PRICING: unless the prospect EXPLICITLY asks about price, do NOT quote any number. Just point them
+  to talpaperin.com (pricing is on the site) and let the site do the reveal. This still satisfies the
+  qualification gate (they see the price) without us dropping a scary figure.
+- IF they ask price: the real tiers are $2,000/month, then $6,000/month, then $12,000/month,
+  month-to-month. Lead with "$2k/month". NEVER say "$72,000/year" (it is WRONG and maximally scary).
+  Frame per month, never annualized. Anchor against a full-time VP ($150-250K/yr) only if needed.
+- Do NOT push or even volunteer TheDealMentor ($149/mo) or a "downsell". Offering the cheap option
+  before they object plants the objection, signals low conviction, and gives them permission to pass.
+- Do NOT turn the call into an email price-gate. Never make a prospect "reply to confirm the price
+  works" in writing, alone, before a call -- that is where they self-reject. Objections (e.g. "I
+  thought it was revenue-share") are what the CALL is for. Get the call, handle it live.
+- Keep the gate: they should have been pointed to the site (which shows pricing) before booking, and
+  book only inside Tal's hours. But qualify by sending them to the site, not by pasting numbers.
+
 ## Meeting-qualification GATE + Tal's availability (Tal, 2026-11-02) -- HARD RULE
 
 The point of all outreach is MEETINGS WITH QUALIFIED PROSPECTS, not meetings. A prospect is

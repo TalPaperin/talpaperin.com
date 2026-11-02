@@ -108,10 +108,15 @@ events strategy, community management, product/market launches. Process: Underst
 -> Execute -> Measure -> Repeat. Theme: most companies do not need a full-time CMO; the highest-ROI
 decision is often what NOT to do.
 
-### Pricing (REFERENCE ONLY; never quote pricing in a cold reply, surface pricing questions to Tal)
-- Fractional CRO / VP Sales: from $72,000/year, month-to-month, no long-term contract (vs a full-time
-  VP at $150K-250K). The "CRO Ownership" tier is priced on the KSW services/pricing page.
+### Pricing (CORRECTED 2026-11-02 by Tal. Unless the prospect EXPLICITLY asks a price question, do
+### NOT quote any number -- just point them to talpaperin.com / the pricing page and let the site
+### reveal it. Claude previously had this wrong, see the copy rule in explee_rules.md.)
+- Fractional CRO: a TIERED MONTHLY retainer, month-to-month, no long-term contract. The tiers are
+  $2,000/month, then $6,000/month, then $12,000/month. ALWAYS frame it per month and lead with the
+  $2k entry; it is far less scary than an annualized figure. NEVER say "$72,000/year" (that number is
+  wrong AND maximally scary). If a number is genuinely needed, "starts at $2k/month" is the line.
 - Fractional CMO: month-to-month (vs a full-time CMO at $180K-300K all-in). Oversight vs full-ownership tiers.
+- Do NOT push TheDealMentor ($149/mo) as a downsell and do NOT volunteer it (Tal, 2026-11-02).
 
 ### Verified case studies / proof (public; do NOT embellish or invent metrics)
 - KanduAI: built the sales motion from zero (ICP, outbound playbook, SDR hiring); relaunched through pivots.
