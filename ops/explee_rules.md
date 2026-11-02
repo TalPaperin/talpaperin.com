@@ -80,17 +80,18 @@ he charges. This is how we stop wasting Tal's calls on people who did not know t
   (done-for-you leads) or TheDealMentor.AI ($149/mo DIY). Do not burn a call slot on someone who
   cannot afford the service.
 - TAL'S AVAILABILITY (Israel time, Asia/Jerusalem) -- NEVER propose/accept a time outside it:
-  base windows 11:00-15:00 and 16:30-22:00, MINUS a STANDING DAILY MEETING that is always blocked:
-  18:00-19:00 Israel while the US is on DST, and 19:00-20:00 Israel while the US is on standard time
-  (the meeting is pegged to a US clock, so it shifts one hour later in Israel after the US falls back).
-  As of Nov 2026 the US is on STANDARD time, so the current block is 19:00-20:00 Israel. NET BOOKABLE
-  RIGHT NOW: 11:00-15:00, 16:30-19:00, and 20:00-22:00 Israel. (Plus the standing Shabbat pause:
-  Fri 12:00 to Sat nightfall.) Convert the prospect's zone into Tal's window before proposing.
-  Anchors with the US on standard time (Israel is UTC+2, Pacific UTC-8 = 10h behind, Eastern UTC-5 =
-  7h behind): 8am PT = 18:00 Israel (OK), 9am PT = 19:00 Israel (BLOCKED, daily meeting), 10am PT =
-  20:00 Israel (OK), 11am PT = 21:00 Israel (OK); 10am ET = 17:00 Israel (OK), 12pm ET = 19:00 Israel
-  (BLOCKED). Propose ONE concrete time inside the net-bookable window and offer the calendar invite on
-  their yes.
+  base windows 11:00-15:00 and 16:30-22:00, MINUS a STANDING DAILY MEETING that is always blocked.
+  The meeting hour (Tal, 2026-11-02): RIGHT NOW it is 18:00-19:00 Israel. After the NEXT US time
+  change it moves to 19:00-20:00 Israel (Tal will say when it shifts; do not infer the date yourself,
+  I have gotten this wrong before). So:
+    * NET BOOKABLE NOW: 11:00-15:00, 16:30-18:00, and 19:00-22:00 Israel.
+    * NET BOOKABLE after the US change: 11:00-15:00, 16:30-19:00, and 20:00-22:00 Israel.
+  (Plus the standing Shabbat pause: Fri 12:00 to Sat nightfall.)
+  CONVERSION: do it case by case, do not rely on memorized PT/ET anchors (that is where errors crept
+  in). Israel is UTC+2. Take the prospect's proposed time, convert to UTC, then +2 for Israel, and
+  confirm it lands inside a bookable window AND not in the meeting block. If unsure of the prospect's
+  current UTC offset (US DST vs standard), ask them to confirm their time zone rather than guessing.
+  Propose ONE concrete time inside the net-bookable window and offer the calendar invite on their yes.
 - Tal sends the actual calendar invite himself (direct invite + video link). Claude qualifies the
   prospect (site + pricing), proposes/confirms a time inside Tal's window, then hands to Tal to send
   the invite. Claude does NOT send calendar invites.
