@@ -2284,6 +2284,8 @@ SERVICE_FAQS_EN = {
   {"q":"How is this different from a retainer SDR service?","a":"A retainer bills you the same whether you get meetings or not. This bills by results: the more meetings we book, the more we make, so our incentives are aligned with yours."}],
  "fractional-cro":[
   {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your strategy, team, pipeline, forecast and the number, part time, without a full-time CRO salary or a long-term lock-in."},
+  {"q":"What does a fractional CRO do?","a":"Owns the revenue number and the work behind it: the sales strategy and forecast, the go-to-market motion, the pipeline, and the team that runs it. Day to day that means diagnosing where deals stall, building the playbook, hiring, training and managing reps, inspecting the pipeline, and stepping into the big deals. Not advice from the side. Someone in the seat who answers for the result."},
+  {"q":"When should you hire a fractional CRO?","a":"When revenue has stalled and nobody senior owns the number, when you need results before you can justify a $250,000 full-time hire, or after you have burned money on VP hires that did not move the number. If you only need more hands, hire reps. If you need someone to own the strategy, the team and the forecast, that is a fractional CRO."},
   {"q":"How is a fractional CRO different from a consultant?","a":"A consultant hands you a deck and leaves. I do the work, in the pipeline and the deals, and answer for the result."},
   {"q":"How much does a fractional CRO cost?","a":"$2,000 to $12,000 a month depending on how many hours a day you need, versus $250,000-plus for a full-time CRO, billed monthly with no contract."}],
  "fractional-cmo":[
@@ -2328,6 +2330,8 @@ SERVICE_FAQS_HE = {
   {"q":"במה זה שונה משירות SDR בריטיינר?","a":"ריטיינר גובה מכם אותו דבר בין אם קיבלתם פגישות ובין אם לא. כאן משלמים לפי תוצאה: ככל שנקבע יותר פגישות, כך נרוויח יותר, כך שהתמריצים שלנו מיושרים עם שלכם."}],
  "fractional-cro":[
   {"q":"מה זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על האסטרטגיה, הצוות, הפייפליין, התחזית והתוצאות, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
+  {"q":"מה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ עושה בפועל?","a":"לוקח אחריות על מספר ההכנסות ועל כל העבודה שמאחוריו: אסטרטגיית המכירות והתחזית, מנוע ה-Go-To-Market, הפייפליין והצוות שמריץ אותו. ביום-יום זה אבחון של המקומות שבהם עסקאות נתקעות, בניית ה-Playbook, גיוס, הכשרה וניהול של נציגים, בדיקת הפייפליין וכניסה לעסקאות הגדולות בעצמי. לא ייעוץ מהצד. מישהו שיושב בכיסא ואחראי על התוצאה."},
+  {"q":"מתי כדאי לשכור סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ?","a":"כשההכנסות נתקעו ואף אחד בכיר לא באמת אחראי על המספר, כשאתם צריכים תוצאות לפני שאפשר להצדיק גיוס במשרה מלאה של 250 אלף דולר, או אחרי ששרפתם כסף על גיוסי VP שלא הזיזו את המספר. אם אתם צריכים רק עוד ידיים, גייסו נציגים. אם אתם צריכים מישהו שייקח אחריות על האסטרטגיה, הצוות והתחזית, זה סמנכ\"ל מכירות ופיתוח עסקי במיקור חוץ."},
   {"q":"במה זה שונה מיועץ?","a":"יועץ מגיש מצגת והולך. אני עושה את העבודה, בתוך הפייפליין ובתוך העסקאות, ואחראי על התוצאה."},
   {"q":"כמה זה עולה?","a":"בין 2,000 ל-12,000 דולר בחודש לפי כמה שעות ביום אתם צריכים, מול 250 אלף דולר ומעלה למשרה מלאה, בתשלום חודשי בלי חוזה."}],
  "fractional-cmo":[
