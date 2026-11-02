@@ -67,10 +67,22 @@ When in doubt whether a name is a client, ASK Tal before sending, do not guess.
 ## How to write a warm-reply / re-engagement (Tal, 2026-11-02, from the Raj Bhan post-mortem)
 
 Dissected a weak email Claude sent. Rules, apply to every warm reply and re-engagement:
-- OPEN WITH THEIR PAIN, not with Tal. Lead with the prospect's problem (weak sales, no sales,
-  underperforming reps/team, no leads, no pipeline, stalled growth, can't afford a full-time hire),
-  tie it to what they do, THEN position Tal as the fix. Do NOT open with "I'm a fractional CRO and
-  here's what I do" -- that is all about us and converts nobody.
+- OPEN WITH THEIR PAIN, not with Tal. Lead with the prospect's problem, tie it to what they do,
+  THEN position Tal as the fix. Do NOT open with "I'm a fractional CRO and here's what I do" -- that
+  is all about us and converts nobody.
+- THE PAIN BANK (use talpaperin.com's own language -- Tal leads with these on the site; pick the ONE
+  that fits the prospect and open on it, in their words):
+    * "Your 4th VP of Sales hasn't delivered. Again." -- burned six figures on $30K/mo hires that did
+      not move the number; another VP gone in 90 days.
+    * Reps who can't close / hired reps but still no pipeline / team missing quota.
+    * No team at all, and no time to build one.
+    * A great product that just won't sell / no sales yet.
+    * You're still closing every deal yourself (founder-led sales that won't scale).
+    * No pipeline / the sales forecast is always wrong.
+    * You want to sell globally (or into the US) and don't know where to start.
+    * Need distributors / channel partners to reach new markets.
+  Site hero framing to echo: "Your sales suck. You don't know why. I do. And I fix it, end to end."
+  When unsure which pain fits, read the prospect's own reply/company and name the most likely one.
 - PRICING: unless the prospect EXPLICITLY asks about price, do NOT quote any number. Just point them
   to talpaperin.com (pricing is on the site) and let the site do the reveal. This still satisfies the
   qualification gate (they see the price) without us dropping a scary figure.
