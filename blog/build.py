@@ -600,7 +600,6 @@ TEMPLATE_POST = '''<!doctype html>
 
   <script type="application/ld+json">{{LD}}</script>
   <script type="application/ld+json">{{CRUMB}}</script>
-  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {{NAV}}
@@ -638,7 +637,6 @@ TEMPLATE_POST = '''<!doctype html>
   });
 })();
 </script>
-<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -674,7 +672,6 @@ TEMPLATE_INDEX = '''<!doctype html>
   {{ANALYTICS}}
 
   <script type="application/ld+json">{{LD}}</script>
-  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {{NAV}}
@@ -705,7 +702,6 @@ TEMPLATE_INDEX = '''<!doctype html>
   });
 })();
 </script>
-<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -761,7 +757,6 @@ TEMPLATE_POST_HE = '''<!doctype html>
 
   <script type="application/ld+json">{{LD}}</script>
   <script type="application/ld+json">{{CRUMB}}</script>
-  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {{NAV}}
@@ -799,7 +794,6 @@ TEMPLATE_POST_HE = '''<!doctype html>
   });
 })();
 </script>
-<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
@@ -835,7 +829,6 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
   {{ANALYTICS}}
 
   <script type="application/ld+json">{{LD}}</script>
-  <link rel="stylesheet" href="/cine/cine.css" />
 </head>
 <body>
 {{NAV}}
@@ -866,7 +859,6 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
   });
 })();
 </script>
-<script src="/cine/cine.js" defer></script>
 </body>
 </html>
 '''
