@@ -5,13 +5,22 @@ Purpose: every lead we have CONTACTED and not yet closed, so none get dropped.
 - Update this on every reply-check and re-engagement wave: move a lead to the right status, and
   when it closes (books/declines/dead) add it to booked_leads.txt and mark it CLOSED here.
 
-## STORAGE NOTE (why this file is only part of the picture)
-The big re-engagement batches (18 Gmail Tier-1 on 2026-11-01 + 15 wave-1 on 2026-11-02) are from
-Tal's UPLOADED CRM list. Committing those contacts' PII to this public GitHub repo is blocked by a
-safety guardrail, so they are NOT in this committed file. They live in the delivered master CSV
-(lead_tracker_master_<date>.csv, sent to Tal) and are rebuilt from the uploaded CSV. RECOMMENDED FIX:
-move the whole tracker to a Google Sheet (durable, Tal-owned, not in the repo, survives container
-recycles, updatable by Claude). Ask Tal to green-light that and it becomes the single source of truth.
+## SOURCE OF TRUTH: the live tracker Artifact (Tal, 2026-11-03)
+All leads are managed in the claude.ai Artifact "KSW Lead Tracker":
+  https://claude.ai/artifact/XFXSMiu9bwe2rtkzJUyk1a
+It is a published page backed by a shared database (the `leads` collection), private to Tal, NOT in
+this repo (so the uploaded-CRM PII guardrail is a non-issue). Manage it with the ArtifactData tool
+(get/list/query/set/update/batch) against that url.
+MAINTENANCE RULE - do this every reply-check and every re-engagement wave:
+- NEW contacted lead -> `set` a `leads` doc (id = email). Fields: name, company, email, source,
+  status, context, last_action, next_step, date_contacted, updated.
+- A lead REPLIES or advances -> `update` its status/last_action/next_step (+ updated date). Statuses:
+  AWAITING, REPLIED, MET, BOOKED, DECLINED, DROPPED, CLIENT.
+- A lead CLOSES (books/declines/dead) -> set status BOOKED/DECLINED/DROPPED here AND mirror to
+  booked_leads.txt (the scan/handoff skip-list). Keep both in sync.
+Seeded 2026-11-03 with 42 leads (33 re-engagements + Explee warm/closed). The uploaded-CRM contacts
+live only here and in the delivered master CSV, never committed to the repo.
+The table below is a lightweight mirror for Explee-sourced open leads; the Artifact is authoritative.
 
 ## Explee-sourced open leads (committable here)
 | Date | Source | Name | Company | Email | Status | Last action | Next step |
