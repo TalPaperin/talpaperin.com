@@ -2347,6 +2347,39 @@ SERVICE_FAQS_HE = {
 
 
 GUIDES = [
+ {"slug":"sales-and-marketing-consultant",
+  "title":"Sales and Marketing Consultant for B2B | Tal Paperin",
+  "desc":"Most companies run sales and marketing as two teams that blame each other. I own both: marketing that feeds real pipeline, sales that closes it, one number.",
+  "h1":"A Sales and Marketing Consultant Who Runs Both, Not Just Advises","eyebrow":"Sales + Marketing",
+  "lead":"In most B2B companies, sales and marketing are two teams pointing at each other. Marketing says the leads are good, sales says they are junk, and the number stalls in the gap between them. I am a fractional CRO who owns both sides: marketing built to feed real pipeline, sales built to close it, and one revenue number that both answer to. Not advice, ownership.",
+  "sections":[
+    {"h":"The problem is the gap, not the people","p":[
+      "Sales and marketing rarely fail on their own. They fail at the handoff: leads that never get worked, a message marketing invented that sales does not use, a pipeline number nobody trusts. A consultant who only advises one side cannot close that gap. Someone has to own both.",
+      "I align the two around a single definition of a good lead, a single message, and a single forecast, then I run it until the handoff stops leaking."]},
+    {"h":"What I own across both","ul":[
+      "Positioning and message, written once and used by both teams",
+      "Demand generation and content that produces pipeline, not just traffic",
+      "The sales motion, playbook and team that turns that pipeline into revenue",
+      "A marketing capability led by a fractional CMO, inside the same engine as sales",
+      "One forecast and one revenue number both sides are measured on"]},
+    {"h":"Not a marketing agency, not a hand-off consultant","p":[
+      "An agency runs campaigns and reports clicks. A consultant hands you a strategy and leaves. I build and run the whole revenue engine, sales and marketing together, and carry the number myself. I bill monthly, no lock-in, so I keep the work by making both sides perform.",
+      "Twenty-plus years, more than 30 companies rebuilt, sales and marketing run on five continents."]},
+    {"h":"Who this is for","ul":[
+      "Founders whose marketing produces leads that sales cannot close",
+      "Companies where sales and marketing do not agree on what a good lead is",
+      "Teams spending on marketing with no pipeline to show for it",
+      "B2B companies that need both sides fixed, not just one"]},
+    {"h":"What it costs","p":[
+      "A monthly retainer, no long contract, scaled to how hands-on you need me across sales and marketing. Pricing is public, and there is a calculator that shows what the broken machine costs you today."]},
+  ],
+  "faqs":[
+    {"q":"Do you do marketing as well as sales?","a":"Yes. I own both. Marketing is built as a department inside the revenue engine, led by a fractional CMO, so it feeds pipeline that sales can actually close. One number, not two teams blaming each other."},
+    {"q":"Are you a marketing agency?","a":"No. An agency runs campaigns and reports activity. I own and run the whole revenue engine, sales and marketing together, and carry the revenue number myself, billed monthly with no lock-in."},
+    {"q":"Our marketing makes leads but sales cannot close them. Can you help?","a":"That is the exact gap I fix. I align both sides on one definition of a good lead, one message and one forecast, then run the handoff until it stops leaking."},
+    {"q":"How much does it cost?","a":"A monthly retainer with no lock-in, scaled to how hands-on you need me across sales and marketing. Pricing is public; the calculator shows what the broken machine costs you now."}],
+  "related":'See the <a href="/services/fractional-cmo">fractional CMO capability</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, the <a href="/sales-cost-calculator">cost calculator</a>, or the <a href="/pricing">pricing</a>.'},
+
  {"slug":"b2b-sales-consultant-israel",
   "title":"B2B Sales Consultant in Israel | Tal Paperin",
   "desc":"Most sales consultants hand you a deck and leave. I am an operator who owns the number: I build, fix and run B2B sales for Israeli companies selling at home and abroad.",
@@ -3876,6 +3909,39 @@ HE_GUIDE_PAGE = '''<!doctype html>
 
 
 HE_GUIDES = [
+ {"slug":"sales-and-marketing-consultant",
+  "title":"יועץ מכירות ושיווק ל-B2B | טל פאפרין",
+  "desc":"רוב החברות מריצות מכירות ושיווק כשני צוותים שמאשימים זה את זה. אני אחראי על שניהם: שיווק שמייצר פייפליין אמיתי, מכירות שסוגרות אותו, מספר אחד.",
+  "h1":"יועץ מכירות ושיווק שמריץ את שניהם, לא רק מייעץ","eyebrow":"מכירות ושיווק",
+  "lead":"ברוב חברות ה-B2B, מכירות ושיווק הם שני צוותים שמצביעים זה על זה. השיווק אומר שהלידים טובים, המכירות אומרות שהם זבל, והמספר נתקע בפער ביניהם. אני סמנכ״ל מכירות במיקור חוץ שאחראי על שני הצדדים: שיווק שבנוי להזין פייפליין אמיתי, מכירות שבנויות לסגור אותו, ומספר הכנסות אחד ששניהם אחראים לו. לא עצה, אחריות.",
+  "sections":[
+    {"h":"הבעיה היא הפער, לא האנשים","p":[
+      "מכירות ושיווק כמעט אף פעם לא נכשלים בנפרד. הם נכשלים בהעברה: לידים שאף אחד לא עובד עליהם, מסר שהשיווק המציא והמכירות לא משתמשות בו, מספר פייפליין שאף אחד לא סומך עליו. יועץ שרק מייעץ לצד אחד לא יכול לסגור את הפער הזה. מישהו צריך להיות אחראי על שניהם.",
+      "אני מיישר את שני הצדדים סביב הגדרה אחת של ליד טוב, מסר אחד ותחזית אחת, ואז מריץ את זה עד שההעברה מפסיקה לדלוף."]},
+    {"h":"על מה אני אחראי בשני הצדדים","ul":[
+      "מיצוב ומסר, נכתבים פעם אחת ומשמשים את שני הצוותים",
+      "יצירת ביקוש ותוכן שמייצרים פייפליין, לא רק תנועה",
+      "מהלך המכירות, הפלייבוק והצוות שהופכים את הפייפליין להכנסות",
+      "יכולת שיווק בהובלת סמנכ״ל שיווק במיקור חוץ, בתוך אותו מנוע עם המכירות",
+      "תחזית אחת ומספר הכנסות אחד ששני הצדדים נמדדים עליו"]},
+    {"h":"לא סוכנות שיווק, לא יועץ שמעביר ונעלם","p":[
+      "סוכנות מריצה קמפיינים ומדווחת קליקים. יועץ מגיש אסטרטגיה ונעלם. אני בונה ומריץ את כל מנוע ההכנסות, מכירות ושיווק יחד, ונושא את המספר בעצמי. אני מחייב חודשית, בלי נעילה, אז אני שומר על העבודה בזכות זה ששני הצדדים מתפקדים.",
+      "יותר מ-20 שנה, יותר מ-30 חברות שנבנו מחדש, מכירות ושיווק שהורצו בחמש יבשות."]},
+    {"h":"למי זה מתאים","ul":[
+      "מייסדים שהשיווק שלהם מייצר לידים שהמכירות לא מצליחות לסגור",
+      "חברות שבהן מכירות ושיווק לא מסכימים מה זה ליד טוב",
+      "צוותים שמוציאים על שיווק בלי פייפליין להראות",
+      "חברות B2B שצריכות לתקן את שני הצדדים, לא רק אחד"]},
+    {"h":"כמה זה עולה","p":[
+      "ריטיינר חודשי, בלי חוזה ארוך, מותאם לכמה מעשי אתם צריכים אותי במכירות ובשיווק. התמחור פומבי, ויש מחשבון שמראה כמה המכונה השבורה עולה לכם היום."]},
+  ],
+  "faqs":[
+    {"q":"אתה עושה גם שיווק וגם מכירות?","a":"כן. אני אחראי על שניהם. השיווק בנוי כמחלקה בתוך מנוע ההכנסות, בהובלת סמנכ״ל שיווק במיקור חוץ, כך שהוא מזין פייפליין שהמכירות באמת יכולות לסגור. מספר אחד, לא שני צוותים שמאשימים זה את זה."},
+    {"q":"אתה סוכנות שיווק?","a":"לא. סוכנות מריצה קמפיינים ומדווחת פעילות. אני בונה ומריץ את כל מנוע ההכנסות, מכירות ושיווק יחד, ונושא את מספר ההכנסות בעצמי, בחיוב חודשי בלי נעילה."},
+    {"q":"השיווק שלנו מייצר לידים אבל המכירות לא סוגרות אותם. אתה יכול לעזור?","a":"זה בדיוק הפער שאני מתקן. אני מיישר את שני הצדדים על הגדרה אחת של ליד טוב, מסר אחד ותחזית אחת, ואז מריץ את ההעברה עד שהיא מפסיקה לדלוף."},
+    {"q":"כמה זה עולה?","a":"ריטיינר חודשי בלי נעילה, מותאם לכמה מעשי אתם צריכים אותי במכירות ובשיווק. התמחור פומבי; המחשבון מראה כמה המכונה השבורה עולה לכם עכשיו."}],
+  "related":'ראו את <a href="/he/services/fractional-cmo">יכולת סמנכ״ל השיווק במיקור חוץ</a>, את <a href="/he/services/fractional-cro">שירות סמנכ״ל המכירות במיקור חוץ</a>, את <a href="/he/sales-cost-calculator">מחשבון העלות</a>, או את <a href="/he/pricing">התמחור</a>.'},
+
  {"slug":"b2b-sales-consultant-israel",
   "title":"יועץ מכירות B2B בישראל | טל פאפרין",
   "desc":"רוב יועצי המכירות נותנים לכם מצגת ונעלמים. אני מפעיל שאחראי על המספר: בונה, מתקן ומריץ מכירות B2B לחברות ישראליות שמוכרות בבית ובחו״ל.",
@@ -4981,7 +5047,7 @@ GUIDE_CATS = [
    "fractional-cro-for-biotech", "fractional-cro-for-telecom", "fractional-cro-for-energy",
    "fractional-cro-for-professional-services"]),
  ("Outsourced sales and marketing", "מכירות ושיווק במיקור חוץ", [
-   "outsourced-sales-and-marketing-department", "outsourced-sdr-team", "b2b-lead-generation-services"]),
+   "sales-and-marketing-consultant", "outsourced-sales-and-marketing-department", "outsourced-sdr-team", "b2b-lead-generation-services"]),
  ("Go-to-market strategy", "אסטרטגיית הליכה לשוק", [
    "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
    "how-to-sell-to-enterprise"]),
