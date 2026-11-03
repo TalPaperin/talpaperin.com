@@ -475,6 +475,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/he/blog/' % SITE, '0.7', today),
         ('%s/about' % SITE, '0.7', today),
         ('%s/guides' % SITE, '0.7', today),
+        ('%s/sales-cost-calculator' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
         ('%s/pricing' % SITE, '0.8', today),

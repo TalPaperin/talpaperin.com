@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>What Your Broken Sales Machine Costs You | Tal Paperin</title>
+  <meta name="description" content="A free calculator. Put in your SDRs, closers, managers and marketing spend, and see what your broken sales and marketing machine costs you every year." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://talpaperin.com/sales-cost-calculator" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/sales-cost-calculator" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/sales-cost-calculator" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://talpaperin.com/sales-cost-calculator" />
+  <meta property="og:title" content="What Your Broken Sales Machine Costs You | Tal Paperin" />
+  <meta property="og:description" content="Add your SDRs, closers, managers and marketing spend, and see in dollars what your broken sales and marketing machine costs you every year." />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="Tal Paperin" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="What Your Broken Sales Machine Costs You | Tal Paperin" />
+  <meta name="twitter:description" content="Add your SDRs, closers, managers and marketing spend, and see in dollars what your broken sales and marketing machine costs you every year." />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/blog/blog.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","@id":"https://talpaperin.com/#business","name":"Tal Paperin, Fractional CRO","url":"https://talpaperin.com/","logo":"https://talpaperin.com/img/icon-512.png","image":"https://talpaperin.com/og-image.jpg","description":"Fractional CRO, Chief Growth Officer and B2B sales consultant. Twenty years building and running revenue engines across five continents: fractional CRO leadership, outsourced sales teams, go-to-market strategy and international market entry.","priceRange":"$2,000-$22,000","email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119","founder":{"@id":"https://talpaperin.com/#tal"},"employee":{"@id":"https://talpaperin.com/#tal"},"areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Israel"},{"@type":"Place","name":"Europe"},{"@type":"Place","name":"Asia-Pacific"}],"knowsAbout":["Fractional CRO","B2B sales","Go-to-market strategy","Sales team building","International market entry","Outsourced sales","Distributor and channel recruitment"],"sameAs":["https://www.linkedin.com/in/talpaperin/"],"contactPoint":{"@type":"ContactPoint","telephone":"+972-54-530-8119","email":"tal@ksw.solutions","contactType":"sales","availableLanguage":["English","Hebrew"]}},{"@type":"Person","@id":"https://talpaperin.com/#tal","name":"Tal Paperin","url":"https://talpaperin.com/","image":"https://talpaperin.com/img/site/fractional-cro-portrait.jpg","jobTitle":"Fractional CRO and Chief Growth Officer","email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119","knowsLanguage":["English","Hebrew","Russian","Chinese"],"alumniOf":{"@type":"CollegeOrUniversity","name":"Hebrew University of Jerusalem"},"worksFor":{"@type":"Organization","name":"KSW Solutions","url":"https://ksw.solutions"},"sameAs":["https://www.linkedin.com/in/talpaperin/"]},{"@type":"WebSite","@id":"https://talpaperin.com/#website","url":"https://talpaperin.com/","name":"Tal Paperin","inLanguage":"en","publisher":{"@id":"https://talpaperin.com/#business"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Sales and Marketing Cost Calculator","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://talpaperin.com/sales-cost-calculator","description":"A free calculator that estimates what an underperforming sales and marketing team costs a B2B company every year, across SDRs, closers, management and marketing spend.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"provider":{"@id":"https://talpaperin.com/#business"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://talpaperin.com/"},{"@type":"ListItem","position":2,"name":"What your broken sales machine costs you","item":"https://talpaperin.com/sales-cost-calculator"}]}</script>
+
+  <style>
+    /* Calculator, reskinned to the site palette. Namespaced .cc- to avoid clashing with blog.css. */
+    :root{ --cc-surface:#0a0e14; --cc-loss:#ff7d6c; --cc-teal:#5ab0ff; }
+    .cc-note{font-size:.82rem;color:var(--soft);border:1px dashed var(--line);padding:11px 15px;border-radius:8px;margin:22px 0 6px;line-height:1.5}
+    .cc-calc{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:24px;align-items:start;margin-top:26px}
+    @media (max-width:860px){.cc-calc{grid-template-columns:minmax(0,1fr)}}
+    .cc-inputs{display:flex;flex-direction:column;gap:16px;min-width:0}
+    .cc-fs{border:0;margin:0;padding:18px 20px;background:var(--cc-surface);border:1px solid var(--line);
+      border-left:3px solid var(--blue);border-radius:10px;display:flex;flex-direction:column;gap:14px}
+    .cc-lg{font:600 12px/1 'Space Grotesk';letter-spacing:.14em;text-transform:uppercase;color:var(--blue);
+      padding:0;width:100%}
+    .cc-row{display:grid;grid-template-columns:minmax(0,1fr) 148px;gap:12px;align-items:center}
+    @media (max-width:440px){.cc-row{grid-template-columns:minmax(0,1fr) 116px}}
+    .cc-row label{font-weight:600;font-size:.95rem;line-height:1.3}
+    .cc-row small{display:block;font-weight:400;font-size:.78rem;color:var(--soft);margin-top:3px}
+    .cc-tag{font:600 10px/1 'Space Grotesk';letter-spacing:.07em;text-transform:uppercase;padding:3px 6px;
+      border-radius:4px;margin-left:7px;vertical-align:2px;white-space:nowrap}
+    .cc-tag.b{color:var(--cc-teal);background:rgba(90,176,255,.14)}
+    .cc-tag.e{color:var(--soft);background:rgba(154,167,181,.16)}
+    .cc-field{display:flex;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:0 10px}
+    .cc-field:focus-within{border-color:var(--blue);outline:2px solid rgba(90,176,255,.3)}
+    .cc-field span{color:var(--soft);font-size:.9rem}
+    .cc-field input{width:100%;background:transparent;border:0;color:var(--ink);font:600 16px 'Space Grotesk';
+      padding:11px 4px;text-align:right;font-variant-numeric:tabular-nums;outline:none;min-width:0}
+    .cc-results{position:sticky;top:96px;background:var(--card);border:1px solid var(--line);border-radius:12px;
+      padding:24px;display:flex;flex-direction:column;gap:16px}
+    @media (max-width:860px){.cc-results{position:static}}
+    .cc-tl{font:600 12px/1 'Space Grotesk';letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+    .cc-total{font-family:'Anton',sans-serif;font-size:clamp(40px,7vw,58px);line-height:1;color:var(--cc-loss);
+      font-variant-numeric:tabular-nums;letter-spacing:.01em}
+    .cc-sub{color:var(--soft);font-size:.9rem;margin-top:-6px}
+    .cc-lines{display:flex;flex-direction:column}
+    .cc-line{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding:13px 0;border-top:1px solid var(--line)}
+    .cc-line b{font-weight:600;font-size:.95rem}
+    .cc-line .v{font-family:'Anton',sans-serif;font-size:18px;font-variant-numeric:tabular-nums;text-align:right;color:var(--ink)}
+    .cc-line p{grid-column:1/-1;margin:0;font-size:.8rem;color:var(--soft);line-height:1.45}
+    .cc-bar{height:7px;border-radius:3px;background:var(--line);overflow:hidden;grid-column:1/-1;margin-top:2px}
+    .cc-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue2),var(--blue))}
+    @media (prefers-reduced-motion:no-preference){.cc-bar i{transition:width .3s ease}}
+    .cc-cpm{background:var(--cc-surface);border:1px solid var(--line);border-radius:8px;padding:13px;font-size:.88rem;color:var(--soft)}
+    .cc-cpm strong{font-family:'Anton',sans-serif;font-weight:400;color:var(--ink);font-variant-numeric:tabular-nums}
+    .cc-rcta{display:flex;flex-direction:column;gap:8px}
+    .cc-rcta .btn{width:100%}
+    .cc-how{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;margin-top:40px}
+    @media (max-width:860px){.cc-how{grid-template-columns:minmax(0,1fr)}}
+    .cc-how h2{font-size:1.2rem;margin:0 0 12px}
+    .cc-how ol,.cc-how ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:9px;font-size:.92rem;color:var(--soft)}
+    .cc-how li b{color:var(--ink);font-weight:600}
+    .cc-how code{font-size:.82rem;color:var(--cc-teal);font-family:ui-monospace,monospace}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site">
+    <div class="inner">
+      <a class="brand" href="/">TAL PAPERIN</a>
+      <div class="navlinks">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/services/">Services</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/case-studies">Case Studies</a>
+        <a href="/recommendations">Recommendations</a>
+        <a href="/blog/">Blog</a>
+      </div>
+      <div class="nav-right">
+        <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew"><svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#fff"/><rect width="22" height="1.7" y="2.3" fill="#0038b8"/><rect width="22" height="1.7" y="11" fill="#0038b8"/><path d="M11 4.5 L8.4 9 L13.6 9 Z" fill="none" stroke="#0038b8" stroke-width=".7"/><path d="M11 10.5 L8.4 6 L13.6 6 Z" fill="none" stroke="#0038b8" stroke-width=".7"/></svg></a>
+        <a class="btn btn-primary" href="/contact">Let's Talk</a>
+        <button class="navtoggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="svc">
+        <p class="breadcrumb"><a href="/">Home</a> / What your broken sales machine costs you</p>
+        <div class="glowline"></div>
+        <p class="eyebrow">Free calculator</p>
+        <h1>What is your broken sales and marketing machine costing you?</h1>
+        <p class="lead">Most sales problems hide because nobody puts a number on them. This does. Add your SDRs, your closers, your managers and your marketing spend, and see in dollars what the broken machine costs you every year. Leave anything you do not have at zero.</p>
+
+        <p class="cc-note">The sales benchmarks (SDR pay, ramp time, attrition, meeting target, manager pay) come from published research and are tagged <b>benchmark</b>. Everything tagged <b>example</b> is a placeholder: replace it with your real numbers. Nothing here is stored or sent anywhere.</p>
+
+        <section class="cc-calc" aria-label="Calculator">
+          <form class="cc-inputs" id="f" onsubmit="return false">
+            <fieldset class="cc-fs">
+              <legend class="cc-lg">Your SDRs (booking meetings)</legend>
+              <div class="cc-row"><label for="nsdr">Number of SDRs</label><div class="cc-field"><input id="nsdr" inputmode="numeric" value="2"></div></div>
+              <div class="cc-row"><label for="sdrpay">Annual pay per SDR, base plus commission<span class="cc-tag b">benchmark</span><small>Median SDR on-target earnings: $80K</small></label><div class="cc-field"><span>$</span><input id="sdrpay" inputmode="numeric" value="80,000"></div></div>
+              <div class="cc-row"><label for="mt">Meeting target per SDR per month<span class="cc-tag b">benchmark</span><small>Median quota: 10 meetings held</small></label><div class="cc-field"><input id="mt" inputmode="numeric" value="10"></div></div>
+              <div class="cc-row"><label for="ma">Meetings they actually hold per month<span class="cc-tag e">example</span></label><div class="cc-field"><input id="ma" inputmode="decimal" value="6"></div></div>
+              <div class="cc-row"><label for="sramp">Months until a new SDR is ramped<span class="cc-tag b">benchmark</span><small>Average: 3.0 months</small></label><div class="cc-field"><input id="sramp" inputmode="decimal" value="3"><span>mo</span></div></div>
+              <div class="cc-row"><label for="sattr">SDRs who leave each year<span class="cc-tag b">benchmark</span><small>Median attrition: 40%</small></label><div class="cc-field"><input id="sattr" inputmode="decimal" value="40"><span>%</span></div></div>
+            </fieldset>
+
+            <fieldset class="cc-fs">
+              <legend class="cc-lg">Your closers (AEs)</legend>
+              <div class="cc-row"><label for="nae">Number of AEs / closers</label><div class="cc-field"><input id="nae" inputmode="numeric" value="2"></div></div>
+              <div class="cc-row"><label for="aepay">Annual pay per AE, on target<span class="cc-tag e">example</span></label><div class="cc-field"><span>$</span><input id="aepay" inputmode="numeric" value="150,000"></div></div>
+              <div class="cc-row"><label for="quota">Annual quota per AE<span class="cc-tag e">example</span></label><div class="cc-field"><span>$</span><input id="quota" inputmode="numeric" value="600,000"></div></div>
+              <div class="cc-row"><label for="attain">Quota they actually hit<span class="cc-tag e">example</span><small>Share of target they close</small></label><div class="cc-field"><input id="attain" inputmode="decimal" value="70"><span>%</span></div></div>
+            </fieldset>
+
+            <fieldset class="cc-fs">
+              <legend class="cc-lg">Your sales management</legend>
+              <div class="cc-row"><label for="nmgr">Number of sales managers / VPs</label><div class="cc-field"><input id="nmgr" inputmode="numeric" value="1"></div></div>
+              <div class="cc-row"><label for="mgrpay">Manager's annual pay<span class="cc-tag b">benchmark</span><small>Median SDR manager on-target earnings: $146K</small></label><div class="cc-field"><span>$</span><input id="mgrpay" inputmode="numeric" value="146,000"></div></div>
+              <div class="cc-row"><label for="mhrs">Hours a week each spends firefighting<span class="cc-tag e">example</span><small>Re-teaching basics, chasing deals, cleaning up</small></label><div class="cc-field"><input id="mhrs" inputmode="decimal" value="4"><span>hrs</span></div></div>
+            </fieldset>
+
+            <fieldset class="cc-fs">
+              <legend class="cc-lg">Your marketing</legend>
+              <div class="cc-row"><label for="mkt">Annual marketing spend<span class="cc-tag e">example</span><small>Budget, agencies, tools, ads</small></label><div class="cc-field"><span>$</span><input id="mkt" inputmode="numeric" value="120,000"></div></div>
+              <div class="cc-row"><label for="mwaste">Share that never turns into real pipeline<span class="cc-tag e">example</span></label><div class="cc-field"><input id="mwaste" inputmode="decimal" value="40"><span>%</span></div></div>
+            </fieldset>
+
+            <fieldset class="cc-fs">
+              <legend class="cc-lg">Your deal economics</legend>
+              <div class="cc-row"><label for="deal">Average first-year deal value<span class="cc-tag e">example</span></label><div class="cc-field"><span>$</span><input id="deal" inputmode="numeric" value="12,000"></div></div>
+              <div class="cc-row"><label for="close">Meetings that turn into closed deals<span class="cc-tag e">example</span></label><div class="cc-field"><input id="close" inputmode="decimal" value="15"><span>%</span></div></div>
+            </fieldset>
+          </form>
+
+          <aside class="cc-results" aria-live="polite">
+            <div><div class="cc-tl">Lost every year</div><div class="cc-total" id="total">$0</div></div>
+            <div class="cc-sub" id="sub"></div>
+            <div class="cc-lines">
+              <div class="cc-line"><b>Pipeline your SDRs aren't booking</b><span class="v" id="r1"></span><div class="cc-bar"><i id="b1"></i></div><p id="p1"></p></div>
+              <div class="cc-line"><b>Revenue your closers are missing</b><span class="v" id="r2"></span><div class="cc-bar"><i id="b2"></i></div><p id="p2"></p></div>
+              <div class="cc-line"><b>Ramp and churn on SDRs</b><span class="v" id="r3"></span><div class="cc-bar"><i id="b3"></i></div><p id="p3"></p></div>
+              <div class="cc-line"><b>Management time lost to firefighting</b><span class="v" id="r4"></span><div class="cc-bar"><i id="b4"></i></div><p id="p4"></p></div>
+              <div class="cc-line"><b>Marketing spend that goes nowhere</b><span class="v" id="r5"></span><div class="cc-bar"><i id="b5"></i></div><p id="p5"></p></div>
+            </div>
+            <div class="cc-cpm" id="cpm"></div>
+            <div class="cc-rcta">
+              <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+              <a class="btn btn-secondary" href="/services/fractional-cro">This is what a fractional CRO fixes</a>
+            </div>
+          </aside>
+        </section>
+
+        <section class="cc-how">
+          <div>
+            <h2>How it's calculated</h2>
+            <ol>
+              <li><b>Pipeline SDRs aren't booking:</b> <code>(target - actual meetings) x 12 x SDRs x close rate x deal value</code>. Revenue from the meetings they miss, at your own close rate.</li>
+              <li><b>Revenue closers are missing:</b> <code>AEs x quota x (1 - attainment)</code>. The gap between quota and what they actually close.</li>
+              <li><b>Ramp and churn on SDRs:</b> <code>SDRs x attrition x (monthly pay x ramp months x 50%)</code>. A replacement produces about half output while ramping.</li>
+              <li><b>Management firefighting:</b> <code>managers x pay x (hours ÷ 40)</code>. Leadership time on basics instead of strategy.</li>
+              <li><b>Marketing that goes nowhere:</b> <code>spend x wasted share</code>. Budget that never becomes real pipeline.</li>
+            </ol>
+          </div>
+          <div>
+            <h2>Sources and honesty</h2>
+            <ul>
+              <li>SDR pay, ramp, attrition, meeting target and manager pay: <a href="https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group" target="_blank" rel="noopener">The Bridge Group, SDR Models, Motions &amp; Metrics 2025</a> (351 B2B companies).</li>
+              <li>Everything tagged <b>example</b> is a placeholder for you to replace. The total mixes missed revenue with wasted spend on purpose: both are money the broken machine costs you.</li>
+              <li>This is an estimate to start a conversation, not an audit. The real number comes from looking at your actual pipeline.</li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="cta-box">
+          <h3>Seeing a scary number? That's the machine, not bad luck.</h3>
+          <p>A 15-minute call, no pitch. Tell me where revenue stalled and you'll leave with at least one concrete thing to fix, whether or not we work together.</p>
+          <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+          <a class="btn btn-secondary" href="https://wa.me/972545308119?text=Hi%20Tal%2C%20I%20ran%20the%20calculator%20and%20want%20to%20talk." target="_blank" rel="noopener">WhatsApp me</a>
+        </div>
+        <div class="svc-related">See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/fractional-cro-cost">what a fractional CRO costs</a>, or <a href="/pricing">pricing</a>.</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap inner">
+      <span>&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/guides">Guides</a></span>
+      <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/972545308119" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" fill="#fff" aria-hidden="true"><path d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.6l7.9-2.1c2.3 1.3 4.9 1.9 7.6 1.9 8.6 0 15.6-7 15.6-15.6C31.6 7.4 24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.7 1.2 1.3-4.6-.3-.5c-1.3-2.1-2-4.5-2-6.9C3.3 9 8.9 3.3 16 3.3c3.4 0 6.6 1.3 9 3.7 2.4 2.4 3.7 5.6 3.7 9 0 7.1-5.7 12.9-12.7 12.9zm7-9.6c-.4-.2-2.3-1.1-2.6-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.1-1-1.9-2.3-2.1-2.7-.2-.4 0-.6.2-.8.2-.2.4-.4.5-.7.2-.2.2-.4.4-.6.1-.3.1-.5 0-.7-.1-.2-.9-2.2-1.3-3-.3-.7-.6-.6-.9-.7h-.8c-.3 0-.7.1-1 .5-.4.4-1.4 1.3-1.4 3.3 0 1.9 1.4 3.8 1.6 4.1.2.3 2.8 4.3 6.8 6 1 .4 1.7.7 2.3.9 1 .3 1.8.3 2.5.2.8-.1 2.3-.9 2.6-1.9.3-.9.3-1.7.2-1.9-.1-.1-.4-.2-.8-.4z"/></svg></a>
+
+  <script>
+    var nt=document.querySelector('.navtoggle');
+    if(nt){nt.addEventListener('click',function(){var n=document.querySelector('nav.site');var o=n.classList.toggle('open');nt.setAttribute('aria-expanded',o);});
+    document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.site').classList.remove('open');});});}
+  </script>
+
+  <script>
+  (function(){
+    var $=function(id){return document.getElementById(id);};
+    var num=function(id){var v=parseFloat(String($(id).value).replace(/[^0-9.]/g,''));return isFinite(v)&&v>=0?v:0;};
+    var usd=function(v){return '$'+Math.round(v).toLocaleString('en-US');};
+    var ids=['nsdr','sdrpay','mt','ma','sramp','sattr','nae','aepay','quota','attain','nmgr','mgrpay','mhrs','mkt','mwaste','deal','close'];
+    function setBar(id,v,max){$(id).style.width=(max>0?(v/max*100):0)+'%';}
+    function calc(){
+      var nsdr=num('nsdr'),sdrpay=num('sdrpay'),mt=num('mt'),ma=num('ma'),sramp=num('sramp'),sattr=num('sattr')/100;
+      var nae=num('nae'),aepay=num('aepay'),quota=num('quota'),attain=num('attain')/100;
+      var nmgr=num('nmgr'),mgrpay=num('mgrpay'),mhrs=Math.min(num('mhrs'),40);
+      var mkt=num('mkt'),mwaste=num('mwaste')/100;
+      var deal=num('deal'),close=num('close')/100;
+
+      var gap=Math.max(0,mt-ma);
+      var lostMeetings=gap*12*nsdr;
+      var r1=lostMeetings*close*deal;
+      var r2=nae*quota*Math.max(0,1-attain);
+      var rampPerHire=(sdrpay/12)*sramp*0.5;
+      var r3=nsdr*sattr*rampPerHire;
+      var r4=nmgr*mgrpay*(mhrs/40);
+      var r5=mkt*mwaste;
+      var total=r1+r2+r3+r4+r5, max=Math.max(r1,r2,r3,r4,r5,1);
+
+      $('total').textContent=usd(total);
+      var heads=nsdr+nae+nmgr;
+      var payroll=sdrpay*nsdr+aepay*nae+mgrpay*nmgr+mkt;
+      $('sub').textContent=(total>0&&heads>0)
+        ? usd(total/heads)+' per person on the team, against '+usd(payroll)+' a year in sales and marketing payroll and spend.'
+        : 'Fill in the parts of your team you have. Leave the rest at zero.';
+
+      $('r1').textContent=usd(r1);$('r2').textContent=usd(r2);$('r3').textContent=usd(r3);$('r4').textContent=usd(r4);$('r5').textContent=usd(r5);
+      setBar('b1',r1,max);setBar('b2',r2,max);setBar('b3',r3,max);setBar('b4',r4,max);setBar('b5',r5,max);
+      $('p1').textContent=Math.round(lostMeetings)+' missed meetings a year, about '+(lostMeetings*close).toFixed(1)+' deals never closed.';
+      $('p2').textContent=nae>0?('Each AE closing '+Math.round(attain*100)+'% of a '+usd(quota)+' quota.'):'No closers entered.';
+      $('p3').textContent=usd(rampPerHire)+' of pay per replacement before they hit full output.';
+      $('p4').textContent=Math.round(mhrs*nmgr*48)+' hours a year of leadership time on basics.';
+      $('p5').textContent=Math.round(mwaste*100)+'% of a '+usd(mkt)+' budget with nothing to show for it.';
+
+      $('cpm').innerHTML=(ma>0&&nsdr>0)
+        ? 'You pay <strong>'+usd((sdrpay/12)/ma)+'</strong> per meeting your SDRs hold. At target it would be <strong>'+usd((sdrpay/12)/Math.max(mt,1))+'</strong>.'
+        : 'Enter SDR meetings to see what each one costs you.';
+    }
+    ids.forEach(function(id){$(id).addEventListener('input',calc);});
+    ['sdrpay','aepay','quota','mgrpay','mkt','deal'].forEach(function(id){$(id).addEventListener('blur',function(){var v=num(id);$(id).value=v.toLocaleString('en-US');});});
+    calc();
+  })();
+  </script>
+
+  <style>.magnetic{transition:transform .25s cubic-bezier(.2,.7,.2,1)}</style>
+  <script>
+  (function(){
+    if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+    document.querySelectorAll('.cta-box .btn-primary').forEach(function(btn){
+      btn.classList.add('magnetic');
+      btn.addEventListener('pointermove',function(e){var r=btn.getBoundingClientRect();var mx=e.clientX-(r.left+r.width/2),my=e.clientY-(r.top+r.height/2);btn.style.transform='translate('+(mx*0.28).toFixed(1)+'px,'+(my*0.4).toFixed(1)+'px)';});
+      btn.addEventListener('pointerleave',function(){btn.style.transform='';});
+    });
+  })();
+  </script>
+</body>
+</html>
