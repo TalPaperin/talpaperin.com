@@ -496,6 +496,7 @@ def render_sitemap(posts, he_posts=None):
     urls.append(('%s/he/guides' % SITE, '0.6', today))
     urls.append(('%s/he/case-studies' % SITE, '0.7', today))
     urls.append(('%s/he/pricing' % SITE, '0.6', today))
+    urls.append(('%s/he/sales-cost-calculator' % SITE, '0.6', today))
     urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))
     for p in posts:
