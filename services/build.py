@@ -2468,6 +2468,7 @@ GUIDES = [
       "Most consultants hand you a deck and disappear. They have never carried a number. I am an ex VP of Global Sales and CRO. I own the number, build and manage the team that delivers it, and step into the big deals myself. And I bill monthly with no contract, so I keep the work by being good at it, not by trapping you in one."]},
     {"h":"When a fractional CRO is the wrong call","p":[
       "If your sales motion is already proven and the work is genuinely a full week every week, hire full-time. Fractional wins when the motion is not yet proven, the volume is not yet a full week, or you need results before committing to a permanent hire."]},
+    {"html":'<p style="margin:28px 0;padding:18px 22px;border:1px solid rgba(37,99,235,.45);border-radius:14px;background:radial-gradient(90% 180% at 8% 0%,#0c2237 0%,#0a0e14 70%)"><a href="/sales-cost-calculator" style="color:#fff;font-weight:600">Want your own number? Use the free calculator and see what your broken sales and marketing machine costs you every year &rarr;</a></p>'},
   ],
   "faqs":[
     {"q":"How much does a fractional CRO cost?","a":"My engagements run $2,000 to $12,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
@@ -3993,6 +3994,7 @@ HE_GUIDES = [
       "תוצאות בשבוע הראשון, לא בחודש השישי"]},
     {"h":"אתם שוכרים מפעיל, לא יועץ","p":[
       "רוב היועצים מגישים לכם מצגת ונעלמים. הם מעולם לא נשאו אחריות על מספר. אני VP מכירות גלובלי וסמנכ״ל מכירות ופיתוח עסקי לשעבר. אני לוקח אחריות על המספר, בונה ומנהל את הצוות שמביא אותו, ונכנס לעסקאות הגדולות בעצמי. ואני מחייב חודשית בלי חוזה, אז אני שומר על העבודה בזכות זה שאני טוב בה, לא בזכות חוזה שכולא אתכם."]},
+    {"html":'<p style="margin:28px 0;padding:18px 22px;border:1px solid rgba(37,99,235,.45);border-radius:14px;background:radial-gradient(90% 180% at 8% 0%,#0c2237 0%,#0a0e14 70%)"><a href="/he/sales-cost-calculator" style="color:#fff;font-weight:600">רוצים מספר משלכם? השתמשו במחשבון החינמי וראו כמה מכונת המכירות והשיווק השבורה עולה לכם בכל שנה &larr;</a></p>'},
   ],
   "faqs":[
     {"q":"כמה עולה סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"הפרויקטים שלי נעים בין 2,000 ל-12,000 דולר בחודש לפי רמת המעורבות, לעומת 250 אלף דולר ומעלה לסמנכ״ל מכירות ופיתוח עסקי במשרה מלאה אחרי אקוויטי, בונוס ופיצויים."},
