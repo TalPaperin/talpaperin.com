@@ -6,8 +6,13 @@ For every lead we contacted that has NOT replied. Source of truth = the KSW Lead
 ## The 4-touch sequence (pain-first, from tal@ksw.solutions via Gmail, fresh subject each time)
 Touch dates are measured from the lead's `date_contacted` (touch 1):
 - Touch 1: the re-engagement (already sent).
-- Touch 2: +3 days. ONE short line naming THEIR pain (not what Tal does). Use the pain bank in
-  explee_rules.md, matched to the company.
+- Touch 2: +3 days. ONE short line naming THEIR pain (not what Tal does).
+  MATCH THE PAIN TO THE SPECIFIC LEAD (Tal, 2026-11-03) - this is the whole point:
+  before writing, read the lead's `context` (their own prior words) and what their company actually
+  does, then name the pain THEY have, in their language. If their prior reply already revealed it
+  ("what is the cost", "curious how it works", "quick convo", "depends on terms"), speak to that
+  exact thing. Use the pain bank only as a starting point and pick the ONE that genuinely fits this
+  lead's business and stage; never paste a generic pain. A mismatched pain is worse than no email.
 - Touch 3: +7 days. A different pain angle OR one concrete receipt (a real KSW outcome, never invented).
 - Touch 4: +14 days. The breakup: "should I close your file?" Short. These pull the most replies.
 Every touch: lead with pain, straight quotes, no em dashes, no "here's what I do" opener, vary the
