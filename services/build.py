@@ -3790,7 +3790,8 @@ GUIDES = [
 def render_guide_sections(g):
     out = []
     for sec in g["sections"]:
-        out.append("        <h2>%s</h2>" % esc(sec["h"]))
+        if sec.get("h"):
+            out.append("        <h2>%s</h2>" % esc(sec["h"]))
         for p in sec.get("p", []):
             out.append("        <p>%s</p>" % esc(p))
         if sec.get("tiers"):
