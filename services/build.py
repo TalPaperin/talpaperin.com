@@ -2347,6 +2347,74 @@ SERVICE_FAQS_HE = {
 
 
 GUIDES = [
+ {"slug":"b2b-sales-consultant-israel",
+  "title":"B2B Sales Consultant in Israel | Tal Paperin",
+  "desc":"Most sales consultants hand you a deck and leave. I am an operator who owns the number: I build, fix and run B2B sales for Israeli companies selling at home and abroad.",
+  "h1":"A B2B Sales Consultant in Israel Who Owns the Number","eyebrow":"Israel",
+  "lead":"Most people who call themselves a sales consultant give you advice and a slide deck, then leave you to make it work. I do the opposite. I am a fractional CRO and former VP of Global Sales who steps in, owns your revenue number, and builds, fixes and runs the sales motion until it delivers. I work with Israeli B2B companies selling here and abroad, in Hebrew or English.",
+  "sections":[
+    {"h":"Advice is cheap. Owning the number is the job.","p":[
+      "A consultant diagnoses and hands you a plan. Then the plan sits in a drawer, because nobody senior is accountable for making it happen. I carry the number myself. I diagnose where revenue is stuck in week one, give you the plan in week two, and then do the part consultants skip: I rebuild the engine, train or replace the team, and run the motion until the number moves.",
+      "That is the difference between a sales consultant and a fractional CRO. One advises. The other owns."]},
+    {"h":"What I actually do for Israeli B2B companies","ul":[
+      "Diagnose where revenue is really stuck: pipeline, conversion, team, pricing or motion",
+      "Build the go-to-market: ICP, positioning, channels, playbook and a forecast you can trust",
+      "Hire, train and manage the sales team, in-house or on my own payroll, and replace who cannot perform",
+      "Own the number end to end, and step into the big deals myself",
+      "Sell both in the Israeli market and into the US and Europe, where most of the growth is"]},
+    {"h":"Selling from Israel into the US and the world","p":[
+      "Most Israeli B2B companies hit a wall the moment they leave the local market. The buyers are different, the sales cycle is different, and the founder-led motion that worked at home stops scaling. I have built and run sales on five continents, opened the US and European markets for Israeli companies, and know exactly where Israeli teams lose deals abroad. I fix that.",
+      "I have done this for Israeli startups and manufacturers across SaaS, IoT and hardware, from first revenue to global reach."]},
+    {"h":"Who this is for","ul":[
+      "Israeli B2B founders whose sales have stalled or never started",
+      "Companies that burned a budget on a VP of Sales who did not deliver",
+      "Teams selling locally that need to crack the US or Europe",
+      "Founders still closing every deal themselves who need the motion to scale without them"]},
+    {"h":"What it costs","p":[
+      "I bill a monthly retainer, no long contract and no lock-in. It runs from a light advisory level up to hands-on, half-time ownership, depending on how much of me you need. The pricing is public and there is a calculator that gives you a number in about a minute."]},
+  ],
+  "faqs":[
+    {"q":"What does a B2B sales consultant in Israel do?","a":"In my case, more than consult. I am a fractional CRO: I diagnose where revenue is stuck, build the go-to-market and the team, and then own and run the sales motion until the number moves. Most consultants only advise; I carry the number."},
+    {"q":"Do you work in Hebrew or English?","a":"Both. I work with Israeli B2B companies in Hebrew, and run their sales into the US, Europe and beyond in English. I have built sales on five continents."},
+    {"q":"How are you different from a sales consultant or agency?","a":"A consultant hands you a deck and leaves. An agency runs a channel for you. I step in as the senior owner of your revenue number, build and manage the team that delivers it, and stay until it works, billed monthly with no lock-in."},
+    {"q":"Can you help us sell into the US?","a":"Yes. Breaking Israeli B2B companies into the US and Europe is a large part of what I do. I know where Israeli teams lose deals abroad and I build the motion that wins them."},
+    {"q":"How much does it cost?","a":"A monthly retainer with no lock-in, from a light advisory level up to hands-on ownership. Pricing is public; use the calculator on the pricing page for a number in about a minute."}],
+  "related":'See <a href="/fractional-cro-israel">fractional CRO in Israel</a>, <a href="/business-consultant-for-startups">a business consultant for startups</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, or the <a href="/pricing">pricing</a>.'},
+
+ {"slug":"business-consultant-for-startups",
+  "title":"Business Consultant for Startups: Sales and Revenue | Tal Paperin",
+  "desc":"Startups do not need generic business advice. They need someone to build and run sales. I am a fractional CRO who owns the revenue number for startups, in Israel and abroad.",
+  "h1":"A Business Consultant for Startups Who Builds the Revenue, Not Just the Advice","eyebrow":"For Startups",
+  "lead":"Most startups that hire a business consultant get a strategy deck and a list of things to do, with no one to do them. That is not what an early company needs. It needs revenue, and someone senior to own it. I am a fractional CRO and former VP of Global Sales. I build the sales motion, the team and the forecast for startups, then run it until the number moves. I work with Israeli startups and companies abroad.",
+  "sections":[
+    {"h":"Startups do not have a strategy problem. They have a revenue problem.","p":[
+      "Early companies rarely fail for lack of a plan. They fail because the founder is still closing every deal, there is no repeatable motion, and the first sales hires are not working. A business consultant who only advises cannot fix that. Someone has to get in and build the engine.",
+      "That is what I do. I diagnose where revenue is stuck, build the go-to-market and the first real sales motion, hire and train the team, and own the number with you until it scales past the founder."]},
+    {"h":"What a startup actually gets","ul":[
+      "A clear ICP, positioning and a motion built for your stage, not a generic framework",
+      "A sales team hired, trained and managed, in-house or on my payroll",
+      "A pipeline and a forecast you and your board can trust",
+      "Founder-led sales turned into a repeatable engine that runs without you",
+      "Senior ownership of the revenue number, billed monthly, no lock-in"]},
+    {"h":"From first revenue to global reach","p":[
+      "I work with startups from their first paying customers through scaling into the US and Europe. For Israeli startups in particular, the hard part is usually not the local market, it is cracking the buyers abroad where the growth is. I have opened those markets for Israeli companies across SaaS, IoT and hardware, and I build the motion that travels.",
+      "Twenty-plus years, more than 300 founders, sales built on five continents. I bring that to a startup without the cost of a full-time CRO."]},
+    {"h":"Who this is for","ul":[
+      "Founders still personally closing every deal who need the motion to scale",
+      "Startups after a raise that need to build a real sales function fast",
+      "Companies whose first sales hires are not producing",
+      "Israeli startups ready to sell into the US or Europe"]},
+    {"h":"What it costs","p":[
+      "A monthly retainer, no long contract, scaled to how hands-on you need me, from light advisory to half-time ownership. Startups usually start lean and scale the involvement as revenue grows. Pricing is public, and the calculator on the pricing page gives you a number in about a minute."]},
+  ],
+  "faqs":[
+    {"q":"What does a business consultant for startups do?","a":"The useful version builds revenue, not slides. I am a fractional CRO: I build the sales motion, hire and manage the team, and own the revenue number for startups until it scales past the founder. Generic advice is not the job."},
+    {"q":"Is this not just a fractional CRO?","a":"Yes, that is exactly the point. Startups that go looking for a business consultant usually need a fractional CRO: someone senior who owns and builds revenue, not an advisor who hands over a deck."},
+    {"q":"Do you work with Israeli startups?","a":"Yes. I work with Israeli startups in Hebrew and run their sales into the US and Europe in English. Cracking the markets abroad is where most Israeli startups need the most help."},
+    {"q":"We are pre-revenue. Is it too early?","a":"Often not. The earlier the motion is built right, the less you waste on hires and experiments that do not work. I scale the involvement to your stage and budget, starting lean."},
+    {"q":"How much does it cost?","a":"A monthly retainer with no lock-in, from a light advisory level up to hands-on ownership. Pricing is public; use the calculator on the pricing page."}],
+  "related":'See <a href="/fractional-cro-for-startups">fractional CRO for startups</a>, <a href="/b2b-sales-consultant-israel">a B2B sales consultant in Israel</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, or the <a href="/pricing">pricing</a>.'},
+
  {"slug":"sales-training",
   "title":"B2B Sales Training That Actually Sticks | Tal Paperin",
   "desc":"Most sales training fails because nobody runs it afterward. I have trained 2,000 salespeople worldwide, then managed them to the number. Here is what works.",
@@ -3806,6 +3874,74 @@ HE_GUIDE_PAGE = '''<!doctype html>
 
 
 HE_GUIDES = [
+ {"slug":"b2b-sales-consultant-israel",
+  "title":"יועץ מכירות B2B בישראל | טל פאפרין",
+  "desc":"רוב יועצי המכירות נותנים לכם מצגת ונעלמים. אני מפעיל שאחראי על המספר: בונה, מתקן ומריץ מכירות B2B לחברות ישראליות שמוכרות בבית ובחו״ל.",
+  "h1":"יועץ מכירות B2B בישראל שאחראי על המספר","eyebrow":"ישראל",
+  "lead":"רוב מי שקורא לעצמו יועץ מכירות נותן לכם עצה ומצגת, ומשאיר אתכם לבד ליישם. אני עושה את ההפך. אני סמנכ״ל מכירות במיקור חוץ (fractional CRO) וסמנכ״ל מכירות גלובלי לשעבר. אני נכנס, לוקח אחריות על מספר ההכנסות, ובונה, מתקן ומריץ את מהלך המכירות עד שהוא מביא תוצאות. אני עובד עם חברות B2B ישראליות שמוכרות בארץ ובחו״ל, בעברית או באנגלית.",
+  "sections":[
+    {"h":"עצה היא זולה. האחריות על המספר היא העבודה.","p":[
+      "יועץ מאבחן ומגיש לכם תוכנית. ואז התוכנית נשארת במגירה, כי אף אחד בכיר לא אחראי לגרום לה לקרות. אני נושא את המספר בעצמי. בשבוע הראשון אני מאבחן איפה ההכנסות תקועות, בשבוע השני אתם מקבלים את התוכנית, ואז אני עושה את החלק שיועצים מדלגים עליו: בונה מחדש את המנוע, מכשיר או מחליף את הצוות, ומריץ את המהלך עד שהמספר זז.",
+      "זה ההבדל בין יועץ מכירות לבין סמנכ״ל מכירות במיקור חוץ. האחד מייעץ. השני אחראי."]},
+    {"h":"מה אני באמת עושה לחברות B2B ישראליות","ul":[
+      "מאבחן איפה ההכנסות באמת תקועות: פייפליין, המרה, צוות, תמחור או מהלך",
+      "בונה את מהלך ההליכה לשוק: ICP, מיצוב, ערוצים, פלייבוק ותחזית שאפשר לסמוך עליה",
+      "מגייס, מכשיר ומנהל את צוות המכירות, בבית או על חשבוני, ומחליף את מי שלא מתאים",
+      "לוקח אחריות על המספר מקצה לקצה, ונכנס בעצמי לעסקאות הגדולות",
+      "מוכר גם בשוק הישראלי וגם לארצות הברית ולאירופה, שם רוב הצמיחה"]},
+    {"h":"למכור מישראל לארצות הברית ולעולם","p":[
+      "רוב חברות ה-B2B הישראליות נתקלות בקיר ברגע שהן יוצאות מהשוק המקומי. הקונים שונים, מחזור המכירה שונה, והמהלך המבוסס-מייסד שעבד בבית מפסיק להתרחב. בניתי והרצתי מכירות בחמש יבשות, פתחתי את השוק האמריקאי והאירופי לחברות ישראליות, ואני יודע בדיוק איפה צוותים ישראליים מפסידים עסקאות בחו״ל. את זה אני מתקן.",
+      "עשיתי את זה לסטארטאפים ויצרנים ישראליים ב-SaaS, IoT וחומרה, מההכנסה הראשונה ועד הגעה גלובלית."]},
+    {"h":"למי זה מתאים","ul":[
+      "מייסדי B2B ישראליים שהמכירות שלהם נתקעו או לא התחילו",
+      "חברות ששרפו תקציב על סמנכ״ל מכירות שלא הביא תוצאות",
+      "צוותים שמוכרים מקומית וצריכים לפצח את ארצות הברית או אירופה",
+      "מייסדים שעדיין סוגרים כל עסקה בעצמם וצריכים שהמהלך יתרחב בלעדיהם"]},
+    {"h":"כמה זה עולה","p":[
+      "אני גובה ריטיינר חודשי, בלי חוזה ארוך ובלי נעילה. זה נע מרמת ייעוץ קלה ועד אחריות מעשית של חצי משרה, תלוי כמה ממני אתם צריכים. התמחור פומבי, ויש מחשבון שנותן לכם מספר בערך בדקה."]},
+  ],
+  "faqs":[
+    {"q":"מה עושה יועץ מכירות B2B בישראל?","a":"במקרה שלי, הרבה יותר מלייעץ. אני סמנכ״ל מכירות במיקור חוץ: מאבחן איפה ההכנסות תקועות, בונה את מהלך ההליכה לשוק ואת הצוות, ואז לוקח אחריות ומריץ את המכירות עד שהמספר זז. רוב היועצים רק מייעצים; אני נושא את המספר."},
+    {"q":"אתה עובד בעברית או באנגלית?","a":"בשתיהן. אני עובד עם חברות B2B ישראליות בעברית, ומריץ את המכירות שלהן לארצות הברית, אירופה ומעבר באנגלית. בניתי מכירות בחמש יבשות."},
+    {"q":"במה אתה שונה מיועץ מכירות או סוכנות?","a":"יועץ מגיש מצגת ונעלם. סוכנות מריצה לכם ערוץ. אני נכנס כבעלים הבכיר של מספר ההכנסות, בונה ומנהל את הצוות שמביא אותו, ונשאר עד שזה עובד, בחיוב חודשי בלי נעילה."},
+    {"q":"אתה יכול לעזור לנו למכור לארצות הברית?","a":"כן. לפצח את ארצות הברית ואירופה לחברות B2B ישראליות זה חלק גדול ממה שאני עושה. אני יודע איפה צוותים ישראליים מפסידים עסקאות בחו״ל, ובונה את המהלך שמנצח."},
+    {"q":"כמה זה עולה?","a":"ריטיינר חודשי בלי נעילה, מרמת ייעוץ קלה ועד אחריות מעשית. התמחור פומבי; השתמשו במחשבון בעמוד התמחור לקבלת מספר בערך בדקה."}],
+  "related":'ראו <a href="/he/fractional-cro-israel">סמנכ״ל מכירות במיקור חוץ בישראל</a>, <a href="/he/business-consultant-for-startups">יועץ עסקי לסטארטאפים</a>, את <a href="/he/services/fractional-cro">שירות סמנכ״ל המכירות במיקור חוץ</a>, או את <a href="/he/pricing">התמחור</a>.'},
+
+ {"slug":"business-consultant-for-startups",
+  "title":"יועץ עסקי לסטארטאפים: מכירות והכנסות | טל פאפרין",
+  "desc":"סטארטאפים לא צריכים עצה עסקית גנרית. הם צריכים מישהו שיבנה ויריץ מכירות. אני סמנכ״ל מכירות במיקור חוץ שלוקח אחריות על מספר ההכנסות של סטארטאפים, בישראל ובחו״ל.",
+  "h1":"יועץ עסקי לסטארטאפים שבונה את ההכנסות, לא רק את העצה","eyebrow":"לסטארטאפים",
+  "lead":"רוב הסטארטאפים ששוכרים יועץ עסקי מקבלים מצגת אסטרטגיה ורשימת משימות, בלי אף אחד שיבצע אותן. זה לא מה שחברה בתחילת דרכה צריכה. היא צריכה הכנסות, ומישהו בכיר שייקח עליהן אחריות. אני סמנכ״ל מכירות במיקור חוץ וסמנכ״ל מכירות גלובלי לשעבר. אני בונה את מהלך המכירות, הצוות והתחזית לסטארטאפים, ואז מריץ אותם עד שהמספר זז. אני עובד עם סטארטאפים ישראליים וחברות בחו״ל.",
+  "sections":[
+    {"h":"לסטארטאפים אין בעיית אסטרטגיה. יש להם בעיית הכנסות.","p":[
+      "חברות צעירות כמעט אף פעם לא נכשלות מחוסר תוכנית. הן נכשלות כי המייסד עדיין סוגר כל עסקה, אין מהלך שחוזר על עצמו, וגיוסי המכירות הראשונים לא עובדים. יועץ עסקי שרק מייעץ לא יכול לתקן את זה. מישהו צריך להיכנס ולבנות את המנוע.",
+      "זה מה שאני עושה. אני מאבחן איפה ההכנסות תקועות, בונה את מהלך ההליכה לשוק ואת מהלך המכירות האמיתי הראשון, מגייס ומכשיר את הצוות, ולוקח אתכם אחריות על המספר עד שהוא מתרחב מעבר למייסד."]},
+    {"h":"מה סטארטאפ באמת מקבל","ul":[
+      "ICP, מיצוב ומהלך שבנויים לשלב שלכם, לא מתודולוגיה גנרית",
+      "צוות מכירות מגויס, מוכשר ומנוהל, בבית או על חשבוני",
+      "פייפליין ותחזית שאתם והדירקטוריון יכולים לסמוך עליהם",
+      "מכירה מבוססת-מייסד שהופכת למנוע שחוזר על עצמו ורץ בלעדיכם",
+      "אחריות בכירה על מספר ההכנסות, בחיוב חודשי, בלי נעילה"]},
+    {"h":"מההכנסה הראשונה ועד הגעה גלובלית","p":[
+      "אני עובד עם סטארטאפים מהלקוחות המשלמים הראשונים ועד התרחבות לארצות הברית ולאירופה. במיוחד לסטארטאפים ישראליים, החלק הקשה הוא בדרך כלל לא השוק המקומי, אלא פיצוח הקונים בחו״ל שם הצמיחה. פתחתי את השווקים האלה לחברות ישראליות ב-SaaS, IoT וחומרה, ואני בונה מהלך שנוסע.",
+      "יותר מ-20 שנה, יותר מ-300 מייסדים, מכירות שנבנו בחמש יבשות. את זה אני מביא לסטארטאפ בלי העלות של סמנכ״ל מכירות במשרה מלאה."]},
+    {"h":"למי זה מתאים","ul":[
+      "מייסדים שעדיין סוגרים כל עסקה בעצמם וצריכים שהמהלך יתרחב",
+      "סטארטאפים אחרי גיוס שצריכים לבנות פונקציית מכירות אמיתית מהר",
+      "חברות שגיוסי המכירות הראשונים שלהן לא מייצרים",
+      "סטארטאפים ישראליים שמוכנים למכור לארצות הברית או אירופה"]},
+    {"h":"כמה זה עולה","p":[
+      "ריטיינר חודשי, בלי חוזה ארוך, מותאם לכמה מעשי אתם צריכים אותי, מייעוץ קל ועד אחריות של חצי משרה. סטארטאפים בדרך כלל מתחילים רזה ומגדילים את המעורבות ככל שההכנסות גדלות. התמחור פומבי; המחשבון בעמוד התמחור נותן לכם מספר בערך בדקה."]},
+  ],
+  "faqs":[
+    {"q":"מה עושה יועץ עסקי לסטארטאפים?","a":"הגרסה המועילה בונה הכנסות, לא שקפים. אני סמנכ״ל מכירות במיקור חוץ: בונה את מהלך המכירות, מגייס ומנהל את הצוות, ולוקח אחריות על מספר ההכנסות של סטארטאפים עד שהוא מתרחב מעבר למייסד. עצה גנרית היא לא העבודה."},
+    {"q":"זה לא פשוט סמנכ״ל מכירות במיקור חוץ?","a":"כן, וזו בדיוק הנקודה. סטארטאפים שמחפשים יועץ עסקי בדרך כלל צריכים סמנכ״ל מכירות במיקור חוץ: מישהו בכיר שלוקח אחריות ובונה הכנסות, לא יועץ שמגיש מצגת."},
+    {"q":"אתה עובד עם סטארטאפים ישראליים?","a":"כן. אני עובד עם סטארטאפים ישראליים בעברית ומריץ את המכירות שלהם לארצות הברית ואירופה באנגלית. פיצוח השווקים בחו״ל הוא המקום שבו רוב הסטארטאפים הישראליים צריכים הכי הרבה עזרה."},
+    {"q":"אנחנו לפני הכנסות. מוקדם מדי?","a":"לרוב לא. ככל שבונים את המהלך נכון מוקדם יותר, כך מבזבזים פחות על גיוסים וניסויים שלא עובדים. אני מתאים את המעורבות לשלב ולתקציב שלכם, ומתחיל רזה."},
+    {"q":"כמה זה עולה?","a":"ריטיינר חודשי בלי נעילה, מרמת ייעוץ קלה ועד אחריות מעשית. התמחור פומבי; השתמשו במחשבון בעמוד התמחור."}],
+  "related":'ראו <a href="/he/fractional-cro-for-startups">סמנכ״ל מכירות במיקור חוץ לסטארטאפים</a>, <a href="/he/b2b-sales-consultant-israel">יועץ מכירות B2B בישראל</a>, את <a href="/he/services/fractional-cro">שירות סמנכ״ל המכירות במיקור חוץ</a>, או את <a href="/he/pricing">התמחור</a>.'},
+
  {"slug":"sales-training",
   "title":"הדרכת מכירות B2B שבאמת נדבקת | טל פאפרין",
   "desc":"רוב הדרכות המכירות נכשלות כי אף אחד לא מנהל אותן אחר כך. הכשרתי 2,000 אנשי מכירות בעולם, ואז ניהלתי אותם עד למספר. הנה מה שעובד.",
@@ -4849,7 +4985,9 @@ GUIDE_CATS = [
  ("Market entry", "חדירה לשווקים", [
    "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
    "europe-market-entry-for-israeli-startups",
-   "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market", "fractional-cro-israel"]),
+   "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market"]),
+ ("For the Israeli market", "לשוק הישראלי", [
+   "fractional-cro-israel", "b2b-sales-consultant-israel", "business-consultant-for-startups"]),
  ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),
  ("In the media", "בתקשורת", ["tal-paperin-podcasts-and-press"]),
 ]
