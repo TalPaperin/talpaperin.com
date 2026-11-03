@@ -322,6 +322,7 @@ ARTICLE_GUIDES = {
     "how-to-build-a-sales-team", "sales-compensation-plan", "setting-sales-quotas",
     "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
     "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
+    "europe-market-entry-for-israeli-startups", "how-to-sell-to-enterprise",
     "sales-pipeline-and-forecasting", "how-much-pipeline-do-you-need", "b2b-outbound-sales",
     "tal-paperin-podcasts-and-press",
 }
@@ -3655,6 +3656,89 @@ GUIDES = [
     {"q":"Should outbound be done by SDRs or AEs?","a":"SDRs prospect and book meetings, AEs run and close them. Hiring a closer and expecting them to prospect their own pipeline is the common and expensive mistake. At the earliest stage the founder is often the best prospector, then you hand it off once the motion repeats."},
     {"q":"Should I build outbound in-house or outsource it?","a":"Depends on stage and speed. Renting meetings through pay-per-meeting gets buyers on your calendar fast while you learn the market. Outsourced sales runs a whole team outside your headcount. In-house is right once you want the motion and the people to live inside the company, but build the system before you hire."}],
   "related":'Part of <a href="/sales-pipeline-and-forecasting">how to build a sales pipeline you can forecast</a>. See also <a href="/hired-reps-but-no-pipeline">hired reps but no pipeline</a>, the <a href="/services/outsourced-sales">outsourced sales</a> and <a href="/services/pay-per-meeting">pay-per-meeting</a> services. Or read <a href="/blog/outbound-vs-inbound-early-stage">outbound vs inbound for early-stage B2B</a> and <a href="/blog/cold-email-that-books-meetings">cold email that books meetings</a>.'},
+
+ {"slug":"europe-market-entry-for-israeli-startups",
+  "title":"European Market Entry for Israeli Startups | Tal Paperin",
+  "desc":"Europe is not one market and it does not buy like the US. How to enter the EU the right way, country by country, without burning a year on the wrong one.",
+  "h1":"European Market Entry for Israeli Startups","eyebrow":"Market Entry",
+  "lead":"Founders say \"we are expanding to Europe\" as if Europe were a country you could book a flight to. It is not. It is twenty-plus markets with different languages, buyers, procurement rules and tolerance for a young vendor, and the wrong call in each one costs a year. I have opened the EU and Eastern Europe for Israeli and international B2B companies. Here is how to enter it without burning that year.",
+  "sections":[
+    {"h":"Europe is not a market, it is twenty of them","p":[
+      "There is no European buyer. There is a German buyer who wants proof, process and a local contract. A UK buyer who moves faster and in English. A French buyer who expects the pitch and the paperwork in French. A Nordic buyer who trusts a reference from the company down the road more than any deck you show. Treating the continent as one target is the first and most expensive error. You do not enter Europe. You enter a country.",
+      "That changes the whole plan. One message does not cover the continent, and one sales motion does not either. Pick the country where your buyers actually sit, win it, and only then touch the next one."]},
+    {"h":"It does not buy like the US","tiers":[
+      "Slower and relationship-first. Many European buyers, especially in DACH and the south, build the relationship before the contract. The US rhythm of good demo, send the order form is rarer. Plan for a longer cycle and more in-person contact.",
+      "References carry more weight. A reference from a company in the same country, ideally the same industry, moves a European deal more than any feature claim. A US logo helps less than you expect.",
+      "Data protection is a real gate, not a checkbox. GDPR and local data-residency expectations come up early with serious buyers. If you cannot say where the data lives and who touches it, the deal stalls before anyone discusses price.",
+      "Local presence reassures. A buyer in Munich or Paris weighs whether you will still be reachable in their timezone and language a year from now. A company run entirely from Tel Aviv reads as a flight risk until you prove otherwise."]},
+    {"h":"Pick one country as the beachhead","p":[
+      "The instinct is to spread thin across five countries so the market looks big. It is the fastest way to win nothing. Pick one country where your buyers concentrate and where you can actually close, then use that proof to open the next.",
+      "Early on, the English-speaking and English-tolerant markets lower the cost of learning: the UK, the Netherlands, the Nordics, Ireland. DACH is the largest prize for much of B2B and often the hardest entry, because it demands local language, local presence and patience. Strong in one of those is worth more than present in all of them."]},
+    {"h":"What travels from your US playbook, and what does not","ul":[
+      "Your ICP usually holds, but the message has to be re-grounded in the outcome and the regulation the local buyer actually feels",
+      "Cold outbound that works in the US lands harder in markets where buyers expect an introduction or a known name first",
+      "DACH and France often need local-language assets and a local-speaking voice on the call, not translated US collateral",
+      "US case studies help least where a regional reference helps most, so earn a local logo early even if it is small",
+      "Pricing may need to flex, because European buyers negotiate differently and some markets are more price-sensitive than the US"]},
+    {"h":"Local presence: when a partner beats a payroll","p":[
+      "You do not need an entity and a team in every country on day one. The question is where trust is local and you cannot yet afford feet on the ground. In those markets a distributor or channel partner who already has the relationships opens doors faster than a rep you parachute in. Where the deals are large and direct control matters, a local hire or a senior leader who already knows the market is worth more than a cheaper remote one. Sequence it: prove the motion in the beachhead, then add presence, direct or through partners, where the revenue justifies it."]},
+    {"h":"The mistakes that burn a year","ul":[
+      "Launching in Europe instead of in one country, so effort spreads across five markets and closes in none",
+      "Reusing the US message and collateral untranslated in markets that expect local language and local proof",
+      "Treating GDPR and data residency as a late legal formality instead of an early buyer question",
+      "Running pure cold outbound in markets that buy on introductions and references",
+      "Hiring a local VP, handing them the market and hoping, with no motion and no references to sell against"]},
+    {"h":"Go deeper","links":[
+      ["When to expand to the US","/when-to-expand-to-the-us"],
+      ["Sell in Israel first, or go global?","/sell-in-israel-first-or-go-global"],
+      ["Market entry service","/services/market-entry"]]},
+    {"h":"How I sequence it with clients","p":[
+      "I pick the beachhead country with you from where your buyers actually are, adapt the ICP, message and pricing to that market, decide direct versus partner, and then lead the first deals so the motion is proven before you scale the spend. I have done this across the EU and Eastern Europe, working European hours from Israel. If you are planning a European move, that is the work I do."]},
+  ],
+  "faqs":[
+    {"q":"Can an Israeli startup treat Europe as one market?","a":"No. Europe is twenty-plus markets with different languages, buyers, procurement rules and attitudes to a young vendor. Germany does not buy like the UK, and the UK does not buy like France. Pick one country where your buyers concentrate, win it, and use that proof to open the next, instead of spreading thin across the continent."},
+    {"q":"Which European country should I enter first?","a":"The one where your buyers concentrate and you can actually close. Early on, English-speaking and English-tolerant markets like the UK, the Netherlands, the Nordics and Ireland lower the cost of learning. DACH is the biggest prize for much of B2B and usually the hardest, because it wants local language, local presence and patience. Strong in one beats present in five."},
+    {"q":"How is selling in Europe different from the US?","a":"It is generally slower and more relationship-first, references from the same country and industry carry more weight, and data protection under GDPR comes up early with serious buyers rather than as a late formality. Local presence also reassures a European buyer that you will still be reachable in their language and timezone a year from now."},
+    {"q":"Do I need a local entity and team in each European country?","a":"Not on day one. Where trust is local and you cannot yet afford feet on the ground, a distributor or channel partner with existing relationships opens doors faster. Where deals are large and control matters, a local hire or a leader who knows the market is worth the cost. Prove the motion in one beachhead first, then add presence where the revenue justifies it."}],
+  "related":'See <a href="/when-to-expand-to-the-us">when to expand to the US</a> and <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a> for the timing and sequencing question. Then the <a href="/services/market-entry">market entry service</a>, the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> guide and <a href="/fractional-cro-israel">fractional CRO in Israel</a>. From the blog: <a href="/blog/choosing-first-market">how to choose your first market</a>.'},
+
+ {"slug":"how-to-sell-to-enterprise",
+  "title":"How to Sell to Enterprise: A B2B Operator's Guide | Tal Paperin",
+  "desc":"Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and actually close.",
+  "h1":"How to Sell to Enterprise","eyebrow":"Guide",
+  "lead":"The big logo is a magnet. Founders chase enterprise before they can survive it, win one painful deal, and conclude they have an enterprise motion when what they have is a lucky escape. Enterprise selling is a different sport. No single buyer. A cycle measured in quarters. A procurement gate that quietly ends the unprepared. Here is how it actually works, and how to tell if you are ready.",
+  "sections":[
+    {"h":"There is no single buyer","p":[
+      "The first thing that breaks a startup's enterprise deal is treating it like an SMB deal with more zeros. In an enterprise you are not selling to a person. You are selling to a committee that never meets in one room: the champion who wants it, the economic buyer who signs, the technical and security owners who can veto, procurement whose job is to slow you down and cut the price, and the quiet blocker who likes the status quo. One enthusiastic yes is not a deal. It is one vote.",
+      "So you multi-thread from the start. A deal that lives through a single champion dies the day that champion changes jobs, and over a nine-month cycle, someone always does."]},
+    {"h":"Are you even ready for enterprise?","ul":[
+      "You have someone who has actually sold enterprise before, not a team learning it on your most important deal",
+      "Your product survives a security and data review, or you know exactly what you are missing and the timeline to fix it",
+      "You have the runway to carry a six to twelve month cycle without that deal having to close to make payroll",
+      "You have at least one reference an enterprise buyer will respect, even a small pilot that went well",
+      "You can name the business outcome in the language an executive sponsor cares about, not a feature list"]},
+    {"h":"The cycle is long, so map it","p":[
+      "An enterprise B2B cycle commonly runs six to twelve months, sometimes longer, and it does not move because you want it to. It moves through stages the buyer controls: discovery, a technical evaluation or pilot, a security and legal review, budget approval, and procurement. Your job is to know which stage every deal is in, what the exit criteria of that stage are, and who has to act next. A pilot with no success metric agreed in writing is not progress. It is a way to spend three months and lose.",
+      "Treat the buyer's own buying process as the map. Ask them how a purchase this size actually gets approved inside their company, who signs, and what has killed similar projects before. The buyers who tell you are the real deals."]},
+    {"h":"The security and procurement gate","p":[
+      "This is the stage that ends startups, and the one founders see coming last. A serious enterprise will run you through a security questionnaire, a data-handling review, vendor onboarding and legal redlines before a dollar moves. If you cannot answer where data lives, who can access it, and how you handle an incident, the deal stalls no matter how much the champion loves you. Get ahead of it: know your gaps, hold honest answers ready, and bring the security conversation forward instead of letting it ambush you in month five."]},
+    {"h":"Land small, then expand","p":[
+      "Trying to sell the whole platform to the whole enterprise on day one stacks every objection and every approver against a single decision. The motion that works is narrower: one sharp use case, one team, a first contract small enough to approve without a board, delivered so well it earns the next one. Then you expand by seat, by department, by use case, inside an account that already trusts you. Target a short list of named accounts you have researched, not a wide funnel. Enterprise is depth, not volume."]},
+    {"h":"Sell the outcome, and price for it","p":[
+      "Enterprises do not approve six-figure spend for features. They approve it for an outcome an executive is measured on: risk removed, cost taken out, a number that has to move. Tie every conversation to that outcome and bring the executive sponsor in early, because the committee rarely approves what the sponsor has not blessed. Price to the value of the outcome and the multi-year relationship, not to a per-seat number a smaller buyer would haggle over."]},
+    {"h":"Where this fits","links":[
+      ["The full go-to-market strategy","/b2b-go-to-market-strategy"],
+      ["How to choose your go-to-market motion","/go-to-market-motion"],
+      ["B2B positioning and messaging","/b2b-positioning-and-messaging"]]},
+    {"h":"How I build it","p":[
+      "I come in as a fractional CRO, decide honestly whether you are ready for enterprise, build the motion around the buying committee and the real cycle, get ahead of the security and procurement gate, and lead the first large deals myself so the playbook is proven before you hand it to reps. If you are chasing enterprise and the deals keep stalling in month five, that is the problem I fix."]},
+  ],
+  "faqs":[
+    {"q":"How do you sell to enterprise customers?","a":"You sell to a buying committee, not a person: the champion, the economic buyer, the technical and security owners, procurement and the quiet blocker. You multi-thread so one champion leaving does not kill the deal, map the buyer's own approval process stage by stage, get ahead of the security and procurement gate, and land a narrow first use case before expanding inside the account."},
+    {"q":"How long is an enterprise sales cycle?","a":"Commonly six to twelve months, sometimes longer, and it moves through stages the buyer controls: discovery, a pilot or technical evaluation, a security and legal review, budget approval and procurement. The way to manage it is to know which stage every deal is in, what the exit criteria are, and who has to act next, rather than hoping it speeds up."},
+    {"q":"Is my startup ready to sell to enterprise?","a":"You are ready when you have someone who has sold enterprise before, a product that survives a security review, runway to carry a long cycle without the deal making payroll, at least one reference an enterprise buyer respects, and a clear business outcome an executive sponsor cares about. If you are chasing the logo without those, you are likely to burn a year on one painful deal."},
+    {"q":"What is land and expand in enterprise sales?","a":"Instead of selling the whole platform to the whole company at once, you win one sharp use case with one team on a first contract small enough to approve easily, deliver it well, and then expand by seat, department and use case inside an account that already trusts you. It stacks fewer objections against the first decision and turns one win into a growing account."}],
+  "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/go-to-market-motion">choosing your GTM motion</a> and <a href="/b2b-positioning-and-messaging">positioning and messaging</a>. If the deals stall because the pipeline was never qualified, read <a href="/sales-pipeline-and-forecasting">how to build a pipeline you can forecast</a> and <a href="/sales-forecast-always-wrong">why your forecast is always wrong</a>. Or see the <a href="/services/fractional-cro">fractional CRO service</a>.'},
 ]
 
 
@@ -4477,6 +4561,89 @@ HE_GUIDES = [
     {"q":"האם אאוטבאונד צריך להיעשות בידי SDR-ים או AE-ים?","a":"SDR-ים פונים וקובעים פגישות, AE-ים מריצים וסוגרים אותן. לגייס סוגר ולצפות שיפיק לעצמו פייפליין זו הטעות הנפוצה והיקרה. בשלב הכי מוקדם המייסד הוא לרוב הפונה הכי טוב, ואז מוסרים הלאה ברגע שהמהלך חוזר."},
     {"q":"לבנות אאוטבאונד בבית או למקר החוצה?","a":"תלוי בשלב ובמהירות. שכירת פגישות דרך תשלום לפי פגישה מביאה קונים ליומן מהר בזמן שאתם לומדים את השוק. מכירות במיקור חוץ מריצות צוות שלם מחוץ למצבת כוח האדם. בית נכון ברגע שאתם רוצים שהמהלך והאנשים יחיו בתוך החברה, אבל בנו את המערכת לפני שאתם מגייסים."}],
   "related":'חלק מ<a href="/he/sales-pipeline-and-forecasting">איך בונים פייפליין מכירות שאפשר לחזות</a>. ראו גם <a href="/he/hired-reps-but-no-pipeline">גייסתם נציגים ואין פייפליין</a>, את שירותי <a href="/he/services/outsourced-sales">מכירות במיקור חוץ</a> ו<a href="/he/services/pay-per-meeting">תשלום לפי פגישה</a>. או קראו <a href="/he/blog/outbound-vs-inbound-early-stage">אאוטבאונד מול אינבאונד בשלב מוקדם</a> ו<a href="/he/blog/cold-email-that-books-meetings">מייל קר שקובע פגישות</a>.'},
+
+ {"slug":"europe-market-entry-for-israeli-startups","alt":"europe-market-entry-for-israeli-startups",
+  "title":"חדירה לשוק האירופי לסטארטאפים ישראלים | טל פאפרין",
+  "desc":"אירופה היא לא שוק אחד והיא לא קונה כמו ארה״ב. איך להיכנס לאיחוד האירופי נכון, מדינה אחרי מדינה, בלי לשרוף שנה על המדינה הלא נכונה.",
+  "h1":"חדירה לשוק האירופי לסטארטאפים ישראלים","eyebrow":"חדירה לשווקים",
+  "lead":"מייסדים אומרים \"אנחנו מתרחבים לאירופה\" כאילו אירופה היא מדינה שאפשר להזמין אליה טיסה. היא לא. היא יותר מעשרים שווקים עם שפות, קונים, כללי רכש וסובלנות שונה לספק צעיר, וכל הכרעה שגויה בכל אחד מהם עולה שנה. פתחתי את האיחוד האירופי ואת מזרח אירופה לחברות B2B ישראליות ובינלאומיות. הנה איך להיכנס בלי לשרוף את השנה הזו.",
+  "sections":[
+    {"h":"אירופה היא לא שוק, היא עשרים שווקים","p":[
+      "אין קונה אירופי. יש קונה גרמני שרוצה הוכחה, תהליך וחוזה מקומי. קונה בריטי שזז מהר יותר ובאנגלית. קונה צרפתי שמצפה למצגת ולניירת בצרפתית. קונה נורדי שסומך על המלצה מהחברה ברחוב הסמוך יותר מכל מצגת שתציגו. להתייחס ליבשת כיעד אחד זו הטעות הראשונה והיקרה ביותר. אתם לא נכנסים לאירופה. אתם נכנסים למדינה.",
+      "זה משנה את כל התוכנית. מסר אחד לא מכסה את היבשת, ומהלך מכירות אחד גם לא. בחרו את המדינה שבה הקונים שלכם באמת יושבים, נצחו בה, ורק אז געו בבאה."]},
+    {"h":"היא לא קונה כמו ארה״ב","tiers":[
+      "איטי יותר ויחסים קודם. קונים אירופים רבים, בעיקר ב-DACH ובדרום, בונים את מערכת היחסים לפני החוזה. הקצב האמריקאי של דמו טוב, שלח הזמנה נדיר יותר. תכננו מחזור ארוך יותר ויותר מגע פנים אל פנים.",
+      "המלצות שוקלות יותר. המלצה מחברה באותה מדינה, רצוי באותה תעשייה, מזיזה עסקה אירופית יותר מכל טענת פיצ׳ר. לוגו אמריקאי עוזר פחות משאתם מצפים.",
+      "הגנת מידע היא שער אמיתי, לא תיבת סימון. GDPR וציפיות לגבי מיקום המידע עולות מוקדם מול קונים רציניים. אם אתם לא יכולים לומר איפה המידע יושב ומי נוגע בו, העסקה נתקעת עוד לפני שמישהו מדבר על מחיר.",
+      "נוכחות מקומית מרגיעה. קונה במינכן או בפריז שוקל אם תהיו עדיין בהישג יד באזור הזמן ובשפה שלו עוד שנה. חברה שמנוהלת כולה מתל אביב נקראת כסיכון עד שתוכיחו אחרת."]},
+    {"h":"בחרו מדינה אחת כראש גשר","p":[
+      "האינסטינקט הוא להתפזר דק על פני חמש מדינות כדי שהשוק ייראה גדול. זו הדרך המהירה ביותר לא לנצח בכלום. בחרו מדינה אחת שבה הקונים שלכם מרוכזים ושבה אתם באמת יכולים לסגור, ואז השתמשו בהוכחה הזו כדי לפתוח את הבאה.",
+      "בהתחלה, השווקים דוברי האנגלית וסובלניי האנגלית מוזילים את עלות הלמידה: בריטניה, הולנד, סקנדינביה, אירלנד. DACH הוא הפרס הגדול ביותר לחלק גדול מ-B2B ולרוב הכניסה הקשה ביותר, כי הוא דורש שפה מקומית, נוכחות מקומית וסבלנות. חזקים באחת מהן שווה יותר מנוכחים בכולן."]},
+    {"h":"מה עובר מהפלייבוק האמריקאי שלכם, ומה לא","ul":[
+      "ה-ICP שלכם לרוב מחזיק, אבל את המסר צריך לקרקע מחדש בתוצאה וברגולציה שהקונה המקומי באמת מרגיש",
+      "אאוטבאונד קר שעובד בארה״ב נוחת קשה יותר בשווקים שבהם קונים מצפים להיכרות או לשם מוכר קודם",
+      "DACH וצרפת לרוב צריכים חומרים בשפה המקומית וקול דובר מקומי בשיחה, לא קולטרל אמריקאי מתורגם",
+      "מקרי מבחן אמריקאים עוזרים הכי פחות איפה שהמלצה אזורית עוזרת הכי הרבה, אז השיגו לוגו מקומי מוקדם גם אם הוא קטן",
+      "התמחור אולי יצטרך להתגמש, כי קונים אירופים מתמקחים אחרת וחלק מהשווקים רגישים למחיר יותר מארה״ב"]},
+    {"h":"נוכחות מקומית: מתי שותף עדיף על משכורת","p":[
+      "אתם לא צריכים ישות וצוות בכל מדינה ביום הראשון. השאלה היא איפה האמון מקומי ואתם עוד לא יכולים להרשות לעצמכם רגליים בשטח. בשווקים כאלה מפיץ או שותף ערוץ שכבר יש לו את הקשרים פותח דלתות מהר יותר מנציג שאתם מצניחים פנימה. איפה שהעסקאות גדולות ושליטה ישירה חשובה, גיוס מקומי או מנהל בכיר שכבר מכיר את השוק שווה יותר מאחד זול ומרוחק. סדרו ברצף: הוכיחו את המהלך בראש הגשר, ואז הוסיפו נוכחות, ישירה או דרך שותפים, איפה שההכנסה מצדיקה."]},
+    {"h":"הטעויות ששורפות שנה","ul":[
+      "להשיק באירופה במקום במדינה אחת, כך שהמאמץ מתפזר על פני חמישה שווקים ונסגר באף אחד",
+      "לעשות שימוש חוזר במסר ובקולטרל האמריקאי ללא תרגום בשווקים שמצפים לשפה מקומית ולהוכחה מקומית",
+      "להתייחס ל-GDPR ולמיקום המידע כפורמליות משפטית מאוחרת במקום כשאלת קונה מוקדמת",
+      "להריץ אאוטבאונד קר טהור בשווקים שקונים על היכרויות והמלצות",
+      "לגייס סמנכ״ל מקומי, למסור לו את השוק ולקוות, בלי מהלך ובלי המלצות למכור מולן"]},
+    {"h":"להעמיק","links":[
+      ["מתי להתרחב לשוק האמריקאי","/he/when-to-expand-to-the-us"],
+      ["למכור קודם בישראל, או ישר לחו״ל?","/he/sell-in-israel-first-or-go-global"],
+      ["שירות כניסה לשוק","/he/services/market-entry"]]},
+    {"h":"איך אני מסדר את הרצף עם לקוחות","p":[
+      "אני בוחר אתכם את מדינת ראש הגשר מתוך איפה שהקונים שלכם באמת נמצאים, מתאים את ה-ICP, המסר והתמחור לשוק הזה, מכריע ישיר מול שותף, ואז מוביל את העסקאות הראשונות כך שהמהלך מוכח לפני שאתם מגדילים את ההוצאה. עשיתי את זה ברחבי האיחוד האירופי ומזרח אירופה, בעבודה בשעות אירופה מישראל. אם אתם מתכננים מהלך אירופי, זו העבודה שאני עושה."]},
+  ],
+  "faqs":[
+    {"q":"האם סטארטאפ ישראלי יכול להתייחס לאירופה כשוק אחד?","a":"לא. אירופה היא יותר מעשרים שווקים עם שפות, קונים, כללי רכש ויחס שונה לספק צעיר. גרמניה לא קונה כמו בריטניה, ובריטניה לא קונה כמו צרפת. בחרו מדינה אחת שבה הקונים שלכם מרוכזים, נצחו בה, והשתמשו בהוכחה כדי לפתוח את הבאה, במקום להתפזר דק על פני היבשת."},
+    {"q":"לאיזו מדינה אירופית להיכנס קודם?","a":"זו שבה הקונים שלכם מרוכזים ושאתם באמת יכולים לסגור בה. בהתחלה, שווקים דוברי אנגלית וסובלניי אנגלית כמו בריטניה, הולנד, סקנדינביה ואירלנד מוזילים את עלות הלמידה. DACH הוא הפרס הגדול ביותר לחלק גדול מ-B2B ולרוב הקשה ביותר, כי הוא רוצה שפה מקומית, נוכחות מקומית וסבלנות. חזקים באחת עדיף על נוכחים בחמש."},
+    {"q":"במה מכירה באירופה שונה מארה״ב?","a":"היא בדרך כלל איטית יותר ויחסים קודם, המלצות מאותה מדינה ותעשייה שוקלות יותר, והגנת מידע תחת GDPR עולה מוקדם מול קונים רציניים ולא כפורמליות מאוחרת. נוכחות מקומית גם מרגיעה קונה אירופי שתהיו עדיין בהישג יד בשפה ובאזור הזמן שלו עוד שנה."},
+    {"q":"האם אני צריך ישות וצוות מקומיים בכל מדינה באירופה?","a":"לא ביום הראשון. איפה שהאמון מקומי ואתם עוד לא יכולים להרשות רגליים בשטח, מפיץ או שותף ערוץ עם קשרים קיימים פותח דלתות מהר יותר. איפה שהעסקאות גדולות ושליטה חשובה, גיוס מקומי או מנהל שמכיר את השוק שווה את העלות. הוכיחו את המהלך בראש גשר אחד קודם, ואז הוסיפו נוכחות איפה שההכנסה מצדיקה."}],
+  "related":'ראו <a href="/he/when-to-expand-to-the-us">מתי להתרחב לשוק האמריקאי</a> ו<a href="/he/sell-in-israel-first-or-go-global">למכור קודם בישראל, או ישר לחו״ל?</a> לשאלת התזמון והרצף. אז את <a href="/he/services/market-entry">שירות כניסה לשוק</a>, את מדריך <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ה-Go-to-Market</a> ו<a href="/he/fractional-cro-israel">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ בישראל</a>. או <a href="/europe-market-entry-for-israeli-startups">הגרסה באנגלית</a>.'},
+
+ {"slug":"how-to-sell-to-enterprise","alt":"how-to-sell-to-enterprise",
+  "title":"איך למכור לארגונים גדולים: מדריך אופרטור B2B | טל פאפרין",
+  "desc":"לעסקת אנטרפרייז אין קונה יחיד, יש מחזור של שישה עד שנים עשר חודשים, וסקירת אבטחה שהורגת את הלא מוכנים. איך למכור לארגונים גדולים ובאמת לסגור.",
+  "h1":"איך למכור לארגונים גדולים","eyebrow":"מדריך",
+  "lead":"הלוגו הגדול הוא מגנט. מייסדים רודפים אחרי אנטרפרייז לפני שהם יכולים לשרוד אותו, מנצחים עסקה כואבת אחת, ומסיקים שיש להם מהלך אנטרפרייז כשמה שיש להם זה בריחה בנס. מכירה לארגונים גדולים היא ענף אחר. אין קונה יחיד. מחזור שנמדד ברבעונים. שער רכש ששקט מסיים את הלא מוכנים. הנה איך זה באמת עובד, ואיך לדעת אם אתם מוכנים.",
+  "sections":[
+    {"h":"אין קונה יחיד","p":[
+      "הדבר הראשון ששובר עסקת אנטרפרייז של סטארטאפ הוא להתייחס אליה כאל עסקת SMB עם עוד אפסים. בארגון גדול אתם לא מוכרים לאדם. אתם מוכרים לוועדה שלא נפגשת לעולם בחדר אחד: האלוף שרוצה את זה, הקונה הכלכלי שחותם, בעלי האבטחה והטכנולוגיה שיכולים להטיל וטו, הרכש שתפקידו להאט אתכם ולחתוך את המחיר, והחוסם השקט שאוהב את המצב הקיים. כן אחד נלהב הוא לא עסקה. הוא קול אחד.",
+      "אז אתם עובדים רב-ערוצית מול בעלי העניין מההתחלה. עסקה שחיה דרך אלוף יחיד מתה ביום שהאלוף מחליף עבודה, ולאורך מחזור של תשעה חודשים, תמיד מישהו מחליף."]},
+    {"h":"אתם בכלל מוכנים לאנטרפרייז?","ul":[
+      "יש לכם מישהו שבאמת מכר לארגונים גדולים קודם, לא צוות שלומד את זה על העסקה הכי חשובה שלכם",
+      "המוצר שלכם שורד סקירת אבטחה ומידע, או שאתם יודעים בדיוק מה חסר ומה לוח הזמנים לתקן",
+      "יש לכם ראנוויי לשאת מחזור של שישה עד שנים עשר חודשים בלי שהעסקה הזו חייבת להיסגר כדי לשלם משכורות",
+      "יש לכם לפחות המלצה אחת שקונה ארגוני יכבד, אפילו פיילוט קטן שהלך טוב",
+      "אתם יכולים לנקוב בתוצאה העסקית בשפה שמנהל בכיר אכפת לו ממנה, לא ברשימת פיצ׳רים"]},
+    {"h":"המחזור ארוך, אז מפו אותו","p":[
+      "מחזור B2B ארגוני נמשך לרוב שישה עד שנים עשר חודשים, לפעמים יותר, והוא לא זז כי אתם רוצים. הוא זז דרך שלבים שהקונה שולט בהם: גילוי, הערכה טכנית או פיילוט, סקירת אבטחה ומשפטית, אישור תקציב, ורכש. התפקיד שלכם הוא לדעת באיזה שלב כל עסקה נמצאת, מה קריטריוני היציאה של השלב, ומי צריך לפעול הבא. פיילוט בלי מדד הצלחה שסוכם בכתב הוא לא התקדמות. הוא דרך לבזבז שלושה חודשים ולהפסיד.",
+      "התייחסו לתהליך הרכישה של הקונה עצמו כמפה. שאלו אותם איך רכישה בגודל כזה באמת מאושרת אצלם, מי חותם, ומה הרג פרויקטים דומים בעבר. הקונים שמספרים לכם הם העסקאות האמיתיות."]},
+    {"h":"שער האבטחה והרכש","p":[
+      "זה השלב שמסיים סטארטאפים, וזה שהמייסדים רואים מגיע אחרון. ארגון רציני יריץ אתכם דרך שאלון אבטחה, סקירת טיפול במידע, קליטת ספק ותיקוני חוזה משפטיים לפני שדולר זז. אם אתם לא יכולים לענות איפה המידע יושב, מי יכול לגשת אליו, ואיך אתם מטפלים באירוע, העסקה נתקעת לא משנה כמה האלוף אוהב אתכם. הקדימו את זה: הכירו את הפערים שלכם, החזיקו תשובות כנות מוכנות, והביאו את שיחת האבטחה קדימה במקום לתת לה לארוב לכם בחודש החמישי."]},
+    {"h":"נחתו קטן, ואז התרחבו","p":[
+      "ניסיון למכור את כל הפלטפורמה לכל הארגון ביום הראשון מערים כל התנגדות וכל מאשר נגד החלטה אחת. המהלך שעובד צר יותר: מקרה שימוש אחד חד, צוות אחד, חוזה ראשון קטן מספיק כדי לאשר בלי דירקטוריון, שמסופק כל כך טוב שהוא מרוויח את הבא. ואז אתם מתרחבים לפי מושב, לפי מחלקה, לפי מקרה שימוש, בתוך חשבון שכבר סומך עליכם. כוונו לרשימה קצרה של חשבונות בשם שחקרתם, לא למשפך רחב. אנטרפרייז הוא עומק, לא נפח."]},
+    {"h":"מכרו את התוצאה, ותמחרו אותה","p":[
+      "ארגונים לא מאשרים הוצאה בת שש ספרות עבור פיצ׳רים. הם מאשרים אותה עבור תוצאה שמנהל בכיר נמדד עליה: סיכון שהוסר, עלות שנחתכה, מספר שחייב לזוז. קשרו כל שיחה לתוצאה הזו והכניסו את הנותן חסות הבכיר מוקדם, כי הוועדה נדירות מאשרת מה שהנותן חסות לא בירך. תמחרו לפי הערך של התוצאה ושל מערכת היחסים הרב-שנתית, לא לפי מספר למושב שקונה קטן יותר היה מתמקח עליו."]},
+    {"h":"איפה זה משתלב","links":[
+      ["אסטרטגיית ה-Go-to-Market המלאה","/he/b2b-go-to-market-strategy"],
+      ["איך לבחור את מהלך ה-Go-to-Market","/he/go-to-market-motion"],
+      ["מיצוב ומסרים ב-B2B","/he/b2b-positioning-and-messaging"]]},
+    {"h":"איך אני בונה את זה","p":[
+      "אני נכנס כסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, מכריע ביושר אם אתם מוכנים לאנטרפרייז, בונה את המהלך סביב ועדת הקנייה והמחזור האמיתי, מקדים את שער האבטחה והרכש, ומוביל בעצמי את העסקאות הגדולות הראשונות כך שהפלייבוק מוכח לפני שאתם מוסרים אותו לנציגים. אם אתם רודפים אחרי אנטרפרייז והעסקאות נתקעות בחודש החמישי, זו הבעיה שאני פותר."]},
+  ],
+  "faqs":[
+    {"q":"איך מוכרים ללקוחות אנטרפרייז?","a":"מוכרים לוועדת קנייה, לא לאדם: האלוף, הקונה הכלכלי, בעלי הטכנולוגיה והאבטחה, הרכש והחוסם השקט. עובדים רב-ערוצית כך שעזיבת אלוף אחד לא הורגת את העסקה, ממפים את תהליך האישור של הקונה שלב אחרי שלב, מקדימים את שער האבטחה והרכש, ונוחתים על מקרה שימוש ראשון צר לפני שמתרחבים בתוך החשבון."},
+    {"q":"כמה ארוך מחזור מכירות אנטרפרייז?","a":"לרוב שישה עד שנים עשר חודשים, לפעמים יותר, והוא זז דרך שלבים שהקונה שולט בהם: גילוי, פיילוט או הערכה טכנית, סקירת אבטחה ומשפטית, אישור תקציב ורכש. הדרך לנהל אותו היא לדעת באיזה שלב כל עסקה נמצאת, מה קריטריוני היציאה, ומי צריך לפעול הבא, במקום לקוות שהוא יואץ."},
+    {"q":"האם הסטארטאפ שלי מוכן למכור לאנטרפרייז?","a":"אתם מוכנים כשיש לכם מישהו שמכר אנטרפרייז קודם, מוצר ששורד סקירת אבטחה, ראנוויי לשאת מחזור ארוך בלי שהעסקה משלמת משכורות, לפחות המלצה אחת שקונה ארגוני מכבד, ותוצאה עסקית ברורה שנותן חסות בכיר אכפת לו ממנה. אם אתם רודפים אחרי הלוגו בלי אלה, סביר שתשרפו שנה על עסקה כואבת אחת."},
+    {"q":"מה זה נחיתה והתרחבות במכירות אנטרפרייז?","a":"במקום למכור את כל הפלטפורמה לכל הארגון בבת אחת, מנצחים מקרה שימוש אחד חד עם צוות אחד על חוזה ראשון קטן מספיק כדי לאשר בקלות, מספקים אותו טוב, ואז מתרחבים לפי מושב, מחלקה ומקרה שימוש בתוך חשבון שכבר סומך עליכם. זה מערים פחות התנגדויות נגד ההחלטה הראשונה והופך ניצחון אחד לחשבון שגדל."}],
+  "related":'חלק מאשכול <a href="/he/b2b-go-to-market-strategy">אסטרטגיית ה-Go-to-Market</a>. ראו גם <a href="/he/go-to-market-motion">בחירת מהלך ה-Go-to-Market</a> ו<a href="/he/b2b-positioning-and-messaging">מיצוב ומסרים</a>. אם העסקאות נתקעות כי הפייפליין מעולם לא סונן, קראו <a href="/he/sales-pipeline-and-forecasting">איך בונים פייפליין שאפשר לחזות</a> ו<a href="/he/sales-forecast-always-wrong">למה התחזית תמיד שגויה</a>. או ראו את <a href="/he/services/fractional-cro">שירות סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>. או <a href="/how-to-sell-to-enterprise">הגרסה באנגלית</a>.'},
 ]
 
 
@@ -4707,9 +4874,11 @@ GUIDE_CATS = [
  ("Outsourced sales and marketing", "מכירות ושיווק במיקור חוץ", [
    "outsourced-sales-and-marketing-department", "outsourced-sdr-team", "b2b-lead-generation-services"]),
  ("Go-to-market strategy", "אסטרטגיית הליכה לשוק", [
-   "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion"]),
+   "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
+   "how-to-sell-to-enterprise"]),
  ("Market entry", "חדירה לשווקים", [
    "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
+   "europe-market-entry-for-israeli-startups",
    "us-market-entry-for-israeli-startups", "fractional-cro-for-the-us-market", "fractional-cro-israel"]),
  ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),
  ("In the media", "בתקשורת", ["tal-paperin-podcasts-and-press"]),

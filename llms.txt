@@ -84,6 +84,8 @@
 - [How to Build a Sales Pipeline You Can Forecast](https://talpaperin.com/sales-pipeline-and-forecasting): Pipeline, outbound and forecasting are one system. How to fill the pipeline, qualify it honestly, size coverage, and forecast a number you can trust.
 - [How Much Pipeline Do You Actually Need?](https://talpaperin.com/how-much-pipeline-do-you-need): Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it right, and why most teams carry half what they think.
 - [How to Build a B2B Outbound Sales Motion](https://talpaperin.com/b2b-outbound-sales): Outbound is a system, not a headcount. How to build one from ICP to sequence to qualification, who runs it, and the metric that tells you it is working.
+- [European Market Entry for Israeli Startups](https://talpaperin.com/europe-market-entry-for-israeli-startups): Europe is not one market and it does not buy like the US. How to enter the EU the right way, country by country, without burning a year on the wrong one.
+- [How to Sell to Enterprise](https://talpaperin.com/how-to-sell-to-enterprise): Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and actually close.
 
 ## Hebrew (עברית)
 - [Services in Hebrew](https://talpaperin.com/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew.
