@@ -2382,7 +2382,7 @@ GUIDES = [
 
  {"slug":"b2b-sales-consultant-israel",
   "title":"B2B Sales Consultant in Israel | Tal Paperin",
-  "desc":"Most sales consultants hand you a deck and leave. I am an operator who owns the number: I build, fix and run B2B sales for Israeli companies selling at home and abroad.",
+  "desc":"Most sales consultants hand you a deck and leave. I am an operator who owns the number: I build and run B2B sales for Israeli companies at home and abroad.",
   "h1":"A B2B Sales Consultant in Israel Who Owns the Number","eyebrow":"Israel",
   "lead":"Most people who call themselves a sales consultant give you advice and a slide deck, then leave you to make it work. I do the opposite. I am a fractional CRO and former VP of Global Sales who steps in, owns your revenue number, and builds, fixes and runs the sales motion until it delivers. I work with Israeli B2B companies selling here and abroad, in Hebrew or English.",
   "sections":[
@@ -2415,8 +2415,8 @@ GUIDES = [
   "related":'See <a href="/fractional-cro-israel">fractional CRO in Israel</a>, <a href="/business-consultant-for-startups">a business consultant for startups</a>, the <a href="/services/fractional-cro">fractional CRO service</a>, or the <a href="/pricing">pricing</a>.'},
 
  {"slug":"business-consultant-for-startups",
-  "title":"Business Consultant for Startups: Sales and Revenue | Tal Paperin",
-  "desc":"Startups do not need generic business advice. They need someone to build and run sales. I am a fractional CRO who owns the revenue number for startups, in Israel and abroad.",
+  "title":"Business Consultant for Startups | Tal Paperin",
+  "desc":"Startups do not need generic advice. They need someone to build and run sales. I am a fractional CRO who owns the revenue number, in Israel and abroad.",
   "h1":"A Business Consultant for Startups Who Builds the Revenue, Not Just the Advice","eyebrow":"For Startups",
   "lead":"Most startups that hire a business consultant get a strategy deck and a list of things to do, with no one to do them. That is not what an early company needs. It needs revenue, and someone senior to own it. I am a fractional CRO and former VP of Global Sales. I build the sales motion, the team and the forecast for startups, then run it until the number moves. I work with Israeli startups and companies abroad.",
   "sections":[
@@ -2512,7 +2512,7 @@ GUIDES = [
   "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-vs-outsourced-sales",
-  "title":"Fractional CRO vs Outsourced Sales: Which Do You Need? | Tal Paperin",
+  "title":"Fractional CRO vs Outsourced Sales | Tal Paperin",
   "desc":"Fractional CRO, fully outsourced sales, or a do-it-yourself system? A straight breakdown of which fits your stage, and how to choose.",
   "h1":"Fractional CRO vs Outsourced Sales","eyebrow":"Guide",
   "lead":"Three ways to fix revenue, one decision. Whichever you pick, you get an operator who owns the number, billed monthly with no contract and no lock-in. Here is which one fits your stage, and which one wastes your money.",
@@ -3166,7 +3166,7 @@ GUIDES = [
   "related":'See the <a href="/services/distributor-channel-recruitment">channel</a> and <a href="/services/market-entry">market entry</a> services, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-robotics","en_only":True,
-  "title":"Fractional CRO for Robotics and Automation Companies | Tal Paperin",
+  "title":"Fractional CRO for Robotics and Automation | Tal Paperin",
   "desc":"A fractional CRO for robotics and automation: complex hardware-plus-software sales into industrial buyers, channel and direct, owned end to end.",
   "h1":"Fractional CRO for Robotics and Automation","eyebrow":"Industry",
   "lead":"Robotics and automation sell a complex hardware, software and services package into industrial buyers through long cycles. I build and own the revenue motion that closes those deals.",
@@ -3198,7 +3198,7 @@ GUIDES = [
   "related":'See the <a href="/fractional-cro-for-iot-hardware">IoT and hardware</a> guide and the <a href="/services/market-entry">market entry</a> service, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-logistics","en_only":True,
-  "title":"Fractional CRO for Logistics and Supply Chain Companies | Tal Paperin",
+  "title":"Fractional CRO for Logistics and Supply Chain | Tal Paperin",
   "desc":"A fractional CRO for logistics, supply chain and mobility tech: enterprise and operations buyers, long cycles, channel and direct.",
   "h1":"Fractional CRO for Logistics and Supply Chain","eyebrow":"Industry",
   "lead":"Logistics and supply-chain tech sells into operations-heavy enterprises through long, ROI-driven cycles. I build and own the revenue motion that wins those accounts.",
@@ -3781,7 +3781,7 @@ GUIDES = [
   "related":'See <a href="/when-to-expand-to-the-us">when to expand to the US</a> and <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a> for the timing and sequencing question. Then the <a href="/services/market-entry">market entry service</a>, the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> guide and <a href="/fractional-cro-israel">fractional CRO in Israel</a>. From the blog: <a href="/blog/choosing-first-market">how to choose your first market</a>.'},
 
  {"slug":"how-to-sell-to-enterprise",
-  "title":"How to Sell to Enterprise: A B2B Operator's Guide | Tal Paperin",
+  "title":"How to Sell to Enterprise: An Operator's Guide | Tal Paperin",
   "desc":"Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and actually close.",
   "h1":"How to Sell to Enterprise","eyebrow":"Guide",
   "lead":"The big logo is a magnet. Founders chase enterprise before they can survive it, win one painful deal, and conclude they have an enterprise motion when what they have is a lucky escape. Enterprise selling is a different sport. No single buyer. A cycle measured in quarters. A procurement gate that quietly ends the unprepared. Here is how it actually works, and how to tell if you are ready.",
