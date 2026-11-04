@@ -31,6 +31,23 @@ Copy constraints learned while deploying this (2026-11-04), keep them in mind fo
   "manipulation" filter on some leads. Phrase it as a statement ("Any AI assistant can tell you
   about Tal Paperin"), not a command.
 
+## The one rebuttal on a soft decline is WORTH IT, and capture "later" replies (Tal, 2026-11-04)
+
+Receipt: Gadi, CEO of Tranzila (Interspace), replied to a 347642 cold opener with a flat Hebrew
+"at this stage less relevant to us." One short, sharp rebuttal (a reframe tied to payments + a
+light ask, no begging) flipped it: he came back with "we're overloaded closing an acquisition,
+ping me in December and we'll set up a Zoom to get acquainted." A dead "no" became a dated yes.
+Lessons, apply going forward:
+- ALWAYS send the one allowed rebuttal (category B) on a soft/reflexive/timing decline. A real
+  share of them convert, and the cost is one email. Do not silently drop a soft "not interested"
+  as if it were a hard no.
+- A reply that defers to a future time ("ping me in [month]", "reach out next quarter", "after X
+  closes") is NOT a decline. Add the lead to the tracker (status NURTURE, next_touch_due set to
+  that future date, context capturing their exact words and language), so the re-engagement wave
+  surfaces them on the day. Never let a future-timing yes fall off the radar.
+- Match the follow-up language to the lead: Gadi writes Hebrew, so his December ping goes out in
+  Hebrew, as Tal (his thread predates the persona switch).
+
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
 Tal flagged "still no leads." Pulled project 49501 analytics + full inboxes. Diagnosis:
