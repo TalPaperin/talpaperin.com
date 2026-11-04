@@ -48,6 +48,20 @@ Lessons, apply going forward:
 - Match the follow-up language to the lead: Gadi writes Hebrew, so his December ping goes out in
   Hebrew, as Tal (his thread predates the persona switch).
 
+## NEVER downsell a resourced prospect who wants hands-on execution (Tal, 2026-11-04, Quttera miss)
+
+When a funded / revenue-generating company asks for HANDS-ON sales execution, someone to prospect,
+engage, manage and close, the right offer is Tal's PREMIUM full managed engagement, NOT a cheap tier.
+That engagement = Tal part-time as fractional CRO (e.g. quarter-time ~$6k/mo) + his own SDRs/reps
+under his management (e.g. ~$11k/mo for 2 SDRs) + marketing (~$x/mo), roughly $17k+/mo. It gives them
+exactly what they asked for (a managed team doing the doing, Tal owning the number) and pays Tal well.
+Receipt / mistake to never repeat: Michael Novofastovsky (Quttera, co-founder/CTO, funded, wanted a
+team to actively acquire customers for their Security & Compliance API) was nudged toward
+Pay-Per-Meeting, the cheapest done-for-you-meetings tier, which under-sold him and anchored him low.
+Pay-Per-Meeting and DealMentor are for genuine budget limits, pre-revenue, or "I just want meetings",
+they are NOT the answer for a resourced buyer who wants ongoing execution. Default UP the ladder to the
+full managed engagement; surface pricing to Tal. See the OFFER LADDER in ops/reply_check_playbook.md.
+
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
 Tal flagged "still no leads." Pulled project 49501 analytics + full inboxes. Diagnosis:
