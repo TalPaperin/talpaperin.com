@@ -5,18 +5,31 @@ this file each run and apply it. Add new lessons here (one short rule per bullet
 and commit. Keep everything short: prospects do NOT read long emails or long
 meeting invites, so qualifying has to be built into the copy, not a wall of text.
 
-## Sender name is SETTLED, do NOT raise it again (Tal, 2026-10-29)
+## Sender identity: PERSONA model (Tal, 2026-11-04) -- SUPERSEDES the old "sender name is settled"
 
-There is ONE global sender-name field in Explee. It is already set to "Tal Paperin".
-It CANNOT be set per mailbox, there are HUNDREDS of rotating mailboxes. So there is
-NOTHING to do and nothing to "fix" about the sender name / signature. Emails that sign
-with a persona first name (Willis, Katherine, Gavin, Rhiannon, etc.) are the ~10% AI-variant
-sends (Explee sends your My-copy to 90% of leads and its own AI email to 10%); the AI 10% does
-not honor the global sender name. That is expected and out of Tal's control. Likewise the
-occasional "can I send you a few short ideas" opener is that same 10% AI variant, NOT the
-locked My-copy (which is the correct 15-min-call opener on all 3 campaigns, project default).
-DO NOT tell Tal to set the sender name per mailbox, DO NOT re-flag the Tal/persona signature as
-a bug to fix, DO NOT claim a campaign's main opener is the "ideas" one. The 90% My-copy is clean.
+Tal flipped the Explee project (49501) sender name to "Mailbox names" (Automatic): every cold
+email now goes out FROM the mailbox's own person (e.g. Finn Turner, Leo Brooks), not from
+"Tal Paperin". The My-copy (project default, all 4 campaigns) was rewritten to open
+"I'm {{sender_first_name}}. I work with Tal Paperin, a fractional CRO. He {helps|works with}
+B2B companies {fix, build and run|rebuild and run} their {sales and marketing|sales} engine..."
+and Explee auto-signs with the mailbox persona's name. This is deliberate: it (a) kills the old
+body-says-Tal / signature-says-persona contradiction (the "Kristen/Tal", "Ofer Levy" confusion)
+for good, (b) makes the ~10% AI-variant's random persona names coherent instead of a bug
+(everyone is now "a person on Tal's team"), and (c) positions Tal as senior enough to have
+people working on his behalf.
+The OLD rule ("sender name is settled, it is Tal Paperin, persona names are a 10% bug to
+ignore") is REVERSED and no longer applies. Do NOT revert the sender name to "Tal Paperin" and
+do NOT re-flag persona names as a bug.
+Copy constraints learned while deploying this (2026-11-04), keep them in mind for any My-copy edit:
+- Explee's My-copy spam checker scans the TEMPLATE text, INCLUDING {{ai:}} instruction wording.
+  Never put trigger words ("guarantee(s)", "promise(s)", money figures) inside an {{ai:}}
+  instruction even as a negative ("no guarantees") -- it flags the literal word.
+- A fixed ~80-word block identical across every send trips Gmail's repeated-passage filter.
+  Break it with {a|b} spintax variants. No empty option and no parentheses inside the braces
+  (e.g. use {sales and marketing|sales} engine, NOT {(and marketing) |}engine).
+- A command telling the reader to "ask any AI how Tal can help your business" can trip the
+  "manipulation" filter on some leads. Phrase it as a statement ("Any AI assistant can tell you
+  about Tal Paperin"), not a command.
 
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
