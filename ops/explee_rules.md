@@ -61,6 +61,10 @@ Pay-Per-Meeting, the cheapest done-for-you-meetings tier, which under-sold him a
 Pay-Per-Meeting and DealMentor are for genuine budget limits, pre-revenue, or "I just want meetings",
 they are NOT the answer for a resourced buyer who wants ongoing execution. Default UP the ladder to the
 full managed engagement; surface pricing to Tal. See the OFFER LADDER in ops/reply_check_playbook.md.
+BEST FIX (Tal, 2026-11-04): the way to avoid the whole downsell/mis-scope trap is to NOT propose any
+package or mix in the email at all, push them to the 15-minute call. We cannot know the right setup
+until we understand their situation AND budget, which only comes out on the call. The reply acknowledges
+their need and drives to the meeting; Tal scopes the package live.
 
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
