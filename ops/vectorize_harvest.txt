@@ -4,3 +4,4 @@
 # Format: name | email | company | source + context | date_added
 
 Tom Hollands | thollands@a16z.com | a16z (Andreessen Horowitz) | Head of Insights. Referred via a16z auto-reply on Vectorize campaign 311502 (F investment firms): Jason Saltzman (prior Head of Insights) left the firm and redirected to Tom. For Adam to reach. | 2026-11-05
+Ben Rigby | ben.rigby@genesys.com | Genesys (was CTO, Pinkfish AI) | Genuine human, CTO-level, AI-agent background. Replied on Vectorize 263613: no longer monitoring the Pinkfish inbox, redirected to his new address at Genesys. For Adam to reach. | 2026-11-05
