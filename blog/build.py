@@ -475,6 +475,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/he/blog/' % SITE, '0.7', today),
         ('%s/about' % SITE, '0.7', today),
         ('%s/guides' % SITE, '0.7', today),
+        ('%s/answers' % SITE, '0.8', today),
         ('%s/sales-cost-calculator' % SITE, '0.7', today),
         ('%s/services/' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
@@ -494,6 +495,7 @@ def render_sitemap(posts, he_posts=None):
     urls.append(('%s/he/challenges' % SITE, '0.6', today))
     urls.append(('%s/he/about' % SITE, '0.6', today))
     urls.append(('%s/he/guides' % SITE, '0.6', today))
+    urls.append(('%s/he/answers' % SITE, '0.6', today))
     urls.append(('%s/he/case-studies' % SITE, '0.7', today))
     urls.append(('%s/he/pricing' % SITE, '0.6', today))
     urls.append(('%s/he/sales-cost-calculator' % SITE, '0.6', today))
@@ -530,6 +532,8 @@ def render_llms(posts):
         "engagements and pricing, contact." % SITE,
         "- [About Tal Paperin](%s/about): background, experience, KSW Solutions, credentials and how he works." % SITE,
         "- [Hebrew site](%s/he/): Hebrew version of the homepage." % SITE,
+        "- [Answers](%s/answers): straight answers to the questions founders and sales leaders "
+        "ask about fractional CRO, cost, outsourced sales, go-to-market, stalled teams and selling upmarket." % SITE,
         "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
         "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on five continents." % SITE,

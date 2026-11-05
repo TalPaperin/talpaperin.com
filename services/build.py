@@ -2253,6 +2253,142 @@ def render_faq(faqs, heading="Common questions"):
     return "\n".join(html), schema
 
 
+def render_answers_sections(themes, he=False):
+    """Themed Q&A accordions + one combined FAQPage schema for the Answers hub."""
+    more = "קראו עוד" if he else "Read more"
+    out, items = [], []
+    for th in themes:
+        out.append('        <h2>%s</h2>' % esc(th["t"]))
+        if th.get("intro"):
+            out.append('        <p>%s</p>' % esc(th["intro"]))
+        out.append('        <div class="faq">')
+        for qa in th["qas"]:
+            link = ''
+            if qa.get("lh"):
+                link = ' <a href="%s">%s</a>' % (qa["lh"], esc(qa.get("lt", more)))
+            out.append('          <details class="faq-item"><summary>%s</summary><p>%s%s</p></details>'
+                       % (esc(qa["q"]), esc(qa["a"]), link))
+            items.append('{"@type":"Question","name":"%s","acceptedAnswer":{"@type":"Answer","text":"%s"}}'
+                         % (_jsonesc(qa["q"]), _jsonesc(qa["a"])))
+        out.append('        </div>')
+    schema = ('<script type="application/ld+json">{"@context":"https://schema.org",'
+              '"@type":"FAQPage","mainEntity":[%s]}</script>') % ",".join(items)
+    return "\n".join(out), schema
+
+
+ANSWERS_META_EN = {
+ "title":"B2B Sales & Fractional CRO: Answers Founders Ask | Tal Paperin",
+ "desc":"Straight answers to what founders and heads of sales ask: fractional CRO, cost, outsourced sales, go-to-market, fixing a stalled team, and selling upmarket.",
+ "h1":"Answers for founders and sales leaders","eyebrow":"Answers",
+ "lead":"The questions founders, CEOs and heads of sales actually ask me about fixing revenue: what a fractional CRO is and costs, when to hire one versus a VP or an agency, outsourced sales, go-to-market, a team that stopped hitting quota, and selling into enterprise or the US. Short answers here, the full detail one click deeper."}
+
+ANSWERS_EN = [
+ {"t":"Fractional CRO: the basics","intro":"What a fractional CRO is, what they own, and how the engagement runs.","qas":[
+  {"q":"What is a fractional CRO?","a":"A senior revenue leader who owns your sales strategy, team, pipeline, forecast and the number itself, part time, without a full-time CRO salary or a long lock-in. Not an advisor on the side. Someone in the seat who answers for the result.","lt":"More on the role","lh":"/services/fractional-cro"},
+  {"q":"What does a fractional CRO actually do?","a":"Owns the number and the work behind it: diagnoses where deals stall, builds the playbook, hires, trains and manages reps, inspects the pipeline, fixes the forecast, and steps into the big deals. Day to day it is running the revenue engine, not handing you a deck.","lt":"What I deliver","lh":"/services/fractional-cro"},
+  {"q":"How is a fractional CRO different from a consultant?","a":"A consultant studies the problem, hands you a deck and leaves. A fractional CRO does the work, in your pipeline and your deals, and carries the number. If it does not move, that is on me, not on a slide.","lt":"Fractional CRO, explained","lh":"/services/fractional-cro"},
+  {"q":"How long does a fractional CRO engagement last?","a":"As long as the number needs an owner. Most run a few months to a year, billed monthly with no long contract, and wind down once your team can carry it or a full-time hire is justified. You stop when the job is done.","lt":"Interim and fractional","lh":"/interim-cro"},
+  {"q":"Can a fractional CRO work remotely and part time?","a":"Yes. The whole point is senior ownership without a full-time seat. I run the motion remotely, on-site when a deal or a team needs it, at the intensity your stage requires, from light oversight to near-full-time.","lt":"How it works","lh":"/services/fractional-cro"}]},
+ {"t":"When to hire, and which option","intro":"Fractional CRO, VP of sales, consultant or agency: which one your situation actually needs.","qas":[
+  {"q":"When should I hire a fractional CRO?","a":"When revenue has stalled and nobody senior owns the number, when you need results before you can justify a $250,000 hire, or after VP hires that did not move it. If you only need more hands, hire reps. If you need someone to own strategy, team and forecast, that is a fractional CRO.","lt":"Do you need one yet?","lh":"/when-do-you-need-a-fractional-cro"},
+  {"q":"Do I need a fractional CRO or a VP of sales?","a":"A VP of sales runs the team you tell them to run. A fractional CRO decides what the team and the motion should be, then runs it. Early or stalled, you usually need the strategy owned first. Hire the VP once the motion is proven.","lt":"CRO vs VP of sales","lh":"/fractional-cro-vs-vp-of-sales"},
+  {"q":"Should I hire a fractional CRO or a sales agency?","a":"An agency runs activity and bills for it: emails, lists, calls. A fractional CRO owns the outcome: strategy, team, pipeline and the number. If you want more top of funnel, an agency can help. If the engine itself is broken, activity will not fix it.","lt":"CRO vs outsourced sales","lh":"/fractional-cro-vs-outsourced-sales"},
+  {"q":"Should I hire a fractional CRO or a sales consultant?","a":"Same work, different accountability. A consultant advises and leaves. A fractional CRO advises and then runs it, carrying the number to the result. If you already know what to do and just need hands and ownership, skip the deck and hire the operator.","lt":"What a fractional CRO owns","lh":"/services/fractional-cro"},
+  {"q":"When should a startup hire its first sales leader?","a":"When founder-led sales has found repeatable wins but the founder is now the bottleneck, or when you are hiring reps with no one to build the playbook or manage them. A leader first, reps second. Reps with no system just burn runway.","lt":"Fractional CRO for startups","lh":"/fractional-cro-for-startups"}]},
+ {"t":"Cost, pricing and ROI","intro":"What fractional revenue leadership costs, how it is billed, and how to think about the return.","qas":[
+  {"q":"How much does a fractional CRO cost?","a":"$2,000 to $12,000 a month, billed monthly with no long contract. The range tracks how much of me you need, from a few hours a week of oversight to near-full-time ownership of the number. A full-time CRO runs $250,000 and up before bonus and equity.","lt":"Full cost breakdown","lh":"/fractional-cro-cost"},
+  {"q":"Fractional CRO cost versus a full-time CRO salary?","a":"A full-time CRO is $250,000-plus in base, plus bonus, equity and the months it takes to hire one. A fractional CRO gives you the same seniority in the seat for $2,000 to $12,000 a month, starting now, and you stop when the job is done.","lt":"Cost compared","lh":"/fractional-cro-cost"},
+  {"q":"What is the ROI of a fractional CRO?","a":"You are buying a fix for a stalled number, not hours. Unstick a few deals, shorten the cycle or raise close rates, and it pays for itself fast. The honest test: if revenue is not your constraint, you do not need one.","lt":"The ROI case","lh":"/fractional-cro-roi"},
+  {"q":"Do fractional CROs work on commission?","a":"No. I own your strategy, team, pipeline and forecast on a flat monthly retainer. Commission-only aligns someone to their own payout, not to building a sales engine that lasts. I am not a lead agency or a rep for hire.","lt":"How pricing works","lh":"/fractional-cro-cost"},
+  {"q":"How much should I budget for fractional sales leadership?","a":"Start from the problem. Light oversight sits near $2,000 a month; owning the number, the team and the forecast runs toward $12,000, and most land in the middle. If you also need SDRs or marketing, that is budgeted on top as a full managed team.","lt":"See pricing","lh":"/pricing"}]},
+ {"t":"Outsourced sales and SDR teams","intro":"When to outsource the sales team instead of building it, and what it costs.","qas":[
+  {"q":"Should I outsource my SDR team or hire in-house?","a":"Outsource when building is too slow, too costly or too risky for your stage: you get a working team in weeks, not six to twelve months, with no severance risk. Build in-house when sales is your core advantage and you can afford the ramp.","lt":"Outsourced SDR team","lh":"/outsourced-sdr-team"},
+  {"q":"What do I get with an outsourced sales team?","a":"A full team outside your headcount: native-speaking SDRs and AEs, senior leadership and a VP, hired, trained, managed and reported on. Run by KSW Solutions, led by me. A working engine, not a pile of contractors.","lt":"Outsourced sales","lh":"/services/outsourced-sales"},
+  {"q":"Why do outsourced sales teams fail?","a":"When they are handed a list and a quota with no owned strategy, no real ICP and no feedback loop, they dial into the void. Ours works because the same person who owns your number owns the team. Activity without ownership is the failure mode.","lt":"How we run it","lh":"/services/outsourced-sales"},
+  {"q":"What is pay-per-meeting and how is it different?","a":"You pay for qualified meetings booked on your calendar, not emails or lists. We define the ICP, find and contact the right people, and book the meeting; you run and close it. A retainer bills you either way. This bills by result.","lt":"Pay-per-meeting","lh":"/services/pay-per-meeting"}]},
+ {"t":"Go-to-market that actually works","intro":"Building, fixing and changing a B2B go-to-market motion.","qas":[
+  {"q":"Why is my go-to-market not generating pipeline?","a":"Usually the motion is improvised: a fuzzy ICP, a message marketing invented that sales does not use, and channels chosen by habit. Pipeline comes from a sharp ICP, one message both teams run, and the two or three channels that actually reach your buyer.","lt":"Go-to-market strategy","lh":"/services/go-to-market-strategy"},
+  {"q":"What does a go-to-market engagement include?","a":"ICP, positioning, pricing, the channels that fit, a playbook and a real forecast, then I help you run it until there is pipeline, not just slides. For SaaS, hardware, services or complex B2B. The plan is worthless if no one executes it.","lt":"What GTM includes","lh":"/services/go-to-market-strategy"},
+  {"q":"How do I define my ideal customer profile?","a":"Start from who already buys fastest, stays longest and pays the most, then find what they share: stage, pain, trigger, who signs. A good ICP is narrow enough to say no. If it describes half the market, it is not an ICP.","lt":"GTM and ICP","lh":"/services/go-to-market-strategy"},
+  {"q":"Product-led or sales-led: which motion is right for me?","a":"Match it to deal size and buyer. Low price, self-serve value and a fast first win lean product-led. Higher price, multiple stakeholders and real evaluation need sales. Most B2B companies run a blend; the mistake is forcing one because it is fashionable.","lt":"Choosing the motion","lh":"/services/go-to-market-strategy"}]},
+ {"t":"Fixing a stalled sales team","intro":"When the team is in place but the number is not moving.","qas":[
+  {"q":"Why is my sales team not hitting quota?","a":"Usually not effort. It is a leaky process: no qualification, deals that stall with no next step, a pipeline nobody inspects, and reps improvising every call. Fix the system and the same people start closing. Replace people only after the system is sound.","lt":"Reps but no pipeline","lh":"/hired-reps-but-no-pipeline"},
+  {"q":"I hired reps but have no pipeline. What now?","a":"Reps are closers, not a strategy. With no ICP, no playbook and no one managing the motion, good reps starve. Put an owner on the number, build the playbook and the pipeline, then the hires you already made start to pay off.","lt":"Fix the pipeline","lh":"/hired-reps-but-no-pipeline"},
+  {"q":"Why are my deals stalling and not closing?","a":"Deals stall when no one owns the next step, the champion cannot sell it internally, or you never reached the real decision-maker. The fix is qualification up front and multi-threading the deal, so it does not die the moment one contact goes quiet.","lt":"Why deals stall","lh":"/hired-reps-but-no-pipeline"},
+  {"q":"How do I build a repeatable sales process?","a":"Write down how your best deals actually get won, turn that into stages with clear exit criteria, and inspect every deal against them. Repeatable means a new rep can run it without you. If it lives in one person's head, it is not a process.","lt":"Build the engine","lh":"/hired-reps-but-no-pipeline"}]},
+ {"t":"Startups and founder-led sales","intro":"Getting from founder-led selling to a team that can carry it.","qas":[
+  {"q":"When should a founder stop doing sales themselves?","a":"Not until you have repeatable wins to hand over. Founder-led sales is how you find the motion. Hand it off too early and you scale something that does not work yet. Too late and you become the ceiling. The signal is repeatability.","lt":"Fractional CRO for startups","lh":"/fractional-cro-for-startups"},
+  {"q":"How do I move from founder-led sales to a sales team?","a":"Document what you do that wins, hire a leader to own it before you hire reps, and transfer your deals and talk tracks onto a playbook. Reps ramp on a system, not by shadowing a founder who sells on instinct.","lt":"Build the team","lh":"/fractional-cro-for-startups"},
+  {"q":"How do startups get their first B2B customers?","a":"Founder-led, narrow and direct: pick a tight ICP, reach the real buyer, and sell the outcome, not the feature list. Early customers come from focused outreach and your network, not from scaling spend before the motion is proven.","lt":"Early-stage sales","lh":"/fractional-cro-for-startups"},
+  {"q":"How do I scale sales after a Series A?","a":"The round buys you the right to build an engine, not just add headcount. Lock the ICP and playbook, put an owner on the number, hire against a proven motion, and instrument the pipeline so the forecast is real. Headcount without a system burns the round.","lt":"Scaling after the raise","lh":"/fractional-cro-for-startups"}]},
+ {"t":"Enterprise and international","intro":"Selling upmarket and expanding into new countries, including the US.","qas":[
+  {"q":"How do I sell to enterprise as a startup?","a":"Treat it as a different sport: longer cycles, many stakeholders, procurement and security. Multi-thread from the start, map the real decision-makers, and sell business value, not features. One champion and one demo will not carry a six-figure deal.","lt":"Market entry","lh":"/services/market-entry"},
+  {"q":"How do I sell into the US market from abroad?","a":"Do not just point your existing outreach at a bigger market. US buyers expect a local message, local proof and someone in their time zone. Pick the beachhead segment, adapt the motion, and build credibility before you scale spend.","lt":"Selling into the US","lh":"/fractional-cro-for-the-us-market"},
+  {"q":"How do I expand B2B sales into new countries?","a":"Pick the market on real pain, access and willingness to pay, not on where you happen to have a contact. Then build only there: the right channel or direct team, local proof, and a plan to win one market before spreading thin across five.","lt":"International market entry","lh":"/services/market-entry"},
+  {"q":"How do I shorten a long enterprise sales cycle?","a":"You rarely shorten it by pushing. You shorten it by qualifying hard early, multi-threading so it does not stall on one person, and creating a reason to act now. Most cycles drag because no one mapped the path to signature up front.","lt":"Complex deals","lh":"/services/market-entry"}]},
+ {"t":"Sales and marketing as one engine","intro":"Making marketing feed pipeline that sales can actually close.","qas":[
+  {"q":"Can you run sales and marketing as one function?","a":"Yes, and that is the point. Most companies run them as two departments that blame each other. I run them as one revenue engine, aligned to a single definition of a good lead, one message and one forecast, so marketing's leads are leads sales can close.","lt":"Sales and marketing","lh":"/sales-and-marketing-consultant"},
+  {"q":"How is a fractional CMO different from a marketing agency?","a":"An agency runs campaigns and bills for activity. A fractional CMO owns the marketing function, its priorities, budget and people, and answers for whether it produces pipeline. One is hands you rent. The other is a leader who carries a number.","lt":"Fractional CMO","lh":"/services/fractional-cmo"},
+  {"q":"My marketing makes leads but sales says they are junk. Why?","a":"Because the two teams never agreed what a good lead is. Marketing hits a volume target, sales ignores the output, and the handoff leaks. Fix it with one shared definition, one message and a closed loop, so both answer to the same pipeline.","lt":"Close the gap","lh":"/sales-and-marketing-consultant"}]},
+]
+
+ANSWERS_META_HE = {
+ "title":"מכירות B2B וסמנכ״ל הכנסות במיקור חוץ: תשובות | טל פאפרין",
+ "desc":"תשובות ישירות לשאלות שמייסדים ומנהלי מכירות שואלים: סמנכ״ל הכנסות במיקור חוץ, עלות, מכירות במיקור חוץ, GTM, תיקון צוות תקוע ומכירה לארגונים.",
+ "h1":"תשובות למייסדים ומנהלי מכירות","eyebrow":"תשובות",
+ "lead":"השאלות שמייסדים, מנכ״לים ומנהלי מכירות באמת שואלים אותי על תיקון ההכנסות: מה זה סמנכ״ל הכנסות במיקור חוץ וכמה זה עולה, מתי לשכור אחד מול VP או סוכנות, מכירות במיקור חוץ, Go-To-Market, צוות שהפסיק לעמוד ביעד, ומכירה לארגונים או לשוק האמריקאי. תשובות קצרות כאן, הפירוט המלא קליק אחד פנימה."}
+
+ANSWERS_HE = [
+ {"t":"סמנכ״ל הכנסות במיקור חוץ: היסודות","intro":"מה זה סמנכ״ל הכנסות במיקור חוץ, על מה הוא אחראי, ואיך ההתקשרות עובדת.","qas":[
+  {"q":"מה זה סמנכ״ל הכנסות במיקור חוץ?","a":"מנהיג הכנסות בכיר שלוקח אחריות על אסטרטגיית המכירות, הצוות, הפייפליין, התחזית והמספר עצמו, במשרה חלקית, בלי שכר של משרה מלאה ובלי התחייבות ארוכה. לא יועץ מהצד. מישהו שיושב בכיסא ואחראי על התוצאה.","lt":"עוד על התפקיד","lh":"/he/services/fractional-cro"},
+  {"q":"מה סמנכ״ל הכנסות במיקור חוץ עושה בפועל?","a":"לוקח אחריות על המספר ועל כל העבודה שמאחוריו: מאבחן איפה עסקאות נתקעות, בונה את ה-Playbook, מגייס, מכשיר ומנהל נציגים, בודק את הפייפליין, מתקן את התחזית ונכנס לעסקאות הגדולות. ביום-יום זה הרצת מנוע ההכנסות, לא הגשת מצגת.","lt":"מה אני מספק","lh":"/he/services/fractional-cro"},
+  {"q":"במה סמנכ״ל הכנסות במיקור חוץ שונה מיועץ?","a":"יועץ בוחן את הבעיה, מגיש מצגת והולך. סמנכ״ל הכנסות במיקור חוץ עושה את העבודה, בתוך הפייפליין והעסקאות, ואחראי על המספר. אם הוא לא זז, זה עליי, לא על שקף.","lt":"הסבר על התפקיד","lh":"/he/services/fractional-cro"},
+  {"q":"כמה זמן נמשכת התקשרות עם סמנכ״ל הכנסות במיקור חוץ?","a":"כל עוד המספר צריך בעל בית. רוב ההתקשרויות נמשכות כמה חודשים עד שנה, בתשלום חודשי בלי חוזה ארוך, ומסתיימות כשהצוות שלכם יכול להמשיך לבד או שגיוס מלא מוצדק. עוצרים כשהעבודה נגמרה.","lt":"ביניים ומיקור חוץ","lh":"/he/interim-cro"},
+  {"q":"האם סמנכ״ל הכנסות במיקור חוץ עובד מרחוק ובמשרה חלקית?","a":"כן. כל הרעיון הוא אחריות בכירה בלי כיסא במשרה מלאה. אני מריץ את המערך מרחוק, בשטח כשעסקה או צוות צריכים, בעצימות שהשלב שלכם דורש, מליווי קל ועד כמעט משרה מלאה.","lt":"איך זה עובד","lh":"/he/services/fractional-cro"}]},
+ {"t":"מתי לשכור, ואיזו אופציה","intro":"סמנכ״ל הכנסות במיקור חוץ, VP מכירות, יועץ או סוכנות: מה המצב שלכם באמת צריך.","qas":[
+  {"q":"מתי כדאי לשכור סמנכ״ל הכנסות במיקור חוץ?","a":"כשההכנסות נתקעו ואף אחד בכיר לא אחראי על המספר, כשצריך תוצאות לפני שאפשר להצדיק גיוס של 250 אלף דולר, או אחרי גיוסי VP שלא הזיזו אותו. אם צריך רק עוד ידיים, גייסו נציגים. אם צריך מישהו שייקח אחריות על אסטרטגיה, צוות ותחזית, זה סמנכ״ל הכנסות במיקור חוץ.","lt":"האם אתם כבר צריכים?","lh":"/he/when-do-you-need-a-fractional-cro"},
+  {"q":"אני צריך סמנכ״ל הכנסות במיקור חוץ או VP מכירות?","a":"VP מכירות מריץ את הצוות שאתם מגדירים לו. סמנכ״ל הכנסות במיקור חוץ מחליט מה הצוות והמערך צריכים להיות, ואז מריץ. בשלב מוקדם או כשתקועים, בדרך כלל צריך שמישהו ייקח אחריות על האסטרטגיה קודם. את ה-VP שוכרים כשהמערך מוכח.","lt":"CRO מול VP מכירות","lh":"/he/fractional-cro-vs-vp-of-sales"},
+  {"q":"לשכור סמנכ״ל הכנסות במיקור חוץ או סוכנות מכירות?","a":"סוכנות מריצה פעילות וגובה עליה: מיילים, רשימות, שיחות. סמנכ״ל הכנסות במיקור חוץ אחראי על התוצאה: אסטרטגיה, צוות, פייפליין והמספר. אם רוצים עוד ראש משפך, סוכנות יכולה לעזור. אם המנוע עצמו שבור, פעילות לא תתקן אותו.","lt":"CRO מול מכירות במיקור חוץ","lh":"/he/fractional-cro-vs-outsourced-sales"},
+  {"q":"לשכור סמנכ״ל הכנסות במיקור חוץ או יועץ מכירות?","a":"אותה עבודה, אחריות שונה. יועץ מייעץ והולך. סמנכ״ל הכנסות במיקור חוץ מייעץ ואז מריץ, ומוביל את המספר עד התוצאה. אם אתם כבר יודעים מה לעשות וצריכים רק ידיים ואחריות, ותרו על המצגת ושכרו את האופרטור.","lt":"על מה CRO אחראי","lh":"/he/services/fractional-cro"},
+  {"q":"מתי סטארטאפ צריך לשכור את מנהיג המכירות הראשון?","a":"כשמכירות בהובלת מייסד מצאו ניצחונות חוזרים אבל המייסד הפך לצוואר הבקבוק, או כשמגייסים נציגים בלי מי שיבנה Playbook או ינהל אותם. מנהיג קודם, נציגים אחר כך. נציגים בלי מערכת פשוט שורפים מזומן.","lt":"CRO לסטארטאפים","lh":"/he/fractional-cro-for-startups"}]},
+ {"t":"עלות, תמחור ו-ROI","intro":"כמה עולה הנהגת הכנסות במיקור חוץ, איך זה מחויב, ואיך לחשוב על ההחזר.","qas":[
+  {"q":"כמה עולה סמנכ״ל הכנסות במיקור חוץ?","a":"בין 2,000 ל-12,000 דולר בחודש, בתשלום חודשי בלי חוזה ארוך. הטווח תואם כמה ממני אתם צריכים, מכמה שעות בשבוע של ליווי ועד כמעט אחריות מלאה על המספר. משרה מלאה עולה 250 אלף דולר ומעלה, לפני בונוס והון.","lt":"פירוט העלות","lh":"/he/fractional-cro-cost"},
+  {"q":"עלות סמנכ״ל במיקור חוץ מול שכר של משרה מלאה?","a":"משרה מלאה היא 250 אלף דולר ומעלה בבסיס, ועוד בונוס, הון והחודשים שלוקח לגייס. מיקור חוץ נותן לכם את אותה בכירות בכיסא תמורת 2,000 עד 12,000 דולר בחודש, מתחיל עכשיו, ועוצרים כשהעבודה נגמרה.","lt":"השוואת עלות","lh":"/he/fractional-cro-cost"},
+  {"q":"מה ה-ROI של סמנכ״ל הכנסות במיקור חוץ?","a":"אתם קונים תיקון למספר תקוע, לא שעות. לשחרר כמה עסקאות, לקצר את המחזור או להעלות אחוזי סגירה, וזה מחזיר את עצמו מהר. המבחן הכן: אם ההכנסות הן לא הצוואר, אתם לא צריכים אחד.","lt":"מקרה ה-ROI","lh":"/he/fractional-cro-roi"},
+  {"q":"האם סמנכ״ל הכנסות במיקור חוץ עובד על עמלה?","a":"לא. אני אחראי על האסטרטגיה, הצוות, הפייפליין והתחזית בריטיינר חודשי קבוע. עמלה בלבד מיישרת מישהו לתשלום שלו, לא לבניית מנוע מכירות שנשאר. אני לא סוכנות לידים ולא נציג להשכרה.","lt":"איך התמחור עובד","lh":"/he/fractional-cro-cost"},
+  {"q":"כמה כדאי לתקצב להנהגת מכירות במיקור חוץ?","a":"צאו מהבעיה. ליווי קל סביב 2,000 דולר בחודש; אחריות על המספר, הצוות והתחזית מגיעה ל-12,000, ורובם נוחתים באמצע. אם צריך גם SDRs או שיווק, זה מתוקצב מעל, כצוות מנוהל מלא.","lt":"לתמחור","lh":"/he/pricing"}]},
+ {"t":"מכירות ו-SDR במיקור חוץ","intro":"מתי להוציא את צוות המכירות למיקור חוץ במקום לבנות אותו, וכמה זה עולה.","qas":[
+  {"q":"להוציא את צוות ה-SDR למיקור חוץ או לגייס פנימית?","a":"מיקור חוץ כשבנייה איטית, יקרה או מסוכנת מדי לשלב שלכם: מקבלים צוות עובד תוך שבועות, לא שישה עד שנים-עשר חודשים, בלי סיכון פיצויים. בונים פנימית כשמכירות הן היתרון המרכזי שלכם ואתם יכולים לממן את הריצה.","lt":"צוות SDR במיקור חוץ","lh":"/he/outsourced-sdr-team"},
+  {"q":"מה מקבלים בצוות מכירות במיקור חוץ?","a":"צוות שלם מחוץ למצבת כוח האדם: אנשי SDR ו-AE דוברי שפת אם, הנהגה בכירה ו-VP, מגויסים, מוכשרים, מנוהלים ומדווחים. בהפעלת KSW Solutions, בהובלתי. מנוע עובד, לא ערימת פרילנסרים.","lt":"מכירות במיקור חוץ","lh":"/he/services/outsourced-sales"},
+  {"q":"למה צוותי מכירות במיקור חוץ נכשלים?","a":"כשמוסרים להם רשימה ויעד בלי אסטרטגיה, בלי ICP אמיתי ובלי לולאת משוב, הם מחייגים לריק. אצלנו זה עובד כי אותו אדם שאחראי על המספר אחראי על הצוות. פעילות בלי אחריות היא אופן הכישלון.","lt":"איך אנחנו מריצים","lh":"/he/services/outsourced-sales"},
+  {"q":"מה זה תשלום לפי פגישה ובמה זה שונה?","a":"אתם משלמים על פגישות מוכשרות שנקבעות ביומן, לא על מיילים או רשימות. אנחנו מגדירים ICP, מוצאים ופונים לאנשים הנכונים וקובעים את הפגישה; אתם מריצים וסוגרים. ריטיינר מחייב כך או כך. כאן משלמים לפי תוצאה.","lt":"תשלום לפי פגישה","lh":"/he/services/pay-per-meeting"}]},
+ {"t":"Go-To-Market שבאמת עובד","intro":"בנייה, תיקון ושינוי של מערך Go-To-Market ל-B2B.","qas":[
+  {"q":"למה ה-Go-To-Market שלי לא מייצר פייפליין?","a":"בדרך כלל המערך מאולתר: ICP מעורפל, מסר שהשיווק המציא והמכירות לא משתמשות בו, וערוצים שנבחרו מתוך הרגל. פייפליין מגיע מ-ICP חד, מסר אחד ששני הצוותים מריצים, ושניים-שלושה ערוצים שבאמת מגיעים לקונה.","lt":"אסטרטגיית Go-To-Market","lh":"/he/services/go-to-market-strategy"},
+  {"q":"מה כולל פרויקט Go-To-Market?","a":"ICP, מיצוב, תמחור, הערוצים שמתאימים, Playbook ותחזית אמיתית, ואז אני עוזר לכם להריץ עד שיש פייפליין, לא רק שקפים. ל-SaaS, חומרה, שירותים או B2B מורכב. התוכנית שווה כלום אם אף אחד לא מבצע.","lt":"מה GTM כולל","lh":"/he/services/go-to-market-strategy"},
+  {"q":"איך מגדירים את פרופיל הלקוח האידיאלי?","a":"צאו ממי שכבר קונה הכי מהר, נשאר הכי הרבה ומשלם הכי הרבה, ואז מצאו מה משותף להם: שלב, כאב, טריגר, מי חותם. ICP טוב צר מספיק כדי להגיד לא. אם הוא מתאר חצי מהשוק, זה לא ICP.","lt":"GTM ו-ICP","lh":"/he/services/go-to-market-strategy"},
+  {"q":"Product-led או Sales-led: איזה מערך מתאים לי?","a":"התאימו לגודל העסקה ולקונה. מחיר נמוך, ערך בשירות עצמי וניצחון ראשון מהיר נוטים ל-Product-led. מחיר גבוה, כמה בעלי עניין והערכה אמיתית צריכים מכירות. רוב חברות ה-B2B מריצות שילוב; הטעות היא לכפות אחד כי הוא אופנתי.","lt":"בחירת המערך","lh":"/he/services/go-to-market-strategy"}]},
+ {"t":"תיקון צוות מכירות תקוע","intro":"כשהצוות קיים אבל המספר לא זז.","qas":[
+  {"q":"למה צוות המכירות שלי לא עומד ביעד?","a":"בדרך כלל לא מאמץ. זה תהליך דולף: אין כשירות, עסקאות שנתקעות בלי צעד הבא, פייפליין שאף אחד לא בודק, ונציגים שמאלתרים כל שיחה. תקנו את המערכת ואותם אנשים מתחילים לסגור. מחליפים אנשים רק אחרי שהמערכת תקינה.","lt":"נציגים בלי פייפליין","lh":"/he/hired-reps-but-no-pipeline"},
+  {"q":"גייסתי נציגים ואין פייפליין. מה עכשיו?","a":"נציגים הם סוגרים, לא אסטרטגיה. בלי ICP, בלי Playbook ובלי מי שמנהל את המערך, נציגים טובים גוועים. שימו בעל בית על המספר, בנו את ה-Playbook ואת הפייפליין, ואז הגיוסים שכבר עשיתם מתחילים להחזיר.","lt":"לתקן את הפייפליין","lh":"/he/hired-reps-but-no-pipeline"},
+  {"q":"למה העסקאות שלי נתקעות ולא נסגרות?","a":"עסקאות נתקעות כשאף אחד לא אחראי על הצעד הבא, כשהצ׳מפיון לא מצליח למכור את זה פנימה, או כשמעולם לא הגעתם למקבל ההחלטות האמיתי. התיקון הוא כשירות מראש ו-Multi-threading, כדי שעסקה לא תמות ברגע שאיש קשר אחד נדם.","lt":"למה עסקאות נתקעות","lh":"/he/hired-reps-but-no-pipeline"},
+  {"q":"איך בונים תהליך מכירה חוזר?","a":"כתבו איך העסקאות הטובות שלכם באמת נסגרות, הפכו את זה לשלבים עם קריטריוני יציאה ברורים, ובדקו כל עסקה מולם. חוזר אומר שנציג חדש יכול להריץ בלעדיכם. אם זה חי בראש של אדם אחד, זה לא תהליך.","lt":"לבנות את המנוע","lh":"/he/hired-reps-but-no-pipeline"}]},
+ {"t":"סטארטאפים ומכירות בהובלת מייסד","intro":"איך עוברים ממכירות בהובלת מייסד לצוות שיכול לשאת אותן.","qas":[
+  {"q":"מתי מייסד צריך להפסיק למכור בעצמו?","a":"לא לפני שיש ניצחונות חוזרים להעביר. מכירות בהובלת מייסד הן איך שמוצאים את המערך. מעבירים מוקדם מדי, ומשכפלים משהו שעוד לא עובד. מאוחר מדי, והופכים לתקרה. הסימן הוא חזרתיות.","lt":"CRO לסטארטאפים","lh":"/he/fractional-cro-for-startups"},
+  {"q":"איך עוברים ממכירות בהובלת מייסד לצוות מכירות?","a":"תעדו מה אתם עושים שמנצח, שכרו מנהיג שייקח אחריות לפני שמגייסים נציגים, והעבירו את העסקאות וה-Talk Tracks ל-Playbook. נציגים עולים על מערכת, לא מתוך צפייה במייסד שמוכר באינטואיציה.","lt":"לבנות את הצוות","lh":"/he/fractional-cro-for-startups"},
+  {"q":"איך סטארטאפים משיגים את לקוחות ה-B2B הראשונים?","a":"בהובלת מייסד, צר וישיר: בחרו ICP הדוק, הגיעו לקונה האמיתי, ומכרו את התוצאה, לא את רשימת הפיצ׳רים. לקוחות ראשונים מגיעים מפנייה ממוקדת ומהרשת שלכם, לא מהגדלת תקציב לפני שהמערך מוכח.","lt":"מכירות בשלב מוקדם","lh":"/he/fractional-cro-for-startups"},
+  {"q":"איך מגדילים מכירות אחרי סבב A?","a":"הסבב קונה לכם את הזכות לבנות מנוע, לא רק להוסיף ראשים. נעלו את ה-ICP וה-Playbook, שימו בעל בית על המספר, גייסו מול מערך מוכח, ומכשירו את הפייפליין כך שהתחזית אמיתית. ראשים בלי מערכת שורפים את הסבב.","lt":"גדילה אחרי הסבב","lh":"/he/fractional-cro-for-startups"}]},
+ {"t":"ארגונים ובינלאומי","intro":"מכירה כלפי מעלה והתרחבות לשווקים חדשים, כולל ארה״ב.","qas":[
+  {"q":"איך מוכרים לארגונים כשאתם סטארטאפ?","a":"התייחסו לזה כספורט אחר: מחזורים ארוכים, הרבה בעלי עניין, רכש ואבטחה. עשו Multi-threading מההתחלה, מפו את מקבלי ההחלטות האמיתיים, ומכרו ערך עסקי, לא פיצ׳רים. צ׳מפיון אחד ודמו אחד לא יישאו עסקה בשש ספרות.","lt":"כניסה לשוק","lh":"/he/services/market-entry"},
+  {"q":"איך מוכרים לשוק האמריקאי מחו״ל?","a":"אל תכוונו את הפנייה הקיימת לשוק גדול יותר. קונים אמריקאים מצפים למסר מקומי, הוכחה מקומית ומישהו באזור הזמן שלהם. בחרו את פלח ראש הגשר, התאימו את המערך, ובנו אמינות לפני שמגדילים תקציב.","lt":"מכירה לשוק האמריקאי","lh":"/he/fractional-cro-for-the-us-market"},
+  {"q":"איך מרחיבים מכירות B2B למדינות חדשות?","a":"בחרו שוק לפי כאב אמיתי, נגישות ונכונות לשלם, לא לפי איפה יש לכם מקרה מכר. ואז בנו רק שם: הערוץ הנכון או צוות ישיר, הוכחה מקומית, ותוכנית לנצח שוק אחד לפני שמתפזרים דק על חמישה.","lt":"כניסה לשווקים בינלאומיים","lh":"/he/services/market-entry"},
+  {"q":"איך מקצרים מחזור מכירה ארוך לארגונים?","a":"נדיר שמקצרים בלחיצה. מקצרים בכשירות חזקה מוקדם, ב-Multi-threading כדי שלא ייתקע על אדם אחד, וביצירת סיבה לפעול עכשיו. רוב המחזורים נגררים כי אף אחד לא מיפה מראש את הדרך לחתימה.","lt":"עסקאות מורכבות","lh":"/he/services/market-entry"}]},
+ {"t":"מכירות ושיווק כמנוע אחד","intro":"לגרום לשיווק להזין פייפליין שהמכירות באמת יכולות לסגור.","qas":[
+  {"q":"אתה יכול להריץ מכירות ושיווק כפונקציה אחת?","a":"כן, וזו הנקודה. רוב החברות מריצות אותן כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, מיושר להגדרה אחת של ליד טוב, מסר אחד ותחזית אחת, כך שהלידים של השיווק הם לידים שהמכירות יכולות לסגור.","lt":"מכירות ושיווק","lh":"/he/sales-and-marketing-consultant"},
+  {"q":"במה סמנכ״ל שיווק במיקור חוץ שונה מסוכנות שיווק?","a":"סוכנות מריצה קמפיינים וגובה על פעילות. סמנכ״ל שיווק במיקור חוץ אחראי על פונקציית השיווק, סדרי העדיפויות, התקציב והאנשים, ועל השאלה אם זה מייצר פייפליין. אחד זה ידיים שאתם שוכרים. השני זה מנהיג שנושא מספר.","lt":"סמנכ״ל שיווק במיקור חוץ","lh":"/he/services/fractional-cmo"},
+  {"q":"השיווק שלי מייצר לידים אבל המכירות אומרות שהם זבל. למה?","a":"כי שני הצוותים מעולם לא הסכימו מה זה ליד טוב. השיווק עומד ביעד כמות, המכירות מתעלמות מהתוצר, וההעברה דולפת. תקנו עם הגדרה משותפת אחת, מסר אחד ולולאה סגורה, כך ששניהם אחראים לאותו פייפליין.","lt":"לסגור את הפער","lh":"/he/sales-and-marketing-consultant"}]},
+]
+
+
 SERVICE_FAQS_EN = {
  "pay-per-meeting":[
   {"q":"What is pay-per-meeting appointment setting?","a":"You pay for the qualified B2B sales meetings we book on your calendar, not for emails, leads or lists. We define your ICP, find and contact the right people, and book the meetings. You run and close them."},
@@ -5122,6 +5258,7 @@ HUB_PAGE_EN = '''<!doctype html>
         <p class="eyebrow">Guides and Resources</p>
         <h1>Guides and resources</h1>
         <p class="lead">Everything I know about fractional revenue leadership, in plain English: how to hire one, what it costs, the ROI, outsourced sales and marketing, and how it works in your industry.</p>
+        <p><a href="/answers">Quick answers to the questions founders and sales leaders ask &rarr;</a></p>
 {groups}
         <div class="svc-related">See the <a href="/services/">services</a>, the <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.</div>
       </div>
@@ -5173,6 +5310,7 @@ HUB_PAGE_HE = '''<!doctype html>
         <p class="eyebrow">מדריכים ומשאבים</p>
         <h1>מדריכים ומשאבים</h1>
         <p class="lead">כל מה שאני יודע על הנהגת הכנסות במיקור חוץ, בעברית פשוטה: איך לשכור, כמה זה עולה, ה-ROI, ומכירות ושיווק במיקור חוץ.</p>
+        <p><a href="/he/answers">תשובות מהירות לשאלות שמייסדים ומנהלי מכירות שואלים &larr;</a></p>
 {groups}
         <div class="svc-related">ראו את <a href="/he/services/">השירותים</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
       </div>
@@ -5874,6 +6012,48 @@ def build():
     with open(os.path.join(ROOT, "he", "guides.html"), "w", encoding="utf-8") as f:
         f.write(HUB_PAGE_HE.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
                                    nav=HE_NAV, footer=HE_FOOTER, groups=render_guides_hub(True)))
+
+    # Answers hub (consolidated AEO/AIO/GEO Q&A that links into the guides)
+    a_url, a_he_url = "%s/answers" % SITE, "%s/he/answers" % SITE
+    a_hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+                  '  <link rel="alternate" hreflang="he" href="%s" />\n'
+                  '  <link rel="alternate" hreflang="x-default" href="%s" />') % (a_url, a_he_url, a_url)
+    a_sections, a_faqld = render_answers_sections(ANSWERS_EN, he=False)
+    a_ld = ('{"@context":"https://schema.org","@type":"Article","headline":"%s","description":"%s",'
+            '"author":{"@type":"Person","@id":"%s","name":"Tal Paperin","url":"%s/"},'
+            '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
+            ) % (esc(ANSWERS_META_EN["h1"]), esc(ANSWERS_META_EN["desc"]), PERSON_ID, SITE, BUSINESS_ID, a_url)
+    a_crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
+               '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
+               '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
+               ) % (SITE, esc(ANSWERS_META_EN["h1"]), a_url)
+    with open(os.path.join(ROOT, "answers.html"), "w", encoding="utf-8") as f:
+        f.write(GUIDE_PAGE.format(graph=graph_ld(False),
+            title=esc(ANSWERS_META_EN["title"]), desc=esc(ANSWERS_META_EN["desc"]), url=a_url, site=SITE,
+            h1=esc(ANSWERS_META_EN["h1"]), eyebrow=esc(ANSWERS_META_EN["eyebrow"]), lead=esc(ANSWERS_META_EN["lead"]),
+            sections=a_sections, faq="", faqld=a_faqld,
+            related='Browse all <a href="/guides">guides</a> and <a href="/services/">services</a>, or <a href="/contact">tell me where revenue stalled</a>.',
+            fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX, ld=a_ld, crumb=a_crumb, hreflang=a_hreflang))
+
+    a_he_hreflang = ('  <link rel="alternate" hreflang="he" href="%s" />\n'
+                     '  <link rel="alternate" hreflang="en" href="%s" />\n'
+                     '  <link rel="alternate" hreflang="x-default" href="%s" />') % (a_he_url, a_url, a_url)
+    a_he_sections, a_he_faqld = render_answers_sections(ANSWERS_HE, he=True)
+    a_he_ld = ('{"@context":"https://schema.org","@type":"Article","headline":"%s","description":"%s","inLanguage":"he",'
+               '"author":{"@type":"Person","@id":"%s","name":"טל פאפרין","url":"%s/he/"},'
+               '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
+               ) % (esc(ANSWERS_META_HE["h1"]), esc(ANSWERS_META_HE["desc"]), PERSON_ID, SITE, BUSINESS_ID, a_he_url)
+    a_he_crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
+                  '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
+                  '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
+                  ) % (SITE, esc(ANSWERS_META_HE["h1"]), a_he_url)
+    with open(os.path.join(ROOT, "he", "answers.html"), "w", encoding="utf-8") as f:
+        f.write(HE_GUIDE_PAGE.format(graph=graph_ld(True),
+            title=esc(ANSWERS_META_HE["title"]), desc=esc(ANSWERS_META_HE["desc"]), url=a_he_url, site=SITE,
+            h1=esc(ANSWERS_META_HE["h1"]), eyebrow=esc(ANSWERS_META_HE["eyebrow"]), lead=esc(ANSWERS_META_HE["lead"]),
+            sections=a_he_sections, faq="", faqld=a_he_faqld,
+            related='לכל ה<a href="/he/guides">מדריכים</a> ו<a href="/he/services/">השירותים</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.',
+            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA, ld=a_he_ld, crumb=a_he_crumb, hreflang=a_he_hreflang))
 
     print("Built %d EN + %d HE service pages, HE index, HE FAQ, %d guides + %d HE guides"
           % (len(SERVICES), len(HE_SERVICES), len(GUIDES), len(HE_GUIDES)))
