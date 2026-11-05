@@ -86,7 +86,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
 
 FOOTER = '''  <footer>
     <div class="wrap inner">
-      <span>&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/guides">Guides</a></span>
+      <span>&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/guides">Guides</a> &middot; <a href="/answers">Answers</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -319,6 +319,7 @@ ARTICLE_GUIDES = {
     "sales-training",
     "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
     "sales-team-missing-quota", "sales-forecast-always-wrong", "hired-reps-but-no-pipeline",
+    "why-did-my-vp-of-sales-leave",
     "how-to-build-a-sales-team", "sales-compensation-plan", "setting-sales-quotas",
     "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion",
     "sell-in-israel-first-or-go-global", "when-to-expand-to-the-us",
@@ -894,7 +895,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
 
 HE_FOOTER = '''  <footer>
     <div class="wrap inner">
-      <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/guides">מדריכים</a></span>
+      <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/guides">מדריכים</a> &middot; <a href="/he/answers">תשובות</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -2290,8 +2291,8 @@ ANSWERS_EN = [
   {"q":"Why did we miss the quarter again?","a":"A repeated miss is a system problem, not a bad month. The pipeline coverage was never real, the forecast was wishful, or the team is working the wrong deals. The same miss every quarter is a sign no one senior owns the number end to end.","lt":"Fractional CRO","lh":"/services/fractional-cro"},
   {"q":"Why is my pipeline drying up?","a":"Because top of funnel stopped being fed, or what enters no longer converts. Pipeline dries up when prospecting is nobody's clear job, the ICP drifted, or marketing and sales stopped agreeing on a good lead. The fix is owning the whole funnel, not just the closing end.","lt":"Fix the pipeline","lh":"/hired-reps-but-no-pipeline"}]},
  {"t":"The sales leadership problem","intro":"When the person who was supposed to own revenue is the problem.","qas":[
-  {"q":"Why did my VP of Sales leave?","a":"Often because they were set up to fail: no clear number, no support, a motion that was not ready, or a founder who never fully handed over the wheel. Before you hire the next one, fix what made the seat impossible, or you will lose them too.","lt":"CRO vs VP of sales","lh":"/fractional-cro-vs-vp-of-sales"},
-  {"q":"My VP of Sales isn't working out. What now?","a":"Separate two things: is it the person, or the system they inherited? A strong VP cannot win with no playbook, no pipeline and a fuzzy ICP. Diagnose the motion first. Sometimes you fix the system and keep them, sometimes you need a different seat entirely.","lt":"CRO vs VP of sales","lh":"/fractional-cro-vs-vp-of-sales"},
+  {"q":"Why did my VP of Sales leave?","a":"Often because they were set up to fail: no clear number, no support, a motion that was not ready, or a founder who never fully handed over the wheel. Before you hire the next one, fix what made the seat impossible, or you will lose them too.","lt":"Why VPs of sales leave","lh":"/why-did-my-vp-of-sales-leave"},
+  {"q":"My VP of Sales isn't working out. What now?","a":"Separate two things: is it the person, or the system they inherited? A strong VP cannot win with no playbook, no pipeline and a fuzzy ICP. Diagnose the motion first. Sometimes you fix the system and keep them, sometimes you need a different seat entirely.","lt":"Why VPs of sales leave","lh":"/why-did-my-vp-of-sales-leave"},
   {"q":"Why can't I hire a sales leader who sticks?","a":"Because you are hiring to fill a gap you have not defined. If the strategy, the number and the motion are not owned before the VP arrives, every hire inherits chaos and leaves. Get the engine owned and built, then hire a VP to run a system that works.","lt":"Do you need a CRO yet?","lh":"/when-do-you-need-a-fractional-cro"},
   {"q":"Should I replace my sales leader or fix the system?","a":"Fix the system first, almost always. Most leaders are not failing on talent, they are failing inside a broken process with no air cover. Rebuild the motion, the pipeline and the forecast, and you find out fast whether the leader was the problem or the symptom.","lt":"Fix the engine","lh":"/hired-reps-but-no-pipeline"}]},
  {"t":"The board and your investors","intro":"What to do when the people you answer to stop being happy with revenue.","qas":[
@@ -2337,8 +2338,8 @@ ANSWERS_HE = [
   {"q":"למה פספסנו את הרבעון שוב?","a":"פספוס חוזר הוא בעיית מערכת, לא חודש גרוע. כיסוי הפייפליין מעולם לא היה אמיתי, התחזית הייתה משאלת לב, או שהצוות עובד על העסקאות הלא נכונות. אותו פספוס כל רבעון הוא סימן שאף בכיר לא אחראי על המספר מקצה לקצה.","lt":"סמנכ״ל הכנסות במיקור חוץ","lh":"/he/services/fractional-cro"},
   {"q":"למה הפייפליין שלי מתייבש?","a":"כי ראש המשפך הפסיק לקבל הזנה, או שמה שנכנס כבר לא ממיר. פייפליין מתייבש כשפרוספקטינג הוא לא תפקיד ברור של אף אחד, ה-ICP נסחף, או שהשיווק והמכירות הפסיקו להסכים מה זה ליד טוב. התיקון הוא אחריות על כל המשפך, לא רק על קצה הסגירה.","lt":"לתקן את הפייפליין","lh":"/he/hired-reps-but-no-pipeline"}]},
  {"t":"בעיית הנהגת המכירות","intro":"כשמי שהיה אמור לקחת אחריות על ההכנסות הוא הבעיה.","qas":[
-  {"q":"למה ה-VP מכירות שלי עזב?","a":"לרוב כי הוא הוצב להיכשל: אין מספר ברור, אין תמיכה, מערך שלא היה בשל, או מייסד שמעולם לא העביר את ההגה באמת. לפני שתשכרו את הבא, תקנו את מה שהפך את הכיסא לבלתי אפשרי, אחרת תאבדו גם אותו.","lt":"CRO מול VP מכירות","lh":"/he/fractional-cro-vs-vp-of-sales"},
-  {"q":"ה-VP מכירות שלי לא מצליח. מה עכשיו?","a":"הפרידו שני דברים: זה האדם, או המערכת שהוא ירש? VP חזק לא יכול לנצח בלי Playbook, בלי פייפליין ועם ICP מעורפל. אבחנו את המערך קודם. לפעמים מתקנים את המערכת ושומרים אותו, לפעמים צריך כיסא אחר לגמרי.","lt":"CRO מול VP מכירות","lh":"/he/fractional-cro-vs-vp-of-sales"},
+  {"q":"למה ה-VP מכירות שלי עזב?","a":"לרוב כי הוא הוצב להיכשל: אין מספר ברור, אין תמיכה, מערך שלא היה בשל, או מייסד שמעולם לא העביר את ההגה באמת. לפני שתשכרו את הבא, תקנו את מה שהפך את הכיסא לבלתי אפשרי, אחרת תאבדו גם אותו.","lt":"למה VP מכירות עוזבים","lh":"/he/why-did-my-vp-of-sales-leave"},
+  {"q":"ה-VP מכירות שלי לא מצליח. מה עכשיו?","a":"הפרידו שני דברים: זה האדם, או המערכת שהוא ירש? VP חזק לא יכול לנצח בלי Playbook, בלי פייפליין ועם ICP מעורפל. אבחנו את המערך קודם. לפעמים מתקנים את המערכת ושומרים אותו, לפעמים צריך כיסא אחר לגמרי.","lt":"למה VP מכירות עוזבים","lh":"/he/why-did-my-vp-of-sales-leave"},
   {"q":"למה אני לא מצליח לשכור מנהיג מכירות שנשאר?","a":"כי אתם שוכרים כדי לסתום פער שלא הגדרתם. אם האסטרטגיה, המספר והמערך לא בבעלות לפני שה-VP מגיע, כל גיוס יורש כאוס ועוזב. קודם שימו בעל בית על המנוע ובנו אותו, ואז שכרו VP שיריץ מערכת שעובדת.","lt":"האם אתם כבר צריכים CRO?","lh":"/he/when-do-you-need-a-fractional-cro"},
   {"q":"להחליף את מנהיג המכירות או לתקן את המערכת?","a":"קודם לתקן את המערכת, כמעט תמיד. רוב המנהיגים לא נכשלים על כישרון, הם נכשלים בתוך תהליך שבור בלי גיבוי. בנו מחדש את המערך, הפייפליין והתחזית, ותגלו מהר אם המנהיג היה הבעיה או הסימפטום.","lt":"לתקן את המנוע","lh":"/he/hired-reps-but-no-pipeline"}]},
  {"t":"הדירקטוריון והמשקיעים","intro":"מה עושים כשמי שאתם מדווחים לו מפסיק להיות מרוצה מההכנסות.","qas":[
@@ -2465,6 +2466,26 @@ SERVICE_FAQS_HE = {
 
 
 GUIDES = [
+ {"slug":"why-did-my-vp-of-sales-leave",
+  "title":"Why Your VP of Sales Left, and How to Stop Repeating It | Tal Paperin",
+  "desc":"Your VP of Sales quit or got pushed out and you are about to hire another. First understand why the seat failed, or the next hire leaves too.",
+  "h1":"Why Your VP of Sales Left","eyebrow":"Sales leadership",
+  "lead":"A VP of Sales leaving is rarely just a people problem. More often the seat was impossible: no clear number, no playbook, a motion that was not ready, or a founder who never truly handed over the wheel. Before you hire the next one, understand what actually broke, or you run the same loop again at six months and another lost year.",
+  "sections":[
+    {"h":"It is usually the seat, not just the person","p":[
+      "A strong VP of Sales cannot win inside a broken system. If the ICP is fuzzy, there is no playbook, the pipeline is not real and marketing is not aligned, even a great hire spends their ramp firefighting instead of building. They miss the number they were set up to miss, and then they leave, or you let them go.",
+      "The pattern repeats because the diagnosis is wrong. Founders conclude they hired the wrong person and hire again for the same impossible seat. The fix is to make the seat winnable first."]},
+    {"h":"The real reasons VPs of Sales leave","p":[
+      "Hired too early, before founder-led sales found a repeatable motion, so the VP is asked to scale something that does not work yet. Hired with no air cover, owning a number while strategy, pricing and marketing sit outside their control. Hired into chaos, with no playbook, no clean CRM and no reliable forecast. Or hired by a founder who keeps taking the big deals back, so the VP never really owns sales.",
+      "Compensation and title gaps matter too, but they are rarely the root cause. The root cause is almost always that no one built the engine the VP was supposed to run."]},
+    {"h":"What to do before you hire the next one","p":[
+      "Separate the two questions: was the person wrong, or was the system? Diagnose the motion honestly, the ICP, the playbook, the pipeline, the forecast and the founder handoff, and fix what made the seat impossible. Only then does it make sense to hire, because now the VP inherits a system that can win.",
+      "This is where a fractional CRO earns its keep. Someone senior comes in, owns the number, rebuilds the engine, and either stabilizes it until your next VP can run it or helps you hire the right one into a seat that finally works. You stop paying for the same failed hire twice."]}],
+  "faqs":[
+    {"q":"Should I replace my VP of Sales or fix the system first?","a":"Fix the system first, almost always. Rebuild the motion, pipeline and forecast, and you find out fast whether the VP was the problem or the symptom. Replacing a person inside a broken seat just resets the clock on the same failure."},
+    {"q":"How soon is too soon to hire a VP of Sales?","a":"Before founder-led sales has found a repeatable, documented motion. If the founder is still the only person who can close, a VP inherits guesswork and leaves. Prove the motion first, then hire someone to scale it."},
+    {"q":"My VP of Sales keeps missing the number. Is it them?","a":"Maybe, but check the seat first. No playbook, a fuzzy ICP, an unreal pipeline or a founder who takes deals back will sink a strong VP. Diagnose the system before you blame the person."}],
+  "related":'See <a href="/fractional-cro-vs-vp-of-sales">fractional CRO vs VP of sales</a>, <a href="/sales-team-missing-quota">why a team misses quota</a>, <a href="/when-do-you-need-a-fractional-cro">when you need a fractional CRO</a>, or the <a href="/answers">answers hub</a>.'},
  {"slug":"sales-and-marketing-consultant",
   "title":"Sales and Marketing Consultant for B2B | Tal Paperin",
   "desc":"Most companies run sales and marketing as two teams that blame each other. I own both: marketing that feeds real pipeline, sales that closes it, one number.",
@@ -4027,6 +4048,26 @@ HE_GUIDE_PAGE = '''<!doctype html>
 
 
 HE_GUIDES = [
+ {"slug":"why-did-my-vp-of-sales-leave",
+  "title":"למה ה-VP מכירות שלך עזב, ואיך לא לחזור על זה | טל פאפרין",
+  "desc":"ה-VP מכירות שלך עזב או הודח ואתה עומד לשכור עוד אחד. קודם הבן למה הכיסא נכשל, אחרת גם הבא יעזוב.",
+  "h1":"למה ה-VP מכירות שלך עזב","eyebrow":"הנהגת מכירות",
+  "lead":"VP מכירות שעוזב הוא רק לעיתים רחוקות בעיה של אדם. לרוב הכיסא היה בלתי אפשרי: אין מספר ברור, אין Playbook, מערך שלא היה בשל, או מייסד שמעולם לא העביר את ההגה באמת. לפני שתשכרו את הבא, הבינו מה באמת נשבר, אחרת תריצו את אותה לולאה שוב בעוד חצי שנה ועוד שנה אבודה.",
+  "sections":[
+    {"h":"בדרך כלל זה הכיסא, לא רק האדם","p":[
+      "VP מכירות חזק לא יכול לנצח בתוך מערכת שבורה. אם ה-ICP מעורפל, אין Playbook, הפייפליין לא אמיתי והשיווק לא מיושר, גם גיוס מצוין מבלה את תקופת העלייה בכיבוי שריפות במקום בבנייה. הוא מפספס את המספר שהוצב להחמיץ, ואז עוזב, או שמשחררים אותו.",
+      "התבנית חוזרת כי האבחון שגוי. מייסדים מסיקים שגייסו את האדם הלא נכון ומגייסים שוב לאותו כיסא בלתי אפשרי. התיקון הוא להפוך את הכיסא לכזה שאפשר לנצח בו, קודם."]},
+    {"h":"הסיבות האמיתיות ש-VP מכירות עוזבים","p":[
+      "גויסו מוקדם מדי, לפני שמכירות בהובלת מייסד מצאו מערך חזרתי, אז ה-VP מתבקש להגדיל משהו שעוד לא עובד. גויסו בלי גיבוי, אחראים על מספר בזמן שאסטרטגיה, תמחור ושיווק מחוץ לשליטתם. גויסו לתוך כאוס, בלי Playbook, בלי CRM נקי ובלי תחזית אמינה. או גויסו על ידי מייסד שממשיך לקחת את העסקאות הגדולות בחזרה, כך שה-VP מעולם לא באמת מחזיק במכירות.",
+      "פערי שכר ותואר קיימים גם הם, אבל נדיר שהם שורש הבעיה. השורש כמעט תמיד הוא שאף אחד לא בנה את המנוע שה-VP היה אמור להריץ."]},
+    {"h":"מה לעשות לפני שמגייסים את הבא","p":[
+      "הפרידו שתי שאלות: האדם היה שגוי, או המערכת? אבחנו את המערך בכנות, ה-ICP, ה-Playbook, הפייפליין, התחזית והעברת ההגה מהמייסד, ותקנו את מה שהפך את הכיסא לבלתי אפשרי. רק אז הגיוני לשכור, כי עכשיו ה-VP יורש מערכת שיכולה לנצח.",
+      "כאן סמנכ״ל הכנסות במיקור חוץ מצדיק את עצמו. מישהו בכיר נכנס, לוקח אחריות על המספר, בונה מחדש את המנוע, ואו מייצב אותו עד שה-VP הבא יוכל להריץ, או עוזר לכם לשכור את הנכון לכיסא שסוף סוף עובד. מפסיקים לשלם פעמיים על אותו גיוס כושל."]}],
+  "faqs":[
+    {"q":"להחליף את ה-VP מכירות או קודם לתקן את המערכת?","a":"קודם לתקן את המערכת, כמעט תמיד. בנו מחדש את המערך, הפייפליין והתחזית, ותגלו מהר אם ה-VP היה הבעיה או הסימפטום. החלפת אדם בתוך כיסא שבור רק מאפסת את השעון על אותו כישלון."},
+    {"q":"מתי מוקדם מדי לשכור VP מכירות?","a":"לפני שמכירות בהובלת מייסד מצאו מערך חזרתי ומתועד. אם המייסד עדיין היחיד שיכול לסגור, VP יורש ניחושים ועוזב. הוכיחו את המערך קודם, ואז שכרו מישהו שיגדיל אותו."},
+    {"q":"ה-VP מכירות שלי ממשיך לפספס את המספר. זה הוא?","a":"אולי, אבל בדקו קודם את הכיסא. היעדר Playbook, ICP מעורפל, פייפליין לא אמיתי או מייסד שלוקח עסקאות בחזרה יטביעו VP חזק. אבחנו את המערכת לפני שמאשימים את האדם."}],
+  "related":'ראו <a href="/he/fractional-cro-vs-vp-of-sales">CRO מול VP מכירות</a>, <a href="/he/sales-team-missing-quota">למה צוות מפספס יעד</a>, <a href="/he/when-do-you-need-a-fractional-cro">מתי צריך סמנכ״ל הכנסות במיקור חוץ</a>, או <a href="/he/answers">מרכז התשובות</a>.'},
  {"slug":"sales-and-marketing-consultant",
   "title":"יועץ מכירות ושיווק ל-B2B | טל פאפרין",
   "desc":"רוב החברות מריצות מכירות ושיווק כשני צוותים שמאשימים זה את זה. אני אחראי על שניהם: שיווק שמייצר פייפליין אמיתי, מכירות שסוגרות אותו, מספר אחד.",
@@ -5150,7 +5191,7 @@ GUIDE_CATS = [
    "fractional-cro-for-startups", "sales-training"]),
  ("Building and scaling a sales team", "בניית והרחבת צוות מכירות", [
    "how-to-build-a-sales-team", "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
-   "sales-team-missing-quota", "sales-compensation-plan", "setting-sales-quotas"]),
+   "sales-team-missing-quota", "why-did-my-vp-of-sales-leave", "sales-compensation-plan", "setting-sales-quotas"]),
  ("Pipeline, forecasting and outbound", "פייפליין, תחזית ואאוטבאונד", [
    "sales-pipeline-and-forecasting", "how-much-pipeline-do-you-need", "b2b-outbound-sales",
    "sales-forecast-always-wrong", "hired-reps-but-no-pipeline"]),
