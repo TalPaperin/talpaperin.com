@@ -1,0 +1,6 @@
+# Vectorize harvest queue (for Adam)
+# Contacts surfaced from replies/referrals/left-company notices on Vectorize campaigns,
+# not yet in an active campaign. Adam works these (warm calls / Calendly).
+# Format: name | email | company | source + context | date_added
+
+Tom Hollands | thollands@a16z.com | a16z (Andreessen Horowitz) | Head of Insights. Referred via a16z auto-reply on Vectorize campaign 311502 (F investment firms): Jason Saltzman (prior Head of Insights) left the firm and redirected to Tom. For Adam to reach. | 2026-11-05
