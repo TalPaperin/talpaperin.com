@@ -156,7 +156,7 @@ he charges. This is how we stop wasting Tal's calls on people who did not know t
   NOT commission-only, NOT a self-serve software tool. Ask them to take a look. ONLY AFTER they have the
   model/price and it is a fit do you lock a time. Make sure they have been sent to the site before
   any booking. Do NOT send a prospect a specific meeting time until this gate is passed.
-- NO RANDOM TIME PROPOSALS. Never throw out a clock time just to fill the calendar.
+- NO RANDOM TIME PROPOSALS. Never throw out a clock time OR a day (e.g. "Thursday or Friday?") just to fill the calendar, and never before the site+pricing gate is passed (Tal, 2026-11-05, after a reply to Trevor/Aiterra proposed days up front, one of them a Friday).
 - If the retainer is above their budget, route to the cheaper rungs instead of a call: Pay-Per-Meeting
   (done-for-you leads) or TheDealMentor.AI (DIY, tiered license fees). Do not burn a call slot on someone who
   cannot afford the service.
@@ -167,7 +167,9 @@ he charges. This is how we stop wasting Tal's calls on people who did not know t
   I have gotten this wrong before). So:
     * NET BOOKABLE NOW: 11:00-15:00, 16:30-18:00, and 19:00-22:00 Israel.
     * NET BOOKABLE after the US change: 11:00-15:00, 16:30-19:00, and 20:00-22:00 Israel.
-  (Plus the standing Shabbat pause: Fri 12:00 to Sat nightfall.)
+  WORK WEEK = SUNDAY to THURSDAY, Israel time. Tal does NOT work Fridays and does NOT work Saturdays,
+  ever (Tal, 2026-11-05). The old "Shabbat pause Fri 12:00 to Sat nightfall" understated it: treat
+  ALL of Friday and ALL of Saturday as off. Never propose, accept, or confirm a Friday or Saturday.
   CONVERSION: do it case by case, do not rely on memorized PT/ET anchors (that is where errors crept
   in). Israel is UTC+2. Take the prospect's proposed time, convert to UTC, then +2 for Israel, and
   confirm it lands inside a bookable window AND not in the meeting block. If unsure of the prospect's
