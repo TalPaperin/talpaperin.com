@@ -4,3 +4,4 @@
 # Format: name | email | company | source + context | date_added
 
 Tom Hollands | thollands@a16z.com | a16z (Andreessen Horowitz) | Head of Insights. Referred via a16z auto-reply on Vectorize campaign 311502 (F investment firms): Jason Saltzman (prior Head of Insights) left the firm and redirected to Tom. For Adam to reach. | 2026-11-05
+Doron Bleiberg | LinkedIn: doron-bleiberg-bba60a22 (no email) | AWS, GenAI Startup Solutions Architect | NOT a buyer, but technically aligned with Hindsight: publishes on multi-agent architectures, shared context, persistent cross-session storage, and builds his own agents. Replied to Tal's LinkedIn DM 2026-11-05 pointing to the AWS account team for GTM. PLAY (not a demo): Tal (his connection) to ask Doron to connect Vectorize/Adam with the right AWS co-sell/partner people. He is a warm AWS-channel bridge, not a lead to pitch. | 2026-11-05
