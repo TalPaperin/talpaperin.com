@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>&quot;תרבות של אי-עמידה בהבטחות&quot; היא בעיית מכירות</title>
+      <link>https://talpaperin.com/he/blog/overpromising-kills-companies</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/overpromising-kills-companies</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description>משקיע תיאר את Sapiens כבעלת תרבות של אי-עמידה בהבטחות. זה מתחיל במכירות. כשנציגים מוכרים יתר על המידה כדי לעמוד ביעד, המימוש משלם והנטישה מגיעה.</description>
+    </item>
     <item>
       <title>40 חברות, קטגוריה אחת, 20 מהן ישראליות. איך מוכרים?</title>
       <link>https://talpaperin.com/he/blog/selling-in-a-crowded-category</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/pay-per-meeting-not-per-retainer</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>רוב שירותי ה-SDR גובים ריטיינר קבוע על פעילות. בניתי את ההפך: אתם משלמים על פגישות ה-B2B המוכשרות שאנחנו באמת קובעים. פחות פגישות, אתם משלמים פחות.</description>
-    </item>
-    <item>
-      <title>חברה שכרה אותי כדי לצמוח פי 30. הנה התשובה הכנה.</title>
-      <link>https://talpaperin.com/he/blog/can-you-grow-a-company-30x</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/can-you-grow-a-company-30x</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description>חברה שכרה אותי כדי לצמוח פי 30. גרנט קרדון עושה פי 10. אפשר באמת לצמוח פי 30? כן, אבל רק אם עובדים אחורה ובונים את המכונה שמייצרת את זה.</description>
     </item>
   </channel>
 </rss>
