@@ -58,7 +58,7 @@ exactly what they asked for (a managed team doing the doing, Tal owning the numb
 Receipt / mistake to never repeat: Michael Novofastovsky (Quttera, co-founder/CTO, funded, wanted a
 team to actively acquire customers for their Security & Compliance API) was nudged toward
 Pay-Per-Meeting, the cheapest done-for-you-meetings tier, which under-sold him and anchored him low.
-Pay-Per-Meeting and DealMentor are for genuine budget limits, pre-revenue, or "I just want meetings",
+Pay-Per-Meeting and DealMentor are for genuine budget limits (no budget for senior help, any stage) or "I just want meetings". NOTE (Tal, 2026-11-06): pre-revenue is NOT by itself a downsell signal, Tal builds the sales + marketing machine from scratch for early/pre-revenue companies as a paid managed engagement (case studies: Kanduai and others); route by budget/intent, not stage.
 they are NOT the answer for a resourced buyer who wants ongoing execution. Default UP the ladder to the
 full managed engagement; surface pricing to Tal. See the OFFER LADDER in ops/reply_check_playbook.md.
 BEST FIX (Tal, 2026-11-04): the way to avoid the whole downsell/mis-scope trap is to NOT propose any
