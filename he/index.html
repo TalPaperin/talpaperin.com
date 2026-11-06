@@ -331,6 +331,18 @@
     @media(max-width:760px){.commitbar .row{grid-template-columns:repeat(2,1fr)}}
     .rules{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:42px}
     @media(max-width:860px){.rules{grid-template-columns:1fr}}
+    /* fit (who it's for) */
+    .fit{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:42px}
+    .fit .col{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 28px}
+    .fit .col.no{background:var(--bg2)}
+    .fit .col h3{font-family:'Heebo',sans-serif;font-weight:800;font-size:1.25rem;margin-bottom:18px;color:#fff}
+    .fit .col.yes h3{color:var(--blue)}
+    .fit ul{list-style:none;display:grid;gap:13px}
+    .fit li{position:relative;padding-inline-start:28px;color:#cdd6e0;font-size:1rem;line-height:1.6}
+    .fit .yes li::before{content:"";position:absolute;inset-inline-start:3px;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--blue)}
+    .fit .no li{color:var(--soft)}
+    .fit .no li::before{content:"\00d7";position:absolute;inset-inline-start:2px;top:-.02em;color:#6b7785;font-size:1.3rem;font-weight:700;line-height:1.2}
+    @media(max-width:760px){.fit{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -522,6 +534,37 @@
     </div>
   </section>
 
+  <!-- Who it's for -->
+  <section class="accent-top">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="glowline"></div>
+        <p class="eyebrow">התאמה</p>
+        <h2>עם מי אני עובד, ועם מי לא.</h2>
+        <p>לא יועץ, לא מצגת, לא עצה מהצד. לכן זה מתאים רק לחלק מהחברות. הנה החיתוך הכן.</p>
+      </div>
+      <div class="fit reveal">
+        <div class="col yes">
+          <h3>מתאימים אם</h3>
+          <ul>
+            <li>אתם חברת B2B עם הכנסות או מגובת מימון, לא לפני הכנסות.</li>
+            <li>ההכנסות נתקעו: מספר שאתם מפספסים שוב ושוב, צוות שלא סוגר, VP שעזב, מערך מכירה שלא מתמרגל.</li>
+            <li>אתם מוכנים לתת למישהו לקחת אחריות על המספר ולשנות את איך שאתם מוכרים.</li>
+            <li>אתם רוצים שהבעיה תיפתר, לא עוד דוח במגירה.</li>
+          </ul>
+        </div>
+        <div class="col no">
+          <h3>לא מתאימים אם</h3>
+          <ul>
+            <li>אתם עדיין לפני הכנסות, בלי לקוחות. קודם למצוא התאמת מוצר-שוק.</li>
+            <li>אתם מחפשים כפתור קסם, קורס, או את הפתרון הזול והמהיר.</li>
+            <li>אתם רוצים עצה לשמור, לא מישהו שיריץ אותה.</li>
+            <li>אתם לא מוכנים לשנות את הדרך שבה אתם מוכרים.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="final">
     <canvas id="cv2"></canvas>
