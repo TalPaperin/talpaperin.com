@@ -231,7 +231,7 @@ Sales Training Firms, 310574 Outbound Agencies, 310575 Agency sales teams, are u
 NOT relevant, do not monitor or re-tune them unless Tal resumes them. As of 2026-10-28 the live
 three were discovery/review (0 sent, pools still building). target_url =
 https://www.thedealmentor.ai/contact. Decisions: I handle DealMentor replies on a DM-specific
-track (see reply_check_playbook.md: point to thedealmentor.ai, DIY framing (do not quote a flat price), NO Calendly,
+track (see reply_check_playbook.md: point to thedealmentor.ai/pricing, DIY framing (tiers $149/$449/$1,199/mo + BPO/enterprise; "from $149/mo" is fine), NO Calendly,
 NO fractional-CRO pitch), and I tightened the ICP + offers (done via PATCH): set target_role per
 segment, capped company size to small (~1-50, a couple at ~1-75; dropped the old 1-500 band,
 since the DealMentor buyer is the "can't afford senior help" small/early crowd), and rewrote each
