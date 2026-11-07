@@ -349,14 +349,19 @@ real signal is the per-campaign inbox contents.
 
 Tal observes Shabbat, so NOTHING may go out in his name during it.
 - Window: from Friday 12:00 until Saturday nightfall in Israel time (Asia/Jerusalem,
-  UTC+3 in DST / UTC+2 in standard time). Use Saturday 20:30 Israel time as a safe
-  year-round "Shabbat is over" cutoff; if unsure whether it has ended, wait.
+  UTC+3 in DST / UTC+2 in standard time). Shabbat end is SEASONAL, it tracks nightfall,
+  NOT a fixed clock time (Tal, 2026-11-07, correcting an earlier wrong "20:30 year-round").
+  - WINTER (standard time, roughly late Oct to late Mar): nightfall is early, ~17:15 to
+    17:40 Israel. Use 17:45 Israel as the safe winter "Shabbat is over" cutoff.
+  - SUMMER (DST, roughly late Mar to late Oct): nightfall is late, ~19:30 to 20:45. Use
+    20:45 Israel as the safe summer cutoff.
+  If unsure which side of nightfall it is (e.g. the 15 min before the cutoff), wait.
 - During the window the reply-check routine may still run its read-only scan, but it
   sends NOTHING: no reply, no rebuttal, no nudge, and no email to Tal. Stay completely
   quiet. Hold any hot lead or nudge until after the window; prospects can still self-book
   via the Calendly link already in their thread, so nothing is lost by waiting.
 - A 48h nudge that comes due during Shabbat is sent AFTER the window, not during it.
-- MOTZEI SHABBAT SUMMARY: the FIRST reply-check run after Saturday 20:30 Israel posts
+- MOTZEI SHABBAT SUMMARY: the FIRST reply-check run after the seasonal cutoff above posts
   Tal ONE consolidated summary of everything that came in and everything held across
   Friday-Saturday, then processes the held backlog (send the held replies/nudges then).
   Only the hourly routine (not the +30 offset one) posts this summary, to avoid a
