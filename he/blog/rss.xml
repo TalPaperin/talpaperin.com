@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>כשהערוץ שמזין אתכם משתנה, ההכנסה שלכם חשופה</title>
+      <link>https://talpaperin.com/he/blog/when-your-distribution-channel-shifts</link>
+      <guid isPermaLink="true">https://talpaperin.com/he/blog/when-your-distribution-channel-shifts</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI משנה איך מלונות מגיעים למטיילים, וסבב של 25 מיליון דולר הגיע בעקבות זה. הלקח לכל מייסד: אם ערוץ אחד מזין את רוב ההכנסה, אתם לא הבעלים של הביקוש.</description>
+    </item>
     <item>
       <title>&quot;תרבות של אי-עמידה בהבטחות&quot; היא בעיית מכירות</title>
       <link>https://talpaperin.com/he/blog/overpromising-kills-companies</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/he/blog/revenue-is-the-only-real-collateral</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
       <description>אריאלי לוותה 30 מיליון דולר כנגד מניות אלרון. המניה ירדה 34% והשותפות מתפרקת. הלקח למנכ״לים: רק הכנסות בנות קיימא הן בטוחה אמיתית.</description>
-    </item>
-    <item>
-      <title>תפסיקו לשלם ריטיינר ל-SDR על פעילות. שלמו על פגישות.</title>
-      <link>https://talpaperin.com/he/blog/pay-per-meeting-not-per-retainer</link>
-      <guid isPermaLink="true">https://talpaperin.com/he/blog/pay-per-meeting-not-per-retainer</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>רוב שירותי ה-SDR גובים ריטיינר קבוע על פעילות. בניתי את ההפך: אתם משלמים על פגישות ה-B2B המוכשרות שאנחנו באמת קובעים. פחות פגישות, אתם משלמים פחות.</description>
     </item>
   </channel>
 </rss>

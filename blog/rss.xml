@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>When the Channel That Feeds You Changes, Your Revenue Is Exposed</title>
+      <link>https://talpaperin.com/blog/when-your-distribution-channel-shifts</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/when-your-distribution-channel-shifts</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI is changing how hotels reach travelers, and a $25M round followed. The lesson for any founder: if one channel feeds most of your revenue, you do not own your demand.</description>
+    </item>
     <item>
       <title>&quot;A Culture of Failing to Keep Promises&quot; Is a Sales Problem</title>
       <link>https://talpaperin.com/blog/overpromising-kills-companies</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/revenue-is-the-only-real-collateral</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
       <description>Arieli borrowed $30M against Elron shares. The stock fell 34% and the partnership is unraveling. The lesson for CEOs: only durable revenue is real collateral.</description>
-    </item>
-    <item>
-      <title>Stop Paying SDR Retainers for Activity. Pay for Meetings.</title>
-      <link>https://talpaperin.com/blog/pay-per-meeting-not-per-retainer</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/pay-per-meeting-not-per-retainer</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Most SDR services bill a flat retainer for activity. I built the opposite: you pay for the qualified B2B meetings we actually book. Fewer meetings, you pay less.</description>
     </item>
   </channel>
 </rss>

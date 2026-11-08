@@ -97,6 +97,7 @@
 - [International B2B sales guide (Hebrew)](https://talpaperin.com/he/challenges): the bold guide to selling B2B internationally from Israel.
 
 ## Blog posts
+- [When the Channel That Feeds You Changes, Your Revenue Is Exposed](https://talpaperin.com/blog/when-your-distribution-channel-shifts): AI is changing how hotels reach travelers, and a $25M round followed. The lesson for any founder: if one channel feeds most of your revenue, you do not own your demand.
 - ["A Culture of Failing to Keep Promises" Is a Sales Problem](https://talpaperin.com/blog/overpromising-kills-companies): An investor described Sapiens as having a culture of failing to keep promises. That starts in sales. When reps oversell to hit quota, delivery pays and churn follows.
 - [40 Companies, One Category, 20 of Them Israeli. How Do You Sell?](https://talpaperin.com/blog/selling-in-a-crowded-category): Nikesh Arora counts 40 firms racing to secure AI agents, at least 20 Israeli. When the category is a knife fight, the deck does not win. The sales motion does.
 - [Debt Does Not Kill Companies. Soft Revenue Plus Debt Does.](https://talpaperin.com/blog/debt-plus-soft-revenue-kills-startups): Analysts warn that debt could amplify the damage AI does to businesses. The real risk is debt stacked on revenue that was never durable. Fix the revenue first.
