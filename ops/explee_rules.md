@@ -29,6 +29,25 @@ Cut any sentence that explains instead of proves. End on one clean question, the
 (Self-correction, same day: the Ron/akologic reply ran three paragraphs of reframe. Too long.
 Shorter, receipt-first, would have been stronger.)
 
+THE CLOSE (part 2 of the same win, Tal, 2026-11-08). After the matched opener, she described her
+whole GTM problem and asked to book. Tal's reply that closed it: "Absolutely I can help, that's
+exactly what I am doing. I brought up ClinicMind exactly because they are quite similar to you and
+because of what was required of me to do for them. I have built, hired and trained and managed both
+their sales and marketing departments. Here's my availability: <calendly>." The moves:
+- CONFIDENT YES, no qualifier. "Absolutely I can help, that's exactly what I am doing." No hedging.
+- MAKE THE RECEIPT'S RELEVANCE EXPLICIT and tie it to THEM: "I brought up ClinicMind because they
+  are quite similar to you." Turn the credential into a deliberate, matched choice.
+- CONCRETE SCOPE IN THEIR WORDS: mirror the exact ask back in real verbs ("built, hired, trained,
+  managed sales AND marketing"), which also signals the full managed engagement, not advisory.
+- GIVE THE CALENDLY LINK IMMEDIATELY. A hot, self-qualified lead who is ASKING to book gets the
+  link now. No pricing gate, no "depends on budget", no proposing specific days.
+GATE DISCIPLINE (reconciles with the Raj/Trevor qualification-gate rules): the site+pricing gate and
+"no random time proposals" are for LUKEWARM or price-shopper leads, and for commercial-model
+mismatches (commission-only, pay-from-revenue, "what does it cost" as the lead question) -> front-load
+pricing/site first so non-fits self-filter. A lead who has already described their problem and
+explicitly asked for the call is qualified by their own words: close it, send the self-serve Calendly
+link right away (the "no specific day/time" rule still holds; the link is self-serve, not a proposed slot).
+
 ## Sender identity: PERSONA model (Tal, 2026-11-04) -- SUPERSEDES the old "sender name is settled"
 
 Tal flipped the Explee project (49501) sender name to "Mailbox names" (Automatic): every cold
