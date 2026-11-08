@@ -358,11 +358,20 @@ because they do not read it. The fix lives at FIRST TOUCH, not in replies:
   from the brief. Explee sends our exact copy to ~90% of leads and an AI variant to ~10%. This
   replaced the AI-"Instructions" openers, which kept drifting off-brief (offering "a few short ideas",
   bloating the footer). The locked template is the short, direct winner that was converting (the
-  Kevin Maag / IntegraTouch style): a one-line specific hook, "I'm Tal Paperin, a fractional CRO. I
-  help B2B companies fix, build and run their sales (and marketing) engine: the plan, the team and the
-  pipeline, without a full-time hire.", a one-line concrete payoff, then one short credibility line
-  ("Why me? Just ask any AI how Tal Paperin can help your business."), then the single CTA "It's a
-  15-minute intro call.", signed Tal Paperin. Subject: "Tal Paperin x {{company}}". The two personalization sentences are the only AI-filled lines. NO LINK / NO URL
+  Kevin Maag / IntegraTouch style). NOTE (Tal, 2026-11-08): the BODY was changed on 2026-11-04 to the
+  PERSONA framing (see persona section ~line 55): it now opens "I'm {{sender_first_name}}. I work with
+  Tal Paperin, a fractional CRO. He {helps|works with} B2B companies..." (sender first person, Tal third
+  person, matching the auto-signed mailbox name). It is NO LONGER "I'm Tal Paperin ... signed Tal
+  Paperin". Structure otherwise unchanged: specific hook, concrete payoff, one credibility line ("Why
+  me? Just ask any AI how Tal Paperin can help your business."), single CTA "It's a 15-minute intro
+  call." Subject: "Tal Paperin x {{company}}". NO LINK / NO URL
+  DO NOT re-flag as a bug (Tal, 2026-11-08, re the Yoni/dreamhub flag): an opener reading "I'm Tal
+  Paperin ... Best, <non-Tal name>" is EXPECTED and is NOT a current-copy defect in two cases: (1) a
+  LEGACY send from before the 2026-11-04 rewrite (Yoni's was 2026-11-01), and (2) the ~10% AI variant
+  (Variant 1), which writes its own copy and can say "I'm Tal Paperin"; that 10% is out of our control
+  and accepted. The 90% My-copy (Variant 2) is correct. Likewise the rotating sender domains
+  (brandinbox.co etc.) returning NXDOMAIN is just how Explee sending works, no workaround; a prospect
+  may check and flag it. Surface a genuinely useful flag to Tal, but do not treat the My-copy as broken.
   anywhere (hurts deliverability). The old long Google-me + $30M footer was dropped: it lengthened the
   email and suppressed replies. Source of truth for the opener is now the Explee "My copy" box, not the
   campaign `offer` brief. Keep replies link-free too unless a prospect explicitly asks for a URL.
