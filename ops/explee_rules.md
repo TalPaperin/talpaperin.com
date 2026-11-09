@@ -63,6 +63,13 @@ people working on his behalf.
 The OLD rule ("sender name is settled, it is Tal Paperin, persona names are a 10% bug to
 ignore") is REVERSED and no longer applies. Do NOT revert the sender name to "Tal Paperin" and
 do NOT re-flag persona names as a bug.
+WHO-ARE-YOU ANSWER (Tal, 2026-11-09, re Judi Hezi/Manavate): when a prospect asks who the sender
+is or "tell me about yourself / what do you do" (common after the persona opener), the persona
+answers plainly that they WORK FOR Tal: English "I work for Tal Paperin, a fractional CRO who..."
+/ Hebrew "אני עובד עבור טל פאפרין". State it directly; do NOT just deflect to "visit Tal's site"
+without first saying who you are. Then one short line on what Tal does + the site. (Do NOT send a
+separate second message just to add this line to a thread already replied to; fold it into the
+reply when the question is asked.)
 Copy constraints learned while deploying this (2026-11-04), keep them in mind for any My-copy edit:
 - Explee's My-copy spam checker scans the TEMPLATE text, INCLUDING {{ai:}} instruction wording.
   Never put trigger words ("guarantee(s)", "promise(s)", money figures) inside an {{ai:}}
