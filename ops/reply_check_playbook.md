@@ -75,6 +75,15 @@ operator supports ONLY d/m/y (days/months/years). `newer_than:2h`, `newer_than:9
 are NOT honored (an `m` is read as MONTHS, `h` is ignored), so any minute/hour window silently fails and
 the search returns the wrong set. NEVER use an hour/minute unit. Use `newer_than:1d` (or `2d`).
 
+BOOKING DETECTION (ADD every cycle - Tal, 2026-11-09, after Kian Ghodoussi booked and the cycle did
+not notice): a booking does NOT come from the lead's address, it comes from Calendly/Zoom, so the
+lead-reply search below misses it entirely. Each cycle ALSO search
+`in:inbox newer_than:1d (from:notifications@calendly.com OR from:no-reply@zoom.us)` and read any
+"New Event:" / "Updated:" / "Invitee" notification. For each new booking: capture invitee name, email,
+company, phone and the meeting time; set that lead BOOKED in the tracker and add the email to
+ops/booked_leads.txt so no routine re-contacts them; then TELL TAL (a booking is always worth surfacing).
+A "Canceled:" notification -> note it and, if it was a tracked lead, move them back to AWAITING/NURTURE.
+
 Run BOTH of these every cycle (don't rely on a time window alone):
 1. DETERMINISTIC lead-reply check (this is the one that catches breakup/follow-up replies): query the
    tracker for all leads with status AWAITING or REPLIED, then Gmail-search
