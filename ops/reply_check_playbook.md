@@ -79,9 +79,13 @@ BOOKING DETECTION (ADD every cycle - Tal, 2026-11-09, after Kian Ghodoussi booke
 not notice): a booking does NOT come from the lead's address, it comes from Calendly/Zoom, so the
 lead-reply search below misses it entirely. Each cycle ALSO search
 `in:inbox newer_than:1d (from:notifications@calendly.com OR from:no-reply@zoom.us)` and read any
-"New Event:" / "Updated:" / "Invitee" notification. For each new booking: capture invitee name, email,
-company, phone and the meeting time; set that lead BOOKED in the tracker and add the email to
-ops/booked_leads.txt so no routine re-contacts them; then TELL TAL (a booking is always worth surfacing).
+"New Event:" / "Updated:" / "Invitee" notification. For each new booking, get_thread the FULL Calendly "New Event" body (NOT the preview) - it is rich:
+invitee email, phone, time zone, the Zoom link, and especially the invitee's free-text answer to
+"Any details you'd like to provide before the meeting?" (their own description of their company, stage,
+clients and growth problem) plus any website links. Capture ALL of it into the tracker lead doc and
+build a 3-4 line pre-call brief (who they are, their traction, what's limiting growth, the call angle).
+Set that lead BOOKED, add the email to ops/booked_leads.txt so no routine re-contacts them; then TELL
+TAL with the brief (a booking is always worth surfacing, and Tal uses the brief to run the call).
 A "Canceled:" notification -> note it and, if it was a tracked lead, move them back to AWAITING/NURTURE.
 
 Run BOTH of these every cycle (don't rely on a time window alone):
