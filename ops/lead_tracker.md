@@ -22,6 +22,17 @@ Seeded 2026-11-03 with 42 leads (33 re-engagements + Explee warm/closed). The up
 live only here and in the delivered master CSV, never committed to the repo.
 The table below is a lightweight mirror for Explee-sourced open leads; the Artifact is authoritative.
 
+## Reply log (every reply, audit trail) -- `reply_log` collection in the SAME Artifact (Tal, 2026-11-09)
+After Tal asked "are you logging ALL those replies", the raw every-reply log lives in the tracker
+Artifact's `reply_log` collection (NOT the public repo: it holds prospect PII and the repo is public).
+- One document per campaign, id `<Project>-<campaignId>` (e.g. `DealMentor-359966`), fields: project,
+  campaign, count, by_class, and `replies` (array). Each reply: name, email, latest_reply_at,
+  classification (engaged / decline / autoresponder / reply-other / vectorize-human), answered_by_us,
+  body_excerpt. Backfilled 2026-11-09 with 434 replies across 20 campaigns (the full history).
+- MAINTENANCE: every reply-check cycle, append any NEW human reply (not already in that campaign's
+  doc) to the matching `reply_log/<Project>-<campaignId>` doc. Rebuild the full backfill with
+  scratchpad `log_replies.py` (discovers all campaigns live, same classifier as scan.py).
+
 ## Explee-sourced open leads (committable here)
 | Date | Source | Name | Company | Email | Status | Last action | Next step |
 |---|---|---|---|---|---|---|---|
