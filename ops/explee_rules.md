@@ -290,6 +290,22 @@ Do NOT re-broaden to mid-market/enterprise. Add 55881 to every reply-check cycle
 `keywords` field is read-only via the API (PATCH rejects it with extra_forbidden); strip it from
 any PATCH body.
 
+### DealMentor reply GOAL + persona (Tal, 2026-11-09) -- the current rule
+For ALL DealMentor replies the goal is: drive them to the WEBSITE to read more, get them to
+"download the demo" (= Start Free self-serve signup), and if they want it, offer to demo it for them.
+Concretely:
+- Read more / the product: https://www.thedealmentor.ai/platform (site root https://www.thedealmentor.ai).
+- "Download the demo" = Start Free (self-serve account): https://app.thedealmentor.ai/register.
+- Demo on request: offer a short walkthrough ("reply and I'll set up 20 min"). NO Calendly link
+  (keeps the John Turner persona separate from Tal's ksw Calendly).
+- Persona: reply AS **John Turner at DealMentor** (the DM sender), NOT as Tal, NO fractional-CRO
+  pitch. Keep it short, tie to their context, honor CLAUDE.md voice (no em dashes, no slop).
+- CC tal@ksw.solutions on every DM reply. Apply the Shabbat pause + disqualifiers like any campaign.
+- SCOPE UPDATE: the old "only 3 campaigns relevant" line above is STALE. DealMentor (project 55881)
+  now runs 13 live campaigns (Insurance Agency Sales, Dealership Sales Desks, Home-care/BPO, VP/Dir
+  Sales verticals, etc.). The scanner discovers campaigns live, so reply to engaged leads across ALL
+  live DM campaigns, not just the original three.
+
 ## Follow-up cadence: POUND warm non-bookers until they book (Tal, 2026-10-25)
 
 This OVERRIDES the routine prompt's "one 48h nudge, once ever" limit. For any lead who showed
