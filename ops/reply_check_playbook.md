@@ -65,11 +65,23 @@ Note: a follow-up sent FROM tal@ksw.solutions via Gmail (e.g. a pound with a fre
 ## Report
 Report only new replies, rebuttals or nudges sent, or anything genuinely needing Tal (a real lead, an ambiguous thread, a problem). Otherwise stay completely quiet. Hard declines, opt-outs, and leads who decline again AFTER our one rebuttal are dropped from the pound/watch list automatically and NOT reported: no "FYI they passed", no closing-the-loop line (Tal, 2026-10-26). Surface a decline only when it is genuinely ambiguous or carries something Tal needs (a referral, a complaint, a deliverability signal).
 
-## Gmail inbox check (ADD every run - Tal, 2026-11-01)
-Re-engagement emails and many replies land in the tal@ksw.solutions GMAIL inbox, NOT Explee (the 18+
-KSW re-engagements sent from tal@ksw.solutions have NO Explee thread). So each reply-check run, ALSO
-scan Gmail: load Gmail via ToolSearch, search `in:inbox newer_than:2h -from:notify@explee.com -from:tal@ksw.solutions`
-(widen the window if a run was missed). For each thread, get_thread and judge the LAST message:
+## Gmail inbox check (ADD every run - Tal, 2026-11-01; method fixed 2026-11-09 after a real miss)
+Re-engagement emails and many replies land in the tal@ksw.solutions GMAIL inbox, NOT Explee (the KSW
+re-engagements and all touch-2/3 follow-ups are sent from tal@ksw.solutions and have NO Explee thread).
+The Explee scan CANNOT see these. So each reply-check run, ALSO scan Gmail.
+
+CRITICAL BUG FIXED (Tal, 2026-11-09, Anthony Ribas / Terminology Inc was MISSED): Gmail's `newer_than:`
+operator supports ONLY d/m/y (days/months/years). `newer_than:2h`, `newer_than:90m`, `newer_than:1h`
+are NOT honored (an `m` is read as MONTHS, `h` is ignored), so any minute/hour window silently fails and
+the search returns the wrong set. NEVER use an hour/minute unit. Use `newer_than:1d` (or `2d`).
+
+Run BOTH of these every cycle (don't rely on a time window alone):
+1. DETERMINISTIC lead-reply check (this is the one that catches breakup/follow-up replies): query the
+   tracker for all leads with status AWAITING or REPLIED, then Gmail-search
+   `in:inbox newer_than:2d from:(addr1 OR addr2 OR ...)` over their exact addresses. Any hit is a real
+   reply to one of our touches: act on it. This does not depend on read/unread state or time quirks.
+2. GENERAL sweep for anything else: `in:inbox is:unread newer_than:1d -from:notify@explee.com -from:tal@ksw.solutions`.
+For each thread, get_thread and judge the LAST message:
 - IGNORE our own outbound that merely cc's Tal: sender is a rotating Explee mailbox (t@<randomword>.*,
   e.g. t@getkeenpeak.com, mt@joinhotanchor.com) and the "to" is the prospect. Those are sends, not replies.
 - IGNORE system mail: Explee notifications, invoices, OTP/verification codes, newsletters.
