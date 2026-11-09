@@ -20,16 +20,22 @@ subject line, point to talpaperin.com only if useful (pricing self-qualifies). N
 price unless asked; DealMentor is never pushed.
 
 ## Tiers (field `tier` on each lead)
-- `pound`: genuinely hot before (said yes / offered a time / "call me"). Keep going past touch 4,
-  spacing out (~every 4-5 days), until they BOOK, hard-decline, or disqualify. Do not stop at 4.
-- `sequence`: vaguer prior interest ("happy to chat") or unknown. Run the 4 touches, then NURTURE.
+- `pound`: genuinely hot before (said yes / offered a time / "call me"). Keep going UNLIMITED
+  (Tal, 2026-11-09), spacing out (~every 4-5 days), until they BOOK, hard-decline, or disqualify.
+- `sequence`: vaguer prior interest ("happy to chat") or unknown. STOP AFTER TOUCH 3 (Tal, 2026-11-09,
+  tightened from the old "4 touches then NURTURE"). Touch 3 IS the breakup ("should I close your
+  file?", the highest-reply touch), so sequence leads get touches 1, 2, then a breakup as touch 3.
+  If still silent after touch 3 -> status DROPPED (not NURTURE). Do not keep emailing low-signal
+  warm-CRM leads past a breakup.
 
 ## Triage / status moves (update the tracker every time)
 - Any genuine reply -> status REPLIED; work it through the qualification gate (site + pricing before
   proposing a time; price tiers are $2k/$6k/$12k per month, lead with $2k if asked).
 - Hard no / opt-out -> status DECLINED, mirror email to booked_leads.txt, stop.
-- `sequence` lead with no reply after touch 4 -> status NURTURE (dead-ends nurture, Tal 2026-11-03):
-  ONE light touch per month, no more active sequence.
+- `sequence` lead with no reply after touch 3 (the breakup) -> status DROPPED (Tal, 2026-11-09).
+  Stop. (This replaces the old "touch 4 then NURTURE" rule for sequence leads.)
+- CASE-STUDY / reference clients are NOT cold re-engage targets. Kanduai (ariel@kanduai.com) is a KSW
+  case study: do NOT send it the re-engage sequence; left for Tal to confirm (flagged 2026-11-09).
 - Booked -> status BOOKED + booked_leads.txt.
 - CLIENT -> never contact.
 
