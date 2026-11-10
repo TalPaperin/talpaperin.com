@@ -91,6 +91,8 @@
 - [How to Build a B2B Outbound Sales Motion](https://talpaperin.com/b2b-outbound-sales): Outbound is a system, not a headcount. How to build one from ICP to sequence to qualification, who runs it, and the metric that tells you it is working.
 - [European Market Entry for Israeli Startups](https://talpaperin.com/europe-market-entry-for-israeli-startups): Europe is not one market and it does not buy like the US. How to enter the EU the right way, country by country, without burning a year on the wrong one.
 - [How to Sell to Enterprise](https://talpaperin.com/how-to-sell-to-enterprise): Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and actually close.
+- [When Product-Led Growth Stalls: Adding a Sales Motion](https://talpaperin.com/product-led-to-sales-led): Self-serve got you to a point, then growth flattened. When to add a sales motion to a product-led company, and how to do it without breaking PLG.
+- [UK Market Entry for Israeli Startups](https://talpaperin.com/uk-market-entry-for-israeli-startups): Most Israeli founders default to the US. For some, the UK is the smarter first market abroad. When the UK makes sense, and how to enter without burning a year.
 
 ## Hebrew (עברית)
 - [Services in Hebrew](https://talpaperin.com/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew.
