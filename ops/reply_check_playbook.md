@@ -88,12 +88,24 @@ Set that lead BOOKED, add the email to ops/booked_leads.txt so no routine re-con
 TAL with the brief (a booking is always worth surfacing, and Tal uses the brief to run the call).
 A "Canceled:" notification -> note it and, if it was a tracked lead, move them back to AWAITING/NURTURE.
 
-Run BOTH of these every cycle (don't rely on a time window alone):
+SPAM CHECK (ADD every cycle - Tal, 2026-11-10, after a Predictive Minds reply CC landed in spam and was
+nearly missed): Gmail's thread-search API HIDES spam from every normal query (`in:inbox`, `in:anywhere`
+all exclude it), so a real reply or booking that Gmail misfiled as spam is INVISIBLE to the checks above.
+Each cycle ALSO run `in:spam newer_than:1d` and scan the results for: (a) a genuine PROSPECT/lead reply
+or (b) a Calendly/Zoom booking (from:notifications@calendly.com / from:no-reply@zoom.us) that got
+misrouted. Treat either exactly like its inbox equivalent (act / surface / build the booking brief).
+Ignore true junk. Note: our OWN Explee-channel reply copies (CC'd from a rotating/aimspot mailbox) also
+tend to land here; those need no action beyond confirming the send went out. The durable fix for our own
+sends is the guaranteed Gmail copy rule above (sent from tal@ksw.solutions to itself, so it is never
+spam-filtered); the spam check is the safety net for INBOUND that Gmail mis-flags.
+
+Run ALL of these every cycle (don't rely on a time window alone):
 1. DETERMINISTIC lead-reply check (this is the one that catches breakup/follow-up replies): query the
    tracker for all leads with status AWAITING or REPLIED, then Gmail-search
    `in:inbox newer_than:2d from:(addr1 OR addr2 OR ...)` over their exact addresses. Any hit is a real
    reply to one of our touches: act on it. This does not depend on read/unread state or time quirks.
 2. GENERAL sweep for anything else: `in:inbox is:unread newer_than:1d -from:notify@explee.com -from:tal@ksw.solutions`.
+3. SPAM sweep: `in:spam newer_than:1d` (per the SPAM CHECK note above) - the only way to see spam-filtered inbound.
 For each thread, get_thread and judge the LAST message:
 - IGNORE our own outbound that merely cc's Tal: sender is a rotating Explee mailbox (t@<randomword>.*,
   e.g. t@getkeenpeak.com, mt@joinhotanchor.com) and the "to" is the prospect. Those are sends, not replies.
