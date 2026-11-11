@@ -108,9 +108,9 @@
     .cc-results .cc-lines .cc-line:first-child{border-top:0;padding-top:0}
     .cc-results .calc-send{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;margin-top:0}
     .cc-results .calc-send p{flex:1 1 300px;margin:0}
-    .cc-results .calc-send .calc-send-btns{flex:1 1 340px;display:flex;flex-wrap:wrap;gap:10px}
-    .cc-results .calc-send .calc-send-btns .btn{flex:1 1 150px;text-align:center;justify-content:center}
-    .cc-results .calc-send .calc-send-note{flex-basis:100%;font-size:.85rem;margin:0}
+    .cc-results .calc-send form{flex:1 1 380px}
+    .cc-results .calc-send form .btn{flex:1 1 150px;justify-content:center;text-align:center}
+    .cc-results .calc-send .calc-send-msg{flex-basis:100%;margin:0}
     .cc-results .calc-send .calc-wa{flex-basis:100%;color:var(--blue);font-weight:600;font-size:.9rem}
     @media (max-width:860px){
       .cc-inputs{columns:1}
@@ -214,12 +214,15 @@
               <div class="cc-line"><b>Marketing spend that goes nowhere</b><span class="v" id="r5"></span><div class="cc-bar"><i id="b5"></i></div><p id="p5"></p></div>
             </div>
             <div class="calc-send">
-              <p>Want my read on these numbers? Save them as a PDF and email it to me. I will reply with what I would look at first.</p>
-              <div class="calc-send-btns">
-                <button class="btn btn-secondary" type="button" onclick="calcPdf()">Save as PDF</button>
-                <a class="btn btn-secondary" href="mailto:tal@ksw.solutions" data-cta="calc-email" onclick="calcMail(this)">Email it to Tal</a>
-              </div>
-              <p class="calc-send-note">The email opens in your own mail program with the numbers already written in. Attach the PDF and press send.</p>
+              <p>Want my read on these numbers? Fill this in. You get them as a PDF straight away, a copy comes to me, and I reply by email with what I would look at first.</p>
+              <form class="calc-form" onsubmit="return calcSubmit(event)">
+                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);opacity:0" />
+                <input type="text" name="name" placeholder="Your name" aria-label="Your name" required autocomplete="name" />
+                <input type="email" name="email" placeholder="Work email" aria-label="Work email" required autocomplete="email" />
+                <input type="text" name="company" placeholder="Company" aria-label="Company" autocomplete="organization" />
+                <button class="btn btn-secondary" type="submit">Get my PDF</button>
+              </form>
+              <p class="calc-send-msg" hidden></p>
               <a class="calc-wa" href="https://wa.me/972545308119" target="_blank" rel="noopener" data-cta="calc-whatsapp" onclick="calcWa(this)">Or send them to me on WhatsApp</a>
             </div>
           </aside>
@@ -376,58 +379,93 @@
   })();
   </script>
   <script>
-    /* Send the numbers without a form: a printable page the visitor saves as PDF, and an email that
-       opens in their own mail program (same approach as the quote builder on the pricing page). */
     var CS={"lang": "en", "dir": "ltr", "wa_hi": "Hi Tal, here are my numbers from the sales cost calculator.", "mail_hi": "Hi Tal, here are my numbers from the sales cost calculator. What would you look at first?", "subject": "My sales cost calculator numbers", "title": "What my sales and marketing machine costs", "lost": "Lost every year", "inputs": "The numbers I entered", "printb": "Print / Save as PDF", "foot": "An estimate to start a conversation, not an audit.", "tagline": "Fractional CRO"};
     var CKEYS={nsdr:'SDRs',sdrpay:'SDR pay',mt:'Meeting target/mo',ma:'Meetings held/mo',sramp:'Ramp months',sattr:'SDR attrition %',nae:'AEs',aepay:'AE pay',quota:'AE quota',attain:'Attainment %',nmgr:'Managers',mgrpay:'Manager pay',mhrs:'Firefighting hrs/wk',mkt:'Marketing spend',mwaste:'Marketing waste %',deal:'Deal value',close:'Close rate %'};
-    function cEsc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+    var cSwap=false; /* the PDF renderer does not mirror brackets in right-to-left text, so they are swapped for it */
+    function cEsc(s){s=String(s);if(cSwap)s=s.replace(/[()]/g,function(c){return c==='('?')':'(';});return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
     function cTotal(){return document.getElementById('total').textContent;}
     function cLines(){return [].map.call(document.querySelectorAll('.cc-results .cc-line'),function(l){return [l.querySelector('b').textContent,l.querySelector('.v').textContent,(l.querySelector('p')||{}).textContent||''];});}
     function calcWa(a){var L=[CS.wa_hi,'',CS.lost+': '+cTotal()];cLines().forEach(function(x){L.push(x[0]+': '+x[1]);});
       a.href='https://wa.me/972545308119?text='+encodeURIComponent(L.join('\n'));}
-    function calcMail(a){var L=[CS.mail_hi,'','Lost every year: '+cTotal()];
-      ['Pipeline not booked','Revenue closers miss','SDR ramp and churn','Management firefighting','Marketing waste'].forEach(function(k,i){var v=document.getElementById('r'+(i+1));if(v)L.push(k+': '+v.textContent);});
-      L.push('');Object.keys(CKEYS).forEach(function(id){var e=document.getElementById(id);if(e)L.push(CKEYS[id]+': '+e.value);});
-      a.href='mailto:tal@ksw.solutions?subject='+encodeURIComponent(CS.subject)+'&body='+encodeURIComponent(L.join('\n'));
-      try{gtag('event','calculator_email');}catch(x){}}
-    function calcPdf(){
+    /* The calculator form. On submit the visitor's browser builds a real PDF, downloads it for them,
+       and posts the form with the PDF to /api/calc-lead, which emails it to Tal with the PDF attached. */
+    var CX={"working": "Building your PDF...", "done": "Done. Your PDF has downloaded, and a copy is on its way to me. I will reply by email.", "done_nopdf": "Sent to me. The PDF could not be built on this device.", "printable": "Open the printable version", "fail": "That did not go through. Please send the numbers on WhatsApp, or email tal@ksw.solutions.", "fail_pdf": "Your PDF has downloaded, but the copy to me did not go through. Please email it to tal@ksw.solutions, or use WhatsApp.", "file": "sales-cost-calculator"};
+    var CCSS='.cpdf{font-family:"Space Grotesk","Rubik","Heebo",Arial,Helvetica,sans-serif;color:#111;background:#fff;max-width:794px;margin:0 auto;padding:36px 34px;line-height:1.5;box-sizing:border-box;text-align:start}'+
+      '.cpdf *{box-sizing:border-box}.cpdf[dir=rtl]{letter-spacing:.01px}'+
+      '.cpdf .top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid #1f6fb2;padding-bottom:12px}'+
+      '.cpdf .brand{font-size:24px;font-weight:700;letter-spacing:.04em;color:#111}.cpdf .tag{color:#555;font-size:13px}'+
+      '.cpdf .t1{font-size:22px;font-weight:700;margin:26px 0 4px;color:#111}.cpdf .date{color:#666;font-size:13px}'+
+      '.cpdf .total{margin:22px 0 6px;padding:18px 20px;background:#f3f7fb;border-inline-start:5px solid #c0392b;border-radius:6px}'+
+      '.cpdf .total small{display:block;color:#555;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.cpdf .total b{font-size:38px;font-weight:700;color:#c0392b;direction:ltr;display:inline-block}'+
+      '.cpdf .sub{color:#444;font-size:14px;margin:8px 0}'+
+      '.cpdf .t2{font-size:16px;font-weight:700;margin:28px 0 8px;border-bottom:1px solid #ddd;padding-bottom:6px;color:#111}'+
+      '.cpdf .t3{font-size:13px;font-weight:700;margin:16px 0 4px;color:#1f6fb2;text-transform:uppercase;letter-spacing:.06em}'+
+      '.cpdf table{width:100%;border-collapse:collapse;margin:0}.cpdf td{padding:7px 0;border-bottom:1px solid #eee;vertical-align:top;font-size:14px;color:#111}'+
+      '.cpdf td b{font-weight:700;color:#111}.cpdf td span{display:block;color:#666;font-size:12px}'+
+      '.cpdf td.p{text-align:right;font-weight:700;white-space:nowrap;direction:ltr;width:1%;padding-inline-start:16px}.cpdf[dir=rtl] td.p{text-align:left}'+
+      '.cpdf .foot{margin-top:28px;padding-top:12px;border-top:1px solid #ddd;color:#555;font-size:13px}.cpdf .foot a{color:#1f6fb2;text-decoration:none}'+
+      '.pbtn{margin:22px 30px;padding:11px 20px;font-size:15px;background:#1f6fb2;color:#fff;border:0;border-radius:8px;cursor:pointer}'+
+      '@media print{.noprint{display:none}}';
+    function cSummary(){
       var rows=cLines().map(function(x){return '<tr><td><b>'+cEsc(x[0])+'</b><span>'+cEsc(x[2])+'</span></td><td class="p">'+cEsc(x[1])+'</td></tr>';}).join('');
       var groups=[].map.call(document.querySelectorAll('.cc-fs'),function(fs){
         var r=[].map.call(fs.querySelectorAll('.cc-row'),function(row){var lb=row.querySelector('label'),i=row.querySelector('input'),f=row.querySelector('.cc-field');
           var unit=[].map.call(f.querySelectorAll('span'),function(s){return s.textContent;}).join('');
           return '<tr><td>'+cEsc((lb.childNodes[0].textContent||'').trim())+'</td><td class="p">'+cEsc(unit==='$'?'$'+i.value:i.value+(unit?' '+unit:''))+'</td></tr>';}).join('');
-        return '<h3>'+cEsc(fs.querySelector('legend').textContent)+'</h3><table>'+r+'</table>';}).join('');
+        return '<div class="t3">'+cEsc(fs.querySelector('legend').textContent)+'</div><table>'+r+'</table>';}).join('');
       var sub=document.getElementById('sub').textContent,cpm=document.getElementById('cpm').textContent;
       var d=new Date().toLocaleDateString(CS.lang==='he'?'he-IL':'en-US',{year:'numeric',month:'long',day:'numeric'});
-      var html='<!doctype html><html lang="'+CS.lang+'" dir="'+CS.dir+'"><head><meta charset="utf-8"><title>'+cEsc(CS.title)+'</title><style>'+
-        'body{font-family:Arial,Helvetica,sans-serif;color:#111;max-width:760px;margin:0 auto;padding:36px 30px;line-height:1.5}'+
-        '.top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid #1f6fb2;padding-bottom:12px}'+
-        '.brand{font-size:24px;font-weight:800;letter-spacing:.04em}.tag{color:#555;font-size:13px}'+
-        'h1{font-size:22px;margin:26px 0 4px}.date{color:#666;font-size:13px}'+
-        '.total{margin:22px 0 6px;padding:18px 20px;background:#f3f7fb;border-inline-start:5px solid #c0392b;border-radius:6px}'+
-        '.total small{display:block;color:#555;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.total b{font-size:38px;color:#c0392b;direction:ltr;display:inline-block}'+
-        '.sub{color:#444;font-size:14px;margin:8px 0}'+
-        'h2{font-size:16px;margin:28px 0 8px;border-bottom:1px solid #ddd;padding-bottom:6px}h3{font-size:13px;margin:16px 0 4px;color:#1f6fb2;text-transform:uppercase;letter-spacing:.06em}'+
-        'table{width:100%;border-collapse:collapse}td{padding:7px 0;border-bottom:1px solid #eee;vertical-align:top;font-size:14px}td span{display:block;color:#666;font-size:12px}'+
-        'td.p{text-align:right;font-weight:700;white-space:nowrap;direction:ltr;width:1%;padding-inline-start:16px}[dir=rtl] td.p{text-align:left}'+
-        '.foot{margin-top:28px;padding-top:12px;border-top:1px solid #ddd;color:#555;font-size:13px}.foot a{color:#1f6fb2}'+
-        '.pbtn{margin-top:22px;padding:11px 20px;font-size:15px;background:#1f6fb2;color:#fff;border:0;border-radius:8px;cursor:pointer}'+
-        '@media print{.noprint{display:none}body{padding:0}}'+
-        '</style></head><body>'+
+      return '<div class="cpdf" dir="'+CS.dir+'">'+
         '<div class="top"><span class="brand">TAL PAPERIN</span><span class="tag">'+cEsc(CS.tagline)+' &middot; talpaperin.com</span></div>'+
-        '<h1>'+cEsc(CS.title)+'</h1><div class="date">'+cEsc(d)+'</div>'+
+        '<div class="t1">'+cEsc(CS.title)+'</div><div class="date">'+cEsc(d)+'</div>'+
         '<div class="total"><small>'+cEsc(CS.lost)+'</small><b>'+cEsc(cTotal())+'</b></div>'+
-        '<p class="sub">'+cEsc(sub)+'</p><p class="sub">'+cEsc(cpm)+'</p>'+
+        '<div class="sub">'+cEsc(sub)+'</div><div class="sub">'+cEsc(cpm)+'</div>'+
         '<table>'+rows+'</table>'+
-        '<h2>'+cEsc(CS.inputs)+'</h2>'+groups+
+        '<div class="t2">'+cEsc(CS.inputs)+'</div>'+groups+
         '<div class="foot">'+cEsc(CS.foot)+' &middot; <a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a> &middot; <a href="https://talpaperin.com/contact">talpaperin.com/contact</a></div>'+
-        '<div class="noprint"><button class="pbtn" onclick="window.print()">'+cEsc(CS.printb)+'</button></div>'+
-        '</body></html>';
+        '</div>';}
+    function calcPdf(){
+      var html='<!doctype html><html lang="'+CS.lang+'" dir="'+CS.dir+'"><head><meta charset="utf-8"><title>'+cEsc(CS.title)+'</title><style>body{margin:0;background:#fff}'+CCSS+'</style></head><body>'+
+        cSummary()+'<div class="noprint"><button class="pbtn" onclick="window.print()">'+cEsc(CS.printb)+'</button></div></body></html>';
       var w=window.open('','_blank');
-      if(!w){window.print();return;}
+      if(!w){window.print();return false;}
       w.document.open();w.document.write(html);w.document.close();w.focus();
-      try{gtag('event','calculator_pdf');}catch(x){}
-      setTimeout(function(){try{w.print();}catch(e){}},400);}
+      setTimeout(function(){try{w.print();}catch(e){}},400);return false;}
+    var cLib=0,cLibQ=[];
+    function cLoadLib(cb){if(window.html2pdf)return cb(true);cLibQ.push(cb);if(cLib)return;cLib=1;
+      var s=document.createElement('script');s.src='/vendor/html2pdf.bundle.min.js';
+      function fin(ok){cLib=0;var q=cLibQ;cLibQ=[];q.forEach(function(f){f(ok);});}
+      s.onload=function(){fin(!!window.html2pdf);};s.onerror=function(){fin(false);};document.head.appendChild(s);}
+    function cMakePdf(){
+      if(!document.getElementById('cpdf-css')){var st=document.createElement('style');st.id='cpdf-css';st.textContent=CCSS;document.head.appendChild(st);}
+      var opt={margin:0,image:{type:'jpeg',quality:0.9},html2canvas:{scale:2,backgroundColor:'#ffffff',scrollX:0,scrollY:0,logging:false},
+        jsPDF:{unit:'pt',format:'a4',orientation:'portrait'},pagebreak:{mode:['css'],avoid:['tr','.total','.t3','.t2']}};
+      cSwap=CS.dir==='rtl';var src=cSummary();cSwap=false;
+      return window.html2pdf().set(opt).from(src,'string').outputPdf('blob');}
+    function cB64(blob){return new Promise(function(res,rej){var r=new FileReader();r.onload=function(){res(String(r.result).split(',')[1]||'');};r.onerror=rej;r.readAsDataURL(blob);});}
+    function cDownload(blob){var u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=CX.file+'-'+new Date().toISOString().slice(0,10)+'.pdf';
+      document.body.appendChild(a);a.click();setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(u);},4000);}
+    function calcSubmit(e){e.preventDefault();var f=e.target,el=f.elements,m=f.parentNode.querySelector('.calc-send-msg'),b=f.querySelector('button'),label=b.textContent;
+      function say(t,bad,extra){m.hidden=false;m.style.color=bad?'#ff9a9a':'';m.textContent=t;
+        if(extra){m.appendChild(document.createTextNode(' '));var a=document.createElement('a');a.href='#';a.textContent=CX.printable;a.style.textDecoration='underline';a.onclick=calcPdf;m.appendChild(a);}}
+      if(el['_gotcha'].value){f.style.display='none';say(CX.done);return false;}
+      if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el['email'].value.trim())){el['email'].focus();return false;}
+      b.disabled=true;b.textContent=CX.working;
+      var keys=['Pipeline not booked','Revenue closers miss','SDR ramp and churn','Management firefighting','Marketing waste'];
+      var data={name:el['name'].value,email:el['email'].value.trim(),company:el['company'].value,lang:CS.lang,page:location.pathname,total:cTotal(),
+        lines:keys.map(function(k,i){var v=document.getElementById('r'+(i+1));return [k,v?v.textContent:''];}),
+        inputs:Object.keys(CKEYS).map(function(id){var x=document.getElementById(id);return [CKEYS[id],x?x.value:''];})};
+      var gotPdf=false;
+      cLoadLib(function(ok){
+        (ok?cMakePdf().then(function(blob){gotPdf=true;cDownload(blob);return cB64(blob);}).catch(function(){return '';}):Promise.resolve(''))
+        .then(function(b64){if(b64)data.pdf=b64;
+          return fetch('/api/calc-lead',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});})
+        .then(function(r){if(!r.ok)throw new Error('send');
+          try{gtag('event','generate_lead',{method:'calculator'});}catch(x){}
+          f.style.display='none';if(gotPdf)say(CX.done);else say(CX.done_nopdf,false,true);})
+        .catch(function(){b.disabled=false;b.textContent=label;say(gotPdf?CX.fail_pdf:CX.fail,true);});
+      });
+      return false;}
   </script>
   <script>
     /* Calculator layout v2: mirror the total into the slim bar, hide the bar once the result is on screen. */
