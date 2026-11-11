@@ -97,20 +97,10 @@
     }
   });
 
-  // Phones: keep the WhatsApp bubble off the first screen so it never covers the opening copy.
   var wa = document.querySelector('.wa-float');
-  if (wa && window.matchMedia && matchMedia('(max-width:680px)').matches) {
-    var show = function () {
-      var on = window.scrollY > 320;
-      wa.style.opacity = on ? '' : '0';
-      wa.style.pointerEvents = on ? '' : 'none';
-    };
-    wa.style.transition = 'opacity .25s';
-    show();
-    window.addEventListener('scroll', show, { passive: true });
-  }
 
-  // WhatsApp: prefilled message, and on desktop a small label with an honest status by Israel time.
+  // WhatsApp: the bubble is visible from the first screen on every device. Prefilled message, plus a
+  // small label with an honest status by Israel time (stays on desktop, shows once and folds on phones).
   // Tal is on WhatsApp about 19 hours a day (Tal, 2026-11-11), so there is no hours limit and no
   // "night" state. The only offline window is Friday 15:00 to Saturday 21:00 Israel time.
   // No reply-time number is shown.
@@ -143,7 +133,10 @@
 
     var dismissed = false;
     try { dismissed = sessionStorage.getItem('wa_label_off') === '1'; } catch (x) {}
-    if (!dismissed && window.matchMedia && matchMedia('(min-width:900px) and (hover:hover)').matches) {
+    var small = !(window.matchMedia && matchMedia('(min-width:900px) and (hover:hover)').matches);
+    var seen = false;
+    try { seen = sessionStorage.getItem('wa_label_seen') === '1'; } catch (x) {}
+    if (!dismissed && !(small && seen)) {
       var box = document.createElement('div');
       box.className = 'wa-label';
       var link = document.createElement('a');
@@ -159,11 +152,17 @@
       });
       box.appendChild(link); box.appendChild(x);
       document.body.appendChild(box);
+      var expired = false;
       var place = function () {
         var nearEnd = window.innerHeight + window.scrollY > document.documentElement.scrollHeight - 220;
-        box.classList.toggle('on', !nearEnd);
+        box.classList.toggle('on', !nearEnd && !expired);
       };
-      setTimeout(function () { place(); window.addEventListener('scroll', place, { passive: true }); }, 1500);
+      setTimeout(function () { place(); window.addEventListener('scroll', place, { passive: true }); }, 1200);
+      if (small) {
+        // Phones: the bubble is always there; the label shows once per visit, then folds away.
+        try { sessionStorage.setItem('wa_label_seen', '1'); } catch (e) {}
+        setTimeout(function () { expired = true; place(); }, 9200);
+      }
     }
   }
 

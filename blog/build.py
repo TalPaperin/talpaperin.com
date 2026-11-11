@@ -65,13 +65,13 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=6" defer></script>')
+             '  <script src="/site.js?v=7" defer></script>')
 
 FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
          '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
          'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=6" />')
+         '  <link rel="stylesheet" href="/site.css?v=7" />')
 
 FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
             '<rect width="22" height="15" fill="#fff"/>'
@@ -222,7 +222,7 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  
             '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
             '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800&'
             'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=6" />')
+         '  <link rel="stylesheet" href="/site.css?v=7" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
