@@ -372,6 +372,13 @@ Setup from 2026-11-11:
 - Explee rejects a My-copy with a long passage that is identical for every lead ("too_static"): keep
   {a|b} variants through the body and one {{ai:}} line near the top.
 - Measure by demos and sign-ups, not replies. Tal sees those; ask him for the count weekly.
+- SENDER NAME = THE MAILBOX (Tal, 2026-11-11, "same as for talpaperin"): project 55881 sender name is
+  set to Automatic, so each email goes out under the mailbox's own person. Both My-copy bodies open
+  the pitch with "I'm {{sender_first_name}} from DealMentor, a virtual CRO..." and carry NO sign-off
+  (Explee adds the mailbox name). Do not set a fixed sender name and do not sign "Tal".
+  REPLIES: on a thread opened this way, reply as THAT person ("<first name> from DealMentor"), the name
+  the opener was sent under, and keep it for the whole thread. The older "reply as John Turner" rule
+  applies only to threads opened before 2026-11-11.
 - FIRST CHECKS: when 409866 reaches `review`, look at the leads, approve if they are solo-founder tech
   companies, then set its budget to $8.
 
