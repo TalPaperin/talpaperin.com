@@ -1,7 +1,7 @@
 ---
 title: "An eye that sees...and all your deeds inscribed in the Book". Of Social Media.
-seotitle: An eye that sees...and all your deeds inscrib...
-description: “Consider three things and you will not come to sin: Know what is above you: an eye that sees and an ear that hears, and all your deeds inscribed in the Book.”.
+seotitle: How You Do Business Ends Up on Social Media
+description: A photo of an Israeli fighter jet navigator taking a selfie went viral. The business lesson: how you do your job will end up on social media.
 date: 2018-04-25
 tags: B2B Sales
 image: /og-image.jpg

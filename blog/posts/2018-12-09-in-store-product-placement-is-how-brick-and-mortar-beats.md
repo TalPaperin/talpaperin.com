@@ -3,6 +3,7 @@ title: In-store product placement is how brick and mortar beats online.
 seotitle: In-Store Product Placement vs Online Retail
 description: You can use your store and your location to promote ANY brand - and not just as a POP (Point of Purchase). Though it is known that our days' physical locations.
 date: 2018-12-09
+noindex: true
 tags: Marketing, B2B Sales
 image: /og-image.jpg
 ---

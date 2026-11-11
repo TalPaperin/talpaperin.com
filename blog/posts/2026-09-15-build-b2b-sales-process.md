@@ -1,7 +1,7 @@
 ---
 title: How to Build a B2B Sales Process From Scratch
-seotitle: How to Build a B2B Sales Process From Scratch (The Real Skeleton)
-description: A CRM with random stages is not a sales process. Here is how to build a real B2B sales process from scratch, with buyer-based stages and a forecast you can trust.
+seotitle: How to Build a B2B Sales Process From Scratch
+description: A CRM with random stages is not a sales process. How to build a real B2B sales process from scratch, with buyer-based stages and a forecast you can trust.
 date: 2026-09-15
 tags: Sales Process, Go-to-Market, B2B Sales, Startups
 image: /og-image.jpg

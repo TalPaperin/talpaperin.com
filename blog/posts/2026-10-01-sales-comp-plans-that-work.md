@@ -1,6 +1,6 @@
 ---
 title: Sales Comp Plans That Actually Motivate
-seotitle: Sales Compensation Plans That Actually Motivate Reps
+seotitle: Sales Comp Plans That Actually Motivate Reps
 description: A good comp plan is simple enough a rep can calculate their own check. Here is how to set base, variable, OTE, and quota by role, and the mistakes to avoid.
 date: 2026-10-01
 tags: Sales Compensation, Sales Team, Sales Management, B2B Sales

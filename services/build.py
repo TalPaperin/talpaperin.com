@@ -28,15 +28,20 @@ SITE = "https://talpaperin.com"
 ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>\n'
              '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
-             "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
+             "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=10" defer></script>')
-FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
-         '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
-         '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
-         'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=10" />')
+             '  <script src="/site.js?v=11" defer></script>')
+# Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
+# without waiting for a stylesheet; the two used above the fold are preloaded.
+FONT_FACES_EN = "@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}"
+FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
+         '  <link rel="icon" href="/favicon.ico" sizes="any" />\n'
+         '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n'
+         '  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
+         '  <link rel="preload" href="/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
+         '  <style>' + FONT_FACES_EN + '</style>\n'
+         '  <link rel="stylesheet" href="/site.css?v=11" />')
 
 HAMBURGER = ('<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" '
              'stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/>'
@@ -72,14 +77,14 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       <div class="navlinks">
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/services/">Services</a>
+        <a href="/services">Services</a>
         <a href="/pricing">Pricing</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
-        <a href="/blog/">Blog</a>
+        <a href="/blog">Blog</a>
       </div>
       <div class="nav-right">
-        <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_IL + '''</a>
+        <a class="flag-btn" href="/he" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_IL + '''</a>
         <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
@@ -96,7 +101,7 @@ FOOTER = '''  <footer>
           <li><a href="/services/pay-per-meeting">Pay-Per-Meeting</a></li>
           <li><a href="/services/go-to-market-strategy">Go-To-Market Strategy</a></li>
           <li><a href="/services/market-entry">Market Entry</a></li>
-          <li><a href="/services/">All services</a></li>
+          <li><a href="/services">All services</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -114,7 +119,7 @@ FOOTER = '''  <footer>
         <ul>
           <li><a href="/guides">Guides</a></li>
           <li><a href="/answers">Answers</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/blog">Blog</a></li>
           <li><a href="/when-do-you-need-a-fractional-cro">When you need a fractional CRO</a></li>
           <li><a href="/fractional-cro-cost">What a fractional CRO costs</a></li>
         </ul>
@@ -131,7 +136,7 @@ FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a></span>
+      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -384,7 +389,7 @@ def guide_ld(g, url, he=False):
     """Service for offering pages, Article for informational guides."""
     if g["slug"] in ARTICLE_GUIDES:
         lang = ',"inLanguage":"he"' if he else ""
-        author_url = SITE + "/he/" if he else SITE + "/"
+        author_url = SITE + "/he" if he else SITE + "/"
         author = "טל פאפרין" if he else "Tal Paperin"
         return ('{"@context":"https://schema.org","@type":"Article",'
                 '"headline":"%s","description":"%s"%s,'
@@ -841,7 +846,7 @@ PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/services/">Services</a></p>
+        <p class="breadcrumb"><a href="/">Home</a> / <a href="/services">Services</a></p>
         <div class="glowline"></div>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
@@ -851,7 +856,7 @@ PAGE = '''<!doctype html>
 {case}
 {faq}
 {cta}
-        <div class="svc-related">Related services: {related} &middot; <a href="/blog/">Read the blog</a></div>
+        <div class="svc-related">Related services: {related} &middot; <a href="/case-studies">Case studies</a> &middot; <a href="/pricing">Pricing</a></div>
       </div>
     </div>
   </main>
@@ -869,13 +874,13 @@ INDEX = '''<!doctype html>
   <title>Services: Fractional CRO, Outsourced Sales &amp; GTM | Tal Paperin</title>
   <meta name="description" content="How I fix and run revenue: fractional CRO, outsourced sales, go-to-market strategy, sales team building, channel recruitment and international market entry." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="{site}/services/" />
-  <link rel="alternate" hreflang="en" href="{site}/services/" />
-  <link rel="alternate" hreflang="he" href="{site}/he/services/" />
-  <link rel="alternate" hreflang="x-default" href="{site}/services/" />
+  <link rel="canonical" href="{site}/services" />
+  <link rel="alternate" hreflang="en" href="{site}/services" />
+  <link rel="alternate" hreflang="he" href="{site}/he/services" />
+  <link rel="alternate" hreflang="x-default" href="{site}/services" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{site}/services/" />
+  <meta property="og:url" content="{site}/services" />
   <meta property="og:title" content="Services | Tal Paperin" />
   <meta property="og:description" content="Fractional CRO, outsourced sales, go-to-market, team building, channel recruitment and market entry." />
   <meta property="og:image" content="{site}/og-image.jpg" />
@@ -903,12 +908,14 @@ INDEX = '''<!doctype html>
         <h1>What I do.</h1>
         <p class="lead">The ways I fix and run revenue. Pick the one that matches your problem, or just tell me where it hurts and I will point you to the right one.</p>
       </div>
-      <div class="svc-grid svc-grid-3">
+      <div class="svc-grid svc-grid-3 svc-lead">
+{lead_cards}
+      </div>
+      <h2 class="svc-more-h">More ways I can help</h2>
+      <div class="svc-grid svc-grid-3 svc-rest">
 {cards}
       </div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/pricing">See pricing &rarr;</a></p>
-      <h2 class="cases-recs-h">On the ground, on five continents</h2>
-{gallery}
     </div>
   </main>
 
@@ -920,24 +927,29 @@ INDEX = '''<!doctype html>
 
 # --- Hebrew (RTL) ----------------------------------------------------------
 
-HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
-            '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
-            '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&'
-            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=10" />')
+# Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
+# without waiting for a stylesheet; the two used above the fold are preloaded.
+FONT_FACES_HE = "@font-face{font-family:'Heebo';font-style:normal;font-weight:400 900;font-display:swap;src:url(/fonts/heebo-hebrew.woff2) format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Heebo';font-style:normal;font-weight:400 900;font-display:swap;src:url(/fonts/heebo-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/rubik-hebrew.woff2) format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/rubik-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}"
+HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
+            '  <link rel="icon" href="/favicon.ico" sizes="any" />\n'
+            '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n'
+            '  <link rel="preload" href="/fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
+            '  <link rel="preload" href="/fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
+            '  <style>' + FONT_FACES_HE + '</style>\n'
+            '  <link rel="stylesheet" href="/site.css?v=11" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
     <div class="inner">
-      <a class="brand" href="/he/">טל פאפרין</a>
+      <a class="brand" href="/he">טל פאפרין</a>
       <div class="navlinks">
-        <a href="/he/">בית</a>
+        <a href="/he">בית</a>
         <a href="/he/about">אודות</a>
-        <a href="/he/services/">שירותים</a>
+        <a href="/he/services">שירותים</a>
         <a href="/he/pricing">תמחור</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
-        <a href="/he/blog/">בלוג</a>
+        <a href="/he/blog">בלוג</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
@@ -957,7 +969,7 @@ HE_FOOTER = '''  <footer>
           <li><a href="/he/services/pay-per-meeting">תשלום לפי פגישה</a></li>
           <li><a href="/he/services/go-to-market-strategy">אסטרטגיית Go-To-Market</a></li>
           <li><a href="/he/services/market-entry">חדירה לשווקים בינלאומיים</a></li>
-          <li><a href="/he/services/">כל השירותים</a></li>
+          <li><a href="/he/services">כל השירותים</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -975,7 +987,7 @@ HE_FOOTER = '''  <footer>
         <ul>
           <li><a href="/he/guides">מדריכים</a></li>
           <li><a href="/he/answers">תשובות</a></li>
-          <li><a href="/he/blog/">בלוג</a></li>
+          <li><a href="/he/blog">בלוג</a></li>
           <li><a href="/he/when-do-you-need-a-fractional-cro">מתי צריך Fractional CRO?</a></li>
           <li><a href="/he/fractional-cro-cost">כמה עולה סמנכ״ל במיקור חוץ</a></li>
         </ul>
@@ -992,7 +1004,7 @@ HE_FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a></span>
+      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a> &middot; <a href="/he/terms">תנאי שימוש</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -1329,7 +1341,7 @@ HE_FAQ = {
   ('כמה זמן לוקח לראות תוצאות?',
    ['אצלי, מהר. אבחון בשבוע הראשון, תוכנית בשבוע השני, ביצוע מהשבוע השלישי. אני לא מוכר מצגת, אני לוקח אחריות על התוצאות.']),
   ('מה ההבדל בינך לבין יועץ שיווק?',
-   ['יועץ נותן לכם המלצות והולך. אני נכנס, בונה את מערך המכירות, מגייס ומנהל את הצוות, סוגר עסקאות בעצמי ולוקח אחריות על התוצאה. <a href="/he/services/">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, לא יועץ מהצד</a>.']),
+   ['יועץ נותן לכם המלצות והולך. אני נכנס, בונה את מערך המכירות, מגייס ומנהל את הצוות, סוגר עסקאות בעצמי ולוקח אחריות על התוצאה. <a href="/he/services">סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, לא יועץ מהצד</a>.']),
  ],
 }
 
@@ -1381,7 +1393,7 @@ HE_PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/he/">בית</a> / <a href="/he/services/">שירותים</a></p>
+        <p class="breadcrumb"><a href="/he">בית</a> / <a href="/he/services">שירותים</a></p>
         <div class="glowline"></div>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
@@ -1391,7 +1403,7 @@ HE_PAGE = '''<!doctype html>
 {case}
 {faq}
 {cta}
-        <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/he/blog/">לבלוג</a></div>
+        <div class="svc-related">שירותים נוספים: {related} &middot; <a href="/he/case-studies">מקרי מבחן</a> &middot; <a href="/he/pricing">תמחור</a></div>
       </div>
     </div>
   </main>
@@ -1409,13 +1421,13 @@ HE_INDEX = '''<!doctype html>
   <title>סמנכ״ל מכירות ו-GTM במיקור חוץ | טל פאפרין</title>
   <meta name="description" content="איך אני מתקן ומריץ מכירות: סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, מכירות במיקור חוץ, אסטרטגיית Go-To-Market, בניית צוות מכירות, גיוס מפיצים וחדירה לשווקים בינלאומיים." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="{site}/he/services/" />
-  <link rel="alternate" hreflang="en" href="{site}/services/" />
-  <link rel="alternate" hreflang="he" href="{site}/he/services/" />
-  <link rel="alternate" hreflang="x-default" href="{site}/services/" />
+  <link rel="canonical" href="{site}/he/services" />
+  <link rel="alternate" hreflang="en" href="{site}/services" />
+  <link rel="alternate" hreflang="he" href="{site}/he/services" />
+  <link rel="alternate" hreflang="x-default" href="{site}/services" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{site}/he/services/" />
+  <meta property="og:url" content="{site}/he/services" />
   <meta property="og:title" content="שירותים | טל פאפרין" />
   <meta property="og:description" content="סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, מכירות במיקור חוץ, GTM, בניית צוות, גיוס מפיצים וחדירה לשווקים." />
   <meta property="og:image" content="{site}/og-image.jpg" />
@@ -1440,12 +1452,14 @@ HE_INDEX = '''<!doctype html>
         <h1>מה אני עושה.</h1>
         <p class="lead">הדרכים שבהן אני מתקן ומריץ מכירות. בחרו את זו שמתאימה לבעיה שלכם, או <a href="/he/challenges">קראו את המדריך</a> ותגלו איפה כואב.</p>
       </div>
-      <div class="svc-grid svc-grid-3">
+      <div class="svc-grid svc-grid-3 svc-lead">
+{lead_cards}
+      </div>
+      <h2 class="svc-more-h">עוד דרכים שבהן אני עוזר</h2>
+      <div class="svc-grid svc-grid-3 svc-rest">
 {cards}
       </div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/he/pricing">לתמחור &larr;</a></p>
-      <h2 class="cases-recs-h">בשטח, בחמש יבשות</h2>
-{gallery}
     </div>
   </main>
 
@@ -1491,7 +1505,7 @@ HE_FAQPAGE = '''<!doctype html>
         <p class="lead">{lead}</p>
 {items}
 {cta}
-        <div class="svc-related">קראו עוד: <a href="/he/services/">השירותים שלי</a> &middot; <a href="/he/blog/">הבלוג</a></div>
+        <div class="svc-related">קראו עוד: <a href="/he/services">השירותים שלי</a> &middot; <a href="/he/blog">הבלוג</a></div>
       </div>
     </div>
   </main>
@@ -1545,7 +1559,6 @@ CONTACT_EN = '''<!doctype html>
         <p class="eyebrow">Contact</p>
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
-        <div class="cta-strip"><p><strong>Fastest: pick a time.</strong> 15 minutes, no pitch. You leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1643,7 +1656,6 @@ CONTACT_HE = '''<!doctype html>
         <p class="eyebrow">צור קשר</p>
         <h1>בואו נדבר.</h1>
         <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
-        <div class="cta-strip"><p><strong>הכי מהיר: לבחור זמן.</strong> 15 דקות, בלי ניסיונות מכירה. תצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1985,6 +1997,24 @@ LOGOS = [
 ]
 
 
+# The three services the index page leads with, in this order (Tal, 2026-11-11). The rest sit under a second heading.
+LEAD_SERVICES = ["fractional-cro", "outsourced-sales", "pay-per-meeting"]
+
+# One recommendation per service page, matched by what the client actually hired Tal for.
+# Index into TESTIMONIALS_EN / TESTIMONIALS_HE (same order in both). No B2G-specific
+# recommendation exists yet, so that page carries a general one.
+SERVICE_PROOF = {
+    "fractional-cro": 0, "outsourced-sales": 1, "go-to-market-strategy": 5, "market-entry": 13,
+    "sales-team-building": 2, "distributor-channel-recruitment": 18, "pay-per-meeting": 7,
+    "fractional-cmo": 6, "b2g-public-sector": 19,
+}
+
+
+def render_service_proof(slug, he=False):
+    idx = SERVICE_PROOF.get(slug)
+    return "" if idx is None else render_proof(idx, he).replace("      <figure", "        <figure", 1)
+
+
 def render_proof(idx, he=False):
     """One named client quote, for placing beside prices and forms."""
     t = (TESTIMONIALS_HE if he else TESTIMONIALS_EN)[idx]
@@ -1992,9 +2022,10 @@ def render_proof(idx, he=False):
     label, href, arrow = (("להמלצות נוספות", "/he/recommendations", "&larr;") if he
                           else ("More recommendations", "/recommendations", "&rarr;"))
     return ('      <figure class="proof-quote"><blockquote>%s</blockquote>'
-            '<figcaption class="who">%s<span><b>%s</b><span>%s, %s</span></span></figcaption>'
+            '<figcaption class="who">%s<span><b>%s</b><span>%s</span></span></figcaption>'
             '<a class="more" href="%s">%s %s</a></figure>'
-            ) % (esc(t["q"]), photo, esc(t["name"]), esc(t["role"]), esc(t["company"]), href, label, arrow)
+            ) % (esc(t["q"]), photo, esc(t["name"]),
+                 esc(", ".join(x for x in (t.get("role"), t.get("company")) if x)), href, label, arrow)
 
 
 def render_logo_wall(logos):
@@ -2018,17 +2049,6 @@ def render_logo_wall(logos):
 
     return ('<div class="proof-carousel" aria-label="Companies Tal has built sales for">%s%s</div>'
             % (track(rows[0], "ltr"), track(rows[1], "rtl")))
-
-
-def render_gallery(alt="Tal Paperin in the field"):
-    d = os.path.join(ROOT, "img", "gallery")
-    if not os.path.isdir(d):
-        return ""
-    files = sorted(f for f in os.listdir(d) if f.lower().endswith(".jpg"))
-    tiles = "".join(
-        '<img src="/img/gallery/%s" alt="%s" loading="lazy" />' % (f, esc(alt))
-        for f in files)
-    return '<div class="photo-gallery">%s</div>' % tiles
 
 
 def render_quote_grid(quotes, he=False):
@@ -2082,7 +2102,7 @@ REC_PAGE_EN = '''<!doctype html>
         <h2 class="cases-recs-h">In their words</h2>
 {quotes}
 {cta}
-        <div class="svc-related">See the <a href="/case-studies">case studies</a> behind these, or explore the <a href="/services/">services</a>.</div>
+        <div class="svc-related">See the <a href="/case-studies">case studies</a> behind these, or explore the <a href="/services">services</a>.</div>
       </div>
     </div>
   </main>
@@ -2136,7 +2156,7 @@ REC_PAGE_HE = '''<!doctype html>
         <h2 class="cases-recs-h">בלשונם</h2>
 {quotes}
 {cta}
-        <div class="svc-related">ראו את <a href="/he/case-studies">מקרי המבחן</a> שמאחורי אלה, או עיינו ב<a href="/he/services/">שירותים</a>.</div>
+        <div class="svc-related">ראו את <a href="/he/case-studies">מקרי המבחן</a> שמאחורי אלה, או עיינו ב<a href="/he/services">שירותים</a>.</div>
       </div>
     </div>
   </main>
@@ -2188,15 +2208,14 @@ CS_PAGE_EN = '''<!doctype html>
         <p class="eyebrow">Case Studies</p>
         <h1>Brought in to build the engine, not just advise on it.</h1>
         <p class="lead">Real companies, real problems, real ownership. Here is what I have built and fixed, across startups, IoT, manufacturing, medical devices, retail and SaaS, on five continents.</p>
+        <p class="nda-note"><strong>Where are the numbers?</strong> Under NDA. My clients' revenue figures are theirs, so I don't publish them. Ask me on a call and I'll walk you through the results behind any case here. <a href="/contact">Ask me</a>.</p>
         <div class="cases-list">
 {cases}
         </div>
         <h2 class="cases-recs-h">What clients say</h2>
 {testimonials}
-        <h2 class="cases-recs-h">On the ground, on five continents</h2>
-{gallery}
 {cta}
-        <div class="svc-related">See the <a href="/services/">services</a> behind these, or <a href="/blog/">read the blog</a>.</div>
+        <div class="svc-related">See the <a href="/services">services</a> behind these, <a href="/pricing">what they cost</a>, or <a href="/recommendations">what clients say</a>.</div>
       </div>
     </div>
   </main>
@@ -2244,15 +2263,14 @@ CS_PAGE_HE = '''<!doctype html>
         <p class="eyebrow">מקרי מבחן</p>
         <h1>הגעתי כדי לבנות את המנוע, לא רק לייעץ עליו.</h1>
         <p class="lead">חברות אמיתיות, בעיות אמיתיות, אחריות אמיתית. הנה מה שבניתי ותיקנתי, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי, קמעונאות ו-SaaS, בחמש יבשות.</p>
+        <p class="nda-note"><strong>איפה המספרים?</strong> תחת NDA. נתוני ההכנסות של הלקוחות שלי שייכים להם, ולכן אני לא מפרסם אותם. שאלו אותי בשיחה ואעבור איתכם על התוצאות שמאחורי כל מקרה כאן. <a href="/he/contact">שאלו אותי</a>.</p>
         <div class="cases-list">
 {cases}
         </div>
         <h2 class="cases-recs-h">מה הלקוחות אומרים</h2>
 {testimonials}
-        <h2 class="cases-recs-h">בשטח, בחמש יבשות</h2>
-{gallery}
 {cta}
-        <div class="svc-related">ראו את <a href="/he/services/">השירותים</a> שמאחורי אלה, או <a href="/he/blog/">קראו את הבלוג</a>.</div>
+        <div class="svc-related">ראו את <a href="/he/services">השירותים</a> שמאחורי אלה, <a href="/he/pricing">כמה הם עולים</a>, או <a href="/he/recommendations">מה לקוחות אומרים</a>.</div>
       </div>
     </div>
   </main>
@@ -2825,7 +2843,7 @@ GUIDES = [
     {"q":"Do you work with Israeli companies?","a":"Yes. Most of my work is taking Israeli B2B companies into the US, the EU and other markets, direct and through distributors."},
     {"q":"Can we work in Hebrew?","a":"Yes. I work with Israeli founders and teams in Hebrew and run the international selling in English or the target market's language."},
     {"q":"How much does a fractional CRO in Israel cost?","a":"Engagements run $2,000 to $12,000 a month depending on involvement, far below a $250,000-plus full-time CRO hire."}],
-  "related":'Weighing local versus global? See <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a> and <a href="/when-to-expand-to-the-us">when to expand to the US</a>. Or see the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he/">the Hebrew site</a>.'},
+  "related":'Weighing local versus global? See <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a> and <a href="/when-to-expand-to-the-us">when to expand to the US</a>. Or see the <a href="/services/market-entry">market entry</a> and <a href="/services/fractional-cro">fractional CRO</a> services, or <a href="/he">the Hebrew site</a>.'},
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"Fractional CRO vs Hiring a VP of Sales | Tal Paperin",
@@ -2877,20 +2895,20 @@ GUIDES = [
       ["A frum sales consultant","/blog/frum-sales-consultant"],
       ["Business development for frum businesses","/blog/frum-business-development"],
       ["Growing and expanding your frum business","/blog/growing-your-frum-business"]]},
-    {"h":"Frum business consultant by community","links":[
-      ["Lakewood","/blog/frum-business-consultant-lakewood"],
-      ["Boro Park","/blog/frum-business-consultant-boro-park"],
-      ["Williamsburg","/blog/frum-business-consultant-williamsburg"],
-      ["Monsey","/blog/frum-business-consultant-monsey"],
-      ["Crown Heights","/blog/frum-business-consultant-crown-heights"],
-      ["Flatbush","/blog/frum-business-consultant-flatbush"],
-      ["Five Towns","/blog/frum-business-consultant-five-towns"],
-      ["Kiryas Joel","/blog/frum-business-consultant-kiryas-joel"],
-      ["Passaic","/blog/frum-business-consultant-passaic"],
-      ["Baltimore","/blog/frum-business-consultant-baltimore"],
-      ["Los Angeles","/blog/frum-business-consultant-los-angeles"],
-      ["Miami","/blog/frum-business-consultant-miami"],
-      ["Chicago","/blog/frum-business-consultant-chicago"]]},
+    {"h":"Frum business consultant by community","p":[
+      "Lakewood is dozens of markets in one town. Real estate and development sit at the center, with Amazon and e-commerce sellers, wholesalers, home-care services, mortgage shops and B2B firms around them. Many started as a side parnassa and grew faster than anyone planned. The pattern I see again and again is a founder who can sell anything himself, and nobody else who can carry a deal.",
+      "Boro Park is old, established frum business: importers and wholesalers, retail up and down 13th Avenue, real estate, accounting and insurance shops, printers, and a growing bench of technology and e-commerce firms. Many are family names trusted for two or three generations. That is an asset at home and a trap outside it: those relationships do not carry over to a mainstream US buyer who has never heard of you.",
+      "Williamsburg is one of the most concentrated chassidish business centers in the world, heavily Satmar, built on real estate, property management, construction, wholesale and B2B services. The kehilla is the network and trust is everything. I do not speak fluent Yiddish and will not pretend to. I know how this world buys and sells, and where the language matters in the selling, we put the right person in the room.",
+      "Monsey is really a whole region, from the center of town out to Spring Valley, Kaser, New Square, Airmont and Wesley Hills. The businesses are just as varied: home-based operations, retail along Route 59, home-care, real estate, camps and mosdos, e-commerce. A lot gets done on trust and a phone call. The weakness shows up when the owner wants to grow past the people who already daven with him.",
+      "Crown Heights is the center of the Lubavitch world, home to 770 and a shliach network that reaches every corner of the globe. Its businesses, from retail along Kingston Avenue to media, tech and B2B, start with connections on six continents. What is often missing is the system that turns those connections into pipeline and a forecast you can count on.",
+      "Flatbush is large and varied, yeshivish and modern-orthodox together, with commercial strips along Avenue J, Avenue M and Coney Island Avenue. The base is heavy on professionals, retail, medical and real estate, with a growing set of B2B and online companies. Many are run well but entirely on the owner. When the founder can no longer be the whole sales team, someone has to own the number.",
+      "Five Towns. Cedarhurst, Lawrence, Woodmere, Hewlett and Inwood make up one of the more affluent and business-heavy frum areas anywhere, with a commercial heart along Central Avenue and a base thick with finance, real estate and B2B services. The talent and the money are here. Businesses still stall, because they grew on connections and reputation and nobody senior owns the revenue function.",
+      "Kiryas Joel, in Orange County, is a large Satmar chassidish village, Yiddish-speaking and young, with a fast-growing base in manufacturing, retail, real estate and wholesale. Business runs in Yiddish and on trust, and the inside market is strong. The gap is selling to the world outside the village. I do not speak fluent Yiddish, but I have worked inside the heimishe business world for years.",
+      "Passaic and neighboring Clifton are a growing yeshivish community within commuting distance of New York, with professionals, services, retail, real estate and a rising number of B2B and online companies. Many owners are sharp, busy, and also the entire sales department. I build the process, bring in and train the right people, and own the number until it runs.",
+      "Baltimore is one of the older, more established frum communities in America, anchored by Ner Yisroel and centered around Park Heights and Pikesville. Its businesses tend to be steady and well-run, and many run entirely on the owner. The next step is usually a sales function that lets you grow past your current ceiling without betting the business on a risky VP hire.",
+      "Frum Los Angeles is spread across Pico-Robertson, Hancock Park, La Brea and the Valley, a diverse community in a huge, car-dependent market. The businesses run from real estate and retail to tech and media, often with national and international ambitions. Many grew on local connections and never built a sales function that reaches past their own circle.",
+      "Frum Miami is booming, from Miami Beach and Surfside to North Miami Beach, Aventura and Bal Harbour, swelled by an influx from New York and the northeast. Real estate, finance, hospitality and kosher food lead the business base. Many of these companies have outrun their sales infrastructure. I build the process, the team and the pipeline, so the growth rests on a system and not only on a hot market.",
+      "Frum Chicago is centered in West Rogers Park, around Devon and California, and reaches out into Skokie. It is an established Midwestern kehilla with a base of professionals, services, healthcare, retail and real estate. Many businesses are well-established and ready to grow beyond the local market. The missing piece is usually a senior sales leader to own the motion."]},
   ],
   "faqs":[
     {"q":"Do you work with frum business owners?","a":"Yes, and a real part of my work is with frum and heimishe business owners in the US and Eretz Yisrael. I am a frum, shomer Shabbos Yid myself, so we start from shared values and shared trust."},
@@ -2898,7 +2916,7 @@ GUIDES = [
     {"q":"Do you speak Yiddish?","a":"I do not speak fluent Yiddish and I will not pretend to. I have spent years working inside the Yiddish-speaking, heimishe business world, so I understand how it operates and how it buys and sells, and I work comfortably with Yiddish-speaking owners in English."},
     {"q":"What does a frum business consultant actually do for me?","a":"The same hard sales work any serious fractional sales leader does: strategy, team, pipeline, forecast and the number, hands-on. The difference is that you get someone who shares your values, respects your calendar, and understands the heimishe world you operate in."},
     {"q":"Can you help my frum business sell to the wider market?","a":"Yes. Taking frum-owned companies from selling inside the kehilla to selling into the US mainstream, the EU and international markets is one of the things I do best, and I also help outside companies sell respectfully into the frum market."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/market-entry">market entry</a> services, read more on the <a href="/blog/">blog</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/market-entry">market entry</a> services, read more on the <a href="/blog">blog</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-for-saas","en_only":True,
   "title":"Fractional CRO for SaaS Companies | Tal Paperin",
@@ -4198,7 +4216,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/he/">בית</a> / {h1}</p>
+        <p class="breadcrumb"><a href="/he">בית</a> / {h1}</p>
         <div class="glowline"></div>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
@@ -5284,10 +5302,8 @@ ABOUT_EN = '''<!doctype html>
           <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/-w_sHvp2v1I" title="Hard Corps Marketing Show #34" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">Global sales fundamentals</p></div>
         </div>
 
-        <h2 class="cases-recs-h">On the ground, on five continents</h2>
-{gallery}
 {cta}
-        <div class="svc-related">See <a href="/services/">how I can help</a>, the <a href="/case-studies">case studies</a>, or <a href="/recommendations">what clients say</a>.</div>
+        <div class="svc-related">See <a href="/services">how I can help</a>, the <a href="/case-studies">case studies</a>, or <a href="/recommendations">what clients say</a>.</div>
       </div>
     </div>
   </main>
@@ -5383,10 +5399,8 @@ ABOUT_HE = '''<!doctype html>
           <div><div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/-w_sHvp2v1I" title="Hard Corps Marketing Show #34" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="vtitle">Hard Corps Marketing Show #34</p><p class="vsub">יסודות ועקרונות במכירות בינלאומיות</p></div>
         </div>
 
-        <h2 class="cases-recs-h">בשטח, בחמש יבשות</h2>
-{gallery}
 {cta}
-        <div class="svc-related">ראו <a href="/he/services/">איך אני יכול לעזור</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/recommendations">מה לקוחות אומרים</a>.</div>
+        <div class="svc-related">ראו <a href="/he/services">איך אני יכול לעזור</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/recommendations">מה לקוחות אומרים</a>.</div>
       </div>
     </div>
   </main>
@@ -5433,6 +5447,26 @@ GUIDE_CATS = [
  ("For frum businesses", "לעסקים פרומיים", ["frum-business-consultant"]),
  ("In the media", "בתקשורת", ["tal-paperin-podcasts-and-press"]),
 ]
+
+
+def guides_hub_ld(he=False):
+    """Entity graph plus a CollectionPage that lists every guide on the hub, in page order."""
+    by = {g["slug"]: g for g in (HE_GUIDES if he else GUIDES)}
+    base = SITE + ("/he/" if he else "/")
+    url = base + "guides"
+    items, n = [], 0
+    for _en, _he, slugs in GUIDE_CATS:
+        for sl in slugs:
+            if sl in by:
+                n += 1
+                items.append('{"@type":"ListItem","position":%d,"url":"%s%s","name":"%s"}'
+                             % (n, base, sl, _jsonesc(by[sl]["h1"])))
+    page = ('{"@context":"https://schema.org","@type":"CollectionPage","@id":"%s#webpage","url":"%s",'
+            '"name":"%s","inLanguage":"%s","isPartOf":{"@id":"%s"},"about":{"@id":"%s"},'
+            '"mainEntity":{"@type":"ItemList","numberOfItems":%d,"itemListElement":[%s]}}'
+            ) % (url, url, "מדריכים ומשאבים" if he else "Guides and resources", "he" if he else "en",
+                 WEBSITE_ID, BUSINESS_ID, n, ",".join(items))
+    return '%s\n  <script type="application/ld+json">%s</script>' % (graph_ld(he), page)
 
 
 def render_guides_hub(he=False):
@@ -5484,6 +5518,8 @@ HUB_PAGE_EN = '''<!doctype html>
   <link rel="stylesheet" href="/blog/blog.css" />
 
   {analytics}
+
+  {ld}
 </head>
 <body>
 {nav}
@@ -5497,7 +5533,7 @@ HUB_PAGE_EN = '''<!doctype html>
         <p class="lead">Everything I know about fractional revenue leadership, in plain English: how to hire one, what it costs, the ROI, outsourced sales and marketing, and how it works in your industry.</p>
         <p><a href="/answers">Quick answers to the questions founders and sales leaders ask &rarr;</a></p>
 {groups}
-        <div class="svc-related">See the <a href="/services/">services</a>, the <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.</div>
+        <div class="svc-related">See the <a href="/services">services</a>, the <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.</div>
       </div>
     </div>
   </main>
@@ -5536,6 +5572,8 @@ HUB_PAGE_HE = '''<!doctype html>
   <link rel="stylesheet" href="/he/he-pages.css" />
 
   {analytics}
+
+  {ld}
 </head>
 <body>
 {nav}
@@ -5549,7 +5587,7 @@ HUB_PAGE_HE = '''<!doctype html>
         <p class="lead">כל מה שאני יודע על הנהגת הכנסות במיקור חוץ, בעברית פשוטה: איך לשכור, כמה זה עולה, ה-ROI, ומכירות ושיווק במיקור חוץ.</p>
         <p><a href="/he/answers">תשובות מהירות לשאלות שמייסדים ומנהלי מכירות שואלים &larr;</a></p>
 {groups}
-        <div class="svc-related">ראו את <a href="/he/services/">השירותים</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
+        <div class="svc-related">ראו את <a href="/he/services">השירותים</a>, את <a href="/he/case-studies">מקרי המבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
       </div>
     </div>
   </main>
@@ -5606,14 +5644,18 @@ PRICING_EN = {
     ("$50","per qualified meeting held","SDRs"),
   ],
   "note":"Added on top of the monthly fee, never instead of it. Client-funded, no hidden fees, no games.",
-  "star_title":"Plus a performance share on top",
-  "star_note":"★ Plus a performance share, added on top of this fee.",
-  "star_link":"See the details",
+  "card_cro":"plus 3% of net new ARR",
+  "card_sdr":"plus 10% of first-year deal value for account executives, or $50 per qualified meeting held for SDRs",
+  "card_link":"How the performance share works",
  },
+ "capacity":"Places are limited by my hours. I can carry two Growth clients at a time, or one full-time, three to four at Starter, or about ten Advisors. If the level you want is full, I'll tell you on the first call.",
+ "ppm_fold":"From $3,000 a month, plus a one-time setup.",
+ "mk_fold":"$4,000 or $8,000 a month.",
  "faq_h":"Common questions",
  "faq":[
   ("How does pricing work?","Flat monthly retainers, plus a performance share on top: 3% of net new ARR to me, 10% of first-year deal value to the account executives, and $50 per qualified meeting held to the SDRs. No long contracts and no exit fines. You can move up or down a tier as the business changes."),
   ("What is the difference between the tiers?","Advisor is senior direction on call. Starter and Growth are both hands-on: in both I hire, train and manage your salespeople and own the motion. The difference is time, Starter is about 2 hours a day, Growth is half my day, every day. CRO Ownership is full end-to-end ownership of revenue across sales, marketing and GTM."),
+  ("How many clients do you take at once?","Few, because the hours are mine. Two at the Growth level, or one full-time, three to four at Starter, or about ten Advisors. If the level you want is full, I'll say so on the first call."),
   ("Can I add a sales team?","Yes. SDRs can be added to any package. I source, train and manage them, integrated with the leadership you already have."),
   ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
  ],
@@ -5710,14 +5752,18 @@ PRICING_HE = {
     ("$50","לכל פגישה מוכשרת שהתקיימה","SDRs"),
   ],
   "note":"מתווסף מעל התשלום החודשי, אף פעם לא במקומו. ממומן על ידי הלקוח, בלי עמלות נסתרות, בלי משחקים.",
-  "star_title":"בתוספת שותפות בתוצאה, מעל התשלום",
-  "star_note":"★ בתוספת שותפות בתוצאה, מעל התשלום הזה.",
-  "star_link":"לפרטים",
+  "card_cro":"בתוספת 3% מה-ARR נטו החדש",
+  "card_sdr":"בתוספת 10% משווי העסקה בשנה הראשונה לאנשי מכירות (AE), או 50 דולר לכל פגישה מוכשרת שהתקיימה ל-SDRs",
+  "card_link":"איך השותפות בתוצאה עובדת",
  },
+ "capacity":"המקומות מוגבלים לפי השעות שלי. אני יכול להחזיק שני לקוחות Growth במקביל, או לקוח אחד במשרה מלאה, שלושה עד ארבעה ב-Starter, או כעשרה לקוחות Advisor. אם הרמה שאתם רוצים מלאה, אגיד לכם בשיחה הראשונה.",
+ "ppm_fold":"החל מ-3,000 דולר בחודש, בתוספת הקמה חד פעמית.",
+ "mk_fold":"4,000 או 8,000 דולר בחודש.",
  "faq_h":"שאלות נפוצות",
  "faq":[
   ("איך התמחור עובד?","ריטיינרים חודשיים קבועים, בתוספת שותפות בתוצאה מעליהם: 3% מה-ARR נטו החדש אליי, 10% משווי העסקה בשנה הראשונה לאנשי המכירות, ו-50 דולר לכל פגישה מוכשרת שהתקיימה ל-SDRs. בלי חוזים ארוכים ובלי קנסות יציאה. אפשר לעלות או לרדת דרגה ככל שהעסק משתנה."),
   ("מה ההבדל בין החבילות?","Advisor הוא כיוון בכיר בטלפון. Starter ו-Growth שניהם בידיים: בשניהם אני מגייס, מכשיר ומנהל את אנשי המכירות שלכם ומחזיק את התנועה. ההבדל הוא זמן, Starter הוא כשעתיים ביום, Growth הוא חצי מהיום שלי, כל יום. CRO Ownership היא בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-GTM."),
+  ("כמה לקוחות אתה לוקח במקביל?","מעט, כי השעות הן שלי. שניים ברמת Growth, או אחד במשרה מלאה, שלושה עד ארבעה ב-Starter, או כעשרה לקוחות Advisor. אם הרמה שאתם רוצים מלאה, אגיד את זה בשיחה הראשונה."),
   ("אפשר להוסיף צוות מכירות?","כן. אפשר להוסיף SDRs לכל חבילה. אני מאתר, מכשיר ומנהל אותם, משולבים בהנהגה שכבר יש לכם."),
   ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
  ],
@@ -5770,18 +5816,18 @@ PRICING_HE = {
 
 def render_pricing_body(d, cal):
     book = d["book"]
-    star = ('<a href="#perf" title="%s" style="color:#E67E22;text-decoration:none;font-weight:800;'
-            'font-size:1.15rem;vertical-align:super;line-height:0;margin-left:3px">&#9733;</a>'
-            ) % esc(d.get("perf", {}).get("star_title", "")) if d.get("perf") else ""
+    perf = d.get("perf") or {}
+    plus_cro = ('<p class="tier-plus">%s</p>' % esc(perf["card_cro"])) if perf.get("card_cro") else ""
+    plus_sdr = ('<p class="tier-plus">%s</p>' % esc(perf["card_sdr"])) if perf.get("card_sdr") else ""
     def card(t, mark=False):
         badge = ('<span class="badge">%s</span>' % esc(t["badge"])) if t.get("badge") else '<span class="badge badge-empty">&nbsp;</span>'
         feat = " feat" if t.get("feat") else ""
         lis = "".join("<li>%s</li>" % esc(x) for x in t["incl"])
         return ('<div class="tier%s">%s<span class="commit">%s</span><h3>%s</h3>'
-                '<div class="amount">%s<span> %s</span>%s</div><p class="bestfor">%s</p>'
+                '<div class="amount">%s<span> %s</span></div>%s<p class="bestfor">%s</p>'
                 '<ul class="incl">%s</ul></div>'
                 ) % (feat, badge, esc(t["commit"]), esc(t["name"]), esc(t["price"]), esc(t["per"]),
-                     star if mark else "", esc(t["bestfor"]), lis)
+                     plus_cro if mark else "", esc(t["bestfor"]), lis)
     he = d.get("calc_lang") == "he"
     out = []
     jl = (["סמנכ״ל במיקור חוץ", "צוות מכירות", "תשלום לפי פגישה", "שיווק", "שותפות בתוצאה", "בניית הצעת מחיר", "שאלות"] if he else
@@ -5793,18 +5839,20 @@ def render_pricing_body(d, cal):
                 if not (i == "ppm" and not d.get("ppm_price")) and not (i == "perf" and not d.get("perf")))))
     out.append('      <h2 id="cro">%s</h2>' % esc(d["cro_h"]))
     out.append('      <div class="price-grid cols4">%s</div>' % "".join(card(t, mark=True) for t in d["cro"]))
-    if d.get("perf"):
-        out.append('      <p style="color:#E67E22;font-size:.9rem;margin-top:14px">%s <a href="#perf" style="color:#E67E22">%s</a></p>'
-                   % (esc(d["perf"]["star_note"]), esc(d["perf"]["star_link"])))
+    if d.get("capacity"):
+        out.append('      <p class="price-capacity">%s</p>' % esc(d["capacity"]))
+    if perf.get("card_link"):
+        out.append('      <p class="price-note"><a href="#perf" style="color:var(--blue);font-weight:600">%s</a></p>'
+                   % esc(perf["card_link"]))
     if he:
         out.append('      <div class="price-anchor"><div><span class="pa-label">סמנכ״ל הכנסות במשרה מלאה</span><div class="pa-num">$250,000+</div>'
                    '<p>עלות שנתית כוללת. ועוד חודשים של חיפוש וכניסה לתפקיד, וסיכון ממשי של פיצויים.</p></div>'
-                   '<div class="mine"><span class="pa-label">Starter, בתוך העסק בכל יום עבודה</span><div class="pa-num">$72,000</div>'
+                   '<div class="mine"><span class="pa-label">Growth, חצי מהיום שלי בעסק שלכם, בכל יום עבודה</span><div class="pa-num">$144,000</div>'
                    '<p>לשנה בתשלומים חודשיים, בתוספת השותפות בתוצאה. חודש בחודשו, בלי חוזה ובלי קנסות יציאה.</p></div></div>')
     else:
         out.append('      <div class="price-anchor"><div><span class="pa-label">A full-time CRO</span><div class="pa-num">$250,000+</div>'
                    '<p>All in, per year. Plus months to find and ramp, and real severance risk.</p></div>'
-                   '<div class="mine"><span class="pa-label">Starter, in your business every working day</span><div class="pa-num">$72,000</div>'
+                   '<div class="mine"><span class="pa-label">Growth, half my day in your business, every working day</span><div class="pa-num">$144,000</div>'
                    '<p>A year in monthly fees, plus the performance share. Monthly, no contract, no exit fines.</p></div></div>')
     out.append(render_proof(0, he))
     out.append((CTA_STRIP_BOOK_HE if he else CTA_STRIP_BOOK_EN).rstrip("\n").replace("        <div", "      <div", 1))
@@ -5812,19 +5860,23 @@ def render_pricing_body(d, cal):
     left = ('<div class="tier"><span class="commit">%s</span><h3>%s</h3><p class="bestfor">%s</p><ul class="incl">%s</ul></div>'
             ) % (esc(d["add_label"]), esc(d["sdr_name"]), esc(d["sdr_desc"]),
                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_incl"]))
-    right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span>%s</div>'
+    right = ('<div class="tier feat"><span class="commit">%s</span><div class="amount">%s<span> %s</span></div>%s'
              '<ul class="incl">%s</ul><p class="price-note">%s</p></div>'
-             ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]), star,
+             ) % (esc(d["sdr_price_label"]), esc(d["sdr_amount"]), esc(d["sdr_amount_per"]), plus_sdr,
                   "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), esc(d["sdr_price_note"]))
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     if d.get("ppm_price"):
-        out.append('      <h2 class="price-h2" id="ppm">%s</h2>' % esc(d["ppm_h"]))
+        out.append('      <details class="price-fold" id="ppm"><summary><h2 class="price-h2">%s</h2><span class="pf-sub">%s</span></summary>'
+                   % (esc(d["ppm_h"]), esc(d.get("ppm_fold", ""))))
         out.append('      <p class="bestfor">%s</p>' % esc(d["ppm_desc"]))
         out.append('      ' + d["ppm_price"])
         out.append('      <p class="price-note">%s <a href="%s" style="color:var(--blue);font-weight:600">%s</a>.</p>'
                    % (esc(d["ppm_more"]), d["ppm_url"], esc(d["ppm_more_link"])))
-    out.append('      <h2 class="price-h2" id="marketing">%s</h2>' % esc(d["mk_h"]))
+        out.append('      </details>')
+    out.append('      <details class="price-fold" id="marketing"><summary><h2 class="price-h2">%s</h2><span class="pf-sub">%s</span></summary>'
+               % (esc(d["mk_h"]), esc(d.get("mk_fold", ""))))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
+    out.append('      </details>')
     # performance-share banner (added on top of the fixed fees)
     p = d.get("perf")
     if p:
@@ -5973,7 +6025,7 @@ PRICING_TPL = """<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">Pricing</p>
         <h1>Straight pricing. No proposals, no games.</h1>
-        <p>Every engagement is built around one thing: a revenue number you can rely on. Whether I advise you a few hours a week or own the whole engine full-time, you are buying an outcome, not hours, and never a slide deck. <a href="/services/">See what each engagement includes</a>.</p>
+        <p>Every engagement is built around one thing: a revenue number you can rely on. Whether I advise you a few hours a week or own the whole engine full-time, you are buying an outcome, not hours, and never a slide deck. <a href="/services">See what each engagement includes</a>.</p>
         <p class="price-outcomes-h">What every engagement is built to deliver</p>
         <ul class="price-outcomes">
           <li>A repeatable go-to-market motion that creates demand instead of waiting for it</li>
@@ -5982,11 +6034,11 @@ PRICING_TPL = """<!doctype html>
           <li>Revenue that compounds month over month, and a number someone finally owns</li>
         </ul>
         <p>Pick the level of ownership you need below. Monthly, no long contracts, no exit fines.</p>
-        <p style="margin-top:22px"><a class="btn btn-secondary" href="/services/">See all services &rarr;</a></p>
+        <p style="margin-top:22px"><a class="btn btn-secondary" href="/services">See all services &rarr;</a></p>
       </div>
 {body}
 {cta}
-      <div class="svc-related">See <a href="/services/">what each engagement includes</a>, the <a href="/fractional-cro-cost">cost breakdown</a>, or <a href="/case-studies">the results</a>.</div>
+      <div class="svc-related">See <a href="/services">what each engagement includes</a>, the <a href="/fractional-cro-cost">cost breakdown</a>, or <a href="/case-studies">the results</a>.</div>
     </div>
   </main>
 
@@ -6036,7 +6088,7 @@ PRICING_TPL_HE = """<!doctype html>
         <div class="glowline"></div>
         <p class="eyebrow">תמחור</p>
         <h1>תמחור ישר. בלי הצעות מחיר, בלי משחקים.</h1>
-        <p>כל התקשרות נבנית סביב דבר אחד: מספר הכנסות שאפשר לסמוך עליו. בין אם אני מלווה אתכם כמה שעות בשבוע ובין אם אני מנהל את כל המנוע במשרה מלאה, אתם קונים תוצאה, לא שעות, ובטח לא מצגת. <a href="/he/services/">ראו מה כל שירות כולל</a>.</p>
+        <p>כל התקשרות נבנית סביב דבר אחד: מספר הכנסות שאפשר לסמוך עליו. בין אם אני מלווה אתכם כמה שעות בשבוע ובין אם אני מנהל את כל המנוע במשרה מלאה, אתם קונים תוצאה, לא שעות, ובטח לא מצגת. <a href="/he/services">ראו מה כל שירות כולל</a>.</p>
         <p class="price-outcomes-h">מה כל התקשרות נבנית לספק</p>
         <ul class="price-outcomes">
           <li>מנוע Go-to-Market חוזר שמייצר ביקוש במקום לחכות לו</li>
@@ -6045,11 +6097,11 @@ PRICING_TPL_HE = """<!doctype html>
           <li>הכנסה שגדלה מחודש לחודש, ומספר שמישהו סוף סוף אחראי עליו</li>
         </ul>
         <p>בחרו למטה את רמת הבעלות שאתם צריכים. חודשי, בלי חוזים ארוכים, בלי קנסות יציאה.</p>
-        <p style="margin-top:22px"><a class="btn btn-secondary" href="/he/services/">לכל השירותים &larr;</a></p>
+        <p style="margin-top:22px"><a class="btn btn-secondary" href="/he/services">לכל השירותים &larr;</a></p>
       </div>
 {body}
 {cta}
-      <div class="svc-related">ראו <a href="/he/services/">מה כל שירות כולל</a>, את <a href="/he/case-studies">התוצאות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
+      <div class="svc-related">ראו <a href="/he/services">מה כל שירות כולל</a>, את <a href="/he/case-studies">התוצאות</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.</div>
     </div>
   </main>
 
@@ -6069,9 +6121,9 @@ PRIVACY_TPL = """<!doctype html>
   <meta name="description" content="{desc}" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="{url}" />
-  <link rel="alternate" hreflang="en" href="https://talpaperin.com/privacy" />
-  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/privacy" />
-  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/privacy" />
+  <link rel="alternate" hreflang="en" href="{enurl}" />
+  <link rel="alternate" hreflang="he" href="{heurl}" />
+  <link rel="alternate" hreflang="x-default" href="{enurl}" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{url}" />
@@ -6134,11 +6186,11 @@ PRIVACY_EN = {
    "Calendly and Zoom schedule and host the calls.",
    "beehiiv holds the newsletter list.",
    "Google Analytics and Ahrefs Web Analytics produce traffic statistics.",
-   "Google Fonts and YouTube serve fonts and embedded videos, and see your IP address when they load.",
+   "YouTube serves the embedded videos, and sees your IP address when one loads.",
    "Vercel hosts the site and keeps standard server logs.",
    "Google and WhatsApp carry the email and messages you send me.",
   ]),
-  ("Cookies", ["Google Analytics sets cookies to tell one visit from another. You can block or delete cookies in your browser settings, or install Google's opt-out browser add-on, and the site works the same. Calendly and YouTube may set their own cookies when you open the booking window or play a video."], None),
+  ("Cookies", ["If you visit from the EU, the UK or elsewhere in Europe, the site asks first: Google Analytics sets no cookies unless you accept them in the banner, and you can change your choice any time in the <a href=\"#\" data-consent-reset>cookie settings</a>. Elsewhere, Google Analytics sets cookies to tell one visit from another. Anywhere, you can block or delete cookies in your browser settings, or install Google's opt-out browser add-on, and the site works the same. Calendly and YouTube may set their own cookies when you open the booking window or play a video."], None),
   ("How long I keep it", [], [
    "Messages and booking details: while we are in contact, and afterwards as needed for my business records.",
    "Newsletter: until you unsubscribe, which you can do from any issue.",
@@ -6171,11 +6223,11 @@ PRIVACY_HE = {
    "Calendly ו-Zoom משמשים לתיאום ולקיום השיחות.",
    "beehiiv מחזיק את רשימת הניוזלטר.",
    "Google Analytics ו-Ahrefs Web Analytics מפיקים סטטיסטיקות תנועה.",
-   "Google Fonts ו-YouTube מגישים גופנים וסרטונים מוטמעים, ורואים את כתובת ה-IP שלכם בזמן הטעינה.",
+   "YouTube מגיש את הסרטונים המוטמעים, ורואה את כתובת ה-IP שלכם בזמן הטעינה.",
    "Vercel מארח את האתר ושומר יומני שרת רגילים.",
    "Google ו-WhatsApp מעבירים את המיילים וההודעות שאתם שולחים לי.",
   ]),
-  ("עוגיות", ["Google Analytics משתמש בעוגיות כדי להבחין בין ביקור לביקור. אפשר לחסום או למחוק עוגיות בהגדרות הדפדפן, או להתקין את תוסף הביטול של Google, והאתר ימשיך לעבוד אותו דבר. Calendly ו-YouTube עשויים להגדיר עוגיות משלהם כשפותחים את חלון התיאום או מפעילים סרטון."], None),
+  ("עוגיות", ["אם אתם גולשים מהאיחוד האירופי, מבריטניה או ממקום אחר באירופה, האתר שואל קודם: Google Analytics לא שומר עוגיות אלא אם אישרתם זאת בחלונית, ואפשר לשנות את הבחירה בכל רגע ב<a href=\"#\" data-consent-reset>הגדרות העוגיות</a>. בשאר העולם, Google Analytics משתמש בעוגיות כדי להבחין בין ביקור לביקור. בכל מקום אפשר לחסום או למחוק עוגיות בהגדרות הדפדפן, או להתקין את תוסף הביטול של Google, והאתר ימשיך לעבוד אותו דבר. Calendly ו-YouTube עשויים לשמור עוגיות משלהם כשפותחים את חלון התיאום או מפעילים סרטון."], None),
   ("כמה זמן אני שומר", [], [
    "הודעות ופרטי תיאום: כל עוד אנחנו בקשר, ולאחר מכן לפי הצורך ברשומות העסק.",
    "ניוזלטר: עד שתסירו את עצמכם, מה שאפשר לעשות מכל גיליון.",
@@ -6183,6 +6235,45 @@ PRIVACY_HE = {
   ]),
   ("הבחירות שלכם", ["אתם יכולים לבקש ממני עותק של המידע האישי שאני מחזיק עליכם, לבקש לתקן אותו, או לבקש למחוק אותו. כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a> ואטפל בזה. אם אתם באיחוד האירופי או בבריטניה, אפשר גם לפנות לרשות הגנת המידע המקומית."], None),
   ("שינויים", ["אם הדף הזה משתנה, התאריך למטה משתנה איתו.", "עודכן לאחרונה: 11 בנובמבר 2026."], None),
+ ],
+}
+
+# Terms of use (EN + HE). Plain language, same template as the privacy page. Not reviewed by a lawyer yet.
+TERMS_EN = {
+ "title": "Terms of Use | Tal Paperin",
+ "desc": "The terms for using talpaperin.com: what the content is for, what it is not, and how engagements are actually agreed. Plain language.",
+ "h1": "Terms of use", "eyebrow": "The plain version",
+ "lead": "The rules for using this site. Short, and written to be read.",
+ "sections": [
+  ("Who runs this site", ["talpaperin.com is run by Tal Paperin, who also works through KSW Solutions. Questions about these terms go to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. By using the site you accept these terms. If you do not accept them, please do not use it."], None),
+  ("What the content is", ["The pages, guides, blog posts and tools here share how I think about sales and revenue. They are general information. They are not legal, tax, financial or investment advice, and they are not advice about your specific company. Decisions you make from them are yours."], None),
+  ("The calculators", ["The sales cost calculator and the quote builder produce estimates from the numbers you enter and from published benchmarks. They are a starting point for a conversation. They are not an audit, a forecast or an offer."], None),
+  ("Prices and engagements", ["The prices on this site describe how I normally work and can change. Reading the site, sending a message or booking a call does not create a client relationship. An engagement starts only when we both sign a written agreement, and that agreement, not this site, sets the scope, the fees and the terms."], None),
+  ("Case studies and recommendations", ["The case studies describe real engagements and the recommendations are from real people. They show what happened in those cases. They are not a promise that you will get the same result, because results depend on your market, your product and your team."], None),
+  ("Using the content", ["The text, design and images on this site belong to me or to the people who gave me permission to use them. You are welcome to quote a passage with a link back to the page. Please do not republish whole pages, sell the content, or present it as your own."], None),
+  ("Other services and links", ["The site uses outside services such as Calendly, WhatsApp, beehiiv and Formspree, and links to other websites. Each has its own terms and privacy policy, and I am not responsible for what they do. How this site handles your data is on the <a href=\"/privacy\">privacy page</a>."], None),
+  ("No warranty, limited liability", ["I work to keep the site accurate and available, but it is provided as it is, without guarantees. To the extent the law allows, I am not liable for losses that come from using the site or relying on its content."], None),
+  ("Law", ["These terms are governed by the laws of the State of Israel, and the courts of Israel have jurisdiction over any dispute about them."], None),
+  ("Changes", ["If these terms change, the date below changes with them.", "Last updated: November 11, 2026."], None),
+ ],
+}
+
+TERMS_HE = {
+ "title": "תנאי שימוש | טל פאפרין",
+ "desc": "תנאי השימוש באתר talpaperin.com: למה התוכן מיועד, למה לא, ואיך מסכמים התקשרות בפועל. בשפה פשוטה.",
+ "h1": "תנאי שימוש", "eyebrow": "הגרסה הפשוטה",
+ "lead": "הכללים לשימוש באתר. קצר, ונכתב כדי שיקראו אותו.",
+ "sections": [
+  ("מי מפעיל את האתר", ["את האתר talpaperin.com מפעיל טל פאפרין, שעובד גם דרך KSW Solutions. שאלות על התנאים האלה אפשר לשלוח ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. השימוש באתר מהווה הסכמה לתנאים. אם אינכם מסכימים להם, אנא אל תשתמשו באתר."], None),
+  ("מה התוכן", ["העמודים, המדריכים, הפוסטים והכלים כאן משתפים איך אני חושב על מכירות והכנסות. זה מידע כללי. זה לא ייעוץ משפטי, מיסויי, פיננסי או ייעוץ השקעות, וזה לא ייעוץ לחברה הספציפית שלכם. ההחלטות שתקבלו על בסיסו הן שלכם."], None),
+  ("המחשבונים", ["מחשבון עלות המכירות ובונה הצעת המחיר מפיקים הערכות מהמספרים שאתם מזינים וממדדים שפורסמו. הם נקודת פתיחה לשיחה. הם לא ביקורת, לא תחזית ולא הצעה מחייבת."], None),
+  ("מחירים והתקשרויות", ["המחירים באתר מתארים איך אני עובד בדרך כלל, והם יכולים להשתנות. קריאה באתר, שליחת הודעה או תיאום שיחה לא יוצרים יחסי לקוח. התקשרות מתחילה רק כששני הצדדים חותמים על הסכם כתוב, וההסכם הזה, לא האתר, קובע את ההיקף, התשלום והתנאים."], None),
+  ("מקרי מבחן והמלצות", ["מקרי המבחן מתארים התקשרויות אמיתיות, וההמלצות נכתבו על ידי אנשים אמיתיים. הם מראים מה קרה באותם מקרים. הם לא הבטחה שתקבלו את אותה תוצאה, כי התוצאות תלויות בשוק, במוצר ובצוות שלכם."], None),
+  ("שימוש בתוכן", ["הטקסט, העיצוב והתמונות באתר שייכים לי או למי שנתן לי רשות להשתמש בהם. אתם מוזמנים לצטט קטע עם קישור לעמוד. אנא אל תפרסמו מחדש עמודים שלמים, אל תמכרו את התוכן ואל תציגו אותו כשלכם."], None),
+  ("שירותים וקישורים חיצוניים", ["האתר משתמש בשירותים חיצוניים כמו Calendly, WhatsApp, beehiiv ו-Formspree, ומקשר לאתרים אחרים. לכל אחד מהם תנאים ומדיניות פרטיות משלו, ואני לא אחראי למה שהם עושים. איך האתר הזה מטפל במידע שלכם מופיע ב<a href=\"/he/privacy\">עמוד הפרטיות</a>."], None),
+  ("ללא אחריות, הגבלת חבות", ["אני משתדל שהאתר יהיה מדויק וזמין, אבל הוא ניתן כמות שהוא, ללא התחייבות. במידה שהחוק מתיר, אינני אחראי לנזקים שנובעים משימוש באתר או מהסתמכות על התוכן שבו."], None),
+  ("דין", ["על התנאים האלה חלים דיני מדינת ישראל, ולבתי המשפט בישראל הסמכות לדון בכל מחלוקת לגביהם."], None),
+  ("שינויים", ["אם התנאים האלה משתנים, התאריך למטה משתנה איתם.", "עודכן לאחרונה: 11 בנובמבר 2026."], None),
  ],
 }
 
@@ -6199,6 +6290,54 @@ def render_privacy_body(d):
             out.extend("          <li>%s</li>" % esc(x) for x in items)
             out.append("        </ul>")
     return "\n".join(out)
+
+
+# --- Images: link the light WebP copy and write width/height into every <img> ----------
+# ops/optimize_images.py makes the WebP copies and img/dims.json. This pass runs at the end of
+# both builds over the pages they wrote (and the hand-maintained pages), and is idempotent.
+def _load_dims():
+    p = os.path.join(ROOT, "img", "dims.json")
+    if not os.path.exists(p):
+        return {}
+    with open(p, encoding="utf-8") as f:
+        return json.load(f)
+
+
+_DIMS = _load_dims()
+_IMG_TAG = re.compile(r"<img\b[^>]*>")
+
+
+def optimize_imgs(html):
+    if not _DIMS:
+        return html
+
+    def fix(m):
+        tag = m.group(0)
+        sm = re.search(r'\bsrc="(/[^"\']+)\.(?:jpe?g|png)"', tag)
+        if sm and (sm.group(1) + ".webp") in _DIMS:
+            tag = tag.replace(sm.group(0), 'src="%s.webp"' % sm.group(1))
+        sm = re.search(r'\bsrc="(/[^"\']+\.webp)"', tag)
+        if sm and sm.group(1) in _DIMS and " width=" not in tag and "srcset" not in tag:
+            w, h = _DIMS[sm.group(1)]
+            tag = tag.replace(sm.group(0), '%s width="%d" height="%d"' % (sm.group(0), w, h))
+        return tag
+    return _IMG_TAG.sub(fix, html)
+
+
+def optimize_html_dirs(dirs):
+    for d in dirs:
+        if not os.path.isdir(d):
+            continue
+        for fn in os.listdir(d):
+            if not fn.endswith(".html"):
+                continue
+            p = os.path.join(d, fn)
+            with open(p, encoding="utf-8") as f:
+                old = f.read()
+            new = optimize_imgs(old)
+            if new != old:
+                with open(p, "w", encoding="utf-8") as f:
+                    f.write(new)
 
 
 def build():
@@ -6221,14 +6360,15 @@ def build():
               ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), BUSINESS_ID, url, url)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
-                 '{"@type":"ListItem","position":2,"name":"Services","item":"%s/services/"},'
+                 '{"@type":"ListItem","position":2,"name":"Services","item":"%s/services"},'
                  '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
                  ) % (SITE, SITE, esc(svc["h1"]), url)
         page = PAGE.format(graph=graph_ld(False),
             title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, site=SITE,
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_related(svc["slug"]),
-            case=render_case_callout(SERVICE_CASE_EN.get(svc["slug"]), "Case study", "Result", "See more case studies", "/case-studies"),
+            case=render_case_callout(SERVICE_CASE_EN.get(svc["slug"]), "Case study", "Result", "See more case studies", "/case-studies")
+                 + "\n" + render_service_proof(svc["slug"]),
             faq=render_faq(SERVICE_FAQS_EN.get(svc["slug"]))[0],
             faqld=render_faq(SERVICE_FAQS_EN.get(svc["slug"]))[1],
             fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX,
@@ -6236,17 +6376,23 @@ def build():
         with open(os.path.join(SVC_DIR, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
 
-    cards = []
+    cards, lead_cards = [], {}
     for svc in SERVICES:
-        cards.append(
-            '        <a class="svc-card" href="/services/%s">\n'
+        lead = svc["slug"] in LEAD_SERVICES
+        card = (
+            '        <a class="svc-card%s" href="/services/%s">\n'
             '          <h2>%s</h2>\n          <p>%s</p>\n'
             '          <span class="more">Learn more &rarr;</span>\n        </a>'
-            % (svc["slug"], esc(svc["h1"]), esc(svc["card"])))
+            % (" svc-card-lead" if lead else "", svc["slug"], esc(svc["h1"]), esc(svc["card"])))
+        if lead:
+            lead_cards[svc["slug"]] = card
+        else:
+            cards.append(card)
+    lead_cards = [lead_cards[x] for x in LEAD_SERVICES]
     with open(os.path.join(SVC_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(INDEX.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
-                             nav=NAV, footer=FOOTER, cards="\n".join(cards),
-                             graph=graph_ld(False), gallery=render_gallery()))
+                             nav=NAV, footer=FOOTER, cards="\n".join(cards), lead_cards="\n".join(lead_cards),
+                             graph=graph_ld(False)))
 
     # Hebrew service pages
     for svc in HE_SERVICES:
@@ -6259,15 +6405,16 @@ def build():
               '"url":"%s","mainEntityOfPage":"%s"}'
               ) % (esc(svc["h1"]), esc(svc["desc"]), esc(svc["nav"]), BUSINESS_ID, url, url)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
-                 '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
-                 '{"@type":"ListItem","position":2,"name":"שירותים","item":"%s/he/services/"},'
+                 '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he"},'
+                 '{"@type":"ListItem","position":2,"name":"שירותים","item":"%s/he/services"},'
                  '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
                  ) % (SITE, SITE, esc(svc["h1"]), url)
         page = HE_PAGE.format(graph=graph_ld(True),
             title=esc(svc["title"]), desc=esc(svc["desc"]), url=url, en=en, site=SITE,
             h1=esc(svc["h1"]), eyebrow=esc(svc["eyebrow"]), lead=esc(svc["lead"]),
             sections=render_sections(svc), related=render_he_related(svc["slug"]),
-            case=render_case_callout(SERVICE_CASE_HE.get(svc["slug"]), "מקרה לקוח", "תוצאה", "לעוד מקרי מבחן", "/he/case-studies"),
+            case=render_case_callout(SERVICE_CASE_HE.get(svc["slug"]), "מקרה לקוח", "תוצאה", "לעוד מקרי מבחן", "/he/case-studies")
+                 + "\n" + render_service_proof(svc["slug"], True),
             faq=render_faq(SERVICE_FAQS_HE.get(svc["slug"]), "שאלות נפוצות")[0],
             faqld=render_faq(SERVICE_FAQS_HE.get(svc["slug"]), "שאלות נפוצות")[1],
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA,
@@ -6275,17 +6422,23 @@ def build():
         with open(os.path.join(he_dir, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
 
-    he_cards = []
+    he_cards, he_lead_cards = [], {}
     for svc in HE_SERVICES:
-        he_cards.append(
-            '        <a class="svc-card" href="/he/services/%s">\n'
+        lead = svc["slug"] in LEAD_SERVICES
+        card = (
+            '        <a class="svc-card%s" href="/he/services/%s">\n'
             '          <h2>%s</h2>\n          <p>%s</p>\n'
             '          <span class="more">קרא עוד &larr;</span>\n        </a>'
-            % (svc["slug"], esc(svc["h1"]), esc(svc["card"])))
+            % (" svc-card-lead" if lead else "", svc["slug"], esc(svc["h1"]), esc(svc["card"])))
+        if lead:
+            he_lead_cards[svc["slug"]] = card
+        else:
+            he_cards.append(card)
+    he_lead_cards = [he_lead_cards[x] for x in LEAD_SERVICES]
     with open(os.path.join(he_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(HE_INDEX.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
-                                nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards),
-                                graph=graph_ld(True), gallery=render_gallery("טל פאפרין בשטח")))
+                                nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards), lead_cards="\n".join(he_lead_cards),
+                                graph=graph_ld(True)))
 
     # Hebrew FAQ / challenges pillar page
     items_html = []
@@ -6309,13 +6462,26 @@ def build():
     with open(os.path.join(ROOT, "privacy.html"), "w", encoding="utf-8") as f:
         f.write(PRIVACY_TPL.format(lang="en", dir="", url=SITE + "/privacy", sitename="Tal Paperin",
             css="/blog/blog.css", home="/", homelabel="Home", fonts=FONTS, analytics=ANALYTICS, nav=NAV,
-            footer=FOOTER, graph=graph_ld(False), body=render_privacy_body(PRIVACY_EN),
+            footer=FOOTER, enurl=SITE + "/privacy", heurl=SITE + "/he/privacy", graph=graph_ld(False), body=render_privacy_body(PRIVACY_EN),
             **{k: PRIVACY_EN[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "he", "privacy.html"), "w", encoding="utf-8") as f:
         f.write(PRIVACY_TPL.format(lang="he", dir=' dir="rtl"', url=SITE + "/he/privacy", sitename="טל פאפרין",
-            css="/he/he-pages.css", home="/he/", homelabel="בית", fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
-            footer=HE_FOOTER, graph=graph_ld(True), body=render_privacy_body(PRIVACY_HE),
+            css="/he/he-pages.css", home="/he", homelabel="בית", fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
+            footer=HE_FOOTER, enurl=SITE + "/privacy", heurl=SITE + "/he/privacy", graph=graph_ld(True), body=render_privacy_body(PRIVACY_HE),
             **{k: PRIVACY_HE[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
+    # Terms of use (EN + HE), same template
+    with open(os.path.join(ROOT, "terms.html"), "w", encoding="utf-8") as f:
+        f.write(PRIVACY_TPL.format(lang="en", dir="", url=SITE + "/terms", sitename="Tal Paperin",
+            css="/blog/blog.css", home="/", homelabel="Home", fonts=FONTS, analytics=ANALYTICS, nav=NAV,
+            footer=FOOTER, enurl=SITE + "/terms", heurl=SITE + "/he/terms", graph=graph_ld(False),
+            body=render_privacy_body(TERMS_EN),
+            **{k: TERMS_EN[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
+    with open(os.path.join(ROOT, "he", "terms.html"), "w", encoding="utf-8") as f:
+        f.write(PRIVACY_TPL.format(lang="he", dir=' dir="rtl"', url=SITE + "/he/terms", sitename="טל פאפרין",
+            css="/he/he-pages.css", home="/he", homelabel="בית", fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
+            footer=HE_FOOTER, enurl=SITE + "/terms", heurl=SITE + "/he/terms", graph=graph_ld(True),
+            body=render_privacy_body(TERMS_HE),
+            **{k: TERMS_HE[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "contact.html"), "w", encoding="utf-8") as f:
         f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False), contactjs=CONTACT_JS_EN, proof=render_proof(1)))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
@@ -6323,10 +6489,10 @@ def build():
 
     with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                graph=graph_ld(False), gallery=render_gallery(), cta=CTA_BOX, career=IG_CAREER_EN))
+                                graph=graph_ld(False), cta=CTA_BOX, career=IG_CAREER_EN))
     with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                graph=graph_ld(True), gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA, career=IG_CAREER_HE))
+                                graph=graph_ld(True), cta=HE_CTA, career=IG_CAREER_HE))
 
     with open(os.path.join(ROOT, "pricing.html"), "w", encoding="utf-8") as f:
         f.write(PRICING_TPL.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
@@ -6347,14 +6513,12 @@ def build():
         f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
                                   graph=graph_ld(False),
                                   cases=render_cases(CASE_STUDIES, "Result", CTA_STRIP_EN),
-                                  testimonials=render_testimonials(cs_en),
-                                  gallery=render_gallery(), cta=CTA_BOX))
+                                  testimonials=render_testimonials(cs_en), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
                                   graph=graph_ld(True),
                                   cases=render_cases(HE_CASES, "תוצאה", CTA_STRIP_HE),
-                                  testimonials=render_testimonials(cs_he, he=True),
-                                  gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
+                                  testimonials=render_testimonials(cs_he, he=True), cta=HE_CTA))
 
     with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
         f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
@@ -6402,7 +6566,7 @@ def build():
                     '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, en_url, en_url)
         ld = guide_ld(g, url, he=True)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
-                 '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
+                 '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he"},'
                  '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
                  ) % (SITE, esc(g["h1"]), url)
         faq_html, faq_ld = render_faq(g.get("faqs"), "שאלות נפוצות")
@@ -6418,10 +6582,10 @@ def build():
     # Guides hub (links all guides so they are not orphans)
     with open(os.path.join(ROOT, "guides.html"), "w", encoding="utf-8") as f:
         f.write(HUB_PAGE_EN.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
-                                   nav=NAV, footer=FOOTER, groups=render_guides_hub(False)))
+                                   nav=NAV, footer=FOOTER, groups=render_guides_hub(False), ld=guides_hub_ld(False)))
     with open(os.path.join(ROOT, "he", "guides.html"), "w", encoding="utf-8") as f:
         f.write(HUB_PAGE_HE.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
-                                   nav=HE_NAV, footer=HE_FOOTER, groups=render_guides_hub(True)))
+                                   nav=HE_NAV, footer=HE_FOOTER, groups=render_guides_hub(True), ld=guides_hub_ld(True)))
 
     # Answers hub (consolidated AEO/AIO/GEO Q&A that links into the guides)
     a_url, a_he_url = "%s/answers" % SITE, "%s/he/answers" % SITE
@@ -6442,7 +6606,7 @@ def build():
             title=esc(ANSWERS_META_EN["title"]), desc=esc(ANSWERS_META_EN["desc"]), url=a_url, site=SITE,
             h1=esc(ANSWERS_META_EN["h1"]), eyebrow=esc(ANSWERS_META_EN["eyebrow"]), lead=esc(ANSWERS_META_EN["lead"]),
             sections=a_sections, faq="", faqld=a_faqld,
-            related='Browse all <a href="/guides">guides</a> and <a href="/services/">services</a>, or <a href="/contact">tell me where revenue stalled</a>.',
+            related='Browse all <a href="/guides">guides</a> and <a href="/services">services</a>, or <a href="/contact">tell me where revenue stalled</a>.',
             fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX, ld=a_ld, crumb=a_crumb, hreflang=a_hreflang))
 
     a_he_hreflang = ('  <link rel="alternate" hreflang="he" href="%s" />\n'
@@ -6450,11 +6614,11 @@ def build():
                      '  <link rel="alternate" hreflang="x-default" href="%s" />') % (a_he_url, a_url, a_url)
     a_he_sections, a_he_faqld = render_answers_sections(ANSWERS_HE, he=True)
     a_he_ld = ('{"@context":"https://schema.org","@type":"Article","headline":"%s","description":"%s","inLanguage":"he",'
-               '"author":{"@type":"Person","@id":"%s","name":"טל פאפרין","url":"%s/he/"},'
+               '"author":{"@type":"Person","@id":"%s","name":"טל פאפרין","url":"%s/he"},'
                '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
                ) % (esc(ANSWERS_META_HE["h1"]), esc(ANSWERS_META_HE["desc"]), PERSON_ID, SITE, BUSINESS_ID, a_he_url)
     a_he_crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
-                  '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he/"},'
+                  '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he"},'
                   '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
                   ) % (SITE, esc(ANSWERS_META_HE["h1"]), a_he_url)
     with open(os.path.join(ROOT, "he", "answers.html"), "w", encoding="utf-8") as f:
@@ -6462,11 +6626,12 @@ def build():
             title=esc(ANSWERS_META_HE["title"]), desc=esc(ANSWERS_META_HE["desc"]), url=a_he_url, site=SITE,
             h1=esc(ANSWERS_META_HE["h1"]), eyebrow=esc(ANSWERS_META_HE["eyebrow"]), lead=esc(ANSWERS_META_HE["lead"]),
             sections=a_he_sections, faq="", faqld=a_he_faqld,
-            related='לכל ה<a href="/he/guides">מדריכים</a> ו<a href="/he/services/">השירותים</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.',
+            related='לכל ה<a href="/he/guides">מדריכים</a> ו<a href="/he/services">השירותים</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.',
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA, ld=a_he_ld, crumb=a_he_crumb, hreflang=a_he_hreflang))
 
     print("Built %d EN + %d HE service pages, HE index, HE FAQ, %d guides + %d HE guides"
           % (len(SERVICES), len(HE_SERVICES), len(GUIDES), len(HE_GUIDES)))
+    optimize_html_dirs([ROOT, SVC_DIR, os.path.join(ROOT, "he"), os.path.join(ROOT, "he", "services")])
 
 
 if __name__ == "__main__":

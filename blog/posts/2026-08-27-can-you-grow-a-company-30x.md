@@ -1,7 +1,7 @@
 ---
 title: A Client Hired Me to Grow Them 30X. Here Is the Honest Answer.
-seotitle: Can You Grow a Company 30X? What It Actually Takes
-description: A company hired me to grow them 30X. Grant Cardone does 10X. Can you actually 30X a business? Yes, but only if you work backwards and build the machine to produce it.
+seotitle: Can You Grow a Company 30X? What It Takes
+description: A company hired me to grow them 30X. It can be done, but only if you work backwards from the number and fund the machine that produces it.
 date: 2026-08-27
 tags: Revenue Growth, Scaling Sales, Go-to-Market, Sales Strategy, Fractional CRO
 image: /og-image.jpg

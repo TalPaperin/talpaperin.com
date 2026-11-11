@@ -1,6 +1,6 @@
 ---
 title: "Why Deals Stall at the Proposal Stage (and How to Unstick Them)"
-seotitle: "Why Deals Stall at the Proposal Stage: Fix the Real Cause"
+seotitle: Why Deals Stall at the Proposal Stage
 description: A proposal is not a close. Deals stall because you sent a price before you built consensus and urgency. Here is how to fix it before the proposal goes out.
 date: 2026-10-13
 tags: Sales Process, Closing, Negotiation, B2B Sales

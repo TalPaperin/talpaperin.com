@@ -3,6 +3,7 @@ title: Quality is beating price. Buyers care less about your discount than you t
 seotitle: Quality Beats Price: Why Discounts Matter Less
 description: Quality is becoming more important than price to most consumers - the majority rate quality as the most important factor when making purchases compared to.
 date: 2020-03-04
+noindex: true
 tags: Revenue Leadership, B2B Sales
 image: /og-image.jpg
 ---

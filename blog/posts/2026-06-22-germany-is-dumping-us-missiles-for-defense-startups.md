@@ -1,7 +1,7 @@
 ---
 title: Germany Is Dumping US Missiles for Startups. That's a B2B Procurement Masterclass.
 seotitle: Germany Dumps US Missiles: B2B Masterclass
-description: Berlin is bypassing legacy US defense giants for agile startups in Israel and Ukraine. It is a masterclass in B2B procurement disruption, and a warning for anyone who sells to enterprise.
+description: Berlin is bypassing legacy US defense giants for startups in Israel and Ukraine. A lesson in single-vendor risk for anyone who sells to enterprise.
 date: 2026-06-22
 tags: B2B Sales, Enterprise Strategy, Procurement, Go-To-Market
 image: /og-image.jpg

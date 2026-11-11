@@ -1,6 +1,6 @@
 ---
 title: What Actually Makes a Company Acquirable
-seotitle: What Makes a Company Acquirable: Lessons From the $6.3B Varonis Deal
+seotitle: What Makes a B2B Company Acquirable
 description: Proofpoint is buying Varonis for $6.3 billion. Acquirers pay for a revenue engine, not your tech. Here is what makes a B2B company worth buying.
 date: 2026-11-17
 tags: B2B Sales, Revenue Growth, Exits, Go-To-Market

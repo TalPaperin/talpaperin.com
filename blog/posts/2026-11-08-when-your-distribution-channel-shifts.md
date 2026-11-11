@@ -1,7 +1,7 @@
 ---
 title: When the Channel That Feeds You Changes, Your Revenue Is Exposed
-seotitle: What Happens to Your Revenue When Your Main Distribution Channel Shifts
-description: AI is changing how hotels reach travelers, and a $25M round followed. The lesson for any founder: if one channel feeds most of your revenue, you do not own your demand.
+seotitle: When Your Main Distribution Channel Shifts
+description: AI is changing how hotels reach travelers, and a $25M round followed. If one channel feeds most of your revenue, you do not own your demand.
 date: 2026-11-08
 tags: Distribution, Go-to-Market, Channel Strategy, Revenue
 image: /og-image.jpg

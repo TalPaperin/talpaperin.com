@@ -1,6 +1,7 @@
 ---
 title: 'Building a B2B Sales Machine in Western Europe'
-description: 'How I build a sales machine in Western Europe: market research first, then a focused push on the UK and Eastern Europe, built and run hands-on, not handed over as a deck.'
+seotitle: Building a B2B Sales Machine in Western Europe
+description: How I build a sales machine in Western Europe: research the market first, then a focused push on the UK and Eastern Europe, built and run hands-on.
 date: 2026-06-14
 tags: Western Europe, Market Research, Market Entry, International Sales, United Kingdom, Eastern Europe
 image: /og-image.jpg

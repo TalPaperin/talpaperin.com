@@ -1,6 +1,6 @@
 ---
 title: How to Set Sales Quotas Your Team Can Actually Hit
-seotitle: How to Set Sales Quotas That Stretch Reps Without Breaking Them
+seotitle: How to Set Sales Quotas Your Team Can Hit
 description: A quota nobody hits demotivates your team and hides the real problem. Here is how to build quotas bottoms-up from rep capacity and pipeline math.
 date: 2026-10-03
 tags: Sales Quotas, Forecasting, Sales Management, B2B Sales

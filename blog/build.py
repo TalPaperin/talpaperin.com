@@ -62,16 +62,21 @@ RFC822_MONS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug",
 ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>\n'
              '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
-             "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
+             "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=10" defer></script>')
+             '  <script src="/site.js?v=11" defer></script>')
 
-FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
-         '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
-         '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
-         'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=10" />')
+# Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
+# without waiting for a stylesheet; the two used above the fold are preloaded.
+FONT_FACES_EN = "@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}"
+FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
+         '  <link rel="icon" href="/favicon.ico" sizes="any" />\n'
+         '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n'
+         '  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
+         '  <link rel="preload" href="/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
+         '  <style>' + FONT_FACES_EN + '</style>\n'
+         '  <link rel="stylesheet" href="/site.css?v=11" />')
 
 FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
             '<rect width="22" height="15" fill="#fff"/>'
@@ -108,14 +113,14 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       <div class="navlinks">
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/services/">Services</a>
+        <a href="/services">Services</a>
         <a href="/pricing">Pricing</a>
         <a href="/case-studies">Case Studies</a>
         <a href="/recommendations">Recommendations</a>
-        <a href="/blog/">Blog</a>
+        <a href="/blog">Blog</a>
       </div>
       <div class="nav-right">
-        <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
+        <a class="flag-btn" href="/he" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
         <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
@@ -132,7 +137,7 @@ FOOTER = '''  <footer>
           <li><a href="/services/pay-per-meeting">Pay-Per-Meeting</a></li>
           <li><a href="/services/go-to-market-strategy">Go-To-Market Strategy</a></li>
           <li><a href="/services/market-entry">Market Entry</a></li>
-          <li><a href="/services/">All services</a></li>
+          <li><a href="/services">All services</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -150,7 +155,7 @@ FOOTER = '''  <footer>
         <ul>
           <li><a href="/guides">Guides</a></li>
           <li><a href="/answers">Answers</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/blog">Blog</a></li>
           <li><a href="/when-do-you-need-a-fractional-cro">When you need a fractional CRO</a></li>
           <li><a href="/fractional-cro-cost">What a fractional CRO costs</a></li>
         </ul>
@@ -167,7 +172,7 @@ FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a></span>
+      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -189,15 +194,15 @@ CTA_BOX = '''      <div class="cta-box">
 
 INLINE_CTA = ('<div class="inline-cta"><p><strong>This is exactly what I fix, '
               'hands-on.</strong> Monthly, no contract, no exit fines. If revenue is '
-              'stuck, the call costs you nothing.</p>'
-              '<a class="btn btn-secondary" href="https://calendly.com/ksw/15min" '
-              'target="_blank" rel="noopener">Book a 15-minute call</a></div>')
+              'stuck, tell me where.</p>'
+              '<a class="btn btn-secondary" href="/contact" data-cta="blog-mid">'
+              "Let's Talk</a></div>")
 
 HE_INLINE_CTA = ('<div class="inline-cta"><p><strong>זה בדיוק מה שאני מתקן, '
                  'בידיים.</strong> חודשי, בלי חוזה, בלי קנסות יציאה. אם ההכנסות תקועות, '
-                 'השיחה לא עולה לכם כלום.</p>'
-                 '<a class="btn btn-secondary" href="https://calendly.com/ksw/15min" '
-                 'target="_blank" rel="noopener">לתיאום שיחה של 15 דקות</a></div>')
+                 'ספרו לי איפה.</p>'
+                 '<a class="btn btn-secondary" href="/he/contact" data-cta="blog-mid">'
+                 'בואו נדבר</a></div>')
 
 
 SUBSCRIBE = '''      <div class="subscribe-box">
@@ -213,24 +218,29 @@ SUBSCRIBE = '''      <div class="subscribe-box">
 
 # --- Hebrew (RTL) building blocks ------------------------------------------
 
-HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
-            '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
-            '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800&'
-            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=10" />')
+# Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
+# without waiting for a stylesheet; the two used above the fold are preloaded.
+FONT_FACES_HE = "@font-face{font-family:'Heebo';font-style:normal;font-weight:400 900;font-display:swap;src:url(/fonts/heebo-hebrew.woff2) format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Heebo';font-style:normal;font-weight:400 900;font-display:swap;src:url(/fonts/heebo-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/rubik-hebrew.woff2) format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/rubik-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}"
+HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
+            '  <link rel="icon" href="/favicon.ico" sizes="any" />\n'
+            '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n'
+            '  <link rel="preload" href="/fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
+            '  <link rel="preload" href="/fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
+            '  <style>' + FONT_FACES_HE + '</style>\n'
+            '  <link rel="stylesheet" href="/site.css?v=11" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
     <div class="inner">
-      <a class="brand" href="/he/">טל פאפרין</a>
+      <a class="brand" href="/he">טל פאפרין</a>
       <div class="navlinks">
-        <a href="/he/">בית</a>
+        <a href="/he">בית</a>
         <a href="/he/about">אודות</a>
-        <a href="/he/services/">שירותים</a>
+        <a href="/he/services">שירותים</a>
         <a href="/he/pricing">תמחור</a>
         <a href="/he/case-studies">מקרי מבחן</a>
         <a href="/he/recommendations">המלצות</a>
-        <a href="/he/blog/">בלוג</a>
+        <a href="/he/blog">בלוג</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
@@ -250,7 +260,7 @@ HE_FOOTER = '''  <footer>
           <li><a href="/he/services/pay-per-meeting">תשלום לפי פגישה</a></li>
           <li><a href="/he/services/go-to-market-strategy">אסטרטגיית Go-To-Market</a></li>
           <li><a href="/he/services/market-entry">חדירה לשווקים בינלאומיים</a></li>
-          <li><a href="/he/services/">כל השירותים</a></li>
+          <li><a href="/he/services">כל השירותים</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -268,7 +278,7 @@ HE_FOOTER = '''  <footer>
         <ul>
           <li><a href="/he/guides">מדריכים</a></li>
           <li><a href="/he/answers">תשובות</a></li>
-          <li><a href="/he/blog/">בלוג</a></li>
+          <li><a href="/he/blog">בלוג</a></li>
           <li><a href="/he/when-do-you-need-a-fractional-cro">מתי צריך Fractional CRO?</a></li>
           <li><a href="/he/fractional-cro-cost">כמה עולה סמנכ״ל במיקור חוץ</a></li>
         </ul>
@@ -285,7 +295,7 @@ HE_FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a></span>
+      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a> &middot; <a href="/he/terms">תנאי שימוש</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -391,6 +401,9 @@ def load_posts(directory=POSTS_DIR, lang="en"):
             "image": meta.get("image", "/og-image.jpg"),
             # "alt" names the slug of the same post in the other language, if any.
             "alt": meta.get("alt", "").strip(),
+            # "noindex: true" keeps a thin post readable and linked, but out of search
+            # engines, the sitemap and llms.txt.
+            "noindex": meta.get("noindex", "").strip().lower() in ("true", "yes", "1"),
             "body_html": body_html,
             "read": reading_time(body_md),
         })
@@ -429,8 +442,12 @@ def render_post(p):
     keywords = ", ".join(p["tags"])
     tagrow = ""
     if p["tags"]:
-        tagrow = '<div class="tagrow">' + "".join(
-            '<span class="tag">%s</span>' % esc(t) for t in p["tags"]) + "</div>"
+        def _tag(t):
+            slug = TAG_TOPIC[p["lang"]].get(t.lower())
+            if slug and slug in p.get("live_topics", ()):
+                return '<a class="tag" href="%s">%s</a>' % (topic_url(p["lang"], slug), esc(t))
+            return '<span class="tag">%s</span>' % esc(t)
+        tagrow = '<div class="tagrow">' + "".join(_tag(t) for t in p["tags"]) + "</div>"
 
     author = "טל פאפרין" if he else "Tal Paperin"
     home_name = "בית" if he else "Home"
@@ -454,7 +471,7 @@ def render_post(p):
         '{"@type":"ListItem","position":1,"name":"%s","item":"%s%s"},'
         '{"@type":"ListItem","position":2,"name":"%s","item":"%s%s"},'
         '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
-    ) % (home_name, SITE, "/he/" if he else "/", blog_name, SITE, base,
+    ) % (home_name, SITE, "/he" if he else "/", blog_name, SITE, base.rstrip("/"),
          esc(p["title"]), url)
 
     body = insert_inline_cta(p["body_html"], HE_INLINE_CTA if he else INLINE_CTA)
@@ -462,6 +479,7 @@ def render_post(p):
     template = TEMPLATE_POST_HE if he else TEMPLATE_POST
     return template \
         .replace("{{METATITLE}}", esc(p["seotitle"] or p["title"])) \
+        .replace("{{ROBOTS}}", "noindex, follow" if p.get("noindex") else "index, follow") \
         .replace("{{TITLE}}", esc(p["title"])) \
         .replace("{{DESC}}", esc(p["description"])) \
         .replace("{{URL}}", url) \
@@ -485,9 +503,73 @@ def render_post(p):
         .replace("{{ANALYTICS}}", ANALYTICS)
 
 
-def render_index(posts, lang="en"):
+# --- Listing pages: 20 posts per page, plus topic pages built from the tags ------------
+PER_PAGE = 20
+# (slug, English label, Hebrew label, English tags, Hebrew tags). A post belongs to every
+# topic one of its tags maps to. A topic page is only built when it has at least MIN_TOPIC posts.
+MIN_TOPIC = 5
+TOPICS = [
+    ("b2b-sales", "B2B Sales", "מכירות B2B",
+     ["B2B Sales", "Sales Strategy", "Negotiation"], ["מכירות B2B", "אסטרטגיית מכירות"]),
+    ("revenue-leadership", "Revenue Leadership", "מנהיגות הכנסות",
+     ["Revenue Leadership", "Fractional CRO", "Sales Leadership", "Sales Management", "Revenue", "Revenue Growth"],
+     ["מנהיגות הכנסות", "Fractional CRO", "ניהול מכירות", "צמיחת הכנסות", "סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ"]),
+    ("go-to-market", "Go-To-Market", "Go-To-Market",
+     ["Go-To-Market", "Marketing", "Business Model", "Pricing"], ["Go-To-Market", "אסטרטגיית Go-To-Market"]),
+    ("market-entry", "Market Entry", "חדירה לשוק",
+     ["Market Entry", "International Sales", "Expansion", "Israel"],
+     ["חדירה לשוק", "כניסה לשוק", "מכירות בינלאומיות", "ישראל"]),
+    ("sales-teams", "Sales Teams", "צוותי מכירות",
+     ["Sales Team", "Hiring & Teams", "Hiring", "Scaling Sales"], ["צוות מכירות", "גיוס וצוותים"]),
+    ("startups", "Startups", "סטארטאפים", ["Startups"], ["סטארטאפים"]),
+    ("pipeline", "Pipeline and Outbound", "פייפליין ואאוטבאונד",
+     ["Pipeline", "Forecasting", "Outbound"], ["פייפליין", "אאוטבאונד"]),
+    ("frum-business", "Frum and Heimishe Business", "", ["Frum", "Heimishe Business"], []),
+]
+TAG_TOPIC = {"en": {}, "he": {}}
+for _slug, _en, _he, _ten, _the in TOPICS:
+    for _t in _ten:
+        TAG_TOPIC["en"].setdefault(_t.lower(), _slug)
+    for _t in _the:
+        TAG_TOPIC["he"].setdefault(_t.lower(), _slug)
+
+
+def _base(lang):
+    return "/he/blog/" if lang == "he" else "/blog/"
+
+
+def index_url(lang, page=1):
+    return _base(lang).rstrip("/") if page == 1 else "%spage-%d" % (_base(lang), page)
+
+
+def topic_url(lang, slug, page=1):
+    return "%stopic-%s%s" % (_base(lang), slug, "" if page == 1 else "-page-%d" % page)
+
+
+def post_topics(p):
+    m = TAG_TOPIC[p["lang"]]
+    out = []
+    for t in p["tags"]:
+        slug = m.get(t.lower())
+        if slug and slug not in out:
+            out.append(slug)
+    return out
+
+
+def topic_groups(posts, lang):
+    """[(slug, label, [posts])] for topics with enough posts, in TOPICS order."""
+    out = []
+    for slug, en, he, _a, _b in TOPICS:
+        label = he if lang == "he" else en
+        mine = [p for p in posts if slug in post_topics(p)]
+        if label and len(mine) >= MIN_TOPIC:
+            out.append((slug, label, mine))
+    return out
+
+
+def _post_cards(posts, lang):
     he = lang == "he"
-    base = "/he/blog/" if he else "/blog/"
+    base = _base(lang)
     read_lbl = "דק' קריאה" if he else "min read"
     more_lbl = "לקריאת הפוסט &larr;" if he else "Read the post &rarr;"
     cards = []
@@ -506,6 +588,37 @@ def render_index(posts, lang="en"):
             '        <span class="more">%s</span>\n'
             '      </a>' % (url, human_date(p["date"], lang), p["read"], read_lbl,
                            esc(p["title"]), esc(p["description"]), tagrow, more_lbl))
+    return cards
+
+
+def _pager(lang, page, pages, url_for):
+    if pages < 2:
+        return ""
+    he = lang == "he"
+    newer, older = ("חדשים יותר", "ישנים יותר") if he else ("Newer", "Older")
+    a1, a2 = ("&rarr;", "&larr;") if he else ("&larr;", "&rarr;")
+    parts = []
+    if page > 1:
+        parts.append('<a class="pg-step" rel="prev" href="%s">%s %s</a>' % (url_for(page - 1), a1, newer))
+    nums = []
+    for n in range(1, pages + 1):
+        if n == page:
+            nums.append('<span class="pg-cur" aria-current="page">%d</span>' % n)
+        elif n in (1, pages) or abs(n - page) <= 2:
+            nums.append('<a href="%s">%d</a>' % (url_for(n), n))
+        elif nums and nums[-1] != '<span class="pg-gap">...</span>':
+            nums.append('<span class="pg-gap">...</span>')
+    parts.append('<span class="pg-nums">%s</span>' % "".join(nums))
+    if page < pages:
+        parts.append('<a class="pg-step" rel="next" href="%s">%s %s</a>' % (url_for(page + 1), older, a2))
+    return '      <nav class="pager" aria-label="%s">%s</nav>' % ("עמודים" if he else "Pages", "".join(parts))
+
+
+def render_index(posts, lang="en", page=1, pages=1, topic=None, groups=(), other_lang_topics=()):
+    """One listing page. `posts` is the slice for this page. `topic` is (slug, label) or None."""
+    he = lang == "he"
+    base = _base(lang)
+    cards = _post_cards(posts, lang)
     empty = 'בקרוב הפוסטים הראשונים.' if he else 'First posts coming soon.'
     listing = "\n".join(cards) if cards else \
         '      <p style="color:var(--soft)">%s</p>' % empty
@@ -516,20 +629,102 @@ def render_index(posts, lang="en"):
         '"description":"%s",'
         '"inLanguage":"%s",'
         '"publisher":{"@type":"Organization","name":"Tal Paperin"}}'
-    ) % (SITE, base, SITE, base,
+    ) % (SITE, base.rstrip("/"), SITE, base.rstrip("/"),
          ("רשימות מהשטח על מכירות B2B, מנהיגות הכנסות, Go-to-Market ותיקון מערכי הכנסות שבורים."
           if he else
           "Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue."),
          "he" if he else "en")
 
+    # topic chips (same on every listing page)
+    chips = ""
+    if groups:
+        all_lbl = "הכול" if he else "All posts"
+        chips = '      <nav class="topic-nav" aria-label="%s"><a class="tag%s" href="%s">%s</a>%s</nav>\n' % (
+            "נושאים" if he else "Topics", "" if topic else " on", index_url(lang), all_lbl,
+            "".join('<a class="tag%s" href="%s">%s</a>' % (
+                " on" if topic and topic[0] == g[0] else "", topic_url(lang, g[0]), esc(g[1])) for g in groups))
+    url_for = (lambda n: topic_url(lang, topic[0], n)) if topic else (lambda n: index_url(lang, n))
+    pager = _pager(lang, page, pages, url_for)
+
     template = TEMPLATE_INDEX_HE if he else TEMPLATE_INDEX
-    return template \
+    html = template \
+        .replace('      <div class="post-list">\n{{LISTING}}\n      </div>',
+                 chips + '      <div class="post-list">\n{{LISTING}}\n      </div>' + ("\n" + pager if pager else "")) \
         .replace("{{LISTING}}", listing) \
         .replace("{{LD}}", ld) \
         .replace("{{NAV}}", HE_NAV if he else NAV) \
         .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
         .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
         .replace("{{ANALYTICS}}", ANALYTICS)
+    if page == 1 and not topic:
+        return html
+
+    # Variants (page 2+, topic pages): own title, description, canonical and robots.
+    site_name = "טל פאפרין" if he else "Tal Paperin"
+    self_url = SITE + url_for(page)
+    pg = (" (עמוד %d)" % page if he else " (page %d)" % page) if page > 1 else ""
+    if topic:
+        title = ("%s: פוסטים%s | %s" if he else "%s: posts%s | %s") % (topic[1], pg, site_name)
+        desc = (("כל הפוסטים של טל פאפרין בנושא %s, מהחדש לישן." if he else
+                 "Every post by Tal Paperin on %s, newest first.") % topic[1])
+        h1 = topic[1]
+        html = re.sub(r'<h1>.*?</h1>', lambda m: '<h1>%s</h1>' % esc(h1), html, count=1)
+    else:
+        title = ("הבלוג%s | %s" if he else "Blog%s | %s") % (pg, site_name)
+        desc = None
+    html = re.sub(r'<title>.*?</title>', lambda m: '<title>%s</title>' % esc(title), html, count=1)
+    html = re.sub(r'(<meta property="og:title" content=")[^"]*"', lambda m: m.group(1) + esc(title) + '"', html, count=1)
+    html = re.sub(r'(<meta name="twitter:title" content=")[^"]*"', lambda m: m.group(1) + esc(title) + '"', html, count=1)
+    if desc:
+        html = re.sub(r'(<meta name="description" content=")[^"]*"', lambda m: m.group(1) + esc(desc) + '"', html, count=1)
+    html = re.sub(r'(<link rel="canonical" href=")[^"]*"', lambda m: m.group(1) + self_url + '"', html, count=1)
+    html = re.sub(r'(<meta property="og:url" content=")[^"]*"', lambda m: m.group(1) + self_url + '"', html, count=1)
+    # hreflang: a topic's first page pairs with the same topic in the other language when it exists.
+    alt = ""
+    if topic and page == 1 and topic[0] in other_lang_topics:
+        en_u = SITE + topic_url("en", topic[0])
+        he_u = SITE + topic_url("he", topic[0])
+        alt = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+               '  <link rel="alternate" hreflang="he" href="%s" />\n'
+               '  <link rel="alternate" hreflang="x-default" href="%s" />\n' % (en_u, he_u, en_u))
+    html = re.sub(r'(?:  <link rel="alternate" hreflang="[^"]*" href="[^"]*" />\n)+', lambda m: alt, html, count=1)
+    if page > 1:
+        html = html.replace('<meta name="robots" content="index, follow" />',
+                            '<meta name="robots" content="noindex, follow" />', 1)
+    return html
+
+
+def write_listings(posts, lang, out_dir, other_lang_topics=()):
+    """Write index.html, page-N.html and the topic pages. Returns the list of file names written
+    and the topic slugs that got a page."""
+    groups = topic_groups(posts, lang)
+    written = []
+
+    def emit(name, html):
+        with open(os.path.join(out_dir, name), "w", encoding="utf-8") as f:
+            f.write(html)
+        written.append(name)
+
+    pages = max(1, -(-len(posts) // PER_PAGE))
+    for n in range(1, pages + 1):
+        chunk = posts[(n - 1) * PER_PAGE:n * PER_PAGE]
+        emit("index.html" if n == 1 else "page-%d.html" % n,
+             render_index(chunk, lang, n, pages, None, groups, other_lang_topics))
+    for slug, label, mine in groups:
+        tp = max(1, -(-len(mine) // PER_PAGE))
+        for n in range(1, tp + 1):
+            chunk = mine[(n - 1) * PER_PAGE:n * PER_PAGE]
+            emit("topic-%s%s.html" % (slug, "" if n == 1 else "-page-%d" % n),
+                 render_index(chunk, lang, n, tp, (slug, label), groups, other_lang_topics))
+    return written, [g[0] for g in groups]
+
+
+def clean_stale(out_dir, keep):
+    """Remove generated .html files in a blog folder that no longer have a source."""
+    keep = set(keep)
+    for fn in os.listdir(out_dir):
+        if fn.endswith(".html") and fn not in keep:
+            os.remove(os.path.join(out_dir, fn))
 
 
 def render_rss(posts, lang="en"):
@@ -554,24 +749,26 @@ def render_rss(posts, lang="en"):
         .replace("{{ITEMS}}", "\n".join(items))
 
 
-def render_sitemap(posts, he_posts=None):
-    he_posts = he_posts or []
+def render_sitemap(posts, he_posts=None, topics=(), he_topics=()):
+    he_posts = [p for p in (he_posts or []) if not p.get("noindex")]
+    posts = [p for p in posts if not p.get("noindex")]
     today = datetime.date.today().isoformat()
     urls = [
         ('%s/' % SITE, '1.0', today),
-        ('%s/he/' % SITE, '0.9', today),
-        ('%s/blog/' % SITE, '0.8', today),
-        ('%s/he/blog/' % SITE, '0.7', today),
+        ('%s/he' % SITE, '0.9', today),
+        ('%s/blog' % SITE, '0.8', today),
+        ('%s/he/blog' % SITE, '0.7', today),
         ('%s/about' % SITE, '0.7', today),
         ('%s/guides' % SITE, '0.7', today),
         ('%s/answers' % SITE, '0.8', today),
         ('%s/sales-cost-calculator' % SITE, '0.7', today),
-        ('%s/services/' % SITE, '0.8', today),
+        ('%s/services' % SITE, '0.8', today),
         ('%s/case-studies' % SITE, '0.8', today),
         ('%s/pricing' % SITE, '0.8', today),
         ('%s/recommendations' % SITE, '0.7', today),
         ('%s/contact' % SITE, '0.7', today),
         ('%s/privacy' % SITE, '0.3', today),
+        ('%s/terms' % SITE, '0.3', today),
     ]
     for s in SERVICES:
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
@@ -579,7 +776,7 @@ def render_sitemap(posts, he_posts=None):
         urls.append(('%s/%s' % (SITE, g["slug"]), '0.8', today))
     for g in HE_GUIDES:
         urls.append(('%s/he/%s' % (SITE, g["slug"]), '0.6', today))
-    urls.append(('%s/he/services/' % SITE, '0.7', today))
+    urls.append(('%s/he/services' % SITE, '0.7', today))
     for s in SERVICES:
         urls.append(('%s/he/services/%s' % (SITE, s["slug"]), '0.6', today))
     urls.append(('%s/he/challenges' % SITE, '0.6', today))
@@ -592,6 +789,11 @@ def render_sitemap(posts, he_posts=None):
     urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))
     urls.append(('%s/he/privacy' % SITE, '0.3', today))
+    urls.append(('%s/he/terms' % SITE, '0.3', today))
+    for t in topics:
+        urls.append((SITE + topic_url("en", t), '0.5', today))
+    for t in he_topics:
+        urls.append((SITE + topic_url("he", t), '0.4', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
     for p in he_posts:
@@ -622,10 +824,10 @@ def render_llms(posts):
         "- [Tal Paperin, Fractional CRO (home)](%s/): services, what I fix, case studies, "
         "engagements and pricing, contact." % SITE,
         "- [About Tal Paperin](%s/about): background, experience, KSW Solutions, credentials and how he works." % SITE,
-        "- [Hebrew site](%s/he/): Hebrew version of the homepage." % SITE,
+        "- [Hebrew site](%s/he): Hebrew version of the homepage." % SITE,
         "- [Answers](%s/answers): straight answers to the questions founders and sales leaders "
         "ask about fractional CRO, cost, outsourced sales, go-to-market, stalled teams and selling upmarket." % SITE,
-        "- [Blog](%s/blog/): field notes on B2B sales, fractional CRO leadership, "
+        "- [Blog](%s/blog): field notes on B2B sales, fractional CRO leadership, "
         "go-to-market and fixing broken revenue." % SITE,
         "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on five continents." % SITE,
         "- [Pricing](%s/pricing): fractional CRO, SDR team and marketing pricing, from Advisor to full CRO ownership." % SITE,
@@ -639,7 +841,7 @@ def render_llms(posts):
     for g in GUIDES:
         lines.append("- [%s](%s/%s): %s" % (g["h1"], SITE, g["slug"], g["desc"]))
     lines += ["", "## Hebrew (עברית)",
-              "- [Services in Hebrew](%s/he/services/): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew." % SITE,
+              "- [Services in Hebrew](%s/he/services): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew." % SITE,
               "- [International B2B sales guide (Hebrew)](%s/he/challenges): the bold guide to selling B2B internationally from Israel." % SITE,
               "", "## Blog posts"]
     # Lead with the broad B2B posts; the frum/heimishe niche cluster goes last.
@@ -669,7 +871,7 @@ TEMPLATE_POST = '''<!doctype html>
   <meta name="description" content="{{DESC}}" />
   <meta name="keywords" content="{{KEYWORDS}}" />
   <meta name="author" content="Tal Paperin" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="{{ROBOTS}}" />
   <link rel="canonical" href="{{URL}}" />
 {{HREFLANG}}
 
@@ -704,7 +906,7 @@ TEMPLATE_POST = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <article class="article">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a></p>
+        <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog">Blog</a></p>
         <h1>{{TITLE}}</h1>
         <div class="postmeta">
           <span>By Tal Paperin</span><span class="dot">&middot;</span>
@@ -717,7 +919,7 @@ TEMPLATE_POST = '''<!doctype html>
         </div>
 {{SUBSCRIBE}}
 {{CTA}}
-        <a class="backlink" href="/blog/">&larr; All posts</a>
+        <a class="backlink" href="/blog">&larr; All posts</a>
       </article>
     </div>
   </main>
@@ -746,13 +948,13 @@ TEMPLATE_INDEX = '''<!doctype html>
   <title>Insights on B2B Sales &amp; Fractional CRO Leadership | Tal Paperin</title>
   <meta name="description" content="Field notes from Tal Paperin on B2B sales, fractional CRO leadership, go-to-market strategy and fixing broken revenue functions." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://talpaperin.com/blog/" />
-  <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog/" />
-  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/blog/" />
-  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/blog/" />
+  <link rel="canonical" href="https://talpaperin.com/blog" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/blog" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/blog" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://talpaperin.com/blog/" />
+  <meta property="og:url" content="https://talpaperin.com/blog" />
   <meta property="og:title" content="Insights on B2B Sales &amp; Fractional CRO Leadership | Tal Paperin" />
   <meta property="og:description" content="Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
@@ -807,7 +1009,7 @@ TEMPLATE_RSS = '''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tal Paperin Insights</title>
-    <link>https://talpaperin.com/blog/</link>
+    <link>https://talpaperin.com/blog</link>
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
@@ -826,7 +1028,7 @@ TEMPLATE_POST_HE = '''<!doctype html>
   <meta name="description" content="{{DESC}}" />
   <meta name="keywords" content="{{KEYWORDS}}" />
   <meta name="author" content="Tal Paperin" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="{{ROBOTS}}" />
   <link rel="canonical" href="{{URL}}" />
 {{HREFLANG}}
 
@@ -861,7 +1063,7 @@ TEMPLATE_POST_HE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <article class="article">
-        <p class="breadcrumb"><a href="/he/">בית</a> / <a href="/he/blog/">בלוג</a></p>
+        <p class="breadcrumb"><a href="/he">בית</a> / <a href="/he/blog">בלוג</a></p>
         <h1>{{TITLE}}</h1>
         <div class="postmeta">
           <span>מאת טל פאפרין</span><span class="dot">&middot;</span>
@@ -874,7 +1076,7 @@ TEMPLATE_POST_HE = '''<!doctype html>
         </div>
 {{SUBSCRIBE}}
 {{CTA}}
-        <a class="backlink" href="/he/blog/">&rarr; כל הפוסטים</a>
+        <a class="backlink" href="/he/blog">&rarr; כל הפוסטים</a>
       </article>
     </div>
   </main>
@@ -903,13 +1105,13 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
   <title>תובנות על מכירות B2B ומנהיגות הכנסות | טל פאפרין</title>
   <meta name="description" content="רשימות מהשטח של טל פאפרין על מכירות B2B, מנהיגות הכנסות, אסטרטגיית Go-to-Market ותיקון מערכי הכנסות שבורים." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://talpaperin.com/he/blog/" />
-  <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog/" />
-  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/blog/" />
-  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/blog/" />
+  <link rel="canonical" href="https://talpaperin.com/he/blog" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/blog" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/blog" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://talpaperin.com/he/blog/" />
+  <meta property="og:url" content="https://talpaperin.com/he/blog" />
   <meta property="og:title" content="תובנות על מכירות B2B ומנהיגות הכנסות | טל פאפרין" />
   <meta property="og:description" content="רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
@@ -964,7 +1166,7 @@ TEMPLATE_RSS_HE = '''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tal Paperin Insights (עברית)</title>
-    <link>https://talpaperin.com/he/blog/</link>
+    <link>https://talpaperin.com/he/blog</link>
     <atom:link href="https://talpaperin.com/he/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>רשימות מהשטח על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market.</description>
     <language>he</language>
@@ -990,11 +1192,29 @@ def main():
         if not p["alt"] and p["slug"] in en_slugs:
             p["alt"] = p["slug"]
 
+    # Per-post social cards (headline on the brand background). Skipped without Pillow.
+    try:
+        import og_cards
+        cards = og_cards.ensure_cards(posts + he_posts, ROOT)
+    except Exception as e:  # the build must never fail because of a card
+        print("Social cards skipped: %s" % e)
+        cards = {}
+    for p in posts + he_posts:
+        if p["image"] == "/og-image.jpg" and (p["lang"], p["slug"]) in cards:
+            p["image"] = cards[(p["lang"], p["slug"])]
+
+    en_topics = [g[0] for g in topic_groups(posts, "en")]
+    he_topics = [g[0] for g in topic_groups(he_posts, "he")]
+    for p in posts:
+        p["live_topics"] = en_topics
+    for p in he_posts:
+        p["live_topics"] = he_topics
+
     for p in posts:
         with open(os.path.join(BLOG_DIR, p["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(render_post(p))
-    with open(os.path.join(BLOG_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(render_index(posts, "en"))
+    written, _ = write_listings(posts, "en", BLOG_DIR, he_topics)
+    clean_stale(BLOG_DIR, written + [p["slug"] + ".html" for p in posts])
     with open(os.path.join(BLOG_DIR, "rss.xml"), "w", encoding="utf-8") as f:
         f.write(render_rss(posts, "en"))
 
@@ -1003,15 +1223,16 @@ def main():
         for p in he_posts:
             with open(os.path.join(HE_BLOG_DIR, p["slug"] + ".html"), "w", encoding="utf-8") as f:
                 f.write(render_post(p))
-        with open(os.path.join(HE_BLOG_DIR, "index.html"), "w", encoding="utf-8") as f:
-            f.write(render_index(he_posts, "he"))
+        written, _ = write_listings(he_posts, "he", HE_BLOG_DIR, en_topics)
+        clean_stale(HE_BLOG_DIR, written + [p["slug"] + ".html" for p in he_posts])
         with open(os.path.join(HE_BLOG_DIR, "rss.xml"), "w", encoding="utf-8") as f:
             f.write(render_rss(he_posts, "he"))
 
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
-        f.write(render_sitemap(posts, he_posts))
+        f.write(render_sitemap(posts, he_posts, en_topics, he_topics))
     with open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8") as f:
-        f.write(render_llms(posts))
+        f.write(render_llms([p for p in posts if not p.get("noindex")]))
+    _svc_mod.optimize_html_dirs([BLOG_DIR, HE_BLOG_DIR])
     print("Built %d EN post(s) and %d HE post(s)." % (len(posts), len(he_posts)))
 
 

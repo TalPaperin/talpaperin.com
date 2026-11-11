@@ -1,7 +1,7 @@
 ---
 title: Soon an AI Agent Will Decide Whether to Buy From You
-seotitle: Selling to AI Agent Buyers: How B2B Sales Changes When Machines Evaluate
-description: Enterprises are funding tools to let AI agents run functions like security. When an agent shortlists vendors, charm stops working. Here is how to sell to a machine buyer.
+seotitle: How to Sell When an AI Agent Is the Buyer
+description: When an AI agent shortlists vendors, charm stops working. How B2B selling changes when a machine evaluates you, and what to build for it now.
 date: 2026-11-14
 tags: B2B Sales, AI, Go-to-Market, Buying Process
 image: /og-image.jpg

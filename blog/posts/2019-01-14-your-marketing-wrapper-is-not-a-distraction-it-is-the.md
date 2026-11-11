@@ -3,6 +3,7 @@ title: Your marketing wrapper is not a distraction. It is the first thing buyers
 seotitle: Your Marketing Wrapper is What Buyers See First
 description: There is this new theory about the "bells and whistles" or the "eye candy" of your marketing efforts. I mean all the "wrapper" in which you cover your product.
 date: 2019-01-14
+noindex: true
 tags: Marketing
 image: /og-image.jpg
 ---

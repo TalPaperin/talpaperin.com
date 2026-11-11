@@ -1,7 +1,7 @@
 ---
 title: 'How to Choose Your First Target Market for International Expansion'
 seotitle: Choosing Your First International Target Market
-description: Choosing the first market for expansion is the decision that determines whether you succeed or burn the budget. The criteria you should actually choose by, not just size.
+description: Your first international market should be the one where your odds of winning are highest, not the biggest one. The five criteria I use to choose.
 date: 2026-03-02
 tags: Target Market, Expansion, International Sales, Go-To-Market
 image: /og-image.jpg

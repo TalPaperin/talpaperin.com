@@ -1,7 +1,7 @@
 ---
 title: The Sales Metrics Founders Should Actually Track
-seotitle: Sales Metrics Founders Should Track (and the Vanity Ones to Ignore)
-description: Founders drown in dashboards. Here are the five sales metrics that actually predict revenue, the vanity numbers to ignore, and when each one should make you act.
+seotitle: The Sales Metrics Founders Should Track
+description: Founders drown in dashboards. Here are the five sales metrics that predict revenue, the vanity numbers to ignore, and when each one should make you act.
 date: 2026-10-20
 tags: Sales Metrics, KPIs, Forecasting, Startups
 image: /og-image.jpg

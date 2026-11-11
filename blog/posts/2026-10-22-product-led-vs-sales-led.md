@@ -1,6 +1,6 @@
 ---
 title: Product-Led vs Sales-Led Growth: Which Does Your B2B Need?
-seotitle: Product-Led vs Sales-Led Growth: Which Motion Does Your B2B Need?
+seotitle: Product-Led vs Sales-Led Growth for B2B
 description: PLG fits low-ACV self-serve products. Sales-led fits high-ACV committee buying. Most B2B need a hybrid. Choose by buyer, price, and complexity, not by hype.
 date: 2026-10-22
 tags: Product-Led Growth, Sales-Led, Go-to-Market, SaaS

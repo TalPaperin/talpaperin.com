@@ -1,6 +1,6 @@
 ---
 title: At-Bay Was Valued at $1.35B. It Sold for $575M. Read the Gap.
-seotitle: A $1.35B Valuation, a $575M Exit, and What the Gap Teaches Founders
+seotitle: At-Bay: A $1.35B Valuation, a $575M Exit
 description: At-Bay hit a $1.35B valuation and sold to Munich Re for $575M. A valuation is a bet. Revenue is a fact. Here is how founders should read the difference.
 date: 2026-10-24
 tags: Valuation, Exits, Revenue, B2B Sales

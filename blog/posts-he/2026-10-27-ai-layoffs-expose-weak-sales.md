@@ -1,6 +1,6 @@
 ---
 title: HubSpot פיטרה 660 עובדים וקראה לזה AI. קראו את זה אחרת.
-seotitle: כשחברות מאשימות את ה-AI בפיטורים, הן מסתירות בעיית מכירות
+seotitle: פיטורים בשם ה-AI מסתירים מנוע מכירות חלש
 description: HubSpot פיטרה כמעט 660 עובדים ו-HoneyBook קיצצה 14 אחוז, שתיהן בשם ה-AI. הקריאה הכנה: AI נתן כיסוי לקצץ כוח אדם שמנוע מכירות חלש נשא.
 date: 2026-10-27
 tags: Layoffs, Sales Efficiency, Go-to-Market, AI

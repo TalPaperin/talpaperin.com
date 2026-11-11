@@ -3,6 +3,7 @@ title: 20 years as a CRO taught me founders lose deals for the same three reason
 seotitle: 3 Reasons Founders Lose Deals: 20-Year CRO View
 description: I've watched brilliant founders lose deals they should have closed. I've watched great reps underperform because nobody built them a system. I've watched.
 date: 2026-04-12
+noindex: true
 tags: B2B Sales, Startups, Revenue Leadership
 image: /og-image.jpg
 ---

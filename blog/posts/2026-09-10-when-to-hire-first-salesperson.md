@@ -1,6 +1,6 @@
 ---
 title: When to Hire Your First Salesperson (Founders Wait Too Long, Then Panic)
-seotitle: When to Hire Your First Salesperson: The Real Trigger for B2B Startups
+seotitle: When to Hire Your First B2B Salesperson
 description: Revenue milestones do not tell you when to hire your first salesperson. A repeatable motion you can hand off does. Here is what ready actually looks like.
 date: 2026-09-10
 tags: Sales Hiring, Startups, Sales Team, B2B Sales, Fractional CRO

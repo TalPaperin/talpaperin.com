@@ -1,6 +1,7 @@
 ---
 title: A Startup Raised $20 Million. It Just Sold for $150,000.
-description: Swish.ai had Coca-Cola, Nestlé and CyberArk as customers and eight years in business, yet sold for the price of a used car. The reason was never the market. It was go-to-market.
+seotitle: Raised $20M, Sold for $150K: A GTM Failure
+description: Swish.ai had Coca-Cola, Nestlé and CyberArk as customers and still sold for the price of a used car. Logos are not revenue, and it never built a sales engine.
 date: 2026-06-16
 tags: Startups, B2B Sales, Go-To-Market, Revenue
 image: /og-image.jpg

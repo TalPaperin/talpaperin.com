@@ -1,6 +1,6 @@
 ---
 title: Mave Just Raised $28M. The Hard Part Starts Now.
-seotitle: After a Series A, You Need a Repeatable Sales Engine, Not More Product
+seotitle: After a Series A: Build the Sales Engine
 description: Mave raised a $28M Series A. Funding is not a go-to-market. After the round, the job is a repeatable, senior-owned sales motion before the next raise.
 date: 2026-11-26
 tags: B2B Sales, Fundraising, Go-To-Market, Fractional CRO

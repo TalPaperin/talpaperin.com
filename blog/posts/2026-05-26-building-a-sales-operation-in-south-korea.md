@@ -1,6 +1,7 @@
 ---
 title: 'Building a Sales Operation in South Korea'
-description: 'Selling B2B in South Korea: how Korean buyers actually buy, hierarchy and relationships, and the sales team, partners and support operation I build and run there.'
+seotitle: Building a B2B Sales Operation in South Korea
+description: Selling B2B in South Korea: how Korean buyers actually buy, why hierarchy and relationships matter, and the sales operation I build and run there.
 date: 2026-05-26
 tags: South Korea, International Sales, Market Entry, Sales Team
 image: /og-image.jpg

@@ -1,6 +1,6 @@
 ---
 title: TPx Filed for Chapter 11 With $1.1 Billion in Debt. The Debt Was Not the Real Problem.
-seotitle: VP of Sales vs Fractional CRO: The Real Revenue Problem
+seotitle: VP of Sales vs Fractional CRO: The TPx Lesson
 description: TPx filed Chapter 11 with $1.1B in debt. The real killer was revenue that did not grow fast enough, and that is a Fractional CRO problem, not a VP of Sales one.
 date: 2026-07-08
 tags: B2B Sales, Revenue Leadership, Fractional CRO, VP of Sales, Go-To-Market

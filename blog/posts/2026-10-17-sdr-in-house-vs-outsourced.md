@@ -1,6 +1,6 @@
 ---
 title: In-House SDRs vs Outsourced: What Early-Stage B2B Should Do
-seotitle: In-House SDRs vs Outsourced SDRs: What Early-Stage B2B Should Choose
+seotitle: In-House vs Outsourced SDRs for Early-Stage B2B
 description: In-house SDRs give control but are slow and costly to build. Outsourced and pay-per-meeting give speed and results-based cost. Here is how to choose by stage.
 date: 2026-10-17
 tags: SDR, Outbound, Appointment Setting, B2B Sales

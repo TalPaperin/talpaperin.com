@@ -1,7 +1,7 @@
 ---
 title: Your First Sales Hire Keeps Failing. Here Is Why.
-seotitle: Why Your First Sales Hire Keeps Failing (It Is Usually Not the Rep)
-description: Fired your first salesperson and the second is struggling too? It is rarely the rep. Here is the real reason your first sales hire keeps failing, and how to fix it.
+seotitle: Why Your First Sales Hire Keeps Failing
+description: If your first sales hire failed and the second is struggling, look at the system before the rep: wrong profile for your stage, no playbook, no management.
 date: 2026-09-17
 tags: Sales Hiring, Sales Team, Sales Management, B2B Sales
 image: /og-image.jpg

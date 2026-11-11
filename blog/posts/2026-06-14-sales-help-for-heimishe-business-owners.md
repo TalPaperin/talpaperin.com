@@ -31,4 +31,4 @@ No calls on Shabbos or Yom Tov, ever. Discretion, because your business is your 
 
 ---
 
-Read more: [a frum business consultant who gets the heimishe world](/frum-business-consultant), [a frum, shomer Shabbos fractional sales leader](/blog/frum-fractional-sales-leader), [how to sell to the frum market](/blog/selling-to-the-frum-market), or [get in touch](/contact).
+Read more: [a frum business consultant who gets the heimishe world](/frum-business-consultant), [a frum, shomer Shabbos fractional sales leader](/blog/frum-sales-consultant), [how to sell to the frum market](/blog/selling-to-the-frum-market), or [get in touch](/contact).

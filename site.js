@@ -180,4 +180,87 @@
     var f = e.target;
     if (f && f.classList && f.classList.contains('sub-form')) ev('newsletter_signup', {});
   }, true);
+
+  // Fold-out sections (pricing page): a link to #id opens the <details> it points at.
+  function openTarget() {
+    var id = (location.hash || '').slice(1);
+    if (!id) return;
+    var el = null;
+    try { el = document.getElementById(decodeURIComponent(id)); } catch (x) {}
+    if (el && el.tagName === 'DETAILS' && !el.open) { el.open = true; el.scrollIntoView(); }
+  }
+  window.addEventListener('hashchange', openTarget);
+  openTarget();
+  document.addEventListener('click', function (e) {
+    var a = up(e.target, function (h) { return h.charAt(0) === '#' && h.length > 1; });
+    if (!a) return;
+    var el = document.getElementById(a.getAttribute('href').slice(1));
+    if (el && el.tagName === 'DETAILS') el.open = true;
+  });
+
+  // Cookie consent, Europe only. The head snippet sets Google Consent Mode defaults: analytics
+  // cookies are denied for EEA, UK and Swiss visitors until they accept here. Everyone else sees
+  // no banner. The choice is kept in localStorage ('tp_consent' = yes | no) and can be reopened
+  // from any link marked data-consent-reset (the privacy page has one).
+  // LinkedIn Insight Tag: paste the partner ID from Campaign Manager below to switch it on.
+  // It loads straight away outside Europe and only after "OK" inside Europe.
+  // An ad ACCOUNT id is not a partner id: do not put one here.
+  var LI_PARTNER_ID = '';
+  var heLang = (document.documentElement.getAttribute('lang') || '').indexOf('he') === 0;
+  function inEurope() {
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      return /^(Europe|Arctic)\//.test(tz) || /^Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)$/.test(tz) ||
+        /^Asia\/(Nicosia|Famagusta)$/.test(tz);
+    } catch (x) { return false; }
+  }
+  function getConsent() { try { return localStorage.getItem('tp_consent'); } catch (x) { return null; } }
+  function loadLinkedIn() {
+    if (!LI_PARTNER_ID || window._linkedin_partner_id) return;
+    window._linkedin_partner_id = LI_PARTNER_ID;
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(LI_PARTNER_ID);
+    if (!window.lintrk) { window.lintrk = function (a, b) { window.lintrk.q.push([a, b]); }; window.lintrk.q = []; }
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+    document.head.appendChild(s);
+  }
+  function setConsent(v) {
+    try { localStorage.setItem('tp_consent', v); } catch (x) {}
+    var g = v === 'yes' ? 'granted' : 'denied';
+    try { gtag('consent', 'update', { analytics_storage: g, ad_storage: g, ad_user_data: g, ad_personalization: g }); } catch (x) {}
+    if (v === 'yes') loadLinkedIn();
+  }
+  function showConsent() {
+    if (document.querySelector('.consent')) return;
+    var C = heLang ? {
+      t: 'עוגיות: אני משתמש באנליטיקה כדי לראות אילו עמודים מועילים' + (LI_PARTNER_ID ? ', וב-LinkedIn כדי למדוד את הפרסום שלי' : '') + '. אפשר לספור את הביקור שלכם?',
+      yes: 'אישור', no: 'לא תודה', more: 'פרטיות', href: '/he/privacy', label: 'הסכמה לעוגיות'
+    } : {
+      t: 'Cookies: I use analytics to see which pages are useful' + (LI_PARTNER_ID ? ', and LinkedIn to measure my ads' : '') + '. OK to count your visit?',
+      yes: 'OK', no: 'No thanks', more: 'Privacy', href: '/privacy', label: 'Cookie consent'
+    };
+    var box = document.createElement('div');
+    box.className = 'consent'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-label', C.label);
+    var p = document.createElement('p'); p.appendChild(document.createTextNode(C.t + ' '));
+    var more = document.createElement('a'); more.href = C.href; more.textContent = C.more; p.appendChild(more);
+    var row = document.createElement('div'); row.className = 'consent-btns';
+    [['yes', C.yes], ['no', C.no]].forEach(function (o) {
+      var b = document.createElement('button'); b.type = 'button'; b.className = o[0]; b.textContent = o[1];
+      b.addEventListener('click', function () { setConsent(o[0]); box.parentNode.removeChild(box); });
+      row.appendChild(b);
+    });
+    box.appendChild(p); box.appendChild(row);
+    document.body.appendChild(box);
+  }
+  var eu = inEurope(), choice = getConsent();
+  if (!eu || choice === 'yes') loadLinkedIn();
+  if (eu && !choice) showConsent();
+  document.addEventListener('click', function (e) {
+    var el = e.target;
+    while (el && el !== document) {
+      if (el.hasAttribute && el.hasAttribute('data-consent-reset')) { e.preventDefault(); showConsent(); return; }
+      el = el.parentNode;
+    }
+  });
 })();

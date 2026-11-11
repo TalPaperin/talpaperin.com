@@ -1,5 +1,6 @@
 {
   "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/client_feedback/:path*",
@@ -44,6 +45,271 @@
     {
       "source": "/he/services/global-markets",
       "destination": "/he/services/market-entry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-baltimore",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-boro-park",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-chicago",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-crown-heights",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-five-towns",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-flatbush",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-kiryas-joel",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-lakewood",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-los-angeles",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-miami",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-monsey",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-passaic",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-consultant-williamsburg",
+      "destination": "/frum-business-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-baltimore",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-boro-park",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-chicago",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-crown-heights",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-five-towns",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-flatbush",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-kiryas-joel",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-lakewood",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-los-angeles",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-miami",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-monsey",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-passaic",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-business-development-williamsburg",
+      "destination": "/blog/frum-business-development",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-baltimore",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-boro-park",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-chicago",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-crown-heights",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-five-towns",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-flatbush",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-kiryas-joel",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-lakewood",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-los-angeles",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-miami",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-monsey",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-passaic",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-sales-consultant-williamsburg",
+      "destination": "/blog/frum-sales-consultant",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-baltimore",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-boro-park",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-chicago",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-crown-heights",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-five-towns",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-flatbush",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-kiryas-joel",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-lakewood",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-los-angeles",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-miami",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-monsey",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-passaic",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/growing-your-frum-business-williamsburg",
+      "destination": "/blog/growing-your-frum-business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frum-fractional-sales-leader",
+      "destination": "/blog/frum-sales-consultant",
       "permanent": true
     }
   ],
@@ -115,6 +381,15 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     }

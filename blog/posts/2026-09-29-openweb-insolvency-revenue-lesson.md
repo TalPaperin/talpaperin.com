@@ -1,6 +1,6 @@
 ---
 title: OpenWeb Raised $390M and Hit a $1.5B Valuation. Now It's Seeking Insolvency Protection.
-seotitle: OpenWeb's Insolvency: Fix Revenue Before You Run Out of Time
+seotitle: OpenWeb's Insolvency: Fix Revenue While You Can
 description: OpenWeb raised $390M at a $1.5B valuation and now seeks insolvency protection. The lesson for founders: fix the revenue machine while you still have runway.
 date: 2026-09-29
 tags: Revenue Growth, Go-to-Market, Startups, Israeli Business, Fractional CRO

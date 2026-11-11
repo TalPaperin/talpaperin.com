@@ -1,6 +1,6 @@
 ---
 title: Why Your Startup Can't Sell (And It's Not the Product)
-seotitle: Why Your Startup Can't Sell: The Real Reason B2B Deals Stall
+seotitle: Why Your Startup Can't Sell (Not the Product)
 description: Most founders blame the product when sales stall. The real problem is almost always the motion around it. Here is how to tell, and what to fix first.
 date: 2026-09-10
 tags: B2B Sales, Startups, Go-to-Market, Sales Strategy, Fractional CRO

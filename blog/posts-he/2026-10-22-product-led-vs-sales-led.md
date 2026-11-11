@@ -1,6 +1,6 @@
 ---
 title: Product-Led מול Sales-Led: איזה צמיחה ה-B2B שלכם צריך?
-seotitle: Product-Led מול Sales-Led: איזה מהלך צמיחה ה-B2B שלכם צריך?
+seotitle: Product-Led מול Sales-Led: מה מתאים ל-B2B שלכם
 description: PLG מתאים למוצרי self-serve ב-ACV נמוך. Sales-Led מתאים לרכישה ועדתית ב-ACV גבוה. רוב ה-B2B צריכים היברידי. בחרו לפי הקונה, המחיר והמורכבות.
 date: 2026-10-22
 tags: Product-Led Growth, Sales-Led, Go-to-Market, SaaS

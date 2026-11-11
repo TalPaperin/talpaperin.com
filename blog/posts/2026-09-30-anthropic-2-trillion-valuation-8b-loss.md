@@ -1,6 +1,6 @@
 ---
 title: $4.6B in Revenue. An $8B Loss. A Possible $2 Trillion Valuation.
-seotitle: Anthropic's $2T Valuation vs Its $8B Loss: What AI Changed
+seotitle: Anthropic's Possible $2T Valuation vs $8B Loss
 description: Anthropic makes $4.6B, loses $8B+ operating, and could be worth $2 trillion. Three numbers that shouldn't fit together, and in 2026 somehow do.
 date: 2026-09-30
 tags: AI, Valuation, Revenue Growth, Startups, Fractional CRO

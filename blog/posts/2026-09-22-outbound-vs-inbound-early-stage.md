@@ -1,6 +1,6 @@
 ---
 title: Outbound vs Inbound for Early-Stage B2B: Where to Start
-seotitle: Outbound vs Inbound for Early-Stage B2B: Which to Start First
+seotitle: Outbound vs Inbound for Early-Stage B2B
 description: Inbound compounds but takes many months. Outbound buys control, speed, and market knowledge now. Here is why early-stage B2B almost always needs outbound first.
 date: 2026-09-22
 tags: Outbound, Inbound, Demand Generation, B2B Sales

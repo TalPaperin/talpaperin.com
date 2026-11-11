@@ -1,6 +1,7 @@
 ---
 title: 'Why Great Israeli Startups Fail at Sales Abroad'
-description: Israel builds some of the best products in the world, and still many startups fail at international sales. The real reasons, including the one nobody likes to hear.
+seotitle: Why Israeli Startups Fail at Sales Abroad
+description: Israel builds some of the best products in the world, yet many startups fail at sales abroad. The real reasons, including the one nobody likes to hear.
 date: 2026-02-16
 tags: Startup, International Sales, Go-To-Market, Market Entry
 image: /og-image.jpg

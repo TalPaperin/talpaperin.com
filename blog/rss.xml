@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tal Paperin Insights</title>
-    <link>https://talpaperin.com/blog/</link>
+    <link>https://talpaperin.com/blog</link>
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
@@ -19,14 +19,14 @@
       <link>https://talpaperin.com/blog/when-your-distribution-channel-shifts</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/when-your-distribution-channel-shifts</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-      <description>AI is changing how hotels reach travelers, and a $25M round followed. The lesson for any founder: if one channel feeds most of your revenue, you do not own your demand.</description>
+      <description>AI is changing how hotels reach travelers, and a $25M round followed. If one channel feeds most of your revenue, you do not own your demand.</description>
     </item>
     <item>
       <title>&quot;A Culture of Failing to Keep Promises&quot; Is a Sales Problem</title>
       <link>https://talpaperin.com/blog/overpromising-kills-companies</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/overpromising-kills-companies</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>An investor described Sapiens as having a culture of failing to keep promises. That starts in sales. When reps oversell to hit quota, delivery pays and churn follows.</description>
+      <description>An investor described Sapiens as having a culture of failing to keep promises. That starts in sales, when reps oversell to hit quota and delivery pays.</description>
     </item>
     <item>
       <title>40 Companies, One Category, 20 of Them Israeli. How Do You Sell?</title>
@@ -47,7 +47,7 @@
       <link>https://talpaperin.com/blog/ai-layoffs-expose-weak-sales</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/ai-layoffs-expose-weak-sales</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description>HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount that a weak sales engine had been carrying.</description>
+      <description>HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount a weak sales engine had carried.</description>
     </item>
     <item>
       <title>At-Bay Was Valued at $1.35B. It Sold for $575M. Read the Gap.</title>
@@ -68,7 +68,7 @@
       <link>https://talpaperin.com/blog/sales-metrics-founders-should-track</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/sales-metrics-founders-should-track</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Founders drown in dashboards. Here are the five sales metrics that actually predict revenue, the vanity numbers to ignore, and when each one should make you act.</description>
+      <description>Founders drown in dashboards. Here are the five sales metrics that predict revenue, the vanity numbers to ignore, and when each one should make you act.</description>
     </item>
     <item>
       <title>In-House SDRs vs Outsourced: What Early-Stage B2B Should Do</title>
@@ -152,7 +152,7 @@
       <link>https://talpaperin.com/blog/why-your-demos-dont-close</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/why-your-demos-dont-close</guid>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Demos fail when they come before discovery. You are showing features to a problem you never uncovered. Sell the problem first, then demo only to the pain you found.</description>
+      <description>Demos fail when they come before discovery, because you are showing features to a problem you never uncovered. Sell the problem first, then demo to the pain.</description>
     </item>
     <item>
       <title>How Long Should a B2B Sales Cycle Be (and How to Shorten Yours)</title>
@@ -187,14 +187,14 @@
       <link>https://talpaperin.com/blog/first-sales-hire-keeps-failing</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/first-sales-hire-keeps-failing</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Fired your first salesperson and the second is struggling too? It is rarely the rep. Here is the real reason your first sales hire keeps failing, and how to fix it.</description>
+      <description>If your first sales hire failed and the second is struggling, look at the system before the rep: wrong profile for your stage, no playbook, no management.</description>
     </item>
     <item>
       <title>How to Build a B2B Sales Process From Scratch</title>
       <link>https://talpaperin.com/blog/build-b2b-sales-process</link>
       <guid isPermaLink="true">https://talpaperin.com/blog/build-b2b-sales-process</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description>A CRM with random stages is not a sales process. Here is how to build a real B2B sales process from scratch, with buyer-based stages and a forecast you can trust.</description>
+      <description>A CRM with random stages is not a sales process. How to build a real B2B sales process from scratch, with buyer-based stages and a forecast you can trust.</description>
     </item>
     <item>
       <title>How to Hand Off Founder-Led Sales Without Killing the Pipeline</title>

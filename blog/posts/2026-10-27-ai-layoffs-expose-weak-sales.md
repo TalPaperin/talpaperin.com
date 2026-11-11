@@ -1,7 +1,7 @@
 ---
 title: HubSpot Cut 660 Jobs and Called It AI. Read It Differently.
-seotitle: When Companies Blame AI for Layoffs, They Are Hiding a Sales Problem
-description: HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount that a weak sales engine had been carrying.
+seotitle: AI Layoffs Often Hide a Weak Sales Engine
+description: HubSpot cut nearly 660 jobs and HoneyBook cut 14%, both blamed on AI. The honest read: AI gave cover to trim headcount a weak sales engine had carried.
 date: 2026-10-27
 tags: Layoffs, Sales Efficiency, Go-to-Market, AI
 image: /og-image.jpg

@@ -1,6 +1,6 @@
 ---
 title: Record Revenue, Smaller Profit
-seotitle: Record Revenue and Falling Profit: Why Top-Line Growth Can Lie
+seotitle: Record Revenue, Falling Profit: Growth Can Lie
 description: El Al posted record 1.27 billion dollar revenue while quarterly profit fell 14 percent. Growth you cannot bank is not growth. A fractional CRO's view.
 date: 2026-12-08
 tags: B2B Sales, Revenue Growth, Sales Strategy, Go-To-Market

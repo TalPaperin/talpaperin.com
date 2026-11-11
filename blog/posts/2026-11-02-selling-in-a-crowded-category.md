@@ -1,6 +1,6 @@
 ---
 title: 40 Companies, One Category, 20 of Them Israeli. How Do You Sell?
-seotitle: How to Sell in a Crowded Category When Everyone Pitches the Same Thing
+seotitle: How to Sell in a Crowded B2B Category
 description: Nikesh Arora counts 40 firms racing to secure AI agents, at least 20 Israeli. When the category is a knife fight, the deck does not win. The sales motion does.
 date: 2026-11-02
 tags: Go-to-Market, Differentiation, B2B Sales, Startups

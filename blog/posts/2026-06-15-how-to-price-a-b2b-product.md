@@ -1,5 +1,6 @@
 ---
 title: 'How to Price a B2B Product: Value, Not Cost-Plus'
+seotitle: How to Price a B2B Product by Value, Not Cost
 description: Most B2B companies price by cost-plus or by copying a competitor and leave money on every deal. Here is how to price for the value you actually deliver.
 date: 2026-06-15
 tags: Pricing, B2B Sales, Business Model, Go-To-Market

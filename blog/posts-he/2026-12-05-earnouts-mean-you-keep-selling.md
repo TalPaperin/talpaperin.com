@@ -1,6 +1,6 @@
 ---
 title: ה-Earnout שלך הוא יעד מכירות
-seotitle: Earnout ומנוע המכירות שאחרי האקזיט: הלקח מעסקת Intel-Classiq
+seotitle: ה-Earnout הוא יעד מכירות שנשאר אחרי האקזיט
 description: בעסקת Intel-Classiq, 350 מיליון דולר תלויים בביצועים אחרי הסגירה. earnout הוא יעד מכירות. מה זה אומר למייסדים שמכוונים לאקזיט.
 date: 2026-12-05
 tags: מכירות B2B, צמיחת הכנסות, אקזיט, אסטרטגיית Go-To-Market

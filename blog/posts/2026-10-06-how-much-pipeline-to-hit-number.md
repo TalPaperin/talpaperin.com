@@ -1,6 +1,6 @@
 ---
 title: How Much Pipeline You Really Need to Hit Your Number
-seotitle: How Much Pipeline You Need to Hit Quota: The Real Coverage Math
+seotitle: How Much Pipeline You Need to Hit Quota
 description: Pipeline coverage is quota divided by win rate, adjusted for cycle time. Most teams undercount because the pipeline is stuffed with dead deals.
 date: 2026-10-06
 tags: Pipeline, Forecasting, Sales Metrics, B2B Sales

@@ -1,6 +1,6 @@
 ---
 title: Your Sales Team Says the Pipeline Is Healthy. They Are Wrong.
-seotitle: Pipeline Qualification: Why Half Your Pipeline Is Not Real
+seotitle: Pipeline Qualification: Your Pipeline Is Lying
 description: Most CEOs think they have a sales execution problem. They have a qualification problem. Here is the test that turns a $2M pipeline into an honest $700K.
 date: 2026-07-02
 tags: B2B Sales, Pipeline, Sales Leadership, Revenue Growth, Fractional CRO

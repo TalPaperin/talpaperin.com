@@ -1,6 +1,6 @@
 ---
 title: "Doing More With Less" Is a Sales Test, Not an AI Purchase
-seotitle: Before You Cut Reps or Buy AI, Check If Your Sales Process Works
+seotitle: Test Your Sales Process Before You Buy AI
 description: CEOs are bragging about shrinking teams. But the quota did not shrink. AI makes a good process cheaper and a bad one cheaper to fail. Test the process first.
 date: 2026-12-02
 tags: B2B Sales, Sales Management, AI, Fractional CRO

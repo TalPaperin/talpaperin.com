@@ -1,7 +1,7 @@
 ---
 title: Why Your Demos Don't Close
-seotitle: Why Your Sales Demos Don't Close (and How to Fix It)
-description: Demos fail when they come before discovery. You are showing features to a problem you never uncovered. Sell the problem first, then demo only to the pain you found.
+seotitle: Why Your Sales Demos Don't Close
+description: Demos fail when they come before discovery, because you are showing features to a problem you never uncovered. Sell the problem first, then demo to the pain.
 date: 2026-09-26
 tags: Sales Demos, Discovery, Closing, B2B Sales
 image: /og-image.jpg

@@ -1,6 +1,6 @@
 ---
 title: How Long Should a B2B Sales Cycle Be (and How to Shorten Yours)
-seotitle: B2B Sales Cycle Length: Benchmarks and How to Shorten Yours
+seotitle: B2B Sales Cycle Length and How to Shorten It
 description: Most B2B sales cycles are long because of stalls and weak qualification, not real complexity. Here are honest benchmarks and the two moves that shorten cycles.
 date: 2026-09-24
 tags: Sales Cycle, B2B Sales, Pipeline, Sales Strategy

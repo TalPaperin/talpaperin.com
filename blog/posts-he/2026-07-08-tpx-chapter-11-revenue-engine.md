@@ -1,6 +1,6 @@
 ---
 title: TPx הגישה בקשה ל-Chapter 11 עם חוב של 1.1 מיליארד דולר. החוב לא היה הבעיה האמיתית.
-seotitle: VP מכירות מול Fractional CRO: בעיית ההכנסות האמיתית
+seotitle: VP מכירות מול Fractional CRO: הלקח של TPx
 description: TPx הגישה Chapter 11 עם חוב של 1.1 מיליארד דולר. מה שהרג באמת היה הכנסות שלא צמחו מספיק מהר, וזו בעיה של Fractional CRO, לא של VP מכירות.
 date: 2026-07-08
 tags: מכירות B2B, מנהיגות הכנסות, Fractional CRO, VP מכירות, Go-To-Market

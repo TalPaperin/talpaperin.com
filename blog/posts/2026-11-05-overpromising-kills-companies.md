@@ -1,7 +1,7 @@
 ---
 title: "A Culture of Failing to Keep Promises" Is a Sales Problem
-seotitle: Overpromising to Close Deals Is a Sales Culture That Kills Companies
-description: An investor described Sapiens as having a culture of failing to keep promises. That starts in sales. When reps oversell to hit quota, delivery pays and churn follows.
+seotitle: Overpromising to Close Deals Kills Companies
+description: An investor described Sapiens as having a culture of failing to keep promises. That starts in sales, when reps oversell to hit quota and delivery pays.
 date: 2026-11-05
 tags: Sales Culture, Retention, Go-to-Market, Leadership
 image: /og-image.jpg

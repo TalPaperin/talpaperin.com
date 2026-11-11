@@ -3,6 +3,7 @@ title: Every problem has a clear, simple, obvious answer. And it is usually wron
 seotitle: Why Obvious Business Answers Are Usually Wrong
 description: Clean. Obvious. And usually completely wrong. H.L. Mencken said it best over a century ago: *"For every complex problem there is an answer that is clear.
 date: 2026-03-24
+noindex: true
 tags: B2B Sales, Go-To-Market, Startups
 image: /og-image.jpg
 ---

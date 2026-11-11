@@ -1,6 +1,6 @@
 ---
 title: If Your Company Might Only Last Six Months, Your Sales Math Changes
-seotitle: Short Runway Changes Your Sales Math: Payback Over Lifetime Value
+seotitle: Short Runway Sales Math: Payback Before LTV
 description: A CTech opinion argues your next business might last six months, and that can be enough. If that is the bet, sell for fast payback, not distant lifetime value.
 date: 2026-11-11
 tags: Go-to-Market, CAC Payback, Revenue, Startups

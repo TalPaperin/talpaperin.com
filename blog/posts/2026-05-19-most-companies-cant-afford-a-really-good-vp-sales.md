@@ -1,6 +1,7 @@
 ---
-title: Most Companies Can’t Afford a REALLY Good VP Sales
-description: A lot of founders and CEOs secretly hate their sales costs.
+title: Most Companies Can't Afford a REALLY Good VP Sales
+seotitle: Most Companies Can't Afford a Good VP Sales
+description: A really good VP Sales costs $250K to $350K a year before the team around them. Many startups take on that overhead too early, when a fractional model fits.
 date: 2026-05-19
 tags: B2B Sales, Revenue Leadership, Startups
 image: /og-image.jpg

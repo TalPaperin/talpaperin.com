@@ -1,6 +1,6 @@
 ---
 title: BioCatch Sold to Visa for $2.4 Billion. The Lesson Is Not the Technology.
-seotitle: BioCatch's $2.4B Visa Exit: The Sales Machine Behind It
+seotitle: BioCatch's $2.4B Visa Exit: The Sales Machine
 description: BioCatch went from $7M to $100M ARR before Visa paid $2.4 billion. The lesson for founders is not the tech. It is the repeatable sales machine that scaled it.
 date: 2026-08-09
 tags: Scaling Sales, Go-to-Market, Fractional CRO, Israeli Startups, Revenue Growth

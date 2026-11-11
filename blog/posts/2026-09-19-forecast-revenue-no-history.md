@@ -1,6 +1,6 @@
 ---
 title: How to Forecast Revenue When You Have No Sales History
-seotitle: How to Forecast Revenue With No Sales History (A Bottoms-Up Model)
+seotitle: How to Forecast Revenue With No Sales History
 description: No sales history? A top-down wish is not a forecast. Here is how to build a bottoms-up revenue model from activity and conversion assumptions you can defend.
 date: 2026-09-19
 tags: Revenue Forecasting, Pipeline, Startups, Fractional CRO

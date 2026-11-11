@@ -1,6 +1,6 @@
 ---
 title: Your Earnout Is a Sales Quota
-seotitle: Earnouts and the Post-Acquisition Sales Engine: The Intel-Classiq Lesson
+seotitle: Your Earnout Is a Sales Quota After the Exit
 description: Intel's Classiq deal puts 350 million dollars on performance after close. An earnout is a sales target. Here is what that means for founders eyeing an exit.
 date: 2026-12-05
 tags: B2B Sales, Revenue Growth, Exits, Go-To-Market

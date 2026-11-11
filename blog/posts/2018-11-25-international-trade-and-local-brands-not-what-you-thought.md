@@ -1,7 +1,7 @@
 ---
 title: International Trade and "Local"​ Brands - not what you thought.
 seotitle: International Trade & Local Brands Reality
-description: Israeli cosmetics - case study.
+description: Some Dead Sea cosmetics are now made in China. A case study in how global manufacturing changes what a local brand means and opens new markets.
 date: 2018-11-25
 tags: Market Entry
 image: /og-image.jpg

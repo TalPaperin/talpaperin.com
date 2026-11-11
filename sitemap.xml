@@ -7,19 +7,19 @@
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/</loc>
+    <loc>https://talpaperin.com/he</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/</loc>
+    <loc>https://talpaperin.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/blog/</loc>
+    <loc>https://talpaperin.com/he/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-11-11</lastmod>
@@ -49,7 +49,7 @@
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/services/</loc>
+    <loc>https://talpaperin.com/services</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-11-11</lastmod>
@@ -80,6 +80,12 @@
   </url>
   <url>
     <loc>https://talpaperin.com/privacy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/terms</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
     <lastmod>2026-11-11</lastmod>
@@ -781,7 +787,7 @@
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/services/</loc>
+    <loc>https://talpaperin.com/he/services</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-11-11</lastmod>
@@ -898,6 +904,102 @@
     <loc>https://talpaperin.com/he/privacy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/terms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-b2b-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-revenue-leadership</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-go-to-market</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-market-entry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-sales-teams</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-startups</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-pipeline</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/blog/topic-frum-business</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-b2b-sales</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-revenue-leadership</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-go-to-market</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-market-entry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-sales-teams</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-startups</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://talpaperin.com/he/blog/topic-pipeline</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
     <lastmod>2026-11-11</lastmod>
   </url>
   <url>
@@ -1132,7 +1234,7 @@
     <loc>https://talpaperin.com/blog/from-4-8-billion-to-60-million-broken-business-model</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/germany-is-dumping-us-missiles-for-defense-startups</loc>
@@ -1183,67 +1285,7 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-boro-park</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-lakewood</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-lakewood</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-fractional-sales-leader</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-boro-park</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-flatbush</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-boro-park</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-crown-heights</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/sales-help-for-heimishe-business-owners</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-crown-heights</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-monsey</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-06-14</lastmod>
@@ -1255,139 +1297,7 @@
     <lastmod>2026-06-14</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-chicago</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/yiddish-speaking-business-world-sales</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-miami</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-miami</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-miami</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-los-angeles</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-flatbush</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-los-angeles</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-passaic</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-five-towns</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-monsey</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-chicago</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-baltimore</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-five-towns</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-williamsburg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-kiryas-joel</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-lakewood</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-monsey</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-passaic</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-passaic</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-baltimore</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-los-angeles</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-lakewood</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-06-14</lastmod>
@@ -1396,151 +1306,25 @@
     <loc>https://talpaperin.com/blog/growing-your-frum-business</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-baltimore</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-crown-heights</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-williamsburg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/frum-business-development</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-kiryas-joel</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/selling-to-the-frum-market</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-boro-park</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-williamsburg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-kiryas-joel</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-crown-heights</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-chicago</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-chicago</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-five-towns</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-monsey</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-miami</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-kiryas-joel</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-los-angeles</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-flatbush</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-development-baltimore</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-williamsburg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-sales-consultant-passaic</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/growing-your-frum-business-flatbush</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/frum-sales-consultant</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/frum-business-consultant-five-towns</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/building-a-sales-operation-in-the-united-states</loc>
@@ -1570,7 +1354,7 @@
     <loc>https://talpaperin.com/blog/leadership-requires-balls</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/an-anti-israel-org-targeted-me-with-an-ad-it</loc>
@@ -1600,13 +1384,7 @@
     <loc>https://talpaperin.com/blog/most-founders-completely-misunderstand-sales-objections</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-05</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/most-ceos-dont-have-a-sales-problem-they-have-a</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/building-a-sales-operation-in-france</loc>
@@ -1636,13 +1414,7 @@
     <loc>https://talpaperin.com/blog/sentinelone-hit-1b-in-revenue-then-laid-off-300-people</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-06-01</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/i-got-added-to-a-bds-boycott-list-here-is</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/little-crappy-ships-that-is-the-nickname-the-us-navy</loc>
@@ -1684,7 +1456,7 @@
     <loc>https://talpaperin.com/blog/i-tracked-300-founders-from-my-old-sales-calls-a</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/selling-b2b-in-australia-and-new-zealand</loc>
@@ -1696,7 +1468,7 @@
     <loc>https://talpaperin.com/blog/target-just-had-its-best-quarter-in-4-years-the</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/most-companies-cant-afford-a-really-good-vp-sales</loc>
@@ -1714,13 +1486,7 @@
     <loc>https://talpaperin.com/blog/eight-years-ago-telling-ceos-not-to-build-a-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/monday-added-popup-ads-iran-closed-a-strait-the-same</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/an-israeli-saas-company-sold-to-the-wrong-market-for</loc>
@@ -1738,7 +1504,7 @@
     <loc>https://talpaperin.com/blog/why-does-this-bus-cost-15x-more-in-boston-than</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/a-77kmonth-sales-team-hit-only-20-of-the-forecast</loc>
@@ -1762,7 +1528,7 @@
     <loc>https://talpaperin.com/blog/d-fend-did-not-pivot-in-9-years-the-worlds</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/selling-b2b-in-south-america</loc>
@@ -1786,7 +1552,7 @@
     <loc>https://talpaperin.com/blog/the-quickest-way-to-become-a-millionaire-start-as-a</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/managing-remote-sales-team</loc>
@@ -1804,7 +1570,7 @@
     <loc>https://talpaperin.com/blog/israels-gdp-is-outgrowing-every-g7-nation-in-the-middle</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/selling-b2b-in-asia-pacific</loc>
@@ -1822,13 +1588,13 @@
     <loc>https://talpaperin.com/blog/the-uae-quit-opec-overnight-this-is-exactly-how-systems</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/buyers-dont-buy-logically-they-buy-emotionally-then-justify-it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/selling-b2b-in-the-eu</loc>
@@ -1852,19 +1618,19 @@
     <loc>https://talpaperin.com/blog/i-launched-my-company-by-visiting-a-customer-not-posting</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/qvc-invented-live-shopping-tiktok-killed-it-your-sales-motion</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/a-torah-scroll-on-a-soldiers-back-and-what-it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-04-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/go-to-market-israeli-startup</loc>
@@ -1873,58 +1639,28 @@
     <lastmod>2026-04-13</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/20-years-as-a-cro-taught-me-founders-lose-deals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-04-12</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/aston-martin-is-betting-everything-on-one-car-so-are</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-04-09</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/a-partnership-where-only-one-side-delivers-is-not-a</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-04-01</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/france-cut-off-arms-to-israel-israels-answer-build-it</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/71-of-israeli-startups-say-the-war-hurt-fundraising-90</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/uvision-is-heading-to-nasdaq-at-35b-it-never-had</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/openai-is-burning-14b-a-year-and-buying-distribution-the</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/a-volkswagen-plant-may-start-building-iron-dome-parts-they</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/every-problem-has-a-clear-simple-obvious-answer-and-it</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/target-nearly-broke-itself-with-a-series-of-perfectly-logical</loc>
@@ -1939,22 +1675,16 @@
     <lastmod>2026-03-23</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/deals-close-when-you-understand-the-buyers-pain-not-when</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-22</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/a-fake-war-story-explains-why-your-sales-forecast-is</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/honda-burned-16b-not-a-failed-startup-a-failure-to</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/choosing-first-market</loc>
@@ -2047,28 +1777,22 @@
     <lastmod>2024-12-31</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/having-an-amazing-product-isnt-enough</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2023-05-01</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/international-trade-with-russia-boomed-this-year-despite-the-so</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2022-10-31</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/complex-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2022-07-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/whats-every-salesmans-dream-the-best-case-scenario</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/impact-on-your-business-who-can</loc>
@@ -2080,79 +1804,7 @@
     <loc>https://talpaperin.com/blog/sales-chain-whom-are-you-selling-to-and-whom-are</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2020-10-12</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/in-b2b-your-job-is-to-help-your-buyer-sell</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2020-04-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/want-to-hit-quota-in-a-brutal-market-sell-harder</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2020-03-25</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/quality-is-beating-price-buyers-care-less-about-your-discount</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2020-03-04</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/know-like-trust-buy-can-you-actually-speed-the-process</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2020-02-06</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/could-you-sell-spoiled-milk-to-a-furniture-store-it</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2019-07-30</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/a-tel-aviv-traffic-jam-is-a-four-step-lesson</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2019-07-02</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/how-to-reach-your-target-and-avoid-the-fog-build</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2019-06-01</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/robert-herjavecs-5-tips-for-entrepreneurs-and-the-one-i</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2019-05-19</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/your-marketing-wrapper-is-not-a-distraction-it-is-the</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2019-01-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/a-200m-israeli-exit-proves-the-oldest-sales-rule-go</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2019-01-10</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/in-store-product-placement-is-how-brick-and-mortar-beats</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-12-09</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/sales-is-storytelling-even-a-boring-product-has-a-better</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-12-02</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/international-trade-and-local-brands-not-what-you-thought</loc>
@@ -2161,52 +1813,16 @@
     <lastmod>2018-11-25</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/real-leaders-improvise-they-deviate-from-the-plan-and-use</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-10-07</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/behind-the-news-russias-bread-circus-distraction-tactics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2018-09-16</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/blog/how-many-questions-does-it-take-to-close-a-c</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-08-02</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/blog/international-sales-marketing-and-business-development</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2018-07-18</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/sales-is-like-the-movies-no-script-no-blockbuster</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/your-mid-range-price-can-become-unaffordable-in-the-next</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-06-27</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/entering-a-new-market-talk-the-talk-and-learn-the</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-06-04</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/blog/do-clients-really-care-if-you-have-worked-in-their</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2018-05-30</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/blog/an-eye-that-seesand-all-your-deeds-inscribed-in-the</loc>
@@ -2542,7 +2158,7 @@
     <loc>https://talpaperin.com/he/blog/leadership-requires-balls</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/an-anti-israel-org-targeted-me-with-an-ad-it</loc>
@@ -2572,13 +2188,7 @@
     <loc>https://talpaperin.com/he/blog/most-founders-completely-misunderstand-sales-objections</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-06-05</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/most-ceos-dont-have-a-sales-problem-they-have-a</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-france</loc>
@@ -2602,13 +2212,7 @@
     <loc>https://talpaperin.com/he/blog/sentinelone-hit-1b-in-revenue-then-laid-off-300-people</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-06-01</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/i-got-added-to-a-bds-boycott-list-here-is</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/building-a-sales-operation-in-china</loc>
@@ -2638,7 +2242,7 @@
     <loc>https://talpaperin.com/he/blog/i-tracked-300-founders-from-my-old-sales-calls-a</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/selling-b2b-in-australia-and-new-zealand</loc>
@@ -2662,13 +2266,7 @@
     <loc>https://talpaperin.com/he/blog/eight-years-ago-telling-ceos-not-to-build-a-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/monday-added-popup-ads-iran-closed-a-strait-the-same</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/an-israeli-saas-company-sold-to-the-wrong-market-for</loc>
@@ -2698,7 +2296,7 @@
     <loc>https://talpaperin.com/he/blog/d-fend-did-not-pivot-in-9-years-the-worlds</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/selling-b2b-in-south-america</loc>
@@ -2722,7 +2320,7 @@
     <loc>https://talpaperin.com/he/blog/the-quickest-way-to-become-a-millionaire-start-as-a</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/managing-remote-sales-team</loc>
@@ -2740,7 +2338,7 @@
     <loc>https://talpaperin.com/he/blog/israels-gdp-is-outgrowing-every-g7-nation-in-the-middle</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/selling-b2b-in-asia-pacific</loc>
@@ -2752,7 +2350,7 @@
     <loc>https://talpaperin.com/he/blog/buyers-dont-buy-logically-they-buy-emotionally-then-justify-it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/selling-b2b-in-the-eu</loc>
@@ -2776,13 +2374,13 @@
     <loc>https://talpaperin.com/he/blog/i-launched-my-company-by-visiting-a-customer-not-posting</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/a-torah-scroll-on-a-soldiers-back-and-what-it</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-04-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/go-to-market-israeli-startup</loc>
@@ -2791,46 +2389,22 @@
     <lastmod>2026-04-13</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/blog/20-years-as-a-cro-taught-me-founders-lose-deals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-04-12</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/a-partnership-where-only-one-side-delivers-is-not-a</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-04-01</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/france-cut-off-arms-to-israel-israels-answer-build-it</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-03-31</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/he/blog/71-of-israeli-startups-say-the-war-hurt-fundraising-90</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/uvision-is-heading-to-nasdaq-at-35b-it-never-had</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/a-volkswagen-plant-may-start-building-iron-dome-parts-they</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-03-25</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/every-problem-has-a-clear-simple-obvious-answer-and-it</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/b2b-pricing-us-market</loc>
@@ -2839,16 +2413,10 @@
     <lastmod>2026-03-23</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/blog/deals-close-when-you-understand-the-buyers-pain-not-when</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-03-22</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/he/blog/a-fake-war-story-explains-why-your-sales-forecast-is</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/choosing-first-market</loc>
@@ -2983,22 +2551,16 @@
     <lastmod>2024-09-10</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/blog/having-an-amazing-product-isnt-enough</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2023-05-01</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/he/blog/complex-sales</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2022-07-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/whats-every-salesmans-dream-the-best-case-scenario</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/impact-on-your-business-who-can</loc>
@@ -3010,79 +2572,7 @@
     <loc>https://talpaperin.com/he/blog/sales-chain-whom-are-you-selling-to-and-whom-are</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2020-10-12</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/in-b2b-your-job-is-to-help-your-buyer-sell</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2020-04-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/want-to-hit-quota-in-a-brutal-market-sell-harder</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2020-03-25</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/quality-is-beating-price-buyers-care-less-about-your-discount</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2020-03-04</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/know-like-trust-buy-can-you-actually-speed-the-process</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2020-02-06</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/could-you-sell-spoiled-milk-to-a-furniture-store-it</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2019-07-30</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/a-tel-aviv-traffic-jam-is-a-four-step-lesson</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2019-07-02</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/how-to-reach-your-target-and-avoid-the-fog-build</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2019-06-01</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/robert-herjavecs-5-tips-for-entrepreneurs-and-the-one-i</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2019-05-19</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/your-marketing-wrapper-is-not-a-distraction-it-is-the</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2019-01-14</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/a-200m-israeli-exit-proves-the-oldest-sales-rule-go</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2019-01-10</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/in-store-product-placement-is-how-brick-and-mortar-beats</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-12-09</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/sales-is-storytelling-even-a-boring-product-has-a-better</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-12-02</lastmod>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/international-trade-and-local-brands-not-what-you-thought</loc>
@@ -3091,46 +2581,10 @@
     <lastmod>2018-11-25</lastmod>
   </url>
   <url>
-    <loc>https://talpaperin.com/he/blog/real-leaders-improvise-they-deviate-from-the-plan-and-use</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-10-07</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/how-many-questions-does-it-take-to-close-a-c</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-08-02</lastmod>
-  </url>
-  <url>
     <loc>https://talpaperin.com/he/blog/international-sales-marketing-and-business-development</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <lastmod>2018-07-18</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/sales-is-like-the-movies-no-script-no-blockbuster</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-07-16</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/your-mid-range-price-can-become-unaffordable-in-the-next</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-06-27</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/entering-a-new-market-talk-the-talk-and-learn-the</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-06-04</lastmod>
-  </url>
-  <url>
-    <loc>https://talpaperin.com/he/blog/do-clients-really-care-if-you-have-worked-in-their</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2018-05-30</lastmod>
   </url>
   <url>
     <loc>https://talpaperin.com/he/blog/an-eye-that-seesand-all-your-deeds-inscribed-in-the</loc>

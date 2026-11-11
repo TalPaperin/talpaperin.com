@@ -1,6 +1,6 @@
 ---
 title: How to Scale From Founder-Led Sales to a Real Sales Team
-seotitle: Scaling From Founder-Led Sales to a Real Sales Team: The Right Order
+seotitle: Scaling From Founder-Led Sales to a Sales Team
 description: Founder-led sales does not scale by hiring. Codify the founder's motion into a playbook, hire to that profile, install management and cadence. Order matters.
 date: 2026-09-29
 tags: Scaling Sales, Sales Team, Founder-Led Sales, B2B Sales

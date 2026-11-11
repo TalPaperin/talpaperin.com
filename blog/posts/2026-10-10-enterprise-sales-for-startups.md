@@ -1,6 +1,6 @@
 ---
 title: "Enterprise Sales for Startups: Selling to Companies 100x Your Size"
-seotitle: Enterprise Sales for Startups: How to Sell to Giant Companies
+seotitle: Enterprise Sales for Startups: Sell to Giants
 description: Selling to giants means committees, procurement, and long cycles. Land a champion, multi-thread the account, de-risk the buy, and never single-thread.
 date: 2026-10-10
 tags: Enterprise Sales, Startups, B2B Sales, Sales Strategy

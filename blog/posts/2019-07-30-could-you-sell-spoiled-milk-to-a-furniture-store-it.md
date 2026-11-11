@@ -3,6 +3,7 @@ title: Could you sell spoiled milk to a furniture store? It is the wrong questio
 seotitle: Selling Spoiled Milk to Furniture: B2B Strategy
 description: Let's see how good of a Salesperson you are: Do you think you'd be able to sell spoiled milk to a furniture store? If not - what if I'd bring you world's best.
 date: 2019-07-30
+noindex: true
 tags: B2B Sales, Marketing
 image: /og-image.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: When the Number Falls, Everything You Built on Top of It Comes Due
-seotitle: The Arieli-Elron Loan: Why Revenue Is the Only Real Collateral
+seotitle: Why Revenue Is the Only Real Collateral
 description: Arieli borrowed $30M against Elron shares. The stock fell 34% and the partnership is unraveling. The lesson for CEOs: only durable revenue is real collateral.
 date: 2026-09-09
 tags: Revenue Growth, Valuation, Forecasting, Israeli Business, Fractional CRO

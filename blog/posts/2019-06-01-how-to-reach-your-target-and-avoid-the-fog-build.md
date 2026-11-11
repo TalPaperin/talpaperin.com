@@ -3,6 +3,7 @@ title: How to reach your target and avoid the fog: build a plan with linked mile
 seotitle: Reach Targets via Linked Milestones Strategy
 description: Very easy. 1. You build a plan with milestones. 2. Each milestone has several desired outcomes. AND 3. Each milestone has a reference to a desired outcome of.
 date: 2019-06-01
+noindex: true
 tags: B2B Sales
 image: /og-image.jpg
 ---

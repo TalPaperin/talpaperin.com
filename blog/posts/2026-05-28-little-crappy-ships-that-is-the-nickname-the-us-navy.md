@@ -1,7 +1,7 @@
 ---
 title: "Little crappy ships." That is the nickname the US Navy gave the warships it spent up to $100 billion building.
-seotitle: Little crappy ships." That is the nickname th...
-description: The buyer, mocking its own purchase.Thirty-five of them. An "experiment that didn't work," its own analysts say. Constant mechanical failures, no clear.
+seotitle: Define What It Is For Before You Hire or Build
+description: The US Navy built a warship before deciding what it was for. Founders do the same when they hire, buy or build before naming the problem it solves.
 date: 2026-05-28
 tags: B2B Sales
 image: /og-image.jpg

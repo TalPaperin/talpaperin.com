@@ -1,6 +1,7 @@
 ---
 title: 'Sales for the Yiddish-Speaking Business World'
-description: 'Sales leadership for the Yiddish-speaking, heimishe business world, from a frum operator who knows how it really buys and sells, and works in English with Yiddish-speaking owners.'
+seotitle: Sales for the Yiddish-Speaking Business World
+description: Sales leadership for the Yiddish-speaking, heimishe business world, from a frum operator who works in English and knows how that world buys and sells.
 date: 2026-06-14
 tags: Yiddish, Heimishe Business, Frum, Sales, Business Consultant
 image: /og-image.jpg
@@ -31,4 +32,4 @@ Because you should not have to explain your world to the person you hired to gro
 
 ---
 
-Read more: [a frum business consultant who gets the heimishe world](/frum-business-consultant), [sales help for heimishe business owners](/blog/sales-help-for-heimishe-business-owners), [a frum, shomer Shabbos fractional sales leader](/blog/frum-fractional-sales-leader), or [get in touch](/contact).
+Read more: [a frum business consultant who gets the heimishe world](/frum-business-consultant), [sales help for heimishe business owners](/blog/sales-help-for-heimishe-business-owners), [a frum, shomer Shabbos fractional sales leader](/blog/frum-sales-consultant), or [get in touch](/contact).

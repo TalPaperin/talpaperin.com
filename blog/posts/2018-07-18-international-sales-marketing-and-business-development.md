@@ -1,6 +1,7 @@
 ---
 title: International Sales, Marketing and Business Development.
-description: First and foremost: credits. This idea of committing to a 10 days challenge, where you contribute of your knowledge to others, is absolutely fantastic. The.
+seotitle: 10 Tips for International Sales and Marketing
+description: I recorded ten short video tips on international sales and marketing, from speaking your client's language to leaving social media and going out.
 date: 2018-07-18
 tags: Market Entry, B2B Sales
 image: /og-image.jpg

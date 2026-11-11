@@ -1,7 +1,7 @@
 ---
 title: Stop Paying SDR Retainers for Activity. Pay for Meetings.
-seotitle: Pay Per Meeting, Not Per Retainer: A Better Way to Buy B2B Meetings
-description: Most SDR services bill a flat retainer for activity. I built the opposite: you pay for the qualified B2B meetings we actually book. Fewer meetings, you pay less.
+seotitle: Pay Per Meeting, Not an SDR Retainer
+description: Most SDR services bill a flat retainer for activity. I built the opposite: you pay for the qualified B2B meetings we actually book.
 date: 2026-08-28
 tags: Appointment Setting, Pay Per Meeting, Outbound, SDR, B2B Sales
 image: /og-image.jpg

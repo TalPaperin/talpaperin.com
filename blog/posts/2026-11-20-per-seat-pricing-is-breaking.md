@@ -1,6 +1,6 @@
 ---
 title: Per-Seat Pricing Is Breaking
-seotitle: Why Per-Seat SaaS Pricing Is Breaking in the Age of AI Agents
+seotitle: AI Agents Are Breaking Per-Seat SaaS Pricing
 description: AI agents do the work seats used to. If you price B2B software per seat, your ARR is exposed at renewal. How to reprice before customers do it for you.
 date: 2026-11-20
 tags: B2B Sales, Pricing, SaaS, Go-To-Market

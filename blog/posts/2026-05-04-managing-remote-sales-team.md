@@ -1,6 +1,7 @@
 ---
 title: 'Managing a Remote Sales Team Across Time Zones'
-description: Managing salespeople in the US from another continent is not just a time difference. How to build a remote sales team that actually performs, without being there in person.
+seotitle: Managing a Remote Sales Team Across Time Zones
+description: Managing US salespeople from another continent is a discipline of its own, and the time difference is the small problem. How to build a team that performs.
 date: 2026-05-04
 tags: Sales Management, Sales Team, International Sales, Remote Management
 image: /og-image.jpg

@@ -1,6 +1,6 @@
 ---
 title: Intel Almost Killed RealSense. Then It Fixed Its Sales and Sold for $600M.
-seotitle: RealSense's $600M Cognex Deal: Fix the Sales, Not the Product
+seotitle: RealSense's $600M Sale: Fix Sales, Not Product
 description: Intel nearly shut RealSense down. Spun out, it went from $8M a quarter to a $600M sale. The technology did not change. The way it sold did.
 date: 2026-09-23
 tags: Go-to-Market, Revenue Growth, Scaling Sales, B2B Sales, Fractional CRO

@@ -1,6 +1,7 @@
 ---
 title: Surprising Lead Gen Tip for Breaking Into a New Industry
-description: Many sales consultants stress the importance of cold calling for making sales. When you’re starting off in a new industry, whether it’s your first sales job.
+seotitle: Lead Gen Tip: Win Your Competitor's Customers
+description: New to an industry and short on leads? Map who your competitors already sell to, then go after those customers and distributors yourself.
 date: 2018-02-21
 tags: B2B Sales, Go-To-Market
 image: /og-image.jpg

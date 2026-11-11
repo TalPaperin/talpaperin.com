@@ -3,6 +3,7 @@ title: Real leaders improvise. They deviate from the plan and use what is in the
 seotitle: Real Leaders Improvise: Flexing the Strategy
 description: Deviate from the plan. Use what's available right there, make new plans, tactics and strategies. Look around - and come up with new usages for your assets.
 date: 2018-10-07
+noindex: true
 tags: B2B Sales
 image: /og-image.jpg
 ---

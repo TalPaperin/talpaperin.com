@@ -1,6 +1,6 @@
 ---
 title: OpenAI Is Building a Business Team in Israel. That Tells You Everything.
-seotitle: OpenAI in Israel: Hire for Results, Not Location
+seotitle: OpenAI in Israel: Hire on Results, Not Location
 description: OpenAI is building a business team in Israel, not a dev center. What that says about turning AI into revenue, and about hiring for results over location.
 date: 2026-07-21
 tags: Israel, AI, B2B Sales, Fractional CRO, Revenue Leadership

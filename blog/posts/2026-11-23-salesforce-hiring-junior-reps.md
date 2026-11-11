@@ -1,6 +1,6 @@
 ---
 title: Salesforce Is Hiring Junior Reps While Everyone Else Cuts Them
-seotitle: Why Cutting Junior Sales Reps for AI Will Cost You in Two Years
+seotitle: Why Cutting Junior Sales Reps for AI Backfires
 description: Salesforce is expanding junior hiring while most B2B teams gut entry-level reps for AI. The bench you cut today is the quota you miss in two years.
 date: 2026-11-23
 tags: B2B Sales, Sales Team, Hiring, Go-To-Market

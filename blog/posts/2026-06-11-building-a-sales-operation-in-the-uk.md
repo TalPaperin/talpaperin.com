@@ -1,5 +1,6 @@
 ---
 title: 'Building a Sales Operation in the United Kingdom'
+seotitle: Building a B2B Sales Operation in the UK
 description: 'Selling B2B in the UK: how British buyers actually buy, and the sales team, subsidiary and support operation I build and run there.'
 date: 2026-06-11
 tags: United Kingdom, International Sales, Market Entry, Sales Team

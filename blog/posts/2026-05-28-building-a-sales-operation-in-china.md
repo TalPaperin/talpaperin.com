@@ -1,6 +1,7 @@
 ---
 title: 'Building a Sales Operation in China'
-description: 'Selling B2B in China: how Chinese buyers actually buy, relationships and local presence, and the sales team, partners and support operation I build and run there.'
+seotitle: Building a B2B Sales Operation in China
+description: Selling B2B in China: how Chinese buyers actually buy, why relationships and local presence matter, and the sales operation I build and run there.
 date: 2026-05-28
 tags: China, International Sales, Market Entry, Sales Team
 image: /og-image.jpg

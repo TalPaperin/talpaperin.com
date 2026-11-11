@@ -1,6 +1,7 @@
 ---
 title: The Hidden Cost of Untrained Salespeople
-description: Let’s start with the cold, hard truth:
+seotitle: The Hidden Cost of Untrained Salespeople
+description: Untrained reps burn your leads and your reputation, and it is not their fault. Training is the last layer, after the offer, ICP and process are defined.
 date: 2025-05-06
 tags: Go-To-Market, Hiring & Teams, B2B Sales
 image: /og-image.jpg

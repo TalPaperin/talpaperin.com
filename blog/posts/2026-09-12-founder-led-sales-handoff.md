@@ -1,6 +1,6 @@
 ---
 title: How to Hand Off Founder-Led Sales Without Killing the Pipeline
-seotitle: Founder-Led Sales Handoff: Transition to a Sales Team Without Losing Deals
+seotitle: Founder-Led Sales Handoff Without Losing Deals
 description: Most founder-led sales handoffs fail because founders dump leads on a rep with no motion. Here is how to transfer the sale without killing your pipeline.
 date: 2026-09-12
 tags: Founder-Led Sales, Sales Team, Scaling, B2B Sales

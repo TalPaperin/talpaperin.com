@@ -1,5 +1,6 @@
 ---
 title: 'A Go-To-Market Strategy for a B2B Startup Selling Abroad'
+seotitle: Go-To-Market Strategy for B2B Startups Abroad
 description: Most startups start selling without a real go-to-market strategy, and find out when the budget burns. What GTM actually is, and how to build one that works.
 date: 2026-04-13
 tags: Go-To-Market, GTM, Strategy, International Sales

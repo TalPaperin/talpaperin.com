@@ -3,6 +3,7 @@ title: Most CEOs don't have a sales problem. They have a motion problem.
 seotitle: CEOs: Fix Your Sales Motion, Not Just Pitch
 description: They have a motion problem. They don't know where to start... And where to go next (and how). Their Salespeople (or they themselves) are calling the wrong.
 date: 2026-06-04
+noindex: true
 tags: B2B Sales, Revenue Leadership, Go-To-Market
 image: /og-image.jpg
 ---

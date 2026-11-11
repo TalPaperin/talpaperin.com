@@ -1,6 +1,6 @@
 ---
 title: How to Write a Cold Email That Actually Books Meetings
-seotitle: How to Write a Cold Email That Books Meetings (Framework Inside)
+seotitle: How to Write a Cold Email That Books Meetings
 description: Most cold email fails because it leads with the product. Here is the framework I use to write short, relevant emails that book real B2B meetings.
 date: 2026-10-15
 tags: Cold Email, Outbound, Appointment Setting, B2B Sales

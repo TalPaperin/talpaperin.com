@@ -2,6 +2,7 @@
 title: מוצר "מדהים" זה לא מספיק
 description: רק בגלל שאתם חושבים שיש לכם מוצר מעולה, זה לא אומר שמישהו אחר יחשוב כך.
 date: 2023-05-01
+noindex: true
 tags: מכירות B2B
 image: /og-image.jpg
 ---

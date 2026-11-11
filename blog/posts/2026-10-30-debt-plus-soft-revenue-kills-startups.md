@@ -1,6 +1,6 @@
 ---
 title: Debt Does Not Kill Companies. Soft Revenue Plus Debt Does.
-seotitle: Why Debt Plus Weak Revenue Is the Combination That Sinks Startups
+seotitle: Debt Plus Weak Revenue Is What Sinks Startups
 description: Analysts warn that debt could amplify the damage AI does to businesses. The real risk is debt stacked on revenue that was never durable. Fix the revenue first.
 date: 2026-10-30
 tags: Revenue, Cash Flow, Startups, Go-to-Market
