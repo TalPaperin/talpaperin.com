@@ -332,6 +332,38 @@ Do NOT re-broaden to mid-market/enterprise. Add 55881 to every reply-check cycle
 `keywords` field is read-only via the API (PATCH rejects it with extra_forbidden); strip it from
 any PATCH body.
 
+### DealMentor: full control, audiences rebuilt (Tal, 2026-11-11) -- CURRENT SETUP
+Tal: "Take full control of the DealMentor campaigns and run it like the others. Rebuild the
+audiences whatever needed. No one is a paying customer yet. It's not just a CRM. It's 20 different tools."
+What the review showed: the only demos (3, on Oct 28-29) came from founders / CEOs of small tech
+companies. After the Oct 30 pivot to sales directors at small non-tech firms: 4,000+ emails, 0 demos,
+11 human replies, all declines ("we already have a CRM"). Explee's autopilot was also creating and
+stopping audiences on its own every few days (status_reason agent_stop), so none ran its follow-ups.
+Setup from 2026-11-11:
+- AUTOPILOT IS OFF on project 55881. Do not turn it back on. That means: (1) a new campaign's lead
+  list waits in `review` until WE approve it (POST .../approve), nothing auto-approves; (2) budgets are
+  ours to set (PATCH .../campaigns/{id}/budget, only on a running campaign). Total stays about $15 a day.
+- TWO audiences only, each run for a full two weeks with all follow-ups before judging:
+  * 409866 "Founders who sell alone (B2B tech, 1-10 people)", US + UK, founder / CEO / owner who does the
+    selling, no salesperson. Own My-copy (source: campaign), the FOUNDER email. Target $8 a day.
+  * 390326 "Hiring-Spree Revenue Orgs" (recently funded software companies adding reps). Project
+    My-copy, the TEAM email. $7 a day.
+- PARKED, do not restart without Tal: manufacturing 310570, distribution 310571, B2B services 310572,
+  contact centres 347023, insurance 359966, dealerships 373822, home improvement 352940 (stopped in
+  review, never sent), fractional sales firms 395262, startups 319972.
+- POSITIONING in every DealMentor email and reply: a virtual CRO, part AI and part a real revenue
+  leader; 20 tools in one place, NOT just a CRM. Never describe it as "a CRM" or "a CRO inside your CRM".
+  The tools (from Tal's own post, safe to name): go-to-market plan, ICP segments with live research,
+  sales playbook, marketing plan, daily workflow, Sales Copilot (call guide, objection handler,
+  competition analysis, email analyzer, follow-up, proposal builder, CRM notes, account research),
+  Outreach Builder (cold email, LinkedIn, social posts, referral, re-engage, DM / WhatsApp), My Deals,
+  Ask the CRO, and a live human CRO one click away. Price line: "Plans start at $149 a month."
+- Explee rejects a My-copy with a long passage that is identical for every lead ("too_static"): keep
+  {a|b} variants through the body and one {{ai:}} line near the top.
+- Measure by demos and sign-ups, not replies. Tal sees those; ask him for the count weekly.
+- FIRST CHECKS: when 409866 reaches `review`, look at the leads, approve if they are solo-founder tech
+  companies, then set its budget to $8.
+
 ### DealMentor reply GOAL + persona (Tal, 2026-11-09) -- the current rule
 For ALL DealMentor replies the goal is: drive them to the WEBSITE to read more, get them to
 "download the demo" (= Start Free self-serve signup), and if they want it, offer to demo it for them.
