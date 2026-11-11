@@ -137,6 +137,13 @@ Actions taken 2026-11-11 (Tal: "Go!"):
   lead pools (about 2,300 and 2,200) and forces a new search. Left as is; ask Tal before re-aiming.
 - 252224 Industrial stays archived (wrong vertical, pool used up). Do not suggest reopening it.
 Weekly: give Tal the per-project count of emails sent, human replies and interested replies.
+CORRECTION the same day (Tal, 2026-11-11): "Don't neglect American companies. The Israelis reply
+but don't pay. I need those US based ones. Not necessarily software." So reply rate is NOT the
+measure, paying clients are. Israeli reply volume is a false signal. Therefore:
+- 409290 (Israel) was PAUSED before it sent a single email. Do not start it without Tal.
+- 347642 Scaling B2B (Series B+, US) was RESTARTED.
+- Do not propose Israel-only audiences again. New audiences must be US based and able to fund a
+  monthly retainer; they need not be software. Judge an audience by bookings and paying clients.
 
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
