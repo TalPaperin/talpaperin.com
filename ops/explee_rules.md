@@ -616,3 +616,47 @@ Two levers to name (match to their hint): the in-house fractional CMO / demand-g
 Pay-Per-Meeting (done-for-you qualified meetings on their calendar, https://talpaperin.com/services/pay-per-meeting).
 Keep it to one line, do not turn the reply into a feature list. Stays consistent with positioning.md
 (fractional CRO owns the number; full marketing capability via an in-house fractional CMO).
+
+## Clients needed fast: budget raised, new audience, Adam calls (Tal, 2026-11-11)
+Context: Vectorize terminated effective 2026-11-12 and HireMatch ends 2026-11-22. Tal: "I need new
+clients ASAP!! Not sending anything via LinkedIn. Focus on talpaperin explee. More money maybe?" then
+"Go. Raise". Both of his cold-email clients came from the previous vendor's campaign at 3,000 to 5,000
+emails a day, each hired within about a week of the first call, so volume is the lever.
+- BUDGET: project 49501 raised from $37 to $80 a day (replaces the "stays flat at $37" rule above).
+  Next step is $150 a day after about a week if replies hold; ask Tal before that second raise.
+  The Explee account is postpaid with a $200 credit limit per billing cycle, watch `GET /autogtm/billing`
+  (`send_status`, `postpaid.remaining_usd`) and tell Tal if sending is held.
+- NEW AUDIENCE 411023 "Funded AI and developer-tool startups, technical founders (US)": modelled on
+  Vectorize. US only, 15 to 100 people, venture funded, founder or CEO still runs sales, no VP Sales.
+  Project My-copy unchanged. Sends Sun to Thu like the others.
+- 347642 target role tightened: CEO, founder, president, MD, GM, COO only. It had been emailing the
+  people who run sales today (Head of Sales, Sales Director, VP Sales), about one in five of its sends.
+  They do not hire a fractional CRO. Never target sales leaders, board members or chairpersons.
+- 409509 (PE-backed) was found sending again (status_reason user_resume, 3 emails to a lab franchise
+  operator, a development company and a garage group). Stopped again. It stays stopped.
+- About a quarter of the sends in 252219, 252222 and 347642 still go to Israel (their geography is
+  "Israel, United States"). Left as is pending Tal's word; new audiences are US only.
+- Copy is NOT to be changed (Tal). Do not propose copy changes; LinkedIn is not a channel.
+
+## Adam calls Talpaperin leads (Tal, 2026-11-11)
+Adam, the SDR, calls Talpaperin leads to book meetings on Tal's calendar. The daily SDR handoff
+(step 6C) emails Tal a call list to forward to Adam, Sunday to Thursday:
+- WARM: anyone on 49501 who replied with interest, a question, a referral or "later", and the dropped
+  leads list built on 2026-11-11 (asked for a call, never booked). These are called first.
+- COLD: US leads who got their first email since the previous list. Top titles only (CEO, founder,
+  owner, president, MD, GM), 20 or more employees, largest first, one per company, at most 80 a day.
+- Explee holds NO phone numbers. Adam finds them from the LinkedIn profile or company site with his
+  own phone tool. Phones found in reply signatures are included on the warm list.
+- Never list anyone in booked_leads.txt, a hard decline, an opt-out or a disqualifier.
+CALL SCRIPT (keep it this short, Tal's voice, no pitch beyond it):
+  "Hi <first name>, this is Adam, I work with Tal Paperin. Tal emailed you <day> about your sales
+  team. He is a fractional CRO: he builds and runs the sales engine for B2B companies, the plan, the
+  team and the pipeline, without a full-time hire. I am calling to put 15 minutes with him on your
+  calendar. Is this week or next better?"
+- Booking goes on Tal's Calendly 15 minute link, Sunday to Thursday, never Friday afternoon or Saturday.
+- Price only if asked: monthly retainers, from $2,000 (Advisor), $6,000 (Starter), $12,000 (Growth,
+  the most chosen). Never quote a yearly total. Details are on the pricing page.
+- Not a fit, do not book: wants commission-only or pay-on-success, pre-revenue, under about 15 people,
+  agencies and consultants selling to us.
+- Adam reports each call result back (booked, call back on <date>, not interested, wrong person,
+  no answer) so the lead tracker and booked_leads.txt stay right.
