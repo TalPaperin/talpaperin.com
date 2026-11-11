@@ -659,3 +659,11 @@ CALL SCRIPT (keep it this short, Tal's voice, no pitch beyond it):
   agencies and consultants selling to us.
 - Adam reports each call result back (booked, call back on <date>, not interested, wrong person,
   no answer) so the lead tracker and booked_leads.txt stay right.
+
+## DealMentor 390326: campaign "offer" field also feeds emails (found 2026-11-11)
+My-copy covers about 90% of first emails. The rest, plus follow-ups and auto-replies, are written by
+Explee from the campaign's OFFER field. On 390326 that field still held the old text, so one opener went
+out saying "Our CRM has an AI CRO", offered "a few short ideas" and was signed with the lead's surname.
+The offer was rewritten the same evening: 20 tools in one platform, never called a CRM, no "ideas"
+offer, "<first name> from DealMentor", first name only in the sign-off. RULE: whenever the My-copy of a
+campaign changes, rewrite its offer field to match, on every project.
