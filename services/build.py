@@ -5844,16 +5844,6 @@ def render_pricing_body(d, cal):
     if perf.get("card_link"):
         out.append('      <p class="price-note"><a href="#perf" style="color:var(--blue);font-weight:600">%s</a></p>'
                    % esc(perf["card_link"]))
-    if he:
-        out.append('      <div class="price-anchor"><div><span class="pa-label">סמנכ״ל הכנסות במשרה מלאה</span><div class="pa-num">$250,000+</div>'
-                   '<p>עלות שנתית כוללת. ועוד חודשים של חיפוש וכניסה לתפקיד, וסיכון ממשי של פיצויים.</p></div>'
-                   '<div class="mine"><span class="pa-label">Growth, חצי מהיום שלי בעסק שלכם, בכל יום עבודה</span><div class="pa-num">$144,000</div>'
-                   '<p>לשנה בתשלומים חודשיים, בתוספת השותפות בתוצאה. חודש בחודשו, בלי חוזה ובלי קנסות יציאה.</p></div></div>')
-    else:
-        out.append('      <div class="price-anchor"><div><span class="pa-label">A full-time CRO</span><div class="pa-num">$250,000+</div>'
-                   '<p>All in, per year. Plus months to find and ramp, and real severance risk.</p></div>'
-                   '<div class="mine"><span class="pa-label">Growth, half my day in your business, every working day</span><div class="pa-num">$144,000</div>'
-                   '<p>A year in monthly fees, plus the performance share. Monthly, no contract, no exit fines.</p></div></div>')
     out.append(render_proof(0, he))
     out.append((CTA_STRIP_BOOK_HE if he else CTA_STRIP_BOOK_EN).rstrip("\n").replace("        <div", "      <div", 1))
     out.append('      <h2 class="price-h2" id="team">%s</h2>' % esc(d["sdr_h"]))
