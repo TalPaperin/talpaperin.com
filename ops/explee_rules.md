@@ -116,6 +116,28 @@ package or mix in the email at all, push them to the 15-minute call. We cannot k
 until we understand their situation AND budget, which only comes out on the call. The reply acknowledges
 their need and drives to the meeting; Tal scopes the package live.
 
+## Audience change, copy stays (Tal, 2026-11-11)
+
+Full-history review (45,000 emails, 488 reply threads, all four projects). Talpaperin interested
+replies per 1,000 emails: 6.9 and 7.4 in the weeks of Oct 12 and Oct 19, then 1.5, 1.7, 2.0.
+Tal's ruling: the week-1 AI opener "was crap and our copy is good". DO NOT change the My-copy
+opener and do NOT propose going back to the old AI openers. The lever is AUDIENCE, not copy.
+What the replies under the current copy (from Oct 27) showed:
+- Israeli companies are roughly a tenth of sends and 4 of 10 interested replies (first two weeks:
+  14 of 34). Founder / CEO / owner titles say yes; sales and revenue titles gave 0 interested, 3 declines.
+- By campaign: 252222 Funded small B2B SaaS 7 interested, 252219 B2B SaaS Founders 1,
+  347642 Scaling B2B (Series B+) 2.
+Actions taken 2026-11-11 (Tal: "Go!"):
+- NEW campaign 409290 "Israeli B2B tech founders selling into the US": geography Israel, 10 to 75
+  employees, founder / co-founder / CEO / owner ONLY, sells or is starting to sell in the US. Uses the
+  project My-copy unchanged (source: project). Sends Sunday to Thursday. Two-week test; report the
+  interested count each week.
+- 347642 Scaling B2B (Series B+): STOPPED (listening). Weakest audience. Do not restart without Tal.
+- 252219 and 252222 were NOT re-aimed to founder-only titles: changing target_role drops their unsent
+  lead pools (about 2,300 and 2,200) and forces a new search. Left as is; ask Tal before re-aiming.
+- 252224 Industrial stays archived (wrong vertical, pool used up). Do not suggest reopening it.
+Weekly: give Tal the per-project count of emails sent, human replies and interested replies.
+
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
 Tal flagged "still no leads." Pulled project 49501 analytics + full inboxes. Diagnosis:
