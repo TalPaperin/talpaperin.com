@@ -12,7 +12,9 @@ footer .foot-col li::before{display:none}
 footer .foot-col li a{color:var(--soft,#9aa7b5);transition:color .2s}
 footer .foot-col li a:hover{color:#fff}
 footer .foot-legal a{color:var(--soft,#9aa7b5);text-decoration:underline;text-underline-offset:3px}
+footer .foot-grid.no-brand{grid-template-columns:repeat(4,1fr)}
 @media(max-width:900px){footer .foot-grid{grid-template-columns:1fr 1fr}footer .foot-brand{grid-column:1/-1}}
+@media(max-width:900px){footer .foot-grid.no-brand{grid-template-columns:1fr 1fr}}
 @media(max-width:420px){footer .foot-grid{gap:26px 18px}}
 
 /* ---- Compact call-to-action strip (placed high and mid-page on inner pages) ---- */

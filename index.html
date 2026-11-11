@@ -30,7 +30,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/site.css?v=8" />
+  <link rel="stylesheet" href="/site.css?v=9" />
   <link rel="preload" as="image" href="/img/site/tal-hero-960.webp" imagesrcset="/img/site/tal-hero-640.webp 640w, /img/site/tal-hero-960.webp 960w, /img/site/tal-hero-1300.webp 1300w" imagesizes="(max-width:900px) 100vw, 62vw" fetchpriority="high" />
 
   <!-- Ahrefs Web Analytics -->
@@ -38,7 +38,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>
-  <script src="/site.js?v=8" defer></script>
+  <script src="/site.js?v=9" defer></script>
 
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","@id":"https://talpaperin.com/#business","name":"Tal Paperin, Fractional CRO","url":"https://talpaperin.com/","logo":"https://talpaperin.com/img/icon-512.png","image":"https://talpaperin.com/og-image.jpg","description":"Fractional CRO, Chief Growth Officer and B2B sales consultant. Twenty years building and running revenue engines across five continents: fractional CRO leadership, outsourced sales teams, go-to-market strategy and international market entry.","priceRange":"$2,000-$22,000","email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119","founder":{"@id":"https://talpaperin.com/#tal"},"employee":{"@id":"https://talpaperin.com/#tal"},"areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Israel"},{"@type":"Place","name":"Europe"},{"@type":"Place","name":"Asia-Pacific"}],"knowsAbout":["Fractional CRO","B2B sales","Go-to-market strategy","Sales team building","International market entry","Outsourced sales","Distributor and channel recruitment"],"sameAs":["https://www.linkedin.com/in/talpaperin/"],"contactPoint":{"@type":"ContactPoint","telephone":"+972-54-530-8119","email":"tal@ksw.solutions","contactType":"sales","availableLanguage":["English","Hebrew"]}},{"@type":"Person","@id":"https://talpaperin.com/#tal","name":"Tal Paperin","url":"https://talpaperin.com/","image":"https://talpaperin.com/img/site/fractional-cro-portrait.jpg","jobTitle":"Fractional CRO and Chief Growth Officer","email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119","knowsLanguage":["English","Hebrew","Russian","Chinese"],"alumniOf":{"@type":"CollegeOrUniversity","name":"Hebrew University of Jerusalem"},"worksFor":{"@type":"Organization","name":"KSW Solutions","url":"https://ksw.solutions"},"sameAs":["https://www.linkedin.com/in/talpaperin/"]},{"@type":"WebSite","@id":"https://talpaperin.com/#website","url":"https://talpaperin.com/","name":"Tal Paperin","inLanguage":"en","publisher":{"@id":"https://talpaperin.com/#business"}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do you do the selling yourself?","acceptedAnswer":{"@type":"Answer","text":"No. I own the number and make the team deliver it: I diagnose, build, hire, train and manage. I step into negotiations on large deals. If you have no salespeople, I hire and manage them, in-house for you or on my own payroll."}},{"@type":"Question","name":"How fast will I see something?","acceptedAnswer":{"@type":"Answer","text":"Week one you get a diagnosis of exactly what's broken. Week two you get the plan. Then the work starts."}},{"@type":"Question","name":"What if it doesn't work for me?","acceptedAnswer":{"@type":"Answer","text":"It is monthly, with no contract and no exit fines. If you don't like what I deliver, we're done at the end of the month."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"From $2,000 a month for a weekly advisor to $22,000 for full-time CRO ownership, plus a performance share on top. Every number is on the pricing page."}},{"@type":"Question","name":"Do I need a fractional CRO, or just more salespeople?","acceptedAnswer":{"@type":"Answer","text":"If you only need more hands, hire reps. If you need someone to own the strategy, the team and the forecast, that is a fractional CRO. Not sure? See the eight signs."}},{"@type":"Question","name":"Do you work with companies outside the US?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most of my clients are in the US, and I work across North America, Europe and APAC. I speak English, Hebrew, Russian and Chinese."}}]}</script>
@@ -349,11 +349,6 @@
     .foot-contact a:hover{border-color:var(--blue);color:#fff;transform:translateY(-2px)}
     .foot-contact svg{width:18px;height:18px;display:block}
     /* commitments band (engagement terms) */
-    .commitbar{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 0}
-    .commitbar .row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 30px}
-    .commitbar .ci b{font-family:'Anton',sans-serif;font-size:1.65rem;color:var(--blue);display:block;line-height:1;text-transform:uppercase;letter-spacing:.01em}
-    .commitbar .ci span{color:#b9c6d3;font-size:.95rem;display:block;margin-top:8px;line-height:1.45}
-    @media(max-width:760px){.commitbar .row{grid-template-columns:repeat(2,1fr)}}
     /* three rules */
     .rules{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:42px}
     @media(max-width:860px){.rules{grid-template-columns:1fr}}
@@ -424,18 +419,6 @@
     </div>
   </header>
 
-  <!-- Commitments -->
-  <section class="commitbar" aria-label="How I work with you">
-    <div class="wrap reveal">
-      <div class="row">
-        <div class="ci"><b>No lock-in</b><span>Month to month. Stop the day the job is done.</span></div>
-        <div class="ci"><b>Week 1</b><span>You get a diagnosis of exactly what's broken.</span></div>
-        <div class="ci"><b>In the seat</b><span>I own the number, not advise from the side.</span></div>
-        <div class="ci"><b>Straight talk</b><span>The truth on your sales, even when it stings.</span></div>
-      </div>
-    </div>
-  </section>
-
   <!-- Logos -->
   <section class="logos">
     <div class="wrap reveal"><span class="label">From multinational corporations to small startups, I've built sales for both</span></div>
@@ -461,12 +444,6 @@
         <a class="cap reveal" href="/services/go-to-market-strategy"><h3>A great product that just won't sell</h3><p>I build your go-to-market from zero: ICP, positioning, channels, playbook and a real forecast, then I run it.</p><span class="cap-link">Fix this &rarr;</span></a>
       </div>
       <p class="reveal" style="text-align:center;margin-top:40px"><a class="btn btn-secondary" href="/services/">See the solutions &rarr;</a></p>
-      <section class="reveal" style="max-width:var(--maxw);margin:48px auto 0;padding:0 32px">
-        <a href="/when-do-you-need-a-fractional-cro" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;border:1px solid rgba(37,99,235,.45);border-radius:18px;padding:26px 30px;background:radial-gradient(90% 180% at 8% 0%,#0c2237 0%,#0a0e14 70%);text-decoration:none">
-          <span style="color:#fff;font-weight:700;font-size:1.2rem;line-height:1.3;max-width:40ch">Not sure you need a fractional CRO? See the 8 signs, what one owns, and what changes when someone carries the number.</span>
-          <span class="btn btn-primary" style="white-space:nowrap">See if it is time &rarr;</span>
-        </a>
-      </section>
     </div>
   </section>
 
@@ -650,12 +627,7 @@
   </section>
 
   <footer>
-    <div class="wrap foot-grid">
-      <div class="foot-col foot-brand">
-        <a class="foot-name" href="/">TAL PAPERIN</a>
-        <p>Fractional CRO. I own the revenue number and make the team deliver it. Monthly, no contract.</p>
-        <a class="btn btn-primary" href="/contact" data-cta="footer-talk">Let's Talk</a>
-      </div>
+    <div class="wrap foot-grid no-brand">
       <div class="foot-col">
         <p class="foot-h">Services</p>
         <ul>
