@@ -1723,7 +1723,7 @@ CONTACT_JS_EN = '''  <script>
       if(loaded&&Date.now()-loaded<3000){cfDone(f,m);return false;}
       var n=f.querySelector('[name=name]').value,em=f.querySelector('[name=email]').value,msg=f.querySelector('[name=message]').value;
       b.disabled=true;b.textContent='Sending...';
-      fetch('https://formspree.io/f/xykbgowb',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg})})
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg,page:location.pathname})})
         .then(function(r){if(r.ok){try{gtag('event','generate_lead');}catch(e){}cfDone(f,m);}else{b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';}})
         .catch(function(){b.disabled=false;b.textContent='Send Message';m.hidden=false;m.style.color='#ff9a9a';m.textContent='Something went wrong. Please email tal@ksw.solutions.';});
       return false;}
@@ -1738,7 +1738,7 @@ CONTACT_JS_HE = '''  <script>
       if(loaded&&Date.now()-loaded<3000){cfDone(f,m);return false;}
       var n=f.querySelector('[name=name]').value,em=f.querySelector('[name=email]').value,msg=f.querySelector('[name=message]').value;
       b.disabled=true;b.textContent='שולח...';
-      fetch('https://formspree.io/f/xykbgowb',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg})})
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:n,email:em,message:msg,page:location.pathname})})
         .then(function(r){if(r.ok){try{gtag('event','generate_lead');}catch(e){}cfDone(f,m);}else{b.disabled=false;b.textContent='שליחת הודעה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';}})
         .catch(function(){b.disabled=false;b.textContent='שליחת הודעה';m.hidden=false;m.style.color='#ff9a9a';m.textContent='משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.';});
       return false;}
@@ -6172,7 +6172,7 @@ PRIVACY_EN = {
   (None, ["The quote builder on the pricing page runs in your browser. Its email button opens your own email program, so nothing is sent until you send that email yourself."], None),
   ("Why I collect it", ["To reply to you, to hold the call you booked, to send the newsletter you asked for, and to see which pages are useful so I can improve the site. I do not sell your data, rent it or trade it."], None),
   ("Who processes it for me", ["I use outside services to run the site. Each handles data under its own privacy policy, and some are based in the United States, so your data may be processed outside your country."], [
-   "Formspree delivers contact form submissions to my inbox. Calculator submissions are emailed to me through my own Google mailbox, with Formspree as the backup route.",
+   "Contact form and calculator submissions are emailed to me through my own Google mailbox. Formspree is the backup route if that fails.",
    "Calendly and Zoom schedule and host the calls.",
    "beehiiv holds the newsletter list.",
    "Google Analytics and Ahrefs Web Analytics produce traffic statistics.",
@@ -6209,7 +6209,7 @@ PRIVACY_HE = {
   (None, ["בונה הצעת המחיר בעמוד התמחור פועל בדפדפן שלכם. כפתור המייל שלו פותח את תוכנת המייל שלכם, כך ששום דבר לא נשלח עד שאתם שולחים את המייל בעצמכם."], None),
   ("למה אני אוסף את זה", ["כדי לענות לכם, לקיים את השיחה שתיאמתם, לשלוח את הניוזלטר שביקשתם, ולראות אילו דפים מועילים כדי לשפר את האתר. אני לא מוכר את המידע שלכם, לא משכיר אותו ולא סוחר בו."], None),
   ("מי מעבד את המידע עבורי", ["אני משתמש בשירותים חיצוניים כדי להפעיל את האתר. כל אחד מהם מטפל במידע לפי מדיניות הפרטיות שלו, וחלקם יושבים בארצות הברית, כך שהמידע עשוי להיות מעובד מחוץ למדינה שלכם."], [
-   "Formspree מעביר אליי את הפניות מטופס יצירת הקשר. פניות מהמחשבון נשלחות אליי דרך תיבת Google שלי, ו-Formspree משמש כמסלול גיבוי.",
+   "פניות מטופס יצירת הקשר ומהמחשבון נשלחות אליי דרך תיבת Google שלי. Formspree משמש כמסלול גיבוי אם זה נכשל.",
    "Calendly ו-Zoom משמשים לתיאום ולקיום השיחות.",
    "beehiiv מחזיק את רשימת הניוזלטר.",
    "Google Analytics ו-Ahrefs Web Analytics מפיקים סטטיסטיקות תנועה.",
