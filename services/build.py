@@ -2408,7 +2408,7 @@ def render_answers_sections(themes, he=False):
 
 ANSWERS_META_EN = {
  "title":"Why Revenue Stalls: Answers for Founders & CEOs | Tal Paperin",
- "desc":"Why isn't my team hitting quota, why did my VP of Sales leave, why did we miss the forecast, why is the board unhappy. Honest answers on what's broken and the fix.",
+ "desc":"Why isn't my team hitting quota, why did my VP of Sales leave, why did we miss the forecast? Honest answers for founders on what's broken and how to fix it.",
  "h1":"Answers for founders when revenue is stuck","eyebrow":"Answers",
  "lead":"The questions founders and CEOs actually search when the number is slipping: why the team is not hitting quota, why the VP of Sales left, what to tell an unhappy board, why you missed the forecast, why growth stalled after the raise. Honest answers on what is really broken, and how it gets fixed."}
 
@@ -2596,7 +2596,7 @@ SERVICE_FAQS_HE = {
 
 GUIDES = [
  {"slug":"why-did-my-vp-of-sales-leave",
-  "title":"Why Your VP of Sales Left, and How to Stop Repeating It | Tal Paperin",
+  "title":"Why Your VP of Sales Left, and How to Fix It | Tal Paperin",
   "desc":"Your VP of Sales quit or got pushed out and you are about to hire another. First understand why the seat failed, or the next hire leaves too.",
   "h1":"Why Your VP of Sales Left","eyebrow":"Sales leadership",
   "lead":"A VP of Sales leaving is rarely just a people problem. More often the seat was impossible: no clear number, no playbook, a motion that was not ready, or a founder who never truly handed over the wheel. Before you hire the next one, understand what actually broke, or you run the same loop again at six months and another lost year.",
@@ -2780,7 +2780,7 @@ GUIDES = [
     {"q":"What is included?","a":"The same at every tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance, and full CRO-level ownership across sales, marketing and go-to-market. What changes between tiers is how many hours a day I am in your business: two hours, four hours, or full time."},
     {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."},
     {"q":"Do I have to sign a long contract?","a":"No. I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/fractional-cro-roi">the ROI of a fractional CRO</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-vs-outsourced-sales",
   "title":"Fractional CRO vs Outsourced Sales | Tal Paperin",
@@ -3745,7 +3745,7 @@ GUIDES = [
     {"q":"Where do I start building a GTM?","a":"From one real deal, not a blank page. Take the last customer you closed and work out why they bought, what hurt, what convinced them and how the deal actually moved. That gives you the first draft of all five parts, which you then test for whether it repeats."},
     {"q":"Do I need a GTM strategy if I am already selling?","a":"If selling is inconsistent, slow or unforecastable, you are selling without a working GTM even if deals occasionally close. A defined strategy is what lets you tell a channel problem from a message problem and fix the right one."},
     {"q":"Can you build the GTM and help run it?","a":"Yes. I build the strategy with you and then lead the execution until there is pipeline, partners and first sales. I do not stop at the slide deck, because the deck is the part that does not sell."}],
-  "related":'See the <a href="/services/go-to-market-strategy">go-to-market strategy service</a>, go deeper on <a href="/b2b-positioning-and-messaging">positioning and messaging</a> and <a href="/go-to-market-motion">choosing your GTM motion</a>, or read <a href="/blog/go-to-market-israeli-startup">a GTM strategy for a startup selling abroad</a> and <a href="/blog/ideal-customer-profile-icp">how to define an ICP that converts</a>. If the forecast part keeps missing, see <a href="/sales-forecast-always-wrong">why your sales forecast is always wrong</a>.'},
+  "related":'See the <a href="/services/go-to-market-strategy">go-to-market strategy service</a>, go deeper on <a href="/b2b-positioning-and-messaging">positioning and messaging</a> and <a href="/go-to-market-motion">choosing your GTM motion</a>, see <a href="/how-to-sell-to-enterprise">how to sell to enterprise</a> for larger accounts, or read <a href="/blog/go-to-market-israeli-startup">a GTM strategy for a startup selling abroad</a> and <a href="/blog/ideal-customer-profile-icp">how to define an ICP that converts</a>. If the forecast part keeps missing, see <a href="/sales-forecast-always-wrong">why your sales forecast is always wrong</a>.'},
 
  {"slug":"b2b-positioning-and-messaging",
   "title":"B2B Positioning and Messaging That Wins Deals | Tal Paperin",
@@ -4090,7 +4090,7 @@ GUIDES = [
   "related":'Part of the <a href="/b2b-go-to-market-strategy">go-to-market strategy</a> cluster. See also <a href="/go-to-market-motion">choosing your GTM motion</a> and <a href="/b2b-positioning-and-messaging">positioning and messaging</a>. If the deals stall because the pipeline was never qualified, read <a href="/sales-pipeline-and-forecasting">how to build a pipeline you can forecast</a> and <a href="/sales-forecast-always-wrong">why your forecast is always wrong</a>. Or see the <a href="/services/fractional-cro">fractional CRO service</a>.'},
 
  {"slug":"product-led-to-sales-led",
-  "title":"When Product-Led Growth Stalls: Adding a Sales Motion | Tal Paperin",
+  "title":"Product-Led Growth Stalled? Add a Sales Motion | Tal Paperin",
   "desc":"Self-serve got you to a point, then growth flattened. When to add a sales motion to a product-led company, and how to do it without breaking PLG.",
   "h1":"When Product-Led Growth Stalls: Adding a Sales Motion","eyebrow":"Go-to-market",
   "lead":"Self-serve signups carried you for a while, then the curve flattened. The obvious move is to hire salespeople. The wrong move is to bolt a sales team onto a product-led company and hope. Adding a sales motion is a sequencing problem, and most teams do it at the wrong time, on the wrong signal, in the wrong order.",
@@ -4402,7 +4402,7 @@ HE_GUIDES = [
     {"q":"מה כלול?","a":"אותו דבר בכל רמה: אבחון הכנסות, אסטרטגיית מכירות ותחזית, Playbook, מבנה CRM ופייפליין, הכשרת צוות, ניהול מעשי של התנועה, החלטות גיוס וביצועים, ואחריות מלאה על מכירות, שיווק ו-Go-to-Market. מה שמשתנה בין הרמות הוא כמה שעות ביום אני בעסק שלכם: שעתיים, ארבע שעות, או משרה מלאה."},
     {"q":"כמה זמן נמשך פרויקט סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ?","a":"אין נעילה לטווח ארוך. אתם מגדילים את המעורבות ככל שאתם גדלים, או מעבירים את הפונקציה הלאה כשהיא בנויה."},
     {"q":"האם אני צריך לחתום על חוזה ארוך?","a":"לא. אני מחייב חודשית בלי חוזה ובלי קנסות יציאה. אם לא אהבתם מה שאני מספק, סיימנו בסוף החודש ואתם לא חייבים עוד כלום."}],
-  "related":'ראו את <a href="/he/services/fractional-cro">שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>, <a href="/he/case-studies">מקרי מבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/fractional-cro-explained">סמנכ״ל מכירות ופיתוח עסקי במשרה חלקית, מה זה</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
+  "related":'ראו את <a href="/he/services/fractional-cro">שירות הסמנכ״ל מכירות ופיתוח עסקי במיקור חוץ</a>, <a href="/he/fractional-cro-roi">ה-ROI של Fractional CRO</a>, <a href="/he/case-studies">מקרי מבחן</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>. מהבלוג: <a href="/he/blog/fractional-cro-explained">סמנכ״ל מכירות ופיתוח עסקי במשרה חלקית, מה זה</a>, <a href="/he/blog/cost-of-bad-vp-sales-hire">כמה עולה גיוס כושל של סמנכ״ל מכירות</a>.'},
 
  {"slug":"fractional-cro-vs-outsourced-sales",
   "title":"סמנכ״ל מכירות במיקור חוץ מול סוכנות מכירות | טל פאפרין",
@@ -4814,7 +4814,7 @@ HE_GUIDES = [
     {"q":"מאיפה מתחילים לבנות GTM?","a":"מעסקה אמיתית אחת, לא מדף ריק. קחו את הלקוח האחרון שסגרתם ובדקו למה קנו, מה כאב, מה שכנע ואיך העסקה זזה. זה נותן טיוטה ראשונה של כל חמשת החלקים, שאותה בודקים אם היא חוזרת."},
     {"q":"האם אני צריך אסטרטגיית GTM אם אני כבר מוכר?","a":"אם המכירה לא עקבית, איטית או לא ניתנת לחיזוי, אתם מוכרים בלי GTM עובד גם אם עסקאות נסגרות מדי פעם. אסטרטגיה מוגדרת היא מה שמאפשר להבחין בין בעיית ערוץ לבעיית מסר ולתקן את הנכונה."},
     {"q":"אתה יכול לבנות את ה-GTM וגם לעזור להריץ אותו?","a":"כן. אני בונה את האסטרטגיה אתכם ואז מוביל את הביצוע עד שיש פייפליין, שותפים ומכירות ראשונות. אני לא עוצר במצגת, כי המצגת היא החלק שלא מוכר."}],
-  "related":'ראו את <a href="/he/services/go-to-market-strategy">שירות אסטרטגיית ה-GTM</a>, העמיקו ב<a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a> וב<a href="/he/go-to-market-motion">בחירת מהלך ה-GTM</a>, או קראו <a href="/he/blog/go-to-market-israeli-startup">אסטרטגיית GTM לסטארטאפ שמוכר בחו״ל</a> ו<a href="/he/blog/ideal-customer-profile-icp">איך מגדירים ICP שממיר</a>. אם חלק התחזית ממשיך לפספס, ראו <a href="/he/sales-forecast-always-wrong">למה תחזית המכירות תמיד שגויה</a>.'},
+  "related":'ראו את <a href="/he/services/go-to-market-strategy">שירות אסטרטגיית ה-GTM</a>, העמיקו ב<a href="/he/b2b-positioning-and-messaging">מיצוב ומסר</a> וב<a href="/he/go-to-market-motion">בחירת מהלך ה-GTM</a>, ראו <a href="/he/how-to-sell-to-enterprise">איך למכור לארגונים גדולים</a>, או קראו <a href="/he/blog/go-to-market-israeli-startup">אסטרטגיית GTM לסטארטאפ שמוכר בחו״ל</a> ו<a href="/he/blog/ideal-customer-profile-icp">איך מגדירים ICP שממיר</a>. אם חלק התחזית ממשיך לפספס, ראו <a href="/he/sales-forecast-always-wrong">למה תחזית המכירות תמיד שגויה</a>.'},
 
  {"slug":"b2b-positioning-and-messaging",
   "title":"מיצוב ומסר ל-B2B שמנצחים עסקאות | טל פאפרין",
