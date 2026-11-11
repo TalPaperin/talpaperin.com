@@ -639,20 +639,19 @@ emails a day, each hired within about a week of the first call, so volume is the
 - Copy is NOT to be changed (Tal). Do not propose copy changes; LinkedIn is not a channel.
 
 ## Adam calls Talpaperin leads (Tal, 2026-11-11)
-Adam, the SDR, calls Talpaperin leads to book meetings on Tal's calendar. The daily SDR handoff
-(step 6C) emails Tal a call list to forward to Adam, Sunday to Thursday:
-- WARM: anyone on 49501 who replied with interest, a question, a referral or "later", and the dropped
-  leads list built on 2026-11-11 (asked for a call, never booked). These are called first.
-- COLD: US leads who got their first email since the previous list. Top titles only (CEO, founder,
-  owner, president, MD, GM), 20 or more employees, largest first, one per company, at most 80 a day.
-- Explee holds NO phone numbers. Adam finds them from the LinkedIn profile or company site with his
-  own phone tool. Phones found in reply signatures are included on the warm list.
+Adam, the SDR, calls ONLY Talpaperin leads who wanted a meeting and never booked, or went stale.
+HE DOES NOT COLD CALL. Tal, 2026-11-11: "No!! Adam is calling only those that wanted a meeting and
+never booked or went stale. He's NOT cold calling." A cold-call list of emailed leads was built that
+day and rejected. Never build one again, and never put someone who has not replied on Adam's list.
+- The starting list is the dropped-leads file built on 2026-11-11 (asked for a call, never booked).
+- The daily SDR handoff (step 6C) adds a person once, when they have said yes to a call or asked for
+  one, have no booking, and have been silent for 2 days or more after our last message.
+- Phones come only from the prospect's own reply signature. Blank if there is none.
 - Never list anyone in booked_leads.txt, a hard decline, an opt-out or a disqualifier.
 CALL SCRIPT (keep it this short, Tal's voice, no pitch beyond it):
-  "Hi <first name>, this is Adam, I work with Tal Paperin. Tal emailed you <day> about your sales
-  team. He is a fractional CRO: he builds and runs the sales engine for B2B companies, the plan, the
-  team and the pipeline, without a full-time hire. I am calling to put 15 minutes with him on your
-  calendar. Is this week or next better?"
+  "Hi <first name>, this is Adam, I work with Tal Paperin. You wrote back to Tal about a call and
+  we never got it on the calendar. I am calling to fix that. Is this week or next better for 15
+  minutes with him?"
 - Booking goes on Tal's Calendly 15 minute link, Sunday to Thursday, never Friday afternoon or Saturday.
 - Price only if asked: monthly retainers, from $2,000 (Advisor), $6,000 (Starter), $12,000 (Growth,
   the most chosen). Never quote a yearly total. Details are on the pricing page.
