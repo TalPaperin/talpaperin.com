@@ -111,22 +111,21 @@
   }
 
   // WhatsApp: prefilled message, and on desktop a small label with an honest status by Israel time.
-  // No reply-time number is shown and nothing claims Tal is online. Sun to Thu 08:00-20:00 Israel
-  // counts as working hours; nights say "in the morning"; Thu night, Fri and Sat say "Sunday".
+  // Tal is on WhatsApp about 19 hours a day (Tal, 2026-11-11), so there is no hours limit and no
+  // "night" state. The only offline window is Friday 15:00 to Saturday 21:00 Israel time.
+  // No reply-time number is shown.
   if (wa) {
     var he = (document.documentElement.getAttribute('lang') || '').indexOf('he') === 0;
     var T = he ? {
       msg: 'היי טל, הגעתי דרך האתר ואשמח לדבר.', page: 'עמוד',
       title: 'כתבו לטל בוואטסאפ', close: 'סגירה',
-      on: 'שעות עבודה בישראל. אני עונה אישית.',
-      night: 'עכשיו לילה בישראל. השאירו הודעה ואענה בבוקר.',
-      off: 'אני לא זמין עד יום ראשון. השאירו הודעה ואענה אז.'
+      on: 'אני זמין בוואטסאפ רוב שעות היממה ועונה אישית.',
+      off: 'אני לא זמין עד מוצאי שבת. השאירו הודעה ואענה אז.'
     } : {
       msg: 'Hi Tal, I found your site and want to talk.', page: 'Page',
       title: 'Message Tal on WhatsApp', close: 'Close',
-      on: "It's working hours in Israel. I reply personally.",
-      night: "It's night in Israel. Leave a message, I reply in the morning.",
-      off: "I'm offline until Sunday. Leave a message and I reply then."
+      on: "I'm on WhatsApp most of the day and reply personally.",
+      off: "I'm offline until Saturday night, Israel time. Leave a message and I reply then."
     };
     var href = 'https://wa.me/972545308119?text=' + encodeURIComponent(T.msg + ' (' + T.page + ': ' + location.pathname + ')');
     wa.setAttribute('href', href);
@@ -139,8 +138,7 @@
         if (parts[i].type === 'weekday') day = parts[i].value;
         if (parts[i].type === 'hour') hour = parseInt(parts[i].value, 10) % 24;
       }
-      if (day === 'Fri' || day === 'Sat' || (day === 'Thu' && hour >= 20)) status = 'off';
-      else if (hour < 8 || hour >= 20) status = 'night';
+      if ((day === 'Fri' && hour >= 15) || (day === 'Sat' && hour < 21)) status = 'off';
     } catch (x) { status = ''; }
 
     var dismissed = false;
