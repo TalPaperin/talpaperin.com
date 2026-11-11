@@ -110,6 +110,65 @@
     window.addEventListener('scroll', show, { passive: true });
   }
 
+  // WhatsApp: prefilled message, and on desktop a small label with an honest status by Israel time.
+  // No reply-time number is shown and nothing claims Tal is online. Sun to Thu 08:00-20:00 Israel
+  // counts as working hours; nights say "in the morning"; Thu night, Fri and Sat say "Sunday".
+  if (wa) {
+    var he = (document.documentElement.getAttribute('lang') || '').indexOf('he') === 0;
+    var T = he ? {
+      msg: 'היי טל, הגעתי דרך האתר ואשמח לדבר.', page: 'עמוד',
+      title: 'כתבו לטל בוואטסאפ', close: 'סגירה',
+      on: 'שעות עבודה בישראל. אני עונה אישית.',
+      night: 'עכשיו לילה בישראל. השאירו הודעה ואענה בבוקר.',
+      off: 'אני לא זמין עד יום ראשון. השאירו הודעה ואענה אז.'
+    } : {
+      msg: 'Hi Tal, I found your site and want to talk.', page: 'Page',
+      title: 'Message Tal on WhatsApp', close: 'Close',
+      on: "It's working hours in Israel. I reply personally.",
+      night: "It's night in Israel. Leave a message, I reply in the morning.",
+      off: "I'm offline until Sunday. Leave a message and I reply then."
+    };
+    var href = 'https://wa.me/972545308119?text=' + encodeURIComponent(T.msg + ' (' + T.page + ': ' + location.pathname + ')');
+    wa.setAttribute('href', href);
+
+    var status = 'on';
+    try {
+      var parts = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Jerusalem', weekday: 'short', hour: 'numeric', hour12: false }).formatToParts(new Date());
+      var day = '', hour = 0;
+      for (var i = 0; i < parts.length; i++) {
+        if (parts[i].type === 'weekday') day = parts[i].value;
+        if (parts[i].type === 'hour') hour = parseInt(parts[i].value, 10) % 24;
+      }
+      if (day === 'Fri' || day === 'Sat' || (day === 'Thu' && hour >= 20)) status = 'off';
+      else if (hour < 8 || hour >= 20) status = 'night';
+    } catch (x) { status = ''; }
+
+    var dismissed = false;
+    try { dismissed = sessionStorage.getItem('wa_label_off') === '1'; } catch (x) {}
+    if (!dismissed && window.matchMedia && matchMedia('(min-width:900px) and (hover:hover)').matches) {
+      var box = document.createElement('div');
+      box.className = 'wa-label';
+      var link = document.createElement('a');
+      link.href = href; link.target = '_blank'; link.rel = 'noopener';
+      link.setAttribute('data-cta', 'wa-label');
+      var b = document.createElement('b'); b.textContent = T.title; link.appendChild(b);
+      if (status) { var sp = document.createElement('span'); sp.textContent = T[status]; link.appendChild(sp); }
+      var x = document.createElement('button');
+      x.type = 'button'; x.setAttribute('aria-label', T.close); x.textContent = '×';
+      x.addEventListener('click', function () {
+        box.parentNode.removeChild(box);
+        try { sessionStorage.setItem('wa_label_off', '1'); } catch (e) {}
+      });
+      box.appendChild(link); box.appendChild(x);
+      document.body.appendChild(box);
+      var place = function () {
+        var nearEnd = window.innerHeight + window.scrollY > document.documentElement.scrollHeight - 220;
+        box.classList.toggle('on', !nearEnd);
+      };
+      setTimeout(function () { place(); window.addEventListener('scroll', place, { passive: true }); }, 1500);
+    }
+  }
+
   document.addEventListener('submit', function (e) {
     var f = e.target;
     if (f && f.classList && f.classList.contains('sub-form')) ev('newsletter_signup', {});
