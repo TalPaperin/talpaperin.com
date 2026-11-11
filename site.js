@@ -1,6 +1,7 @@
 /* Site-wide conversion layer. Loaded with defer on every page.
-   1. Every Calendly link opens the booking popup in place (the widget is loaded on demand,
-      so it never blocks rendering) and falls back to the plain link if it cannot load.
+   1. Calendly links marked data-cal-popup (homepage hero, contact-page channel) open the
+      booking popup in place; the widget loads on demand. Every other Calendly link is a
+      plain link and is left alone.
    2. GA4 events: book_a_call (click), calendly_time_selected, calendly_booked + generate_lead
       (a completed booking), whatsapp_click, email_click, phone_click, newsletter_signup. */
 (function () {
@@ -55,7 +56,8 @@
   // Warm the widget up as soon as a visitor shows intent, so the popup opens instantly.
   ['pointerover', 'touchstart', 'focusin'].forEach(function (t) {
     document.addEventListener(t, function (e) {
-      if (state === 0 && up(e.target, isCal)) loadCal();
+      var w = up(e.target, isCal);
+      if (state === 0 && w && w.hasAttribute('data-cal-popup')) loadCal();
     }, { passive: true, capture: true });
   });
 
@@ -63,6 +65,7 @@
     var a = up(e.target, isCal);
     if (a) {
       ev('book_a_call', { link_text: label(a) });
+      if (!a.hasAttribute('data-cal-popup')) return; // plain link: the browser follows it
       if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
       e.preventDefault();
       var href = a.href, done = false;

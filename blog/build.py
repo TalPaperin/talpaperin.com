@@ -116,7 +116,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">Let's Talk</a>
+        <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -127,7 +127,7 @@ FOOTER = '''  <footer>
       <div class="foot-col foot-brand">
         <a class="foot-name" href="/">TAL PAPERIN</a>
         <p>Fractional CRO. I own the revenue number and make the team deliver it. Monthly, no contract.</p>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">Book a 15-Minute Call</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>
       <div class="foot-col">
         <p class="foot-h">Services</p>
@@ -239,7 +239,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">בואו נדבר</a>
+        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -250,7 +250,7 @@ HE_FOOTER = '''  <footer>
       <div class="foot-col foot-brand">
         <a class="foot-name" href="/he/">טל פאפרין</a>
         <p>סמנכ״ל הכנסות במיקור חוץ. אני לוקח אחריות על מספר ההכנסות ודואג שהצוות יספק אותו. חודש בחודשו, בלי חוזה.</p>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">תיאום שיחה של 15 דקות</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
       </div>
       <div class="foot-col">
         <p class="foot-h">שירותים</p>

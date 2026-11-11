@@ -80,7 +80,7 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_IL + '''</a>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">Let's Talk</a>
+        <a class="btn btn-primary" href="/contact">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -91,7 +91,7 @@ FOOTER = '''  <footer>
       <div class="foot-col foot-brand">
         <a class="foot-name" href="/">TAL PAPERIN</a>
         <p>Fractional CRO. I own the revenue number and make the team deliver it. Monthly, no contract.</p>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">Book a 15-Minute Call</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer" target="_blank" rel="noopener">Book a 15-Minute Call</a>
       </div>
       <div class="foot-col">
         <p class="foot-h">Services</p>
@@ -167,8 +167,8 @@ CTA_BOX = '''      <div class="cta-box">
         <a class="btn btn-secondary" href="https://wa.me/972545308119?text=Hi%20Tal%2C%20I%20found%20your%20site%20and%20want%20to%20talk%20go-to-market." target="_blank" rel="noopener">WhatsApp me</a>
       </div>'''
 
-CTA_STRIP_EN = '        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>\n'
-CTA_STRIP_HE = '        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>\n'
+CTA_STRIP_EN = '        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>\n'
+CTA_STRIP_HE = '        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>\n'
 
 # ---- Decision infographics (ported from the KSW sales page, rebuilt in HTML/CSS) ----
 IG_SIGNS_EN = '''<div class="ig-signs">
@@ -849,7 +849,7 @@ PAGE = '''<!doctype html>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
-        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>
 {sections}
 {case}
 {faq}
@@ -944,7 +944,7 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">בואו נדבר</a>
+        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
@@ -955,7 +955,7 @@ HE_FOOTER = '''  <footer>
       <div class="foot-col foot-brand">
         <a class="foot-name" href="/he/">טל פאפרין</a>
         <p>סמנכ״ל הכנסות במיקור חוץ. אני לוקח אחריות על מספר ההכנסות ודואג שהצוות יספק אותו. חודש בחודשו, בלי חוזה.</p>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">תיאום שיחה של 15 דקות</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
       </div>
       <div class="foot-col">
         <p class="foot-h">שירותים</p>
@@ -1394,7 +1394,7 @@ HE_PAGE = '''<!doctype html>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
-        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>
 {sections}
 {case}
 {faq}
@@ -1553,7 +1553,7 @@ CONTACT_EN = '''<!doctype html>
         <p class="eyebrow">Contact</p>
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
-        <div class="cta-strip"><p><strong>Fastest: pick a time.</strong> 15 minutes, no pitch. You leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top">Book a 15-Minute Call</a></div></div>
+        <div class="cta-strip"><p><strong>Fastest: pick a time.</strong> 15 minutes, no pitch. You leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1576,7 +1576,7 @@ CONTACT_EN = '''<!doctype html>
             <h2>Other channels</h2>
             <p class="contact-sub">Pick the one that fits.</p>
             <div class="channels">
-              <a class="channel channel-primary" href="https://calendly.com/ksw/15min" data-cta="contact-channel">
+              <a class="channel channel-primary" href="https://calendly.com/ksw/15min" data-cta="contact-channel" data-cal-popup>
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
                 <span class="ch-text"><span class="ch-label">Book a call</span><span class="ch-val">15 minutes with Tal &middot; strategy session</span></span>
               </a>
@@ -1651,7 +1651,7 @@ CONTACT_HE = '''<!doctype html>
         <p class="eyebrow">צור קשר</p>
         <h1>בואו נדבר.</h1>
         <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
-        <div class="cta-strip"><p><strong>הכי מהיר: לבחור זמן.</strong> 15 דקות, בלי ניסיונות מכירה. תצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top">תיאום שיחה של 15 דקות</a></div></div>
+        <div class="cta-strip"><p><strong>הכי מהיר: לבחור זמן.</strong> 15 דקות, בלי ניסיונות מכירה. תצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1674,7 +1674,7 @@ CONTACT_HE = '''<!doctype html>
             <h2>ערוצים נוספים</h2>
             <p class="contact-sub">בחרו את זה שמתאים.</p>
             <div class="channels">
-              <a class="channel channel-primary" href="https://calendly.com/ksw/15min" data-cta="contact-channel">
+              <a class="channel channel-primary" href="https://calendly.com/ksw/15min" data-cta="contact-channel" data-cal-popup>
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
                 <span class="ch-text"><span class="ch-label">תיאום שיחה</span><span class="ch-val">15 דקות עם טל &middot; שיחת אסטרטגיה</span></span>
               </a>
@@ -1712,7 +1712,7 @@ CONTACT_HE = '''<!doctype html>
 
 CONTACT_JS_EN = '''  <script>
     (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
-    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='Thanks. Your message is on its way, I will reply within one business day.';var a=document.createElement('a');a.className='btn btn-secondary cf-next';a.href='https://calendly.com/ksw/15min';a.setAttribute('data-cta','after-form');a.textContent='Want it faster? Pick a 15-minute slot now';f.appendChild(a);}
+    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='Thanks. Your message is on its way, I will reply within one business day.';var a=document.createElement('a');a.className='btn btn-secondary cf-next';a.href='https://calendly.com/ksw/15min';a.setAttribute('data-cta','after-form');a.target='_blank';a.rel='noopener';a.textContent='Want it faster? Pick a 15-minute slot now';f.appendChild(a);}
     function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
       if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
       var loaded=parseInt(f.querySelector('#cf-loaded').value||'0',10);
@@ -1727,7 +1727,7 @@ CONTACT_JS_EN = '''  <script>
 
 CONTACT_JS_HE = '''  <script>
     (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
-    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='תודה. ההודעה שלך בדרך, אענה תוך יום עסקים אחד.';var a=document.createElement('a');a.className='btn btn-secondary cf-next';a.href='https://calendly.com/ksw/15min';a.setAttribute('data-cta','after-form');a.textContent='רוצים מהר יותר? קבעו עכשיו שיחה של 15 דקות';f.appendChild(a);}
+    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='תודה. ההודעה שלך בדרך, אענה תוך יום עסקים אחד.';var a=document.createElement('a');a.className='btn btn-secondary cf-next';a.href='https://calendly.com/ksw/15min';a.setAttribute('data-cta','after-form');a.target='_blank';a.rel='noopener';a.textContent='רוצים מהר יותר? קבעו עכשיו שיחה של 15 דקות';f.appendChild(a);}
     function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
       if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
       var loaded=parseInt(f.querySelector('#cf-loaded').value||'0',10);
@@ -2086,7 +2086,7 @@ REC_PAGE_EN = '''<!doctype html>
         <p class="lead">From multinational corporations to small startups, here are the companies I have built sales for, and what the founders and executives who worked with me actually say.</p>
         <h2 class="cases-recs-h">Companies I have built sales for</h2>
 {logos}
-        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>
         <h2 class="cases-recs-h">In their words</h2>
 {quotes}
 {cta}
@@ -2140,7 +2140,7 @@ REC_PAGE_HE = '''<!doctype html>
         <p class="lead">מתאגידים רב-לאומיים ועד סטארטאפים קטנים, אלה החברות שבניתי להן מכירות, ומה שהמייסדים והמנהלים שעבדו איתי באמת אומרים.</p>
         <h2 class="cases-recs-h">חברות שבניתי להן מכירות</h2>
 {logos}
-        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>
         <h2 class="cases-recs-h">בלשונם</h2>
 {quotes}
 {cta}
@@ -2360,7 +2360,7 @@ GUIDE_PAGE = '''<!doctype html>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
-        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>
 {faq}
 {cta}
         <div class="svc-related">{related}</div>
@@ -4212,7 +4212,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
-        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>
 {faq}
 {cta}
         <div class="svc-related">{related}</div>
@@ -5247,7 +5247,7 @@ ABOUT_EN = '''<!doctype html>
         <p class="eyebrow">About</p>
         <h1>About Tal Paperin</h1>
         <p class="lead">Operator, not advisor. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty years of it, on five continents.</p>
-        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">Book a 15-Minute Call</a></div></div>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
 
@@ -5346,7 +5346,7 @@ ABOUT_HE = '''<!doctype html>
         <p class="eyebrow">אודות</p>
         <h1>אודות טל פאפרין</h1>
         <p class="lead">איש ביצוע, לא יועץ. אני לוקח אחריות על המספר ודואג שהצוות יספק אותו: מאבחן איפה ההכנסות נתקעו, ואז בונה, מכשיר ומנהל את הצוות, או מביא צוות משלי, עד שהמספר זז. עשרים שנה, בחמש יבשות.</p>
-        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" width="800" height="1200" loading="lazy" /><figcaption>הנהגת הכנסות בכירה, בכיסא.</figcaption></figure>
 
