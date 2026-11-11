@@ -30,11 +30,13 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
              "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
-             'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>')
+             'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
+             '  <script src="/site.js" defer></script>')
 FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
          '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
-         'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />')
+         'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
+         '  <link rel="stylesheet" href="/site.css" />')
 
 HAMBURGER = ('<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" '
              'stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/>'
@@ -78,15 +80,63 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_IL + '''</a>
-        <a class="btn btn-primary" href="/contact">Let's Talk</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
   </nav>'''
 
 FOOTER = '''  <footer>
+    <div class="wrap foot-grid">
+      <div class="foot-col foot-brand">
+        <a class="foot-name" href="/">TAL PAPERIN</a>
+        <p>Fractional CRO. I own the revenue number and make the team deliver it. Monthly, no contract.</p>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">Book a 15-Minute Call</a>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Services</p>
+        <ul>
+          <li><a href="/services/fractional-cro">Fractional CRO</a></li>
+          <li><a href="/services/outsourced-sales">Outsourced Sales Teams</a></li>
+          <li><a href="/services/pay-per-meeting">Pay-Per-Meeting</a></li>
+          <li><a href="/services/go-to-market-strategy">Go-To-Market Strategy</a></li>
+          <li><a href="/services/market-entry">Market Entry</a></li>
+          <li><a href="/services/">All services</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Decide</p>
+        <ul>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/case-studies">Case Studies</a></li>
+          <li><a href="/recommendations">Recommendations</a></li>
+          <li><a href="/sales-cost-calculator">Sales cost calculator</a></li>
+          <li><a href="/about">About Tal</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Learn</p>
+        <ul>
+          <li><a href="/guides">Guides</a></li>
+          <li><a href="/answers">Answers</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/when-do-you-need-a-fractional-cro">When you need a fractional CRO</a></li>
+          <li><a href="/fractional-cro-cost">What a fractional CRO costs</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Contact</p>
+        <ul>
+          <li><a href="/contact">Send a message</a></li>
+          <li><a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></li>
+          <li><a href="tel:+972545308119" dir="ltr">+972 54-530-8119</a></li>
+          <li><a href="https://wa.me/972545308119" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="wrap inner">
-      <span>&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/guides">Guides</a> &middot; <a href="/answers">Answers</a></span>
+      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -116,6 +166,9 @@ CTA_BOX = '''      <div class="cta-box">
         <a class="btn btn-primary" href="https://calendly.com/ksw/15min" target="_blank" rel="noopener">Book a 15-Minute Call</a>
         <a class="btn btn-secondary" href="https://wa.me/972545308119?text=Hi%20Tal%2C%20I%20found%20your%20site%20and%20want%20to%20talk%20go-to-market." target="_blank" rel="noopener">WhatsApp me</a>
       </div>'''
+
+CTA_STRIP_EN = '        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>\n'
+CTA_STRIP_HE = '        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>\n'
 
 # ---- Decision infographics (ported from the KSW sales page, rebuilt in HTML/CSS) ----
 IG_SIGNS_EN = '''<div class="ig-signs">
@@ -460,8 +513,9 @@ SERVICES = [
       "From a weekly advisor to a fully embedded CRO. The more of me you take, the more I own. The only thing that changes is how much of my week is on your business."],
      "ul":[
       "Advisor, $2,000 a month: about three hours a week, a standing strategy call plus access between calls",
-      "Starter, $6,000 a month: two hours a day, every working day. What most companies choose",
-      "Growth, $12,000 a month: half time, four hours a day, hands-on. Full-time and exclusive available on request"]},
+      "Starter, $6,000 a month: two hours a day, every working day",
+      "Growth, $12,000 a month: half time, four hours a day, hands-on. Full-time and exclusive available on request",
+      "On top of every level, a performance share measured against a baseline we agree up front. The full breakdown is on the pricing page"]},
     {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "Tal Paperin, fractional CRO", "cap": "Senior revenue leadership, in the seat.", "portrait": True},
   ]},
 
@@ -795,6 +849,7 @@ PAGE = '''<!doctype html>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
 {sections}
 {case}
 {faq}
@@ -815,7 +870,7 @@ INDEX = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Services: Fractional CRO, Outsourced Sales &amp; GTM | Tal Paperin</title>
-  <meta name="description" content="How I fix and run revenue: fractional CRO, outsourced sales, go-to-market strategy, sales team building, channel and distributor recruitment, and international market entry." />
+  <meta name="description" content="How I fix and run revenue: fractional CRO, outsourced sales, go-to-market strategy, sales team building, channel recruitment and international market entry." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="{site}/services/" />
   <link rel="alternate" hreflang="en" href="{site}/services/" />
@@ -851,7 +906,7 @@ INDEX = '''<!doctype html>
         <h1>What I do.</h1>
         <p class="lead">The ways I fix and run revenue. Pick the one that matches your problem, or just tell me where it hurts and I will point you to the right one.</p>
       </div>
-      <div class="svc-grid">
+      <div class="svc-grid svc-grid-3">
 {cards}
       </div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/pricing">See pricing &rarr;</a></p>
@@ -871,7 +926,8 @@ INDEX = '''<!doctype html>
 HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
             '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
             '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&'
-            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />')
+            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
+         '  <link rel="stylesheet" href="/site.css" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
@@ -888,15 +944,63 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
-        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
   </nav>'''
 
 HE_FOOTER = '''  <footer>
+    <div class="wrap foot-grid">
+      <div class="foot-col foot-brand">
+        <a class="foot-name" href="/he/">טל פאפרין</a>
+        <p>סמנכ״ל הכנסות במיקור חוץ. אני לוקח אחריות על מספר ההכנסות ודואג שהצוות יספק אותו. חודש בחודשו, בלי חוזה.</p>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">תיאום שיחה של 15 דקות</a>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">שירותים</p>
+        <ul>
+          <li><a href="/he/services/fractional-cro">סמנכ״ל מכירות במיקור חוץ</a></li>
+          <li><a href="/he/services/outsourced-sales">צוות מכירות במיקור חוץ</a></li>
+          <li><a href="/he/services/pay-per-meeting">תשלום לפי פגישה</a></li>
+          <li><a href="/he/services/go-to-market-strategy">אסטרטגיית Go-To-Market</a></li>
+          <li><a href="/he/services/market-entry">חדירה לשווקים בינלאומיים</a></li>
+          <li><a href="/he/services/">כל השירותים</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">לפני שמחליטים</p>
+        <ul>
+          <li><a href="/he/pricing">תמחור</a></li>
+          <li><a href="/he/case-studies">מקרי מבחן</a></li>
+          <li><a href="/he/recommendations">המלצות</a></li>
+          <li><a href="/he/sales-cost-calculator">מחשבון עלות המכירות</a></li>
+          <li><a href="/he/about">אודות טל</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">מדריכים ותוכן</p>
+        <ul>
+          <li><a href="/he/guides">מדריכים</a></li>
+          <li><a href="/he/answers">תשובות</a></li>
+          <li><a href="/he/blog/">בלוג</a></li>
+          <li><a href="/he/when-do-you-need-a-fractional-cro">מתי צריך Fractional CRO?</a></li>
+          <li><a href="/he/fractional-cro-cost">כמה עולה סמנכ״ל במיקור חוץ</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">יצירת קשר</p>
+        <ul>
+          <li><a href="/he/contact">שליחת הודעה</a></li>
+          <li><a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></li>
+          <li><a href="tel:+972545308119" dir="ltr">+972 54-530-8119</a></li>
+          <li><a href="https://wa.me/972545308119" target="_blank" rel="noopener">וואטסאפ</a></li>
+          <li><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">לינקדאין</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="wrap inner">
-      <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/guides">מדריכים</a> &middot; <a href="/he/answers">תשובות</a></span>
+      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -993,7 +1097,7 @@ HE_SERVICES = [
      "p":["בשבוע הראשון אני מאבחן איפה העסקאות נתקעות ודולפות. בשבוע השני יש לכם תוכנית ותחזית אמיתית. בשבוע השלישי אני כבר מריץ אותה. אתם מקבלים מנהל מנוסה שעשה את זה יותר מ-30 פעם בחמש יבשות, לא עוד מצגת אסטרטגיה שנשארת במגירה."]},
     {"h":"מתומחר לפי כמה ממני אתם צריכים",
      "p":["מיועץ שבועי ועד סמנכ״ל הכנסות מוטמע במלואו. ככל שאתם לוקחים יותר ממני, אני לוקח יותר אחריות. הדבר היחיד שמשתנה הוא כמה מהשבוע שלי בעסק שלכם."],
-     "ul":["Advisor, 2,000 דולר בחודש: כשלוש שעות בשבוע, שיחת אסטרטגיה קבועה וגישה אליי בין השיחות","Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה. מה שרוב החברות בוחרות","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום, בידיים. משרה מלאה ובלעדית זמינה לפי בקשה"]},
+     "ul":["Advisor, 2,000 דולר בחודש: כשלוש שעות בשבוע, שיחת אסטרטגיה קבועה וגישה אליי בין השיחות","Starter, 6,000 דולר בחודש: שעתיים ביום, בכל יום עבודה","Growth, 12,000 דולר בחודש: חצי משרה, ארבע שעות ביום, בידיים. משרה מלאה ובלעדית זמינה לפי בקשה","מעל כל רמה, שותפות בתוצאה שנמדדת מול בסיס שנסכם עליו מראש. הפירוט המלא בעמוד התמחור"]},
     {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ", "cap": "מנהיגות הכנסות בכירה, בידיים.", "portrait": True},
   ]},
 
@@ -1290,6 +1394,7 @@ HE_PAGE = '''<!doctype html>
         <p class="eyebrow">{eyebrow}</p>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
 {sections}
 {case}
 {faq}
@@ -1343,7 +1448,7 @@ HE_INDEX = '''<!doctype html>
         <h1>מה אני עושה.</h1>
         <p class="lead">הדרכים שבהן אני מתקן ומריץ מכירות. בחרו את זו שמתאימה לבעיה שלכם, או <a href="/he/challenges">קראו את המדריך</a> ותגלו איפה כואב.</p>
       </div>
-      <div class="svc-grid">
+      <div class="svc-grid svc-grid-3">
 {cards}
       </div>
       <p style="text-align:center;margin-top:34px"><a class="btn btn-secondary" href="/he/pricing">לתמחור &larr;</a></p>
@@ -1448,6 +1553,7 @@ CONTACT_EN = '''<!doctype html>
         <p class="eyebrow">Contact</p>
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
+        <div class="cta-strip"><p><strong>Fastest: pick a time.</strong> 15 minutes, no pitch. You leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top">Book a 15-Minute Call</a></div></div>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1470,13 +1576,21 @@ CONTACT_EN = '''<!doctype html>
             <h2>Other channels</h2>
             <p class="contact-sub">Pick the one that fits.</p>
             <div class="channels">
-              <a class="channel" href="https://calendly.com/ksw/15min" onclick="return openCal()">
+              <a class="channel channel-primary" href="https://calendly.com/ksw/15min" data-cta="contact-channel">
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
                 <span class="ch-text"><span class="ch-label">Book a call</span><span class="ch-val">15 minutes with Tal &middot; strategy session</span></span>
               </a>
               <a class="channel" href="mailto:tal@ksw.solutions">
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
                 <span class="ch-text"><span class="ch-label">Email</span><span class="ch-val">tal@ksw.solutions</span></span>
+              </a>
+              <a class="channel" href="https://wa.me/972545308119" target="_blank" rel="noopener">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.3L3 20l1.3-5.3A8.4 8.4 0 1 1 21 11.5z"/></svg></span>
+                <span class="ch-text"><span class="ch-label">WhatsApp</span><span class="ch-val">Message me directly</span></span>
+              </a>
+              <a class="channel" href="tel:+972545308119">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+                <span class="ch-text"><span class="ch-label">Phone</span><span class="ch-val" dir="ltr">+972 54-530-8119</span></span>
               </a>
               <a class="channel" href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="#5ab0ff" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 17V9.99H6V17h2.34zM7.17 8.93a1.36 1.36 0 1 0 0-2.72 1.36 1.36 0 0 0 0 2.72zM18 17v-3.86c0-2.06-1.1-3.02-2.57-3.02-1.19 0-1.72.65-2.02 1.11V9.99h-2.34V17h2.34v-3.91c0-.21.02-.41.08-.56.16-.41.54-.84 1.17-.84.83 0 1.16.63 1.16 1.55V17H18z"/></svg></span>
@@ -1485,6 +1599,7 @@ CONTACT_EN = '''<!doctype html>
             </div>
           </div>
         </div>
+{proof}
       </div>
       </div>
     </div>
@@ -1536,6 +1651,7 @@ CONTACT_HE = '''<!doctype html>
         <p class="eyebrow">צור קשר</p>
         <h1>בואו נדבר.</h1>
         <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
+        <div class="cta-strip"><p><strong>הכי מהיר: לבחור זמן.</strong> 15 דקות, בלי ניסיונות מכירה. תצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="contact-top">תיאום שיחה של 15 דקות</a></div></div>
 
         <div class="contact-cols">
           <div class="contact-card">
@@ -1558,13 +1674,21 @@ CONTACT_HE = '''<!doctype html>
             <h2>ערוצים נוספים</h2>
             <p class="contact-sub">בחרו את זה שמתאים.</p>
             <div class="channels">
-              <a class="channel" href="https://calendly.com/ksw/15min" onclick="return openCal()">
+              <a class="channel channel-primary" href="https://calendly.com/ksw/15min" data-cta="contact-channel">
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
                 <span class="ch-text"><span class="ch-label">תיאום שיחה</span><span class="ch-val">15 דקות עם טל &middot; שיחת אסטרטגיה</span></span>
               </a>
               <a class="channel" href="mailto:tal@ksw.solutions">
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
                 <span class="ch-text"><span class="ch-label">מייל</span><span class="ch-val">tal@ksw.solutions</span></span>
+              </a>
+              <a class="channel" href="https://wa.me/972545308119" target="_blank" rel="noopener">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.3L3 20l1.3-5.3A8.4 8.4 0 1 1 21 11.5z"/></svg></span>
+                <span class="ch-text"><span class="ch-label">וואטסאפ</span><span class="ch-val">כתבו לי ישירות</span></span>
+              </a>
+              <a class="channel" href="tel:+972545308119">
+                <span class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#5ab0ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+                <span class="ch-text"><span class="ch-label">טלפון</span><span class="ch-val" dir="ltr">+972 54-530-8119</span></span>
               </a>
               <a class="channel" href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">
                 <span class="ch-icon"><svg viewBox="0 0 24 24" fill="#5ab0ff" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 17V9.99H6V17h2.34zM7.17 8.93a1.36 1.36 0 1 0 0-2.72 1.36 1.36 0 0 0 0 2.72zM18 17v-3.86c0-2.06-1.1-3.02-2.57-3.02-1.19 0-1.72.65-2.02 1.11V9.99h-2.34V17h2.34v-3.91c0-.21.02-.41.08-.56.16-.41.54-.84 1.17-.84.83 0 1.16.63 1.16 1.55V17H18z"/></svg></span>
@@ -1573,6 +1697,7 @@ CONTACT_HE = '''<!doctype html>
             </div>
           </div>
         </div>
+{proof}
       </div>
       </div>
     </div>
@@ -1585,12 +1710,9 @@ CONTACT_HE = '''<!doctype html>
 '''
 
 
-CONTACT_JS_EN = '''  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script>
+CONTACT_JS_EN = '''  <script>
     (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
-    function openCal(){try{gtag('event','book_a_call');}catch(e){}if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
-    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='Thanks. Your message is on its way, I will reply within one business day.';}
+    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='Thanks. Your message is on its way, I will reply within one business day.';var a=document.createElement('a');a.className='btn btn-secondary cf-next';a.href='https://calendly.com/ksw/15min';a.setAttribute('data-cta','after-form');a.textContent='Want it faster? Pick a 15-minute slot now';f.appendChild(a);}
     function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
       if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
       var loaded=parseInt(f.querySelector('#cf-loaded').value||'0',10);
@@ -1603,12 +1725,9 @@ CONTACT_JS_EN = '''  <link rel="stylesheet" href="https://assets.calendly.com/as
       return false;}
   </script>'''
 
-CONTACT_JS_HE = '''  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script>
+CONTACT_JS_HE = '''  <script>
     (function(){var cl=document.getElementById('cf-loaded');if(cl)cl.value=String(Date.now());})();
-    function openCal(){try{gtag('event','book_a_call');}catch(e){}if(window.Calendly){Calendly.initPopupWidget({url:'https://calendly.com/ksw/15min'});return false;}return true;}
-    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='תודה. ההודעה שלך בדרך, אענה תוך יום עסקים אחד.';}
+    function cfDone(f,m){var els=f.querySelectorAll('input,textarea,button,label');for(var i=0;i<els.length;i++){els[i].style.display='none';}m.hidden=false;m.style.color='var(--blue)';m.textContent='תודה. ההודעה שלך בדרך, אענה תוך יום עסקים אחד.';var a=document.createElement('a');a.className='btn btn-secondary cf-next';a.href='https://calendly.com/ksw/15min';a.setAttribute('data-cta','after-form');a.textContent='רוצים מהר יותר? קבעו עכשיו שיחה של 15 דקות';f.appendChild(a);}
     function submitForm(e){e.preventDefault();var f=e.target,m=f.querySelector('.cf-msg'),b=f.querySelector('button');
       if(f.querySelector('#cf-hp').value){cfDone(f,m);return false;}
       var loaded=parseInt(f.querySelector('#cf-loaded').value||'0',10);
@@ -1713,9 +1832,11 @@ LOGO_MAP = {"Headcount ERC":"headcount","KanduAI":"kanduai","LoneStar Tracking":
             "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source","Limat":"limat"}
 
 
-def render_cases(cases, rlabel):
+def render_cases(cases, rlabel, strip=""):
     out = []
-    for c in cases:
+    for i, c in enumerate(cases):
+        if strip and i in (3, 7):
+            out.append(strip.rstrip("\n"))
         logo = LOGO_MAP.get(c["company"], "")
         img = ('<img class="cs-logo" src="/logos/%s.jpg" alt="%s" loading="lazy" />\n        '
                % (logo, esc(c["company"]))) if logo else ""
@@ -1872,6 +1993,18 @@ LOGOS = [
 ]
 
 
+def render_proof(idx, he=False):
+    """One named client quote, for placing beside prices and forms."""
+    t = (TESTIMONIALS_HE if he else TESTIMONIALS_EN)[idx]
+    photo = ('<img src="%s" alt="" width="44" height="44" loading="lazy" />' % t["photo"]) if t.get("photo") else ""
+    label, href, arrow = (("להמלצות נוספות", "/he/recommendations", "&larr;") if he
+                          else ("More recommendations", "/recommendations", "&rarr;"))
+    return ('      <figure class="proof-quote"><blockquote>%s</blockquote>'
+            '<figcaption class="who">%s<span><b>%s</b><span>%s, %s</span></span></figcaption>'
+            '<a class="more" href="%s">%s %s</a></figure>'
+            ) % (esc(t["q"]), photo, esc(t["name"]), esc(t["role"]), esc(t["company"]), href, label, arrow)
+
+
 def render_logo_wall(logos):
     # Two-row auto-scrolling carousel. Each row's set is duplicated so the
     # CSS translateX(-50%) loop is seamless; the duplicate is aria-hidden.
@@ -1953,6 +2086,7 @@ REC_PAGE_EN = '''<!doctype html>
         <p class="lead">From multinational corporations to small startups, here are the companies I have built sales for, and what the founders and executives who worked with me actually say.</p>
         <h2 class="cases-recs-h">Companies I have built sales for</h2>
 {logos}
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
         <h2 class="cases-recs-h">In their words</h2>
 {quotes}
 {cta}
@@ -2006,6 +2140,7 @@ REC_PAGE_HE = '''<!doctype html>
         <p class="lead">מתאגידים רב-לאומיים ועד סטארטאפים קטנים, אלה החברות שבניתי להן מכירות, ומה שהמייסדים והמנהלים שעבדו איתי באמת אומרים.</p>
         <h2 class="cases-recs-h">חברות שבניתי להן מכירות</h2>
 {logos}
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
         <h2 class="cases-recs-h">בלשונם</h2>
 {quotes}
 {cta}
@@ -2026,7 +2161,7 @@ CS_PAGE_EN = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Case Studies | Tal Paperin, Fractional CRO</title>
-  <meta name="description" content="Real results from a fractional CRO: building sales engines, opening markets and closing complex deals for B2B companies across startups, IoT, manufacturing, medical and SaaS, on five continents." />
+  <meta name="description" content="Case studies from a fractional CRO: sales engines built, markets opened and complex deals closed for B2B companies in SaaS, IoT, manufacturing and medical." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/case-studies" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/case-studies" />
@@ -2225,6 +2360,7 @@ GUIDE_PAGE = '''<!doctype html>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
 {faq}
 {cta}
         <div class="svc-related">{related}</div>
@@ -2630,8 +2766,11 @@ GUIDES = [
       "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee. The role is identical at every level. The only thing that changes is how many hours a day I am in your business."]},
     {"h":"The three levels, priced by how much of me","tiers":[
       "Advisor, $2,000 a month. About three hours a week. A standing weekly strategy call plus access to me between calls for the real decisions. For founders who want senior direction while they run the day to day themselves.",
-      "Starter, $6,000 a month. Me as your CRO embedded two hours a day, every working day. I own the strategy, the system and the standards, and your team carries more of the daily execution. What most companies choose.",
+      "Starter, $6,000 a month. Me as your CRO embedded two hours a day, every working day. I own the strategy, the system and the standards, and your team carries more of the daily execution.",
       "Growth, $12,000 a month. Half time, four hours a day. Not just steering, driving: I run the motion week to week, manage the team hands-on, and carry the number with you. Full-time, exclusive engagements available on request."]},
+    {"h":"The performance share, on top","p":[
+      "Every level also carries a performance share. It is added on top of the monthly fee, never instead of it, and measured against a baseline we agree up front: 3% of net new ARR to me, 10% of first-year deal value to the account executives, and $50 per qualified meeting held to the SDRs."],
+     "links":[("See the full pricing table","/pricing")]},
     {"h":"Why it is cheaper than a full-time hire","ul":[
       "No $250K base, equity, bonus or severance risk",
       "No three-month hiring search and no two-quarter ramp",
@@ -4073,6 +4212,7 @@ HE_GUIDE_PAGE = '''<!doctype html>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
 {faq}
 {cta}
         <div class="svc-related">{related}</div>
@@ -4250,8 +4390,11 @@ HE_GUIDES = [
       "סמנכ״ל מכירות ופיתוח עסקי במשרה מלאה עולה 250 אלף דולר ומעלה בסך הכל, אחרי שמוסיפים בסיס, אקוויטי, בונוס, סיכון פיצויי פיטורין ומחזור גיוס של חודשים. סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ נותן לכם את אותה מנהיגות בכירה בתשלום חודשי. התפקיד זהה בכל רמה. הדבר היחיד שמשתנה הוא כמה שעות ביום אני בעסק שלכם."]},
     {"h":"שלוש הרמות, לפי כמה ממני אתם צריכים","tiers":[
       "Advisor, 2,000 דולר בחודש. כשלוש שעות בשבוע. שיחת אסטרטגיה שבועית קבועה וגישה אליי בין השיחות, להחלטות האמיתיות. למייסדים שרוצים כיוון בכיר בזמן שהם מריצים את היומיום בעצמם.",
-      "Starter, 6,000 דולר בחודש. אני, סמנכ״ל המכירות ופיתוח העסקי שלכם, בתוך העסק שעתיים ביום, בכל יום עבודה. אני מחזיק את האסטרטגיה, השיטה והסטנדרטים, והצוות שלכם מבצע את רוב היומיום. מה שרוב החברות בוחרות.",
+      "Starter, 6,000 דולר בחודש. אני, סמנכ״ל המכירות ופיתוח העסקי שלכם, בתוך העסק שעתיים ביום, בכל יום עבודה. אני מחזיק את האסטרטגיה, השיטה והסטנדרטים, והצוות שלכם מבצע את רוב היומיום.",
       "Growth, 12,000 דולר בחודש. חצי משרה, ארבע שעות ביום. כבר לא רק מכוון, מניע: אני מריץ את המוטור שבוע אחר שבוע, מנהל את הצוות בידיים, ונושא איתכם במספר. התקשרויות במשרה מלאה ובלעדיות זמינות לפי בקשה."]},
+    {"h":"שותפות בתוצאה, בנוסף","p":[
+      "בכל רמה יש גם שותפות בתוצאה. היא מתווספת מעל התשלום החודשי, אף פעם לא במקומו, ונמדדת מול בסיס שנסכם עליו מראש: 3% מה-ARR נטו החדש לי, 10% משווי העסקה בשנה הראשונה לאנשי המכירות (AE), ו-50 דולר לכל פגישה מוכשרת שהתקיימה ל-SDRs."],
+     "links":[("לטבלת התמחור המלאה","/he/pricing")]},
     {"h":"למה זה זול יותר מגיוס במשרה מלאה","ul":[
       "בלי בסיס של 250 אלף דולר, אקוויטי, בונוס או סיכון פיצויים",
       "בלי חיפוש גיוס של שלושה חודשים ובלי התברגות של שני רבעונים",
@@ -5069,7 +5212,7 @@ ABOUT_EN = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About Tal Paperin | Fractional CRO / CGO and B2B Growth Leader</title>
-  <meta name="description" content="Tal Paperin is a fractional CRO and Chief Growth Officer (CGO) with 20-plus years building and scaling revenue and growth engines across five continents. Operator, not advisor." />
+  <meta name="description" content="Tal Paperin is a fractional CRO and Chief Growth Officer with 20-plus years building revenue engines on five continents. Operator, not advisor." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/about" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
@@ -5104,6 +5247,7 @@ ABOUT_EN = '''<!doctype html>
         <p class="eyebrow">About</p>
         <h1>About Tal Paperin</h1>
         <p class="lead">Operator, not advisor. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty years of it, on five continents.</p>
+        <div class="cta-strip"><p><strong>Revenue stuck?</strong> Take 15 minutes with me. No pitch, and you leave with at least one concrete thing to fix.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">Book a 15-Minute Call</a></div></div>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
 
@@ -5202,6 +5346,7 @@ ABOUT_HE = '''<!doctype html>
         <p class="eyebrow">אודות</p>
         <h1>אודות טל פאפרין</h1>
         <p class="lead">איש ביצוע, לא יועץ. אני לוקח אחריות על המספר ודואג שהצוות יספק אותו: מאבחן איפה ההכנסות נתקעו, ואז בונה, מכשיר ומנהל את הצוות, או מביא צוות משלי, עד שהמספר זז. עשרים שנה, בחמש יבשות.</p>
+        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip">תיאום שיחה של 15 דקות</a></div></div>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" width="800" height="1200" loading="lazy" /><figcaption>הנהגת הכנסות בכירה, בכיסא.</figcaption></figure>
 
@@ -5645,13 +5790,33 @@ def render_pricing_body(d, cal):
                 '<ul class="incl">%s</ul></div>'
                 ) % (feat, badge, esc(t["commit"]), esc(t["name"]), esc(t["price"]), esc(t["per"]),
                      star if mark else "", esc(t["bestfor"]), lis)
+    he = d.get("calc_lang") == "he"
     out = []
-    out.append('      <h2>%s</h2>' % esc(d["cro_h"]))
+    jl = (["סמנכ״ל במיקור חוץ", "צוות מכירות", "תשלום לפי פגישה", "שיווק", "שותפות בתוצאה", "בניית הצעת מחיר", "שאלות"] if he else
+          ["Fractional CRO", "Sales team", "Pay per meeting", "Marketing", "Performance share", "Build your quote", "Questions"])
+    jids = ["cro", "team", "ppm", "marketing", "perf", "quote", "faq"]
+    out.append('      <nav class="price-jump" aria-label="%s">%s</nav>' % (
+        "ניווט בעמוד" if he else "On this page",
+        "".join('<a href="#%s">%s</a>' % (i, esc(t)) for i, t in zip(jids, jl)
+                if not (i == "ppm" and not d.get("ppm_price")) and not (i == "perf" and not d.get("perf")))))
+    out.append('      <h2 id="cro">%s</h2>' % esc(d["cro_h"]))
     out.append('      <div class="price-grid cols4">%s</div>' % "".join(card(t, mark=True) for t in d["cro"]))
     if d.get("perf"):
         out.append('      <p style="color:#E67E22;font-size:.9rem;margin-top:14px">%s <a href="#perf" style="color:#E67E22">%s</a></p>'
                    % (esc(d["perf"]["star_note"]), esc(d["perf"]["star_link"])))
-    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["sdr_h"]))
+    if he:
+        out.append('      <div class="price-anchor"><div><span class="pa-label">סמנכ״ל הכנסות במשרה מלאה</span><div class="pa-num">$250,000+</div>'
+                   '<p>עלות שנתית כוללת. ועוד חודשים של חיפוש וכניסה לתפקיד, וסיכון ממשי של פיצויים.</p></div>'
+                   '<div class="mine"><span class="pa-label">Starter, בתוך העסק בכל יום עבודה</span><div class="pa-num">$72,000</div>'
+                   '<p>לשנה בתשלומים חודשיים, בתוספת השותפות בתוצאה. חודש בחודשו, בלי חוזה ובלי קנסות יציאה.</p></div></div>')
+    else:
+        out.append('      <div class="price-anchor"><div><span class="pa-label">A full-time CRO</span><div class="pa-num">$250,000+</div>'
+                   '<p>All in, per year. Plus months to find and ramp, and real severance risk.</p></div>'
+                   '<div class="mine"><span class="pa-label">Starter, in your business every working day</span><div class="pa-num">$72,000</div>'
+                   '<p>A year in monthly fees, plus the performance share. Monthly, no contract, no exit fines.</p></div></div>')
+    out.append(render_proof(0, he))
+    out.append((CTA_STRIP_HE if he else CTA_STRIP_EN).rstrip("\n").replace("        <div", "      <div", 1))
+    out.append('      <h2 class="price-h2" id="team">%s</h2>' % esc(d["sdr_h"]))
     left = ('<div class="tier"><span class="commit">%s</span><h3>%s</h3><p class="bestfor">%s</p><ul class="incl">%s</ul></div>'
             ) % (esc(d["add_label"]), esc(d["sdr_name"]), esc(d["sdr_desc"]),
                  "".join("<li>%s</li>" % esc(x) for x in d["sdr_incl"]))
@@ -5661,12 +5826,12 @@ def render_pricing_body(d, cal):
                   "".join("<li>%s</li>" % esc(x) for x in d["sdr_tiers"]), esc(d["sdr_price_note"]))
     out.append('      <div class="price-grid cols2">%s%s</div>' % (left, right))
     if d.get("ppm_price"):
-        out.append('      <h2 class="price-h2">%s</h2>' % esc(d["ppm_h"]))
+        out.append('      <h2 class="price-h2" id="ppm">%s</h2>' % esc(d["ppm_h"]))
         out.append('      <p class="bestfor">%s</p>' % esc(d["ppm_desc"]))
         out.append('      ' + d["ppm_price"])
         out.append('      <p class="price-note">%s <a href="%s" style="color:var(--blue);font-weight:600">%s</a>.</p>'
                    % (esc(d["ppm_more"]), d["ppm_url"], esc(d["ppm_more_link"])))
-    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["mk_h"]))
+    out.append('      <h2 class="price-h2" id="marketing">%s</h2>' % esc(d["mk_h"]))
     out.append('      <div class="price-grid cols2">%s</div>' % "".join(card(t) for t in d["marketing"]))
     # performance-share banner (added on top of the fixed fees)
     p = d.get("perf")
@@ -5737,7 +5902,7 @@ def render_pricing_body(d, cal):
                '<div class="qc-slider"><label>%s: <span class="qc-sdr-val"></span></label><input type="range" class="qc-sdr-range" min="0" max="6" step="1" value="0" />%s</div>'
                '<div class="qc-slider"><label>%s: <span class="qc-mk-val"></span></label><input type="range" class="qc-mk-range" min="0" max="2" step="1" value="0" />%s</div></div>'
                ) % (esc(d["calc_sliders_h"]), esc(d["calc_slider_cro"]), cro_scale, esc(d["calc_slider_sdr"]), sdr_scale, esc(d["calc_slider_mk"]), mk_scale)
-    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["calc_h"]))
+    out.append('      <h2 class="price-h2" id="quote">%s</h2>' % esc(d["calc_h"]))
     out.append('      <div class="quote-calc" data-subject="%s" data-sdr-r1="6000" data-sdr-r2="11000" data-sdr-r3="5000" data-ppm-setup="2500" data-tiers="%s" data-labels="%s" data-marketing="%s">'
                '<p class="bestfor">%s</p>%s'
                '<div class="qc-result" aria-live="polite"><p class="qc-prompt">%s</p></div>'
@@ -5752,7 +5917,7 @@ def render_pricing_body(d, cal):
                   esc(d["calc_name"]), esc(d["calc_email"]), esc(d["calc_company"]),
                   esc(d["calc_download"]), esc(d["calc_email_btn"]), esc(d["calc_book"]),
                   esc(d["calc_note"])))
-    out.append('      <h2 class="price-h2">%s</h2>' % esc(d["faq_h"]))
+    out.append('      <h2 class="price-h2" id="faq">%s</h2>' % esc(d["faq_h"]))
     faq = "".join('<h3>%s</h3><p>%s</p>' % (esc(q), esc(a)) for q, a in d["faq"])
     out.append('      <div class="price-faq">%s</div>' % faq)
     out.append('      <script src="/quote.js" defer></script>')
@@ -5782,7 +5947,7 @@ PRICING_TPL = """<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pricing: Fractional CRO, SDR Teams and Marketing | Tal Paperin</title>
-  <meta name="description" content="Straight monthly pricing for fractional CRO leadership, dedicated SDR teams and marketing leadership. Advisor to full CRO ownership. No long contracts, no exit fines." />
+  <meta name="description" content="Straight monthly pricing for fractional CRO leadership, SDR teams and marketing leadership. Advisor to full CRO ownership. No long contracts, no exit fines." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/pricing" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/pricing" />
@@ -5902,6 +6067,148 @@ PRICING_TPL_HE = """<!doctype html>
 """
 
 
+# ---- Privacy page (EN + HE). Plain-language notice of what the site collects. ----
+PRIVACY_TPL = """<!doctype html>
+<html lang="{lang}"{dir}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content="{desc}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{url}" />
+  <link rel="alternate" hreflang="en" href="https://talpaperin.com/privacy" />
+  <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/privacy" />
+  <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/privacy" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{url}" />
+  <meta property="og:title" content="{title}" />
+  <meta property="og:description" content="{desc}" />
+  <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
+  <meta property="og:site_name" content="{sitename}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{title}" />
+  <meta name="twitter:description" content="{desc}" />
+  <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
+
+  {fonts}
+  <link rel="stylesheet" href="{css}" />
+
+  {analytics}
+
+  {graph}
+</head>
+<body>
+{nav}
+
+  <main class="page" id="main">
+    <div class="wrap">
+      <div class="svc">
+        <p class="breadcrumb"><a href="{home}">{homelabel}</a> / {h1}</p>
+        <div class="glowline"></div>
+        <p class="eyebrow">{eyebrow}</p>
+        <h1>{h1}</h1>
+        <p class="lead">{lead}</p>
+{body}
+      </div>
+    </div>
+  </main>
+
+{footer}
+</body>
+</html>
+"""
+
+PRIVACY_EN = {
+ "title": "Privacy | Tal Paperin",
+ "desc": "What talpaperin.com collects, why, who processes it, and how to get it deleted. Plain language.",
+ "h1": "Privacy", "eyebrow": "The plain version",
+ "lead": "What this site collects, why, and how to get it deleted. No legalese.",
+ "sections": [
+  ("Who is responsible", ["This site is run by Tal Paperin, who also works through KSW Solutions. For anything about your data, write to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
+  ("What I collect, and when", [], [
+   "When you send a message through the contact form: your name, your email address and your message.",
+   "When you book a call: what you enter in the booking window, such as your name, email, phone number and your answers to the booking questions.",
+   "When you subscribe to the newsletter: your email address.",
+   "When you send me your numbers from the sales cost calculator: your email address and the figures you entered. If you do not press send, nothing you type into the calculator leaves your browser.",
+   "When you email or WhatsApp me: whatever you choose to write.",
+   "When you browse: the pages you view, the page you came from, your approximate location, and your device and browser type. This comes from analytics.",
+  ]),
+  (None, ["The quote builder on the pricing page runs in your browser. Its email button opens your own email program, so nothing is sent until you send that email yourself."], None),
+  ("Why I collect it", ["To reply to you, to hold the call you booked, to send the newsletter you asked for, and to see which pages are useful so I can improve the site. I do not sell your data, rent it or trade it."], None),
+  ("Who processes it for me", ["I use outside services to run the site. Each handles data under its own privacy policy, and some are based in the United States, so your data may be processed outside your country."], [
+   "Formspree delivers contact form and calculator submissions to my inbox.",
+   "Calendly and Zoom schedule and host the calls.",
+   "beehiiv holds the newsletter list.",
+   "Google Analytics and Ahrefs Web Analytics produce traffic statistics.",
+   "Google Fonts and YouTube serve fonts and embedded videos, and see your IP address when they load.",
+   "Vercel hosts the site and keeps standard server logs.",
+   "Google and WhatsApp carry the email and messages you send me.",
+  ]),
+  ("Cookies", ["Google Analytics sets cookies to tell one visit from another. You can block or delete cookies in your browser settings, or install Google's opt-out browser add-on, and the site works the same. Calendly and YouTube may set their own cookies when you open the booking window or play a video."], None),
+  ("How long I keep it", [], [
+   "Messages and booking details: while we are in contact, and afterwards as needed for my business records.",
+   "Newsletter: until you unsubscribe, which you can do from any issue.",
+   "Analytics: for the retention period set by each analytics provider.",
+  ]),
+  ("Your choices", ["You can ask me for a copy of the personal data I hold about you, ask me to correct it, or ask me to delete it. Email <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a> and I will handle it. If you are in the EU or the UK, you can also complain to your local data protection authority."], None),
+  ("Changes", ["If this page changes, the date below changes with it.", "Last updated: November 11, 2026."], None),
+ ],
+}
+
+PRIVACY_HE = {
+ "title": "פרטיות | טל פאפרין",
+ "desc": "מה האתר talpaperin.com אוסף, למה, מי מעבד את המידע, ואיך מבקשים למחוק אותו. בשפה פשוטה.",
+ "h1": "פרטיות", "eyebrow": "הגרסה הפשוטה",
+ "lead": "מה האתר הזה אוסף, למה, ואיך מבקשים למחוק. בלי שפה משפטית.",
+ "sections": [
+  ("מי אחראי", ["האתר מופעל על ידי טל פאפרין, שפועל גם דרך KSW Solutions. לכל שאלה על המידע שלכם כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
+  ("מה אני אוסף, ומתי", [], [
+   "כשאתם שולחים הודעה בטופס יצירת הקשר: השם, כתובת המייל וההודעה.",
+   "כשאתם מתאמים שיחה: מה שאתם ממלאים בחלון התיאום, כמו שם, מייל, טלפון והתשובות לשאלות התיאום.",
+   "כשאתם נרשמים לניוזלטר: כתובת המייל.",
+   "כשאתם שולחים לי את המספרים ממחשבון עלות המכירות: כתובת המייל והנתונים שהזנתם. אם לא לוחצים על שליחה, שום דבר שמוקלד במחשבון לא יוצא מהדפדפן.",
+   "כשאתם כותבים לי במייל או בוואטסאפ: מה שתבחרו לכתוב.",
+   "כשאתם גולשים: הדפים שנצפו, הדף שממנו הגעתם, מיקום משוער, וסוג המכשיר והדפדפן. המידע הזה מגיע מכלי האנליטיקה.",
+  ]),
+  (None, ["בונה הצעת המחיר בעמוד התמחור פועל בדפדפן שלכם. כפתור המייל שלו פותח את תוכנת המייל שלכם, כך ששום דבר לא נשלח עד שאתם שולחים את המייל בעצמכם."], None),
+  ("למה אני אוסף את זה", ["כדי לענות לכם, לקיים את השיחה שתיאמתם, לשלוח את הניוזלטר שביקשתם, ולראות אילו דפים מועילים כדי לשפר את האתר. אני לא מוכר את המידע שלכם, לא משכיר אותו ולא סוחר בו."], None),
+  ("מי מעבד את המידע עבורי", ["אני משתמש בשירותים חיצוניים כדי להפעיל את האתר. כל אחד מהם מטפל במידע לפי מדיניות הפרטיות שלו, וחלקם יושבים בארצות הברית, כך שהמידע עשוי להיות מעובד מחוץ למדינה שלכם."], [
+   "Formspree מעביר אליי את הפניות מטופס יצירת הקשר ומהמחשבון.",
+   "Calendly ו-Zoom משמשים לתיאום ולקיום השיחות.",
+   "beehiiv מחזיק את רשימת הניוזלטר.",
+   "Google Analytics ו-Ahrefs Web Analytics מפיקים סטטיסטיקות תנועה.",
+   "Google Fonts ו-YouTube מגישים גופנים וסרטונים מוטמעים, ורואים את כתובת ה-IP שלכם בזמן הטעינה.",
+   "Vercel מארח את האתר ושומר יומני שרת רגילים.",
+   "Google ו-WhatsApp מעבירים את המיילים וההודעות שאתם שולחים לי.",
+  ]),
+  ("עוגיות", ["Google Analytics משתמש בעוגיות כדי להבחין בין ביקור לביקור. אפשר לחסום או למחוק עוגיות בהגדרות הדפדפן, או להתקין את תוסף הביטול של Google, והאתר ימשיך לעבוד אותו דבר. Calendly ו-YouTube עשויים להגדיר עוגיות משלהם כשפותחים את חלון התיאום או מפעילים סרטון."], None),
+  ("כמה זמן אני שומר", [], [
+   "הודעות ופרטי תיאום: כל עוד אנחנו בקשר, ולאחר מכן לפי הצורך ברשומות העסק.",
+   "ניוזלטר: עד שתסירו את עצמכם, מה שאפשר לעשות מכל גיליון.",
+   "אנליטיקה: לתקופת השמירה שקובע כל ספק אנליטיקה.",
+  ]),
+  ("הבחירות שלכם", ["אתם יכולים לבקש ממני עותק של המידע האישי שאני מחזיק עליכם, לבקש לתקן אותו, או לבקש למחוק אותו. כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a> ואטפל בזה. אם אתם באיחוד האירופי או בבריטניה, אפשר גם לפנות לרשות הגנת המידע המקומית."], None),
+  ("שינויים", ["אם הדף הזה משתנה, התאריך למטה משתנה איתו.", "עודכן לאחרונה: 11 בנובמבר 2026."], None),
+ ],
+}
+
+
+def render_privacy_body(d):
+    out = []
+    for h, paras, items in d["sections"]:
+        if h:
+            out.append("        <h2>%s</h2>" % esc(h))
+        for p in paras:
+            out.append("        <p>%s</p>" % p)   # trusted copy above, may contain a mailto link
+        if items:
+            out.append("        <ul>")
+            out.extend("          <li>%s</li>" % esc(x) for x in items)
+            out.append("        </ul>")
+    return "\n".join(out)
+
+
 def build():
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
@@ -6006,10 +6313,21 @@ def build():
             items="\n".join(items_html), cta=HE_CTA, faqld=faqld,
             fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
 
+    # Privacy (EN + HE)
+    with open(os.path.join(ROOT, "privacy.html"), "w", encoding="utf-8") as f:
+        f.write(PRIVACY_TPL.format(lang="en", dir="", url=SITE + "/privacy", sitename="Tal Paperin",
+            css="/blog/blog.css", home="/", homelabel="Home", fonts=FONTS, analytics=ANALYTICS, nav=NAV,
+            footer=FOOTER, graph=graph_ld(False), body=render_privacy_body(PRIVACY_EN),
+            **{k: PRIVACY_EN[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
+    with open(os.path.join(ROOT, "he", "privacy.html"), "w", encoding="utf-8") as f:
+        f.write(PRIVACY_TPL.format(lang="he", dir=' dir="rtl"', url=SITE + "/he/privacy", sitename="טל פאפרין",
+            css="/he/he-pages.css", home="/he/", homelabel="בית", fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
+            footer=HE_FOOTER, graph=graph_ld(True), body=render_privacy_body(PRIVACY_HE),
+            **{k: PRIVACY_HE[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False), contactjs=CONTACT_JS_EN))
+        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False), contactjs=CONTACT_JS_EN, proof=render_proof(1)))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, graph=graph_ld(True), contactjs=CONTACT_JS_HE))
+        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, graph=graph_ld(True), contactjs=CONTACT_JS_HE, proof=render_proof(1, True)))
 
     with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
@@ -6036,13 +6354,13 @@ def build():
     with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
                                   graph=graph_ld(False),
-                                  cases=render_cases(CASE_STUDIES, "Result"),
+                                  cases=render_cases(CASE_STUDIES, "Result", CTA_STRIP_EN),
                                   testimonials=render_testimonials(cs_en),
                                   gallery=render_gallery(), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
         f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
                                   graph=graph_ld(True),
-                                  cases=render_cases(HE_CASES, "תוצאה"),
+                                  cases=render_cases(HE_CASES, "תוצאה", CTA_STRIP_HE),
                                   testimonials=render_testimonials(cs_he, he=True),
                                   gallery=render_gallery("טל פאפרין בשטח"), cta=HE_CTA))
 

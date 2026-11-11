@@ -6,7 +6,14 @@
     <atom:link href="https://talpaperin.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>If Your Company Might Only Last Six Months, Your Sales Math Changes</title>
+      <link>https://talpaperin.com/blog/sales-math-when-runway-is-short</link>
+      <guid isPermaLink="true">https://talpaperin.com/blog/sales-math-when-runway-is-short</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>A CTech opinion argues your next business might last six months, and that can be enough. If that is the bet, sell for fast payback, not distant lifetime value.</description>
+    </item>
     <item>
       <title>When the Channel That Feeds You Changes, Your Revenue Is Exposed</title>
       <link>https://talpaperin.com/blog/when-your-distribution-channel-shifts</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://talpaperin.com/blog/when-to-hire-first-salesperson</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <description>Revenue milestones do not tell you when to hire your first salesperson. A repeatable motion you can hand off does. Here is what ready actually looks like.</description>
-    </item>
-    <item>
-      <title>When the Number Falls, Everything You Built on Top of It Comes Due</title>
-      <link>https://talpaperin.com/blog/revenue-is-the-only-real-collateral</link>
-      <guid isPermaLink="true">https://talpaperin.com/blog/revenue-is-the-only-real-collateral</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Arieli borrowed $30M against Elron shares. The stock fell 34% and the partnership is unraveling. The lesson for CEOs: only durable revenue is real collateral.</description>
     </item>
   </channel>
 </rss>

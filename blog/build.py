@@ -64,12 +64,14 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
              "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
-             'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>')
+             'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
+             '  <script src="/site.js" defer></script>')
 
 FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
          '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
-         'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />')
+         'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
+         '  <link rel="stylesheet" href="/site.css" />')
 
 FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
             '<rect width="22" height="15" fill="#fff"/>'
@@ -114,15 +116,63 @@ NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/he/" hreflang="he" aria-label="Switch to Hebrew">''' + FLAG_SVG + '''</a>
-        <a class="btn btn-primary" href="/contact">Let's Talk</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">Let's Talk</a>
         <button class="navtoggle" aria-label="Menu" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
   </nav>'''
 
 FOOTER = '''  <footer>
+    <div class="wrap foot-grid">
+      <div class="foot-col foot-brand">
+        <a class="foot-name" href="/">TAL PAPERIN</a>
+        <p>Fractional CRO. I own the revenue number and make the team deliver it. Monthly, no contract.</p>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">Book a 15-Minute Call</a>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Services</p>
+        <ul>
+          <li><a href="/services/fractional-cro">Fractional CRO</a></li>
+          <li><a href="/services/outsourced-sales">Outsourced Sales Teams</a></li>
+          <li><a href="/services/pay-per-meeting">Pay-Per-Meeting</a></li>
+          <li><a href="/services/go-to-market-strategy">Go-To-Market Strategy</a></li>
+          <li><a href="/services/market-entry">Market Entry</a></li>
+          <li><a href="/services/">All services</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Decide</p>
+        <ul>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/case-studies">Case Studies</a></li>
+          <li><a href="/recommendations">Recommendations</a></li>
+          <li><a href="/sales-cost-calculator">Sales cost calculator</a></li>
+          <li><a href="/about">About Tal</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Learn</p>
+        <ul>
+          <li><a href="/guides">Guides</a></li>
+          <li><a href="/answers">Answers</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/when-do-you-need-a-fractional-cro">When you need a fractional CRO</a></li>
+          <li><a href="/fractional-cro-cost">What a fractional CRO costs</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">Contact</p>
+        <ul>
+          <li><a href="/contact">Send a message</a></li>
+          <li><a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></li>
+          <li><a href="tel:+972545308119" dir="ltr">+972 54-530-8119</a></li>
+          <li><a href="https://wa.me/972545308119" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="wrap inner">
-      <span>&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/guides">Guides</a> &middot; <a href="/answers">Answers</a></span>
+      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -171,7 +221,8 @@ SUBSCRIBE = '''      <div class="subscribe-box">
 HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
             '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
             '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800&'
-            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />')
+            'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
+         '  <link rel="stylesheet" href="/site.css" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
@@ -188,15 +239,63 @@ HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
       </div>
       <div class="nav-right">
         <a class="flag-btn" href="/" hreflang="en" aria-label="Switch to English">''' + FLAG_US + '''</a>
-        <a class="btn btn-primary" href="/he/contact">בואו נדבר</a>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="header">בואו נדבר</a>
         <button class="navtoggle" aria-label="תפריט" aria-expanded="false">''' + HAMBURGER + '''</button>
       </div>
     </div>
   </nav>'''
 
 HE_FOOTER = '''  <footer>
+    <div class="wrap foot-grid">
+      <div class="foot-col foot-brand">
+        <a class="foot-name" href="/he/">טל פאפרין</a>
+        <p>סמנכ״ל הכנסות במיקור חוץ. אני לוקח אחריות על מספר ההכנסות ודואג שהצוות יספק אותו. חודש בחודשו, בלי חוזה.</p>
+        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer">תיאום שיחה של 15 דקות</a>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">שירותים</p>
+        <ul>
+          <li><a href="/he/services/fractional-cro">סמנכ״ל מכירות במיקור חוץ</a></li>
+          <li><a href="/he/services/outsourced-sales">צוות מכירות במיקור חוץ</a></li>
+          <li><a href="/he/services/pay-per-meeting">תשלום לפי פגישה</a></li>
+          <li><a href="/he/services/go-to-market-strategy">אסטרטגיית Go-To-Market</a></li>
+          <li><a href="/he/services/market-entry">חדירה לשווקים בינלאומיים</a></li>
+          <li><a href="/he/services/">כל השירותים</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">לפני שמחליטים</p>
+        <ul>
+          <li><a href="/he/pricing">תמחור</a></li>
+          <li><a href="/he/case-studies">מקרי מבחן</a></li>
+          <li><a href="/he/recommendations">המלצות</a></li>
+          <li><a href="/he/sales-cost-calculator">מחשבון עלות המכירות</a></li>
+          <li><a href="/he/about">אודות טל</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">מדריכים ותוכן</p>
+        <ul>
+          <li><a href="/he/guides">מדריכים</a></li>
+          <li><a href="/he/answers">תשובות</a></li>
+          <li><a href="/he/blog/">בלוג</a></li>
+          <li><a href="/he/when-do-you-need-a-fractional-cro">מתי צריך Fractional CRO?</a></li>
+          <li><a href="/he/fractional-cro-cost">כמה עולה סמנכ״ל במיקור חוץ</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-h">יצירת קשר</p>
+        <ul>
+          <li><a href="/he/contact">שליחת הודעה</a></li>
+          <li><a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a></li>
+          <li><a href="tel:+972545308119" dir="ltr">+972 54-530-8119</a></li>
+          <li><a href="https://wa.me/972545308119" target="_blank" rel="noopener">וואטסאפ</a></li>
+          <li><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener">לינקדאין</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="wrap inner">
-      <span>&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/guides">מדריכים</a> &middot; <a href="/he/answers">תשובות</a></span>
+      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -482,6 +581,7 @@ def render_sitemap(posts, he_posts=None):
         ('%s/pricing' % SITE, '0.8', today),
         ('%s/recommendations' % SITE, '0.7', today),
         ('%s/contact' % SITE, '0.7', today),
+        ('%s/privacy' % SITE, '0.3', today),
     ]
     for s in SERVICES:
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
@@ -501,6 +601,7 @@ def render_sitemap(posts, he_posts=None):
     urls.append(('%s/he/sales-cost-calculator' % SITE, '0.6', today))
     urls.append(('%s/he/recommendations' % SITE, '0.6', today))
     urls.append(('%s/he/contact' % SITE, '0.6', today))
+    urls.append(('%s/he/privacy' % SITE, '0.3', today))
     for p in posts:
         urls.append(('%s/blog/%s' % (SITE, p["slug"]), '0.7', p["updated"].isoformat()))
     for p in he_posts:
