@@ -58,6 +58,7 @@ Every new English post gets a Hebrew translation, no exceptions.
 - Homepage wording: "Three part-time levels, plus full-time."
 - Performance share: one plain line inside each price card ("plus 3% of net new ARR"), never a star or footnote.
 - Capacity line (pricing + homepage): two Growth clients at a time, or one full-time, three to four at Starter, or about ten Advisors. Do not turn it into "X places left".
+- Sales cost calculator (Tal, 2026-11-11): NO form and no Formspree. The visitor saves the result as a PDF (print view, like the quote builder) and emails it from their own mail program (mailto with the numbers prefilled), or sends it on WhatsApp. The contact page form still uses Formspree, which delivers to Tal's DealMentor mailbox, not the KSW one.
 - Contact page: no strip above the channel list. Blog mid-article box says "Let's Talk" and goes to the contact page.
 - Each service page carries one matching recommendation (`SERVICE_PROOF` in `services/build.py`). The services index leads with Fractional CRO, Outsourced Sales Teams and Pay-Per-Meeting (`LEAD_SERVICES`).
 - The trade-show photo gallery was removed from every page and must NOT come back. The homepage testimonials stay a scrolling strip, with "Show more" on cut-off quotes.

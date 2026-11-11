@@ -107,8 +107,9 @@
     .cc-results .cc-lines .cc-line:first-child{border-top:0;padding-top:0}
     .cc-results .calc-send{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;margin-top:0}
     .cc-results .calc-send p{flex:1 1 300px;margin:0}
-    .cc-results .calc-send form{flex:1 1 340px}
-    .cc-results .calc-send .calc-send-msg{flex-basis:100%}
+    .cc-results .calc-send .calc-send-btns{flex:1 1 340px;display:flex;flex-wrap:wrap;gap:10px}
+    .cc-results .calc-send .calc-send-btns .btn{flex:1 1 150px;text-align:center;justify-content:center}
+    .cc-results .calc-send .calc-send-note{flex-basis:100%;font-size:.85rem;margin:0}
     .cc-results .calc-send .calc-wa{flex-basis:100%;color:var(--blue);font-weight:600;font-size:.9rem}
     @media (max-width:860px){
       .cc-inputs{columns:1}
@@ -212,13 +213,12 @@
               <div class="cc-line"><b>תקציב שיווק שהולך לאיבוד</b><span class="v" id="r5"></span><div class="cc-bar"><i id="b5"></i></div><p id="p5"></p></div>
             </div>
             <div class="calc-send">
-              <p>רוצים לשמוע מה אני רואה במספרים האלה? שלחו לי אותם ואחזור אליכם במייל עם הדבר הראשון שהייתי בודק.</p>
-              <form onsubmit="return calcSend(event)">
-                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);opacity:0" />
-                <input type="email" name="email" placeholder="המייל שלכם בעבודה" aria-label="המייל שלכם בעבודה" required autocomplete="email" />
-                <button class="btn btn-secondary" type="submit">שליחת המספרים לטל</button>
-              </form>
-              <p class="calc-send-msg" hidden></p>
+              <p>רוצים לשמוע מה אני רואה במספרים האלה? שמרו אותם כ-PDF ושלחו לי במייל. אחזור אליכם עם הדבר הראשון שהייתי בודק.</p>
+              <div class="calc-send-btns">
+                <button class="btn btn-secondary" type="button" onclick="calcPdf()">שמירה כ-PDF</button>
+                <a class="btn btn-secondary" href="mailto:tal@ksw.solutions" data-cta="calc-email" onclick="calcMail(this)">שליחה במייל לטל</a>
+              </div>
+              <p class="calc-send-note">המייל נפתח בתוכנת המייל שלכם, והמספרים כבר כתובים בו. צרפו את ה-PDF ושלחו.</p>
               <a class="calc-wa" href="https://wa.me/972545308119" target="_blank" rel="noopener" data-cta="calc-whatsapp" onclick="calcWa(this)">או שלחו לי אותם בוואטסאפ</a>
             </div>
           </aside>
@@ -375,21 +375,58 @@
   })();
   </script>
   <script>
-    function calcWa(a){var L=['היי טל, אלה המספרים שלי ממחשבון עלות המכירות.','','הפסד בכל שנה'+': '+document.getElementById('total').textContent];
-      [].forEach.call(document.querySelectorAll('.cc-results .cc-line'),function(l){L.push(l.querySelector('b').textContent+': '+l.querySelector('.v').textContent);});
+    /* Send the numbers without a form: a printable page the visitor saves as PDF, and an email that
+       opens in their own mail program (same approach as the quote builder on the pricing page). */
+    var CS={"lang": "he", "dir": "rtl", "wa_hi": "היי טל, אלה המספרים שלי ממחשבון עלות המכירות.", "mail_hi": "היי טל, אלה המספרים שלי ממחשבון עלות המכירות. מה היית בודק קודם?", "subject": "המספרים שלי ממחשבון עלות המכירות", "title": "כמה עולה לי מכונת המכירות והשיווק", "lost": "הפסד בכל שנה", "inputs": "המספרים שהזנתי", "printb": "הדפסה / שמירה כ-PDF", "foot": "הערכה לפתיחת שיחה, לא ביקורת.", "tagline": "Fractional CRO"};
+    var CKEYS={nsdr:'SDRs',sdrpay:'SDR pay',mt:'Meeting target/mo',ma:'Meetings held/mo',sramp:'Ramp months',sattr:'SDR attrition %',nae:'AEs',aepay:'AE pay',quota:'AE quota',attain:'Attainment %',nmgr:'Managers',mgrpay:'Manager pay',mhrs:'Firefighting hrs/wk',mkt:'Marketing spend',mwaste:'Marketing waste %',deal:'Deal value',close:'Close rate %'};
+    function cEsc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+    function cTotal(){return document.getElementById('total').textContent;}
+    function cLines(){return [].map.call(document.querySelectorAll('.cc-results .cc-line'),function(l){return [l.querySelector('b').textContent,l.querySelector('.v').textContent,(l.querySelector('p')||{}).textContent||''];});}
+    function calcWa(a){var L=[CS.wa_hi,'',CS.lost+': '+cTotal()];cLines().forEach(function(x){L.push(x[0]+': '+x[1]);});
       a.href='https://wa.me/972545308119?text='+encodeURIComponent(L.join('\n'));}
-    function calcSend(e){e.preventDefault();var f=e.target,m=f.parentNode.querySelector('.calc-send-msg'),b=f.querySelector('button');
-      function done(){f.style.display='none';m.hidden=false;m.style.color='';m.textContent="נשלח. אחזור אליכם במייל.";}
-      function fail(){b.disabled=false;m.hidden=false;m.style.color='#ff9a9a';m.textContent="משהו השתבש. אפשר לכתוב ל-tal@ksw.solutions.";}
-      if(f.querySelector('[name=_gotcha]').value){done();return false;}
-      var L=['Sales cost calculator ('+location.pathname+')','Lost every year: '+document.getElementById('total').textContent,''];
-      [].forEach.call(document.querySelectorAll('.cc-results .cc-line'),function(l){L.push(l.querySelector('b').textContent+': '+l.querySelector('.v').textContent);});
-      L.push('');
-      [].forEach.call(document.querySelectorAll('.cc-row'),function(r){var lb=r.querySelector('label'),i=r.querySelector('input');if(lb&&i)L.push((lb.childNodes[0].textContent||'').trim()+': '+i.value);});
-      b.disabled=true;
-      fetch('https://formspree.io/f/xykbgowb',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({email:f.querySelector('[name=email]').value,_subject:'Sales cost calculator lead',message:L.join('\n')})})
-        .then(function(r){if(r.ok){try{gtag('event','generate_lead',{method:'calculator'});}catch(x){}done();}else{fail();}}).catch(fail);
-      return false;}
+    function calcMail(a){var L=[CS.mail_hi,'','Lost every year: '+cTotal()];
+      ['Pipeline not booked','Revenue closers miss','SDR ramp and churn','Management firefighting','Marketing waste'].forEach(function(k,i){var v=document.getElementById('r'+(i+1));if(v)L.push(k+': '+v.textContent);});
+      L.push('');Object.keys(CKEYS).forEach(function(id){var e=document.getElementById(id);if(e)L.push(CKEYS[id]+': '+e.value);});
+      a.href='mailto:tal@ksw.solutions?subject='+encodeURIComponent(CS.subject)+'&body='+encodeURIComponent(L.join('\n'));
+      try{gtag('event','calculator_email');}catch(x){}}
+    function calcPdf(){
+      var rows=cLines().map(function(x){return '<tr><td><b>'+cEsc(x[0])+'</b><span>'+cEsc(x[2])+'</span></td><td class="p">'+cEsc(x[1])+'</td></tr>';}).join('');
+      var groups=[].map.call(document.querySelectorAll('.cc-fs'),function(fs){
+        var r=[].map.call(fs.querySelectorAll('.cc-row'),function(row){var lb=row.querySelector('label'),i=row.querySelector('input'),f=row.querySelector('.cc-field');
+          var unit=[].map.call(f.querySelectorAll('span'),function(s){return s.textContent;}).join('');
+          return '<tr><td>'+cEsc((lb.childNodes[0].textContent||'').trim())+'</td><td class="p">'+cEsc(unit==='$'?'$'+i.value:i.value+(unit?' '+unit:''))+'</td></tr>';}).join('');
+        return '<h3>'+cEsc(fs.querySelector('legend').textContent)+'</h3><table>'+r+'</table>';}).join('');
+      var sub=document.getElementById('sub').textContent,cpm=document.getElementById('cpm').textContent;
+      var d=new Date().toLocaleDateString(CS.lang==='he'?'he-IL':'en-US',{year:'numeric',month:'long',day:'numeric'});
+      var html='<!doctype html><html lang="'+CS.lang+'" dir="'+CS.dir+'"><head><meta charset="utf-8"><title>'+cEsc(CS.title)+'</title><style>'+
+        'body{font-family:Arial,Helvetica,sans-serif;color:#111;max-width:760px;margin:0 auto;padding:36px 30px;line-height:1.5}'+
+        '.top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid #1f6fb2;padding-bottom:12px}'+
+        '.brand{font-size:24px;font-weight:800;letter-spacing:.04em}.tag{color:#555;font-size:13px}'+
+        'h1{font-size:22px;margin:26px 0 4px}.date{color:#666;font-size:13px}'+
+        '.total{margin:22px 0 6px;padding:18px 20px;background:#f3f7fb;border-inline-start:5px solid #c0392b;border-radius:6px}'+
+        '.total small{display:block;color:#555;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.total b{font-size:38px;color:#c0392b;direction:ltr;display:inline-block}'+
+        '.sub{color:#444;font-size:14px;margin:8px 0}'+
+        'h2{font-size:16px;margin:28px 0 8px;border-bottom:1px solid #ddd;padding-bottom:6px}h3{font-size:13px;margin:16px 0 4px;color:#1f6fb2;text-transform:uppercase;letter-spacing:.06em}'+
+        'table{width:100%;border-collapse:collapse}td{padding:7px 0;border-bottom:1px solid #eee;vertical-align:top;font-size:14px}td span{display:block;color:#666;font-size:12px}'+
+        'td.p{text-align:right;font-weight:700;white-space:nowrap;direction:ltr;width:1%;padding-inline-start:16px}[dir=rtl] td.p{text-align:left}'+
+        '.foot{margin-top:28px;padding-top:12px;border-top:1px solid #ddd;color:#555;font-size:13px}.foot a{color:#1f6fb2}'+
+        '.pbtn{margin-top:22px;padding:11px 20px;font-size:15px;background:#1f6fb2;color:#fff;border:0;border-radius:8px;cursor:pointer}'+
+        '@media print{.noprint{display:none}body{padding:0}}'+
+        '</style></head><body>'+
+        '<div class="top"><span class="brand">TAL PAPERIN</span><span class="tag">'+cEsc(CS.tagline)+' &middot; talpaperin.com</span></div>'+
+        '<h1>'+cEsc(CS.title)+'</h1><div class="date">'+cEsc(d)+'</div>'+
+        '<div class="total"><small>'+cEsc(CS.lost)+'</small><b>'+cEsc(cTotal())+'</b></div>'+
+        '<p class="sub">'+cEsc(sub)+'</p><p class="sub">'+cEsc(cpm)+'</p>'+
+        '<table>'+rows+'</table>'+
+        '<h2>'+cEsc(CS.inputs)+'</h2>'+groups+
+        '<div class="foot">'+cEsc(CS.foot)+' &middot; <a href="mailto:tal@ksw.solutions">tal@ksw.solutions</a> &middot; <a href="https://talpaperin.com/contact">talpaperin.com/contact</a></div>'+
+        '<div class="noprint"><button class="pbtn" onclick="window.print()">'+cEsc(CS.printb)+'</button></div>'+
+        '</body></html>';
+      var w=window.open('','_blank');
+      if(!w){window.print();return;}
+      w.document.open();w.document.write(html);w.document.close();w.focus();
+      try{gtag('event','calculator_pdf');}catch(x){}
+      setTimeout(function(){try{w.print();}catch(e){}},400);}
   </script>
   <script>
     /* Calculator layout v2: mirror the total into the slim bar, hide the bar once the result is on screen. */
