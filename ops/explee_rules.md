@@ -144,6 +144,19 @@ measure, paying clients are. Israeli reply volume is a false signal. Therefore:
 - 347642 Scaling B2B (Series B+, US) was RESTARTED.
 - Do not propose Israel-only audiences again. New audiences must be US based and able to fund a
   monthly retainer; they need not be software. Judge an audience by bookings and paying clients.
+NEW US AUDIENCES launched 2026-11-11 (Tal: "Launch whatever you think is best"), both on the
+project My-copy unchanged, United States only, started the same day:
+- 409508 "US B2B companies with an open VP Sales or CRO seat": CEO / founder / president / owner of a
+  20 to 200 person B2B company whose top sales seat is open or recently vacated. Budget and pain exist now.
+- 409509 "PE-backed and search-fund-owned B2B companies (US)": CEO / president / owner-operator of an
+  investor-owned B2B company, about $5M to $50M revenue. Target the operating company, never the fund.
+- Explee's auto-suggested example clients were cleared on both (it proposed large SaaS names).
+- BUDGET STAYS FLAT at the project's $37 a day unless Tal says otherwise. If the project total rises
+  because of the new campaigns, bring it back to $37 and tell Tal.
+- CHECK THE FIRST LEADS of each before judging: the "open sales seat" and "investor-owned" filters are
+  written criteria Explee interprets. If the first leads are the wrong kind of company, stop that
+  campaign and tell Tal. Other candidates Tal has seen but not launched: owner-led B2B service firms
+  ($3M to $30M), healthcare and medical-device B2B, US offices of European and Asian companies.
 
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
