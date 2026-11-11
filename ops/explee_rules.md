@@ -157,6 +157,17 @@ project My-copy unchanged, United States only, started the same day:
   written criteria Explee interprets. If the first leads are the wrong kind of company, stop that
   campaign and tell Tal. Other candidates Tal has seen but not launched: owner-led B2B service firms
   ($3M to $30M), healthcare and medical-device B2B, US offices of European and Asian companies.
+RESULT the same day: BOTH 409508 and 409509 were STOPPED with 0 emails sent. Explee collected about
+10,000 leads for each within an hour and the sample leads were generic small, young B2B firms (a young
+software founder, a small billing-services firm, a 30-person office-equipment dealer, a facility-
+services owner). Nothing suggested an open sales seat or investor ownership. LESSON: Explee's lead
+search does NOT filter on signals such as "has an open VP Sales posting" or "PE-owned"; it matches on
+industry, size, geography and title. Do not relaunch these two as written. A signal-based audience
+needs a lead list from a source that has that filter (job-posting or ownership data WITH verified
+emails), imported through POST /autogtm/campaigns/import (needs email, first and last name, company
+domain and job title per lead). Also note: on project 49501 autopilot is ON and a new campaign can go
+from search to outreach in under an hour, so check the sample leads (GET .../my-copy/preview)
+immediately after starting a new campaign, not on the next hourly run.
 
 ## Campaign review + ICP tightening (Tal, 2026-10-28)
 
