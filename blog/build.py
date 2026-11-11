@@ -65,13 +65,13 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              "gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=3" defer></script>')
+             '  <script src="/site.js?v=4" defer></script>')
 
 FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  <link rel="icon" href="/favicon.ico" sizes="any" />\n' '  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />\n' '  <link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
          '  <link href="https://fonts.googleapis.com/css2?family=Anton&'
          'family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=3" />')
+         '  <link rel="stylesheet" href="/site.css?v=4" />')
 
 FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
             '<rect width="22" height="15" fill="#fff"/>'
@@ -127,7 +127,7 @@ FOOTER = '''  <footer>
       <div class="foot-col foot-brand">
         <a class="foot-name" href="/">TAL PAPERIN</a>
         <p>Fractional CRO. I own the revenue number and make the team deliver it. Monthly, no contract.</p>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer" target="_blank" rel="noopener">Book a 15-Minute Call</a>
+        <a class="btn btn-primary" href="/contact" data-cta="footer-talk">Let's Talk</a>
       </div>
       <div class="foot-col">
         <p class="foot-h">Services</p>
@@ -222,7 +222,7 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n' '  
             '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
             '  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;800&'
             'family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />\n'
-         '  <link rel="stylesheet" href="/site.css?v=3" />')
+         '  <link rel="stylesheet" href="/site.css?v=4" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
@@ -250,7 +250,7 @@ HE_FOOTER = '''  <footer>
       <div class="foot-col foot-brand">
         <a class="foot-name" href="/he/">טל פאפרין</a>
         <p>סמנכ״ל הכנסות במיקור חוץ. אני לוקח אחריות על מספר ההכנסות ודואג שהצוות יספק אותו. חודש בחודשו, בלי חוזה.</p>
-        <a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="footer" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a>
+        <a class="btn btn-primary" href="/he/contact" data-cta="footer-talk">בואו נדבר</a>
       </div>
       <div class="foot-col">
         <p class="foot-h">שירותים</p>

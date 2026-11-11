@@ -76,6 +76,8 @@
       });
       return;
     }
+    a = up(e.target, function (h) { return /^\/(he\/)?contact\/?$/.test(h); });
+    if (a) { ev('lets_talk_click', { link_text: label(a) }); return; }
     a = up(e.target, function (h) { return /^https?:\/\/(wa\.me|api\.whatsapp\.com)\//.test(h); });
     if (a) { ev('whatsapp_click', { link_text: label(a) }); return; }
     a = up(e.target, function (h) { return h.indexOf('mailto:') === 0; });
