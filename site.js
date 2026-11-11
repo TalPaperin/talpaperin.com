@@ -107,17 +107,27 @@
   if (wa) {
     var he = (document.documentElement.getAttribute('lang') || '').indexOf('he') === 0;
     var T = he ? {
-      msg: 'היי טל, הגעתי דרך האתר ואשמח לדבר.', page: 'עמוד',
+      msg: 'היי טל, הגעתי דרך האתר ואשמח לדבר.', page: 'הייתי בעמוד',
+      names: { pricing: 'תמחור', contact: 'צור קשר', about: 'אודות', 'case-studies': 'מקרי מבחן', recommendations: 'המלצות', services: 'שירותים', guides: 'מדריכים', answers: 'תשובות', blog: 'בלוג', 'sales-cost-calculator': 'מחשבון עלות המכירות', privacy: 'פרטיות', challenges: 'אתגרים' },
       title: 'כתבו לטל בוואטסאפ', close: 'סגירה',
       on: 'אני זמין בוואטסאפ רוב שעות היממה ועונה אישית.',
       off: 'אני לא זמין עד מוצאי שבת. השאירו הודעה ואענה אז.'
     } : {
-      msg: 'Hi Tal, I found your site and want to talk.', page: 'Page',
+      msg: 'Hi Tal, I found your site and want to talk.', page: 'I was on',
+      names: { pricing: 'Pricing', contact: 'Contact', about: 'About', 'case-studies': 'Case Studies', recommendations: 'Recommendations', services: 'Services', guides: 'Guides', answers: 'Answers', blog: 'Blog', 'sales-cost-calculator': 'Sales cost calculator', privacy: 'Privacy' },
       title: 'Message Tal on WhatsApp', close: 'Close',
       on: "I'm on WhatsApp most of the day and reply personally.",
       off: "I'm offline until Saturday night, Israel time. Leave a message and I reply then."
     };
-    var href = 'https://wa.me/972545308119?text=' + encodeURIComponent(T.msg + ' (' + T.page + ': ' + location.pathname + ')');
+    // A readable page name, never a raw path. The homepage gets the plain message.
+    var segs = location.pathname.replace(/\/+$/, '').split('/').filter(function (p) { return p && p !== 'he'; });
+    var pageName = '';
+    if (segs.length === 1 && T.names[segs[0]]) pageName = T.names[segs[0]];
+    else if (segs.length) {
+      var h1 = document.querySelector('h1');
+      pageName = h1 ? (h1.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 70) : '';
+    }
+    var href = 'https://wa.me/972545308119?text=' + encodeURIComponent(T.msg + (pageName ? ' (' + T.page + ': ' + pageName + ')' : ''));
     wa.setAttribute('href', href);
 
     var status = 'on';
