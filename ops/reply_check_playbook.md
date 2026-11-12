@@ -117,5 +117,15 @@ For each thread, get_thread and judge the LAST message:
   ops/booked_leads.txt with "DECLINED <date>" so every routine skips it, do not chase.
 This closes the gap where Gmail-channel re-engagement replies were invisible to the Explee-only checks.
 
-## Positioning check before every send (added 2026-11-12)
-Before writing any reply, rebuttal or nudge, reread ops/positioning.md (the Language rules at the end) and the two newest blocks in ops/explee_rules.md: one link only (the site home), and never "not an agency" or "one person". Tal sells his sales people and his marketing people as well as himself.
+## Gate before every send (added 2026-11-12, MANDATORY)
+Tal, 2026-11-12: "What's the point of you having that memory file if you don't read it?!" A reply went
+out saying "one senior person, not an agency", which ops/positioning.md already banned. Rereading is
+not enough, so every reply now passes a mechanical gate:
+1. Write the reply to a file (JSON with "body_text", or plain text).
+2. Run `python3 ops/check_reply.py <file>`. It blocks banned positioning ("not an agency", "one
+   person", "solo"), more than one link, yearly pricing, dashes, curly quotes and the de-slop words.
+3. Exit code 1 = rewrite and run again. NEVER send a reply that has not printed "clean".
+4. When Tal corrects a reply, add the wording to BANNED in ops/check_reply.py in the same commit as
+   the rule, so the same mistake cannot be sent twice.
+Still reread ops/positioning.md (Language rules) before writing: the gate catches wording, not judgment.
+Tal sells his sales people and his marketing people as well as himself.
