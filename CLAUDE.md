@@ -1,7 +1,7 @@
 # talpaperin.com — working notes for Claude
 
 Static site (HTML on Vercel) for Tal Paperin, Fractional CRO / B2B sales consultant.
-Bilingual EN + HE (RTL). Serves as a backup to the KSW website.
+Bilingual EN + HE (RTL). The brand on this site is Tal Paperin only (see "Identity" below).
 
 ## Voice / style (ALWAYS)
 - **Never use em dashes (—) or en dashes (–).** Use commas, periods, or restructure. This applies to blog posts, page copy, emails, everything.
@@ -45,7 +45,7 @@ Every new English post gets a Hebrew translation, no exceptions.
 - The header "Let's Talk" button and the homepage closing button go to the CONTACT PAGE (`/contact`, `/he/contact`). Never point them at Calendly: that bypasses the contact page (Tal, 2026-11-11). Calendly is reached from the booking buttons, as a popup.
 - Ask level (Tal, 2026-11-11): the default button is "Let's Talk" to the contact page (header, footer, the `.cta-strip` on service, guide, about, recommendations and case-study pages). A direct booking button is used only where the visitor is already deciding: homepage hero, the homepage "what happens after you book" section, the pricing strip and quote builder, the calculator result, the contact page, and the bottom `cta-box`. Do not add more booking buttons without asking.
 - WhatsApp float (Tal, 2026-11-11): the green bubble must be visible from the FIRST screen on every device, full size, never hidden on scroll or shrunk (Tal rejected hiding it on the mobile hero). `site.js` prefills the message with a READABLE page name, never a raw path, and nothing extra on the homepage (Tal rejected "(Page: /)"), and shows a dismissible label "Message Tal on WhatsApp" with a status line: it stays on desktop; on phones it shows once per visit and folds away after 8 seconds. Tal is on WhatsApp about 19 hours a day, so there is NO hours limit and no night state: "I'm on WhatsApp most of the day and reply personally." The only offline window is Friday 15:00 to Saturday 21:00 Israel time ("offline until Saturday night"). No reply-time number (none supplied). No live-chat widget, no pulsing.
-- `site.js` and `site.css` are browser-cached for an hour, so they are loaded with a version query (`/site.js?v=11`, `/site.css?v=11`). BUMP the number in all three places whenever either file changes, or returning visitors keep the old behaviour.
+- `site.js` and `site.css` are browser-cached for an hour, so they are loaded with a version query (`/site.js?v=12`, `/site.css?v=12`). BUMP the number in all three places whenever either file changes, or returning visitors keep the old behaviour.
 - Homepage (Tal, 2026-11-11): two blocks were removed as useless and must NOT come back: the four-commitments bar under the hero ("No lock-in / Week 1 / In the seat / Straight talk") and the "Not sure you need a fractional CRO?" box.
 - Footer (Tal, 2026-11-11): the name + tagline + "Let's Talk" block was removed from the footer on EVERY page. The footer is four link columns plus the copyright row, with NO button. Pages already end with calls to action; do not add another one to the footer.
 - NAV, FOOTER and the head assets exist in THREE places that must stay in sync: `services/build.py`, `blog/build.py`, and the five hand-maintained pages (`index.html`, `he/index.html`, `404.html`, `sales-cost-calculator.html`, `he/sales-cost-calculator.html`).
@@ -71,6 +71,22 @@ Every new English post gets a Hebrew translation, no exceptions.
 - No trailing slashes: `vercel.json` has `trailingSlash: false`. Link to `/blog`, `/services`, `/he`, `/he/blog`, `/he/services`, never with a slash at the end.
 - Fonts are self-hosted in `/fonts` and inlined through `FONT_FACES_EN` / `FONT_FACES_HE`. Do not add Google Fonts links back.
 - Images: after adding a logo, testimonial photo or page photo run `python3 ops/optimize_images.py` (needs Pillow). It writes the WebP copy and `img/dims.json`; both builds then link the WebP and write width and height into the tag.
+
+## Identity and the AI-visibility brief (Tal, 2026-11-12)
+Tal handed over an implementation brief ("get Tal Paperin recommended by AI assistants and Google") and said to implement it. Standing results:
+- **No "KSW", "KSW Solutions" or `ksw.solutions` anywhere on the public site**, EN or HE: titles, metas, body, FAQs, JSON-LD, llms.txt, old posts. The provider is Tal and the teams he brings (his sales team, and his marketing team led by a fractional CMO). Do not invent a company name. The only leftovers allowed are the contact strings `tal@ksw.solutions` and `calendly.com/ksw/15min`, until Tal creates replacements (then swap them everywhere, schema included).
+- The About timeline says "2019, Co-founded a B2B sales and marketing firm", no name.
+- The ePropertyCare (Huw Nierenberg) quote starts with the old firm name, so it carries `"hide": True` in `TESTIMONIALS_EN` / `TESTIMONIALS_HE` and was removed from the two homepage strips. Never edit a client's words. Unhide only when Tal supplies wording the client approved.
+- Schema: `graph_ld()` is emitted once per page, blog pages included. Person `jobTitle` is "Fractional CRO", `worksFor` points at `#business`, `sameAs` is the `SAME_AS` list (LinkedIn, about.me, MentorCruise, Clutch). Articles and posts reference `author` / `publisher` by `@id` only. No Review or AggregateRating, ever.
+- Facts to use everywhere: fractional CRO (also fractional VP of Sales), 30-plus B2B companies rebuilt, $20M ARR managed last year, five continents, 40-plus countries, 300-plus founders, **1,000+ salespeople trained** (Tal confirmed; never 2,000), $2,000 to $22,000 a month plus the performance share.
+- First paragraph rule: the first `<p>` inside `<main>` is the direct answer. Breadcrumbs are `<nav class="breadcrumb">` and eyebrows are `<div class="eyebrow">`, never `<p>`. Keep it that way in new templates.
+- Titles are under 60 characters and meta descriptions under 155. The brief wrote titles with a dash; this site uses `|` (no en dashes).
+- Author bio: `BIO_EN` / `BIO_HE` in `services/build.py` sit above the footer on content pages (services, guides, hubs, pricing, recommendations, case studies, blog). Not on home, about, contact, privacy, terms, 404 or the calculator. Its links are text links to About and the contact page, NOT a booking button (the ask-level rule above still wins over the brief's "Book a 15-minute call").
+- Hub pages carry a BreadcrumbList through `hub_crumb()`. Guides are Home > Guides > page.
+- Buyer-question pages: `/fractional-vp-sales-vs-full-time-vp-sales` and `/outsourced-sales-team-vs-in-house` are new (EN only for now), `/fractional-cro-for-saas` is the canonical B2B SaaS page. Convenience slugs 301 in `vercel.json`: `/fractional-cro`, `/fractional-cro-for-b2b-saas`, `/founder-led-sales-stuck`, `/why-vp-sales-hires-fail`, `/us-market-entry-b2b-sales`. Do not create duplicate pages at those slugs.
+- Case studies: every entry in `CASE_STUDIES` gets its own page at `/case-studies/<slug>` (and `/he/case-studies/<slug>`), built from the same data plus `CASE_PAGES_EN`. Still NO figures. There is deliberately no page for The Point Company: the only source is Steve Burton's recommendation, which does not describe an engagement, and a case study would mean inventing one.
+- The outsourced-sales service keeps the H1 "Outsourced Sales Teams" (Tal pitches the teams), not the brief's "Outsourced sales leadership". Never write "not an agency" about Tal, on the site either.
+- `http://` already answers 308 to HTTPS on Vercel (checked 2026-11-12). The 500 in the brief was a crawl artifact.
 
 ## Blog build extras (added 2026-11-11)
 - Length: new posts are 900 words or more (Tal: "significantly longer"). Nothing under 700.

@@ -25,17 +25,16 @@ image: /og-image.jpg
   <blockquote>
     Hope you enjoyed them - and those where only 10 videos. I create useful content, with useful tips and advise daily. You're welcome to connect. 
   </blockquote> 
-  <h2>Tal Paperin. <a href="http://www.ksw.solutions" target="_blank">KSW.Solutions</a></h2> 
+  <h2>Tal Paperin.</h2> 
   <p><br></p> 
   <div class="slate-resizable-image-embed slate-image-embed__resize-full-width"> 
     
   </div> 
   <p><strong>Tal Paperin.</strong></p> 
   <p><strong>Strategist.</strong></p> 
-  <p><strong>Currently holds the position of VP International Business Development at KSW.Solutions, an Israel based, International Consulting and Advising Company.&nbsp;</strong></p> 
-  <p>www.KSW.Solutions</p> 
+  <p><strong>Currently holds the position of VP International Business Development at an Israel based, International Consulting and Advising Company.&nbsp;</strong></p> 
   <p>Tal Paperin was born in the USSR (1981), moved to Israel in 1990. He married an American, speaks Russian, Hebrew, English and Chinese, and has 3 children. After military service in the IDF/IAF (3 years, Master Sergeant, Crew Leader), he graduated Hebrew University (Jerusalem), 2 BAs (International Relations and Affairs + Eastern Asia studies + Chinese). He has over 12 years of diverse professional experience in International Sales and Marketing (B2B/B2C) - with specialization both in Biotec/Pharma/HiTec (SaaS, IoT etc) and Traditional Industries : DIY, Consumer Goods, Agriculture / Fresh Produce.</p> 
-  <p>KSW`s Specialization is in Complex Sales, Strategic Planning, New Markets, Project Management, Negotiations, Distributors Management, Pre - and Post Sales and much more in EU, FSU/CIS, North America, China and APAC.</p> 
+  <p>My specialization is in Complex Sales, Strategic Planning, New Markets, Project Management, Negotiations, Distributors Management, Pre - and Post Sales and much more in EU, FSU/CIS, North America, China and APAC.</p> 
   <p><br></p> 
   <p><br></p> 
   <p><br></p> 

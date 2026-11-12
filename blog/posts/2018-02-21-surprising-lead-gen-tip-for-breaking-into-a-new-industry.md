@@ -28,9 +28,8 @@ image: /og-image.jpg
   <p>------------------------------</p> 
   <h2>Tal Paperin. </h2> 
   <h2>Strategist.</h2> 
-  <h2>Currently holds the position of VP International Business Development at KSW.Solutions, an Israel based, International Consulting and Advising Company. &nbsp;</h2> 
-  <p>www.KSW.Solutions</p> 
+  <h2>Currently holds the position of VP International Business Development at an Israel based, International Consulting and Advising Company. &nbsp;</h2> 
   <p>Tal Paperin was born in the USSR (1981), moved to Israel in 1990. He married an American, speaks Russian, Hebrew, English and Chinese, and has 3 children. After military service in the IDF/IAF (3 years, Master Sergeant, Crew Leader), he graduated Hebrew University (Jerusalem), 2 BAs (International Relations and Affairs + Eastern Asia studies + Chinese). He has over 12 years of diverse professional experience in International Sales and Marketing (B2B/B2C) - with specialization both in Biotec/Pharma/HiTec (SaaS, IoT etc) and Traditional Industries : DIY, Consumer Goods, Agriculture / Fresh Produce. </p> 
-  <p>KSW`s Specialization is in Complex Sales, Strategic Planning, New Markets, Project Management, Negotiations, Distributors Management, Pre - and Post Sales and much more in EU, FSU/CIS, North America, China and APAC.</p>
+  <p>My specialization is in Complex Sales, Strategic Planning, New Markets, Project Management, Negotiations, Distributors Management, Pre - and Post Sales and much more in EU, FSU/CIS, North America, China and APAC.</p>
  
 </div>

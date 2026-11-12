@@ -31,7 +31,7 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=11" defer></script>')
+             '  <script src="/site.js?v=12" defer></script>')
 # Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
 # without waiting for a stylesheet; the two used above the fold are preloaded.
 FONT_FACES_EN = "@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}"
@@ -41,7 +41,7 @@ FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
          '  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <link rel="preload" href="/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <style>' + FONT_FACES_EN + '</style>\n'
-         '  <link rel="stylesheet" href="/site.css?v=11" />')
+         '  <link rel="stylesheet" href="/site.css?v=12" />')
 
 HAMBURGER = ('<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" '
              'stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/>'
@@ -122,6 +122,9 @@ FOOTER = '''  <footer>
           <li><a href="/blog">Blog</a></li>
           <li><a href="/when-do-you-need-a-fractional-cro">When you need a fractional CRO</a></li>
           <li><a href="/fractional-cro-cost">What a fractional CRO costs</a></li>
+          <li><a href="/fractional-vp-of-sales">Fractional VP of Sales</a></li>
+          <li><a href="/fractional-cro-for-saas">Fractional CRO for B2B SaaS</a></li>
+          <li><a href="/fractional-vp-sales-vs-full-time-vp-sales">Fractional vs full-time VP of Sales</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -172,7 +175,7 @@ CTA_STRIP_EN = '        <div class="cta-strip"><p><strong>Revenue stuck?</strong
 CTA_STRIP_BOOK_HE = '        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> קחו איתי 15 דקות. בלי ניסיונות מכירה, ותצאו עם לפחות דבר אחד פרקטי לתקן.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="https://calendly.com/ksw/15min" data-cta="strip" target="_blank" rel="noopener">תיאום שיחה של 15 דקות</a></div></div>\n'
 CTA_STRIP_HE = '        <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> ספרו לי איפה. בהודעה, בוואטסאפ או בשיחה קצרה, מה שנוח לכם.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="/he/contact" data-cta="strip-talk">בואו נדבר</a></div></div>\n'
 
-# ---- Decision infographics (ported from the KSW sales page, rebuilt in HTML/CSS) ----
+# ---- Decision infographics (rebuilt in HTML/CSS) ----
 IG_SIGNS_EN = '''<div class="ig-signs">
 <div class="ig-sign"><div class="n">01</div><p>Sales have plateaued</p></div>
 <div class="ig-sign"><div class="n">02</div><p>The founder still leads every deal</p></div>
@@ -231,7 +234,7 @@ IG_CAREER_EN = '''<div class="ig-career">
 <div class="it"><div class="yr">2005</div><div class="lbl">Managing global teams</div></div>
 <div class="it"><div class="yr">2010</div><div class="lbl">Building international distribution</div></div>
 <div class="it"><div class="yr">2015</div><div class="lbl">SaaS, manufacturing and IoT</div></div>
-<div class="it"><div class="yr">2019</div><div class="lbl">Co-founded KSW Solutions</div></div>
+<div class="it"><div class="yr">2019</div><div class="lbl">Co-founded a B2B sales and marketing firm</div></div>
 <div class="it"><div class="yr">2023+</div><div class="lbl">Fractional CRO and revenue leadership</div></div>
 </div>'''
 IG_CAREER_HE = '''<div class="ig-career">
@@ -239,7 +242,7 @@ IG_CAREER_HE = '''<div class="ig-career">
 <div class="it"><div class="yr">2005</div><div class="lbl">ניהול צוותים גלובליים</div></div>
 <div class="it"><div class="yr">2010</div><div class="lbl">בניית הפצה בינלאומית</div></div>
 <div class="it"><div class="yr">2015</div><div class="lbl">SaaS, ייצור ו-IoT</div></div>
-<div class="it"><div class="yr">2019</div><div class="lbl">הקמת KSW Solutions</div></div>
+<div class="it"><div class="yr">2019</div><div class="lbl">הקמת חברת מכירות ושיווק B2B</div></div>
 <div class="it"><div class="yr">2023+</div><div class="lbl">סמנכ״ל הכנסות והובלת הכנסות</div></div>
 </div>'''
 
@@ -288,31 +291,39 @@ BUSINESS_ID = SITE + "/#business"
 PERSON_ID = SITE + "/#tal"
 WEBSITE_ID = SITE + "/#website"
 
-_BIZ_DESC_EN = ("Fractional CRO, Chief Growth Officer and B2B sales consultant. Twenty years "
-                "building and running revenue engines across five continents: fractional CRO "
-                "leadership, outsourced sales teams, go-to-market strategy and international "
-                "market entry.")
-_BIZ_DESC_HE = ("סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ, Chief Growth Officer ויועץ מכירות B2B. "
-                "עשרים שנה של בנייה והרצה של מנועי הכנסות בחמש יבשות: הובלת מכירות במיקור חוץ, "
-                "צוותי מכירות, אסטרטגיית Go-To-Market וחדירה לשווקים בינלאומיים.")
+_BIZ_DESC_EN = ("Fractional CRO and fractional VP of Sales for B2B companies, including B2B SaaS. "
+                "Rebuilds sales engines and owns the revenue number across five continents.")
+_BIZ_DESC_HE = ("סמנכ״ל הכנסות (CRO) וסמנכ״ל מכירות במיקור חוץ לחברות B2B, כולל B2B SaaS. "
+                "בונה מחדש מנועי מכירות ולוקח אחריות על מספר ההכנסות, בחמש יבשות.")
+
+
+SAME_AS = ('"https://www.linkedin.com/in/talpaperin/","https://about.me/talpaperin",'
+           '"https://mentorcruise.com/mentor/talpaperin/","https://clutch.co/profile/tal-paperin"')
+
+_PERSON_DESC_EN = ("Fractional CRO and fractional VP of Sales for B2B companies, including B2B SaaS. "
+                   "Operator who owns the revenue number. $20M ARR managed last year; work across five continents.")
+_PERSON_DESC_HE = ("סמנכ״ל הכנסות (CRO) וסמנכ״ל מכירות במיקור חוץ לחברות B2B, כולל B2B SaaS. "
+                   "איש ביצוע שלוקח אחריות על מספר ההכנסות. ניהל 20 מיליון דולר ARR בשנה האחרונה; עבודה בחמש יבשות.")
 
 
 def _person_node(he=False):
     name = "טל פאפרין" if he else "Tal Paperin"
+    desc = _PERSON_DESC_HE if he else _PERSON_DESC_EN
     return (
         '{"@type":"Person","@id":"%s","name":"%s","url":"%s/",'
         '"image":"%s/img/site/fractional-cro-portrait.jpg",'
-        '"jobTitle":"Fractional CRO and Chief Growth Officer",'
+        '"jobTitle":"Fractional CRO","description":"%s",'
         '"email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119",'
         '"knowsLanguage":["English","Hebrew","Russian","Chinese"],'
         '"alumniOf":{"@type":"CollegeOrUniversity","name":"Hebrew University of Jerusalem"},'
-        '"worksFor":{"@type":"Organization","name":"KSW Solutions","url":"https://ksw.solutions"},'
-        '"sameAs":["https://www.linkedin.com/in/talpaperin/"]}'
-    ) % (PERSON_ID, name, SITE, SITE)
+        '"worksFor":{"@id":"%s"},'
+        '"sameAs":[%s]}'
+    ) % (PERSON_ID, name, SITE, SITE, _jsonesc(desc), BUSINESS_ID, SAME_AS)
 
 
 def _business_node(he=False, offers=None):
-    name = "טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ" if he else "Tal Paperin, Fractional CRO"
+    name = "טל פאפרין" if he else "Tal Paperin"
+    alt = "טל פאפרין, סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ" if he else "Tal Paperin, Fractional CRO"
     desc = _BIZ_DESC_HE if he else _BIZ_DESC_EN
     extra = ""
     # No Review markup: Google requires an aggregateRating alongside multiple
@@ -329,23 +340,23 @@ def _business_node(he=False, offers=None):
         extra += (',"hasOfferCatalog":{"@type":"OfferCatalog","name":"%s",'
                   '"itemListElement":[%s]}') % (cat_name, items)
     return (
-        '{"@type":"ProfessionalService","@id":"%s","name":"%s","url":"%s/",'
-        '"logo":"%s/img/icon-512.png","image":"%s/og-image.jpg",'
+        '{"@type":"ProfessionalService","@id":"%s","name":"%s","alternateName":"%s","url":"%s/",'
+        '"logo":"%s/img/icon-512.png","image":"%s/img/site/fractional-cro-portrait.jpg",'
         '"description":"%s","priceRange":"$2,000-$22,000",'
         '"email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119",'
         '"founder":{"@id":"%s"},"employee":{"@id":"%s"},'
         '"areaServed":[{"@type":"Country","name":"United States"},'
         '{"@type":"Country","name":"Israel"},{"@type":"Place","name":"Europe"},'
         '{"@type":"Place","name":"Asia-Pacific"}],'
-        '"knowsAbout":["Fractional CRO","B2B sales","Go-to-market strategy",'
-        '"Sales team building","International market entry","Outsourced sales",'
-        '"Distributor and channel recruitment"],'
-        '"sameAs":["https://www.linkedin.com/in/talpaperin/"],'
+        '"knowsAbout":["Fractional CRO","Fractional VP of Sales","B2B SaaS",'
+        '"Outsourced sales leadership","Go-to-market strategy","Sales team building",'
+        '"International market entry"],'
+        '"sameAs":[%s],'
         '"contactPoint":{"@type":"ContactPoint","telephone":"+972-54-530-8119",'
         '"email":"tal@ksw.solutions","contactType":"sales",'
         '"availableLanguage":["English","Hebrew"]}%s}'
-    ) % (BUSINESS_ID, _jsonesc(name), SITE, SITE, SITE, _jsonesc(desc),
-         PERSON_ID, PERSON_ID, extra)
+    ) % (BUSINESS_ID, _jsonesc(name), _jsonesc(alt), SITE, SITE, SITE, _jsonesc(desc),
+         PERSON_ID, PERSON_ID, SAME_AS, extra)
 
 
 def _website_node(he=False):
@@ -382,6 +393,7 @@ ARTICLE_GUIDES = {
     "sales-pipeline-and-forecasting", "how-much-pipeline-do-you-need", "b2b-outbound-sales",
     "tal-paperin-podcasts-and-press",
     "product-led-to-sales-led", "uk-market-entry-for-israeli-startups",
+    "fractional-vp-sales-vs-full-time-vp-sales", "outsourced-sales-team-vs-in-house",
 }
 
 
@@ -389,20 +401,18 @@ def guide_ld(g, url, he=False):
     """Service for offering pages, Article for informational guides."""
     if g["slug"] in ARTICLE_GUIDES:
         lang = ',"inLanguage":"he"' if he else ""
-        author_url = SITE + "/he" if he else SITE + "/"
-        author = "טל פאפרין" if he else "Tal Paperin"
         return ('{"@context":"https://schema.org","@type":"Article",'
                 '"headline":"%s","description":"%s"%s,'
-                '"author":{"@type":"Person","@id":"%s","name":"%s","url":"%s"},'
+                '"author":{"@id":"%s"},'
                 '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
-                ) % (esc(g["h1"]), esc(g["desc"]), lang, PERSON_ID, author,
-                     author_url, BUSINESS_ID, url)
+                ) % (esc(g["h1"]), esc(g["desc"]), lang, PERSON_ID, BUSINESS_ID, url)
     lang = ',"inLanguage":"he"' if he else ""
     return ('{"@context":"https://schema.org","@type":"Service",'
-            '"name":"%s","description":"%s","serviceType":"Fractional CRO"%s,'
+            '"@id":"%s#service","name":"%s","description":"%s","serviceType":"%s"%s,'
             '"provider":{"@id":"%s"},"areaServed":[{"@type":"Country","name":"United States"},'
             '{"@type":"Country","name":"Israel"}],"url":"%s","mainEntityOfPage":"%s"}'
-            ) % (esc(g["h1"]), esc(g["desc"]), lang, BUSINESS_ID, url, url)
+            ) % (url, esc(g["h1"]), esc(g["desc"]), esc(g.get("service_type", "Fractional CRO")),
+                 lang, BUSINESS_ID, url, url)
 
 
 def _price_num(s):
@@ -476,7 +486,7 @@ SERVICES = [
       "Good fit: you can take a relevant prospect from first conversation through discovery, proposal and close",
       "Too early: you do not yet know what you sell or who buys it",
       "Wrong fit: you expect every meeting to become an opportunity, or you want one service to both book and close for you"]},
-    {"h":"Why KSW","p":[
+    {"h":"Why me","p":[
       "I have spent more than 20 years building and managing B2B sales around the world: software, SaaS, hardware, services and complex enterprise deals. I have built teams from zero, recruited and managed SDRs and AEs, and opened international markets. So when we go get you meetings, it is not a generic lead-generation exercise. We understand sales, we understand who needs to be in the room, and we know the only reason to run outbound is to create real sales conversations.",
       "Tell me who you want to sell to and we will get you in front of them. No SDR to recruit, no team to manage, no technology to figure out, no lists to build. We book the meetings. You sell."]}]},
  {"slug":"fractional-cmo","nav":"Fractional CMO","h1":"Fractional CMO and Marketing Leadership",
@@ -490,12 +500,12 @@ SERVICES = [
      "ul":["Marketing spends but you cannot tie it to revenue","A capable marketing person needs senior direction and standards","Sales and marketing point fingers instead of working as one engine","You are entering a new market and need positioning and demand from zero"]},
     {"h":"What I own","p":["Two levels, depending on what you need. Oversight: senior review of plans, priorities and spend, with clear guidance on what to pursue, pause or stop. Full ownership: I lead the marketing function, its priorities and its people, and I answer for the results."],
      "ul":["Positioning, messaging and the demand-generation plan","Priorities, budget and what to stop doing","Alignment between marketing, sales and the executive team","One accountable owner for marketing performance"]},
-    {"h":"Marketing and sales as one engine","p":["Most companies run marketing and sales as two departments that blame each other. I run them as one revenue engine, so the leads marketing creates are the leads sales can actually close. Delivered together with KSW Solutions, the firm I co-lead."]}]},
+    {"h":"Marketing and sales as one engine","p":["Most companies run marketing and sales as two departments that blame each other. I run them as one revenue engine, so the leads marketing creates are the leads sales can actually close. I bring my own marketing team, led by a fractional CMO, so you do not have to hire it role by role."]}]},
  {"slug":"fractional-cro","nav":"Fractional CRO","h1":"Fractional CRO",
   "title":"Fractional CRO | Tal Paperin",
   "desc":"A fractional CRO who sits in the seat and owns your revenue number, strategy, team, pipeline and forecast, without a $250K full-time hire.",
   "eyebrow":"Service",
-  "lead":"Senior revenue leadership, in the seat, owning the number. Without a $250,000 full-time hire or a long-term lock-in.",
+  "lead":"A fractional CRO owns the revenue number: strategy, the sales team, the pipeline, marketing that feeds it, and the forecast. I sit in that seat for B2B companies, including B2B SaaS, without a $250,000-plus full-time hire. Week one I diagnose what is broken. Week two you get the plan. Then I run it.",
   "card":"Me in the seat, owning your revenue and answering for the number. The middle rung most companies choose.",
   "sections":[
     {"h":"When you need a fractional CRO","p":[
@@ -518,14 +528,19 @@ SERVICES = [
       "Starter, $6,000 a month: two hours a day, every working day",
       "Growth, $12,000 a month: half time, four hours a day, hands-on. Full-time and exclusive available on request",
       "On top of every level, a performance share measured against a baseline we agree up front. The full breakdown is on the pricing page"]},
+    {"h":"Go deeper in the guides","links":[
+      ["Fractional CRO for B2B SaaS","/fractional-cro-for-saas"],
+      ["What a fractional CRO actually costs","/fractional-cro-cost"],
+      ["Fractional VP of Sales","/fractional-vp-of-sales"],
+      ["Fractional VP of Sales vs a full-time VP of Sales","/fractional-vp-sales-vs-full-time-vp-sales"]]},
     {"img": "/img/site/fractional-cro-portrait.jpg", "alt": "Tal Paperin, fractional CRO", "cap": "Senior revenue leadership, in the seat.", "portrait": True},
   ]},
 
  {"slug":"outsourced-sales","nav":"Outsourced Sales","h1":"Outsourced Sales Teams",
-  "title":"Outsourced Sales Teams | Tal Paperin",
-  "desc":"Outsource your entire sales function. Native-speaking SDRs and AEs, senior leadership and a VP, hired, trained and managed for you by KSW Solutions.",
+  "title":"Outsourced Sales Teams and Leadership | Tal Paperin",
+  "desc":"Outsource your B2B sales function: native-speaking SDRs and AEs, plus senior leadership, hired, trained and managed for you, without building it in-house.",
   "eyebrow":"Service",
-  "lead":"Hand off the whole revenue function. A complete sales team that lives outside your headcount, built, trained, managed and reported on for you.",
+  "lead":"Hand off the sales function. You get a complete B2B sales team that lives outside your headcount, SDRs and AEs plus the senior leadership that runs them, built, trained, managed and reported on for you.",
   "card":"Outsource sales entirely. A full team, native-speaking reps, leadership and a VP, run for you outside your headcount.",
   "sections":[
     {"h":"What you get","ul":[
@@ -536,11 +551,12 @@ SERVICES = [
     {"h":"When outsourced sales makes sense","p":[
       "When building an in-house team is too slow, too expensive, or too risky for your stage. You get a working revenue engine in weeks, not the 6-12 months it takes to hire and ramp one yourself, and none of the severance risk if the fit is wrong."]},
     {"h":"Who runs it","p":[
-      "KSW Solutions, led by me. 20-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets. Your sales function, owned by people who have done it before."]},
+      "I do, with the sales team I hire and manage. 20-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets. Your sales function, owned by people who have done it before."]},
     {"h":"Go deeper in the guides","links":[
       ["How to build a sales pipeline you can forecast","/sales-pipeline-and-forecasting"],
       ["How to build a B2B outbound motion","/b2b-outbound-sales"],
-      ["How much pipeline you actually need","/how-much-pipeline-do-you-need"]]},
+      ["How much pipeline you actually need","/how-much-pipeline-do-you-need"],
+      ["Outsourced sales team vs in-house","/outsourced-sales-team-vs-in-house"]]},
     {"img": "/img/site/outsourced-team.jpg", "alt": "Tal Paperin with a sales team", "cap": "A full team, run for you, outside your headcount."},
   ]},
 
@@ -608,7 +624,7 @@ SERVICES = [
   ]},
 
  {"slug":"market-entry","nav":"Market Entry & Global Markets","h1":"International Market Entry and Global Markets",
-  "title":"International Market Entry and Global Expansion | Tal Paperin",
+  "title":"International Market Entry | Tal Paperin",
   "desc":"Break into new markets without the expensive mistakes. I have built sales, teams and subsidiaries across five continents. How I pick a market and win it.",
   "eyebrow":"Service",
   "lead":"Five continents. More than forty countries. Hundreds of cities, on the ground, not over email. Entering a new market is where companies burn the most money. I do not just enter a market, I help you choose the right one, then build and run it.",
@@ -846,9 +862,9 @@ PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/services">Services</a></p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/services">Services</a></nav>
         <div class="glowline"></div>
-        <p class="eyebrow">{eyebrow}</p>
+        <div class="eyebrow">{eyebrow}</div>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
         <div class="cta-strip"><p><strong>Revenue stuck?</strong> Tell me where. A message, WhatsApp or a short call, whichever suits you.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="/contact" data-cta="strip-talk">Let's Talk</a></div></div>
@@ -871,8 +887,8 @@ INDEX = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Services: Fractional CRO, Outsourced Sales &amp; GTM | Tal Paperin</title>
-  <meta name="description" content="How I fix and run revenue: fractional CRO, outsourced sales, go-to-market strategy, sales team building, channel recruitment and international market entry." />
+  <title>Fractional CRO and Outsourced Sales | Tal Paperin</title>
+  <meta name="description" content="Fractional CRO, fractional VP of Sales, outsourced sales leadership and go-to-market for B2B companies, including B2B SaaS. Pick the seat that fits." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="{site}/services" />
   <link rel="alternate" hreflang="en" href="{site}/services" />
@@ -881,13 +897,13 @@ INDEX = '''<!doctype html>
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{site}/services" />
-  <meta property="og:title" content="Services | Tal Paperin" />
-  <meta property="og:description" content="Fractional CRO, outsourced sales, go-to-market, team building, channel recruitment and market entry." />
+  <meta property="og:title" content="Fractional CRO and Outsourced Sales | Tal Paperin" />
+  <meta property="og:description" content="Fractional CRO, fractional VP of Sales, outsourced sales leadership, go-to-market, team building and market entry." />
   <meta property="og:image" content="{site}/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Services | Tal Paperin" />
-  <meta name="twitter:description" content="Fractional CRO, outsourced sales, go-to-market, team building, channel recruitment and market entry." />
+  <meta name="twitter:title" content="Fractional CRO and Outsourced Sales | Tal Paperin" />
+  <meta name="twitter:description" content="Fractional CRO, fractional VP of Sales, outsourced sales leadership, go-to-market, team building and market entry." />
   <meta name="twitter:image" content="{site}/og-image.jpg" />
 
   {fonts}
@@ -904,9 +920,10 @@ INDEX = '''<!doctype html>
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">Services</p>
-        <h1>What I do.</h1>
-        <p class="lead">The ways I fix and run revenue. Pick the one that matches your problem, or just tell me where it hurts and I will point you to the right one.</p>
+        <div class="eyebrow">Services</div>
+        <h1>Fractional CRO, sales leadership and GTM</h1>
+        <p class="lead">The ways I fix and run revenue for B2B companies: fractional CRO, fractional VP of Sales, outsourced sales leadership, go-to-market strategy, team building and market entry. Pick the one that matches your problem, or tell me where it hurts and I will point you to the right seat.</p>
+        <p class="svc-also">Looking for a specific seat? See <a href="/fractional-vp-of-sales">fractional VP of Sales</a>, <a href="/fractional-cro-for-saas">fractional CRO for B2B SaaS</a>, or <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional vs full-time VP of Sales</a>.</p>
       </div>
       <div class="svc-grid svc-grid-3 svc-lead">
 {lead_cards}
@@ -936,7 +953,7 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
             '  <link rel="preload" href="/fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <link rel="preload" href="/fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <style>' + FONT_FACES_HE + '</style>\n'
-            '  <link rel="stylesheet" href="/site.css?v=11" />')
+            '  <link rel="stylesheet" href="/site.css?v=12" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
@@ -1070,7 +1087,7 @@ HE_SERVICES = [
       "התאמה טובה: אתם יכולים לקחת פרוספקט רלוונטי משיחה ראשונה דרך דיסקברי, הצעה וסגירה",
       "מוקדם מדי: אתם עדיין לא יודעים מה אתם מוכרים או מי קונה",
       "לא מתאים: אתם מצפים שכל פגישה תהפוך להזדמנות, או רוצים ששירות אחד גם יקבע וגם יסגור בשבילכם"]},
-    {"h":"למה KSW","p":[
+    {"h":"למה אני","p":[
       "ביליתי יותר מ-20 שנה בבניית וניהול מכירות B2B ברחבי העולם: תוכנה, SaaS, חומרה, שירותים ועסקאות אנטרפרייז מורכבות. בניתי צוותים מאפס, גייסתי וניהלתי SDRs ו-AEs, ופתחתי שווקים בינלאומיים. אז כשאנחנו הולכים להשיג לכם פגישות, זה לא תרגיל גנרי של יצירת לידים. אנחנו מבינים מכירות, מבינים מי צריך להיות בחדר, ויודעים שהסיבה היחידה להריץ אאוטבאונד היא ליצור שיחות מכירה אמיתיות.",
       "תגידו לי למי אתם רוצים למכור ואנחנו נביא אתכם מולם. בלי SDR לגייס, בלי צוות לנהל, בלי טכנולוגיה להבין, בלי רשימות לבנות. אנחנו קובעים את הפגישות. אתם מוכרים."]}]},
  {"slug":"fractional-cmo","nav":"סמנכ״ל שיווק","h1":"סמנכ״ל שיווק במיקור חוץ והובלת שיווק",
@@ -1084,7 +1101,7 @@ HE_SERVICES = [
      "ul":["מוציאים על שיווק אבל לא מצליחים לקשור אותו להכנסות","איש שיווק מוכשר צריך כיוון בכיר וסטנדרטים","מכירות ושיווק מאשימים זה את זה במקום לעבוד כמנוע אחד","אתם נכנסים לשוק חדש וצריכים מיצוב וביקוש מאפס"]},
     {"h":"על מה אני אחראי","p":["שתי רמות, לפי מה שאתם צריכים. פיקוח: סקירה בכירה של תוכניות, עדיפויות ותקציב, עם הכוונה ברורה על מה לרדוף, להשהות או לעצור. בעלות מלאה: אני מוביל את פונקציית השיווק, את העדיפויות ואת האנשים, ואחראי על התוצאות."],
      "ul":["מיצוב, מסרים ותוכנית יצירת ביקוש","עדיפויות, תקציב ומה להפסיק לעשות","תיאום בין שיווק, מכירות וההנהלה הבכירה","בעל אחריות אחד לביצועי השיווק"]},
-    {"h":"שיווק ומכירות כמנוע אחד","p":["רוב החברות מריצות שיווק ומכירות כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, כך שהלידים שהשיווק מייצר הם לידים שהמכירות באמת יכולות לסגור. השירות ניתן יחד עם KSW Solutions, החברה שאני מוביל."]}]},
+    {"h":"שיווק ומכירות כמנוע אחד","p":["רוב החברות מריצות שיווק ומכירות כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, כך שהלידים שהשיווק מייצר הם לידים שהמכירות באמת יכולות לסגור. אני מביא צוות שיווק משלי, בהובלת CMO במיקור חוץ, כך שלא צריך לגייס אותו אחד אחד."]}]},
  {"slug":"fractional-cro","nav":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ","h1":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ",
   "title":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ | טל פאפרין",
   "desc":"סמנכ״ל מכירות ופיתוח עסקי במיקור חוץ שלוקח אחריות על התוצאות. אסטרטגיה, צוות, פייפליין ותחזית, בלי גיוס יקר של משרה מלאה.",
@@ -1107,7 +1124,7 @@ HE_SERVICES = [
 
  {"slug":"outsourced-sales","nav":"מכירות במיקור חוץ","h1":"צוות מכירות במיקור חוץ",
   "title":"צוות מכירות במיקור חוץ | טל פאפרין",
-  "desc":"מיקור חוץ מלא של מערך המכירות. אנשי SDR ו-AE דוברי שפת אם, הובלה בכירה ומנהל VP, מגויסים, מוכשרים ומנוהלים עבורכם על ידי KSW Solutions.",
+  "desc":"מיקור חוץ מלא של מערך המכירות. אנשי SDR ו-AE דוברי שפת אם, הובלה בכירה ומנהל VP, מגויסים, מוכשרים ומנוהלים עבורכם.",
   "eyebrow":"שירות",
   "lead":"להעביר את כל מערך ההכנסות החוצה. צוות מכירות שלם שחי מחוץ למצבת כוח האדם שלכם, נבנה, מוכשר, מנוהל ומדווח עבורכם.",
   "card":"מיקור חוץ מלא של המכירות. צוות שלם, אנשי מכירות דוברי שפת אם, הובלה ו-VP, שמורץ עבורכם מחוץ למצבת כוח האדם.",
@@ -1117,7 +1134,7 @@ HE_SERVICES = [
     {"h":"מתי מיקור חוץ של מכירות הוא המהלך הנכון",
      "p":["כשבניית צוות פנימי איטית מדי, יקרה מדי או מסוכנת מדי לשלב שלכם. אתם מקבלים מנוע מכירות עובד תוך שבועות, לא ב-6 עד 12 חודשים של גיוס וחימום, ובלי סיכון הפיצויים אם ההתאמה לא נכונה."]},
     {"h":"מי מריץ את זה",
-     "p":["KSW Solutions, בהובלתי. מעל 20 שנה של בנייה וניהול מכירות B2B בארה״ב, אירופה, APAC והשווקים הפוסט-סובייטיים. מערך המכירות שלכם, בידיים של מי שכבר עשה את זה."]},
+     "p":["אני, יחד עם צוות המכירות שאני מגייס ומנהל. מעל 20 שנה של בנייה וניהול מכירות B2B בארה״ב, אירופה, APAC והשווקים הפוסט-סובייטיים. מערך המכירות שלכם, בידיים של מי שכבר עשה את זה."]},
     {"h":"להעמיק במדריכים","links":[
       ["איך בונים פייפליין מכירות שאפשר לחזות","/he/sales-pipeline-and-forecasting"],
       ["איך בונים מהלך אאוטבאונד B2B","/he/b2b-outbound-sales"],
@@ -1393,9 +1410,9 @@ HE_PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/he">בית</a> / <a href="/he/services">שירותים</a></p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/he">בית</a> / <a href="/he/services">שירותים</a></nav>
         <div class="glowline"></div>
-        <p class="eyebrow">{eyebrow}</p>
+        <div class="eyebrow">{eyebrow}</div>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
         <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> ספרו לי איפה. בהודעה, בוואטסאפ או בשיחה קצרה, מה שנוח לכם.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="/he/contact" data-cta="strip-talk">בואו נדבר</a></div></div>
@@ -1448,7 +1465,7 @@ HE_INDEX = '''<!doctype html>
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">שירותים</p>
+        <div class="eyebrow">שירותים</div>
         <h1>מה אני עושה.</h1>
         <p class="lead">הדרכים שבהן אני מתקן ומריץ מכירות. בחרו את זו שמתאימה לבעיה שלכם, או <a href="/he/challenges">קראו את המדריך</a> ותגלו איפה כואב.</p>
       </div>
@@ -1500,7 +1517,7 @@ HE_FAQPAGE = '''<!doctype html>
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">{eyebrow}</p>
+        <div class="eyebrow">{eyebrow}</div>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {items}
@@ -1556,7 +1573,7 @@ CONTACT_EN = '''<!doctype html>
         <img class="contact-side" src="/img/site/contact-left.jpg" alt="Tal Paperin" loading="lazy" />
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">Contact</p>
+        <div class="eyebrow">Contact</div>
         <h1>Let's talk.</h1>
         <p class="lead">Tell me where revenue stalled. Book a call, send a message, or reach me directly. I read everything.</p>
 
@@ -1653,7 +1670,7 @@ CONTACT_HE = '''<!doctype html>
         <img class="contact-side" src="/img/site/contact-left.jpg" alt="טל פאפרין" loading="lazy" />
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">צור קשר</p>
+        <div class="eyebrow">צור קשר</div>
         <h1>בואו נדבר.</h1>
         <p class="lead">ספרו לי איפה המכירות נתקעו. תאמו שיחה, שלחו הודעה, או צרו קשר ישיר. אני קורא הכל.</p>
 
@@ -1836,8 +1853,18 @@ LOGO_MAP = {"Headcount ERC":"headcount","KanduAI":"kanduai","LoneStar Tracking":
             "Palram":"palram","BT9":"bt9","SOURCE Vagabond":"source","Limat":"limat"}
 
 
-def render_cases(cases, rlabel, strip=""):
+CASE_SLUG = {"lonestar": "lonestar-tracking"}
+
+
+def case_slug(c):
+    """URL slug of a case study's own page (/case-studies/<slug>)."""
+    return CASE_SLUG.get(c["id"], c["id"])
+
+
+def render_cases(cases, rlabel, strip="", he=False):
     out = []
+    more = ("למקרה המבחן המלא &larr;" if he else "Read the full case study &rarr;")
+    base = "/he/case-studies/" if he else "/case-studies/"
     for i, c in enumerate(cases):
         if strip and i in (3, 7):
             out.append(strip.rstrip("\n"))
@@ -1849,9 +1876,10 @@ def render_cases(cases, rlabel, strip=""):
         out.append('      <div class="case-study"%s>\n        %s'
                     '<h2>%s</h2>\n        <div class="meta">%s</div>\n'
                     '        <p class="situation">%s</p>\n        <ul>%s</ul>\n'
-                    '        <div class="result"><span>%s</span>%s</div>\n      </div>'
+                    '        <div class="result"><span>%s</span>%s</div>\n'
+                    '        <p class="case-more"><a href="%s%s">%s</a></p>\n      </div>'
                     % (cid, img, esc(c["company"]), esc(c["meta"]), esc(c["situation"]), lis,
-                       esc(rlabel), esc(c["result"])))
+                       esc(rlabel), esc(c["result"]), base, case_slug(c), more))
     return "\n".join(out)
 
 
@@ -1888,7 +1916,11 @@ def _tcard(t, he=False):
     if slug in SVC_TAG:
         label = SVC_TAG[slug][1 if he else 0]
         base = "/he/services/" if he else "/services/"
-        tag = '<div class="tcard-foot"><a class="ttag" href="%s%s">%s</a></div>' % (base, slug, esc(label))
+        case = ""
+        if t.get("case"):
+            case = '<a class="ttag" href="%s%s">%s</a>' % (
+                "/he/case-studies/" if he else "/case-studies/", t["case"], "מקרה מבחן" if he else "Case study")
+        tag = '<div class="tcard-foot"><a class="ttag" href="%s%s">%s</a>%s</div>' % (base, slug, esc(label), case)
     return ('<div class="tcard"><div class="tcard-top">%s'
             '<span class="tcard-id"><strong>%s</strong>%s%s</span></div>'
             '<p class="tcard-q">%s</p>%s</div>'
@@ -1901,9 +1933,12 @@ def render_testimonials(quotes, he=False):
             % (inner, inner))
 
 
+# "hide": True keeps a quote in the list (so the index-based references stay
+# stable) but off every page. The ePropertyCare quote is hidden until the client
+# approves wording without the old firm name. Never edit a client's words.
 TESTIMONIALS_EN = [
- {"q": "We brought in Tal Paperin as our Fractional VP of Sales from day one at KanduAi. He wasn't just a consultant, he acted as a true VP of Sales. He defined our Ideal Customer Profile, built our outbound playbook, hired and trained SDRs, and launched our outbound motion twice. If you're a founder trying to launch or relaunch sales from zero, Tal is who you want in your corner.", "name": "Ariel Shemesh", "role": "Co-Founder & CEO", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
- {"q": "Tal has been a pleasure to work with. I own and operate a small business in the IoT sector, and have very little experience in sales and marketing. Tal was able to quickly develop a strategy for us, implement a CRM, and start building and training our sales team. If you are a small (or large) business needing to get your sales and marketing straightened out, Tal is your guy.", "name": "Tommy Remmert", "role": "Co-Founder & CTO", "company": "LoneStar Tracking", "tag": "outsourced-sales", "photo": "/img/testimonials/tommy-remmert.jpg"},
+ {"q": "We brought in Tal Paperin as our Fractional VP of Sales from day one at KanduAi. He wasn't just a consultant, he acted as a true VP of Sales. He defined our Ideal Customer Profile, built our outbound playbook, hired and trained SDRs, and launched our outbound motion twice. If you're a founder trying to launch or relaunch sales from zero, Tal is who you want in your corner.", "case": "kanduai", "name": "Ariel Shemesh", "role": "Co-Founder & CEO", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
+ {"q": "Tal has been a pleasure to work with. I own and operate a small business in the IoT sector, and have very little experience in sales and marketing. Tal was able to quickly develop a strategy for us, implement a CRM, and start building and training our sales team. If you are a small (or large) business needing to get your sales and marketing straightened out, Tal is your guy.", "case": "lonestar-tracking", "name": "Tommy Remmert", "role": "Co-Founder & CTO", "company": "LoneStar Tracking", "tag": "outsourced-sales", "photo": "/img/testimonials/tommy-remmert.jpg"},
  {"q": "He got involved. He trained with us, worked through deals, challenged how we approached conversations ... his training produced results. It made us better salespeople, improved our conversations with prospects, and helped us close more deals. ... The ones who can actually teach, motivate, strategize, and still connect with their team are harder to find than people think. Tal is one of those leaders.", "name": "Rich Martinez", "role": "Sr. Practice Growth Consultant", "company": "ClinicMind", "tag": "fractional-cro", "photo": "/img/testimonials/rich-martinez.jpg"},
  {"q": "If you are looking for someone who understands sales, Tal is your address. His grasp on the overall sales process, how to move a prospect forward and his on point grasp of how to move your business forward is invaluable. Follow him. Listen to him. Take his advice. Grow your business as a result.", "name": "Helen Gottstein", "role": "Public Speaking & Executive Communications", "company": "", "tag": "go-to-market-strategy", "photo": "/img/testimonials/helen-gottstein.jpg"},
  {"q": "Tal is a hard-working and trustworthy person. I have experience as a client, a partner and working for him directly. He is a man of his word, delivers on what he promises. A competent salesperson and strategist I would recommend him to any company wanting a fractional sales leader, channel manager or strategist.", "name": "Steve Burton", "role": "CRO", "company": "The Point Company", "tag": "fractional-cro", "photo": "/img/testimonials/steve-burton.jpg"},
@@ -1913,7 +1948,7 @@ TESTIMONIALS_EN = [
  {"q": "Tal provided me with wise advice. He listened to me and asked great questions that showed an advanced level of understanding and attention, and then gave very helpful advice and shared his ways of thinking on the matter. I was most impressed by his methodical way of thinking and experimenting in sales.", "name": "Neriya Rosner", "role": "Founder & CEO", "company": "SpecBite", "tag": "go-to-market-strategy", "photo": "/img/testimonials/neriya-rosner.jpg"},
  {"q": "Tal is a real professional! I've asked him to provide an opinion on commercialization of a medical device product. What I received is a deep dive into entire world of terms, key players and possibilities and, on the other hand, a clear recommendation and a guidance for proper planning of my next steps.", "name": "Yakov Nedlin", "role": "Founder", "company": "LIBACCORD", "tag": "market-entry", "photo": "/img/testimonials/yakov-nedlin.jpg"},
  {"q": "I had a great experience working with Tal Paperin. He gave me some great insight and ideas about how to take my business to the next dimension. He provides an array of services to help businesses make more money from domestic or international expansion. I would recommend using them for sure.", "name": "Sherman Barnes II", "role": "Head of Sales & Marketing", "company": "Trio Trucking", "tag": "market-entry", "photo": "/img/testimonials/sherman-barnes-ii.jpg"},
- {"q": "KSW is an incredible resource, but more importantly, there are very few people as talented as Tal when it comes to sales strategy. He helped close a publicly traded company for my startup.", "name": "Huw Nierenberg", "role": "Co-Founder", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
+ {"hide": True, "q": "KSW is an incredible resource, but more importantly, there are very few people as talented as Tal when it comes to sales strategy. He helped close a publicly traded company for my startup.", "name": "Huw Nierenberg", "role": "Co-Founder", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
  {"q": "I had the pleasure to work with Tal. I can tell that Tal is a great team player, very energetic and enthusiastic to get things done. He was always willing to help and share his experience in international sales and project management. He is practical, analytic with solving skills and nice to have around!", "name": "Luisa Arroyave", "role": "Senior Manager", "company": "Walmart Global Sourcing", "tag": "market-entry", "photo": "/img/testimonials/luisa-arroyave.jpg"},
  {"q": "Tal Paperin has everything you want and need in a solutions consulting company: years of experience in both pre and post sales, connections in all the BRIC countries, knowledge in how to standout in many different types of markets, and more ways to increase your company's profitability.", "name": "Gabriel Heifets", "role": "HW Lead Engineer", "company": "Annapurna Labs (Amazon)", "tag": "market-entry", "photo": "/img/testimonials/gabriel-heifets.jpg"},
  {"q": "Tal has the knowledge and deep understanding to analyze and map the market competition in order to promote the comparative advantage for any category of products. Tal is the one you would like to have as your team leader.", "name": "Barak Kav", "role": "CEO", "company": "TAG Dental", "tag": "go-to-market-strategy", "photo": "/img/testimonials/barak-kav.jpg"},
@@ -1941,8 +1976,8 @@ TESTIMONIALS_EN = [
 ]
 
 TESTIMONIALS_HE = [
- {"q": "הבאנו את טל פאפרין כ-VP Sales במיקור חוץ מהיום הראשון שלנו ב-KanduAi. הוא לא היה סתם יועץ, הוא תפקד כ-VP Sales אמיתי לכל דבר. הוא הגדיר את פרופיל הלקוח האידיאלי שלנו, בנה את ה-playbook לאאוטבאונד, גייס והכשיר אנשי SDR, והניע את תהליך האאוטבאונד שלנו פעמיים מאפס. אם אתם מייסדים שמנסים להניע או להניע מחדש מערך מכירות מאפס, טל הוא האיש שאתם רוצים לצידכם.", "name": "אריאל שמש", "role": "שותף מייסד ומנכ\"ל", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
- {"q": "העבודה עם טל היא תענוג צרוף. אני הבעלים והמנהל של עסק קטן בתחום ה-IoT, ויש לי מעט מאוד ניסיון במכירות ובשיווק. טל ידע לפתח עבורנו אסטרטגיה במהירות, להטמיע CRM, ולהתחיל לבנות ולהכשיר את צוות המכירות שלנו. אם אתם עסק קטן (או גדול) שצריך לעשות סדר ולקחת את המכירות והשיווק בידיים, טל הוא האיש שלכם.", "name": "תומאס רמרט", "role": "שותף מייסד ו-CTO", "company": "LoneStar Tracking", "tag": "outsourced-sales", "photo": "/img/testimonials/tommy-remmert.jpg"},
+ {"q": "הבאנו את טל פאפרין כ-VP Sales במיקור חוץ מהיום הראשון שלנו ב-KanduAi. הוא לא היה סתם יועץ, הוא תפקד כ-VP Sales אמיתי לכל דבר. הוא הגדיר את פרופיל הלקוח האידיאלי שלנו, בנה את ה-playbook לאאוטבאונד, גייס והכשיר אנשי SDR, והניע את תהליך האאוטבאונד שלנו פעמיים מאפס. אם אתם מייסדים שמנסים להניע או להניע מחדש מערך מכירות מאפס, טל הוא האיש שאתם רוצים לצידכם.", "case": "kanduai", "name": "אריאל שמש", "role": "שותף מייסד ומנכ\"ל", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
+ {"q": "העבודה עם טל היא תענוג צרוף. אני הבעלים והמנהל של עסק קטן בתחום ה-IoT, ויש לי מעט מאוד ניסיון במכירות ובשיווק. טל ידע לפתח עבורנו אסטרטגיה במהירות, להטמיע CRM, ולהתחיל לבנות ולהכשיר את צוות המכירות שלנו. אם אתם עסק קטן (או גדול) שצריך לעשות סדר ולקחת את המכירות והשיווק בידיים, טל הוא האיש שלכם.", "case": "lonestar-tracking", "name": "תומאס רמרט", "role": "שותף מייסד ו-CTO", "company": "LoneStar Tracking", "tag": "outsourced-sales", "photo": "/img/testimonials/tommy-remmert.jpg"},
  {"q": "הוא היה מעורב. הוא התאמן איתנו, עבר יחד איתנו על עסקאות, אתגר את הדרך שבה ניגשנו לשיחות ... ההדרכה שלו הניבה תוצאות. היא הפכה אותנו לאנשי מכירות טובים יותר, שיפרה את השיחות שלנו עם לקוחות פוטנציאליים, ועזרה לנו לסגור יותר עסקאות. ... אלה שבאמת יודעים ללמד, להניע, לתכנן אסטרטגיה ועדיין להתחבר לצוות שלהם, נדירים יותר ממה שחושבים. טל הוא אחד מהמנהיגים האלה.", "name": "ריץ׳ מרטינז", "role": "Sr. Practice Growth Consultant", "company": "ClinicMind", "tag": "fractional-cro", "photo": "/img/testimonials/rich-martinez.jpg"},
  {"q": "אם אתם מחפשים מישהו שבאמת מבין מכירות, טל הוא הכתובת שלכם. התפיסה שלו לגבי תהליך המכירה הכולל, היכולת שלו להניע לקוח פוטנציאלי קדימה, וההבנה המדויקת שלו איך לדחוף את העסק שלכם להצלחה, הן פשוט נכס שאין לו מחיר. תעקבו אחריו. תקשיבו לו. קחו את העצות שלו, ותראו איך העסק שלכם צומח.", "name": "הלן גוטשטיין", "role": "דוברות ותקשורת ניהולית", "company": "", "tag": "go-to-market-strategy", "photo": "/img/testimonials/helen-gottstein.jpg"},
  {"q": "טל הוא אדם חרוץ ואיש סוד שניתן לסמוך עליו בעיניים עצומות. יש לי ניסיון איתו כלקוח, כשותף וגם כמי שעבד תחתיו באופן ישיר. הוא איש של מילה, ומספק בדיוק את מה שהוא מבטיח. כאיש מכירות ואסטרטג בחסד, אני ממליץ עליו בחום לכל חברה שמחפשת מנהל מכירות במיקור חוץ, מנהל ערוצי הפצה או אסטרטג עסקי.", "name": "סטיב ברטון", "role": "CRO", "company": "The Point Company", "tag": "fractional-cro", "photo": "/img/testimonials/steve-burton.jpg"},
@@ -1952,7 +1987,7 @@ TESTIMONIALS_HE = [
  {"q": "טל נתן לי עצות חכמות ומדויקות. הוא הקשיב לי, שאל שאלות מצוינות שהראו רמת הבנה ותשומת לב גבוהה, ואז נתן עצות מועילות במיוחד ושיתף את דרכי החשיבה שלו בנושא. מה שהכי הרשים אותי זו הדרך המתודית שבה הוא חושב ומנווט בעולם המכירות.", "name": "נריה רוזנר", "role": "מייסדת ומנכ\"לית", "company": "SpecBite", "tag": "go-to-market-strategy", "photo": "/img/testimonials/neriya-rosner.jpg"},
  {"q": "טל הוא מקצוען אמיתי! ביקשתי ממנו חוות דעת על מסחור של מוצר בתחום המכשור הרפואי. מה שקיבלתי היה צלילת עומק מטורפת לכל עולם המושגים, שחקני המפתח והאפשרויות, ומצד שני, המלצה ברורה והכוונה מדויקת לתכנון השלבים הבאים שלי.", "name": "יעקב נדלין", "role": "מייסד", "company": "LIBACCORD", "tag": "market-entry", "photo": "/img/testimonials/yakov-nedlin.jpg"},
  {"q": "הייתה לי חוויה מדהימה בעבודה עם טל פאפרין. הוא נתן לי תובנות ורעיונות מעולים איך לקחת את העסק שלי לשלב הבא. הוא מציע מגוון רחב של שירותים שעוזרים לעסקים להרוויח יותר כסף מהתרחבות מקומית או בינלאומית. אני ממליץ לעבוד איתו ללא ספק.", "name": "שרמן בארנס השני", "role": "מנהל מכירות ושיווק", "company": "Trio Trucking", "tag": "market-entry", "photo": "/img/testimonials/sherman-barnes-ii.jpg"},
- {"q": "KSW היא משאב מדהים, אבל חשוב מכך, יש מעט מאוד אנשים מוכשרים כמו טל כשזה מגיע לאסטרטגיית מכירות. הוא עזר לסטארטאפ שלי לסגור עסקה עם חברה הנסחרת בבורסה.", "name": "היו ניירנברג", "role": "שותף מייסד", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
+ {"hide": True, "q": "KSW היא משאב מדהים, אבל חשוב מכך, יש מעט מאוד אנשים מוכשרים כמו טל כשזה מגיע לאסטרטגיית מכירות. הוא עזר לסטארטאפ שלי לסגור עסקה עם חברה הנסחרת בבורסה.", "name": "היו ניירנברג", "role": "שותף מייסד", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
  {"q": "היה לי העונג לעבוד עם טל. אני יכולה להגיד שטל הוא שחקן צוות מדהים, מלא באנרגיה ורעב להשיג תוצאות. הוא תמיד שמח לעזור ולשתף מהניסיון שלו במכירות בינלאומיות ובניהול פרויקטים. הוא מעשי, אנליטי, בעל יכולת פתרון בעיות גבוהה, ופשוט אדם שכיף לעבוד לצידו!", "name": "לואיזה ארויאבה", "role": "מנהלת בכירה", "company": "Walmart Global Sourcing", "tag": "market-entry", "photo": "/img/testimonials/luisa-arroyave.jpg"},
  {"q": "לטל פאפרין יש כל מה שאתם רוצים וצריכים מחברת ייעוץ פתרונות: שנים של ניסיון ב-Pre-sales וב-Post-sales, קשרים ענפים בכל מדינות ה-BRIC, ידע מעשי איך להבליט את העסק שלכם בסוגים שונים של שווקים, והמון דרכים להגדיל את הרווחיות של החברה שלכם.", "name": "גבריאל הייפץ", "role": "מהנדס חומרה מוביל", "company": "Annapurna Labs (Amazon)", "tag": "market-entry", "photo": "/img/testimonials/gabriel-heifets.jpg"},
  {"q": "לטל יש את הידע וההבנה העמוקה הדרושים כדי לנתח ולמפות את תחרות השוק, במטרה לקדם את היתרון היחסי של כל קטגוריית מוצרים. טל הוא בדיוק האדם שאתם רוצים שיוביל את הצוות שלכם.", "name": "ברק קב", "role": "מנכ\"ל", "company": "TAG Dental", "tag": "go-to-market-strategy", "photo": "/img/testimonials/barak-kav.jpg"},
@@ -2052,7 +2087,7 @@ def render_logo_wall(logos):
 
 
 def render_quote_grid(quotes, he=False):
-    return '<div class="rec-quotes">%s</div>' % "".join(_tcard(t, he) for t in quotes)
+    return '<div class="rec-quotes">%s</div>' % "".join(_tcard(t, he) for t in quotes if not t.get("hide"))
 
 
 REC_PAGE_EN = '''<!doctype html>
@@ -2061,7 +2096,7 @@ REC_PAGE_EN = '''<!doctype html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Recommendations &amp; Clients | Tal Paperin, Fractional CRO</title>
-  <meta name="description" content="What founders and executives say about working with Tal Paperin, and the companies he has built sales for, from multinationals to startups, on five continents." />
+  <meta name="description" content="What founders and executives say about working with Tal Paperin, fractional CRO, and the B2B companies he has built sales for, on five continents." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/recommendations" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/recommendations" />
@@ -2093,9 +2128,9 @@ REC_PAGE_EN = '''<!doctype html>
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
-        <p class="eyebrow">Recommendations</p>
+        <div class="eyebrow">Recommendations</div>
         <h1>Don't take my word for it. Take theirs.</h1>
-        <p class="lead">From multinational corporations to small startups, here are the companies I have built sales for, and what the founders and executives who worked with me actually say.</p>
+        <p class="lead">From multinational corporations to small startups, here are the B2B companies I have built sales for, and what the founders and executives who worked with me actually say. I am a fractional CRO and fractional VP of Sales. These are their words, not a rewritten case study.</p>
         <h2 class="cases-recs-h">Companies I have built sales for</h2>
 {logos}
         <div class="cta-strip"><p><strong>Revenue stuck?</strong> Tell me where. A message, WhatsApp or a short call, whichever suits you.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="/contact" data-cta="strip-talk">Let's Talk</a></div></div>
@@ -2147,7 +2182,7 @@ REC_PAGE_HE = '''<!doctype html>
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
-        <p class="eyebrow">המלצות</p>
+        <div class="eyebrow">המלצות</div>
         <h1>אל תאמינו לי. תאמינו להם.</h1>
         <p class="lead">מתאגידים רב-לאומיים ועד סטארטאפים קטנים, אלה החברות שבניתי להן מכירות, ומה שהמייסדים והמנהלים שעבדו איתי באמת אומרים.</p>
         <h2 class="cases-recs-h">חברות שבניתי להן מכירות</h2>
@@ -2205,7 +2240,7 @@ CS_PAGE_EN = '''<!doctype html>
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">Case Studies</p>
+        <div class="eyebrow">Case Studies</div>
         <h1>Brought in to build the engine, not just advise on it.</h1>
         <p class="lead">Real companies, real problems, real ownership. Here is what I have built and fixed, across startups, IoT, manufacturing, medical devices, retail and SaaS, on five continents.</p>
         <p class="nda-note"><strong>Where are the numbers?</strong> Under NDA. My clients' revenue figures are theirs, so I don't publish them. Ask me on a call and I'll walk you through the results behind any case here. <a href="/contact">Ask me</a>.</p>
@@ -2260,7 +2295,7 @@ CS_PAGE_HE = '''<!doctype html>
     <div class="wrap">
       <div class="svc">
         <div class="glowline"></div>
-        <p class="eyebrow">מקרי מבחן</p>
+        <div class="eyebrow">מקרי מבחן</div>
         <h1>הגעתי כדי לבנות את המנוע, לא רק לייעץ עליו.</h1>
         <p class="lead">חברות אמיתיות, בעיות אמיתיות, אחריות אמיתית. הנה מה שבניתי ותיקנתי, מסטארטאפים ועד יצרנים, IoT, מכשור רפואי, קמעונאות ו-SaaS, בחמש יבשות.</p>
         <p class="nda-note"><strong>איפה המספרים?</strong> תחת NDA. נתוני ההכנסות של הלקוחות שלי שייכים להם, ולכן אני לא מפרסם אותם. שאלו אותי בשיחה ואעבור איתכם על התוצאות שמאחורי כל מקרה כאן. <a href="/he/contact">שאלו אותי</a>.</p>
@@ -2324,6 +2359,99 @@ def render_case_callout(case, label, rlabel, more, url):
                esc(rlabel), esc(case["result"]), href, esc(more)))
 
 
+# --- One page per case study (/case-studies/<slug>) -------------------------
+# Built from CASE_STUDIES / HE_CASES above: situation, what I did, what changed.
+# NO figures on any of these pages: client numbers are under NDA (CLAUDE.md).
+# "proof" is an index into TESTIMONIALS_* and is shown word for word.
+CASE_PAGES_EN = {
+ "headcount-erc": {
+  "h1": "Go-to-market and sales team build at Headcount ERC",
+  "desc": "Headcount ERC case study: Tal Paperin built the go-to-market plan and hired and managed the SDR and AE sales team for a US tax-credit recovery firm.",
+  "lead": "Headcount ERC helped eligible US businesses claim the federal Employee Retention Credit. The offer was real and the market was huge, but there was no go-to-market motion and no sales team. I built both from scratch: the plan, the playbook, and a floor of SDRs and AEs I hired and managed.",
+  "links": [("sales team building", "/services/sales-team-building"), ("go-to-market strategy", "/services/go-to-market-strategy")]},
+ "kanduai": {
+  "h1": "Fractional VP of Sales at KanduAI", "proof": 0,
+  "desc": "KanduAI case study: Tal Paperin as Fractional VP of Sales for an AI SaaS startup, from ICP and outbound playbook to a hired and trained SDR team.",
+  "lead": "KanduAI brought me in as Fractional VP of Sales from day one. I defined the ICP, built the outbound playbook, hired and trained SDRs, and launched the outbound motion twice, including after pivots. This is what a fractional VP of Sales looks like when a B2B SaaS company is building sales from zero.",
+  "links": [("fractional VP of Sales", "/fractional-vp-of-sales"), ("fractional CRO for B2B SaaS", "/fractional-cro-for-saas"), ("fractional CRO for AI companies", "/fractional-cro-for-ai-companies")]},
+ "lonestar": {
+  "h1": "Sales leadership at LoneStar Tracking", "proof": 1,
+  "desc": "LoneStar Tracking case study: Tal Paperin ran outsourced sales leadership for a founder-led IoT business, building the CRM, the process and the team.",
+  "lead": "LoneStar Tracking is an IoT business whose founders had little sales and marketing experience. I developed the strategy, implemented a CRM, and built and trained the sales team. It was outsourced sales leadership for a company that needed the function stood up, not a slide deck.",
+  "links": [("outsourced sales", "/services/outsourced-sales"), ("fractional CRO for IoT and hardware", "/fractional-cro-for-iot-hardware")]},
+ "bacsoft": {
+  "h1": "VP of Global Sales at Bacsoft",
+  "desc": "Bacsoft case study: Tal Paperin as VP of Global Sales for an Israeli industrial IoT company, building a distributor network and a B2G pipeline.",
+  "lead": "Bacsoft is an Israeli industrial IoT company, backed by Japan's SUN Corp, selling to water utilities, manufacturers and smart cities. As VP of Global Sales I owned the global sales strategy, recruited and managed distributors across continents, and led the long public-sector deals: RFIs, RFQs and government projects.",
+  "links": [("B2G and public sector sales", "/services/b2g-public-sector"), ("distributor and channel recruitment", "/services/distributor-channel-recruitment"), ("fractional CRO for IoT and hardware", "/fractional-cro-for-iot-hardware")]},
+ "palram": {
+  "h1": "Eastern Europe market entry for Palram",
+  "desc": "Palram case study: Tal Paperin opened Eastern Europe for a global manufacturer, signing distributors and retail chains in a market it had written off.",
+  "lead": "Palram, a global manufacturer, had decided there was no money in Eastern Europe and stayed out. Nobody had tested that against the real channel. I built the market-entry strategy, mapped the decision-makers on the ground, led every negotiation, and signed distributors and retail chains across the region.",
+  "links": [("market entry", "/services/market-entry"), ("distributor and channel recruitment", "/services/distributor-channel-recruitment"), ("fractional CRO for manufacturers", "/fractional-cro-for-manufacturers")]},
+ "limat": {
+  "h1": "Market research and a sales machine for Limat",
+  "desc": "Limat case study: Tal Paperin ran the market research and built the sales machine for a push into the UK and Eastern Europe.",
+  "lead": "Limat wanted to grow in Western Europe without betting on it blind. I ran the market research to find where the real demand was, focused the push on the UK and Eastern Europe, and built the sales machine to go after those markets. The output was a working sales motion, where most research projects end with a report.",
+  "links": [("market entry", "/services/market-entry"), ("go-to-market strategy", "/services/go-to-market-strategy")]},
+ "bt9": {
+  "h1": "International sales for BT9 Xsense",
+  "desc": "BT9 case study: Tal Paperin built international sales for Xsense cold chain monitoring (IoT and SaaS) across the FSU, the EU and APAC.",
+  "lead": "BT9 built Xsense, a real-time cold chain monitoring system for perishables. The product was strong and there was almost no international sales operation. I built one from zero across the FSU, the EU and APAC: direct sales, a distributor network recruited market by market, and a team I hired, trained and ran.",
+  "links": [("market entry", "/services/market-entry"), ("fractional CRO for IoT and hardware", "/fractional-cro-for-iot-hardware"), ("fractional CRO for foodtech", "/fractional-cro-for-foodtech")]},
+ "tag-medical": {
+  "h1": "International sales and marketing at TAG Medical",
+  "desc": "TAG Medical case study: Tal Paperin ran EU sales and built the marketing department for dental implants and digital guided-surgery systems.",
+  "lead": "TAG Medical made dental implants and digital guided-surgery systems, and needed to sell them into the EU, a cautious and heavily regulated market. I ran international sales across the EU, recruited and managed distributors, and built and ran the entire marketing department.",
+  "links": [("fractional CRO for medical devices", "/fractional-cro-for-medical-devices"), ("fractional CMO", "/services/fractional-cmo")]},
+ "source-vagabond": {
+  "h1": "North American retail for SOURCE Vagabond",
+  "desc": "SOURCE Vagabond case study: Tal Paperin took an Israeli consumer brand into large North American retailers, direct and through distributors.",
+  "lead": "SOURCE Vagabond was an Israeli consumer brand almost nobody in the US had heard of, trying to get onto the shelves of large American retailers. I sold direct to large retailers and big-box stores across North America, recruited and managed distributors, and built the positioning that got the brand taken seriously.",
+  "links": [("distributor and channel recruitment", "/services/distributor-channel-recruitment"), ("market entry", "/services/market-entry")]},
+ "synergix": {
+  "h1": "Selling scientific SaaS at Synergix",
+  "desc": "Synergix case study: Tal Paperin sold scientific SaaS to universities, research labs and pharma in North America, and wrote the playbook the reps ran.",
+  "lead": "For Synergix I sold scientific SaaS into universities, research labs and pharma, and wrote the scripts and playbook the reps actually ran. It was sales leadership in technical B2B SaaS: a long, high-trust cycle and buyers who cannot be bluffed.",
+  "links": [("fractional CRO for B2B SaaS", "/fractional-cro-for-saas"), ("fractional CRO for biotech and life sciences", "/fractional-cro-for-biotech")]},
+}
+
+
+def render_case_page(c, he=False):
+    """Sections for one case study page. EN opens with a written summary, HE with the result line."""
+    page = CASE_PAGES_EN[c["id"]]
+    out = []
+    logo = LOGO_MAP.get(c["company"], "")
+    if logo:
+        out.append('        <img class="cs-logo" src="/logos/%s.jpg" alt="%s" loading="lazy" />' % (logo, esc(c["company"])))
+    out.append('        <p class="case-meta">%s</p>' % esc(c["meta"]))
+    out.append('        <h2>%s</h2>' % ("המצב" if he else "The situation"))
+    out.append('        <p>%s</p>' % esc(c["situation"]))
+    out.append('        <h2>%s</h2>' % ("מה עשיתי" if he else "What I did"))
+    out.append('        <ul>')
+    out.extend('          <li>%s</li>' % esc(x) for x in c["did"])
+    out.append('        </ul>')
+    if not he:
+        out.append('        <h2>What changed</h2>')
+        out.append('        <p>%s</p>' % esc(c["result"]))
+        out.append('        <p class="case-note">Client figures are under NDA, so none are published here. Ask me on a call.</p>')
+    else:
+        out.append('        <p class="case-note">נתוני הלקוחות כפופים להסכמי סודיות ולכן אינם מתפרסמים כאן. אפשר לשאול אותי בשיחה.</p>')
+    if page.get("proof") is not None:
+        out.append('        <h2>%s</h2>' % ("בלשונם" if he else "In their words"))
+        out.append(render_proof(page["proof"], he).replace("      <figure", "        <figure", 1))
+    return "\n".join(out)
+
+
+def case_related(c, he=False):
+    if he:
+        return ('לכל <a href="/he/case-studies">מקרי המבחן</a>, ל<a href="/he/recommendations">המלצות</a> '
+                'ול<a href="/he/pricing">תמחור</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.')
+    links = ", ".join('<a href="%s">%s</a>' % (h, esc(t)) for t, h in CASE_PAGES_EN[c["id"]]["links"])
+    return ('Related: %s. See all <a href="/case-studies">case studies</a>, the <a href="/recommendations">recommendations</a> '
+            'and <a href="/pricing">pricing</a>, or <a href="/contact">tell me where revenue stalled</a>.' % links)
+
+
 # --- Lead-focused SEO landing pages (buying-intent + niche) ----------------
 
 GUIDE_PAGE = '''<!doctype html>
@@ -2364,9 +2492,9 @@ GUIDE_PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/">Home</a> / {h1}</p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / {crumbmid}{h1}</nav>
         <div class="glowline"></div>
-        <p class="eyebrow">{eyebrow}</p>
+        <div class="eyebrow">{eyebrow}</div>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
@@ -2425,10 +2553,10 @@ def render_answers_sections(themes, he=False):
 
 
 ANSWERS_META_EN = {
- "title":"Why Revenue Stalls: Answers for Founders & CEOs | Tal Paperin",
- "desc":"Why isn't my team hitting quota, why did my VP of Sales leave, why did we miss the forecast? Honest answers for founders on what's broken and how to fix it.",
+ "title":"Why Revenue Stalls: Answers for Founders | Tal Paperin",
+ "desc":"Why isn't the team hitting quota, why did the VP of Sales leave, why is the founder still selling? Straight answers from a fractional CRO.",
  "h1":"Answers for founders when revenue is stuck","eyebrow":"Answers",
- "lead":"The questions founders and CEOs actually search when the number is slipping: why the team is not hitting quota, why the VP of Sales left, what to tell an unhappy board, why you missed the forecast, why growth stalled after the raise. Honest answers on what is really broken, and how it gets fixed."}
+ "lead":"Straight answers for founders and CEOs when B2B revenue is stuck: founder-led sales that will not scale, VP of Sales hires that fail, forecasts that miss, and when to use a fractional CRO or fractional VP of Sales instead of another full-time hire."}
 
 ANSWERS_EN = [
  {"t":"You missed the number","intro":"The symptoms when revenue stops doing what the plan said it would.","qas":[
@@ -2534,11 +2662,11 @@ SERVICE_FAQS_EN = {
  "fractional-cmo":[
   {"q":"What is a fractional CMO?","a":"Senior marketing leadership, part time. I either oversee your marketing or own the function outright, aligned to the revenue number, without a full-time CMO salary or a long-term lock-in."},
   {"q":"How is a fractional CMO different from a marketing agency?","a":"An agency runs campaigns and bills for activity. A fractional CMO owns the marketing function, its priorities, budget and people, and answers for whether it produces pipeline. I am not an agency."},
-  {"q":"Can you run marketing and sales as one function?","a":"Yes, and that is the point. Most companies run marketing and sales as two departments that blame each other. I run them as one revenue engine, so the leads marketing creates are leads sales can actually close. Delivered with KSW Solutions."}],
+  {"q":"Can you run marketing and sales as one function?","a":"Yes, and that is the point. Most companies run marketing and sales as two departments that blame each other. I run them as one revenue engine, so the leads marketing creates are leads sales can actually close. I bring my own marketing team, led by a fractional CMO."}],
  "outsourced-sales":[
   {"q":"What do I get with outsourced sales?","a":"A full team: native-speaking SDRs and AEs, senior leadership and a VP, hired, trained, managed and reported on, living outside your headcount."},
   {"q":"When does outsourcing beat hiring in-house?","a":"When building a team is too slow, too costly or too risky for your stage. You get a working engine in weeks, not six to twelve months, with no severance risk."},
-  {"q":"Who runs the team?","a":"KSW Solutions, led by me. Twenty-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets."}],
+  {"q":"Who runs the team?","a":"I do, with the sales team I hire and manage. Twenty-plus years building and running B2B sales across the US, Europe, APAC and the former Soviet markets."}],
  "go-to-market-strategy":[
   {"q":"What does a go-to-market engagement include?","a":"ICP, positioning, pricing, channels, a playbook and a real forecast, then I help you execute it, not just hand over slides."},
   {"q":"Do you cover SaaS go-to-market?","a":"Yes, including SaaS GTM, as well as hardware, services and complex B2B."},
@@ -2580,11 +2708,11 @@ SERVICE_FAQS_HE = {
  "fractional-cmo":[
   {"q":"מה זה סמנכ\"ל שיווק במיקור חוץ?","a":"מנהיגות שיווק בכירה במשרה חלקית. אני מפקח על השיווק שלכם או לוקח עליו אחריות מלאה, מיושר למספר ההכנסות, בלי שכר של משרה מלאה ובלי התחייבות ארוכת טווח."},
   {"q":"במה סמנכ\"ל שיווק שונה מסוכנות שיווק?","a":"סוכנות מריצה קמפיינים וגובה על פעילות. סמנכ\"ל שיווק לוקח אחריות על פונקציית השיווק, על סדרי העדיפויות, התקציב והאנשים, ואחראי על השאלה אם זה מייצר פייפליין. אני לא סוכנות."},
-  {"q":"אתה יכול להריץ שיווק ומכירות כפונקציה אחת?","a":"כן, וזו כל הנקודה. רוב החברות מריצות שיווק ומכירות כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, כך שהלידים שהשיווק מייצר הם לידים שהמכירות יכולות באמת לסגור. באספקה עם KSW Solutions."}],
+  {"q":"אתה יכול להריץ שיווק ומכירות כפונקציה אחת?","a":"כן, וזו כל הנקודה. רוב החברות מריצות שיווק ומכירות כשתי מחלקות שמאשימות זו את זו. אני מריץ אותן כמנוע הכנסות אחד, כך שהלידים שהשיווק מייצר הם לידים שהמכירות יכולות באמת לסגור. אני מביא צוות שיווק משלי, בהובלת CMO במיקור חוץ."}],
  "outsourced-sales":[
   {"q":"מה מקבלים במכירות במיקור חוץ?","a":"צוות שלם: אנשי SDR ו-AE דוברי שפת אם, הנהגה בכירה ו-VP, מגויסים, מוכשרים, מנוהלים ומדווחים, מחוץ למצבת כוח האדם שלכם."},
   {"q":"מתי מיקור חוץ עדיף על גיוס פנימי?","a":"כשבניית צוות איטית, יקרה או מסוכנת מדי לשלב שלכם. מקבלים מנוע עובד תוך שבועות, לא שישה עד שנים-עשר חודשים, בלי סיכון פיצויים."},
-  {"q":"מי מנהל את הצוות?","a":"KSW Solutions, בהובלתי. מעל עשרים שנה של בנייה וניהול מכירות B2B בארה\"ב, אירופה, APAC והשווקים הפוסט-סובייטיים."}],
+  {"q":"מי מנהל את הצוות?","a":"אני, יחד עם צוות המכירות שאני מגייס ומנהל. מעל עשרים שנה של בנייה וניהול מכירות B2B בארה\"ב, אירופה, APAC והשווקים הפוסט-סובייטיים."}],
  "go-to-market-strategy":[
   {"q":"מה כולל פרויקט Go-To-Market?","a":"ICP, מיצוב, תמחור, ערוצים, Playbook ותחזית אמיתית, ואז אני עוזר לכם לבצע, לא רק מגיש שקפים."},
   {"q":"האם זה כולל GTM ל-SaaS?","a":"כן, כולל GTM ל-SaaS, וגם חומרה, שירותים ו-B2B מורכב."},
@@ -2614,11 +2742,12 @@ SERVICE_FAQS_HE = {
 
 GUIDES = [
  {"slug":"why-did-my-vp-of-sales-leave",
-  "title":"Why Your VP of Sales Left, and How to Fix It | Tal Paperin",
-  "desc":"Your VP of Sales quit or got pushed out and you are about to hire another. First understand why the seat failed, or the next hire leaves too.",
-  "h1":"Why Your VP of Sales Left","eyebrow":"Sales leadership",
-  "lead":"A VP of Sales leaving is rarely just a people problem. More often the seat was impossible: no clear number, no playbook, a motion that was not ready, or a founder who never truly handed over the wheel. Before you hire the next one, understand what actually broke, or you run the same loop again at six months and another lost year.",
+  "title":"Why VP of Sales Hires Fail, and How to Fix It | Tal Paperin",
+  "desc":"A VP of Sales leaving is usually the seat, not only the person. Before you hire again, fix why the last fractional or full-time seat failed.",
+  "h1":"Why VP of Sales hires fail","eyebrow":"Sales leadership",
+  "lead":"A VP of Sales leaving is rarely just a people problem. More often the seat was impossible: no clear number, no playbook, a motion that was not ready, or a founder who never handed over the wheel. Before you hire a full-time VP of Sales or a fractional VP of Sales, understand what actually broke.",
   "sections":[
+    {"html":'        <p>This is one of the reasons founders ask whether a <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales is safer than hiring another full-time VP of Sales</a>. Often it is, until the seat is winnable. Skip the diagnosis and you run the same loop again at six months, with another lost year.</p>'},
     {"h":"It is usually the seat, not just the person","p":[
       "A strong VP of Sales cannot win inside a broken system. If the ICP is fuzzy, there is no playbook, the pipeline is not real and marketing is not aligned, even a great hire spends their ramp firefighting instead of building. They miss the number they were set up to miss, and then they leave, or you let them go.",
       "The pattern repeats because the diagnosis is wrong. Founders conclude they hired the wrong person and hire again for the same impossible seat. The fix is to make the seat winnable first."]},
@@ -2629,13 +2758,16 @@ GUIDES = [
       "Separate the two questions: was the person wrong, or was the system? Diagnose the motion honestly, the ICP, the playbook, the pipeline, the forecast and the founder handoff, and fix what made the seat impossible. Only then does it make sense to hire, because now the VP inherits a system that can win.",
       "This is where a fractional CRO earns its keep. Someone senior comes in, owns the number, rebuilds the engine, and either stabilizes it until your next VP can run it or helps you hire the right one into a seat that finally works. You stop paying for the same failed hire twice."]}],
   "faqs":[
-    {"q":"Should I replace my VP of Sales or fix the system first?","a":"Fix the system first, almost always. Rebuild the motion, pipeline and forecast, and you find out fast whether the VP was the problem or the symptom. Replacing a person inside a broken seat just resets the clock on the same failure."},
-    {"q":"How soon is too soon to hire a VP of Sales?","a":"Before founder-led sales has found a repeatable, documented motion. If the founder is still the only person who can close, a VP inherits guesswork and leaves. Prove the motion first, then hire someone to scale it."},
-    {"q":"My VP of Sales keeps missing the number. Is it them?","a":"Maybe, but check the seat first. No playbook, a fuzzy ICP, an unreal pipeline or a founder who takes deals back will sink a strong VP. Diagnose the system before you blame the person."}],
-  "related":'See <a href="/fractional-cro-vs-vp-of-sales">fractional CRO vs VP of sales</a>, <a href="/sales-team-missing-quota">why a team misses quota</a>, <a href="/when-do-you-need-a-fractional-cro">when you need a fractional CRO</a>, or the <a href="/answers">answers hub</a>.'},
+    {"q": "Why do VP of Sales hires fail so often?", "a": "More often the seat was impossible: no clear number, no playbook, a motion that was not ready, or a founder who never truly handed over the wheel. A strong VP cannot win inside a broken system."},
+    {"q": "Should I hire another full-time VP right away?", "a": "Not before you diagnose whether it was the person or the system. If the motion is still in the founder's head, the next full-time hire will fail for the same reasons."},
+    {"q": "Can a fractional VP of Sales or fractional CRO fix this?", "a": "Yes. I diagnose the motion first: ICP, playbook, pipeline, forecast and founder handoff. Then I run the seat while we make it winnable. After that, you can keep me, hire a full-time VP into a working engine, or both."},
+    {"q": "Should I replace my VP of Sales or fix the system first?", "a": "Fix the system first, almost always. Rebuild the motion, pipeline and forecast, and you find out fast whether the VP was the problem or the symptom. Replacing a person inside a broken seat just resets the clock on the same failure."},
+    {"q": "How soon is too soon to hire a VP of Sales?", "a": "Before founder-led sales has found a repeatable, documented motion. If the founder is still the only person who can close, a VP inherits guesswork and leaves. Prove the motion first, then hire someone to scale it."},
+    {"q": "My VP of Sales keeps missing the number. Is it them?", "a": "Maybe, but check the seat first. No playbook, a fuzzy ICP, an unreal pipeline or a founder who takes deals back will sink a strong VP. Diagnose the system before you blame the person."}],
+  "related":'See <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales vs a full-time VP of Sales</a>, <a href="/fractional-cro-vs-vp-of-sales">fractional CRO vs hiring a VP of Sales</a>, <a href="/blog/cost-of-bad-vp-sales-hire">the cost of a bad VP of Sales hire</a>, <a href="/sales-team-missing-quota">why a team misses quota</a> and <a href="/pricing">pricing</a>, or the <a href="/answers">answers hub</a>.'},
  {"slug":"sales-and-marketing-consultant",
   "title":"Sales and Marketing Consultant for B2B | Tal Paperin",
-  "desc":"Most companies run sales and marketing as two teams that blame each other. I own both: marketing that feeds real pipeline, sales that closes it, one number.",
+  "desc":"Most companies run sales and marketing as two teams that blame each other. I own both: marketing that feeds pipeline, sales that closes it, one number.",
   "h1":"A Sales and Marketing Consultant Who Runs Both, Not Just Advises","eyebrow":"Sales + Marketing",
   "lead":"In most B2B companies, sales and marketing are two teams pointing at each other. Marketing says the leads are good, sales says they are junk, and the number stalls in the gap between them. I am a fractional CRO who owns both sides: marketing built to feed real pipeline, sales built to close it, and one revenue number that both answer to. Not advice, ownership.",
   "sections":[
@@ -2736,9 +2868,9 @@ GUIDES = [
 
  {"slug":"sales-training",
   "title":"B2B Sales Training That Actually Sticks | Tal Paperin",
-  "desc":"Most sales training fails because nobody runs it afterward. I have trained 2,000 salespeople worldwide, then managed them to the number. Here is what works.",
+  "desc":"Most sales training fails because nobody runs it afterward. I have trained more than 1,000 salespeople, then managed them to the number.",
   "h1":"Sales Training Alone Does Not Work. Here Is What Does.","eyebrow":"Guide",
-  "lead":"I am not a sales trainer. I am a CRO and VP of Sales who has trained more than 2,000 salespeople across the globe, then stayed to manage them until the training showed up in closed deals. That second half is the part everyone skips, and it is the reason most sales training is a waste of money.",
+  "lead":"I am not a sales trainer. I am a CRO and VP of Sales who has trained more than 1,000 salespeople across the globe, then stayed to manage them until the training showed up in closed deals. That second half is the part everyone skips, and it is the reason most sales training is a waste of money.",
   "sections":[
     {"h":"Why most sales training is a waste of money","p":[
       "You bring in a trainer for two days. The team is fired up. They get a binder, a framework, maybe a role-play. Everyone feels sharper on Friday. By the following Wednesday they are back to selling exactly the way they did before, because nobody changed what happens after the training ends.",
@@ -2746,8 +2878,8 @@ GUIDES = [
     {"h":"I am not a trainer. I am a CRO who trains, then runs the team.","p":[
       "There is a difference between someone who teaches a workshop and someone who owns the number. I have carried a quota, built the playbook, and sat in the deals myself. When I train your team, I am not teaching theory I read in a book. I am teaching exactly how I would close your deals, because I have closed deals like yours.",
       "Then I do the part a trainer cannot: I manage the team to make sure it works. I sit in on calls, I inspect the pipeline, I coach the reps who are drifting, and I keep raising the standard until the new way of selling is simply the way your team sells."]},
-    {"h":"2,000 salespeople, then managed to the number","p":[
-      "Over 20-plus years I have trained more than 2,000 salespeople on five continents: SDRs, closers, channel partners and whole teams, in startups and in large organizations. The training was never the point. The point was what happened next: deals closed, cycles shortened, and the number went up and stayed up.",
+    {"h":"1,000-plus salespeople, then managed to the number","p":[
+      "Over 20-plus years I have trained more than 1,000 salespeople on five continents: SDRs, closers, channel partners and whole teams, in startups and in large organizations. The training was never the point. The point was what happened next: deals closed, cycles shortened, and the number went up and stayed up.",
       "That is the test I hold myself to. Not how good the session felt on the day, but whether revenue actually moved a quarter later. It does."]},
     {"h":"What real sales training looks like","ul":[
       "It starts from your actual deals, your buyers and your real objections, not a generic curriculum",
@@ -2759,7 +2891,7 @@ GUIDES = [
       "If you only want a one-off workshop to tick a box, I am the wrong person, and honestly you should keep your money. But if you want your team to sell better and keep selling better, you need the training and the management together, from the same person, until it holds. That is what a fractional CRO does, and it is why my clients watch the numbers actually move."]},
   ],
   "faqs":[
-    {"q":"Do you offer sales training?","a":"Yes, but not as a standalone workshop. I train your team as part of owning your sales, which means I also manage the team afterward to make sure the training turns into closed deals. I have trained more than 2,000 salespeople worldwide."},
+    {"q":"Do you offer sales training?","a":"Yes, but not as a standalone workshop. I train your team as part of owning your sales, which means I also manage the team afterward to make sure the training turns into closed deals. I have trained more than 1,000 salespeople worldwide."},
     {"q":"Why does most sales training not work?","a":"Because the trainer leaves and nobody changes what happens next. Behavior only sticks when a senior leader coaches it, inspects it and holds the standard every week. Training without ongoing management is theater."},
     {"q":"Who does the training?","a":"I do. I am a CRO and VP of Sales who has carried the number hands-on. I teach exactly how I would close your deals, from your real pipeline, not a generic curriculum out of a book."},
     {"q":"How is this different from hiring a sales trainer?","a":"A trainer runs a session and flies home. I train your team and then stay to manage them to the number: call reviews, pipeline inspection and weekly coaching until the new way of selling is simply how your team sells."},
@@ -2768,16 +2900,17 @@ GUIDES = [
 
  {"slug":"fractional-cro-cost",
   "title":"How Much Does a Fractional CRO Cost? | Tal Paperin",
-  "desc":"A straight answer on fractional CRO pricing: what it costs per month, how it compares to a $250K full-time CRO, and when each level is worth it.",
-  "h1":"What a Fractional CRO Actually Costs","eyebrow":"Guide",
-  "lead":"Most consultants hide the number, hand you a deck, and disappear. I am an operator who owns the number, I bill monthly with no contract, and here is exactly what a fractional CRO costs, in plain figures.",
+  "desc":"Fractional CRO pricing: $2,000 to $22,000 a month versus a $250K-plus full-time CRO, billed monthly, no contract, plus a performance share.",
+  "h1":"What a fractional CRO actually costs","eyebrow":"Guide",
+  "lead":"Most consultants hide the number, hand you a deck, and disappear. I am a fractional CRO who owns the number. I bill monthly with no contract. Engagements run $2,000 a month for Advisor through $22,000 for CRO Ownership, plus a performance share, far below a $250,000-plus full-time CRO.",
   "sections":[
     {"h":"The short answer","p":[
       "A full-time CRO runs $250,000 and up all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO gives you the same senior ownership for a monthly fee. The role is identical at every level. The only thing that changes is how many hours a day I am in your business."]},
-    {"h":"The three levels, priced by how much of me","tiers":[
+    {"h":"The four levels, priced by how much of me","tiers":[
       "Advisor, $2,000 a month. About three hours a week. A standing weekly strategy call plus access to me between calls for the real decisions. For founders who want senior direction while they run the day to day themselves.",
       "Starter, $6,000 a month. Me as your CRO embedded two hours a day, every working day. I own the strategy, the system and the standards, and your team carries more of the daily execution.",
-      "Growth, $12,000 a month. Half time, four hours a day. Not just steering, driving: I run the motion week to week, manage the team hands-on, and carry the number with you. Full-time, exclusive engagements available on request."]},
+      "Growth, $12,000 a month. Half time, four hours a day. Not just steering, driving: I run the motion week to week, manage the team hands-on, and carry the number with you. If you want all of me, that is the next level.",
+      "CRO Ownership, $22,000 a month. Full time and exclusive. End-to-end ownership of revenue across sales, marketing and go-to-market, with one accountable leader."]},
     {"h":"The performance share, on top","p":[
       "Every level also carries a performance share. It is added on top of the monthly fee, never instead of it, and measured against a baseline we agree up front: 3% of net new ARR to me, 10% of first-year deal value to the account executives, and $50 per qualified meeting held to the SDRs."],
      "links":[("See the full pricing table","/pricing")]},
@@ -2793,12 +2926,12 @@ GUIDES = [
     {"html":'<p style="margin:28px 0;padding:18px 22px;border:1px solid rgba(37,99,235,.45);border-radius:14px;background:radial-gradient(90% 180% at 8% 0%,#0c2237 0%,#0a0e14 70%)"><a href="/sales-cost-calculator" style="color:#fff;font-weight:600">Want your own number? Use the free calculator and see what your broken sales and marketing machine costs you every year &rarr;</a></p>'},
   ],
   "faqs":[
-    {"q":"How much does a fractional CRO cost?","a":"My engagements run $2,000 to $12,000 a month depending on the level of involvement, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
+    {"q":"How much does a fractional CRO cost?","a":"My engagements run $2,000 a month for Advisor, $6,000 for Starter, $12,000 for Growth and $22,000 for full-time CRO Ownership, plus a performance share, versus $250,000 and up for a full-time CRO once you include equity, bonus and severance."},
     {"q":"Is a fractional CRO cheaper than a full-time CRO?","a":"Yes. You get the same senior ownership without the base salary, equity, bonus, severance risk, hiring cycle or long ramp, and without a long-term lock-in."},
-    {"q":"What is included?","a":"The same at every tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance, and full CRO-level ownership across sales, marketing and go-to-market. What changes between tiers is how many hours a day I am in your business: two hours, four hours, or full time."},
+    {"q":"What is included?","a":"The same at every tier: a revenue diagnosis, a sales strategy and forecast, a playbook, CRM and pipeline structure, team training, hands-on management of the motion, hiring and performance, and full CRO-level ownership across sales, marketing and go-to-market. What changes between tiers is how much of my time is in your business: about three hours a week, two hours a day, four hours a day, or full time."},
     {"q":"How long are fractional CRO engagements?","a":"There is no long-term lock-in. You scale the involvement up as you grow, or hand the function off once it is built."},
     {"q":"Do I have to sign a long contract?","a":"No. I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/fractional-cro-roi">the ROI of a fractional CRO</a>, <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'See the <a href="/services/fractional-cro">fractional CRO service</a>, <a href="/pricing">the full pricing table</a>, <a href="/fractional-cro-for-saas">fractional CRO for B2B SaaS</a>, <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales vs a full-time VP of Sales</a>, <a href="/fractional-cro-roi">the ROI of a fractional CRO</a> and <a href="/case-studies">case studies</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-vs-outsourced-sales",
   "title":"Fractional CRO vs Outsourced Sales | Tal Paperin",
@@ -2847,9 +2980,9 @@ GUIDES = [
 
  {"slug":"fractional-cro-vs-vp-of-sales",
   "title":"Fractional CRO vs Hiring a VP of Sales | Tal Paperin",
-  "desc":"Tired of $30K-a-month VP of Sales hires you fire in 90 days? A fractional CRO gives you proven revenue leadership with no hiring gamble and no lock-in.",
-  "h1":"Fractional CRO vs Hiring a VP of Sales","eyebrow":"Guide",
-  "lead":"You have done this before. Hire a VP of Sales at thirty grand a month, wait, watch nothing move, fire them at month three, eat the severance, start over. Here is the alternative.",
+  "desc":"A $30K-a-month VP of Sales hire you fire in 90 days is a gamble. A fractional CRO gives proven revenue leadership, month to month, with no lock-in.",
+  "h1":"Fractional CRO vs hiring a VP of Sales","eyebrow":"Guide",
+  "lead":"You have done this before. Hire a VP of Sales at thirty grand a month, wait, watch nothing move, fire them at month three, eat the severance, start over. A fractional CRO is the alternative: senior revenue leadership for B2B companies, billed monthly, no contract, no hiring gamble.",
   "sections":[
     {"h":"The VP of Sales graveyard","p":[
       "A VP of Sales runs $30,000 a month or more, all in. The search takes months. The ramp takes a quarter. And if the fit is wrong, and it often is, you fire them at month two, three or four, eat the severance, and start the whole cycle again. I have watched founders burn hundreds of thousands of dollars this way, with nothing to show for it but lost time.",
@@ -2865,14 +2998,14 @@ GUIDES = [
   ],
   "faqs":[
     {"q":"Is a fractional CRO better than hiring a VP of Sales?","a":"If your sales motion is not yet proven, yes. A VP hire is a six-figure gamble with months of search, a quarter of ramp and real severance risk. A fractional CRO who has done it 30-plus times delivers from week one, with no hiring risk and no lock-in."},
-    {"q":"How much does a fractional CRO cost vs a VP of Sales?","a":"A VP of Sales runs $30,000 a month or more all in, plus recruiter fees, equity and severance. My fractional engagements run $2,000 to $12,000 a month, billed monthly with no contract."},
+    {"q":"How much does a fractional CRO cost vs a VP of Sales?","a":"A VP of Sales runs $30,000 a month or more all in, plus recruiter fees, equity and severance. My fractional engagements run $2,000 to $12,000 a month, or $22,000 for full-time CRO Ownership, billed monthly with no contract."},
     {"q":"What if it is not working out?","a":"I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."},
     {"q":"Do you do the work, or just advise?","a":"I do the work. I am an ex VP of Global Sales and CRO. I own the number, build and manage the team, and step into the big deals myself, not just the strategy decks."}],
-  "related":'Compare the <a href="/fractional-cro-cost">cost</a>, see <a href="/fractional-cro-vs-outsourced-sales">fractional CRO vs outsourced sales</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+  "related":'Comparing a fractional VP of Sales with a full-time one instead? Read <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales vs a full-time VP of Sales</a>. Compare the <a href="/fractional-cro-cost">cost</a>, see <a href="/fractional-cro-vs-outsourced-sales">fractional CRO vs outsourced sales</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"frum-business-consultant","en_only":True,
   "title":"Frum Business Consultant and Sales Leader | Tal Paperin",
-  "desc":"A frum, shomer Shabbos business consultant and fractional sales leader who knows the heimishe, Yiddish-speaking business world and helps frum businesses grow.",
+  "desc":"A frum, shomer Shabbos business consultant and fractional sales leader who knows the heimishe, Yiddish-speaking business world and helps it grow.",
   "h1":"A Frum Business Consultant Who Gets the Heimishe World","eyebrow":"For Frum Businesses",
   "lead":"I am a frum, shomer Shabbos Yid from Eretz Yisrael who has built and run sales for businesses on five continents. If you are a frum business owner who wants a sales leader who shares your values and understands your world, not just your spreadsheet, this is for you.",
   "sections":[
@@ -2919,26 +3052,72 @@ GUIDES = [
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/market-entry">market entry</a> services, read more on the <a href="/blog">blog</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"fractional-cro-for-saas","en_only":True,
-  "title":"Fractional CRO for SaaS Companies | Tal Paperin",
-  "desc":"A fractional CRO for B2B SaaS: ICP, pricing, the outbound motion, the team and the forecast, owned end to end, without a $250K full-time hire.",
-  "h1":"Fractional CRO for SaaS","eyebrow":"Guide",
-  "lead":"SaaS lives and dies on a repeatable motion. I build and own it: ICP, pricing, pipeline, the team and the number, without a full-time CRO salary.",
+  "title":"Fractional CRO for B2B SaaS | Tal Paperin",
+  "desc":"A fractional CRO for B2B SaaS: ICP, pricing, outbound, the team and the forecast, owned end to end, without a $250K full-time CRO hire.",
+  "h1":"Fractional CRO for B2B SaaS","eyebrow":"Guide",
+  "lead":"A fractional CRO for B2B SaaS owns the revenue motion end to end: ICP and pricing, the outbound and inbound playbook, the CRM and pipeline, hiring and managing the reps, and the forecast, without a $250,000-plus full-time CRO salary. I have sold SaaS to technical, skeptical buyers, from AI startups to scientific software bought by universities, labs and pharma.",
   "sections":[
-    {"h":"Why SaaS needs this","p":[
-      "Most SaaS companies have a product and a few referral deals, then stall because there is no repeatable motion and nobody senior owns the number. A great product does not sell itself, especially into technical, skeptical buyers. I have sold SaaS to the hardest rooms there are, from AI startups to scientific software bought by universities, labs and pharma."]},
-    {"h":"What I own for a SaaS company","ul":[
-      "ICP, positioning and pricing built for how SaaS actually gets bought",
-      "The outbound and inbound motion, the playbook and the CRM and pipeline",
-      "Hiring, training and managing SDRs and AEs who can sell technical SaaS",
-      "The forecast and the number, owned end to end"]},
-    {"h":"Done before, in real SaaS","p":[
-      "At KanduAI I came in as Fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through two pivots. For Synergix I sold scientific SaaS into universities, research labs and pharma, writing the scripts and playbook the reps actually ran. Different products, same discipline."]},
+    {"h": "Why B2B SaaS stalls", "p": ["SaaS lives and dies on a repeatable motion. Most B2B SaaS companies have a product and a few referral deals, then stall because there is no system and nobody senior owns the number. A great product does not sell itself, especially into technical, skeptical buyers."], "html": "        <p>Founder-led sales works early because the founder knows the product cold. It stops working when every real deal still needs the founder on the call, the reps you hired are busy but not closing, and the forecast is a guess. More headcount will not fix that, because the motion is the part that is missing. I wrote about that handoff in <a href=\"/founder-led-sales-wont-scale\">When founder-led sales stops scaling</a>.</p>"},
+    {"h": "What I own for a B2B SaaS company", "p": ["As fractional CRO I sit in the seat and own:"], "ul": ["ICP, positioning and pricing built for how B2B SaaS actually gets bought", "The outbound and inbound motion, the playbook, and the CRM and pipeline", "Hiring, training and managing SDRs and AEs who can sell technical SaaS", "The forecast and the number, end to end"]},
+    {"p": ["Week one, I find what is broken. Week two, you get the plan. Then I rebuild the sales engine, hire where needed, train the team, replace who cannot perform, and own the revenue number.", "I do not hand you a deck and disappear. I am an operator, not an advisor."]},
+    {"h": "Fractional CRO or fractional VP of Sales", "html": "        <p>If you need someone to build the team and run the sales floor, that is a <a href=\"/fractional-vp-of-sales\">fractional VP of Sales</a>. If you need all of revenue owned, meaning sales, marketing, go-to-market, pricing and the number, that is a <a href=\"/services/fractional-cro\">fractional CRO</a>. I do both. Many B2B SaaS companies start with a fractional VP of Sales and grow the scope.</p>\n        <p>If the question you are actually asking is whether to hire a full-time VP of Sales instead, read <a href=\"/fractional-vp-sales-vs-full-time-vp-sales\">Fractional VP of Sales vs a full-time VP of Sales</a>.</p>"},
+    {"h": "Done before, in real SaaS", "html": "        <p>At <a href=\"/case-studies/kanduai\">KanduAI</a> I came in as Fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through two pivots. Ariel Shemesh, Co-Founder and CEO, in his words:</p>"},
+    {"html": render_proof(0)},
+    {"html": "        <p>For <a href=\"/case-studies/synergix\">Synergix</a> I sold scientific SaaS into universities, research labs and pharma, writing the scripts and playbook the reps actually ran. Different products, same discipline: a motion a team can repeat. If your product is AI, see <a href=\"/fractional-cro-for-ai-companies\">fractional CRO for AI companies</a>.</p>\n        <p>I have rebuilt sales at 30-plus B2B companies and managed $20M ARR last year, across five continents. Most of my clients are in the US. I work in English, Hebrew, Russian and Chinese.</p>"},
+    {"h": "What it costs versus a full-time CRO", "p": ["A full-time CRO runs $250,000 and up, all in, once you add base, equity, bonus, severance risk and a months-long hiring cycle. A fractional CRO is the same senior ownership for a monthly fee."], "html": "        <p>Published tiers: Advisor $2,000 a month, Starter $6,000, Growth $12,000, and CRO Ownership $22,000, plus a performance share (3% of net new ARR, on the terms set out on the <a href=\"/pricing\">pricing page</a>). I bill monthly, with no long contract and no exit fines. See <a href=\"/fractional-cro-cost\">What a fractional CRO actually costs</a> for the breakdown.</p>"},
+    {"h": "When this is the wrong seat", "p": ["If you only need more hands on the phones, hire reps. If the motion is already proven and you want a permanent executive five days a week, a full-time CRO or VP of Sales can be the right hire. If what you want is a slide deck and a workshop, I am the wrong person."], "html": "        <p>If what you want is someone to own the number and make the team deliver it, <a href=\"/contact\">tell me where revenue stalled</a>.</p>"},
   ],
   "faqs":[
-    {"q":"What does a fractional CRO do for a SaaS company?","a":"Owns the revenue motion end to end: ICP and pricing, the outbound and inbound playbook, the CRM and pipeline, hiring and managing the reps, and the forecast, all without a full-time CRO salary."},
-    {"q":"Do you sell technical or scientific SaaS?","a":"Yes. I have sold SaaS into universities, research labs and pharma, and built the motion for AI SaaS startups from zero. Technical, skeptical buyers are exactly where most reps stall and where a real playbook wins."},
-    {"q":"How much does a fractional CRO for SaaS cost?","a":"Engagements run $2,000 to $12,000 a month depending on how many hours a day you need, far below a $250,000-plus full-time CRO hire, billed monthly with no lock-in."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/go-to-market-strategy">go-to-market</a> services, or <a href="/contact">tell me where revenue stalled</a>.'},
+    {"q": "What does a fractional CRO do for a B2B SaaS company?", "a": "Owns the revenue motion end to end: ICP and pricing, the outbound and inbound playbook, the CRM and pipeline, hiring and managing the reps, and the forecast, all without a full-time CRO salary."},
+    {"q": "Do you sell technical or scientific SaaS?", "a": "Yes. I have sold SaaS into universities, research labs and pharma, and built the motion for AI SaaS startups from zero. Technical, skeptical buyers are exactly where most reps stall and where a real playbook wins."},
+    {"q": "How much does a fractional CRO for B2B SaaS cost?", "a": "Engagements run $2,000 to $12,000 a month depending on how many hours a day you need, or $22,000 a month for full CRO Ownership, far below a $250,000-plus full-time CRO hire, billed monthly with no lock-in. The full table is on the pricing page."},
+    {"q": "Our founder is still selling and growth has stalled. Is this the right help?", "a": "Yes, if the problem is that the motion lives in the founder's head and there is no senior owner of the number. I diagnose that in week one, turn it into a documented motion in week two, then hire, train and manage the team so the company can grow past the founder. See also the guide on when founder-led sales stops scaling."},
+    {"q": "Fractional CRO or fractional VP of Sales for a SaaS startup?", "a": "If you need the sales team and pipeline run, start with a fractional VP of Sales. If you need all of revenue owned, including pricing, marketing and go-to-market, take the fractional CRO seat. I do both."}],
+  "related":'See <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/fractional-cro-for-ai-companies">fractional CRO for AI companies</a>, <a href="/recommendations">recommendations</a> and <a href="/pricing">pricing</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"fractional-vp-sales-vs-full-time-vp-sales","en_only":True,
+  "title":"Fractional VP of Sales vs Full-Time VP | Tal Paperin",
+  "desc":"A full-time VP of Sales can run $30K a month plus ramp and severance. A fractional VP of Sales is the same seat, part-time, month to month, no lock-in.",
+  "h1":"Fractional VP of Sales vs a full-time VP of Sales","eyebrow":"Guide",
+  "lead":"A full-time VP of Sales often runs $30,000 a month or more, all in, plus months of search and a quarter of ramp. A fractional VP of Sales is the same hands-on seat, part-time, typically $2,000 to $12,000 a month with no contract. For most B2B companies still proving the motion, that is the lower-risk hire.",
+  "sections":[
+    {"h": "The short answer", "p": ["The role is the same. Someone has to hire, train and manage the salespeople, own the playbook, run the CRM and the pipeline, and answer for the forecast. The question is whether you need that person five days a week, on your payroll, before the motion is even proven.", "A full-time VP of Sales hire is a bet on a resume and a few interviews. A fractional VP of Sales is a bet you can unwind at the end of the month. I have built and run revenue for 30-plus B2B companies on five continents. You are not guessing whether I have sat in the seat. I have."]},
+    {"h": "What a full-time VP of Sales actually costs", "p": ["Founders remember the salary. The bill is bigger.", "A VP of Sales runs $30,000 a month or more, all in, once you add compensation, recruiter fees, equity, the months it takes to find them, and the quarter it takes to ramp. If the fit is wrong, and it often is, you fire them at month two, three or four, eat the severance, and start the cycle again. I have watched founders burn hundreds of thousands of dollars this way, with nothing to show for it but lost time.", "That hire is rational when the motion is already working and you need a permanent leader to scale it. It is a poor hire when you still need someone to find what is broken, write the playbook, and prove the team can sell without the founder on every call."]},
+    {"h": "What a fractional VP of Sales owns", "p": ["As a fractional VP of Sales I own the sales floor, part-time:"], "ul": ["Hiring, training and managing SDRs, AEs and BDs", "The playbook, the talk tracks and the sales process", "The CRM, the pipeline and the forecast", "Coaching reps to quota, and replacing the ones who cannot get there", "Day-to-day management of the team"]},
+    {"p": ["I have recruited, trained and managed sales teams across five continents and 40-plus countries, from first reps to full floors. I make the team you have hit quota, and I build the team you do not have yet. I bill monthly. No long contract, no lock-in, no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."]},
+    {"h": "Fractional VP of Sales or fractional CRO?", "html": "        <p>A <a href=\"/fractional-vp-of-sales\">VP of Sales</a> runs the sales team and the pipeline day to day. A <a href=\"/services/fractional-cro\">fractional CRO</a> owns all of revenue, meaning sales, marketing and go-to-market, and the number itself. I do both. The right title depends on whether you need the sales floor run or the whole revenue function owned. Many companies start with a fractional VP of Sales and grow the scope into CRO.</p>\n        <p>If you are comparing a fractional CRO to hiring a VP, that is a slightly different question. I walk through it in <a href=\"/fractional-cro-vs-vp-of-sales\">Fractional CRO vs hiring a VP of Sales</a>.</p>"},
+    {"h": "When the full-time hire is the right call", "p": ["Hire a full-time VP of Sales when the motion is already repeatable, the forecast is honest, the founder is no longer the only closer, and you need a permanent leader five days a week. Do not hire one to invent the motion from scratch. That is how founders churn through expensive VPs."]},
+    {"h": "When the fractional seat is the right call", "html": "        <ul>\n          <li>You are a B2B company, including <a href=\"/fractional-cro-for-saas\">B2B SaaS</a>, and <a href=\"/founder-led-sales-wont-scale\">founder-led sales has stopped scaling</a></li>\n          <li>A VP of Sales hire already failed</li>\n          <li>You need an operator this month, not after a two-quarter search</li>\n          <li>You want senior ownership without a $30,000-a-month lock-in</li>\n        </ul>\n        <p>At <a href=\"/case-studies/kanduai\">KanduAI</a>, I came in as Fractional VP of Sales from day one, defined the ICP, built the outbound motion from zero and rebuilt it through two pivots. Ariel Shemesh, Co-Founder and CEO, wrote:</p>"},
+    {"html": render_proof(0)},
+    {"h": "Why so many VP of Sales hires fail", "html": "        <p>Most failed VP hires were set up to fail. The VP was hired before founder-led sales had found a repeatable motion, then asked to scale something that did not exist yet: no clear number, no playbook, a pipeline nobody trusted, and a founder who kept taking deals back. A strong VP cannot win inside that seat. I cover the pattern in <a href=\"/why-did-my-vp-of-sales-leave\">Why VP of Sales hires fail</a>, the bill in <a href=\"/blog/cost-of-bad-vp-sales-hire\">the cost of a bad VP of Sales hire</a>, and the timing in <a href=\"/blog/when-to-hire-vp-sales\">when to hire a VP of Sales</a>.</p>\n        <p>A fractional VP of Sales fixes the seat first. Then whoever holds it next, me or a full-time hire, can win.</p>"},
+    {"h": "How I run the seat", "p": ["I am an operator, not an advisor. Not a consultant, not a deck. Week one, I find what is broken. Week two, you get the plan. Then I rebuild the engine, hire where needed, train the team, replace who cannot perform, and own the number. Most of my clients are in the US, and I work across North America, Europe and APAC."], "html": "        <p>Typical fractional involvement is $2,000 to $12,000 a month. If you want full-time ownership, CRO Ownership is $22,000 a month. Every level carries a performance share on net new ARR. The full table is on the <a href=\"/pricing\">pricing page</a>, and <a href=\"/fractional-cro-cost\">what a fractional CRO actually costs</a> has the breakdown. If revenue is stuck, tell me where.</p>"},
+  ],
+  "faqs":[
+    {"q": "Is a fractional VP of Sales better than hiring a full-time VP of Sales?", "a": "If your sales motion is not yet proven, usually yes. A full-time VP of Sales is a six-figure bet with months of search, a quarter of ramp, and severance risk if the fit is wrong. A fractional VP of Sales who has already built the motion many times can start in week one, billed monthly, with no contract."},
+    {"q": "How much does a fractional VP of Sales cost versus a full-time VP?", "a": "A VP of Sales often runs $30,000 a month or more, all in, plus recruiter fees, equity and severance. My fractional engagements typically run $2,000 to $12,000 a month depending on how many hours a day you need. Full-time CRO Ownership is $22,000 a month if you want that much of me. All of it is billed monthly, with no long contract. The full table is on the pricing page."},
+    {"q": "What if it is not working out?", "a": "I bill monthly with no contract and no exit fines. If you do not like what I deliver, we are done at the end of the month and you owe nothing more."},
+    {"q": "Do you do the work, or just advise?", "a": "I do the work. I hire, train and manage the reps, own the playbook, the CRM and the forecast, and step into the large deals. I am an operator, not a consultant handing you a deck."},
+    {"q": "Fractional VP of Sales or fractional CRO?", "a": "Choose a fractional VP of Sales to run the sales team and the pipeline. Choose a fractional CRO to own all of revenue, including marketing and go-to-market, and the number itself. I do both, and the scope can grow as you do."}],
+  "related":'See <a href="/fractional-vp-of-sales">fractional VP of Sales</a>, <a href="/services/fractional-cro">the fractional CRO service</a>, <a href="/fractional-cro-for-saas">fractional CRO for B2B SaaS</a>, <a href="/recommendations">recommendations</a> and <a href="/pricing">pricing</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+
+ {"slug":"outsourced-sales-team-vs-in-house","en_only":True,
+  "title":"Outsourced Sales Team vs In-House | Tal Paperin",
+  "desc":"In-house SDRs give control but are slow to build. Outsourced sales leadership gives you a managed team faster. Here is how to choose by stage.",
+  "h1":"Outsourced sales team vs in-house","eyebrow":"Guide",
+  "lead":"In-house salespeople give you control and culture, but you pay for recruiting, ramp and management before they produce. An outsourced sales team, run under senior leadership, buys speed: a built, trained and managed function outside your headcount. For most early-stage B2B companies, the right answer depends on whether the motion is already proven.",
+  "sections":[
+    {"h": "What you are actually buying with in-house", "p": ["In-house salespeople give you control and culture. Your reps live your product, sit in your Slack and sharpen the pitch in real time. Eventually most companies want that.", "But an in-house rep costs more than one salary. You pay for recruiting time, a ramp of three to six months before they produce, a manager who knows how to coach outbound, the tooling and the data, and the real chance that the first hire does not work out and you start over. At the earliest stage you pay full price for months before the first booked meeting."]},
+    {"h": "What outsourced sales leadership buys you", "p": ["Speed. You skip the recruiting, the ramp and the management overhead, and you get conversations with real buyers this month. A complete team sits outside your headcount: native-speaking SDRs and account executives for your target markets, with the CRM, the playbook, the pipeline and the reporting built and run for you.", "The part most outsourcing leaves out is the leadership. Reps without a senior owner produce activity, and activity is cheap. My team runs under me. I hire them, train them, manage them and answer for the number.", "The tradeoff is real. You get less day-to-day control, and an outside team does not absorb your product the way an employee does. That is why the best early use of an outsourced team is to learn the market fast and prove the motion, then decide what to bring in-house."]},
+    {"h": "When in-house is the right investment", "p": ["Build in-house when you have product-market fit, a repeatable motion, a known ICP and a leader who has built a sales team before. At that point the knowledge should compound inside your walls. If you are still working out who buys and why, you are building a factory before you know what it makes."]},
+    {"h": "When to outsource the team (and still own the number)", "ul": ["You are before product-market fit, or running your first outbound motion, and need to learn the market without a hiring cycle", "Hiring and ramping a team yourself would take six to twelve months you do not have", "You want pipeline flowing while you hire and ramp your first internal reps", "You do not want the severance risk if the first hires turn out wrong"]},
+    {"p": ["Outsourcing the team does not mean giving up the number. You still see the pipeline, the forecast and the reporting, daily."]},
+    {"h": "Fractional CRO plus a team versus handing off everything", "html": "        <p>There are two ways to work with me here. As a <a href=\"/services/fractional-cro\">fractional CRO</a> I own the strategy, the forecast and the number, and I manage your people. With <a href=\"/services/outsourced-sales\">outsourced sales</a> I also bring the people: the SDRs and account executives are mine, hired, trained and managed outside your headcount. Many companies start with the outsourced team to prove the motion, then I help them hire and train an in-house team to take it over. The longer comparison is in <a href=\"/fractional-cro-vs-outsourced-sales\">fractional CRO vs outsourced sales</a>.</p>\n        <p>If all you need is the top of the funnel, an <a href=\"/outsourced-sdr-team\">outsourced SDR team</a> or <a href=\"/services/pay-per-meeting\">pay-per-meeting</a> may be enough. The monthly figures for each option are on the <a href=\"/pricing\">pricing page</a>. For the SDR-only version of this question, read <a href=\"/blog/sdr-in-house-vs-outsourced\">in-house SDRs vs outsourced</a>.</p>"},
+  ],
+  "faqs":[
+    {"q": "Is an outsourced sales team cheaper than in-house?", "a": "It is usually faster to stand up, and you avoid months of recruiting and ramp before the first meetings. In-house is the right investment once you have product-market fit, a repeatable motion, and a leader who has built a team before. Compare the monthly figures on the pricing page rather than a single salary line."},
+    {"q": "Who runs an outsourced team?", "a": "I do, as senior sales leadership: hiring, training, management, playbook and reporting. You are not buying unled reps."},
+    {"q": "Can I start outsourced and hire in-house later?", "a": "Yes. Many companies use an outsourced team to prove the motion, then I help them hire and train an in-house team to take it over."}],
+  "related":'See <a href="/services/outsourced-sales">outsourced sales</a>, <a href="/outsourced-sales-and-marketing-department">the full outsourced department</a>, <a href="/outsourced-sdr-team">outsourced SDR team</a> and <a href="/pricing">pricing</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-iot-hardware","en_only":True,
   "title":"Fractional CRO for IoT and Hardware Companies | Tal Paperin",
@@ -3047,9 +3226,9 @@ GUIDES = [
 
  {"slug":"founder-led-sales-wont-scale",
   "title":"Founder-Led Sales Won't Scale: How to Fix It | Tal Paperin",
-  "desc":"Founder-led sales stalls when every deal still runs through you. Here is how to turn it into a motion a team can run, without losing what got you here.",
-  "h1":"When Founder-Led Sales Stops Scaling","eyebrow":"Guide",
-  "lead":"Founder-led sales works right up until it does not. Here is why it stalls, and how to hand the motion to a team without the number falling off a cliff.",
+  "desc":"Founder-led sales stalls when every B2B deal still runs through you. Here is how a fractional CRO turns it into a motion a team can run.",
+  "h1":"When founder-led sales stops scaling","eyebrow":"Guide",
+  "lead":"Founder-led sales works right up until it does not. If you are still the closer in a B2B company, including B2B SaaS, the motion lives in your head and growth is capped by your calendar. Here is why it stalls, and how a fractional CRO hands the motion to a team without the number falling off a cliff.",
   "sections":[
     {"h":"Why it stalls","p":["Founder-led sales works early because you are the best salesperson in the building. You know the product cold, you carry the authority to bend terms, and buyers trust the person who built the thing. That is also the trap. The motion lives in your head, not in a system, so it cannot be copied. Growth stays capped at the number of hours you can personally sell."]},
     {"h":"The signs you have hit the ceiling","ul":["Every real deal still needs you on the call to close","Reps you hired are busy but not closing","Your pipeline and forecast are a guess, because only you know which deals are real","Revenue flattens the moment you step back to run the company","New hires take months to ramp and most never reach your numbers"]},
@@ -3058,14 +3237,15 @@ GUIDES = [
     {"h":"What waiting costs","p":["Every quarter you stay the only closer is a quarter the company cannot grow past you, and a quarter your best reps spend learning nothing transferable. Founders who wait usually pay twice: once for the reps who did not work, and again to rebuild the motion later under pressure."]},
   ],
   "faqs":[
-    {"q":"Why can't my reps close like I do?","a":"Because the motion lives in your head, not in a system they can learn. Reps are not short on effort, they are short on a documented way to sell the way you do. Build the motion, train them on it, and closing becomes teachable."},
-    {"q":"Should I just hire a VP of Sales?","a":"Only if you can define the motion for them to scale. Hiring a VP to invent your sales process from scratch is how founders churn through expensive VPs. A fractional CRO builds the motion first, then you hire to run it."},
-    {"q":"How long until the team can sell without me?","a":"A documented motion and a real forecast come in the first two weeks. Reps ramping on it is a matter of weeks after that, not the many months an unled hire takes."}],
-  "related":'Part of <a href="/how-to-build-a-sales-team">how to build and scale a sales team</a>. See <a href="/services/sales-team-building">the sales team building service</a>, <a href="/services/fractional-cro">the fractional CRO service</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
+    {"q": "Why can't my reps close like I do?", "a": "Because the motion lives in your head, not in a system they can learn. Reps are not short on effort, they are short on a documented way to sell the way you do. Build the motion, train them on it, and closing becomes teachable."},
+    {"q": "Should I just hire a VP of Sales?", "a": "Only if you can define the motion for them to scale. Hiring a VP to invent your sales process from scratch is how founders churn through expensive VPs. A fractional CRO builds the motion first, then you hire to run it."},
+    {"q": "How long until the team can sell without me?", "a": "A documented motion and a real forecast come in the first two weeks. Reps ramping on it is a matter of weeks after that, not the many months an unled hire takes."},
+    {"q": "Does this apply to B2B SaaS as well as other B2B?", "a": "Yes. B2B SaaS is often where founder-led sales lasts too long, because the founder is still the only person who can explain the product to a skeptical buyer. The fix is the same: document the motion, then build the team to run it."}],
+  "related":'Part of <a href="/how-to-build-a-sales-team">how to build and scale a sales team</a>. See <a href="/fractional-cro-for-saas">fractional CRO for B2B SaaS</a>, <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales vs a full-time VP of Sales</a>, <a href="/why-did-my-vp-of-sales-leave">why VP of Sales hires fail</a>, <a href="/services/fractional-cro">the fractional CRO service</a> and <a href="/pricing">pricing</a>, or <a href="/contact">tell me where revenue stalled</a>.'},
 
  {"slug":"building-a-sales-team-after-funding",
   "title":"Building a Sales Team After You Raise | Tal Paperin",
-  "desc":"Just raised? The fastest way to burn the round is hiring reps with no motion and no leader. Here is the order of operations that turns funding into revenue.",
+  "desc":"Just raised? The fastest way to burn the round is hiring reps with no motion and no leader. Here is the order of work that turns funding into revenue.",
   "h1":"How to Build a Sales Team After You Raise","eyebrow":"Guide",
   "lead":"A round does not buy you a market, it buys you time. Here is how to spend it building a sales team that produces revenue instead of burning the raise.",
   "sections":[
@@ -3118,7 +3298,7 @@ GUIDES = [
 
  {"slug":"hired-reps-but-no-pipeline",
   "title":"Hired Sales Reps but No Pipeline? Here Is Why | Tal Paperin",
-  "desc":"You added sales headcount and the pipeline still will not grow. Here is why reps do not produce pipeline on their own, and how I build the motion that does.",
+  "desc":"You added sales headcount and the pipeline still will not grow. Why reps do not produce pipeline on their own, and how I build the motion that does.",
   "h1":"You Hired Sales Reps and Still Have No Pipeline","eyebrow":"Guide",
   "lead":"The headcount went up. The pipeline did not. You hired reps expecting pipeline to follow, and a couple of quarters later they look busy and nothing is in the funnel. Headcount is not a motion, and reps cannot manufacture one that does not exist yet.",
   "sections":[
@@ -3136,7 +3316,7 @@ GUIDES = [
 
  {"slug":"how-to-build-a-sales-team",
   "title":"How to Build and Scale a B2B Sales Team | Tal Paperin",
-  "desc":"The order that turns founder-led selling into a team that hits the number: prove the motion, hire a leader, then reps, comp, quotas and pipeline discipline.",
+  "desc":"The order that turns founder-led selling into a team that hits the number: prove the motion, hire a leader, then reps, comp, quotas and pipeline rigor.",
   "h1":"How to Build and Scale a B2B Sales Team","eyebrow":"Guide",
   "lead":"Most founders build a sales team in the wrong order. They hire reps first and hope a motion shows up. It does not. Here is the order that actually works, from the first deal you closed yourself to a team that hits the number without you in every call. It is the same sequence I run as a fractional CRO.",
   "sections":[
@@ -3179,7 +3359,7 @@ GUIDES = [
 
  {"slug":"setting-sales-quotas",
   "title":"How to Set Sales Quotas That Work | Tal Paperin",
-  "desc":"A quota nobody hits demotivates the team and hides who can sell. How to build quotas bottoms-up from rep capacity, ramp and pipeline math, not a board wish.",
+  "desc":"A quota nobody hits demotivates the team and hides who can sell. How to build quotas bottoms-up from rep capacity, ramp and pipeline math.",
   "h1":"How to Set Sales Quotas Reps Can Actually Hit","eyebrow":"Guide",
   "lead":"Most quotas are fiction. The board wants to triple revenue, so the growth number gets divided by the number of reps and handed out as targets. Nobody asked whether a single rep, working a full year, could produce that number. That is not a quota. It is a wish with a name on it. Here is how to set one the team can actually hit.",
   "sections":[
@@ -3230,11 +3410,11 @@ GUIDES = [
     {"q":"Can you hand over to a permanent CRO?","a":"Yes. Part of an interim engagement is leaving a stronger, documented function and a clean handover to whoever takes the seat permanently."}],
   "related":'See the <a href="/services/fractional-cro">fractional CRO</a> service or <a href="/contact">get in touch</a>.'},
 
- {"slug":"fractional-vp-of-sales",
+ {"slug":"fractional-vp-of-sales","service_type":"Fractional VP of Sales",
   "title":"Fractional VP of Sales | Tal Paperin",
-  "desc":"A Fractional VP of Sales who builds and runs your sales team, the playbook and the pipeline, hands-on, without a full-time hire.",
+  "desc":"A fractional VP of Sales who builds and runs your B2B sales team, playbook and pipeline, hands-on, part-time, without a full-time VP hire.",
   "h1":"Fractional VP of Sales","eyebrow":"Guide",
-  "lead":"Need someone to build the team and run the sales floor, not just set strategy? That is a Fractional VP of Sales. I hire, train and manage the reps and own the pipeline, part-time.",
+  "lead":"Need someone to build the team and run the sales floor, not just set strategy? That is a fractional VP of Sales. I hire, train and manage the reps and own the pipeline for B2B companies, including B2B SaaS, part-time, without a full-time VP of Sales hire.",
   "sections":[
     {"h":"Fractional VP of Sales vs fractional CRO","p":["A VP of Sales runs the sales team and the pipeline day to day. A CRO owns all of revenue, sales, marketing and go-to-market, and the number itself. I do both; the right title depends on whether you need the sales floor run or the whole revenue function owned. Many companies start with a Fractional VP of Sales and grow the scope into CRO."]},
     {"h":"What I own as Fractional VP of Sales","ul":["Hiring, training and managing SDRs, AEs and BDs","The playbook, the talk tracks and the sales process","The CRM, the pipeline and the forecast","Coaching reps to quota and replacing who cannot","Day-to-day management of the sales floor"]},
@@ -3243,8 +3423,8 @@ GUIDES = [
   "faqs":[
     {"q":"What does a Fractional VP of Sales do?","a":"Builds and runs your sales team and pipeline part-time: hiring, training and managing reps, owning the playbook, the CRM and the forecast, and coaching the team to quota."},
     {"q":"Fractional VP of Sales or fractional CRO?","a":"Choose a VP of Sales to run the sales team and pipeline. Choose a CRO to own all of revenue including marketing and go-to-market. I do both and can grow the scope as you do."},
-    {"q":"How much does a Fractional VP of Sales cost?","a":"Typically $2,000 to $12,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary."}],
-  "related":'See the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/sales-team-building">team building</a> services, or <a href="/contact">get in touch</a>.'},
+    {"q":"How much does a Fractional VP of Sales cost?","a":"Typically $2,000 to $12,000 a month depending on hours, billed monthly with no lock-in, far below a full-time VP salary. If you want me full time, CRO Ownership is $22,000 a month. The full table is on the pricing page."}],
+  "related":'See <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales vs a full-time VP of Sales</a>, <a href="/fractional-cro-for-saas">fractional CRO for B2B SaaS</a>, the <a href="/services/fractional-cro">fractional CRO</a> and <a href="/services/sales-team-building">team building</a> services and <a href="/pricing">pricing</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-chief-sales-officer",
   "title":"Fractional Chief Sales Officer (CSO) | Tal Paperin",
@@ -3279,25 +3459,25 @@ GUIDES = [
   "related":'Compare <a href="/fractional-cro-cost">the cost</a> and <a href="/fractional-cro-vs-vp-of-sales">CRO vs VP of Sales</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"outsourced-sales-and-marketing-department","en_only":True,
-  "title":"Outsourced Sales and Marketing Department | KSW Solutions",
-  "desc":"An entire outsourced sales and marketing department for hire: the people and the senior management under one roof, via KSW Solutions.",
-  "h1":"Outsourced Sales and Marketing Department","eyebrow":"KSW Solutions",
-  "lead":"Do not build a revenue function from scratch. Rent the whole thing. Through KSW Solutions you get an entire sales and marketing department, the people and the senior leadership both, under one roof.",
+  "title":"Outsourced Sales and Marketing Department | Tal Paperin",
+  "desc":"An outsourced sales and marketing department: the people and the senior leadership under one roof, so you do not have to build the function from scratch.",
+  "h1":"Outsourced sales and marketing department","eyebrow":"Outsourced team",
+  "lead":"Do not build a revenue function from scratch. Rent the whole thing. You get an entire sales and marketing department, the people and the senior leadership both, under one roof: my sales team, my marketing team led by a fractional CMO, and me owning the number.",
   "sections":[
-    {"h":"The whole department, not a freelancer","p":["Most outsourcing gives you a freelancer or an agency that runs one channel. KSW Solutions gives you the entire revenue function: SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that hires, trains, manages and owns the number. One accountable team, outside your headcount."]},
+    {"h":"The whole department, not a freelancer","p":["Most outsourcing gives you a freelancer or an agency that runs one channel. I give you the entire revenue function: SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that hires, trains, manages and owns the number. One accountable team, outside your headcount."]},
     {"h":"What you get","ul":["Native-speaking SDRs and AEs for your target markets","Marketing that feeds pipeline, not just activity","Senior sales leadership and a VP overseeing the motion","The CRM, the playbook, the pipeline and the process, built and run","A forecast and accountability for the number"]},
     {"h":"When it beats hiring in-house","p":["When building a team is too slow, too expensive or too risky for your stage. You get a working revenue engine in weeks, not the six to twelve months it takes to hire and ramp one yourself, and none of the severance risk if the fit is wrong. When you are ready to bring it in-house, we hand over a working function, not a mess."]},
   ],
   "faqs":[
     {"q":"What is an outsourced sales and marketing department?","a":"The entire revenue function run for you outside your headcount: SDRs, AEs, BDs and marketing plus the senior management that runs them, hired, trained, managed and accountable for the number."},
-    {"q":"How is this different from a lead-gen agency?","a":"An agency runs one channel and hands you leads. KSW Solutions runs the whole function, sales and marketing, people and leadership, and owns the pipeline and the number end to end."},
+    {"q":"How is this different from a lead-gen agency?","a":"An agency runs one channel and hands you leads. My team and I run the whole function, sales and marketing, people and leadership, and own the pipeline and the number end to end."},
     {"q":"Can we bring it in-house later?","a":"Yes. Many clients use us to stand up a working revenue engine fast, then transition it in-house with a clean handover once it is proven."}],
-  "related":'Run by <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. See the <a href="/services/outsourced-sales">outsourced sales</a> service, or <a href="/contact">get in touch</a>.'},
+  "related":'See the <a href="/services/outsourced-sales">outsourced sales</a> service, <a href="/outsourced-sales-team-vs-in-house">outsourced vs in-house</a> and <a href="/pricing">pricing</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"outsourced-sdr-team","en_only":True,
-  "title":"Outsourced SDR Team | KSW Solutions",
-  "desc":"An outsourced SDR and BDR team that books qualified meetings, built, trained and managed for you outside your headcount.",
-  "h1":"Outsourced SDR Team","eyebrow":"KSW Solutions",
+  "title":"Outsourced SDR Team | Tal Paperin",
+  "desc":"An outsourced SDR team that books qualified B2B meetings, built, trained and managed for you, with senior sales leadership over it.",
+  "h1":"Outsourced SDR team","eyebrow":"Outsourced team",
   "lead":"Need pipeline, not headcount? Get an outsourced SDR team that books qualified meetings, built, trained and managed for you, with senior leadership over it.",
   "sections":[
     {"h":"What you get","ul":["Native-speaking SDRs and BDRs for your markets","The outbound motion, the lists, the sequences and the scripts","A manager and senior leadership over the team, not reps left alone","The CRM, the cadence and the reporting","Qualified meetings handed to your closers"]},
@@ -3307,24 +3487,24 @@ GUIDES = [
   "faqs":[
     {"q":"What does an outsourced SDR team do?","a":"Runs your top of funnel: building lists, sequences and scripts, doing the outbound, and booking qualified meetings for your closers, all managed for you outside your headcount."},
     {"q":"Outsourced SDRs or in-house?","a":"Outsource when you need pipeline fast and do not want the hiring, training and churn of building an SDR function in-house. You can always bring it in-house once it is proven."},
-    {"q":"Who manages the SDRs?","a":"KSW Solutions, under senior sales leadership, so the team runs on a real playbook with coaching and reporting, not reps left to fend for themselves."}],
-  "related":'Run by <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. See <a href="/outsourced-sales-and-marketing-department">the full department</a> or <a href="/contact">get in touch</a>.'},
+    {"q":"Who manages the SDRs?","a":"I do, with the sales managers who work for me, so the team runs on a real playbook with coaching and reporting, not reps left to fend for themselves."}],
+  "related":'See <a href="/outsourced-sales-and-marketing-department">the full department</a>, <a href="/outsourced-sales-team-vs-in-house">outsourced vs in-house</a> and <a href="/pricing">pricing</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"b2b-lead-generation-services","en_only":True,
-  "title":"B2B Lead Generation Services | KSW Solutions",
-  "desc":"B2B lead generation that fills pipeline with qualified meetings, run by an outsourced sales and marketing team with senior leadership.",
-  "h1":"B2B Lead Generation","eyebrow":"KSW Solutions",
+  "title":"B2B Lead Generation Services | Tal Paperin",
+  "desc":"B2B lead generation that fills pipeline with qualified meetings, run by an outsourced sales team with senior leadership, not a list and a blast.",
+  "h1":"B2B lead generation","eyebrow":"Outsourced team",
   "lead":"Lead generation is not a list and a blast. It is ICP, message, motion and follow-through. We run the whole thing and fill your pipeline with qualified meetings.",
   "sections":[
     {"h":"Why most lead generation fails","p":["Most lead generation fails because it starts with volume instead of the right ICP and message, and because nobody owns what happens after the click. We start with who actually buys and why, build the message and the motion around it, and run it end to end so leads turn into meetings and pipeline."]},
     {"h":"What we run","ul":["ICP definition and target lists that match how you really win","Outbound sequences, scripts and the channels that fit your buyer","Inbound and content that feeds pipeline, not vanity traffic","Qualification, so your closers only get real meetings","Reporting tied to pipeline and revenue, not opens and clicks"]},
-    {"h":"Part of the whole department","p":["Lead generation works best when it is not a silo. Through KSW Solutions it sits inside the full sales and marketing department, so the meetings we book flow straight into a managed pipeline with senior leadership owning the number."]},
+    {"h":"Part of the whole department","p":["Lead generation works best when it is not a silo. Here it sits inside the full sales and marketing department, so the meetings we book flow straight into a managed pipeline with senior leadership owning the number."]},
   ],
   "faqs":[
     {"q":"What do B2B lead generation services include?","a":"ICP and list building, outbound and inbound motion, message and content, qualification, and reporting tied to pipeline, run for you by an outsourced team."},
     {"q":"How is this different from buying leads?","a":"Bought leads are names. We build qualified meetings: the right ICP, the right message, the motion and the follow-through, owned end to end."},
     {"q":"Can you just do lead generation, or the whole function?","a":"Either. Lead generation can run on its own or as part of the full outsourced sales and marketing department, which is where it performs best."}],
-  "related":'Run by <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. See <a href="/outsourced-sales-and-marketing-department">the full department</a> or <a href="/contact">get in touch</a>.'},
+  "related":'See <a href="/outsourced-sales-and-marketing-department">the full department</a>, <a href="/outsourced-sales-team-vs-in-house">outsourced vs in-house</a> and <a href="/pricing">pricing</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"fractional-cro-for-cybersecurity","en_only":True,
   "title":"Fractional CRO for Cybersecurity Companies | Tal Paperin",
@@ -3515,7 +3695,7 @@ GUIDES = [
   "faqs":[
     {"q":"Can you help an Israeli startup enter the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
     {"q":"Do I need a US entity and US reps?","a":"Often eventually, but not always on day one. I help you sequence it: prove the motion, then stand up the presence and team, direct or through partners, when it is justified."},
-    {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
+    {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader. Full-time CRO Ownership is $22,000 a month. The full table is on the pricing page."}],
   "related":'Deciding the timing and sequence? See <a href="/when-to-expand-to-the-us">when to expand to the US</a> and <a href="/sell-in-israel-first-or-go-global">sell in Israel first, or go global?</a>. Or see the <a href="/services/market-entry">market entry</a> service and the <a href="/fractional-cro-israel">fractional CRO in Israel</a> guide, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"outsourced-cro",
@@ -3696,19 +3876,22 @@ GUIDES = [
 
  {"slug":"fractional-cro-for-the-us-market","en_only":True,
   "title":"Fractional CRO for the US Market | Tal Paperin",
-  "desc":"A fractional CRO to take a foreign or global company into the US market: pick the beachhead, build the motion and the team, and sell, on US hours.",
-  "h1":"Fractional CRO for the US Market","eyebrow":"Market Entry",
-  "lead":"The US is the prize and the place most foreign companies burn cash. I help you enter it the right way: pick the beachhead, build the motion and the team, and open the first accounts, on US hours.",
+  "desc":"A fractional CRO for B2B US market entry: pick the beachhead, build the sales motion and the team, and sell on US hours, without a full-time US VP hire.",
+  "h1":"Fractional CRO for US market entry","eyebrow":"Market Entry",
+  "lead":"Entering the US market is a sales problem, not a visa problem. I am a fractional CRO who takes B2B companies, including B2B SaaS, into the United States: pick the beachhead, build the motion and the team, and sell, on US hours, without standing up a full-time US VP of Sales first.",
   "sections":[
     {"h":"Why foreign companies stall in the US","p":["Companies from Europe, Israel, APAC and beyond bring a product that works at home and run the US sale on home assumptions: the wrong ICP, a message that does not land, no US presence and leadership eight time zones away. The US rewards focus and presence, and punishes a part-time experiment run from abroad."]},
     {"h":"What I do","ul":["Pick the right beachhead segment instead of spreading thin","Adapt the ICP, positioning and pricing for the US buyer","Build the motion, hire the first US reps and manage them","Open the first accounts and lead the key deals personally","Stand up the US presence, direct or through partners"]},
     {"h":"Built for cross-border entry into the US","p":["I am based in Israel and work US hours, and I have built and run sales in the US and across five continents and 40-plus countries for foreign and global companies. I know the expensive mistakes before you make them, and I have opened markets others wrote off."]},
   ],
   "faqs":[
-    {"q":"Can you take a foreign company into the US market?","a":"Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
-    {"q":"Do I need a US entity and US team on day one?","a":"Not always. I help you sequence it: prove the motion first, then stand up the presence and team, direct or through partners, when it is justified."},
-    {"q":"What does this cost?","a":"Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader."}],
-  "related":'See the <a href="/services/market-entry">market entry</a> service and the <a href="/us-market-entry-for-israeli-startups">US entry for Israeli startups</a> guide, or <a href="/contact">get in touch</a>.'},
+    {"q": "Can a fractional CRO run US sales from outside the United States?", "a": "Yes. Most of my clients are in the US, and I work on US hours when the work requires it. I have built sales, teams and market entry across five continents."},
+    {"q": "Do we need a full-time US VP of Sales to enter the market?", "a": "Not at first. A fractional CRO can pick the beachhead, build the motion and the first team, and sell, without standing up a full-time US VP before the motion is proven."},
+    {"q": "Do you only work with Israeli companies entering the US?", "a": "No. I have a dedicated page for Israeli founders, but the same work applies to other B2B companies entering the United States."},
+    {"q": "Can you take a foreign company into the US market?", "a": "Yes. I help pick the beachhead, adapt the ICP, positioning and pricing for the US buyer, build the motion and the first US team, and open the first accounts, working US hours."},
+    {"q": "Do I need a US entity and US team on day one?", "a": "Not always. I help you sequence it: prove the motion first, then stand up the presence and team, direct or through partners, when it is justified."},
+    {"q": "What does this cost?", "a": "Fractional engagements run $2,000 to $12,000 a month depending on involvement, billed monthly with no lock-in, far below a full-time US sales leader. Full-time CRO Ownership is $22,000 a month. The full table is on the pricing page."}],
+  "related":'See the <a href="/services/market-entry">market entry</a> service, <a href="/us-market-entry-for-israeli-startups">US entry for Israeli startups</a>, <a href="/when-to-expand-to-the-us">when to expand to the US</a>, <a href="/blog/entering-the-us-market">entering the US market</a> and <a href="/pricing">pricing</a>, or <a href="/contact">get in touch</a>.'},
 
  {"slug":"tal-paperin-podcasts-and-press",
   "title":"Tal Paperin: Podcasts, Interviews and Panels",
@@ -3725,7 +3908,7 @@ GUIDES = [
   "related":'<p>Selected appearances:</p><ul><li><a href="https://podcasts.apple.com/us/podcast/tal-paperin-ai-didnt-kill-saas-it-killed-lazy-sales-motion/id1812655142?i=1000750906146" target="_blank" rel="noopener">The Sales Strategist Podcast: "AI didn\'t kill SaaS, it killed lazy sales motion"</a> (<a href="https://open.spotify.com/episode/4GXV4h6wxRCVWXoyDzwynA" target="_blank" rel="noopener">Spotify</a>)</li><li><a href="https://marcuscauchi.podbean.com/e/success-comes-through-people-who-plan-execute-and-adapt-not-those-who-talk-about-it/" target="_blank" rel="noopener">TheInquisitor with Marcus Cauchi: "Success Comes To People Who Plan, Execute and Adapt"</a></li><li><a href="https://goodpods.com/podcasts/ask-win-114648/tal-paperin-part-2-5875148" target="_blank" rel="noopener">Ask Win: Tal Paperin (Part 2)</a></li><li><a href="https://davosinthedesert.us/israeli-technology-conference-speaker-podcasts/" target="_blank" rel="noopener">Davos in the Desert: Israeli Technology Conference panel</a></li></ul><p>More interviews and features:</p><ul><li>Solution Nation Podcast: "Investing in Israeli IIoT Companies" (2022)</li><li>The Business Blast Podcast with Tyler Wagner (2018)</li><li>The Daily Sales with Daniel Disney, on social selling (2018)</li><li>CEO Money with Michael Yorba (2018)</li><li>The Hard Corps Marketing Show: "Global Sales Fundamentals" (2018)</li><li>The Bob Low Show: "How to Penetrate New Markets" (2018)</li></ul><p>Also: "An Introduction to Sales in the 21st Century", Tal Paperin\'s eBook on B2B sales.</p><p><a href="/contact">Want me on your show or panel? Get in touch.</a></p>'},
 
  {"slug":"b2b-go-to-market-strategy",
-  "title":"B2B Go-To-Market Strategy: The Operator's Guide | Tal Paperin",
+  "title":"B2B Go-To-Market Strategy | Tal Paperin",
   "desc":"A go-to-market strategy you can run, not file away. The five parts of a real B2B GTM, the order to build them, and the mistakes that burn the budget.",
   "h1":"B2B Go-To-Market Strategy, Built by Someone Who Runs It","eyebrow":"Guide",
   "lead":"Most go-to-market strategy is a deck that gets opened once and never again. A real one is an engine you run every week. Here are the five parts, the order they go in, and how to keep it alive until it produces pipeline. This is the same sequence I use in the first 90 days with a client.",
@@ -3953,7 +4136,7 @@ GUIDES = [
 
  {"slug":"how-much-pipeline-do-you-need",
   "title":"How Much Sales Pipeline Do You Actually Need? | Tal Paperin",
-  "desc":"Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it right, and why most teams carry half what they think.",
+  "desc":"Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it, and why most teams carry half what they think.",
   "h1":"How Much Pipeline Do You Actually Need?","eyebrow":"Guide",
   "lead":"\"We have 3x coverage, so we are fine.\" I hear that in almost every forecast review, and it is almost always wrong. Not because the math is hard. Because the inputs are fake. Here is how to size the pipeline you actually need, and how to tell whether the number you are carrying is real.",
   "sections":[
@@ -4071,7 +4254,7 @@ GUIDES = [
 
  {"slug":"how-to-sell-to-enterprise",
   "title":"How to Sell to Enterprise: An Operator's Guide | Tal Paperin",
-  "desc":"Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and actually close.",
+  "desc":"Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and close.",
   "h1":"How to Sell to Enterprise","eyebrow":"Guide",
   "lead":"The big logo is a magnet. Founders chase enterprise before they can survive it, win one painful deal, and conclude they have an enterprise motion when what they have is a lucky escape. Enterprise selling is a different sport. No single buyer. A cycle measured in quarters. A procurement gate that quietly ends the unprepared. Here is how it actually works, and how to tell if you are ready.",
   "sections":[
@@ -4128,7 +4311,7 @@ GUIDES = [
 
  {"slug":"uk-market-entry-for-israeli-startups",
   "title":"UK Market Entry for Israeli Startups | Tal Paperin",
-  "desc":"Most Israeli founders default to the US. For some, the UK is the smarter first market abroad. When the UK makes sense, and how to enter without burning a year.",
+  "desc":"Most Israeli founders default to the US. For some, the UK is the smarter first market abroad. When it makes sense, and how to enter without burning a year.",
   "h1":"UK Market Entry for Israeli Startups","eyebrow":"Market entry",
   "lead":"Most Israeli founders treat the US as the only market worth entering. For a lot of B2B companies that is right. For some, the UK is the smarter first stop abroad, and for a few it is a trap they enter because it feels easy. The question is not whether the UK is a good market. It is whether it is the right one for you, now, and what entering it actually takes.",
   "sections":[
@@ -4216,9 +4399,9 @@ HE_GUIDE_PAGE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="/he">בית</a> / {h1}</p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/he">בית</a> / {crumbmid}{h1}</nav>
         <div class="glowline"></div>
-        <p class="eyebrow">{eyebrow}</p>
+        <div class="eyebrow">{eyebrow}</div>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {sections}
@@ -4360,9 +4543,9 @@ HE_GUIDES = [
 
  {"slug":"sales-training",
   "title":"הדרכת מכירות B2B שבאמת נדבקת | טל פאפרין",
-  "desc":"רוב הדרכות המכירות נכשלות כי אף אחד לא מנהל אותן אחר כך. הכשרתי 2,000 אנשי מכירות בעולם, ואז ניהלתי אותם עד למספר. הנה מה שעובד.",
+  "desc":"רוב הדרכות המכירות נכשלות כי אף אחד לא מנהל אותן אחר כך. הכשרתי יותר מ-1,000 אנשי מכירות בעולם, ואז ניהלתי אותם עד למספר. הנה מה שעובד.",
   "h1":"הדרכת מכירות לבדה לא עובדת. הנה מה שכן.","eyebrow":"מדריך",
-  "lead":"אני לא מדריך מכירות. אני סמנכ״ל מכירות ו-CRO שהכשיר יותר מ-2,000 אנשי מכירות ברחבי העולם, ואז נשאר לנהל אותם עד שההדרכה הופיעה בעסקאות סגורות. החצי השני הזה הוא החלק שכולם מדלגים עליו, וזו הסיבה שרוב הדרכות המכירות הן בזבוז כסף.",
+  "lead":"אני לא מדריך מכירות. אני סמנכ״ל מכירות ו-CRO שהכשיר יותר מ-1,000 אנשי מכירות ברחבי העולם, ואז נשאר לנהל אותם עד שההדרכה הופיעה בעסקאות סגורות. החצי השני הזה הוא החלק שכולם מדלגים עליו, וזו הסיבה שרוב הדרכות המכירות הן בזבוז כסף.",
   "sections":[
     {"h":"למה רוב הדרכות המכירות הן בזבוז כסף","p":[
       "מביאים מדריך ליומיים. הצוות מתלהב. הם מקבלים חוברת, מתודולוגיה, אולי משחק תפקידים. כולם מרגישים חדים יותר ביום שישי. עד יום רביעי שאחרי הם חוזרים למכור בדיוק כמו קודם, כי אף אחד לא שינה את מה שקורה אחרי שההדרכה נגמרת.",
@@ -4370,8 +4553,8 @@ HE_GUIDES = [
     {"h":"אני לא מדריך. אני CRO שמכשיר, ואז מנהל את הצוות.","p":[
       "יש הבדל בין מי שמעביר סדנה לבין מי שאחראי על המספר. נשאתי מכסה, בניתי את הפלייבוק, וישבתי בעסקאות בעצמי. כשאני מכשיר את הצוות שלכם, אני לא מלמד תיאוריה שקראתי בספר. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, כי סגרתי עסקאות כמו שלכם.",
       "ואז אני עושה את החלק שמדריך לא יכול: אני מנהל את הצוות כדי לוודא שזה עובד. אני יושב בשיחות, בודק את הפייפליין, מאמן את הנציגים שסוטים, ומעלה את הרף שוב ושוב עד שהדרך החדשה למכור היא פשוט הדרך שבה הצוות שלכם מוכר."]},
-    {"h":"2,000 אנשי מכירות, ואז ניהול עד למספר","p":[
-      "לאורך יותר מ-20 שנה הכשרתי יותר מ-2,000 אנשי מכירות בחמש יבשות: SDRs, סוגרים, שותפי ערוץ וצוותים שלמים, בסטארטאפים ובארגונים גדולים. ההדרכה מעולם לא הייתה העיקר. העיקר היה מה שקרה אחר כך: עסקאות נסגרו, מחזורי מכירה התקצרו, והמספר עלה ונשאר למעלה.",
+    {"h":"יותר מ-1,000 אנשי מכירות, ואז ניהול עד למספר","p":[
+      "לאורך יותר מ-20 שנה הכשרתי יותר מ-1,000 אנשי מכירות בחמש יבשות: SDRs, סוגרים, שותפי ערוץ וצוותים שלמים, בסטארטאפים ובארגונים גדולים. ההדרכה מעולם לא הייתה העיקר. העיקר היה מה שקרה אחר כך: עסקאות נסגרו, מחזורי מכירה התקצרו, והמספר עלה ונשאר למעלה.",
       "זה המבחן שאני מציב לעצמי. לא כמה טובה הרגישה הסדנה באותו יום, אלא אם ההכנסות באמת זזו רבעון אחר כך. הן זזות."]},
     {"h":"איך נראית הדרכת מכירות אמיתית","ul":[
       "היא מתחילה מהעסקאות האמיתיות שלכם, מהקונים שלכם ומההתנגדויות האמיתיות, לא מתוכנית גנרית",
@@ -4383,7 +4566,7 @@ HE_GUIDES = [
       "אם אתם רק רוצים סדנה חד פעמית כדי לסמן וי, אני האדם הלא נכון, ובכנות עדיף שתשמרו את הכסף. אבל אם אתם רוצים שהצוות שלכם ימכור טוב יותר וימשיך למכור טוב יותר, אתם צריכים את ההדרכה ואת הניהול יחד, מאותו אדם, עד שזה מחזיק. זה מה שסמנכ״ל מכירות במיקור חוץ עושה, וזו הסיבה שהלקוחות שלי רואים את המספרים באמת זזים."]},
   ],
   "faqs":[
-    {"q":"אתה מציע הדרכת מכירות?","a":"כן, אבל לא כסדנה עצמאית. אני מכשיר את הצוות שלכם כחלק מלקיחת אחריות על המכירות, כלומר אני גם מנהל את הצוות אחר כך כדי לוודא שההדרכה הופכת לעסקאות סגורות. הכשרתי יותר מ-2,000 אנשי מכירות בעולם."},
+    {"q":"אתה מציע הדרכת מכירות?","a":"כן, אבל לא כסדנה עצמאית. אני מכשיר את הצוות שלכם כחלק מלקיחת אחריות על המכירות, כלומר אני גם מנהל את הצוות אחר כך כדי לוודא שההדרכה הופכת לעסקאות סגורות. הכשרתי יותר מ-1,000 אנשי מכירות בעולם."},
     {"q":"למה רוב הדרכות המכירות לא עובדות?","a":"כי המדריך עוזב ואף אחד לא משנה את מה שקורה אחר כך. התנהגות נדבקת רק כשמנהל בכיר מאמן אותה, בודק אותה ומחזיק את הרף כל שבוע. הדרכה בלי ניהול מתמשך היא הצגה."},
     {"q":"מי מעביר את ההדרכה?","a":"אני. אני סמנכ״ל מכירות ו-CRO שנשא את המספר בידיים. אני מלמד בדיוק איך הייתי סוגר את העסקאות שלכם, מהפייפליין האמיתי שלכם, לא מתוכנית גנרית מתוך ספר."},
     {"q":"במה זה שונה משכירת מדריך מכירות?","a":"מדריך מעביר סדנה וטס הביתה. אני מכשיר את הצוות ואז נשאר לנהל אותו עד למספר: סקירת שיחות, בדיקת פייפליין ואימון שבועי עד שהדרך החדשה למכור היא פשוט איך שהצוות שלכם מוכר."},
@@ -5221,8 +5404,8 @@ ABOUT_EN = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Tal Paperin | Fractional CRO / CGO and B2B Growth Leader</title>
-  <meta name="description" content="Tal Paperin is a fractional CRO and Chief Growth Officer with 20-plus years building revenue engines on five continents. Operator, not advisor." />
+  <title>About Tal Paperin, Fractional CRO and Operator</title>
+  <meta name="description" content="Tal Paperin is a fractional CRO and fractional VP of Sales for B2B companies. Operator, not advisor. 20-plus years, five continents, $20M ARR last year." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/about" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/about" />
@@ -5231,13 +5414,13 @@ ABOUT_EN = '''<!doctype html>
 
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://talpaperin.com/about" />
-  <meta property="og:title" content="About Tal Paperin | Fractional CRO / CGO" />
-  <meta property="og:description" content="Twenty years carrying the number on five continents. Fractional CRO and Chief Growth Officer. Operator, not advisor." />
+  <meta property="og:title" content="About Tal Paperin, Fractional CRO and Operator" />
+  <meta property="og:description" content="Twenty-plus years carrying the number on five continents. Fractional CRO and fractional VP of Sales. Operator, not advisor." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="About Tal Paperin | Fractional CRO / CGO" />
-  <meta name="twitter:description" content="Twenty years carrying the number on five continents. Operator, not advisor." />
+  <meta name="twitter:title" content="About Tal Paperin, Fractional CRO and Operator" />
+  <meta name="twitter:description" content="Twenty-plus years carrying the number on five continents. Operator, not advisor." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
   {fonts}
@@ -5254,9 +5437,9 @@ ABOUT_EN = '''<!doctype html>
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
-        <p class="eyebrow">About</p>
-        <h1>About Tal Paperin</h1>
-        <p class="lead">Operator, not advisor. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty years of it, on five continents.</p>
+        <div class="eyebrow">About</div>
+        <h1>About Tal Paperin, fractional CRO</h1>
+        <p class="lead">Operator, not advisor. I am a fractional CRO and fractional VP of Sales for B2B companies, including B2B SaaS. I own the number and make the team deliver it: I diagnose where revenue is stuck, then build, train and manage the team, or bring my own, until it moves. Twenty-plus years of it, on five continents.</p>
         <div class="cta-strip"><p><strong>Revenue stuck?</strong> Tell me where. A message, WhatsApp or a short call, whichever suits you.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="/contact" data-cta="strip-talk">Let's Talk</a></div></div>
 
         <figure class="svc-photo portrait"><img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" width="800" height="1200" loading="lazy" /><figcaption>Senior revenue leadership, in the seat.</figcaption></figure>
@@ -5270,10 +5453,10 @@ ABOUT_EN = '''<!doctype html>
 
         <h2>Fractional CRO or fractional CGO?</h2>
         <p>The title depends on the mandate. A Chief Revenue Officer owns the number: sales, pipeline, forecasting and the closing motion. A Chief Growth Officer owns the whole system that produces it: sales plus marketing, partnerships and channel, pricing and packaging, and entry into new markets. I have run both, and the distinction is real.</p>
-        <p>Growth has always been the wider part of my work. KSW Solutions deliberately runs sales and marketing as one function, not two departments that blame each other. I have built distributor and channel networks across five continents, set pricing, and taken products into markets from zero. That is growth work, not just revenue work. So if your problem is &ldquo;we are not closing,&rdquo; you want a CRO. If it is &ldquo;we do not have a growth engine,&rdquo; you want a CGO. I can carry either seat, fractionally.</p>
+        <p>Growth has always been the wider part of my work. I deliberately run sales and marketing as one function, not two departments that blame each other. I have built distributor and channel networks across five continents, set pricing, and taken products into markets from zero. That is growth work, not just revenue work. So if your problem is &ldquo;we are not closing,&rdquo; you want a CRO. If it is &ldquo;we do not have a growth engine,&rdquo; you want a CGO. I can carry either seat, fractionally.</p>
 
-        <h2>KSW Solutions</h2>
-        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the firm I co-lead, is an entire sales and marketing department for hire. Not advisors on the side, the whole function under one roof: the people and the senior leadership both. SDRs, AEs, BDs and marketing, plus the VP and CRO-level management that runs them, hired, trained, managed and accountable. A company can outsource the entire revenue engine to us instead of building it.</p>
+        <h2>The teams I bring</h2>
+        <p>I do not come alone. I bring my own sales team, SDRs and account executives I hire, train and manage, and my own marketing team, led by a fractional CMO. Together that is an entire sales and marketing department for hire: the people and the senior leadership both, accountable for the number. A company can <a href="/services/outsourced-sales">outsource the whole revenue engine</a> instead of building it.</p>
         <p>We deliver field-ready operations, not slideware, across SaaS, IoT and hardware, medical devices, manufacturing and consumer brands.</p>
 
         <h2>TheDealMentor.AI</h2>
@@ -5351,7 +5534,7 @@ ABOUT_HE = '''<!doctype html>
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
-        <p class="eyebrow">אודות</p>
+        <div class="eyebrow">אודות</div>
         <h1>אודות טל פאפרין</h1>
         <p class="lead">איש ביצוע, לא יועץ. אני לוקח אחריות על המספר ודואג שהצוות יספק אותו: מאבחן איפה ההכנסות נתקעו, ואז בונה, מכשיר ומנהל את הצוות, או מביא צוות משלי, עד שהמספר זז. עשרים שנה, בחמש יבשות.</p>
         <div class="cta-strip"><p><strong>ההכנסות תקועות?</strong> ספרו לי איפה. בהודעה, בוואטסאפ או בשיחה קצרה, מה שנוח לכם.</p><div class="cta-strip-btns"><a class="btn btn-primary" href="/he/contact" data-cta="strip-talk">בואו נדבר</a></div></div>
@@ -5367,10 +5550,10 @@ ABOUT_HE = '''<!doctype html>
 
         <h2>סמנכ״ל הכנסות במיקור חוץ או סמנכ״ל צמיחה?</h2>
         <p>התואר תלוי במנדט. סמנכ״ל הכנסות (CRO) אחראי על המספר: מכירות, צינור, תחזית ומהלך הסגירה. סמנכ״ל צמיחה (CGO) אחראי על כל המערכת שמייצרת אותו: מכירות יחד עם שיווק, שותפויות וערוצי הפצה, תמחור ואריזה, וכניסה לשווקים חדשים. עשיתי את שני התפקידים, וההבדל אמיתי.</p>
-        <p>הצמיחה תמיד הייתה החלק הרחב יותר בעבודה שלי. KSW Solutions מריצה בכוונה מכירות ושיווק כפונקציה אחת, לא שתי מחלקות שמאשימות זו את זו. בניתי רשתות מפיצים וערוצי הפצה בחמש יבשות, קבעתי תמחור, והכנסתי מוצרים לשווקים מאפס. זו עבודת צמיחה, לא רק עבודת הכנסות. אז אם הבעיה היא &rdquo;אנחנו לא סוגרים&ldquo;, אתם צריכים CRO. אם היא &rdquo;אין לנו מנוע צמיחה&ldquo;, אתם צריכים CGO. אני יכול לשבת בכל אחד מהכיסאות, במיקור חוץ.</p>
+        <p>הצמיחה תמיד הייתה החלק הרחב יותר בעבודה שלי. אני מריץ בכוונה מכירות ושיווק כפונקציה אחת, לא שתי מחלקות שמאשימות זו את זו. בניתי רשתות מפיצים וערוצי הפצה בחמש יבשות, קבעתי תמחור, והכנסתי מוצרים לשווקים מאפס. זו עבודת צמיחה, לא רק עבודת הכנסות. אז אם הבעיה היא &rdquo;אנחנו לא סוגרים&ldquo;, אתם צריכים CRO. אם היא &rdquo;אין לנו מנוע צמיחה&ldquo;, אתם צריכים CGO. אני יכול לשבת בכל אחד מהכיסאות, במיקור חוץ.</p>
 
-        <h2>KSW Solutions</h2>
-        <p><a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שאני מוביל, היא מחלקת מכירות ושיווק שלמה להשכרה. לא יועצים מהצד, אלא כל הפונקציה תחת קורת גג אחת: גם האנשים וגם ההנהגה הבכירה. אנשי SDR, AE, BD ושיווק, יחד עם ההנהלה ברמת VP ו-CRO שמנהלת אותם, מגויסים, מוכשרים, מנוהלים ואחראים. חברה יכולה להוציא אלינו את כל מנוע ההכנסות למיקור חוץ במקום לבנות אותו.</p>
+        <h2>הצוותים שאני מביא</h2>
+        <p>אני לא מגיע לבד. אני מביא צוות מכירות משלי, אנשי SDR ו-AE שאני מגייס, מכשיר ומנהל, וצוות שיווק משלי, בהובלת CMO במיקור חוץ. יחד זו מחלקת מכירות ושיווק שלמה להשכרה: גם האנשים וגם ההנהגה הבכירה, עם אחריות על המספר. חברה יכולה <a href="/he/services/outsourced-sales">להוציא את כל מנוע ההכנסות למיקור חוץ</a> במקום לבנות אותו.</p>
         <p>אנחנו מספקים מערכים מוכנים לשטח, לא מצגות, ב-SaaS, IoT וחומרה, מכשור רפואי, תעשייה ומותגי צריכה.</p>
 
         <h2>TheDealMentor.AI</h2>
@@ -5413,9 +5596,11 @@ ABOUT_HE = '''<!doctype html>
 
 GUIDE_CATS = [
  ("Fractional CRO, explained", "סמנכ״ל הכנסות במיקור חוץ, מוסבר", [
+   "fractional-cro-for-saas", "fractional-vp-of-sales", "fractional-vp-sales-vs-full-time-vp-sales",
+   "fractional-cro-vs-vp-of-sales", "fractional-cro-cost",
    "how-to-hire-a-fractional-cro", "when-do-you-need-a-fractional-cro", "fractional-cro-roi",
-   "fractional-cro-cost", "fractional-cro-vs-vp-of-sales", "fractional-cro-vs-outsourced-sales",
-   "interim-cro", "outsourced-cro", "fractional-vp-of-sales", "fractional-chief-sales-officer",
+   "fractional-cro-vs-outsourced-sales",
+   "interim-cro", "outsourced-cro", "fractional-chief-sales-officer",
    "fractional-cro-for-startups", "sales-training"]),
  ("Building and scaling a sales team", "בניית והרחבת צוות מכירות", [
    "how-to-build-a-sales-team", "founder-led-sales-wont-scale", "building-a-sales-team-after-funding",
@@ -5424,7 +5609,7 @@ GUIDE_CATS = [
    "sales-pipeline-and-forecasting", "how-much-pipeline-do-you-need", "b2b-outbound-sales",
    "sales-forecast-always-wrong", "hired-reps-but-no-pipeline"]),
  ("By industry", "לפי תעשייה", [
-   "fractional-cro-for-saas", "fractional-cro-for-iot-hardware", "fractional-cro-for-medical-devices",
+   "fractional-cro-for-iot-hardware", "fractional-cro-for-medical-devices",
    "fractional-cro-for-manufacturers", "fractional-cro-for-cybersecurity", "fractional-cro-for-fintech",
    "fractional-cro-for-defense-tech", "fractional-cro-for-ai-companies", "fractional-cro-for-digital-health",
    "fractional-cro-for-climate-tech", "fractional-cro-for-foodtech", "fractional-cro-for-agritech",
@@ -5434,7 +5619,8 @@ GUIDE_CATS = [
    "fractional-cro-for-biotech", "fractional-cro-for-telecom", "fractional-cro-for-energy",
    "fractional-cro-for-professional-services"]),
  ("Outsourced sales and marketing", "מכירות ושיווק במיקור חוץ", [
-   "sales-and-marketing-consultant", "outsourced-sales-and-marketing-department", "outsourced-sdr-team", "b2b-lead-generation-services"]),
+   "outsourced-sales-team-vs-in-house", "sales-and-marketing-consultant", "outsourced-sales-and-marketing-department",
+   "outsourced-sdr-team", "b2b-lead-generation-services"]),
  ("Go-to-market strategy", "אסטרטגיית הליכה לשוק", [
    "b2b-go-to-market-strategy", "b2b-positioning-and-messaging", "go-to-market-motion", "product-led-to-sales-led",
    "how-to-sell-to-enterprise"]),
@@ -5481,7 +5667,7 @@ def render_guides_hub(he=False):
         out.append('        <ul class="hub-list">')
         for g in items:
             label = g["h1"]
-            if not he and label.startswith("Fractional CRO for "):
+            if not he and en_t == "By industry" and label.startswith("Fractional CRO for "):
                 label = label[len("Fractional CRO for "):]
                 label = label[:1].upper() + label[1:]
             out.append('          <li><a href="%s%s">%s</a><span>%s</span></li>'
@@ -5528,7 +5714,7 @@ HUB_PAGE_EN = '''<!doctype html>
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
-        <p class="eyebrow">Guides and Resources</p>
+        <div class="eyebrow">Guides and Resources</div>
         <h1>Guides and resources</h1>
         <p class="lead">Everything I know about fractional revenue leadership, in plain English: how to hire one, what it costs, the ROI, outsourced sales and marketing, and how it works in your industry.</p>
         <p><a href="/answers">Quick answers to the questions founders and sales leaders ask &rarr;</a></p>
@@ -5582,7 +5768,7 @@ HUB_PAGE_HE = '''<!doctype html>
     <div class="wrap">
       <div class="svc svc-wide">
         <div class="glowline"></div>
-        <p class="eyebrow">מדריכים ומשאבים</p>
+        <div class="eyebrow">מדריכים ומשאבים</div>
         <h1>מדריכים ומשאבים</h1>
         <p class="lead">כל מה שאני יודע על הנהגת הכנסות במיקור חוץ, בעברית פשוטה: איך לשכור, כמה זה עולה, ה-ROI, ומכירות ושיווק במיקור חוץ.</p>
         <p><a href="/he/answers">תשובות מהירות לשאלות שמייסדים ומנהלי מכירות שואלים &larr;</a></p>
@@ -5616,7 +5802,7 @@ PRICING_EN = {
  ],
  "sdr_h":"Add a sales team (salespeople)","add_label":"Add to any package","sdr_name":"Dedicated salespeople",
  "sdr_desc":"Need reps but don't want to hire in-house? I source, train and manage them, fully integrated with the leadership you are already paying for.",
- "sdr_incl":["Sourcing, hiring and onboarding of sales talent","Training on your process, messaging and objection handling","Ongoing performance management and coaching","Full integration with your KSW leadership and reporting"],
+ "sdr_incl":["Sourcing, hiring and onboarding of sales talent","Training on your process, messaging and objection handling","Ongoing performance management and coaching","Full integration with the leadership and reporting of the engagement"],
  "sdr_price_label":"Salespeople pricing","sdr_amount":"$6,000","sdr_amount_per":"/ 1 salesperson / mo",
  "sdr_tiers":["1 salesperson, $6,000/mo","2 salespeople, $11,000/mo","3+ salespeople, $5,000 each/mo"],
  "sdr_price_note":"Price includes full management, training and integration. No hidden management fees.",
@@ -5626,7 +5812,7 @@ PRICING_EN = {
  "ppm_more":"Full details on the",
  "ppm_url":"/services/pay-per-meeting",
  "ppm_more_link":"pay-per-meeting service page",
- "mk_h":"Marketing leadership (via KSW)",
+ "mk_h":"Marketing leadership",
  "marketing":[
   {"commit":"Senior oversight","name":"Marketing Oversight","price":"$4,000","per":"/mo",
    "bestfor":"Teams that already have someone running marketing but need senior oversight to improve focus, prioritization and decisions.",
@@ -5657,7 +5843,7 @@ PRICING_EN = {
   ("What is the difference between the tiers?","Advisor is senior direction on call. Starter and Growth are both hands-on: in both I hire, train and manage your salespeople and own the motion. The difference is time, Starter is about 2 hours a day, Growth is half my day, every day. CRO Ownership is full end-to-end ownership of revenue across sales, marketing and GTM."),
   ("How many clients do you take at once?","Few, because the hours are mine. Two at the Growth level, or one full-time, three to four at Starter, or about ten Advisors. If the level you want is full, I'll say so on the first call."),
   ("Can I add a sales team?","Yes. SDRs can be added to any package. I source, train and manage them, integrated with the leadership you already have."),
-  ("Do you handle marketing too?","Yes, through KSW Solutions: senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one function."),
+  ("Do you handle marketing too?","Yes. Senior marketing oversight or full fractional CMO leadership, so sales and marketing run as one revenue engine."),
  ],
  "book":"Book a call",
  "calc_h":"Not sure which package? Build your quote.",
@@ -5724,7 +5910,7 @@ PRICING_HE = {
  ],
  "sdr_h":"הוספת צוות מכירות (אנשי מכירות)","add_label":"הוספה לכל חבילה","sdr_name":"אנשי מכירות ייעודיים",
  "sdr_desc":"צריכים נציגים אבל לא רוצים לגייס פנימית? אני מאתר, מכשיר ומנהל אותם, משולבים במלואם בהנהגה שאתם כבר משלמים עליה.",
- "sdr_incl":["איתור, גיוס וקליטה של אנשי מכירות","הכשרה על התהליך, המסרים והתמודדות עם התנגדויות שלכם","ניהול ביצועים ואימון שוטפים","שילוב מלא עם ההנהגה והדיווח של KSW"],
+ "sdr_incl":["איתור, גיוס וקליטה של אנשי מכירות","הכשרה על התהליך, המסרים והתמודדות עם התנגדויות שלכם","ניהול ביצועים ואימון שוטפים","שילוב מלא עם ההנהגה והדיווח של ההתקשרות"],
  "sdr_price_label":"תמחור אנשי מכירות","sdr_amount":"$6,000","sdr_amount_per":"/ איש מכירות אחד / לחודש",
  "sdr_tiers":["איש מכירות אחד, $6,000 לחודש","שני אנשי מכירות, $11,000 לחודש","3+ אנשי מכירות, $5,000 כל אחד/לחודש"],
  "sdr_price_note":"המחיר כולל ניהול מלא, הכשרה ואינטגרציה. בלי דמי ניהול נסתרים.",
@@ -5734,7 +5920,7 @@ PRICING_HE = {
  "ppm_more":"כל הפרטים ב",
  "ppm_url":"/he/services/pay-per-meeting",
  "ppm_more_link":"עמוד שירות התשלום לפי פגישה",
- "mk_h":"הובלת שיווק (דרך KSW)",
+ "mk_h":"הובלת שיווק",
  "marketing":[
   {"commit":"פיקוח בכיר","name":"Marketing Oversight","price":"$4,000","per":"לחודש",
    "bestfor":"צוותים שכבר יש להם מישהו שמריץ שיווק, אבל צריכים פיקוח בכיר לשיפור מיקוד, תעדוף והחלטות.",
@@ -5765,7 +5951,7 @@ PRICING_HE = {
   ("מה ההבדל בין החבילות?","Advisor הוא כיוון בכיר בטלפון. Starter ו-Growth שניהם בידיים: בשניהם אני מגייס, מכשיר ומנהל את אנשי המכירות שלכם ומחזיק את התנועה. ההבדל הוא זמן, Starter הוא כשעתיים ביום, Growth הוא חצי מהיום שלי, כל יום. CRO Ownership היא בעלות מלאה על ההכנסות לרוחב מכירות, שיווק ו-GTM."),
   ("כמה לקוחות אתה לוקח במקביל?","מעט, כי השעות הן שלי. שניים ברמת Growth, או אחד במשרה מלאה, שלושה עד ארבעה ב-Starter, או כעשרה לקוחות Advisor. אם הרמה שאתם רוצים מלאה, אגיד את זה בשיחה הראשונה."),
   ("אפשר להוסיף צוות מכירות?","כן. אפשר להוסיף SDRs לכל חבילה. אני מאתר, מכשיר ומנהל אותם, משולבים בהנהגה שכבר יש לכם."),
-  ("אתם מטפלים גם בשיווק?","כן, דרך KSW Solutions: פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כפונקציה אחת."),
+  ("אתם מטפלים גם בשיווק?","כן. פיקוח שיווקי בכיר או הובלת CMO מלאה, כך שמכירות ושיווק פועלים כמנוע הכנסות אחד."),
  ],
  "book":"לתיאום שיחה",
  "calc_h":"לא בטוחים איזו חבילה? בנו הצעת מחיר.",
@@ -5980,8 +6166,8 @@ PRICING_TPL = """<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pricing: Fractional CRO, SDR Teams and Marketing | Tal Paperin</title>
-  <meta name="description" content="Straight monthly pricing for fractional CRO leadership, SDR teams and marketing leadership. Advisor to full CRO ownership. No long contracts, no exit fines." />
+  <title>Fractional CRO Pricing | Tal Paperin</title>
+  <meta name="description" content="Monthly fractional CRO pricing for B2B companies: Advisor $2,000 to CRO Ownership $22,000, plus a performance share. No long contracts, no exit fines." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/pricing" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/pricing" />
@@ -5990,12 +6176,12 @@ PRICING_TPL = """<!doctype html>
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://talpaperin.com/pricing" />
-  <meta property="og:title" content="Pricing: Fractional CRO, SDR Teams and Marketing | Tal Paperin" />
+  <meta property="og:title" content="Fractional CRO Pricing | Tal Paperin" />
   <meta property="og:description" content="Straight monthly pricing for fractional CRO leadership, SDR teams and marketing leadership. No long contracts." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Pricing | Tal Paperin" />
+  <meta name="twitter:title" content="Fractional CRO Pricing | Tal Paperin" />
   <meta name="twitter:description" content="Straight monthly pricing for fractional CRO, SDR teams and marketing leadership." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
@@ -6013,9 +6199,9 @@ PRICING_TPL = """<!doctype html>
     <div class="wrap">
       <div class="blog-head">
         <div class="glowline"></div>
-        <p class="eyebrow">Pricing</p>
+        <div class="eyebrow">Pricing</div>
         <h1>Straight pricing. No proposals, no games.</h1>
-        <p>Every engagement is built around one thing: a revenue number you can rely on. Whether I advise you a few hours a week or own the whole engine full-time, you are buying an outcome, not hours, and never a slide deck. <a href="/services">See what each engagement includes</a>.</p>
+        <p>Every engagement is built around a revenue number you can rely on. Whether I advise you a few hours a week as a fractional CRO or own the whole engine, you are buying an outcome, not a deck, billed month to month. Advisor $2,000, Starter $6,000, Growth $12,000, CRO Ownership $22,000, plus a performance share. <a href="/services">See what each engagement includes</a>.</p>
         <p class="price-outcomes-h">What every engagement is built to deliver</p>
         <ul class="price-outcomes">
           <li>A repeatable go-to-market motion that creates demand instead of waiting for it</li>
@@ -6028,7 +6214,7 @@ PRICING_TPL = """<!doctype html>
       </div>
 {body}
 {cta}
-      <div class="svc-related">See <a href="/services">what each engagement includes</a>, the <a href="/fractional-cro-cost">cost breakdown</a>, or <a href="/case-studies">the results</a>.</div>
+      <div class="svc-related">See <a href="/services">what each engagement includes</a>, the <a href="/fractional-cro-cost">cost breakdown</a>, <a href="/fractional-cro-for-saas">fractional CRO for B2B SaaS</a>, <a href="/fractional-vp-sales-vs-full-time-vp-sales">fractional VP of Sales vs a full-time VP of Sales</a>, or <a href="/case-studies">the case studies</a>.</div>
     </div>
   </main>
 
@@ -6076,7 +6262,7 @@ PRICING_TPL_HE = """<!doctype html>
     <div class="wrap">
       <div class="blog-head">
         <div class="glowline"></div>
-        <p class="eyebrow">תמחור</p>
+        <div class="eyebrow">תמחור</div>
         <h1>תמחור ישר. בלי הצעות מחיר, בלי משחקים.</h1>
         <p>כל התקשרות נבנית סביב דבר אחד: מספר הכנסות שאפשר לסמוך עליו. בין אם אני מלווה אתכם כמה שעות בשבוע ובין אם אני מנהל את כל המנוע במשרה מלאה, אתם קונים תוצאה, לא שעות, ובטח לא מצגת. <a href="/he/services">ראו מה כל שירות כולל</a>.</p>
         <p class="price-outcomes-h">מה כל התקשרות נבנית לספק</p>
@@ -6139,9 +6325,9 @@ PRIVACY_TPL = """<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="svc">
-        <p class="breadcrumb"><a href="{home}">{homelabel}</a> / {h1}</p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="{home}">{homelabel}</a> / {h1}</nav>
         <div class="glowline"></div>
-        <p class="eyebrow">{eyebrow}</p>
+        <div class="eyebrow">{eyebrow}</div>
         <h1>{h1}</h1>
         <p class="lead">{lead}</p>
 {body}
@@ -6160,7 +6346,7 @@ PRIVACY_EN = {
  "h1": "Privacy", "eyebrow": "The plain version",
  "lead": "What this site collects, why, and how to get it deleted. No legalese.",
  "sections": [
-  ("Who is responsible", ["This site is run by Tal Paperin, who also works through KSW Solutions. For anything about your data, write to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
+  ("Who is responsible", ["This site is run by Tal Paperin. For anything about your data, write to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
   ("What I collect, and when", [], [
    "When you send a message through the contact form: your name, your email address and your message.",
    "When you book a call: what you enter in the booking window, such as your name, email, phone number and your answers to the booking questions.",
@@ -6197,7 +6383,7 @@ PRIVACY_HE = {
  "h1": "פרטיות", "eyebrow": "הגרסה הפשוטה",
  "lead": "מה האתר הזה אוסף, למה, ואיך מבקשים למחוק. בלי שפה משפטית.",
  "sections": [
-  ("מי אחראי", ["האתר מופעל על ידי טל פאפרין, שפועל גם דרך KSW Solutions. לכל שאלה על המידע שלכם כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
+  ("מי אחראי", ["האתר מופעל על ידי טל פאפרין. לכל שאלה על המידע שלכם כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
   ("מה אני אוסף, ומתי", [], [
    "כשאתם שולחים הודעה בטופס יצירת הקשר: השם, כתובת המייל וההודעה.",
    "כשאתם מתאמים שיחה: מה שאתם ממלאים בחלון התיאום, כמו שם, מייל, טלפון והתשובות לשאלות התיאום.",
@@ -6235,7 +6421,7 @@ TERMS_EN = {
  "h1": "Terms of use", "eyebrow": "The plain version",
  "lead": "The rules for using this site. Short, and written to be read.",
  "sections": [
-  ("Who runs this site", ["talpaperin.com is run by Tal Paperin, who also works through KSW Solutions. Questions about these terms go to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. By using the site you accept these terms. If you do not accept them, please do not use it."], None),
+  ("Who runs this site", ["talpaperin.com is run by Tal Paperin. Questions about these terms go to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. By using the site you accept these terms. If you do not accept them, please do not use it."], None),
   ("What the content is", ["The pages, guides, blog posts and tools here share how I think about sales and revenue. They are general information. They are not legal, tax, financial or investment advice, and they are not advice about your specific company. Decisions you make from them are yours."], None),
   ("The calculators", ["The sales cost calculator and the quote builder produce estimates from the numbers you enter and from published benchmarks. They are a starting point for a conversation. They are not an audit, a forecast or an offer."], None),
   ("Prices and engagements", ["The prices on this site describe how I normally work and can change. Reading the site, sending a message or booking a call does not create a client relationship. An engagement starts only when we both sign a written agreement, and that agreement, not this site, sets the scope, the fees and the terms."], None),
@@ -6254,7 +6440,7 @@ TERMS_HE = {
  "h1": "תנאי שימוש", "eyebrow": "הגרסה הפשוטה",
  "lead": "הכללים לשימוש באתר. קצר, ונכתב כדי שיקראו אותו.",
  "sections": [
-  ("מי מפעיל את האתר", ["את האתר talpaperin.com מפעיל טל פאפרין, שעובד גם דרך KSW Solutions. שאלות על התנאים האלה אפשר לשלוח ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. השימוש באתר מהווה הסכמה לתנאים. אם אינכם מסכימים להם, אנא אל תשתמשו באתר."], None),
+  ("מי מפעיל את האתר", ["את האתר talpaperin.com מפעיל טל פאפרין. שאלות על התנאים האלה אפשר לשלוח ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. השימוש באתר מהווה הסכמה לתנאים. אם אינכם מסכימים להם, אנא אל תשתמשו באתר."], None),
   ("מה התוכן", ["העמודים, המדריכים, הפוסטים והכלים כאן משתפים איך אני חושב על מכירות והכנסות. זה מידע כללי. זה לא ייעוץ משפטי, מיסויי, פיננסי או ייעוץ השקעות, וזה לא ייעוץ לחברה הספציפית שלכם. ההחלטות שתקבלו על בסיסו הן שלכם."], None),
   ("המחשבונים", ["מחשבון עלות המכירות ובונה הצעת המחיר מפיקים הערכות מהמספרים שאתם מזינים וממדדים שפורסמו. הם נקודת פתיחה לשיחה. הם לא ביקורת, לא תחזית ולא הצעה מחייבת."], None),
   ("מחירים והתקשרויות", ["המחירים באתר מתארים איך אני עובד בדרך כלל, והם יכולים להשתנות. קריאה באתר, שליחת הודעה או תיאום שיחה לא יוצרים יחסי לקוח. התקשרות מתחילה רק כששני הצדדים חותמים על הסכם כתוב, וההסכם הזה, לא האתר, קובע את ההיקף, התשלום והתנאים."], None),
@@ -6330,7 +6516,39 @@ def optimize_html_dirs(dirs):
                     f.write(new)
 
 
+# Author bio, shown above the footer on content pages (not on home, about,
+# contact, privacy, terms). Text links only: the ask level stays "Let's Talk"
+# to the contact page, no extra booking button (see CLAUDE.md).
+BIO_EN = ('  <aside class="author-bio" aria-label="About the author"><div class="author-bio-in">'
+          '<img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" loading="lazy" />'
+          '<div><p><a href="/about"><strong>Tal Paperin</strong></a> is a fractional CRO and fractional VP of Sales '
+          'for B2B companies, including B2B SaaS. He rebuilds sales engines and owns the revenue number: '
+          '30-plus B2B companies rebuilt, $20M ARR managed last year, work across five continents. '
+          'Operator, not advisor. Monthly, no contract.</p>'
+          '<p class="author-bio-links"><a href="/about">About Tal</a><span aria-hidden="true">&middot;</span>'
+          '<a href="/contact">Let\'s talk</a></p></div></div></aside>\n\n')
+BIO_HE = ('  <aside class="author-bio" aria-label="על הכותב"><div class="author-bio-in">'
+          '<img src="/img/site/fractional-cro-portrait.jpg" alt="טל פאפרין" loading="lazy" />'
+          '<div><p><a href="/he/about"><strong>טל פאפרין</strong></a> הוא סמנכ״ל הכנסות (CRO) וסמנכ״ל מכירות במיקור חוץ '
+          'לחברות B2B, כולל B2B SaaS. הוא בונה מחדש מנועי מכירות ולוקח אחריות על מספר ההכנסות: '
+          'יותר מ-30 חברות B2B שנבנו מחדש, 20 מיליון דולר ARR בניהול בשנה האחרונה, עבודה בחמש יבשות. '
+          'איש ביצוע, לא יועץ. חודשי, בלי חוזה.</p>'
+          '<p class="author-bio-links"><a href="/he/about">אודות טל</a><span aria-hidden="true">&middot;</span>'
+          '<a href="/he/contact">בואו נדבר</a></p></div></div></aside>\n\n')
+
+
+def hub_crumb(name, path, he=False):
+    """BreadcrumbList (Home > page) for hub pages that have no deeper trail."""
+    return ('\n  <script type="application/ld+json">{"@context":"https://schema.org",'
+            '"@type":"BreadcrumbList","itemListElement":['
+            '{"@type":"ListItem","position":1,"name":"%s","item":"%s%s"},'
+            '{"@type":"ListItem","position":2,"name":"%s","item":"%s%s"}]}</script>'
+            ) % ("בית" if he else "Home", SITE, "/he" if he else "/", _jsonesc(name), SITE, path)
+
+
 def build():
+    FOOTER_BIO = BIO_EN + FOOTER
+    HE_FOOTER_BIO = BIO_HE + HE_FOOTER
     os.makedirs(SVC_DIR, exist_ok=True)
     he_dir = os.path.join(ROOT, "he", "services")
     os.makedirs(he_dir, exist_ok=True)
@@ -6361,7 +6579,7 @@ def build():
                  + "\n" + render_service_proof(svc["slug"]),
             faq=render_faq(SERVICE_FAQS_EN.get(svc["slug"]))[0],
             faqld=render_faq(SERVICE_FAQS_EN.get(svc["slug"]))[1],
-            fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX,
+            fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO, cta=CTA_BOX,
             ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(SVC_DIR, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
@@ -6381,8 +6599,8 @@ def build():
     lead_cards = [lead_cards[x] for x in LEAD_SERVICES]
     with open(os.path.join(SVC_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(INDEX.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
-                             nav=NAV, footer=FOOTER, cards="\n".join(cards), lead_cards="\n".join(lead_cards),
-                             graph=graph_ld(False)))
+                             nav=NAV, footer=FOOTER_BIO, cards="\n".join(cards), lead_cards="\n".join(lead_cards),
+                             graph=graph_ld(False) + hub_crumb("Services", "/services")))
 
     # Hebrew service pages
     for svc in HE_SERVICES:
@@ -6407,7 +6625,7 @@ def build():
                  + "\n" + render_service_proof(svc["slug"], True),
             faq=render_faq(SERVICE_FAQS_HE.get(svc["slug"]), "שאלות נפוצות")[0],
             faqld=render_faq(SERVICE_FAQS_HE.get(svc["slug"]), "שאלות נפוצות")[1],
-            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA,
+            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO, cta=HE_CTA,
             ld=ld, crumb=crumb)
         with open(os.path.join(he_dir, svc["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
@@ -6427,8 +6645,8 @@ def build():
     he_lead_cards = [he_lead_cards[x] for x in LEAD_SERVICES]
     with open(os.path.join(he_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(HE_INDEX.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
-                                nav=HE_NAV, footer=HE_FOOTER, cards="\n".join(he_cards), lead_cards="\n".join(he_lead_cards),
-                                graph=graph_ld(True)))
+                                nav=HE_NAV, footer=HE_FOOTER_BIO, cards="\n".join(he_cards), lead_cards="\n".join(he_lead_cards),
+                                graph=graph_ld(True) + hub_crumb("שירותים", "/he/services", True)))
 
     # Hebrew FAQ / challenges pillar page
     items_html = []
@@ -6446,78 +6664,132 @@ def build():
             title=esc(HE_FAQ["title"]), desc=esc(HE_FAQ["desc"]), site=SITE,
             h1=esc(HE_FAQ["h1"]), eyebrow=esc(HE_FAQ["eyebrow"]), lead=esc(HE_FAQ["lead"]),
             items="\n".join(items_html), cta=HE_CTA, faqld=faqld,
-            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER))
+            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO))
 
     # Privacy (EN + HE)
     with open(os.path.join(ROOT, "privacy.html"), "w", encoding="utf-8") as f:
         f.write(PRIVACY_TPL.format(lang="en", dir="", url=SITE + "/privacy", sitename="Tal Paperin",
             css="/blog/blog.css", home="/", homelabel="Home", fonts=FONTS, analytics=ANALYTICS, nav=NAV,
-            footer=FOOTER, enurl=SITE + "/privacy", heurl=SITE + "/he/privacy", graph=graph_ld(False), body=render_privacy_body(PRIVACY_EN),
+            footer=FOOTER, enurl=SITE + "/privacy", heurl=SITE + "/he/privacy", graph=graph_ld(False) + hub_crumb("Privacy", "/privacy"), body=render_privacy_body(PRIVACY_EN),
             **{k: PRIVACY_EN[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "he", "privacy.html"), "w", encoding="utf-8") as f:
         f.write(PRIVACY_TPL.format(lang="he", dir=' dir="rtl"', url=SITE + "/he/privacy", sitename="טל פאפרין",
             css="/he/he-pages.css", home="/he", homelabel="בית", fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
-            footer=HE_FOOTER, enurl=SITE + "/privacy", heurl=SITE + "/he/privacy", graph=graph_ld(True), body=render_privacy_body(PRIVACY_HE),
+            footer=HE_FOOTER, enurl=SITE + "/privacy", heurl=SITE + "/he/privacy", graph=graph_ld(True) + hub_crumb("פרטיות", "/he/privacy", True), body=render_privacy_body(PRIVACY_HE),
             **{k: PRIVACY_HE[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     # Terms of use (EN + HE), same template
     with open(os.path.join(ROOT, "terms.html"), "w", encoding="utf-8") as f:
         f.write(PRIVACY_TPL.format(lang="en", dir="", url=SITE + "/terms", sitename="Tal Paperin",
             css="/blog/blog.css", home="/", homelabel="Home", fonts=FONTS, analytics=ANALYTICS, nav=NAV,
-            footer=FOOTER, enurl=SITE + "/terms", heurl=SITE + "/he/terms", graph=graph_ld(False),
+            footer=FOOTER, enurl=SITE + "/terms", heurl=SITE + "/he/terms", graph=graph_ld(False) + hub_crumb("Terms", "/terms"),
             body=render_privacy_body(TERMS_EN),
             **{k: TERMS_EN[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "he", "terms.html"), "w", encoding="utf-8") as f:
         f.write(PRIVACY_TPL.format(lang="he", dir=' dir="rtl"', url=SITE + "/he/terms", sitename="טל פאפרין",
             css="/he/he-pages.css", home="/he", homelabel="בית", fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
-            footer=HE_FOOTER, enurl=SITE + "/terms", heurl=SITE + "/he/terms", graph=graph_ld(True),
+            footer=HE_FOOTER, enurl=SITE + "/terms", heurl=SITE + "/he/terms", graph=graph_ld(True) + hub_crumb("תנאי שימוש", "/he/terms", True),
             body=render_privacy_body(TERMS_HE),
             **{k: TERMS_HE[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False), contactjs=CONTACT_JS_EN, proof=render_proof(1)))
+        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False) + hub_crumb("Contact", "/contact"), contactjs=CONTACT_JS_EN, proof=render_proof(1)))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, graph=graph_ld(True), contactjs=CONTACT_JS_HE, proof=render_proof(1, True)))
+        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, graph=graph_ld(True) + hub_crumb("צור קשר", "/he/contact", True), contactjs=CONTACT_JS_HE, proof=render_proof(1, True)))
 
     with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                graph=graph_ld(False), cta=CTA_BOX, career=IG_CAREER_EN))
+                                graph=graph_ld(False) + hub_crumb("About", "/about"), cta=CTA_BOX, career=IG_CAREER_EN))
     with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
         f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                graph=graph_ld(True), cta=HE_CTA, career=IG_CAREER_HE))
+                                graph=graph_ld(True) + hub_crumb("אודות", "/he/about", True), cta=HE_CTA, career=IG_CAREER_HE))
 
     with open(os.path.join(ROOT, "pricing.html"), "w", encoding="utf-8") as f:
-        f.write(PRICING_TPL.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                cta=CTA_BOX, ldblock=pricing_ldblock(SITE + "/pricing", False),
+        f.write(PRICING_TPL.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO,
+                cta=CTA_BOX, ldblock=pricing_ldblock(SITE + "/pricing", False) + hub_crumb("Pricing", "/pricing"),
                 body="\n".join(render_pricing_body(PRICING_EN, "https://calendly.com/ksw/15min"))))
     with open(os.path.join(ROOT, "he", "pricing.html"), "w", encoding="utf-8") as f:
-        f.write(PRICING_TPL_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                cta=HE_CTA, ldblock=pricing_ldblock(SITE + "/he/pricing", True),
+        f.write(PRICING_TPL_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO,
+                cta=HE_CTA, ldblock=pricing_ldblock(SITE + "/he/pricing", True) + hub_crumb("תמחור", "/he/pricing", True),
                 body="\n".join(render_pricing_body(PRICING_HE, "https://calendly.com/ksw/15min"))))
 
     # The case-studies marquee is a teaser: drop the longest outlier quotes so the
     # strip stays a sensible height. The full set lives on the recommendations page.
-    cs_idx = [i for i, t in enumerate(TESTIMONIALS_EN) if len(t["q"]) <= 330]
+    cs_idx = [i for i, t in enumerate(TESTIMONIALS_EN) if len(t["q"]) <= 330 and not t.get("hide")]
     cs_en = [TESTIMONIALS_EN[i] for i in cs_idx]
     cs_he = [TESTIMONIALS_HE[i] for i in cs_idx]
 
     with open(os.path.join(ROOT, "case-studies.html"), "w", encoding="utf-8") as f:
-        f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                  graph=graph_ld(False),
+        f.write(CS_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO,
+                                  graph=graph_ld(False) + hub_crumb("Case studies", "/case-studies"),
                                   cases=render_cases(CASE_STUDIES, "Result", CTA_STRIP_EN),
                                   testimonials=render_testimonials(cs_en), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "case-studies.html"), "w", encoding="utf-8") as f:
-        f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                  graph=graph_ld(True),
-                                  cases=render_cases(HE_CASES, "תוצאה", CTA_STRIP_HE),
+        f.write(CS_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO,
+                                  graph=graph_ld(True) + hub_crumb("מקרי מבחן", "/he/case-studies", True),
+                                  cases=render_cases(HE_CASES, "תוצאה", CTA_STRIP_HE, he=True),
                                   testimonials=render_testimonials(cs_he, he=True), cta=HE_CTA))
 
+    # One page per case study (EN + HE), linked from the index cards
+    os.makedirs(os.path.join(ROOT, "case-studies"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "he", "case-studies"), exist_ok=True)
+    for c, hc in zip(CASE_STUDIES, HE_CASES):
+        assert c["id"] == hc["id"]
+        slug = case_slug(c)
+        page = CASE_PAGES_EN[c["id"]]
+        url = "%s/case-studies/%s" % (SITE, slug)
+        he_url = "%s/he/case-studies/%s" % (SITE, slug)
+        for he in (False, True):
+            cc = hc if he else c
+            u = he_url if he else url
+            if he:
+                title = "%s: מקרה מבחן | טל פאפרין" % cc["company"]
+                h1 = "%s: %s" % (cc["company"], cc["meta"])
+                lead = cc["result"]
+                desc = lead if len(lead) <= 155 else lead[:152].rsplit(" ", 1)[0] + "..."
+                hreflang = ('  <link rel="alternate" hreflang="he" href="%s" />\n'
+                            '  <link rel="alternate" hreflang="en" href="%s" />\n'
+                            '  <link rel="alternate" hreflang="x-default" href="%s" />') % (he_url, url, url)
+            else:
+                title = "%s Case Study | Tal Paperin" % cc["company"]
+                h1, lead, desc = page["h1"], page["lead"], page["desc"]
+                hreflang = ('  <link rel="alternate" hreflang="en" href="%s" />\n'
+                            '  <link rel="alternate" hreflang="he" href="%s" />\n'
+                            '  <link rel="alternate" hreflang="x-default" href="%s" />') % (url, he_url, url)
+            ld = ('{"@context":"https://schema.org","@type":"Article","headline":"%s","description":"%s"%s,'
+                  '"about":{"@type":"Organization","name":"%s"},'
+                  '"author":{"@id":"%s"},"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
+                  ) % (esc(h1), esc(desc), ',"inLanguage":"he"' if he else "", esc(cc["company"]),
+                       PERSON_ID, BUSINESS_ID, u)
+            crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
+                     '{"@type":"ListItem","position":1,"name":"%s","item":"%s%s"},'
+                     '{"@type":"ListItem","position":2,"name":"%s","item":"%s%s/case-studies"},'
+                     '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
+                     ) % ("בית" if he else "Home", SITE, "/he" if he else "/",
+                          "מקרי מבחן" if he else "Case studies", SITE, "/he" if he else "",
+                          esc(cc["company"]), u)
+            tpl = HE_GUIDE_PAGE if he else GUIDE_PAGE
+            html_ = tpl.format(graph=graph_ld(he),
+                title=esc(title), desc=esc(desc), url=u, site=SITE,
+                h1=esc(h1), eyebrow=("מקרה מבחן" if he else "Case study"), lead=esc(lead),
+                sections=render_case_page(cc, he), faq="", faqld="",
+                related=case_related(cc, he),
+                crumbmid=('<a href="/he/case-studies">מקרי מבחן</a> / ' if he
+                          else '<a href="/case-studies">Case studies</a> / '),
+                fonts=HE_FONTS if he else FONTS, analytics=ANALYTICS,
+                nav=HE_NAV if he else NAV, footer=HE_FOOTER_BIO if he else FOOTER_BIO,
+                cta=HE_CTA if he else CTA_BOX, ld=ld, crumb=crumb, hreflang=hreflang)
+            # the breadcrumb ends with the client name, not the long headline
+            html_ = html_.replace(' / %s</nav>' % esc(h1), ' / %s</nav>' % esc(cc["company"]), 1)
+            with open(os.path.join(ROOT, "he" if he else "", "case-studies", slug + ".html"), "w", encoding="utf-8") as f:
+                f.write(html_)
+
     with open(os.path.join(ROOT, "recommendations.html"), "w", encoding="utf-8") as f:
-        f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
-                                   graph=graph_ld(False),
+        f.write(REC_PAGE_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO,
+                                   graph=graph_ld(False) + hub_crumb("Recommendations", "/recommendations"),
                                    logos=render_logo_wall(LOGOS),
                                    quotes=render_quote_grid(TESTIMONIALS_EN), cta=CTA_BOX))
     with open(os.path.join(ROOT, "he", "recommendations.html"), "w", encoding="utf-8") as f:
-        f.write(REC_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
-                                   graph=graph_ld(True),
+        f.write(REC_PAGE_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO,
+                                   graph=graph_ld(True) + hub_crumb("המלצות", "/he/recommendations", True),
                                    logos=render_logo_wall(LOGOS),
                                    quotes=render_quote_grid(TESTIMONIALS_HE, he=True), cta=HE_CTA))
 
@@ -6535,15 +6807,16 @@ def build():
         ld = guide_ld(g, url, he=False)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
-                 '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
-                 ) % (SITE, esc(g["h1"]), url)
+                 '{"@type":"ListItem","position":2,"name":"Guides","item":"%s/guides"},'
+                 '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
+                 ) % (SITE, SITE, esc(g["h1"]), url)
         faq_html, faq_ld = render_faq(g.get("faqs"))
         page = GUIDE_PAGE.format(graph=graph_ld(False),
             title=esc(g["title"]), desc=esc(g["desc"]), url=url, site=SITE,
             h1=esc(g["h1"]), eyebrow=esc(g["eyebrow"]), lead=esc(g["lead"]),
             sections=render_guide_sections(g), faq=faq_html, faqld=faq_ld,
-            related=g["related"], fonts=FONTS, analytics=ANALYTICS, nav=NAV,
-            footer=FOOTER, cta=CTA_BOX, ld=ld, crumb=crumb, hreflang=hreflang)
+            related=g["related"], crumbmid='<a href="/guides">Guides</a> / ', fonts=FONTS, analytics=ANALYTICS, nav=NAV,
+            footer=FOOTER_BIO, cta=CTA_BOX, ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(ROOT, g["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
 
@@ -6557,25 +6830,26 @@ def build():
         ld = guide_ld(g, url, he=True)
         crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                  '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he"},'
-                 '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
-                 ) % (SITE, esc(g["h1"]), url)
+                 '{"@type":"ListItem","position":2,"name":"מדריכים","item":"%s/he/guides"},'
+                 '{"@type":"ListItem","position":3,"name":"%s","item":"%s"}]}'
+                 ) % (SITE, SITE, esc(g["h1"]), url)
         faq_html, faq_ld = render_faq(g.get("faqs"), "שאלות נפוצות")
         page = HE_GUIDE_PAGE.format(graph=graph_ld(True),
             title=esc(g["title"]), desc=esc(g["desc"]), url=url, site=SITE,
             h1=esc(g["h1"]), eyebrow=esc(g["eyebrow"]), lead=esc(g["lead"]),
             sections=render_guide_sections(g), faq=faq_html, faqld=faq_ld,
-            related=g["related"], fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
-            footer=HE_FOOTER, cta=HE_CTA, ld=ld, crumb=crumb, hreflang=hreflang)
+            related=g["related"], crumbmid='<a href="/he/guides">מדריכים</a> / ', fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV,
+            footer=HE_FOOTER_BIO, cta=HE_CTA, ld=ld, crumb=crumb, hreflang=hreflang)
         with open(os.path.join(ROOT, "he", g["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
 
     # Guides hub (links all guides so they are not orphans)
     with open(os.path.join(ROOT, "guides.html"), "w", encoding="utf-8") as f:
         f.write(HUB_PAGE_EN.format(site=SITE, fonts=FONTS, analytics=ANALYTICS,
-                                   nav=NAV, footer=FOOTER, groups=render_guides_hub(False), ld=guides_hub_ld(False)))
+                                   nav=NAV, footer=FOOTER_BIO, groups=render_guides_hub(False), ld=guides_hub_ld(False) + hub_crumb("Guides", "/guides")))
     with open(os.path.join(ROOT, "he", "guides.html"), "w", encoding="utf-8") as f:
         f.write(HUB_PAGE_HE.format(site=SITE, fonts=HE_FONTS, analytics=ANALYTICS,
-                                   nav=HE_NAV, footer=HE_FOOTER, groups=render_guides_hub(True), ld=guides_hub_ld(True)))
+                                   nav=HE_NAV, footer=HE_FOOTER_BIO, groups=render_guides_hub(True), ld=guides_hub_ld(True) + hub_crumb("מדריכים", "/he/guides", True)))
 
     # Answers hub (consolidated AEO/AIO/GEO Q&A that links into the guides)
     a_url, a_he_url = "%s/answers" % SITE, "%s/he/answers" % SITE
@@ -6584,9 +6858,9 @@ def build():
                   '  <link rel="alternate" hreflang="x-default" href="%s" />') % (a_url, a_he_url, a_url)
     a_sections, a_faqld = render_answers_sections(ANSWERS_EN, he=False)
     a_ld = ('{"@context":"https://schema.org","@type":"Article","headline":"%s","description":"%s",'
-            '"author":{"@type":"Person","@id":"%s","name":"Tal Paperin","url":"%s/"},'
+            '"author":{"@id":"%s"},'
             '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
-            ) % (esc(ANSWERS_META_EN["h1"]), esc(ANSWERS_META_EN["desc"]), PERSON_ID, SITE, BUSINESS_ID, a_url)
+            ) % (esc(ANSWERS_META_EN["h1"]), esc(ANSWERS_META_EN["desc"]), PERSON_ID, BUSINESS_ID, a_url)
     a_crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                '{"@type":"ListItem","position":1,"name":"Home","item":"%s/"},'
                '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
@@ -6595,18 +6869,18 @@ def build():
         f.write(GUIDE_PAGE.format(graph=graph_ld(False),
             title=esc(ANSWERS_META_EN["title"]), desc=esc(ANSWERS_META_EN["desc"]), url=a_url, site=SITE,
             h1=esc(ANSWERS_META_EN["h1"]), eyebrow=esc(ANSWERS_META_EN["eyebrow"]), lead=esc(ANSWERS_META_EN["lead"]),
-            sections=a_sections, faq="", faqld=a_faqld,
+            sections=a_sections, faq="", faqld=a_faqld, crumbmid="",
             related='Browse all <a href="/guides">guides</a> and <a href="/services">services</a>, or <a href="/contact">tell me where revenue stalled</a>.',
-            fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, cta=CTA_BOX, ld=a_ld, crumb=a_crumb, hreflang=a_hreflang))
+            fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO, cta=CTA_BOX, ld=a_ld, crumb=a_crumb, hreflang=a_hreflang))
 
     a_he_hreflang = ('  <link rel="alternate" hreflang="he" href="%s" />\n'
                      '  <link rel="alternate" hreflang="en" href="%s" />\n'
                      '  <link rel="alternate" hreflang="x-default" href="%s" />') % (a_he_url, a_url, a_url)
     a_he_sections, a_he_faqld = render_answers_sections(ANSWERS_HE, he=True)
     a_he_ld = ('{"@context":"https://schema.org","@type":"Article","headline":"%s","description":"%s","inLanguage":"he",'
-               '"author":{"@type":"Person","@id":"%s","name":"טל פאפרין","url":"%s/he"},'
+               '"author":{"@id":"%s"},'
                '"publisher":{"@id":"%s"},"mainEntityOfPage":"%s"}'
-               ) % (esc(ANSWERS_META_HE["h1"]), esc(ANSWERS_META_HE["desc"]), PERSON_ID, SITE, BUSINESS_ID, a_he_url)
+               ) % (esc(ANSWERS_META_HE["h1"]), esc(ANSWERS_META_HE["desc"]), PERSON_ID, BUSINESS_ID, a_he_url)
     a_he_crumb = ('{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
                   '{"@type":"ListItem","position":1,"name":"בית","item":"%s/he"},'
                   '{"@type":"ListItem","position":2,"name":"%s","item":"%s"}]}'
@@ -6615,13 +6889,14 @@ def build():
         f.write(HE_GUIDE_PAGE.format(graph=graph_ld(True),
             title=esc(ANSWERS_META_HE["title"]), desc=esc(ANSWERS_META_HE["desc"]), url=a_he_url, site=SITE,
             h1=esc(ANSWERS_META_HE["h1"]), eyebrow=esc(ANSWERS_META_HE["eyebrow"]), lead=esc(ANSWERS_META_HE["lead"]),
-            sections=a_he_sections, faq="", faqld=a_he_faqld,
+            sections=a_he_sections, faq="", faqld=a_he_faqld, crumbmid="",
             related='לכל ה<a href="/he/guides">מדריכים</a> ו<a href="/he/services">השירותים</a>, או <a href="/he/contact">ספרו לי איפה ההכנסות נתקעו</a>.',
-            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, cta=HE_CTA, ld=a_he_ld, crumb=a_he_crumb, hreflang=a_he_hreflang))
+            fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO, cta=HE_CTA, ld=a_he_ld, crumb=a_he_crumb, hreflang=a_he_hreflang))
 
     print("Built %d EN + %d HE service pages, HE index, HE FAQ, %d guides + %d HE guides"
           % (len(SERVICES), len(HE_SERVICES), len(GUIDES), len(HE_GUIDES)))
-    optimize_html_dirs([ROOT, SVC_DIR, os.path.join(ROOT, "he"), os.path.join(ROOT, "he", "services")])
+    optimize_html_dirs([ROOT, SVC_DIR, os.path.join(ROOT, "he"), os.path.join(ROOT, "he", "services"),
+                        os.path.join(ROOT, "case-studies"), os.path.join(ROOT, "he", "case-studies")])
 
 
 if __name__ == "__main__":

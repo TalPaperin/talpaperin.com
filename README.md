@@ -35,7 +35,7 @@ Any static host works (the site was scoped for a simple static deploy).
    - `https://talpaperin.com/tal-paperin.jpg` (hero portrait, 4:5, around 600x750)
    - `https://talpaperin.com/og-image.jpg` (social share image, 1200x630)
    These files do not exist yet and must be uploaded to the site's own server.
-   Do not reuse the KSW headshot URL, it is hotlink-protected and will not load
+   Do not reuse the old headshot URL, it is hotlink-protected and will not load
    cross-domain. Host the images locally here.
 
 2. **Sign off on the paraphrased wording.**

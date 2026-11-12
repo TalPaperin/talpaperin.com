@@ -1,20 +1,37 @@
 # Tal Paperin
 
-> Fractional CRO and B2B sales leader. I own the revenue number and make the team deliver it. I come in, diagnose where revenue is stuck, and fix it: for early-stage companies I build the motion from scratch, hire and train the SDRs and AEs, and own the pipeline; for established teams I train and manage the reps you have or bring my own on top, with marketing run by an in-house fractional CMO. Not a marketing agency, and not a hand-off consultant. 30-plus B2B companies rebuilt, $20M ARR managed, across five continents. Work with me three ways: fractional CRO, the full revenue team via KSW Solutions, or TheDealMentor.AI for founders who want to run the motion themselves.
+> Fractional CRO and fractional VP of Sales for B2B companies, including B2B SaaS. Operator, not advisor. Week one: I find what's broken. Week two: you get the plan. Then I rebuild the sales engine and own the revenue number. I bring my own sales team (SDRs and account executives) and my own marketing team, led by a fractional CMO. 30-plus B2B companies rebuilt, $20M ARR managed last year, work across five continents. Most clients are in the US; also North America, Europe and APAC. Pricing is month-to-month, Advisor $2,000 to CRO Ownership $22,000, plus a performance share.
+
+## Canonical site
+- https://talpaperin.com/
 
 ## Key pages
-- [Tal Paperin, Fractional CRO (home)](https://talpaperin.com/): services, what I fix, case studies, engagements and pricing, contact.
-- [About Tal Paperin](https://talpaperin.com/about): background, experience, KSW Solutions, credentials and how he works.
-- [Hebrew site](https://talpaperin.com/he): Hebrew version of the homepage.
-- [Answers](https://talpaperin.com/answers): straight answers to the questions founders and sales leaders ask about fractional CRO, cost, outsourced sales, go-to-market, stalled teams and selling upmarket.
-- [Blog](https://talpaperin.com/blog): field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue.
-- [Case studies](https://talpaperin.com/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on five continents.
-- [Pricing](https://talpaperin.com/pricing): fractional CRO, SDR team and marketing pricing, from Advisor to full CRO ownership.
+- [Tal Paperin, Fractional CRO (home)](https://talpaperin.com/): what I fix, how I work, case studies, pricing and contact.
+- [About Tal Paperin](https://talpaperin.com/about): background, experience, the teams he brings, credentials and how he works.
+- [Services](https://talpaperin.com/services): fractional CRO, fractional VP of Sales, outsourced sales leadership, go-to-market, team building and market entry.
+- [Fractional CRO](https://talpaperin.com/services/fractional-cro): the seat that owns the revenue number, strategy, team, pipeline and forecast.
+- [Fractional VP of Sales](https://talpaperin.com/fractional-vp-of-sales): builds and runs the B2B sales team, playbook and pipeline, part-time.
+- [Fractional CRO for B2B SaaS](https://talpaperin.com/fractional-cro-for-saas): ICP, pricing, outbound, the team and the forecast for B2B SaaS companies.
+- [What a fractional CRO costs](https://talpaperin.com/fractional-cro-cost): $2,000 to $22,000 a month, billed monthly, no contract, plus a performance share.
+- [Fractional CRO vs hiring a VP of Sales](https://talpaperin.com/fractional-cro-vs-vp-of-sales): when a fractional CRO beats a full-time VP hire.
+- [Fractional VP of Sales vs a full-time VP of Sales](https://talpaperin.com/fractional-vp-sales-vs-full-time-vp-sales): the same seat, part-time and month to month, compared with a full-time hire.
+- [Outsourced sales team vs in-house](https://talpaperin.com/outsourced-sales-team-vs-in-house): how to choose by stage.
+- [When founder-led sales stops scaling](https://talpaperin.com/founder-led-sales-wont-scale): why it stalls and how to hand the motion to a team.
+- [Why VP of Sales hires fail](https://talpaperin.com/why-did-my-vp-of-sales-leave): usually the seat, not only the person.
+- [Fractional CRO for US market entry](https://talpaperin.com/fractional-cro-for-the-us-market): beachhead, motion and team for B2B companies entering the United States.
+- [Pricing](https://talpaperin.com/pricing): Advisor $2,000, Starter $6,000, Growth $12,000, CRO Ownership $22,000 a month, plus a performance share. No long contracts.
+- [Recommendations](https://talpaperin.com/recommendations): what founders and executives say, in their words.
+- [Case studies](https://talpaperin.com/case-studies): engagements across SaaS, IoT, manufacturing, medical and retail, on five continents.
+- [Answers](https://talpaperin.com/answers): straight answers to the questions founders ask when revenue is stuck.
+- [Guides](https://talpaperin.com/guides): every guide and comparison in one place.
+- [Blog](https://talpaperin.com/blog): field notes on B2B sales, B2B SaaS, go-to-market and fixing stalled revenue.
 - [Contact](https://talpaperin.com/contact): email, WhatsApp, a 15-minute booking link and a contact form.
+- [Hebrew site](https://talpaperin.com/he): Hebrew version of the site.
+- TheDealMentor.AI (https://thedealmentor.ai): Tal's own product, a virtual CRO for founders who want to run the motion themselves.
 
 ## Services
 - [Fractional CRO](https://talpaperin.com/services/fractional-cro): A fractional CRO who sits in the seat and owns your revenue number, strategy, team, pipeline and forecast, without a $250K full-time hire.
-- [Outsourced Sales Teams](https://talpaperin.com/services/outsourced-sales): Outsource your entire sales function. Native-speaking SDRs and AEs, senior leadership and a VP, hired, trained and managed for you by KSW Solutions.
+- [Outsourced Sales Teams](https://talpaperin.com/services/outsourced-sales): Outsource your B2B sales function: native-speaking SDRs and AEs, plus senior leadership, hired, trained and managed for you, without building it in-house.
 - [Pay-Per-Meeting B2B Sales Meetings](https://talpaperin.com/services/pay-per-meeting): You pay for the B2B sales meetings we book, not emails or lists. We define your ICP, find the people, and put qualified meetings on your calendar.
 - [Go-To-Market Strategy](https://talpaperin.com/services/go-to-market-strategy): A go-to-market strategy you can actually execute, including SaaS GTM. ICP, positioning, channels, playbook and a real forecast, then I help you run it.
 - [Fractional CMO and Marketing Leadership](https://talpaperin.com/services/fractional-cmo): Senior marketing leadership on demand: senior oversight or full fractional CMO ownership, so marketing and sales run as one revenue engine.
@@ -24,38 +41,40 @@
 - [B2G and Public-Sector Sales](https://talpaperin.com/services/b2g-public-sector): Win complex government and public-sector deals. RFIs, RFQs and B2G projects across the globe, run by someone who has actually closed them.
 
 ## Guides
-- [Why Your VP of Sales Left](https://talpaperin.com/why-did-my-vp-of-sales-leave): Your VP of Sales quit or got pushed out and you are about to hire another. First understand why the seat failed, or the next hire leaves too.
-- [A Sales and Marketing Consultant Who Runs Both, Not Just Advises](https://talpaperin.com/sales-and-marketing-consultant): Most companies run sales and marketing as two teams that blame each other. I own both: marketing that feeds real pipeline, sales that closes it, one number.
+- [Why VP of Sales hires fail](https://talpaperin.com/why-did-my-vp-of-sales-leave): A VP of Sales leaving is usually the seat, not only the person. Before you hire again, fix why the last fractional or full-time seat failed.
+- [A Sales and Marketing Consultant Who Runs Both, Not Just Advises](https://talpaperin.com/sales-and-marketing-consultant): Most companies run sales and marketing as two teams that blame each other. I own both: marketing that feeds pipeline, sales that closes it, one number.
 - [A B2B Sales Consultant in Israel Who Owns the Number](https://talpaperin.com/b2b-sales-consultant-israel): Most sales consultants hand you a deck and leave. I am an operator who owns the number: I build and run B2B sales for Israeli companies at home and abroad.
 - [A Business Consultant for Startups Who Builds the Revenue, Not Just the Advice](https://talpaperin.com/business-consultant-for-startups): Startups do not need generic advice. They need someone to build and run sales. I am a fractional CRO who owns the revenue number, in Israel and abroad.
-- [Sales Training Alone Does Not Work. Here Is What Does.](https://talpaperin.com/sales-training): Most sales training fails because nobody runs it afterward. I have trained 2,000 salespeople worldwide, then managed them to the number. Here is what works.
-- [What a Fractional CRO Actually Costs](https://talpaperin.com/fractional-cro-cost): A straight answer on fractional CRO pricing: what it costs per month, how it compares to a $250K full-time CRO, and when each level is worth it.
+- [Sales Training Alone Does Not Work. Here Is What Does.](https://talpaperin.com/sales-training): Most sales training fails because nobody runs it afterward. I have trained more than 1,000 salespeople, then managed them to the number.
+- [What a fractional CRO actually costs](https://talpaperin.com/fractional-cro-cost): Fractional CRO pricing: $2,000 to $22,000 a month versus a $250K-plus full-time CRO, billed monthly, no contract, plus a performance share.
 - [Fractional CRO vs Outsourced Sales](https://talpaperin.com/fractional-cro-vs-outsourced-sales): Fractional CRO, fully outsourced sales, or a do-it-yourself system? A straight breakdown of which fits your stage, and how to choose.
 - [Fractional CRO in Israel](https://talpaperin.com/fractional-cro-israel): A fractional CRO for Israeli B2B companies selling at home and abroad. Senior revenue leadership, in Hebrew or English, without a $250K full-time hire.
-- [Fractional CRO vs Hiring a VP of Sales](https://talpaperin.com/fractional-cro-vs-vp-of-sales): Tired of $30K-a-month VP of Sales hires you fire in 90 days? A fractional CRO gives you proven revenue leadership with no hiring gamble and no lock-in.
-- [A Frum Business Consultant Who Gets the Heimishe World](https://talpaperin.com/frum-business-consultant): A frum, shomer Shabbos business consultant and fractional sales leader who knows the heimishe, Yiddish-speaking business world and helps frum businesses grow.
-- [Fractional CRO for SaaS](https://talpaperin.com/fractional-cro-for-saas): A fractional CRO for B2B SaaS: ICP, pricing, the outbound motion, the team and the forecast, owned end to end, without a $250K full-time hire.
+- [Fractional CRO vs hiring a VP of Sales](https://talpaperin.com/fractional-cro-vs-vp-of-sales): A $30K-a-month VP of Sales hire you fire in 90 days is a gamble. A fractional CRO gives proven revenue leadership, month to month, with no lock-in.
+- [A Frum Business Consultant Who Gets the Heimishe World](https://talpaperin.com/frum-business-consultant): A frum, shomer Shabbos business consultant and fractional sales leader who knows the heimishe, Yiddish-speaking business world and helps it grow.
+- [Fractional CRO for B2B SaaS](https://talpaperin.com/fractional-cro-for-saas): A fractional CRO for B2B SaaS: ICP, pricing, outbound, the team and the forecast, owned end to end, without a $250K full-time CRO hire.
+- [Fractional VP of Sales vs a full-time VP of Sales](https://talpaperin.com/fractional-vp-sales-vs-full-time-vp-sales): A full-time VP of Sales can run $30K a month plus ramp and severance. A fractional VP of Sales is the same seat, part-time, month to month, no lock-in.
+- [Outsourced sales team vs in-house](https://talpaperin.com/outsourced-sales-team-vs-in-house): In-house SDRs give control but are slow to build. Outsourced sales leadership gives you a managed team faster. Here is how to choose by stage.
 - [Fractional CRO for IoT and Hardware](https://talpaperin.com/fractional-cro-for-iot-hardware): A fractional CRO for IoT and hardware: complex B2B sales of devices, software and services, direct and through distributors, across borders.
 - [Fractional CRO for Medical Devices](https://talpaperin.com/fractional-cro-for-medical-devices): A fractional CRO for medical device and medtech companies: regulated, high-trust B2B sales, distributors and direct, across the EU and beyond.
 - [Fractional CRO for Manufacturers](https://talpaperin.com/fractional-cro-for-manufacturers): A fractional CRO for manufacturers: open new territories, sign distributors and retail chains, and get product onto shelves in markets you wrote off.
 - [How to Hire a Fractional CRO](https://talpaperin.com/how-to-hire-a-fractional-cro): How to hire a fractional CRO: when you need one, what to look for, the questions to ask, and what it costs.
 - [When Do You Need a Fractional CRO?](https://talpaperin.com/when-do-you-need-a-fractional-cro): The clear signs you need a fractional CRO: stalled revenue, no owner of the number, churned VPs, a great product that will not sell.
-- [When Founder-Led Sales Stops Scaling](https://talpaperin.com/founder-led-sales-wont-scale): Founder-led sales stalls when every deal still runs through you. Here is how to turn it into a motion a team can run, without losing what got you here.
-- [How to Build a Sales Team After You Raise](https://talpaperin.com/building-a-sales-team-after-funding): Just raised? The fastest way to burn the round is hiring reps with no motion and no leader. Here is the order of operations that turns funding into revenue.
+- [When founder-led sales stops scaling](https://talpaperin.com/founder-led-sales-wont-scale): Founder-led sales stalls when every B2B deal still runs through you. Here is how a fractional CRO turns it into a motion a team can run.
+- [How to Build a Sales Team After You Raise](https://talpaperin.com/building-a-sales-team-after-funding): Just raised? The fastest way to burn the round is hiring reps with no motion and no leader. Here is the order of work that turns funding into revenue.
 - [When Your Sales Team Keeps Missing Quota](https://talpaperin.com/sales-team-missing-quota): Your sales team keeps missing quota. It is usually not the reps. Here is the real diagnosis, from pipeline coverage to deal inspection, and how I fix it.
 - [Why Your Sales Forecast Is Always Wrong](https://talpaperin.com/sales-forecast-always-wrong): You commit a number to the board, then miss it. Again. Here is why your sales forecast keeps missing, and the discipline that makes it trustworthy.
-- [You Hired Sales Reps and Still Have No Pipeline](https://talpaperin.com/hired-reps-but-no-pipeline): You added sales headcount and the pipeline still will not grow. Here is why reps do not produce pipeline on their own, and how I build the motion that does.
-- [How to Build and Scale a B2B Sales Team](https://talpaperin.com/how-to-build-a-sales-team): The order that turns founder-led selling into a team that hits the number: prove the motion, hire a leader, then reps, comp, quotas and pipeline discipline.
+- [You Hired Sales Reps and Still Have No Pipeline](https://talpaperin.com/hired-reps-but-no-pipeline): You added sales headcount and the pipeline still will not grow. Why reps do not produce pipeline on their own, and how I build the motion that does.
+- [How to Build and Scale a B2B Sales Team](https://talpaperin.com/how-to-build-a-sales-team): The order that turns founder-led selling into a team that hits the number: prove the motion, hire a leader, then reps, comp, quotas and pipeline rigor.
 - [How to Build a Sales Compensation Plan That Works](https://talpaperin.com/sales-compensation-plan): Reps do exactly what you pay them to do. How to set base, variable, OTE and quota by role, keep the plan simple, and avoid the mistakes that backfire.
-- [How to Set Sales Quotas Reps Can Actually Hit](https://talpaperin.com/setting-sales-quotas): A quota nobody hits demotivates the team and hides who can sell. How to build quotas bottoms-up from rep capacity, ramp and pipeline math, not a board wish.
+- [How to Set Sales Quotas Reps Can Actually Hit](https://talpaperin.com/setting-sales-quotas): A quota nobody hits demotivates the team and hides who can sell. How to build quotas bottoms-up from rep capacity, ramp and pipeline math.
 - [Fractional CRO for Startups](https://talpaperin.com/fractional-cro-for-startups): A fractional CRO for startups: senior revenue leadership from first revenue to Series B without a full-time hire. The motion, the team and the number.
 - [Interim CRO](https://talpaperin.com/interim-cro): An interim CRO to own revenue during a gap, a transition or a turnaround. Senior leadership in the seat now, hands-on, without a permanent hire.
-- [Fractional VP of Sales](https://talpaperin.com/fractional-vp-of-sales): A Fractional VP of Sales who builds and runs your sales team, the playbook and the pipeline, hands-on, without a full-time hire.
+- [Fractional VP of Sales](https://talpaperin.com/fractional-vp-of-sales): A fractional VP of Sales who builds and runs your B2B sales team, playbook and pipeline, hands-on, part-time, without a full-time VP hire.
 - [Fractional Chief Sales Officer](https://talpaperin.com/fractional-chief-sales-officer): A fractional Chief Sales Officer who owns the sales organization, strategy and number, hands-on, without a full-time executive salary.
 - [Is a Fractional CRO Worth It?](https://talpaperin.com/fractional-cro-roi): The business case for a fractional CRO: what it costs, what it returns, and how it compares to a full-time hire or doing nothing.
-- [Outsourced Sales and Marketing Department](https://talpaperin.com/outsourced-sales-and-marketing-department): An entire outsourced sales and marketing department for hire: the people and the senior management under one roof, via KSW Solutions.
-- [Outsourced SDR Team](https://talpaperin.com/outsourced-sdr-team): An outsourced SDR and BDR team that books qualified meetings, built, trained and managed for you outside your headcount.
-- [B2B Lead Generation](https://talpaperin.com/b2b-lead-generation-services): B2B lead generation that fills pipeline with qualified meetings, run by an outsourced sales and marketing team with senior leadership.
+- [Outsourced sales and marketing department](https://talpaperin.com/outsourced-sales-and-marketing-department): An outsourced sales and marketing department: the people and the senior leadership under one roof, so you do not have to build the function from scratch.
+- [Outsourced SDR team](https://talpaperin.com/outsourced-sdr-team): An outsourced SDR team that books qualified B2B meetings, built, trained and managed for you, with senior sales leadership over it.
+- [B2B lead generation](https://talpaperin.com/b2b-lead-generation-services): B2B lead generation that fills pipeline with qualified meetings, run by an outsourced sales team with senior leadership, not a list and a blast.
 - [Fractional CRO for Cybersecurity](https://talpaperin.com/fractional-cro-for-cybersecurity): A fractional CRO for cybersecurity: selling to CISOs through long technical evaluations and channel, owned end to end without a full-time hire.
 - [Fractional CRO for Fintech](https://talpaperin.com/fractional-cro-for-fintech): A fractional CRO for fintech: long, compliance-heavy B2B cycles into banks and enterprises, owned end to end without a full-time hire.
 - [Fractional CRO for Defense Tech](https://talpaperin.com/fractional-cro-for-defense-tech): A fractional CRO for defense and dual-use tech: government and B2G sales, RFIs and RFQs, long procurement, owned end to end.
@@ -79,7 +98,7 @@
 - [Fractional CRO for Telecom](https://talpaperin.com/fractional-cro-for-telecom): A fractional CRO for telecom and connectivity: selling to carriers and operators through RFPs, long procurement and channel, owned end to end.
 - [Fractional CRO for Energy](https://talpaperin.com/fractional-cro-for-energy): A fractional CRO for energy, utilities and industrial tech: long project cycles, B2G and channel, owned end to end without a full-time hire.
 - [Fractional CRO for Professional Services](https://talpaperin.com/fractional-cro-for-professional-services): A fractional CRO for agencies, consultancies and professional-services firms: building real business development beyond founder-led referrals.
-- [Fractional CRO for the US Market](https://talpaperin.com/fractional-cro-for-the-us-market): A fractional CRO to take a foreign or global company into the US market: pick the beachhead, build the motion and the team, and sell, on US hours.
+- [Fractional CRO for US market entry](https://talpaperin.com/fractional-cro-for-the-us-market): A fractional CRO for B2B US market entry: pick the beachhead, build the sales motion and the team, and sell on US hours, without a full-time US VP hire.
 - [Tal Paperin: Podcasts, Interviews and Panels](https://talpaperin.com/tal-paperin-podcasts-and-press): Tal Paperin on go-to-market, B2B sales and revenue: selected podcasts, interviews and conference panels, in his own words.
 - [B2B Go-To-Market Strategy, Built by Someone Who Runs It](https://talpaperin.com/b2b-go-to-market-strategy): A go-to-market strategy you can run, not file away. The five parts of a real B2B GTM, the order to build them, and the mistakes that burn the budget.
 - [B2B Positioning and Messaging That Makes Buyers Pick You](https://talpaperin.com/b2b-positioning-and-messaging): Positioning is why a buyer picks you over the status quo. How to build B2B positioning and a message that sells the outcome, not the feature list.
@@ -87,12 +106,24 @@
 - [Sell in Israel First, or Go Straight Abroad?](https://talpaperin.com/sell-in-israel-first-or-go-global): Should an Israeli B2B startup sell at home first or go straight abroad? The honest answer, when local-first helps, and when it quietly burns a year.
 - [When to Expand to the US Market](https://talpaperin.com/when-to-expand-to-the-us): How to know your B2B company is ready for the US, the signals that say wait, and what to validate before you spend a dollar on a US move.
 - [How to Build a Sales Pipeline You Can Forecast](https://talpaperin.com/sales-pipeline-and-forecasting): Pipeline, outbound and forecasting are one system. How to fill the pipeline, qualify it honestly, size coverage, and forecast a number you can trust.
-- [How Much Pipeline Do You Actually Need?](https://talpaperin.com/how-much-pipeline-do-you-need): Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it right, and why most teams carry half what they think.
+- [How Much Pipeline Do You Actually Need?](https://talpaperin.com/how-much-pipeline-do-you-need): Pipeline coverage is your number divided by your true win rate, adjusted for cycle time. How to size it, and why most teams carry half what they think.
 - [How to Build a B2B Outbound Sales Motion](https://talpaperin.com/b2b-outbound-sales): Outbound is a system, not a headcount. How to build one from ICP to sequence to qualification, who runs it, and the metric that tells you it is working.
 - [European Market Entry for Israeli Startups](https://talpaperin.com/europe-market-entry-for-israeli-startups): Europe is not one market and it does not buy like the US. How to enter the EU the right way, country by country, without burning a year on the wrong one.
-- [How to Sell to Enterprise](https://talpaperin.com/how-to-sell-to-enterprise): Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and actually close.
+- [How to Sell to Enterprise](https://talpaperin.com/how-to-sell-to-enterprise): Enterprise deals have no single buyer, a six to twelve month cycle, and a security review that kills the unready. How to sell to enterprise and close.
 - [When Product-Led Growth Stalls: Adding a Sales Motion](https://talpaperin.com/product-led-to-sales-led): Self-serve got you to a point, then growth flattened. When to add a sales motion to a product-led company, and how to do it without breaking PLG.
-- [UK Market Entry for Israeli Startups](https://talpaperin.com/uk-market-entry-for-israeli-startups): Most Israeli founders default to the US. For some, the UK is the smarter first market abroad. When the UK makes sense, and how to enter without burning a year.
+- [UK Market Entry for Israeli Startups](https://talpaperin.com/uk-market-entry-for-israeli-startups): Most Israeli founders default to the US. For some, the UK is the smarter first market abroad. When it makes sense, and how to enter without burning a year.
+
+## Case studies
+- [Go-to-market and sales team build at Headcount ERC](https://talpaperin.com/case-studies/headcount-erc): Headcount ERC case study: Tal Paperin built the go-to-market plan and hired and managed the SDR and AE sales team for a US tax-credit recovery firm.
+- [Fractional VP of Sales at KanduAI](https://talpaperin.com/case-studies/kanduai): KanduAI case study: Tal Paperin as Fractional VP of Sales for an AI SaaS startup, from ICP and outbound playbook to a hired and trained SDR team.
+- [Sales leadership at LoneStar Tracking](https://talpaperin.com/case-studies/lonestar-tracking): LoneStar Tracking case study: Tal Paperin ran outsourced sales leadership for a founder-led IoT business, building the CRM, the process and the team.
+- [VP of Global Sales at Bacsoft](https://talpaperin.com/case-studies/bacsoft): Bacsoft case study: Tal Paperin as VP of Global Sales for an Israeli industrial IoT company, building a distributor network and a B2G pipeline.
+- [Eastern Europe market entry for Palram](https://talpaperin.com/case-studies/palram): Palram case study: Tal Paperin opened Eastern Europe for a global manufacturer, signing distributors and retail chains in a market it had written off.
+- [Market research and a sales machine for Limat](https://talpaperin.com/case-studies/limat): Limat case study: Tal Paperin ran the market research and built the sales machine for a push into the UK and Eastern Europe.
+- [International sales for BT9 Xsense](https://talpaperin.com/case-studies/bt9): BT9 case study: Tal Paperin built international sales for Xsense cold chain monitoring (IoT and SaaS) across the FSU, the EU and APAC.
+- [International sales and marketing at TAG Medical](https://talpaperin.com/case-studies/tag-medical): TAG Medical case study: Tal Paperin ran EU sales and built the marketing department for dental implants and digital guided-surgery systems.
+- [North American retail for SOURCE Vagabond](https://talpaperin.com/case-studies/source-vagabond): SOURCE Vagabond case study: Tal Paperin took an Israeli consumer brand into large North American retailers, direct and through distributors.
+- [Selling scientific SaaS at Synergix](https://talpaperin.com/case-studies/synergix): Synergix case study: Tal Paperin sold scientific SaaS to universities, research labs and pharma in North America, and wrote the playbook the reps ran.
 
 ## Hebrew (עברית)
 - [Services in Hebrew](https://talpaperin.com/he/services): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew.
@@ -133,7 +164,7 @@
 - [Stop Paying SDR Retainers for Activity. Pay for Meetings.](https://talpaperin.com/blog/pay-per-meeting-not-per-retainer): Most SDR services bill a flat retainer for activity. I built the opposite: you pay for the qualified B2B meetings we actually book.
 - [A Client Hired Me to Grow Them 30X. Here Is the Honest Answer.](https://talpaperin.com/blog/can-you-grow-a-company-30x): A company hired me to grow them 30X. It can be done, but only if you work backwards from the number and fund the machine that produces it.
 - [BioCatch Sold to Visa for $2.4 Billion. The Lesson Is Not the Technology.](https://talpaperin.com/blog/biocatch-visa-exit-sales-machine): BioCatch went from $7M to $100M ARR before Visa paid $2.4 billion. The lesson for founders is not the tech. It is the repeatable sales machine that scaled it.
-- [I Stopped Calling Myself a Sales Trainer. Here Is Why.](https://talpaperin.com/blog/why-sales-training-fails): Most sales training is a two-day sugar high that wears off by Wednesday. I have trained 2,000 salespeople, and the training was never what moved revenue.
+- [I Stopped Calling Myself a Sales Trainer. Here Is Why.](https://talpaperin.com/blog/why-sales-training-fails): Most sales training is a two-day sugar high that wears off by Wednesday. I have trained more than 1,000 salespeople, and the training was never what moved revenue.
 - [OpenAI Is Building a Business Team in Israel. That Tells You Everything.](https://talpaperin.com/blog/openai-building-business-team-in-israel): OpenAI is building a business team in Israel, not a dev center. What that says about turning AI into revenue, and about hiring for results over location.
 - [TPx Filed for Chapter 11 With $1.1 Billion in Debt. The Debt Was Not the Real Problem.](https://talpaperin.com/blog/tpx-chapter-11-revenue-engine): TPx filed Chapter 11 with $1.1B in debt. The real killer was revenue that did not grow fast enough, and that is a Fractional CRO problem, not a VP of Sales one.
 - [Your Sales Team Says the Pipeline Is Healthy. They Are Wrong.](https://talpaperin.com/blog/your-pipeline-is-lying-to-you): Most CEOs think they have a sales execution problem. They have a qualification problem. Here is the test that turns a $2M pipeline into an honest $700K.

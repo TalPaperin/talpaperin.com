@@ -44,7 +44,7 @@ image: /og-image.jpg
   <p><strong>Those shifts are creating very interesting possibilities for those who dare</strong>. New "legs" in the supply chain, new QA / QC options and tech, new pricing structures ...</p> 
   <p>.... and most important - <strong>SHIFT</strong> in International Sales, Trade and Business Strategies. Shift which now allows you to reach NEW markets - markets which where previously inaccessible.</p> 
   <p>I wish you successful Sales and Happy Markets!</p> 
-  <p>Tal Paperin. <a href="http://www.ksw.solutions" target="_blank">KSW Solutions</a> - your gateway to Global Success. </p> 
+  <p>Tal Paperin.</p> 
   <p><br></p>
  
 </div>

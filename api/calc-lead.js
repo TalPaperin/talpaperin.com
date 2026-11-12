@@ -3,7 +3,7 @@
 //
 // Sending goes through Tal's own Gmail over SMTP. Set these in Vercel (Project, Settings,
 // Environment Variables), then redeploy:
-//   GMAIL_USER          the Gmail / Google Workspace address that sends, e.g. the KSW mailbox
+//   GMAIL_USER          the Gmail / Google Workspace address that sends, e.g. the work mailbox
 //   GMAIL_APP_PASSWORD  a Google "app password" for that account (needs 2-Step Verification)
 //   LEAD_TO             optional, where the lead goes. Defaults to GMAIL_USER.
 // Until those exist, the submission is forwarded to the Formspree form the contact page uses,

@@ -311,6 +311,31 @@
       "source": "/blog/frum-fractional-sales-leader",
       "destination": "/blog/frum-sales-consultant",
       "permanent": true
+    },
+    {
+      "source": "/fractional-cro",
+      "destination": "/services/fractional-cro",
+      "permanent": true
+    },
+    {
+      "source": "/fractional-cro-for-b2b-saas",
+      "destination": "/fractional-cro-for-saas",
+      "permanent": true
+    },
+    {
+      "source": "/founder-led-sales-stuck",
+      "destination": "/founder-led-sales-wont-scale",
+      "permanent": true
+    },
+    {
+      "source": "/why-vp-sales-hires-fail",
+      "destination": "/why-did-my-vp-of-sales-leave",
+      "permanent": true
+    },
+    {
+      "source": "/us-market-entry-b2b-sales",
+      "destination": "/fractional-cro-for-the-us-market",
+      "permanent": true
     }
   ],
   "rewrites": [

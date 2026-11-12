@@ -65,7 +65,7 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=11" defer></script>')
+             '  <script src="/site.js?v=12" defer></script>')
 
 # Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
 # without waiting for a stylesheet; the two used above the fold are preloaded.
@@ -76,7 +76,7 @@ FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
          '  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <link rel="preload" href="/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <style>' + FONT_FACES_EN + '</style>\n'
-         '  <link rel="stylesheet" href="/site.css?v=11" />')
+         '  <link rel="stylesheet" href="/site.css?v=12" />')
 
 FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
             '<rect width="22" height="15" fill="#fff"/>'
@@ -158,6 +158,9 @@ FOOTER = '''  <footer>
           <li><a href="/blog">Blog</a></li>
           <li><a href="/when-do-you-need-a-fractional-cro">When you need a fractional CRO</a></li>
           <li><a href="/fractional-cro-cost">What a fractional CRO costs</a></li>
+          <li><a href="/fractional-vp-of-sales">Fractional VP of Sales</a></li>
+          <li><a href="/fractional-cro-for-saas">Fractional CRO for B2B SaaS</a></li>
+          <li><a href="/fractional-vp-sales-vs-full-time-vp-sales">Fractional vs full-time VP of Sales</a></li>
         </ul>
       </div>
       <div class="foot-col">
@@ -227,7 +230,7 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
             '  <link rel="preload" href="/fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <link rel="preload" href="/fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <style>' + FONT_FACES_HE + '</style>\n'
-            '  <link rel="stylesheet" href="/site.css?v=11" />')
+            '  <link rel="stylesheet" href="/site.css?v=12" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
@@ -458,13 +461,12 @@ def render_post(p):
         '"mainEntityOfPage":{"@type":"WebPage","@id":"%s"},'
         '"headline":"%s","description":"%s","image":"%s",'
         '"datePublished":"%s","dateModified":"%s","inLanguage":"%s",'
-        '"author":{"@type":"Person","name":"%s","url":"%s/"},'
-        '"publisher":{"@type":"Organization","name":"Tal Paperin",'
-        '"logo":{"@type":"ImageObject","url":"%s/og-image.jpg"}},'
+        '"author":{"@id":"%s/#tal"},'
+        '"publisher":{"@id":"%s/#business"},'
         '"keywords":"%s"}'
     ) % (url, esc(p["title"]), esc(p["description"]), img,
          p["date"].isoformat(), p["updated"].isoformat(), "he" if he else "en",
-         esc(author), SITE, SITE, esc(keywords))
+         SITE, SITE, esc(keywords))
 
     crumb = (
         '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
@@ -496,11 +498,11 @@ def render_post(p):
         .replace("{{TAGROW}}", tagrow) \
         .replace("{{BODY}}", body) \
         .replace("{{NAV}}", HE_NAV if he else NAV) \
-        .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
+        .replace("{{FOOTER}}", (_svc_mod.BIO_HE + HE_FOOTER) if he else (_svc_mod.BIO_EN + FOOTER)) \
         .replace("{{SUBSCRIBE}}", HE_SUBSCRIBE if he else SUBSCRIBE) \
         .replace("{{CTA}}", HE_CTA_BOX if he else CTA_BOX) \
         .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
-        .replace("{{ANALYTICS}}", ANALYTICS)
+        .replace("{{ANALYTICS}}", ANALYTICS + "\n\n  " + _svc_mod.graph_ld(he))
 
 
 # --- Listing pages: 20 posts per page, plus topic pages built from the tags ------------
@@ -628,12 +630,17 @@ def render_index(posts, lang="en", page=1, pages=1, topic=None, groups=(), other
         '"name":"Tal Paperin Insights","url":"%s%s",'
         '"description":"%s",'
         '"inLanguage":"%s",'
-        '"publisher":{"@type":"Organization","name":"Tal Paperin"}}'
+        '"author":{"@id":"%s/#tal"},"publisher":{"@id":"%s/#business"}}</script>\n'
+        '  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":['
+        '{"@type":"ListItem","position":1,"name":"%s","item":"%s%s"},'
+        '{"@type":"ListItem","position":2,"name":"%s","item":"%s%s"}]}'
     ) % (SITE, base.rstrip("/"), SITE, base.rstrip("/"),
          ("רשימות מהשטח על מכירות B2B, מנהיגות הכנסות, Go-to-Market ותיקון מערכי הכנסות שבורים."
           if he else
           "Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue."),
-         "he" if he else "en")
+         "he" if he else "en", SITE, SITE,
+         "בית" if he else "Home", SITE, "/he" if he else "/",
+         "בלוג" if he else "Blog", SITE, base.rstrip("/"))
 
     # topic chips (same on every listing page)
     chips = ""
@@ -653,9 +660,9 @@ def render_index(posts, lang="en", page=1, pages=1, topic=None, groups=(), other
         .replace("{{LISTING}}", listing) \
         .replace("{{LD}}", ld) \
         .replace("{{NAV}}", HE_NAV if he else NAV) \
-        .replace("{{FOOTER}}", HE_FOOTER if he else FOOTER) \
+        .replace("{{FOOTER}}", (_svc_mod.BIO_HE + HE_FOOTER) if he else (_svc_mod.BIO_EN + FOOTER)) \
         .replace("{{FONTS}}", HE_FONTS if he else FONTS) \
-        .replace("{{ANALYTICS}}", ANALYTICS)
+        .replace("{{ANALYTICS}}", ANALYTICS + "\n\n  " + _svc_mod.graph_ld(he))
     if page == 1 and not topic:
         return html
 
@@ -774,6 +781,9 @@ def render_sitemap(posts, he_posts=None, topics=(), he_topics=()):
         urls.append(('%s/services/%s' % (SITE, s["slug"]), '0.7', today))
     for g in GUIDES:
         urls.append(('%s/%s' % (SITE, g["slug"]), '0.8', today))
+    for c in _svc_mod.CASE_STUDIES:
+        urls.append(('%s/case-studies/%s' % (SITE, _svc_mod.case_slug(c)), '0.7', today))
+        urls.append(('%s/he/case-studies/%s' % (SITE, _svc_mod.case_slug(c)), '0.5', today))
     for g in HE_GUIDES:
         urls.append(('%s/he/%s' % (SITE, g["slug"]), '0.6', today))
     urls.append(('%s/he/services' % SITE, '0.7', today))
@@ -811,27 +821,41 @@ def render_llms(posts):
     lines = [
         "# Tal Paperin",
         "",
-        "> Fractional CRO and B2B sales leader. I own the revenue number and make the team "
-        "deliver it. I come in, diagnose where revenue is stuck, and fix it: for early-stage "
-        "companies I build the motion from scratch, hire and train the SDRs and AEs, and own "
-        "the pipeline; for established teams I train and manage the reps you have or bring my "
-        "own on top, with marketing run by an in-house fractional CMO. Not a marketing agency, "
-        "and not a hand-off consultant. 30-plus B2B companies rebuilt, $20M ARR managed, across "
-        "five continents. Work with me three ways: fractional CRO, the full revenue team via "
-        "KSW Solutions, or TheDealMentor.AI for founders who want to run the motion themselves.",
+        "> Fractional CRO and fractional VP of Sales for B2B companies, including B2B SaaS. "
+        "Operator, not advisor. Week one: I find what's broken. Week two: you get the plan. "
+        "Then I rebuild the sales engine and own the revenue number. I bring my own sales team "
+        "(SDRs and account executives) and my own marketing team, led by a fractional CMO. "
+        "30-plus B2B companies rebuilt, $20M ARR managed last year, work across five continents. "
+        "Most clients are in the US; also North America, Europe and APAC. Pricing is "
+        "month-to-month, Advisor $2,000 to CRO Ownership $22,000, plus a performance share.",
+        "",
+        "## Canonical site",
+        "- %s/" % SITE,
         "",
         "## Key pages",
-        "- [Tal Paperin, Fractional CRO (home)](%s/): services, what I fix, case studies, "
-        "engagements and pricing, contact." % SITE,
-        "- [About Tal Paperin](%s/about): background, experience, KSW Solutions, credentials and how he works." % SITE,
-        "- [Hebrew site](%s/he): Hebrew version of the homepage." % SITE,
-        "- [Answers](%s/answers): straight answers to the questions founders and sales leaders "
-        "ask about fractional CRO, cost, outsourced sales, go-to-market, stalled teams and selling upmarket." % SITE,
-        "- [Blog](%s/blog): field notes on B2B sales, fractional CRO leadership, "
-        "go-to-market and fixing broken revenue." % SITE,
-        "- [Case studies](%s/case-studies): real results across startups, IoT, manufacturing, medical, retail and SaaS, on five continents." % SITE,
-        "- [Pricing](%s/pricing): fractional CRO, SDR team and marketing pricing, from Advisor to full CRO ownership." % SITE,
+        "- [Tal Paperin, Fractional CRO (home)](%s/): what I fix, how I work, case studies, "
+        "pricing and contact." % SITE,
+        "- [About Tal Paperin](%s/about): background, experience, the teams he brings, credentials and how he works." % SITE,
+        "- [Services](%s/services): fractional CRO, fractional VP of Sales, outsourced sales leadership, go-to-market, team building and market entry." % SITE,
+        "- [Fractional CRO](%s/services/fractional-cro): the seat that owns the revenue number, strategy, team, pipeline and forecast." % SITE,
+        "- [Fractional VP of Sales](%s/fractional-vp-of-sales): builds and runs the B2B sales team, playbook and pipeline, part-time." % SITE,
+        "- [Fractional CRO for B2B SaaS](%s/fractional-cro-for-saas): ICP, pricing, outbound, the team and the forecast for B2B SaaS companies." % SITE,
+        "- [What a fractional CRO costs](%s/fractional-cro-cost): $2,000 to $22,000 a month, billed monthly, no contract, plus a performance share." % SITE,
+        "- [Fractional CRO vs hiring a VP of Sales](%s/fractional-cro-vs-vp-of-sales): when a fractional CRO beats a full-time VP hire." % SITE,
+        "- [Fractional VP of Sales vs a full-time VP of Sales](%s/fractional-vp-sales-vs-full-time-vp-sales): the same seat, part-time and month to month, compared with a full-time hire." % SITE,
+        "- [Outsourced sales team vs in-house](%s/outsourced-sales-team-vs-in-house): how to choose by stage." % SITE,
+        "- [When founder-led sales stops scaling](%s/founder-led-sales-wont-scale): why it stalls and how to hand the motion to a team." % SITE,
+        "- [Why VP of Sales hires fail](%s/why-did-my-vp-of-sales-leave): usually the seat, not only the person." % SITE,
+        "- [Fractional CRO for US market entry](%s/fractional-cro-for-the-us-market): beachhead, motion and team for B2B companies entering the United States." % SITE,
+        "- [Pricing](%s/pricing): Advisor $2,000, Starter $6,000, Growth $12,000, CRO Ownership $22,000 a month, plus a performance share. No long contracts." % SITE,
+        "- [Recommendations](%s/recommendations): what founders and executives say, in their words." % SITE,
+        "- [Case studies](%s/case-studies): engagements across SaaS, IoT, manufacturing, medical and retail, on five continents." % SITE,
+        "- [Answers](%s/answers): straight answers to the questions founders ask when revenue is stuck." % SITE,
+        "- [Guides](%s/guides): every guide and comparison in one place." % SITE,
+        "- [Blog](%s/blog): field notes on B2B sales, B2B SaaS, go-to-market and fixing stalled revenue." % SITE,
         "- [Contact](%s/contact): email, WhatsApp, a 15-minute booking link and a contact form." % SITE,
+        "- [Hebrew site](%s/he): Hebrew version of the site." % SITE,
+        "- TheDealMentor.AI (https://thedealmentor.ai): Tal's own product, a virtual CRO for founders who want to run the motion themselves.",
         "",
         "## Services",
     ]
@@ -840,6 +864,11 @@ def render_llms(posts):
     lines += ["", "## Guides"]
     for g in GUIDES:
         lines.append("- [%s](%s/%s): %s" % (g["h1"], SITE, g["slug"], g["desc"]))
+    lines += ["", "## Case studies"]
+    for c in _svc_mod.CASE_STUDIES:
+        lines.append("- [%s](%s/case-studies/%s): %s" % (
+            _svc_mod.CASE_PAGES_EN[c["id"]]["h1"], SITE, _svc_mod.case_slug(c),
+            _svc_mod.CASE_PAGES_EN[c["id"]]["desc"]))
     lines += ["", "## Hebrew (עברית)",
               "- [Services in Hebrew](%s/he/services): Fractional CRO, outsourced sales, GTM, team building, distributors and market entry, in Hebrew." % SITE,
               "- [International B2B sales guide (Hebrew)](%s/he/challenges): the bold guide to selling B2B internationally from Israel." % SITE,
@@ -906,7 +935,7 @@ TEMPLATE_POST = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <article class="article">
-        <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog">Blog</a></p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog">Blog</a></nav>
         <h1>{{TITLE}}</h1>
         <div class="postmeta">
           <span>By Tal Paperin</span><span class="dot">&middot;</span>
@@ -945,8 +974,8 @@ TEMPLATE_INDEX = '''<!doctype html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Insights on B2B Sales &amp; Fractional CRO Leadership | Tal Paperin</title>
-  <meta name="description" content="Field notes from Tal Paperin on B2B sales, fractional CRO leadership, go-to-market strategy and fixing broken revenue functions." />
+  <title>B2B Sales and Fractional CRO Notes | Tal Paperin</title>
+  <meta name="description" content="Field notes from fractional CRO Tal Paperin on B2B sales, B2B SaaS, go-to-market and fixing revenue functions that have stalled." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/blog" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/blog" />
@@ -955,12 +984,12 @@ TEMPLATE_INDEX = '''<!doctype html>
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://talpaperin.com/blog" />
-  <meta property="og:title" content="Insights on B2B Sales &amp; Fractional CRO Leadership | Tal Paperin" />
+  <meta property="og:title" content="B2B Sales and Fractional CRO Notes | Tal Paperin" />
   <meta property="og:description" content="Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue." />
   <meta property="og:image" content="https://talpaperin.com/og-image.jpg" />
   <meta property="og:site_name" content="Tal Paperin" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Insights on B2B Sales &amp; Fractional CRO Leadership | Tal Paperin" />
+  <meta name="twitter:title" content="B2B Sales and Fractional CRO Notes | Tal Paperin" />
   <meta name="twitter:description" content="Field notes on B2B sales, fractional CRO leadership, go-to-market and fixing broken revenue." />
   <meta name="twitter:image" content="https://talpaperin.com/og-image.jpg" />
 
@@ -979,7 +1008,7 @@ TEMPLATE_INDEX = '''<!doctype html>
     <div class="wrap">
       <div class="blog-head">
         <div class="glowline"></div>
-        <p class="eyebrow">Blog</p>
+        <div class="eyebrow">Blog</div>
         <h1>Notes on selling, scaling and fixing revenue.</h1>
         <p>Practical takes on B2B sales, fractional CRO leadership and go-to-market, from 20-plus years carrying the number on five continents.</p>
       </div>
@@ -1063,7 +1092,7 @@ TEMPLATE_POST_HE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <article class="article">
-        <p class="breadcrumb"><a href="/he">בית</a> / <a href="/he/blog">בלוג</a></p>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/he">בית</a> / <a href="/he/blog">בלוג</a></nav>
         <h1>{{TITLE}}</h1>
         <div class="postmeta">
           <span>מאת טל פאפרין</span><span class="dot">&middot;</span>
@@ -1136,7 +1165,7 @@ TEMPLATE_INDEX_HE = '''<!doctype html>
     <div class="wrap">
       <div class="blog-head">
         <div class="glowline"></div>
-        <p class="eyebrow">בלוג</p>
+        <div class="eyebrow">בלוג</div>
         <h1>מכירות, פיתוח עסקי וגדילה</h1>
         <p>תובנות מעשיות על מכירות B2B, מנהיגות הכנסות ו-Go-to-Market, מתוך יותר מ-20 שנה של אחריות על התוצאות בחמש יבשות.</p>
       </div>

@@ -1,7 +1,7 @@
 ---
 title: I Stopped Calling Myself a Sales Trainer. Here Is Why.
 seotitle: Why Sales Training Fails and What Works Instead
-description: Most sales training is a two-day sugar high that wears off by Wednesday. I have trained 2,000 salespeople, and the training was never what moved revenue.
+description: Most sales training is a two-day sugar high that wears off by Wednesday. I have trained more than 1,000 salespeople, and the training was never what moved revenue.
 date: 2026-08-05
 tags: Sales Training, Sales Leadership, Sales Team, B2B Sales, Fractional CRO
 image: /og-image.jpg
@@ -11,7 +11,7 @@ A CEO called me last month and asked if I do sales training.
 
 I said no.
 
-Then I told him I have personally trained more than 2,000 salespeople across five continents, and he got confused, which is fair. So let me explain the distinction, because it is the whole point, and it is costing you money right now if you do not see it.
+Then I told him I have personally trained more than 1,000 salespeople across five continents, and he got confused, which is fair. So let me explain the distinction, because it is the whole point, and it is costing you money right now if you do not see it.
 
 ## The two-day sugar high
 
@@ -29,7 +29,7 @@ This is the part most people get backwards. The training itself is not the thing
 
 Behavior only changes when someone senior watches it happen, coaches it in real deals, and holds the standard week after week until the new way of selling is just the way your team sells. That is not an event. That is a job. And it is a job the trainer was never hired to do, because they were already three clients down the road by the time your reps slipped back into their old habits.
 
-## What 2,000 salespeople actually taught me
+## What 1,000-plus salespeople actually taught me
 
 Over twenty-plus years I have trained SDRs, closers, channel partners and entire teams, in scrappy startups and in large organizations, in the US, the EU, the FSU and beyond. Thousands of people.
 
