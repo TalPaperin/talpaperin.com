@@ -707,3 +707,13 @@ sending the website, with recommendations and case studies?!?!"
 - Still ONE site link: the home page only, never a list of pages.
 - ops/check_reply.py enforces it: a Talpaperin reply without the site link and the words
   "recommendations" and "case studies" is blocked. Use `--other` for DealMentor and HireMatch replies.
+
+## Vectorize is over (Tal, 2026-11-12)
+Tal: "I just archived vectorize." The client terminated effective 2026-11-12 and project 51016 no
+longer exists in Explee (the API answers "Project not found"). Therefore:
+- Do NOT scan project 51016, do NOT build a Vectorize handoff, do NOT mention Vectorize leads to Adam.
+- Every older rule in this file and in the playbook about Vectorize (auto-reply ON, do not send replies,
+  Adam works the Vectorize leads, the private CRM firms) is HISTORY. The rule never to name those CRM
+  firms still stands.
+- Adam's only list now is Talpaperin people who asked for a meeting and never booked (no cold calling).
+- HireMatch ends 2026-11-22. Stop its handoff and its scan after that date, once Tal confirms.
