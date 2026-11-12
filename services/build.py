@@ -234,7 +234,7 @@ IG_CAREER_EN = '''<div class="ig-career">
 <div class="it"><div class="yr">2005</div><div class="lbl">Managing global teams</div></div>
 <div class="it"><div class="yr">2010</div><div class="lbl">Building international distribution</div></div>
 <div class="it"><div class="yr">2015</div><div class="lbl">SaaS, manufacturing and IoT</div></div>
-<div class="it"><div class="yr">2019</div><div class="lbl">Co-founded a B2B sales and marketing firm</div></div>
+<div class="it"><div class="yr">2019</div><div class="lbl">Co-founded KSW Solutions</div></div>
 <div class="it"><div class="yr">2023+</div><div class="lbl">Fractional CRO and revenue leadership</div></div>
 </div>'''
 IG_CAREER_HE = '''<div class="ig-career">
@@ -242,7 +242,7 @@ IG_CAREER_HE = '''<div class="ig-career">
 <div class="it"><div class="yr">2005</div><div class="lbl">ניהול צוותים גלובליים</div></div>
 <div class="it"><div class="yr">2010</div><div class="lbl">בניית הפצה בינלאומית</div></div>
 <div class="it"><div class="yr">2015</div><div class="lbl">SaaS, ייצור ו-IoT</div></div>
-<div class="it"><div class="yr">2019</div><div class="lbl">הקמת חברת מכירות ושיווק B2B</div></div>
+<div class="it"><div class="yr">2019</div><div class="lbl">הקמת KSW Solutions</div></div>
 <div class="it"><div class="yr">2023+</div><div class="lbl">סמנכ״ל הכנסות והובלת הכנסות</div></div>
 </div>'''
 
@@ -1934,8 +1934,7 @@ def render_testimonials(quotes, he=False):
 
 
 # "hide": True keeps a quote in the list (so the index-based references stay
-# stable) but off every page. The ePropertyCare quote is hidden until the client
-# approves wording without the old firm name. Never edit a client's words.
+# stable) but off every page. Nothing is hidden today. Never edit a client's words.
 TESTIMONIALS_EN = [
  {"q": "We brought in Tal Paperin as our Fractional VP of Sales from day one at KanduAi. He wasn't just a consultant, he acted as a true VP of Sales. He defined our Ideal Customer Profile, built our outbound playbook, hired and trained SDRs, and launched our outbound motion twice. If you're a founder trying to launch or relaunch sales from zero, Tal is who you want in your corner.", "case": "kanduai", "name": "Ariel Shemesh", "role": "Co-Founder & CEO", "company": "KanduAI", "tag": "fractional-cro", "photo": "/img/testimonials/ariel-shemesh.jpg"},
  {"q": "Tal has been a pleasure to work with. I own and operate a small business in the IoT sector, and have very little experience in sales and marketing. Tal was able to quickly develop a strategy for us, implement a CRM, and start building and training our sales team. If you are a small (or large) business needing to get your sales and marketing straightened out, Tal is your guy.", "case": "lonestar-tracking", "name": "Tommy Remmert", "role": "Co-Founder & CTO", "company": "LoneStar Tracking", "tag": "outsourced-sales", "photo": "/img/testimonials/tommy-remmert.jpg"},
@@ -1948,7 +1947,7 @@ TESTIMONIALS_EN = [
  {"q": "Tal provided me with wise advice. He listened to me and asked great questions that showed an advanced level of understanding and attention, and then gave very helpful advice and shared his ways of thinking on the matter. I was most impressed by his methodical way of thinking and experimenting in sales.", "name": "Neriya Rosner", "role": "Founder & CEO", "company": "SpecBite", "tag": "go-to-market-strategy", "photo": "/img/testimonials/neriya-rosner.jpg"},
  {"q": "Tal is a real professional! I've asked him to provide an opinion on commercialization of a medical device product. What I received is a deep dive into entire world of terms, key players and possibilities and, on the other hand, a clear recommendation and a guidance for proper planning of my next steps.", "name": "Yakov Nedlin", "role": "Founder", "company": "LIBACCORD", "tag": "market-entry", "photo": "/img/testimonials/yakov-nedlin.jpg"},
  {"q": "I had a great experience working with Tal Paperin. He gave me some great insight and ideas about how to take my business to the next dimension. He provides an array of services to help businesses make more money from domestic or international expansion. I would recommend using them for sure.", "name": "Sherman Barnes II", "role": "Head of Sales & Marketing", "company": "Trio Trucking", "tag": "market-entry", "photo": "/img/testimonials/sherman-barnes-ii.jpg"},
- {"hide": True, "q": "KSW is an incredible resource, but more importantly, there are very few people as talented as Tal when it comes to sales strategy. He helped close a publicly traded company for my startup.", "name": "Huw Nierenberg", "role": "Co-Founder", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
+ {"q": "KSW is an incredible resource, but more importantly, there are very few people as talented as Tal when it comes to sales strategy. He helped close a publicly traded company for my startup.", "name": "Huw Nierenberg", "role": "Co-Founder", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
  {"q": "I had the pleasure to work with Tal. I can tell that Tal is a great team player, very energetic and enthusiastic to get things done. He was always willing to help and share his experience in international sales and project management. He is practical, analytic with solving skills and nice to have around!", "name": "Luisa Arroyave", "role": "Senior Manager", "company": "Walmart Global Sourcing", "tag": "market-entry", "photo": "/img/testimonials/luisa-arroyave.jpg"},
  {"q": "Tal Paperin has everything you want and need in a solutions consulting company: years of experience in both pre and post sales, connections in all the BRIC countries, knowledge in how to standout in many different types of markets, and more ways to increase your company's profitability.", "name": "Gabriel Heifets", "role": "HW Lead Engineer", "company": "Annapurna Labs (Amazon)", "tag": "market-entry", "photo": "/img/testimonials/gabriel-heifets.jpg"},
  {"q": "Tal has the knowledge and deep understanding to analyze and map the market competition in order to promote the comparative advantage for any category of products. Tal is the one you would like to have as your team leader.", "name": "Barak Kav", "role": "CEO", "company": "TAG Dental", "tag": "go-to-market-strategy", "photo": "/img/testimonials/barak-kav.jpg"},
@@ -1987,7 +1986,7 @@ TESTIMONIALS_HE = [
  {"q": "טל נתן לי עצות חכמות ומדויקות. הוא הקשיב לי, שאל שאלות מצוינות שהראו רמת הבנה ותשומת לב גבוהה, ואז נתן עצות מועילות במיוחד ושיתף את דרכי החשיבה שלו בנושא. מה שהכי הרשים אותי זו הדרך המתודית שבה הוא חושב ומנווט בעולם המכירות.", "name": "נריה רוזנר", "role": "מייסדת ומנכ\"לית", "company": "SpecBite", "tag": "go-to-market-strategy", "photo": "/img/testimonials/neriya-rosner.jpg"},
  {"q": "טל הוא מקצוען אמיתי! ביקשתי ממנו חוות דעת על מסחור של מוצר בתחום המכשור הרפואי. מה שקיבלתי היה צלילת עומק מטורפת לכל עולם המושגים, שחקני המפתח והאפשרויות, ומצד שני, המלצה ברורה והכוונה מדויקת לתכנון השלבים הבאים שלי.", "name": "יעקב נדלין", "role": "מייסד", "company": "LIBACCORD", "tag": "market-entry", "photo": "/img/testimonials/yakov-nedlin.jpg"},
  {"q": "הייתה לי חוויה מדהימה בעבודה עם טל פאפרין. הוא נתן לי תובנות ורעיונות מעולים איך לקחת את העסק שלי לשלב הבא. הוא מציע מגוון רחב של שירותים שעוזרים לעסקים להרוויח יותר כסף מהתרחבות מקומית או בינלאומית. אני ממליץ לעבוד איתו ללא ספק.", "name": "שרמן בארנס השני", "role": "מנהל מכירות ושיווק", "company": "Trio Trucking", "tag": "market-entry", "photo": "/img/testimonials/sherman-barnes-ii.jpg"},
- {"hide": True, "q": "KSW היא משאב מדהים, אבל חשוב מכך, יש מעט מאוד אנשים מוכשרים כמו טל כשזה מגיע לאסטרטגיית מכירות. הוא עזר לסטארטאפ שלי לסגור עסקה עם חברה הנסחרת בבורסה.", "name": "היו ניירנברג", "role": "שותף מייסד", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
+ {"q": "KSW היא משאב מדהים, אבל חשוב מכך, יש מעט מאוד אנשים מוכשרים כמו טל כשזה מגיע לאסטרטגיית מכירות. הוא עזר לסטארטאפ שלי לסגור עסקה עם חברה הנסחרת בבורסה.", "name": "היו ניירנברג", "role": "שותף מייסד", "company": "ePropertyCare", "tag": "fractional-cro", "photo": "/img/testimonials/huw-nierenberg.jpg"},
  {"q": "היה לי העונג לעבוד עם טל. אני יכולה להגיד שטל הוא שחקן צוות מדהים, מלא באנרגיה ורעב להשיג תוצאות. הוא תמיד שמח לעזור ולשתף מהניסיון שלו במכירות בינלאומיות ובניהול פרויקטים. הוא מעשי, אנליטי, בעל יכולת פתרון בעיות גבוהה, ופשוט אדם שכיף לעבוד לצידו!", "name": "לואיזה ארויאבה", "role": "מנהלת בכירה", "company": "Walmart Global Sourcing", "tag": "market-entry", "photo": "/img/testimonials/luisa-arroyave.jpg"},
  {"q": "לטל פאפרין יש כל מה שאתם רוצים וצריכים מחברת ייעוץ פתרונות: שנים של ניסיון ב-Pre-sales וב-Post-sales, קשרים ענפים בכל מדינות ה-BRIC, ידע מעשי איך להבליט את העסק שלכם בסוגים שונים של שווקים, והמון דרכים להגדיל את הרווחיות של החברה שלכם.", "name": "גבריאל הייפץ", "role": "מהנדס חומרה מוביל", "company": "Annapurna Labs (Amazon)", "tag": "market-entry", "photo": "/img/testimonials/gabriel-heifets.jpg"},
  {"q": "לטל יש את הידע וההבנה העמוקה הדרושים כדי לנתח ולמפות את תחרות השוק, במטרה לקדם את היתרון היחסי של כל קטגוריית מוצרים. טל הוא בדיוק האדם שאתם רוצים שיוביל את הצוות שלכם.", "name": "ברק קב", "role": "מנכ\"ל", "company": "TAG Dental", "tag": "go-to-market-strategy", "photo": "/img/testimonials/barak-kav.jpg"},
@@ -6390,7 +6389,7 @@ PRIVACY_EN = {
  "h1": "Privacy", "eyebrow": "The plain version",
  "lead": "What this site collects, why, and how to get it deleted. No legalese.",
  "sections": [
-  ("Who is responsible", ["This site is run by Tal Paperin. For anything about your data, write to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
+  ("Who is responsible", ["This site is run by Tal Paperin, who also works through KSW Solutions. For anything about your data, write to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
   ("What I collect, and when", [], [
    "When you send a message through the contact form: your name, your email address and your message.",
    "When you book a call: what you enter in the booking window, such as your name, email, phone number and your answers to the booking questions.",
@@ -6427,7 +6426,7 @@ PRIVACY_HE = {
  "h1": "פרטיות", "eyebrow": "הגרסה הפשוטה",
  "lead": "מה האתר הזה אוסף, למה, ואיך מבקשים למחוק. בלי שפה משפטית.",
  "sections": [
-  ("מי אחראי", ["האתר מופעל על ידי טל פאפרין. לכל שאלה על המידע שלכם כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
+  ("מי אחראי", ["האתר מופעל על ידי טל פאפרין, שפועל גם דרך KSW Solutions. לכל שאלה על המידע שלכם כתבו ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>."], None),
   ("מה אני אוסף, ומתי", [], [
    "כשאתם שולחים הודעה בטופס יצירת הקשר: השם, כתובת המייל וההודעה.",
    "כשאתם מתאמים שיחה: מה שאתם ממלאים בחלון התיאום, כמו שם, מייל, טלפון והתשובות לשאלות התיאום.",
@@ -6465,7 +6464,7 @@ TERMS_EN = {
  "h1": "Terms of use", "eyebrow": "The plain version",
  "lead": "The rules for using this site. Short, and written to be read.",
  "sections": [
-  ("Who runs this site", ["talpaperin.com is run by Tal Paperin. Questions about these terms go to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. By using the site you accept these terms. If you do not accept them, please do not use it."], None),
+  ("Who runs this site", ["talpaperin.com is run by Tal Paperin, who also works through KSW Solutions. Questions about these terms go to <a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. By using the site you accept these terms. If you do not accept them, please do not use it."], None),
   ("What the content is", ["The pages, guides, blog posts and tools here share how I think about sales and revenue. They are general information. They are not legal, tax, financial or investment advice, and they are not advice about your specific company. Decisions you make from them are yours."], None),
   ("The calculators", ["The sales cost calculator and the quote builder produce estimates from the numbers you enter and from published benchmarks. They are a starting point for a conversation. They are not an audit, a forecast or an offer."], None),
   ("Prices and engagements", ["The prices on this site describe how I normally work and can change. Reading the site, sending a message or booking a call does not create a client relationship. An engagement starts only when we both sign a written agreement, and that agreement, not this site, sets the scope, the fees and the terms."], None),
@@ -6484,7 +6483,7 @@ TERMS_HE = {
  "h1": "תנאי שימוש", "eyebrow": "הגרסה הפשוטה",
  "lead": "הכללים לשימוש באתר. קצר, ונכתב כדי שיקראו אותו.",
  "sections": [
-  ("מי מפעיל את האתר", ["את האתר talpaperin.com מפעיל טל פאפרין. שאלות על התנאים האלה אפשר לשלוח ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. השימוש באתר מהווה הסכמה לתנאים. אם אינכם מסכימים להם, אנא אל תשתמשו באתר."], None),
+  ("מי מפעיל את האתר", ["את האתר talpaperin.com מפעיל טל פאפרין, שעובד גם דרך KSW Solutions. שאלות על התנאים האלה אפשר לשלוח ל-<a href=\"mailto:tal@ksw.solutions\">tal@ksw.solutions</a>. השימוש באתר מהווה הסכמה לתנאים. אם אינכם מסכימים להם, אנא אל תשתמשו באתר."], None),
   ("מה התוכן", ["העמודים, המדריכים, הפוסטים והכלים כאן משתפים איך אני חושב על מכירות והכנסות. זה מידע כללי. זה לא ייעוץ משפטי, מיסויי, פיננסי או ייעוץ השקעות, וזה לא ייעוץ לחברה הספציפית שלכם. ההחלטות שתקבלו על בסיסו הן שלכם."], None),
   ("המחשבונים", ["מחשבון עלות המכירות ובונה הצעת המחיר מפיקים הערכות מהמספרים שאתם מזינים וממדדים שפורסמו. הם נקודת פתיחה לשיחה. הם לא ביקורת, לא תחזית ולא הצעה מחייבת."], None),
   ("מחירים והתקשרויות", ["המחירים באתר מתארים איך אני עובד בדרך כלל, והם יכולים להשתנות. קריאה באתר, שליחת הודעה או תיאום שיחה לא יוצרים יחסי לקוח. התקשרות מתחילה רק כששני הצדדים חותמים על הסכם כתוב, וההסכם הזה, לא האתר, קובע את ההיקף, התשלום והתנאים."], None),
