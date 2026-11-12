@@ -180,3 +180,5 @@ section.proof-band+section.accent-top{border-top:0}
 .svc .cs-logo{margin:22px 0 6px}
 .case-meta{color:var(--blue,#5ab0ff)!important;font-size:.92rem!important;font-weight:600;margin-top:10px!important}
 .case-note{color:var(--soft,#9aa7b5)!important;font-size:.92rem!important}
+.home-reads{text-align:center;margin:22px auto 0;max-width:760px;color:var(--soft,#9aa7b5);font-size:.98rem;line-height:1.7}
+.home-reads a{color:var(--blue,#5ab0ff)}

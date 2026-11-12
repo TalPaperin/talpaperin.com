@@ -31,7 +31,7 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=12" defer></script>')
+             '  <script src="/site.js?v=13" defer></script>')
 # Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
 # without waiting for a stylesheet; the two used above the fold are preloaded.
 FONT_FACES_EN = "@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/anton-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400 700;font-display:swap;src:url(/fonts/spacegrotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}"
@@ -41,7 +41,7 @@ FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
          '  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <link rel="preload" href="/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <style>' + FONT_FACES_EN + '</style>\n'
-         '  <link rel="stylesheet" href="/site.css?v=12" />')
+         '  <link rel="stylesheet" href="/site.css?v=13" />')
 
 HAMBURGER = ('<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" '
              'stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/>'
@@ -139,7 +139,7 @@ FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></span>
+      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. Tal Paperin is the practice of <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -297,6 +297,11 @@ _BIZ_DESC_HE = ("סמנכ״ל הכנסות (CRO) וסמנכ״ל מכירות ב�
                 "בונה מחדש מנועי מכירות ולוקח אחריות על מספר ההכנסות, בחמש יבשות.")
 
 
+# KSW Solutions is the legal company behind the Tal Paperin brand (Tal, 2026-11-12).
+# Use the exact registered name here once Tal confirms the suffix (Ltd. / LLC).
+LEGAL_NAME = "KSW Solutions"
+LEGAL_URL = "https://ksw.solutions"
+
 SAME_AS = ('"https://www.linkedin.com/in/talpaperin/","https://about.me/talpaperin",'
            '"https://mentorcruise.com/mentor/talpaperin/","https://clutch.co/profile/tal-paperin"')
 
@@ -340,7 +345,7 @@ def _business_node(he=False, offers=None):
         extra += (',"hasOfferCatalog":{"@type":"OfferCatalog","name":"%s",'
                   '"itemListElement":[%s]}') % (cat_name, items)
     return (
-        '{"@type":"ProfessionalService","@id":"%s","name":"%s","alternateName":"%s","url":"%s/",'
+        '{"@type":"ProfessionalService","@id":"%s","name":"%s","alternateName":"%s","legalName":"%s","url":"%s/",'
         '"logo":"%s/img/icon-512.png","image":"%s/img/site/fractional-cro-portrait.jpg",'
         '"description":"%s","priceRange":"$2,000-$22,000",'
         '"email":"mailto:tal@ksw.solutions","telephone":"+972-54-530-8119",'
@@ -351,12 +356,12 @@ def _business_node(he=False, offers=None):
         '"knowsAbout":["Fractional CRO","Fractional VP of Sales","B2B SaaS",'
         '"Outsourced sales leadership","Go-to-market strategy","Sales team building",'
         '"International market entry"],'
-        '"sameAs":[%s],'
+        '"sameAs":[%s,"%s"],'
         '"contactPoint":{"@type":"ContactPoint","telephone":"+972-54-530-8119",'
         '"email":"tal@ksw.solutions","contactType":"sales",'
         '"availableLanguage":["English","Hebrew"]}%s}'
-    ) % (BUSINESS_ID, _jsonesc(name), _jsonesc(alt), SITE, SITE, SITE, _jsonesc(desc),
-         PERSON_ID, PERSON_ID, SAME_AS, extra)
+    ) % (BUSINESS_ID, _jsonesc(name), _jsonesc(alt), _jsonesc(LEGAL_NAME), SITE, SITE, SITE, _jsonesc(desc),
+         PERSON_ID, PERSON_ID, SAME_AS, LEGAL_URL, extra)
 
 
 def _website_node(he=False):
@@ -953,7 +958,7 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
             '  <link rel="preload" href="/fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <link rel="preload" href="/fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <style>' + FONT_FACES_HE + '</style>\n'
-            '  <link rel="stylesheet" href="/site.css?v=12" />')
+            '  <link rel="stylesheet" href="/site.css?v=13" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">
@@ -1021,7 +1026,7 @@ HE_FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. &middot; <a href="/he/privacy">פרטיות</a> &middot; <a href="/he/terms">תנאי שימוש</a></span>
+      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. טל פאפרין הוא שם הפעילות של <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. &middot; <a href="/he/privacy">פרטיות</a> &middot; <a href="/he/terms">תנאי שימוש</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -5501,6 +5506,7 @@ ABOUT_EN = '''<!doctype html>
         <h2>The teams I bring</h2>
         <p>I do not come alone. I bring my own sales team, SDRs and account executives I hire, train and manage, and my own marketing team, led by a fractional CMO. Together that is an entire sales and marketing department for hire: the people and the senior leadership both, accountable for the number. A company can <a href="/services/outsourced-sales">outsource the whole revenue engine</a> instead of building it.</p>
         <p>We deliver field-ready operations, not slideware, across SaaS, IoT and hardware, medical devices, manufacturing and consumer brands.</p>
+        <p>Tal Paperin is the practice of <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the company I co-founded in 2019. Same people, same work, one business.</p>
 
         <h2>TheDealMentor.AI</h2>
         <p>Early-stage founders and lean teams rarely have access to senior sales leadership. So I built <a href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>, a virtual CRO companion that automates the playbooks and structures complex deal-handling without the overhead of an executive retainer.</p>
@@ -5597,6 +5603,7 @@ ABOUT_HE = '''<!doctype html>
 
         <h2>הצוותים שאני מביא</h2>
         <p>אני לא מגיע לבד. אני מביא צוות מכירות משלי, אנשי SDR ו-AE שאני מגייס, מכשיר ומנהל, וצוות שיווק משלי, בהובלת CMO במיקור חוץ. יחד זו מחלקת מכירות ושיווק שלמה להשכרה: גם האנשים וגם ההנהגה הבכירה, עם אחריות על המספר. חברה יכולה <a href="/he/services/outsourced-sales">להוציא את כל מנוע ההכנסות למיקור חוץ</a> במקום לבנות אותו.</p>
+        <p>טל פאפרין הוא שם הפעילות של <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שהקמתי ב-2019. אותם אנשים, אותה עבודה, עסק אחד.</p>
         <p>אנחנו מספקים מערכים מוכנים לשטח, לא מצגות, ב-SaaS, IoT וחומרה, מכשור רפואי, תעשייה ומותגי צריכה.</p>
 
         <h2>TheDealMentor.AI</h2>
@@ -6559,8 +6566,8 @@ def optimize_html_dirs(dirs):
                     f.write(new)
 
 
-# Author bio, shown above the footer on content pages (not on home, about,
-# contact, privacy, terms). Text links only: the ask level stays "Let's Talk"
+# Author bio, shown above the footer on every page except privacy, terms, 404
+# and the calculator (the two homepages carry a hand-synced copy). Text links only: the ask level stays "Let's Talk"
 # to the contact page, no extra booking button (see CLAUDE.md).
 BIO_EN = ('  <aside class="author-bio" aria-label="About the author"><div class="author-bio-in">'
           '<img src="/img/site/fractional-cro-portrait.jpg" alt="Tal Paperin, fractional CRO" loading="lazy" />'
@@ -6734,15 +6741,15 @@ def build():
             body=render_privacy_body(TERMS_HE),
             **{k: TERMS_HE[k] for k in ("title", "desc", "h1", "eyebrow", "lead")}))
     with open(os.path.join(ROOT, "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER, graph=graph_ld(False) + hub_crumb("Contact", "/contact"), contactjs=CONTACT_JS_EN, proof=render_proof(1)))
+        f.write(CONTACT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO, graph=graph_ld(False) + hub_crumb("Contact", "/contact"), contactjs=CONTACT_JS_EN, proof=render_proof(1)))
     with open(os.path.join(ROOT, "he", "contact.html"), "w", encoding="utf-8") as f:
-        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER, graph=graph_ld(True) + hub_crumb("צור קשר", "/he/contact", True), contactjs=CONTACT_JS_HE, proof=render_proof(1, True)))
+        f.write(CONTACT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO, graph=graph_ld(True) + hub_crumb("צור קשר", "/he/contact", True), contactjs=CONTACT_JS_HE, proof=render_proof(1, True)))
 
     with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
-        f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER,
+        f.write(ABOUT_EN.format(fonts=FONTS, analytics=ANALYTICS, nav=NAV, footer=FOOTER_BIO,
                                 graph=graph_ld(False) + hub_crumb("About", "/about"), cta=CTA_BOX, career=IG_CAREER_EN))
     with open(os.path.join(ROOT, "he", "about.html"), "w", encoding="utf-8") as f:
-        f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER,
+        f.write(ABOUT_HE.format(fonts=HE_FONTS, analytics=ANALYTICS, nav=HE_NAV, footer=HE_FOOTER_BIO,
                                 graph=graph_ld(True) + hub_crumb("אודות", "/he/about", True), cta=HE_CTA, career=IG_CAREER_HE))
 
     with open(os.path.join(ROOT, "pricing.html"), "w", encoding="utf-8") as f:

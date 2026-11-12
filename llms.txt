@@ -5,6 +5,9 @@
 ## Canonical site
 - https://talpaperin.com/
 
+## Legal entity
+- KSW Solutions (https://ksw.solutions) is the legal entity behind talpaperin.com. Tal Paperin and KSW Solutions are the same fractional CRO practice, led by Tal Paperin.
+
 ## Key pages
 - [Tal Paperin, Fractional CRO (home)](https://talpaperin.com/): what I fix, how I work, case studies, pricing and contact.
 - [About Tal Paperin](https://talpaperin.com/about): background, experience, the teams he brings, credentials and how he works.
