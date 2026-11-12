@@ -681,3 +681,16 @@ campaign changes, rewrite its offer field to match, on every project.
   Send it from Explee like you always have." If the session's safety check refuses an Explee reply,
   retry it, and if it still refuses, tell Tal in one line that it is waiting on his "send". Never
   switch to a Gmail draft or ask him to send it by hand.
+
+## NEVER say "not an agency" or "one person" (Tal, 2026-11-12)
+Tal, after a reply told a prospect "Tal is one senior person, not an agency": "Again you said not an
+agency! Yes, I am MORE than that - BUT I also have two teams of people for hire! We do pitch my sales
+and marketing people!"
+- BANNED in every opener, reply, rebuttal, follow-up and brief: "not an agency", "one person", "one
+  senior person", "just a person", "a person, not an agency", "solo".
+- THE POSITIONING: Tal is a fractional CRO who owns the number, AND he has two teams clients can hire:
+  his sales people (SDRs and reps) and his marketing people. Both are part of what is sold. Pitch them.
+- The phrase sat at the top of the OFFER field of all eight Talpaperin campaigns ("a fractional CRO, a
+  person, not an agency"), which Explee uses to write its own share of emails and the follow-ups. It
+  was replaced on all eight on 2026-11-12. Any new campaign must be created without it.
+- One reply had already gone out with the phrase (new US audience, a CEO who asked for a deck).
