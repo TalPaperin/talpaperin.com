@@ -139,7 +139,7 @@ FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. Tal Paperin is the practice of <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></span>
+      <span class="foot-legal">&copy; 2017-2026 Tal Paperin. All rights reserved. Tal Paperin operates through his company, <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="Email Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="Call Tal Paperin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="Tal Paperin on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -298,7 +298,7 @@ _BIZ_DESC_HE = ("סמנכ״ל הכנסות (CRO) וסמנכ״ל מכירות ב�
 
 
 # KSW Solutions is the legal company behind the Tal Paperin brand (Tal, 2026-11-12).
-# Use the exact registered name here once Tal confirms the suffix (Ltd. / LLC).
+# Tal: "KSW Solutions is the legal name of my company in Israel."
 LEGAL_NAME = "KSW Solutions"
 LEGAL_URL = "https://ksw.solutions"
 
@@ -1026,7 +1026,7 @@ HE_FOOTER = '''  <footer>
       </div>
     </div>
     <div class="wrap inner">
-      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. טל פאפרין הוא שם הפעילות של <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. &middot; <a href="/he/privacy">פרטיות</a> &middot; <a href="/he/terms">תנאי שימוש</a></span>
+      <span class="foot-legal">&copy; 2017-2026 טל פאפרין. כל הזכויות שמורות. טל פאפרין פועל באמצעות החברה שלו, <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>. &middot; <a href="/he/privacy">פרטיות</a> &middot; <a href="/he/terms">תנאי שימוש</a></span>
       <span class="foot-contact"><a href="mailto:tal@ksw.solutions" aria-label="אימייל"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a><a href="tel:+972545308119" aria-label="טלפון"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a><a href="https://www.linkedin.com/in/talpaperin/" target="_blank" rel="noopener" aria-label="לינקדאין"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 18.34V10.5H5.67v7.84h2.67zM7 9.34a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1zM18.34 18.34v-4.3c0-2.3-1.23-3.37-2.87-3.37a2.48 2.48 0 0 0-2.24 1.23v-1.06h-2.67v7.5h2.67v-4.15c0-1.1.2-2.16 1.56-2.16 1.34 0 1.36 1.25 1.36 2.23v4.08h2.9z"/></svg></a></span>
     </div>
   </footer>
@@ -5506,7 +5506,7 @@ ABOUT_EN = '''<!doctype html>
         <h2>The teams I bring</h2>
         <p>I do not come alone. I bring my own sales team, SDRs and account executives I hire, train and manage, and my own marketing team, led by a fractional CMO. Together that is an entire sales and marketing department for hire: the people and the senior leadership both, accountable for the number. A company can <a href="/services/outsourced-sales">outsource the whole revenue engine</a> instead of building it.</p>
         <p>We deliver field-ready operations, not slideware, across SaaS, IoT and hardware, medical devices, manufacturing and consumer brands.</p>
-        <p>Tal Paperin is the practice of <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the company I co-founded in 2019. Same people, same work, one business.</p>
+        <p>I work through <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the company I co-founded in 2019. It is the legal entity behind this site: same people, same work, one business.</p>
 
         <h2>TheDealMentor.AI</h2>
         <p>Early-stage founders and lean teams rarely have access to senior sales leadership. So I built <a href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>, a virtual CRO companion that automates the playbooks and structures complex deal-handling without the overhead of an executive retainer.</p>
@@ -5603,7 +5603,7 @@ ABOUT_HE = '''<!doctype html>
 
         <h2>הצוותים שאני מביא</h2>
         <p>אני לא מגיע לבד. אני מביא צוות מכירות משלי, אנשי SDR ו-AE שאני מגייס, מכשיר ומנהל, וצוות שיווק משלי, בהובלת CMO במיקור חוץ. יחד זו מחלקת מכירות ושיווק שלמה להשכרה: גם האנשים וגם ההנהגה הבכירה, עם אחריות על המספר. חברה יכולה <a href="/he/services/outsourced-sales">להוציא את כל מנוע ההכנסות למיקור חוץ</a> במקום לבנות אותו.</p>
-        <p>טל פאפרין הוא שם הפעילות של <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שהקמתי ב-2019. אותם אנשים, אותה עבודה, עסק אחד.</p>
+        <p>אני פועל באמצעות <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שהקמתי ב-2019. היא הישות המשפטית שמאחורי האתר הזה: אותם אנשים, אותה עבודה, עסק אחד.</p>
         <p>אנחנו מספקים מערכים מוכנים לשטח, לא מצגות, ב-SaaS, IoT וחומרה, מכשור רפואי, תעשייה ומותגי צריכה.</p>
 
         <h2>TheDealMentor.AI</h2>
