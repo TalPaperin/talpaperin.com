@@ -59,10 +59,9 @@ RFC822_DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 RFC822_MONS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug",
                "Sep", "Oct", "Nov", "Dec"]
 
-ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
-             '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>\n'
+ANALYTICS = ('<!-- Google tag (gtag.js): the library is loaded after the page, or on first interaction, so it never blocks rendering -->\n'
              '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
-             "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
+             "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');(function(){var d=0;function l(){if(d)return;d=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11';document.head.appendChild(s);}if(document.readyState==='complete')setTimeout(l,1);else addEventListener('load',function(){setTimeout(l,1);});['pointerdown','keydown','touchstart','scroll'].forEach(function(e){addEventListener(e,l,{once:true,passive:true});});})();</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
              '  <script src="/site.js?v=14" defer></script>')

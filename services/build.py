@@ -25,10 +25,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SVC_DIR = os.path.join(ROOT, "services")
 SITE = "https://talpaperin.com"
 
-ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
-             '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11"></script>\n'
+ANALYTICS = ('<!-- Google tag (gtag.js): the library is loaded after the page, or on first interaction, so it never blocks rendering -->\n'
              '  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
-             "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
+             "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');(function(){var d=0;function l(){if(d)return;d=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-GG3XFQTX11';document.head.appendChild(s);}if(document.readyState==='complete')setTimeout(l,1);else addEventListener('load',function(){setTimeout(l,1);});['pointerdown','keydown','touchstart','scroll'].forEach(function(e){addEventListener(e,l,{once:true,passive:true});});})();</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
              '  <script src="/site.js?v=14" defer></script>')
@@ -1547,6 +1546,7 @@ CONTACT_EN = '''<!doctype html>
   <meta name="description" content="Tell me where revenue is stuck. Send a message, WhatsApp me or book 15 minutes. I reply personally within one business day." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/contact" />
+  <link rel="preload" as="image" href="/img/site/contact-left.webp" media="(min-width:901px)" fetchpriority="high" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/contact" />
   <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/contact" />
   <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/contact" />
@@ -1575,7 +1575,7 @@ CONTACT_EN = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="contact-flank">
-        <img class="contact-side" src="/img/site/contact-left.jpg" alt="Tal Paperin" loading="lazy" />
+        <img class="contact-side" src="/img/site/contact-left.jpg" alt="Tal Paperin" decoding="async" />
       <div class="svc">
         <div class="glowline"></div>
         <div class="eyebrow">Contact</div>
@@ -1648,6 +1648,7 @@ CONTACT_HE = '''<!doctype html>
   <meta name="description" content="תיאום שיחה של 15 דקות, שליחת הודעה, או יצירת קשר ישיר עם טל פאפרין במייל, טלפון או וואטסאפ. ספרו לי איפה המכירות נתקעו." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://talpaperin.com/he/contact" />
+  <link rel="preload" as="image" href="/img/site/contact-left.webp" media="(min-width:901px)" fetchpriority="high" />
   <link rel="alternate" hreflang="en" href="https://talpaperin.com/contact" />
   <link rel="alternate" hreflang="he" href="https://talpaperin.com/he/contact" />
   <link rel="alternate" hreflang="x-default" href="https://talpaperin.com/contact" />
@@ -1673,7 +1674,7 @@ CONTACT_HE = '''<!doctype html>
   <main class="page" id="main">
     <div class="wrap">
       <div class="contact-flank">
-        <img class="contact-side" src="/img/site/contact-left.jpg" alt="טל פאפרין" loading="lazy" />
+        <img class="contact-side" src="/img/site/contact-left.jpg" alt="טל פאפרין" decoding="async" />
       <div class="svc">
         <div class="glowline"></div>
         <div class="eyebrow">צור קשר</div>

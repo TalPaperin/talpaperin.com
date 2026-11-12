@@ -104,6 +104,13 @@ The site's main job is to turn ONE visitor into a conversation: a founder or CEO
 - Tal said to ignore the other three asks from that review (a published SaaS result, putting Palram or the distributor card back on the homepage, a US phone number). Do not raise them again unless he does.
 - Measured 2026-11-12 on a throttled phone profile: homepage LCP about 3.1s (the hero image), contact 1.5s, no layout shift. The largest file on every page is Google's own analytics script.
 
+## Site audit fixes (Tal, 2026-11-13)
+Tal pasted a six-area audit (overall 86 of 100, no blocking issues). Acted on:
+- Homepage testimonials are STATIC HTML inside `#quotetrack` on `index.html` and `he/index.html` (36 quotes each), so crawlers that do not run JavaScript can read them. The script only clones them for the loop and adds "Show more". To add, remove or edit a quote, edit the HTML, there is no JS array any more. The logo strip is still built by JS.
+- The Google tag library loads after the page `load` event or on the first interaction, through the small loader inside the `ANALYTICS` snippet (three places). The consent defaults and `gtag('config')` still run inline first. Do not put the `async` script tag back in the head.
+- The contact photo is no longer lazy-loaded and is preloaded on desktop only (`media="(min-width:901px)"`), because it is the largest element there.
+Not acted on: outcome numbers on case studies (NDA, Tal said to drop it), a US contact number (dropped), thin industry pages, Article dates and Offer schema, and the 13 smaller items the audit counted but did not list.
+
 ## Blog build extras (added 2026-11-11)
 - Length: new posts are 900 words or more (Tal: "significantly longer"). Nothing under 700.
 - `noindex: true` in front matter keeps a post readable and linked but out of search, the sitemap and llms.txt. It is on the posts under 200 words. Remove it only after the post is expanded.
