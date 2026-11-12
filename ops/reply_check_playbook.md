@@ -116,3 +116,6 @@ For each thread, get_thread and judge the LAST message:
   Calendly link), add the marketing/lead-gen line where it fits; a decline -> drop it, append the email to
   ops/booked_leads.txt with "DECLINED <date>" so every routine skips it, do not chase.
 This closes the gap where Gmail-channel re-engagement replies were invisible to the Explee-only checks.
+
+## Positioning check before every send (added 2026-11-12)
+Before writing any reply, rebuttal or nudge, reread ops/positioning.md (the Language rules at the end) and the two newest blocks in ops/explee_rules.md: one link only (the site home), and never "not an agency" or "one person". Tal sells his sales people and his marketing people as well as himself.

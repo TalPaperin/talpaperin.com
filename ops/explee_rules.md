@@ -694,3 +694,6 @@ and marketing people!"
   person, not an agency"), which Explee uses to write its own share of emails and the follow-ups. It
   was replaced on all eight on 2026-11-12. Any new campaign must be created without it.
 - One reply had already gone out with the phrase (new US audience, a CEO who asked for a deck).
+- READ ops/positioning.md BEFORE WRITING ANY REPLY. It is the locked positioning and already banned
+  this wording; the miss happened because it was not reread. Approved phrase: "brings his own sales
+  and marketing team when needed".

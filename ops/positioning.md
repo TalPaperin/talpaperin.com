@@ -132,6 +132,7 @@ decision is often what NOT to do.
 - OK: "fractional CRO", "senior sales leader", "owns the revenue number", "builds,
   trains and manages the team", "brings his own sales and marketing team when needed",
   "diagnoses where revenue is stuck, then makes the team deliver".
-- AVOID: "marketing agency", unqualified/generic "agency", "does the selling himself",
-  "solo consultant", "just a person". If a collective noun is needed, say "his firm
+- AVOID: "marketing agency", unqualified/generic "agency", "not an agency" (Tal, 2026-11-12: he is
+  more than that AND sells his two teams, sales people and marketing people), "one person",
+  "one senior person", "does the selling himself", "solo consultant", "just a person". If a collective noun is needed, say "his firm
   KSW" or "a revenue team he leads", never "agency".
