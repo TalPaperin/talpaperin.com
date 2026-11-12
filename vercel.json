@@ -314,6 +314,7 @@
     }
   ],
   "rewrites": [
+    { "source": "/google708bc123c251c1a6.html", "destination": "/api/gsc-verify" },
     {
       "source": "/wp-admin/:path*",
       "destination": "/api/gone"
