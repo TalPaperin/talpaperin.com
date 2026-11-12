@@ -1,7 +1,7 @@
 // Google Search Console ownership check (HTML file method).
-// vercel.json rewrites /google708bc123c251c1a6.html to this function, so the exact URL Google
-// asks for answers 200. A static file would be redirected to the extensionless path because
-// cleanUrls is on, and Google's check does not reliably follow that redirect.
+// cleanUrls is on, so Vercel answers /google708bc123c251c1a6.html with a 308 to the same path
+// without .html, on the same domain. vercel.json rewrites that path (and the .html one) to this
+// function, which returns the exact text Google expects.
 // Do not remove: Search Console re-checks this URL from time to time.
 
 export default function handler(req, res) {
