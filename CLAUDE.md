@@ -100,7 +100,8 @@ The site's main job is to turn ONE visitor into a conversation: a founder or CEO
 - The Hebrew homepage was deliberately NOT refocused: its visitor is an Israeli company going abroad, so market entry and distributors stay prominent there.
 - Phone hero: the photo is 30vh (was 42vh) so "Book a Call" is visible without scrolling on a 390x844 screen. Do not make the photo taller again without checking the button still shows. The hero image `sizes` starts with `(max-width:680px) 70vw` so phones load the 960 file.
 - SaaS result: there is still NO published SaaS outcome. The slot exists: `"outcome"` on `CASE_PAGES_EN["kanduai"]` (empty) and the `<!-- result-slot -->` marker in the KanduAI card on `index.html`. Fill both only with a sentence Tal supplies and the client approved. Never invent one.
-- Contact page: three fields only (name, work email, "Where is revenue stuck?"), the reply promise is "within one business day" (already Tal's), the lead says what the visitor gets, WhatsApp is the second channel and is offered again under the form, and on phones the photo sits BELOW the form. Still no strip above the channel list.
+- Contact page: three fields only (name, work email, "Where is revenue stuck?"), the reply promise is "within one business day" (Tal confirmed it on 2026-11-12), the lead says what the visitor gets, WhatsApp is the second channel and is offered again under the form, and on phones the photo sits BELOW the form. Still no strip above the channel list.
+- Tal said to ignore the other three asks from that review (a published SaaS result, putting Palram or the distributor card back on the homepage, a US phone number). Do not raise them again unless he does.
 - Measured 2026-11-12 on a throttled phone profile: homepage LCP about 3.1s (the hero image), contact 1.5s, no layout shift. The largest file on every page is Google's own analytics script.
 
 ## Blog build extras (added 2026-11-11)
