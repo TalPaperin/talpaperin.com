@@ -717,3 +717,23 @@ longer exists in Explee (the API answers "Project not found"). Therefore:
   firms still stands.
 - Adam's only list now is Talpaperin people who asked for a meeting and never booked (no cold calling).
 - HireMatch ends 2026-11-22. Stop its handoff and its scan after that date, once Tal confirms.
+
+## Adam's call list: built from Tal's CRM export, with a pitch note per person (Tal, 2026-11-12)
+Tal uploaded his CRM export (deals + contacts) and asked "where are the leads from my CRM? Imperial
+Paper should be first. Who else did you miss?" The first two lists missed most of them because people
+with a call once on the calendar were parked as "check with Tal first". RULES for this list:
+- SOURCE: Tal's CRM export is the main source, plus Explee replies. Read every contact note, not just
+  the status field (nearly all are "new").
+- WHO GOES ON: anyone who said yes to a call or asked for one and never had it; anyone who booked and
+  missed or cancelled; anyone who had a call on the calendar and then went quiet; and deals that met Tal
+  and stalled. Imperial Paper is first.
+- WHO STAYS OFF: clients and past clients, anyone on the skip list, commission / performance / equity
+  only, "send me the three ideas first", people selling to us, competitors, and deals Tal marked dead.
+- PHONES: the CRM notes hold the original replies with full signatures, and Calendly booking emails in
+  Gmail hold the phone the invitee typed. Check both before saying there is no number. Company
+  websites give a main line as a fallback, labelled as a company line.
+- EVERY ROW gets a note for Adam: who the person is, what they wrote, what happened, how to open, and
+  why they need the meeting with Tal. Facts only from the CRM, their own words and their own website.
+- NO PRICING in the notes or on the calls (Tal: "DO NOT talk about pricing etc - JUST a meeting").
+  Adam's only goal is the 15 minutes. If asked, Tal covers it on the call.
+- Never tell Adam to mention a no-show. The line is "the call never happened, that is on us".
