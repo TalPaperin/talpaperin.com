@@ -65,7 +65,7 @@ ANALYTICS = ('<!-- Google tag (gtag.js) -->\n'
              "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],wait_for_update:500});try{var tpc=localStorage.getItem('tp_consent');if(tpc)gtag('consent','update',{analytics_storage:tpc==='yes'?'granted':'denied'});}catch(e){}gtag('js',new Date());gtag('config','G-GG3XFQTX11');</script>\n"
              '  <script src="https://analytics.ahrefs.com/analytics.js" '
              'data-key="yw4L2JvlOTPBX9ieFq8jZg" async></script>\n'
-             '  <script src="/site.js?v=13" defer></script>')
+             '  <script src="/site.js?v=14" defer></script>')
 
 # Fonts are served from /fonts (no request to Google). Faces are inlined so text paints
 # without waiting for a stylesheet; the two used above the fold are preloaded.
@@ -76,7 +76,7 @@ FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
          '  <link rel="preload" href="/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <link rel="preload" href="/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin />\n'
          '  <style>' + FONT_FACES_EN + '</style>\n'
-         '  <link rel="stylesheet" href="/site.css?v=13" />')
+         '  <link rel="stylesheet" href="/site.css?v=14" />')
 
 FLAG_SVG = ('<svg width="31" height="21" viewBox="0 0 22 15" aria-hidden="true">'
             '<rect width="22" height="15" fill="#fff"/>'
@@ -230,7 +230,7 @@ HE_FONTS = ('<link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
             '  <link rel="preload" href="/fonts/heebo-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <link rel="preload" href="/fonts/rubik-hebrew.woff2" as="font" type="font/woff2" crossorigin />\n'
             '  <style>' + FONT_FACES_HE + '</style>\n'
-            '  <link rel="stylesheet" href="/site.css?v=13" />')
+            '  <link rel="stylesheet" href="/site.css?v=14" />')
 
 HE_NAV = '''  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="site">

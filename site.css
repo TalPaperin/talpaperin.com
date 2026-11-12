@@ -182,3 +182,9 @@ section.proof-band+section.accent-top{border-top:0}
 .case-note{color:var(--soft,#9aa7b5)!important;font-size:.92rem!important}
 .home-reads{text-align:center;margin:22px auto 0;max-width:760px;color:var(--soft,#9aa7b5);font-size:.98rem;line-height:1.7}
 .home-reads a{color:var(--blue,#5ab0ff)}
+.cf-alt{margin:16px 0 0;color:var(--soft,#9aa7b5);font-size:.92rem;line-height:1.6}
+.cf-alt a{color:var(--blue,#5ab0ff);font-weight:600}
+.cf-form textarea::placeholder{color:#6f7d8c}
+@media(max-width:900px){.wrap .contact-flank{display:flex;flex-direction:column}.wrap .contact-flank .contact-side{order:2;margin:26px 0 0}}
+.case .case-more{margin-top:12px!important}
+@media(max-width:900px){.contact-cols{margin-top:26px}.contact-card{padding:24px 20px}}
