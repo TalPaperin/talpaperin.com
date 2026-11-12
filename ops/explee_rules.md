@@ -738,3 +738,20 @@ with a call once on the calendar were parked as "check with Tal first". RULES fo
   Adam's only goal is the 15 minutes. If asked, Tal covers it on the call.
 - Never tell Adam to mention a no-show. The line is "the call never happened, that is on us".
 - ONE FILE ONLY (Tal, 2026-11-12): when Tal asks for a file, send exactly one file, the spreadsheet (.xlsx). Never send a CSV copy alongside it. He complained twice about getting two.
+
+## Lead lists waiting for approval on running campaigns (Tal, 2026-11-12)
+Tal: "In the mail box some explee leads list awaiting approval. Do what needed."
+- When a running campaign uses up its pool, Explee searches again and parks the new list in `review`
+  (status_reason `re_search_from_outreach`), with a "N leads ready, review in 12 hours" email. It starts
+  on its own after 12 hours, but approve it right away so sending does not stall:
+  POST /autogtm/campaigns/{cid}/approve. Check every project for `review` on each reply-check run
+  (GET /autogtm/projects/{pid}/analytics lists status per campaign) and approve lists on the RUNNING
+  Talpaperin and HireMatch audiences without asking. Do not approve a list on a paused or parked campaign.
+- The API cannot list the leads that are waiting, only the five in the email. Read those five against
+  the target role and tell Tal if they are off.
+- 2026-11-12: approved 252222 Funded small B2B SaaS (564 in the email, 499 pending) and 347642 Scaling
+  B2B (57, 53 pending). On 347642 two of the five previewed leads were off the role (a CTO and a Head of
+  Partnerships). 347642 only found 57 new leads and 252219 shows `lead_pool_exhausted`: the three older
+  audiences are close to used up, so new volume has to come from 411023 or a new audience.
+- The per-campaign `daily_budget_usd` that the API shows on project 49501 (for example 1.0) is not a real
+  cap while autopilot is on: 411023 sent 500 emails on a day it showed 1.0. The project budget governs.
