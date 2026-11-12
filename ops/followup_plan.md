@@ -48,3 +48,17 @@ price unless asked; DealMentor is never pushed.
 3. THEN send new leads from the re-engagement CSV, up to a combined daily cap of ~15-20 sends to
    protect ksw.solutions deliverability. Overdue follow-ups take priority over new names.
 4. Addresses stored "(verify)" (Tier1 shorthand) must be confirmed from Gmail Sent before re-sending.
+
+## Hold for Adam's call list (added 2026-11-12)
+On 2026-11-12 Tal handed his warm leads to Adam, his SDR, to call and book meetings, starting Sunday
+2026-11-15. Many of them are also in the lead tracker with email follow-ups scheduled from 2026-11-13.
+An email from Tal such as "should I close your file?" landing in the same week as Adam's call would
+undercut the call. So:
+- Tracker rows on Adam's list carry `owner: "ADAM"` (set in the private tracker, never in this repo).
+- Before sending any follow-up, read the row. If `owner` is "ADAM", send NOTHING and leave the row
+  as it is.
+- The hold ends for a person when Adam reports the call result, or for everyone when Tal says so.
+  Then clear `owner` on the row and move `next_touch_due` forward from that day.
+- Rows without `owner: "ADAM"` follow the normal plan.
+- Never write the call list or its email addresses into this repository. It is public, and the list
+  comes from Tal's private CRM export.
