@@ -697,3 +697,13 @@ and marketing people!"
 - READ ops/positioning.md BEFORE WRITING ANY REPLY. It is the locked positioning and already banned
   this wording; the miss happened because it was not reread. Approved phrase: "brings his own sales
   and marketing team when needed".
+
+## Every Talpaperin reply carries the website (Tal, 2026-11-12)
+Tal, after a reply to a founder who looped in his CEO offered only the Calendly link: "And why not
+sending the website, with recommendations and case studies?!?!"
+- EVERY reply to a Talpaperin prospect who shows interest, asks a question or refers a colleague
+  includes the one site link, https://talpaperin.com, with a line saying what is there: his client
+  recommendations and case studies. This sits alongside the Calendly link when a call is offered.
+- Still ONE site link: the home page only, never a list of pages.
+- ops/check_reply.py enforces it: a Talpaperin reply without the site link and the words
+  "recommendations" and "case studies" is blocked. Use `--other` for DealMentor and HireMatch replies.

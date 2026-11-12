@@ -127,5 +127,7 @@ not enough, so every reply now passes a mechanical gate:
 3. Exit code 1 = rewrite and run again. NEVER send a reply that has not printed "clean".
 4. When Tal corrects a reply, add the wording to BANNED in ops/check_reply.py in the same commit as
    the rule, so the same mistake cannot be sent twice.
+Every Talpaperin reply must carry https://talpaperin.com and say it holds his client recommendations and
+case studies (the gate blocks a reply without them; pass `--other` for DealMentor and HireMatch).
 Still reread ops/positioning.md (Language rules) before writing: the gate catches wording, not judgment.
 Tal sells his sales people and his marketing people as well as himself.
