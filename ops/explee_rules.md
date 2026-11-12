@@ -737,3 +737,4 @@ with a call once on the calendar were parked as "check with Tal first". RULES fo
 - NO PRICING in the notes or on the calls (Tal: "DO NOT talk about pricing etc - JUST a meeting").
   Adam's only goal is the 15 minutes. If asked, Tal covers it on the call.
 - Never tell Adam to mention a no-show. The line is "the call never happened, that is on us".
+- ONE FILE ONLY (Tal, 2026-11-12): when Tal asks for a file, send exactly one file, the spreadsheet (.xlsx). Never send a CSV copy alongside it. He complained twice about getting two.
