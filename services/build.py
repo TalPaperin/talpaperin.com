@@ -234,7 +234,7 @@ IG_CAREER_EN = '''<div class="ig-career">
 <div class="it"><div class="yr">2005</div><div class="lbl">Managing global teams</div></div>
 <div class="it"><div class="yr">2010</div><div class="lbl">Building international distribution</div></div>
 <div class="it"><div class="yr">2015</div><div class="lbl">SaaS, manufacturing and IoT</div></div>
-<div class="it"><div class="yr">2019</div><div class="lbl">Founded KSW Solutions</div></div>
+<div class="it"><div class="yr">2017</div><div class="lbl">Founded KSW Solutions</div></div>
 <div class="it"><div class="yr">2023+</div><div class="lbl">Fractional CRO and revenue leadership</div></div>
 </div>'''
 IG_CAREER_HE = '''<div class="ig-career">
@@ -242,7 +242,7 @@ IG_CAREER_HE = '''<div class="ig-career">
 <div class="it"><div class="yr">2005</div><div class="lbl">ניהול צוותים גלובליים</div></div>
 <div class="it"><div class="yr">2010</div><div class="lbl">בניית הפצה בינלאומית</div></div>
 <div class="it"><div class="yr">2015</div><div class="lbl">SaaS, ייצור ו-IoT</div></div>
-<div class="it"><div class="yr">2019</div><div class="lbl">הקמת KSW Solutions</div></div>
+<div class="it"><div class="yr">2017</div><div class="lbl">הקמת KSW Solutions</div></div>
 <div class="it"><div class="yr">2023+</div><div class="lbl">סמנכ״ל הכנסות והובלת הכנסות</div></div>
 </div>'''
 
@@ -5506,7 +5506,7 @@ ABOUT_EN = '''<!doctype html>
         <h2>The teams I bring</h2>
         <p>I do not come alone. I bring my own sales team, SDRs and account executives I hire, train and manage, and my own marketing team, led by a fractional CMO. Together that is an entire sales and marketing department for hire: the people and the senior leadership both, accountable for the number. A company can <a href="/services/outsourced-sales">outsource the whole revenue engine</a> instead of building it.</p>
         <p>We deliver field-ready operations, not slideware, across SaaS, IoT and hardware, medical devices, manufacturing and consumer brands.</p>
-        <p>I work through <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the company I founded in 2019. It is the legal entity behind this site: same people, same work, one business.</p>
+        <p>I work through <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, the company I founded in 2017. It is the legal entity behind this site: same people, same work, one business.</p>
 
         <h2>TheDealMentor.AI</h2>
         <p>Early-stage founders and lean teams rarely have access to senior sales leadership. So I built <a href="https://thedealmentor.ai" target="_blank" rel="noopener">TheDealMentor.AI</a>, a virtual CRO companion that automates the playbooks and structures complex deal-handling without the overhead of an executive retainer.</p>
@@ -5603,7 +5603,7 @@ ABOUT_HE = '''<!doctype html>
 
         <h2>הצוותים שאני מביא</h2>
         <p>אני לא מגיע לבד. אני מביא צוות מכירות משלי, אנשי SDR ו-AE שאני מגייס, מכשיר ומנהל, וצוות שיווק משלי, בהובלת CMO במיקור חוץ. יחד זו מחלקת מכירות ושיווק שלמה להשכרה: גם האנשים וגם ההנהגה הבכירה, עם אחריות על המספר. חברה יכולה <a href="/he/services/outsourced-sales">להוציא את כל מנוע ההכנסות למיקור חוץ</a> במקום לבנות אותו.</p>
-        <p>אני פועל באמצעות <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שהקמתי ב-2019. היא הישות המשפטית שמאחורי האתר הזה: אותם אנשים, אותה עבודה, עסק אחד.</p>
+        <p>אני פועל באמצעות <a href="https://ksw.solutions" target="_blank" rel="noopener">KSW Solutions</a>, החברה שהקמתי ב-2017. היא הישות המשפטית שמאחורי האתר הזה: אותם אנשים, אותה עבודה, עסק אחד.</p>
         <p>אנחנו מספקים מערכים מוכנים לשטח, לא מצגות, ב-SaaS, IoT וחומרה, מכשור רפואי, תעשייה ומותגי צריכה.</p>
 
         <h2>TheDealMentor.AI</h2>
