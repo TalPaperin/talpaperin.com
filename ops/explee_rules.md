@@ -667,3 +667,17 @@ out saying "Our CRM has an AI CRO", offered "a few short ideas" and was signed w
 The offer was rewritten the same evening: 20 tools in one platform, never called a CRM, no "ideas"
 offer, "<first name> from DealMentor", first name only in the sign-off. RULE: whenever the My-copy of a
 campaign changes, rewrite its offer field to match, on every project.
+
+## Replies: ONE link only, and keep trying until sent (Tal, 2026-11-12)
+- ONE LINK, ALWAYS. A reply that needs a link carries exactly one: https://talpaperin.com (the site
+  home). Never a list of page links (services, pricing, case studies, recommendations). Tal, after a
+  four-link draft to a prospect who asked for a deck: "why on earth would you send a bunch of links
+  instead of just one to the site?! Always?!" Describe in words what the site holds and give the one
+  link. Exceptions only where Tal names the page himself (he sent one equity-only lead to the pricing
+  page), and the Calendly link when the prospect is booking.
+- There is no deck. A prospect who asks for a deck or "more info" gets the one site link and a short
+  description of what is on it.
+- KEEP TRYING UNTIL IT IS SENT. Tal: "Always keep trying until it's sent." and "No manual anything.
+  Send it from Explee like you always have." If the session's safety check refuses an Explee reply,
+  retry it, and if it still refuses, tell Tal in one line that it is waiting on his "send". Never
+  switch to a Gmail draft or ask him to send it by hand.
